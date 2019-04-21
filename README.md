@@ -117,6 +117,7 @@
 
 ## Yapılacaklar
 
+- [ ] Her yazının altına lisans menti eklenecek (?)
 - [ ] Sadece **github**'da bulunacak
 - [ ] Linkler dinamikleştirilecek
   - [ ] Harici bağlantılar yapısı: `[link_name]` [link_name]:link`

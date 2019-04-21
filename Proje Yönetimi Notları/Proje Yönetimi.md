@@ -116,4 +116,3 @@ Eklentileri ile meşhur olan `VsCode` yazılımı tavsiye edilir.
 | [Nodejs](https://nodejs.org/en/download/)                                | Javascript kodlarını makine koduna çevir. Js'i sunucuda kullanma |
 | [MySQL](https://www.mysql.com/downloads/)                                | Veri tabanı yönetimi                                             |
 | [Composer](https://getcomposer.org/download/)                            | Php paket yönetimi (NPM)                                         | Nodejs) gibi |
-

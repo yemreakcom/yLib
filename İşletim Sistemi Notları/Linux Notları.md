@@ -524,8 +524,8 @@ rm xampp-linux-x64-7.3.4-0-installer.run
 # Xammp komutlarını tanımlama
 echo >> ~/.bashrc
 echo "# Xampp Komutları" >> ~/.bashrc
-echo alias xampp='/opt/lampp/xampp' >> ~/.bashrc
-echo alias mysql='/opt/lampp/bin/mysql' >> ~/.bashrc
+echo alias xampp='sudo /opt/lampp/xampp' >> ~/.bashrc
+echo alias mysql='sudo /opt/lampp/bin/mysql' >> ~/.bashrc
 echo "Tanımlanan komutlar: xampp, mysql"
 ```
 

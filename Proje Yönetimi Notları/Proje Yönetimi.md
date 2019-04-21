@@ -99,11 +99,12 @@ Eklentileri ile meşhur olan `VsCode` yazılımı tavsiye edilir.
 
 ### Yönetim Uygulamaları & Siteleri
 
-| Uygulama İsmi                                                | Açıklama                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [Github](https://github.com/) & [Gitlab](https://gitlab.com) | Kaynak kod yöneticisi                                        |
-| [Asana](https://asana.com/)                                  | Proje yönetimi & Yapılacaklar Aşaması & İş aktarımı / eşleme |
-| [Slack](https://slack.com/)                                  | Takım yönetimi                                               |
+| Uygulama İsmi                                                | Açıklama                                                          |
+| ------------------------------------------------------------ | ----------------------------------------------------------------- |
+| [Github](https://github.com/) & [Gitlab](https://gitlab.com) | Kaynak kod yöneticisi                                             |
+| [GitGuardian](https://app.gitguardian.com/)                  | API key gibi gizli bilgilerin projelerdeki varlığını kontrol eder |
+| [Asana](https://asana.com/)                                  | Proje yönetimi & Yapılacaklar Aşaması & İş aktarımı / eşleme      |
+| [Slack](https://slack.com/)                                  | Takım yönetimi                                                    |
 
 ### Web programlama
 

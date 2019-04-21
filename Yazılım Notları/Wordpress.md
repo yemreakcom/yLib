@@ -8,6 +8,7 @@ Açık kaynaklı php dilinde yazılmış web içerik yöneticisi yazılımıdır
   - [XAMPP Kurulumu](#xampp-kurulumu)
   - [PHPMyAdmin Database Oluşturma](#phpmyadmin-database-olu%C5%9Fturma)
   - [Wordpress Dosyalarının İndirilmesi ve Hazırlanması](#wordpress-dosyalar%C4%B1n%C4%B1n-i%CC%87ndirilmesi-ve-haz%C4%B1rlanmas%C4%B1)
+  - [Wordpress'in Aktarılması](#wordpressin-aktar%C4%B1lmas%C4%B1)
 - [Online Wordpress Sunucusu (Hosting)](#online-wordpress-sunucusu-hosting)
 - [Wordpress Hata Çözümleri](#wordpress-hata-%C3%A7%C3%B6z%C3%BCmleri)
   - [Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server](#unable-to-create-directory-wp-contentuploads201904-is-its-parent-directory-writable-by-the-server)
@@ -44,6 +45,16 @@ Wordpress kurulumu için veritabanı gerekmektedir.
   - Kullanıcı adı ve şifre işlemleri için [buraya][Username & Password] bakabilirsiniz
 
 > Yapılandırma dosyalarının oluşumunda hata meydana gelirse, XAMPP içerisindeki `htdocs/wordpress` dizinine `wp-login.php` dosyası oluşturup, içerisine yapılandırma bilgilerinizi yapıştırın.
+
+### Wordpress'in Aktarılması
+
+*Wordpress*'in aktarılması için:
+
+- Tüm dosyaların aktarılması
+- Veriler *database*'de tutulduğu için, *database*'in aktarılması
+- Yapılandırma dosyasının aktarılması ya da yeniden oluşturulması
+
+gerekmektedir.
 
 ## Online Wordpress Sunucusu (Hosting)
 

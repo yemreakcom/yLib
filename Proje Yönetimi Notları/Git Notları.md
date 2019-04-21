@@ -327,3 +327,4 @@ git reset HEAD~
 - [Start Using Git | Gitlab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 - [Github ile Fork ve Pull Request](https://medium.com/@noteCe/github-ile-fork-ve-pull-request-be6077342834)
 - [git: 'credential-cache' is not a git command](https://stackoverflow.com/a/11889392/9770490)
+- [Git Rebase Kavramı](https://git-scm.com/book/tr/v1/Git-te-Dallanma-Rebasing-Tekrar-Adresleme)

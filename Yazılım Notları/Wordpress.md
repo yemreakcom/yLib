@@ -9,6 +9,8 @@ Açık kaynaklı php dilinde yazılmış web içerik yöneticisi yazılımıdır
   - [PHPMyAdmin Database Oluşturma](#phpmyadmin-database-olu%C5%9Fturma)
   - [Wordpress Dosyalarının İndirilmesi ve Hazırlanması](#wordpress-dosyalar%C4%B1n%C4%B1n-i%CC%87ndirilmesi-ve-haz%C4%B1rlanmas%C4%B1)
 - [Online Wordpress Sunucusu (Hosting)](#online-wordpress-sunucusu-hosting)
+- [Wordpress Hata Çözümleri](#wordpress-hata-%C3%A7%C3%B6z%C3%BCmleri)
+  - [Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server](#unable-to-create-directory-wp-contentuploads201904-is-its-parent-directory-writable-by-the-server)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Localhost Üzerinde Wordpress
@@ -29,7 +31,7 @@ Wordpress kurulumu için veritabanı gerekmektedir.
 - [Yerel sunucu sayfası](http://localhost/phpmyadmin/) olan `localhost/phpmyadmin` sayfasına girin
 - Sol üst kısımdan `New` bağlantısına ya da [buraya](http://localhost/phpmyadmin/server_databases.php?server=1) tıklayın
 - Database ismi ve karakter formatı belirleyin
-  - Örn: `yemreak` `utf0_general_ci`
+  - Örn: `yemreak` `utf8_general_ci`
 - İstediğiniz şekilde tablo ve sütunlar ekleyebilirsiniz
 
 ### Wordpress Dosyalarının İndirilmesi ve Hazırlanması
@@ -47,6 +49,19 @@ Wordpress kurulumu için veritabanı gerekmektedir.
 
 - [Natro](https://www.natro.com/hosting/wordpress-hosting)
 
+## Wordpress Hata Çözümleri
+
+### Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server
+
+Bu hata dizin ve dosya yetki sorunlarından kaynaklanır.
+
+- Her dizinin 755 yetkisine (Create & Delete)
+- Her dosyanın 644 yetkisine (Read & Write)
+
+sahip olması gerekir
+
+> Linux için `chmod 755 <dizin_yolu>` | `chmod 644 <dosya_yolu>` komutunu kullanabilirsin
+
 ## Harici Bağlantılar
 
 - [10 Markdowns for Wordpress]
@@ -55,6 +70,8 @@ Wordpress kurulumu için veritabanı gerekmektedir.
 - [Markdown Wordpress Editor]
 - [Markdown Plugins]
 - [How to change or set username or password][Username & Password]
+- [5 quick fixes for ‘failed to write file to disk WordPress error]
+
 
 [10 Markdowns for Wordpress]: https://blogging.org/blog/10-best-markdown-plugins-for-wordpress-websites/
 [Twentyfifteen Theme]: https://wordpress.org/themes/twentyfifteen/
@@ -62,3 +79,4 @@ Wordpress kurulumu için veritabanı gerekmektedir.
 [Markdown Wordpress Editor]: https://en.support.wordpress.com/wordpress-editor/blocks/markdown-block/
 [Markdown Plugins]: https://wordpress.org/plugins/tags/markdown/
 [Username & Password]: https://www.coderhold.com/how-to-change-or-set-phpmyadmin-password-on-xampp.html
+[5 quick fixes for ‘failed to write file to disk WordPress error]: https://bobcares.com/blog/failed-to-write-file-to-disk-wordpress-error/

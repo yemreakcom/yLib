@@ -27,7 +27,12 @@ def print_dirs_contents(dir_names):
             # Başlık oluşturma
             str += r"## " + dir_name + "\n\n"
 
-            for file_name in os.listdir(dir_name):
+            # Dizindeki dosya isimlerini alma
+            file_names = os.listdir(dir_name)
+
+            # Verileri sıralama ve işleme
+            file_names.sort()
+            for file_name in file_names:
                 # Markdown dosyası ise bağlantı oluşturma
                 if '.md' in file_name:
                     str += "- [" + file_name.split(".")[0] + \

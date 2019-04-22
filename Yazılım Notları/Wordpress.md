@@ -12,6 +12,7 @@ Açık kaynaklı php dilinde yazılmış web içerik yöneticisi yazılımıdır
 - [Online Wordpress Sunucusu (Hosting)](#online-wordpress-sunucusu-hosting)
 - [Wordpress Hata Çözümleri](#wordpress-hata-%C3%A7%C3%B6z%C3%BCmleri)
   - [Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server](#unable-to-create-directory-wp-contentuploads201904-is-its-parent-directory-writable-by-the-server)
+- [Markdown Wordpress](#markdown-wordpress)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Localhost Üzerinde Wordpress
@@ -73,6 +74,11 @@ sahip olması gerekir
 
 > Linux için `chmod 755 <dizin_yolu>` | `chmod 644 <dosya_yolu>` komutunu kullanabilirsin
 
+## Markdown Wordpress
+
+- [Markdown Editörü][WP Githuber MD]
+- [Markdown yanlısı tema][Mynote WordPress Theme]
+
 ## Harici Bağlantılar
 
 - [10 Markdowns for Wordpress]
@@ -83,7 +89,6 @@ sahip olması gerekir
 - [How to change or set username or password][Username & Password]
 - [5 quick fixes for ‘failed to write file to disk WordPress error]
 
-
 [10 Markdowns for Wordpress]: https://blogging.org/blog/10-best-markdown-plugins-for-wordpress-websites/
 [Twentyfifteen Theme]: https://wordpress.org/themes/twentyfifteen/
 [Natro Hosting]: https://www.natro.com/hosting/wordpress-hosting
@@ -91,3 +96,5 @@ sahip olması gerekir
 [Markdown Plugins]: https://wordpress.org/plugins/tags/markdown/
 [Username & Password]: https://www.coderhold.com/how-to-change-or-set-phpmyadmin-password-on-xampp.html
 [5 quick fixes for ‘failed to write file to disk WordPress error]: https://bobcares.com/blog/failed-to-write-file-to-disk-wordpress-error/
+[WP Githuber MD]: https://terryl.in/en/repository/wordpress-markdown-plugin-githuber-md/
+[Mynote WordPress Theme]: https://terryl.in/en/repository/mynote/

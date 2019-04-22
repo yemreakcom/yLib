@@ -50,6 +50,7 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
 - <kbd>CTRL</kbd> + <kbd>J</kbd> Alt paneli görünür kılar
+- <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> *Markdown preview*'i açar
 
 ## Faydalı Eklentiler
 

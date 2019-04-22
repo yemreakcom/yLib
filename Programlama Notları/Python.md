@@ -1,5 +1,7 @@
 # Python <!-- omit in toc -->
 
+Bir başka faydalı kaynak olarak [buradaki][Fuatbeser Python Notları] *repo*'ya bakabilirsin.
+
 > Ek kaynak için [harici kaynaklara](#harici-kaynaklar) bakmayı unutma
 
 ## İçerik <!-- omit in toc -->
@@ -105,7 +107,12 @@
       - [Basit Kullanım](#basit-kullan%C4%B1m)
       - [Enum Özellikleri](#enum-%C3%B6zellikleri)
         - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%C4%B1mlamas%C4%B1)
-- [Python Görsel Programlama](#python-g%C3%B6rsel-programlama)
+- [Komut İsteminden Python (CLI)](#komut-i%CC%87steminden-python-cli)
+  - [Argparse Modülü Detayları](#argparse-mod%C3%BCl%C3%BC-detaylar%C4%B1)
+  - [Argüman Ekleme](#arg%C3%BCman-ekleme)
+  - [Argüman Action Özelliği](#arg%C3%BCman-action-%C3%B6zelli%C4%9Fi)
+  - [Örnek CLI Kodu](#%C3%B6rnek-cli-kodu)
+- [Python Görsel Programlama (GUI)](#python-g%C3%B6rsel-programlama-gui)
   - [Basit GUI Yapımı](#basit-gui-yap%C4%B1m%C4%B1)
   - [PyQt Widgets](#pyqt-widgets)
 - [PyInstaller ile Executable Dosya Oluşturma](#pyinstaller-ile-executable-dosya-olu%C5%9Fturma)
@@ -115,11 +122,6 @@
   - [Try / Except Yapısı](#try--except-yap%C4%B1s%C4%B1)
   - [Dosya İşlemleri](#dosya-i%CC%87%C5%9Flemleri)
     - [Dosya Okuma](#dosya-okuma)
-  - [Komut İsteminden Python (CLI)](#komut-i%CC%87steminden-python-cli)
-    - [Argparse Modülü Detayları](#argparse-mod%C3%BCl%C3%BC-detaylar%C4%B1)
-    - [Argüman Ekleme](#arg%C3%BCman-ekleme)
-    - [Argüman Action Özelliği](#arg%C3%BCman-action-%C3%B6zelli%C4%9Fi)
-    - [Örnek CLI Kodu](#%C3%B6rnek-cli-kodu)
   - [Thread](#thread)
     - [Basit Thread Yapısı](#basit-thread-yap%C4%B1s%C4%B1)
     - [Zamanlayıcı Yapısı (Timer)](#zamanlay%C4%B1c%C4%B1-yap%C4%B1s%C4%B1-timer)
@@ -135,8 +137,8 @@
   - [Python Değişkenlerinin Bash Üzerinde Kullanımı](#python-de%C4%9Fi%C5%9Fkenlerinin-bash-%C3%BCzerinde-kullan%C4%B1m%C4%B1)
 - [Ortam Değişkenleri](#ortam-de%C4%9Fi%C5%9Fkenleri)
   - [PyCharm Uygulmasında Ortam Değişkeni Tanımlama](#pycharm-uygulmas%C4%B1nda-ortam-de%C4%9Fi%C5%9Fkeni-tan%C4%B1mlama)
-- [Harici Kaynaklar](#harici-kaynaklar)
 - [Yapılacaklar](#yap%C4%B1lacaklar)
+- [Harici Kaynaklar](#harici-kaynaklar)
 
 ## Kurulum ve Kullanım
 
@@ -1258,7 +1260,105 @@ class Mistake(Enum):
 # ValueError: duplicate values found in <enum 'Mistake'>: FOUR -> THREE
 ```
 
-## Python Görsel Programlama
+## Komut İsteminden Python (CLI)
+
+- Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
+- Otomatik kod tamamlaması için [buraya](https://stackoverflow.com/a/15289025/9770490) bakmanda fayda var.
+- Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
+
+### Argparse Modülü Detayları
+
+- Argüman ekleme işlemi `parser = argparse.ArgumentParser(...)` ile yapılmaktadır.
+- Parametrelerin kullanımı `argparse.ArgumentParser(description='yok')` şeklindedir.
+
+| Parametre     | Açıklama                               |
+| ------------- | -------------------------------------- |
+| `description` | Uygulama ile alakalı açıklama metnidir |
+
+### Argüman Ekleme
+
+- Argüman ekleme işlemi `parser.add_argument(...)` ile yapılmaktadır.
+
+| Parametre    | Açıklama                                    |
+| ------------ | ------------------------------------------- |
+| 1. parametre | Kısa kullanım komutunu içerir               |
+| 2. Parametre | Orjinal kullanım komutunu içerir            |
+| `help`       | `-h` yazıldığında çıkacak olan yardım metni |
+| `action`     | Davranışı belirler                          |
+| `type`       | Tip bilgisini içerir (int, string ...)      |
+| `default`    | Varsayılan değer                            |
+
+### Argüman Action Özelliği
+
+| Parametre      | Açıklama                                                               |
+| -------------- | ---------------------------------------------------------------------- |
+| `'store_true'` | Flag* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
+| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                       |
+
+```py
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("--verbose", help="increase output verbosity",
+                    action="store_true")
+args = parser.parse_args()
+if args.verbose:
+    print("verbosity turned on")
+```
+
+**Çıktısı:**
+
+```sh
+$ python3 prog.py --verbose
+verbosity turned on
+
+$ python3 prog.py --verbose 1
+usage: prog.py [-h] [--verbose]
+prog.py: error: unrecognized arguments: 1
+
+$ python3 prog.py --help
+usage: prog.py [-h] [--verbose]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --verbose   increase output verbosity
+```
+
+### Örnek CLI Kodu
+
+```py
+import argparse
+
+def main():
+    # Initiate argument parser
+    parser = argparse.ArgumentParser(
+        description="Sample TensorFlow XML-to-CSV converter")
+    parser.add_argument("-i",
+                        "--inputDir",
+                        help="Path to the folder where the input .xml files are stored",
+                        type=str)
+    parser.add_argument("-o",
+                        "--outputFile",
+                        help="Name of output .csv file (including path)", type=str)
+    args = parser.parse_args()
+
+    if args.inputDir is None:
+        args.inputDir = os.getcwd()
+
+    if args.outputFile is None:
+        args.outputFile = args.inputDir + "/labels.csv"
+
+    assert (os.path.isdir(args.inputDir))
+
+    xml_df = xml_to_csv(args.inputDir)
+    xml_df.to_csv(
+        args.outputFile, index=None)
+    print('Successfully converted xml to csv.')
+
+if __name__ == '__main__':
+    main()
+```
+
+## Python Görsel Programlama (GUI)
 
 Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 
@@ -1400,103 +1500,6 @@ with open("README.md", "r", encoding="utf-8") as file:
     lines = list(file) # Tüm satırları liste olarak döndürür
     line = file.readline() # Tek bir satırı string olarak döndürür
     lines = file.readlines() # Tüm satırları liste olarak döndürür
-```
-
-### Komut İsteminden Python (CLI)
-
-- Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
-- Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
-
-#### Argparse Modülü Detayları
-
-- Argüman ekleme işlemi `parser = argparse.ArgumentParser(...)` ile yapılmaktadır.
-- Parametrelerin kullanımı `argparse.ArgumentParser(description='yok')` şeklindedir.
-
-| Parametre     | Açıklama                               |
-| ------------- | -------------------------------------- |
-| `description` | Uygulama ile alakalı açıklama metnidir |
-
-#### Argüman Ekleme
-
-- Argüman ekleme işlemi `parser.add_argument(...)` ile yapılmaktadır.
-
-| Parametre    | Açıklama                                    |
-| ------------ | ------------------------------------------- |
-| 1. parametre | Kısa kullanım komutunu içerir               |
-| 2. Parametre | Orjinal kullanım komutunu içerir            |
-| `help`       | `-h` yazıldığında çıkacak olan yardım metni |
-| `action`     | Davranışı belirler                          |
-| `type`       | Tip bilgisini içerir (int, string ...)      |
-| `default`    | Varsayılan değer                            |
-
-#### Argüman Action Özelliği
-
-| Parametre      | Açıklama                                                               |
-| -------------- | ---------------------------------------------------------------------- |
-| `'store_true'` | Flag* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
-| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                       |
-
-```py
-import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument("--verbose", help="increase output verbosity",
-                    action="store_true")
-args = parser.parse_args()
-if args.verbose:
-    print("verbosity turned on")
-```
-
-**Çıktısı:**
-
-```sh
-$ python3 prog.py --verbose
-verbosity turned on
-
-$ python3 prog.py --verbose 1
-usage: prog.py [-h] [--verbose]
-prog.py: error: unrecognized arguments: 1
-
-$ python3 prog.py --help
-usage: prog.py [-h] [--verbose]
-
-optional arguments:
-  -h, --help  show this help message and exit
-  --verbose   increase output verbosity
-```
-
-#### Örnek CLI Kodu
-
-```py
-import argparse
-
-def main():
-    # Initiate argument parser
-    parser = argparse.ArgumentParser(
-        description="Sample TensorFlow XML-to-CSV converter")
-    parser.add_argument("-i",
-                        "--inputDir",
-                        help="Path to the folder where the input .xml files are stored",
-                        type=str)
-    parser.add_argument("-o",
-                        "--outputFile",
-                        help="Name of output .csv file (including path)", type=str)
-    args = parser.parse_args()
-
-    if args.inputDir is None:
-        args.inputDir = os.getcwd()
-
-    if args.outputFile is None:
-        args.outputFile = args.inputDir + "/labels.csv"
-
-    assert (os.path.isdir(args.inputDir))
-
-    xml_df = xml_to_csv(args.inputDir)
-    xml_df.to_csv(
-        args.outputFile, index=None)
-    print('Successfully converted xml to csv.')
-
-if __name__ == '__main__':
-    main()
 ```
 
 ### Thread
@@ -1781,6 +1784,15 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 
 > Windows için cmd ortam değişkeni ayarlama yapısı `set name=value;value` şeklindedir.
 
+## Yapılacaklar
+
+- [x] Thread ve Timer eklenecek
+  - [Link1](http://ysar.net/python/threading.html), [Link2](https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds-in-python), [Link3](https://stackoverflow.com/questions/33473899/how-set-a-loop-that-repeats-at-a-certain-interval-in-python), [Link4](https://daanlenaerts.com/blog/2015/07/04/python-3-4-execute-function-every-five-seconds/)
+- [ ] Alttaki yapı eklenecek
+  - `t2 = Thread(target={time.sleep(3)})`
+  - {} ile fonksiyon
+  - return olursa değeri çıkarır
+
 ## Harici Kaynaklar
 
 - [String işlemleri](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/03---string-islemleri)
@@ -1802,12 +1814,7 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 - [Computer Screen Recording using Python & OpenCV](https://www.youtube.com/watch?v=GWdrL8dt1xQ)
 - [How can I code OpenCV to use GPU using Python?](https://www.quora.com/How-can-I-code-OpenCV-to-use-GPU-using-Python)
 - [Google Keep to Text](https://github.com/HardFork/KeepToText)
+- [Python ile QuickDraw Projesi][Quick Draw]
 
-## Yapılacaklar
-
-- [x] Thread ve Timer eklenecek
-  - [Link1](http://ysar.net/python/threading.html), [Link2](https://stackoverflow.com/questions/474528/what-is-the-best-way-to-repeatedly-execute-a-function-every-x-seconds-in-python), [Link3](https://stackoverflow.com/questions/33473899/how-set-a-loop-that-repeats-at-a-certain-interval-in-python), [Link4](https://daanlenaerts.com/blog/2015/07/04/python-3-4-execute-function-every-five-seconds/)
-- [ ] Alttaki yapı eklenecek
-  - `t2 = Thread(target={time.sleep(3)})`
-  - {} ile fonksiyon
-  - return olursa değeri çıkarır
+[Fuatbeser Python Notları]: https://github.com/fuatbeser/python-notlarim
+[Quick Draw]: https://github.com/vietnguyen91/QuickDraw

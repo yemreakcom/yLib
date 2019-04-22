@@ -41,12 +41,12 @@ Paketler NPM ile `npm install <paket>` komutu yardımıyla indirilir.
 
 #### Normal Paketler
 
-| Paket    | Açıklama                                      | Bağlantılar |
-| -------- | --------------------------------------------- | ----------- |
-| nodemon  | Hata ve değişiklik durumunda otomatik derleme |             |
-| exporess | Sunucu işlemlerinnde kolaylık sağlar          |             |
-| colors   | Consola renkli çıktılar yazma                 |             |
-| faker    | Rastgele veri oluşturmayı sağlar              | [🌐](https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html) [👁](https://github.com/marak/Faker.js/) [📥](https://www.npmjs.com/package/faker)            |
+| Paket    | Açıklama                                      | Bağlantılar                                                                                                                                                       |
+| -------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nodemon  | Hata ve değişiklik durumunda otomatik derleme |                                                                                                                                                                   |
+| exporess | Sunucu işlemlerinnde kolaylık sağlar          |                                                                                                                                                                   |
+| colors   | Consola renkli çıktılar yazma                 |                                                                                                                                                                   |
+| faker    | Rastgele veri oluşturmayı sağlar              | [🌐](https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html) [👁](https://github.com/marak/Faker.js/) [📥](https://www.npmjs.com/package/faker) |
 
 #### Geliştirici Paketleri
 
@@ -265,3 +265,6 @@ export function _getCallerInfo() {
 - [Async & Await](https://medium.com/@tkssharma/writing-neat-asynchronous-node-js-code-with-promises-async-await-fa8d8b0bcd7c)
 - [Fonksiyonu Çağıran Dosya İsmini Bulma](https://stackoverflow.com/a/29581862/9770490)
 - [Debugging Visual Studio Code (Node)](https://www.youtube.com/watch?v=yFtU6_UaOtA)
+- [Nodejs React ve Redux ile Medium Klonu][Medium Clone]
+
+[Medium Clone]: https://github.com/krissnawat/medium-clone-on-node

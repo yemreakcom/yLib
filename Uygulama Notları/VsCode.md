@@ -4,7 +4,7 @@
 
 - [VsCode kısayolları](#vscode-k%C4%B1sayollar%C4%B1)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
-  - [Metin Düzenleme Kısayolları](#metin-d%C3%BCzenleme-k%C4%B1sayollar%C4%B1)
+  - [Verimlilik Kısayolları](#verimlilik-k%C4%B1sayollar%C4%B1)
 - [Faydalı Eklentiler](#faydal%C4%B1-eklentiler)
   - [Verimlilik Eklentileri](#verimlilik-eklentileri)
   - [Farkındalık Eklentileri](#fark%C4%B1ndal%C4%B1k-eklentileri)
@@ -42,11 +42,14 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 | `>`     | Komutlarda arama        |
 | `?`     | Yardım                  |
 
-### Metin Düzenleme Kısayolları
+### Verimlilik Kısayolları
 
-- `CTRL` + `I` Satırı seçme
-- `CTRL` + `X` Satırı kesme
-- `CTRl` + `J` Alt paneli görünür kılar
+- <kbd>ALT</kbd> Birden fazla işaretçi belirleme
+- <kbd>CTRL</kbd> + <kbd>U</kbd> Bir önceki imleci seçer
+- <kbd>CTRL</kbd> + <kbd>D</kbd> Kelimeyi seçme
+- <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
+- <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
+- <kbd>CTRL</kbd> + <kbd>J</kbd> Alt paneli görünür kılar
 
 ## Faydalı Eklentiler
 

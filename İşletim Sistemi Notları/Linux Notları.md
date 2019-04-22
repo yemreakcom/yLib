@@ -54,6 +54,8 @@ Birkaç distro örneği:
       - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
       - [Dast to Panel](#dast-to-panel)
       - [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
+  - [Gedit Eklentileri](#gedit-eklentileri)
+    - [Çoklu İmleç Desteği (Multi Cursor)](#%C3%A7oklu-i%CC%87mle%C3%A7-deste%C4%9Fi-multi-cursor)
   - [Yazılım Araçları Kurulumu (VsCode ve Git)](#yaz%C4%B1l%C4%B1m-ara%C3%A7lar%C4%B1-kurulumu-vscode-ve-git)
   - [Miniconda3 Kurulumu](#miniconda3-kurulumu)
   - [Nodejs Kurulumu](#nodejs-kurulumu)
@@ -94,31 +96,37 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
   - sudo ile kullanılması için `alias sudo='sudo '` satırını `.bashrc` dosyanıza eklemeniz gerekmektedir
   - `echo "alias sudo='sudo '" >> ~/.bashrc`
   - Kaynak için [buraya](https://askubuntu.com/a/22043/898692) bakabilirsin
+- `grep` komutu ile dosya araması yapabilirsiniz.
+  - Kaynak için [buraya](https://stackoverflow.com/a/16957078/9770490) bakabilirsin.
 
-| Yöntem                                            | Açıklama                                             |
-| ------------------------------------------------- | ---------------------------------------------------- |
-| `<komut> --help`                                  | Komutlar için yardım metni                           |
-| <kbd>TAB</kbd>                                    | Kod tamamlama                                        |
-| `cwd`                                             | Çalışma dizini yolu                                  |
-| `-`                                               | Son çalışan dizine gitme                             |
-| `~`                                               | Home dizini                                          |
-| `<komut>; <komut>;`                               | Birden fazla komut işleme (birbirlerini beklemez)    |
-| `<komut> && <komut>`                              | 1. komut çalışırsa 2.'yi işleme                      |
-| `<komut> || <komut>`                              | 1. olmazsa 2. komutu işleme                          |
-| <kbd>CTRL</kbd> + <kbd>W</kbd>                    | Kelime silme                                         |
-| <kbd>CTRL</kbd> + <kbd>R</kbd> `<aranan_terim>`   | Önceki komutlarda arama yapma                        |
-| <kbd>CTRL</kbd> + <kbd>Q</kbd>                    | Kitlenmiş terminali kurtarma                         |
-| <kbd>CTRL</kbd> + <kbd>A</kbd>                    | Komutların satırının başına gelme                    |
-| <kbd>CTRL</kbd> +<kbd>E</kbd>                     | Komut satırının sonuna gelme                         |
-| `tail -f <dosya>`                                 | Dosyayı anlık olarak okuma                           |
-| `cat` ve `less`                                   | Ufak ve büyük dosyaları okuma                        |
-| `!$`                                              | Bir önce kullanılan değişkeni kullanma               |
-| `!!`                                              | Bir önceki komutu kullanma                           |
-| `alias`                                           | Komut yönlendirme, yeni komut oluşturma              |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> | Kopyalama işlemi                                     |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> | Yapıştırma işlemi                                    |
-| `yes | <komut_ya_da_script>`                      | İnteraktif veri isteyen işleme 'yes' verisi gönderme |
-| `echo <metin> > <dosya>`                          | Dosyaya metin yazma                                  |
+| Yöntem                                            | Açıklama                                               |
+| ------------------------------------------------- | ------------------------------------------------------ |
+| `<komut> --help`                                  | Komutlar için yardım metni                             |
+| <kbd>TAB</kbd>                                    | Kod tamamlama                                          |
+| `cwd`                                             | Çalışma dizini yolu                                    |
+| `-`                                               | Son çalışan dizine gitme                               |
+| `~`                                               | Home dizini                                            |
+| `<komut>; <komut>;`                               | Birden fazla komut işleme (birbirlerini beklemez)      |
+| `<komut> && <komut>`                              | 1. komut çalışırsa 2.'yi işleme                        |
+| `<komut> || <komut>`                              | 1. olmazsa 2. komutu işleme                            |
+| `<komut> | <komut>`                               | İlk komutun sonucunu 2'ye aktarma (pipeline)           |
+| <kbd>CTRL</kbd> + <kbd>W</kbd>                    | Kelime silme                                           |
+| <kbd>CTRL</kbd> + <kbd>R</kbd> `<aranan_terim>`   | Önceki komutlarda arama yapma                          |
+| <kbd>CTRL</kbd> + <kbd>Q</kbd>                    | Kitlenmiş terminali kurtarma                           |
+| <kbd>CTRL</kbd> + <kbd>A</kbd>                    | Komutların satırının başına gelme                      |
+| <kbd>CTRL</kbd> +<kbd>E</kbd>                     | Komut satırının sonuna gelme                           |
+| `tail -f <dosya>`                                 | Dosyayı anlık olarak okuma                             |
+| `cat` ve `less`                                   | Ufak ve büyük dosyaları okuma                          |
+| `!$`                                              | Bir önce kullanılan değişkeni kullanma                 |
+| `!!`                                              | Bir önceki komutu kullanma                             |
+| `alias`                                           | Komut yönlendirme, yeni komut oluşturma                |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>E</kbd>   | Oluşturulan komutların (alias) karşılıklarını gösterme |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> | Kopyalama işlemi                                       |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> | Yapıştırma işlemi                                      |
+| `yes | <komut_ya_da_script>`                      | İnteraktif veri isteyen işleme 'yes' verisi gönderme   |
+| `grep <aranan_kelime>`                            | Kelime arama                                           |
+| `<komut> | grep <aranan_kelime>`                  | Komut sonucunda kelime arama                           |
+
 
 ### Temel Terminal Komutları
 
@@ -470,6 +478,21 @@ Emoji klavyesi ile emojiyi panoya kopyalar, [buradan](https://extensions.gnome.o
 
 - <kbd>CTRL</kbd> + <kbd>V</kbd> ile yapıştırarak kullanabilirsiniz
 - <kbd>SUPER</kbd> + <kbd>E</kbd> Emoji klavyesini açar
+
+### Gedit Eklentileri
+
+#### Çoklu İmleç Desteği (Multi Cursor)
+
+```sh
+sudo apt install gedit-plugin-multi-edit
+```
+
+| Kısayol                                           | AÇıklama                  |
+| ------------------------------------------------- | ------------------------- |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> | *Mutli Edit*'i aktif etme |
+| <kbd>CTRL</kbd> + <kbd>E</kbd>                    | İmleç (*cursor*) ekleme   |
+| `Alan seçtikten sonra` + <kbd>ENTER</kbd>         | Sütun düzenleme           |
+| <kbd>ESC</kbd>                                    | Geri çıkma karakteri      |
 
 ### Yazılım Araçları Kurulumu (VsCode ve Git)
 

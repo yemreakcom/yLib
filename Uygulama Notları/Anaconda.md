@@ -10,6 +10,7 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 - [Faydaları](#faydalar%C4%B1)
 - [Anaconda Kurulumu](#anaconda-kurulumu)
+- [Miniconda Kurulumu](#miniconda-kurulumu)
 - [Temel Condo Kullanımı](#temel-condo-kullan%C4%B1m%C4%B1)
   - [Conda Yardımcısını Güncelleme](#conda-yard%C4%B1mc%C4%B1s%C4%B1n%C4%B1-g%C3%BCncelleme)
   - [Conda ile Tüm Paketleri Güncelleme](#conda-ile-t%C3%BCm-paketleri-g%C3%BCncelleme)
@@ -53,12 +54,23 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 ## Anaconda Kurulumu
 
+Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşamasındakiler için önerilir.
+
+> Ne yaptığımı biliyorum diyorsan *Anaconda* yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
+
 - İndirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin.
   - *Yükleme sırasında PATH'e eklemeyin* !
 - Docker üzerine indirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin
 - Anaconda'yı windowsda kullanmak için **Anaconda Prompt**'u kullanman gerekmekte!
   - *Aksi halde değişik sorunlarla karşılaşırsınız. (SSL error vs.)*
 - Dökümantasyonu için [buraya](https://docs.anaconda.com/) tıklayabilirsin.
+
+## Miniconda Kurulumu
+
+- İndirmek için [buraya](https://docs.conda.io/en/latest/miniconda.html) tıklayabilirsin.
+- Linux için: `conda init` ile *conda*'yı *bash*'e dahil edebilir, `conda config --set auto_activate_base false` ile otomatik tanımlamayı kaldırabilirsin.
+  - `~./bashrc` dosyasında değişiklikler yapılacaktır
+  - Kaynak için [buraya](https://docs.anaconda.com/anaconda/install/silent-mode/#linux-macos) bakabilirsin.
 
 ## Temel Condo Kullanımı
 

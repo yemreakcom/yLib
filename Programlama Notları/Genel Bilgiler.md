@@ -1,4 +1,6 @@
-# Karma Notlar <!-- omit in toc -->
+# Genel Bilgiler <!-- omit in toc -->
+
+> Faydalı Kaynaklara göz atmayı unutma
 
 ## İçerikler <!-- omit in toc -->
 
@@ -94,3 +96,6 @@ Resmi sitesi için [buraya](https://summerofcode.withgoogle.com/) bakabilirsin.
 ## Faydalı Kaynaklar
 
 - [How to Select Your First Programming Language](https://www.youtube.com/watch?v=2EaopRDxNrw)
+- [Türkçe Yazılım Geliştirme Kaynakları][Türkçe Kaynaklar]
+
+[Türkçe Kaynaklar]: https://turkcekaynaklar.com/

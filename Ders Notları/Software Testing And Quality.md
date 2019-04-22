@@ -220,8 +220,11 @@ String atamaları *encode* işlemine uğramadan yapılıyorsa hata verilmesini s
 #### Diğer Testler
 
 - [Link1](https://github.com/JustinBonaccorso/parking-calculator-tests), [Link2](https://github.com/lowfr3q/MindbodyParking)
+- [Sunucu bağlantı kontrolü][Uptime Testing]
 
 ### Kaynaklar
 
 - [Web Application Testing: 8 Step Guide to Website Testing](https://www.guru99.com/web-application-testing.html)
 - [Responsive Testing](http://learningcms.com/responsive-website-testing/)
+
+[Uptime Testing]: https://www.uptrends.com/tools/uptime

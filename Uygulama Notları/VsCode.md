@@ -49,6 +49,7 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 - <kbd>CTRL</kbd> + <kbd>D</kbd> Kelimeyi seçme
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
+- <kbd>ALT</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> Satırı taşıma
 - <kbd>CTRL</kbd> + <kbd>J</kbd> Alt paneli görünür kılar
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> *Markdown preview*'i açar
 
@@ -205,6 +206,8 @@ Değişkenlerin kullanım şekilleri:
     "editor.fontSize": 15,
     "editor.fontFamily": "Ubuntu Mono, Roboto Mono",
     "editor.formatOnSave": true,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 99,
     // Dosya Gezgini Ayarları
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
@@ -216,7 +219,7 @@ Değişkenlerin kullanım şekilleri:
     // Markdownlint ayarları
     "markdownlint.config": {
         "MD033": false
-    }
+    },
 }
 ```
 

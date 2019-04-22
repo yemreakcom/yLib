@@ -9,7 +9,7 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ders Notları](#ders-notlar%C4%B1)
+- [İÜ-CE Ders Notları](#i%CC%87%C3%BC-ce-ders-notlar%C4%B1)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
 - [Programlama Notları](#programlama-notlar%C4%B1)
 - [Proje Yönetimi Notları](#proje-y%C3%B6netimi-notlar%C4%B1)
@@ -25,18 +25,15 @@
 - [Karma Bilgiler](#karma-bilgiler)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
+## İÜ-CE Ders Notları
+
+Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. Yeni *repositoy* açılma amacı:
+
+- Katkıda bulunmayı kolaylaştırma 🙏
+- Bilgilerin daha net olabilmesi 🗽
+- Vs vs. 😒
+
 <!-- Index -->
-
-## Ders Notları
-
-- [Bilgisayar Grafikleri](Ders%20Notlar%C4%B1/Bilgisayar%20Grafikleri.md)
-- [Bilgisayar Mimarisi](Ders%20Notlar%C4%B1/Bilgisayar%20Mimarisi.md)
-- [Computer Networks and Technologies](Ders%20Notlar%C4%B1/Computer%20Networks%20and%20Technologies.md)
-- [Görüntü İşleme](Ders%20Notlar%C4%B1/G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme.md)
-- [Software Enginnering](Ders%20Notlar%C4%B1/Software%20Enginnering.md)
-- [Software Testing And Quality](Ders%20Notlar%C4%B1/Software%20Testing%20And%20Quality.md)
-- [Web Programlama](Ders%20Notlar%C4%B1/Web%20Programlama.md)
-- [İş Sağlığı ve Güvenliği](Ders%20Notlar%C4%B1/%C4%B0%C5%9F%20Sa%C4%9Fl%C4%B1%C4%9F%C4%B1%20ve%20G%C3%BCvenli%C4%9Fi.md)
 
 ## Günlük Hayat Notları
 
@@ -117,6 +114,7 @@
 
 ## Yapılacaklar
 
+- [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
 - [ ] Her yazının altına lisans menti eklenecek (?)
 - [ ] Sadece **github**'da bulunacak
 - [ ] Linkler dinamikleştirilecek
@@ -158,3 +156,5 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 > Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=Bilgiler%20%7C%20Github) geçebilrsiniz 🤗
 
 ~ Yunus Emre Ak
+
+[İÜ-CE Ders Notları]: https://github.com/yedhrab/IU-CE-DersNotlari

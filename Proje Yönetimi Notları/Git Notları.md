@@ -147,7 +147,8 @@ git add .
 ### Teslim etme hazırlığı ve yorum ekleme
 
 ```bash
-git commit -m "Yorum" -m "Açıklama"
+git commit -m "Yorun" # Kısa Açıklama
+git commit -m "Yorum" -m "Açıklama" # Başlıklı uzun açıklama
 ```
 
 - -`m` message anlamına gelmektedir.

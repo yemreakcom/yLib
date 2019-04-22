@@ -127,7 +127,6 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
 | `grep <aranan_kelime>`                            | Kelime arama                                           |
 | `<komut> | grep <aranan_kelime>`                  | Komut sonucunda kelime arama                           |
 
-
 ### Temel Terminal Komutları
 
 Detalar için [buraya](https://gist.github.com/sayz/1130312/a45b548b82ee459e05a9159ec532224757a2ca56) tıklayarak, açıklamalara ulaşabilirsin.

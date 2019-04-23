@@ -190,6 +190,10 @@ Değişkenlerin kullanım şekilleri:
     {
         "key": "shift+f10",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+i ctrl+p",
+        "command": "git.pullRebase"
     }
 ]
 ```

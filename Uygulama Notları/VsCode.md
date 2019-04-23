@@ -204,7 +204,7 @@ Değişkenlerin kullanım şekilleri:
     "workbench.statusBar.feedback.visible": false,
     // Editör Ayarları
     "editor.fontSize": 15,
-    "editor.fontFamily": "Ubuntu Mono, Roboto Mono",
+    "editor.fontFamily": "Ubuntu Mono, Roboto Mono", // https://fonts.google.com/specimen/Ubuntu+Mono?selection.family=Ubuntu+Mono
     "editor.formatOnSave": true,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 99,

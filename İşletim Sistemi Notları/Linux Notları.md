@@ -146,8 +146,9 @@ Detalar için [buraya](https://gist.github.com/sayz/1130312/a45b548b82ee459e05a9
 
 #### Dpkg - Debian Paket Kurma
 
-- `sudo dpkq -i deb_uzantılı.deb`
+- `sudo dpkq -i deb_uzantılı.deb` (kurulumu başlatma)
 - `sudo apt-get install --fix-broken` (kurulum için gerekli paketleri kurma)
+- `sudo dpkq -i deb_uzantılı.deb` (kurulumu yeniden deneme)
 - `sudo apt-get autoremove` (gereksizleri kaldırma)
 
 #### Tar dosyalarının kurulumları
@@ -183,7 +184,7 @@ chmod a+x <appimage_dosyası>
 Run dosyaları kurulum dosyalarıdır bu sebeple yetkileri olmadan çalıştırılamaz.
 
 ```sh
-chmod 0755 <run_dosyası>
+chmod +x <run_dosyası>
 ./<run_dosyası>
 ```
 

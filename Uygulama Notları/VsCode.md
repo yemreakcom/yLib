@@ -179,13 +179,17 @@ Değişkenlerin kullanım şekilleri:
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "shift+f10",
-        "command": "python.execInTerminal"
-    },
-    {
         "key": "shift+alt+f",
         "command": "editor.action.formatDocument",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+[KeyI]",
+        "command": "git.sync"
+    },
+    {
+        "key": "shift+f10",
+        "command": "python.execInTerminal"
     }
 ]
 ```

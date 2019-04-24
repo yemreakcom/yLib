@@ -184,12 +184,16 @@ Değişkenlerin kullanım şekilleri:
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+[KeyI]",
+        "key": "ctrl+[KeyI] ctrl+[KeyI]",
         "command": "git.sync"
     },
     {
         "key": "shift+f10",
         "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+[KeyI] ctrl+p",
+        "command": "git.pullRebase"
     }
 ]
 ```

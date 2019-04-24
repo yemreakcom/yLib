@@ -60,6 +60,7 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 
 - [Git Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1.md)
 - [Git için Emojiler](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20i%C3%A7in%20Emojiler.md)
+- [Github Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
 - [Heroku Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
 - [Proje Yönetimi](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
 

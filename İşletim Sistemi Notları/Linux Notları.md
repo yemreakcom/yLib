@@ -17,7 +17,8 @@ Birkaç distro örneği:
 - [Linux Terminali Notları](#linux-terminali-notlar%C4%B1)
   - [Terminal Numaları](#terminal-numalar%C4%B1)
   - [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
-  - [Kurulum Komutları](#kurulum-komutlar%C4%B1)
+  - [Kurulum Notları](#kurulum-notlar%C4%B1)
+    - [Snapd Kurulum](#snapd-kurulum)
     - [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
     - [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
     - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
@@ -140,9 +141,19 @@ Detalar için [buraya](https://gist.github.com/sayz/1130312/a45b548b82ee459e05a9
 - `sudo apt-get purge '<paket_adi>*'` paket ile başlayan tüm paketleri ve alt bileşenlerini kaldırma
 - `sudo apt-cache search <paket_adi>` Depoda paketadi arama işlemi
 
-### Kurulum Komutları
+### Kurulum Notları
 
-İndirdiğimiz dosyaları kurmak için gerkeli olan bir dize komutlar.
+Linux ile kurulumlar terminal üzerinden bir kaç komut gerektirir.
+
+> Yeni linux kurulum yöntemi olan **snapd** ilk açılmada gecikmeye sebebiyet vermekte
+
+#### Snapd Kurulum
+
+Ubuntu yerel mağazasından yapılan indirmelerdir
+
+- Snapd kurulum önceden derlenmiş ve hazırlanmış uygulamalardır.
+- Hız açısından **dpkg** daha iyidir, lakin ek paketler ve bağımlılıklar gerektirir
+- Hızlı ve çalışabilirlik açısından **snapd** daha verimlidir, her platformda çalışır
 
 #### Dpkg - Debian Paket Kurma
 

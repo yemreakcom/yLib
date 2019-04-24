@@ -215,14 +215,14 @@ Değişkenlerin kullanım şekilleri:
 
 ```json
 {
-   // Kişisel bilgilerin paylaşılmasını engellemes
+    // Kişisel bilgilerin paylaşılmasını engellemes
     "telemetry.enableTelemetry": false,
     // Tema ayarları
     "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.feedback.visible": false,
     "window.titleBarStyle": "custom",
     "window.menuBarVisibility": "toggle",
-    "workbench.statusBar.feedback.visible": false,
     // Editör Ayarları
     "editor.fontSize": 15,
     "editor.fontFamily": "Ubuntu Mono, Roboto Mono", // https://fonts.google.com/specimen/Ubuntu+Mono?selection.family=Ubuntu+Mono

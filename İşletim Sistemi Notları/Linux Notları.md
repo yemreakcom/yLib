@@ -469,6 +469,8 @@ Gnome eklentileri ile ubuntu distronuzu özelleştirebilirsiniz.
 - `sudo apt install chrome-gnome-shell` ile chrome için gnome çekirdeğini kurun
 - [Chrome](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) veya [Opera](https://addons.opera.com/en/extensions/details/gnome-shell-integration/) için gnome eklentisini kurun
 
+> En iyi 19 gnome eklentisi için [buraya][Best Gnome Extension] bakabilirsin.
+
 ##### Ubuntu Üstteki Çubuğu Gizleme
 
 Gnome eklentisini kurduktan sonra [buradan](https://extensions.gnome.org/extension/545/hide-top-bar/) eklentiyi `ON/OFF` ile açıp kapatabilirsiniz.
@@ -874,3 +876,5 @@ pgrep [option] <pattern>
 [flameshot]: https://github.com/lupoDharkael/flameshot
 [simplescreenrecorder]: https://www.maartenbaert.be/simplescreenrecorder/
 [Restore Local Folder]: https://askubuntu.com/questions/745255/i-somehow-deleted-my-desktop-from-nautilus-places
+
+[Best Gnome Extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/

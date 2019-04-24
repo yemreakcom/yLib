@@ -113,6 +113,7 @@ Bir başka faydalı kaynak olarak [buradaki][Fuatbeser Python Notları] *repo*'y
   - [Argüman Action Özelliği](#arg%C3%BCman-action-%C3%B6zelli%C4%9Fi)
   - [Örnek CLI Kodu](#%C3%B6rnek-cli-kodu)
 - [Python Görsel Programlama (GUI)](#python-g%C3%B6rsel-programlama-gui)
+  - [PyQt5 Kurulumu](#pyqt5-kurulumu)
   - [Basit GUI Yapımı](#basit-gui-yap%C4%B1m%C4%B1)
   - [PyQt Widgets](#pyqt-widgets)
 - [PyInstaller ile Executable Dosya Oluşturma](#pyinstaller-ile-executable-dosya-olu%C5%9Fturma)
@@ -1362,12 +1363,21 @@ if __name__ == '__main__':
 
 Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 
+- Bu yazıyı oluştururken yararlandığım kaynak için [buraya](https://build-system.fman.io/pyqt5-tutorial) bakabilirsin.
+- Türkçe eğitim serisi için [buraya](https://www.youtube.com/playlist?list=PLOl6SW8nLgJx9guRvfylVwrMXIginZhin) bakabilirsin.
+
+### PyQt5 Kurulumu
+
+GUI için *cross development* desteği olan **pyqt** kullanılmaktadır.
+
 - `pip install pyqt5`
 - `conda install pyqt`
 
-> Orjinal kaynak için [buraya](https://build-system.fman.io/pyqt5-tutorial) bakabilirsin.
+> 💡 *Cross development*: Birden çok işletiim sisteminde çalışabilen yazılım geliştirmesi: PC, Mac, linux vs..
 
 ### Basit GUI Yapımı
+
+GUI oluşturma yardımcı olan **QTDesigner** oldukça faydalı olacaktır. (💡 Çek-bırak mantığında çalışır. )
 
 ```py
 from PyQt5.QtWidgets import QApplication, QLabel

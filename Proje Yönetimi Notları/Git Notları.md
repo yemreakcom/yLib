@@ -28,7 +28,7 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
     - [Örnek Çıktı](#%C3%B6rnek-%C3%A7%C4%B1kt%C4%B1)
   - [Teslim Etme](#teslim-etme)
 - [Branch İşlemleri](#branch-i%CC%87%C5%9Flemleri)
-- [Branch (Dal) Oluşturma](#branch-dal-olu%C5%9Fturma)
+  - [Branch (Dal) Oluşturma](#branch-dal-olu%C5%9Fturma)
   - [Branch (Dal) Değiştirme](#branch-dal-de%C4%9Fi%C5%9Ftirme)
   - [Branch (Dal) Kaldırma](#branch-dal-kald%C4%B1rma)
     - [Yerel branch silme](#yerel-branch-silme)
@@ -228,7 +228,7 @@ Branch (dal) git yığıtlarında imleç görevi gören araçlardır. Ek bilgi i
 
 ![detailed-branch-pic](https://git-scm.com/figures/18333fig0309-tn.png)
 
-## Branch (Dal) Oluşturma
+### Branch (Dal) Oluşturma
 
 ```bash
 git branch [branch_ismi]

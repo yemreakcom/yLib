@@ -27,11 +27,17 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 
 | Eklenti                             | Açıklama                                                                                     |
 | ----------------------------------- | -------------------------------------------------------------------------------------------- |
-| [todo][Todo - Github]               | Kod içerisindeki `@todo` alanlarını *Github*'a entegre eder.                                 |
+| [todo][Todo - Github]               | Kod içerisindeki `@todo` ve `TODO` alanlarını *Github*'a entegre eder.                       |
 | [Gitpod][Gitpod - Github]           | Online **vscode** temalı editör. (💡 chrome [eklentisini][Gitpod - Chrome] indirmeyi unutma) |
 | [Semaphor][Semaphor - Github]       | Bir bak 🙋‍♀️                                                                                |
 | [GitLocalize][GitLocalize - Github] | Bir bak 🙋‍♀️                                                                                |
 | [Codetree][Codetree - Github]       | Çevik (agile) takımların için proje yönetim eklentisi (paralı 🧐)                            |
+
+## Github Yardımcıları
+
+| Yardımcı                   | Açıklama                                                       |
+| -------------------------- | -------------------------------------------------------------- |
+| [GitGuardian][GitGuardian] | Kimlik bilgilerinin paylaşılması durumunu kontrol eder, uyarır |
 
 ## Harici Bağlantılar
 
@@ -55,3 +61,5 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 [Semaphor - Github]: https://github.com/marketplace/semaphore
 [GitLocalize - Github]: https://github.com/marketplace/gitlocalize
 [Codetree - Github]: https://github.com/marketplace/codetree
+
+[GitGuardian]: https://www.gitguardian.com/

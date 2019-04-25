@@ -145,6 +145,7 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 ## Karma Bilgiler
 
 - [The Best Font for Resume](https://www.businessnewsdaily.com/5331-best-resume-fonts.html)
+- [[Yaratıcı Fikirler için Tasarımlar](https://www.behance.net/)]
 
 ## Lisans ve Teferruatlar
 

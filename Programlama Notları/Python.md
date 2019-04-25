@@ -308,6 +308,8 @@ def func(a):
   return 1 # Döndürme keywordu
 ```
 
+> [PyDoc videosu](https://www.youtube.com/watch?v=Y6TgbyfKCNM)
+
 ## Temel Python
 
 ### Anahtar Kelimeler (Keywords)
@@ -357,6 +359,9 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 | [Set](https://www.programiz.com/python-programming/set)               | `kume = {1.0, "Hello", (1, 2, 3)}` | `kume.add(1)`  |
 | [Dictionary](https://www.programiz.com/python-programming/dictionary) | `site = {"adi":"yemreak"}`         | `site['adi']`  |
 | [Tuple](https://www.programiz.com/python-programming/tuple)           | `konum = (1, 2)`                   | `x, y = konum` |
+
+- `[<değişken> for <değişken> in <dizi_veya_liste> if <koşul>` İstenen koşullardaki elemanların listesini verir
+  - Örn: `[x for x in a if x != 20]`
 
 #### Değersiz Değişken Tanımalma
 

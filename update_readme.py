@@ -2,55 +2,86 @@
 
 Returns:
     None -- [description]
+Author:
+    Yunus Emre Ak
 """
 
 import os
 import re
 from urllib.parse import quote
 
+
+# Sıralı indeksleme
+SORTED_INDEX = True
+# Sadece bu veriyi barındıranları indeksleme (hepsi için '')
+INDEXED_FILE_EXT = '.md'
+
+# Gizli dosyaları atlama
+SKIP_PRIVATE_FOLDER = True
 # Indexlenmeyecek dosya isimleri
 PRIVATE_FOLDERS = ['.git', 'images', 'pdfs', '.vscode', 'Windows10 Kaynakları']
 
 
-def isPrivate(dir_name) -> bool:
-    for folder_name in PRIVATE_FOLDERS:
-        if dir_name == folder_name:
-            return True
-    return False
+def check_dir_if_wanted(dir_name: str) -> bool:
+    """Aranan dizin mi kontrolü
 
+    Arguments:
+        dir_name {str} -- Dizin ismi
 
-def print_dirs_contents(dir_names):
-    str = ""
-
-    for dir_name in dir_names:
-        if not isPrivate(dir_name) and os.path.isdir(dir_name):
-            # Başlık oluşturma
-            str += r"## " + dir_name + "\n\n"
-
-            # Dizindeki dosya isimlerini alma
-            file_names = os.listdir(dir_name)
-
-            # Verileri sıralama ve işleme
-            file_names.sort()
-            for file_name in file_names:
-                # Markdown dosyası ise bağlantı oluşturma
-                if '.md' in file_name:
-                    str += "- [" + file_name.split(".")[0] + \
-                        "](" + quote(f"{dir_name}/{file_name}") + ")\n"
-            str += "\n"
-    return str
-
-
-def update() -> None:
-    """README'de indeksleme oluşturucu
-    README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliştirir.
+    Returns:
+        bool -- Aranan dizinse true
     """
 
-    dir_names = os.listdir()
+    def isPrivate(dir_name) -> bool:
+        for folder_name in PRIVATE_FOLDERS:
+            if dir_name == folder_name:
+                return True
 
-    # Dizinleri sıralayıp işleme (her defasında aynı gelsin)
-    dir_names.sort()
-    file_str = print_dirs_contents(dir_names)
+    return not any([
+        SKIP_PRIVATE_FOLDER and isPrivate(dir_name),
+        not os.path.isdir(dir_name)
+    ])
+
+
+def list_wanted_dir():
+    list = [i for i in os.listdir() if check_dir_if_wanted(i)]
+    if SORTED_INDEX:
+        list.sort()
+
+    return list
+
+
+def insert_indexes(dir_names):
+
+    def create_header(dir_name):
+        return r"## " + dir_name + "\n\n"
+
+    def create_link(dir_name, filename):
+        return "- [" + filename.split(".")[0] + \
+            "](" + quote(f"{dir_name}/{filename}") + ")\n"
+
+    def create_indexes(dir_names):
+        str = ""
+
+        for dir_name in dir_names:
+            # Başlık oluşturma
+            str += create_header(dir_name)
+
+            # Dizindeki dosya isimlerini alma ve sıralama
+            filenames = os.listdir(dir_name)
+            filenames.sort()
+
+            # Verileri sıralama ve işleme
+            for filename in filenames:
+                # Markdown dosyası ise bağlantı oluşturma
+                if INDEXED_FILE_EXT in filename:
+                    filename, _ = os.path.splitext(filename)
+                    str += create_link(dir_name, filename + INDEXED_FILE_EXT)
+
+            # Yeni alt başlık için boş satır oluşturma
+            str += "\n"
+
+        return str
 
     # README'yi okuma
     file_str = ""
@@ -64,7 +95,7 @@ def update() -> None:
 
                     # Dosyaların indekslerini oluşturup ekleme
                     file_str += "<!-- Index -->" + "\n\n"
-                    file_str += print_dirs_contents(dir_names)
+                    file_str += create_indexes(dir_names)
                 else:
                     # İkinci index için okuma modunu aktif etme
                     save_to_file = True
@@ -79,6 +110,18 @@ def update() -> None:
     # Yeni metni dosyaya yazma
     with open("README.md", "w", encoding="utf-8") as file:
         file.writelines(file_str)
+
+
+def update() -> None:
+    """README'de indeksleme oluşturucu
+    README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliştirir.
+    """
+
+    # Dizinleri sıralı olarak alma
+    dir_names = list_wanted_dir()
+
+    # İndeksleri dosya arasına yerleştirme
+    insert_indexes(dir_names)
 
     print("Updated! ~YEmreAk")
 

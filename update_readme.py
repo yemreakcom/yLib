@@ -14,7 +14,7 @@ from urllib.parse import quote
 # Sıralı indeksleme
 SORTED_INDEX = True
 # Sadece bu veriyi barındıranları indeksleme (hepsi için '')
-INDEXED_FILE_EXT = '.md'
+INDEXED_FILE_EXT = ''
 
 # Gizli dosyaları atlama
 SKIP_PRIVATE_FOLDER = True

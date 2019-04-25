@@ -55,6 +55,8 @@ Birkaç distro örneği:
       - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
       - [Dast to Panel](#dast-to-panel)
       - [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
+      - [Clipboard Indicator](#clipboard-indicator)
+      - [EasyScreenCast](#easyscreencast)
   - [Gedit Eklentileri](#gedit-eklentileri)
     - [Çoklu İmleç Desteği (Multi Cursor)](#%C3%A7oklu-i%CC%87mle%C3%A7-deste%C4%9Fi-multi-cursor)
   - [Yazılım Araçları Kurulumu (VsCode ve Git)](#yaz%C4%B1l%C4%B1m-ara%C3%A7lar%C4%B1-kurulumu-vscode-ve-git)
@@ -493,6 +495,18 @@ Emoji klavyesi ile emojiyi panoya kopyalar, [buradan](https://extensions.gnome.o
 
 - <kbd>CTRL</kbd> + <kbd>V</kbd> ile yapıştırarak kullanabilirsiniz
 - <kbd>SUPER</kbd> + <kbd>E</kbd> Emoji klavyesini açar
+
+##### Clipboard Indicator
+
+Pano'yu yönetme imkanı sağlar, [buradan](https://extensions.gnome.org/extension/779/clipboard-indicator/) indirebilirsin.
+
+##### EasyScreenCast
+
+Ekranı paylaşma eklentisidir. Kurulum öncesi alttaki komutla gereksinimleri kurman gerekmektedir. Eklentiyi kurmak için [buraya](https://extensions.gnome.org/extension/690/easyscreencast/) tıklayabilirsin.
+
+```sh
+sudo apt-get install gir1.2-clutter-1.0 gir1.2-clutter-gst-3.0 gir1.2-gtkclutter-1.0
+```
 
 ### Gedit Eklentileri
 

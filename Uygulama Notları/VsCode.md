@@ -211,7 +211,7 @@ Değişkenlerin kullanım şekilleri:
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+[KeyI]",
+        "key": "ctrl+[KeyI] ctrl+[KeyI]",
         "command": "git.sync"
     },
     {
@@ -224,18 +224,8 @@ Değişkenlerin kullanım şekilleri:
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+k ctrl+0",
-        "command": "-editor.foldAll",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+[KeyI] ctrl+o",
         "command": "editor.unfoldAll",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+j",
-        "command": "-editor.unfoldAll",
         "when": "editorTextFocus"
     }
 ]

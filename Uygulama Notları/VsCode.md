@@ -7,6 +7,7 @@
   - [Verimlilik Kısayolları](#verimlilik-k%C4%B1sayollar%C4%B1)
     - [İmleç Kısayolalrı](#i%CC%87mle%C3%A7-k%C4%B1sayolalr%C4%B1)
     - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
+    - [Editör Kısayolları](#edit%C3%B6r-k%C4%B1sayollar%C4%B1)
     - [Görünüm Kısayolları](#g%C3%B6r%C3%BCn%C3%BCm-k%C4%B1sayollar%C4%B1)
 - [Faydalı Eklentiler](#faydal%C4%B1-eklentiler)
   - [Verimlilik Eklentileri](#verimlilik-eklentileri)
@@ -59,6 +60,18 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
 - <kbd>ALT</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> Satırı taşıma
+
+#### Editör Kısayolları
+
+- Tüm kodları gizleme (*fold all*)
+  - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>K</kbd>
+  - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>0</kbd> (sıfır)
+  - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>0</kbd> (sıfır)
+
+- Tüm kodları gösterme (*unfold all*)
+  - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>O</kbd> (o harfi)
+  - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>J</kbd> (sıfır)
+  - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>J</kbd> (sıfır)
 
 #### Görünüm Kısayolları
 
@@ -186,6 +199,7 @@ Değişkenlerin kullanım şekilleri:
 ### Editör Klavye Kısayollarım
 
 ```json
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+[Backquote]",
@@ -201,12 +215,18 @@ Değişkenlerin kullanım şekilleri:
         "command": "git.sync"
     },
     {
-        "key": "shift+f10",
+        "key": "f10",
         "command": "python.execInTerminal"
     },
     {
-        "key": "ctrl+[KeyI] ctrl+p",
-        "command": "git.pullRebase"
+        "key": "ctrl+[KeyI] ctrl+k",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+[KeyI] ctrl+o",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus"
     }
 ]
 ```

@@ -4,11 +4,10 @@
 
 - [VsCode kısayolları](#vscode-k%C4%B1sayollar%C4%B1)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
-  - [Verimlilik Kısayolları](#verimlilik-k%C4%B1sayollar%C4%B1)
-    - [İmleç Kısayolalrı](#i%CC%87mle%C3%A7-k%C4%B1sayolalr%C4%B1)
-    - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
-    - [Editör Kısayolları](#edit%C3%B6r-k%C4%B1sayollar%C4%B1)
-    - [Görünüm Kısayolları](#g%C3%B6r%C3%BCn%C3%BCm-k%C4%B1sayollar%C4%B1)
+  - [İmleç Kısayolalrı](#i%CC%87mle%C3%A7-k%C4%B1sayolalr%C4%B1)
+  - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
+  - [Editör Kısayolları](#edit%C3%B6r-k%C4%B1sayollar%C4%B1)
+  - [Görünüm Kısayolları](#g%C3%B6r%C3%BCn%C3%BCm-k%C4%B1sayollar%C4%B1)
 - [Faydalı Eklentiler](#faydal%C4%B1-eklentiler)
   - [Verimlilik Eklentileri](#verimlilik-eklentileri)
   - [Farkındalık Eklentileri](#fark%C4%B1ndal%C4%B1k-eklentileri)
@@ -46,34 +45,32 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 | `>`     | Komutlarda arama        |
 | `?`     | Yardım                  |
 
-### Verimlilik Kısayolları
-
-#### İmleç Kısayolalrı
+### İmleç Kısayolalrı
 
 - <kbd>ALT</kbd> Birden fazla işaretçi belirleme
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> İşaretçi sayısını arttırma
 - <kbd>CTRL</kbd> + <kbd>U</kbd> Bir önceki imleci seçer
 
-#### Metin Kısayolları
+### Metin Kısayolları
 
 - <kbd>CTRL</kbd> + <kbd>D</kbd> Kelimeyi seçme
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
 - <kbd>ALT</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> Satırı taşıma
 
-#### Editör Kısayolları
+### Editör Kısayolları
 
+- <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> Seçili alanı yorum satırı yapma
 - Tüm kodları gizleme (*fold all*)
   - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>K</kbd>
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>0</kbd> (sıfır)
   - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>0</kbd> (sıfır)
-
 - Tüm kodları gösterme (*unfold all*)
   - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>O</kbd> (o harfi)
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>J</kbd> (sıfır)
   - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>J</kbd> (sıfır)
 
-#### Görünüm Kısayolları
+### Görünüm Kısayolları
 
 - <kbd>CTRL</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> Görünen ekranı kaydırma
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> *Markdown preview*'i açar

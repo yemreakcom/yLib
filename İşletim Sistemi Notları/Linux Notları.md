@@ -93,7 +93,7 @@ Birkaç distro örneği:
 
 ### Linux Yapılandırma Ayarları
 
-İşletim sistemi üzerinde yapmış olduğunuz değişiklikleri yedekeleme ve format durumunda yeniden yapılandırmaya harcanan vakti engellemek için kullanılır.
+İşletim sistemi üzerinde yapmış olduğunuz değişikliklerin hepsi `dconf` komutu tarafından kontrol edilir.
 
 #### Yapılandırma Ayalarını Dosyaya Aktarma
 

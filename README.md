@@ -41,6 +41,10 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 - [Staj İlanları](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1.md)
 - [Çamaşır Makinesi](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi.md)
 
+## Karma Bilgiler
+
+- [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
+
 ## Programlama Notları
 
 - [Android](Programlama%20Notlar%C4%B1/Android.md)

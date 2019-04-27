@@ -22,7 +22,7 @@
 - [Yapılacaklar](#yap%C4%B1lacaklar)
   - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
 - [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
-- [Karma Bilgiler](#karma-bilgiler)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
 ## İÜ-CE Ders Notları
@@ -100,6 +100,7 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 - [Lisanslar](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Lisanslar.md)
 - [OpenCart](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCart.md)
 - [Protocol Buffer (Protobuf)](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Protocol%20Buffer%20%28Protobuf%29.md)
+- [Selenium](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
 - [Terimler](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
 
@@ -143,10 +144,13 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 - Önce sabit değerli yaz, sonrasında `CTRL`+ `F` ile sabitleri değişken haline dönüştür
 - Terimler *italik*, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
 
-## Karma Bilgiler
+## Harici Bağlantılar
 
 - [The Best Font for Resume](https://www.businessnewsdaily.com/5331-best-resume-fonts.html)
 - [[Yaratıcı Fikirler için Tasarımlar](https://www.behance.net/)]
+- [Açık API listesi][[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]]
+
+[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
 
 ## Lisans ve Teferruatlar
 

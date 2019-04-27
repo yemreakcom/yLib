@@ -1,6 +1,8 @@
 # Python <!-- omit in toc -->
 
-Bir başka faydalı kaynak olarak [buradaki][Fuatbeser Python Notları] *repo*'ya bakabilirsin.
+- Bir başka faydalı kaynak olarak [buradaki][Fuatbeser Python Notları] *repo*'ya bakabilirsin.
+- Python örnekleri için [buraya](https://pythonprogramming.net/) bakabilirsin.
+- Mobile dev için Kiv çok iyidir, çoklu dokunma desteği sağlar.
 
 > Ek kaynak için [harici kaynaklara](#harici-kaynaklar) bakmayı unutma
 
@@ -1830,6 +1832,8 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 - [How can I code OpenCV to use GPU using Python?](https://www.quora.com/How-can-I-code-OpenCV-to-use-GPU-using-Python)
 - [Google Keep to Text](https://github.com/HardFork/KeepToText)
 - [Python ile QuickDraw Projesi][Quick Draw]
+- [7 Top Python GUI Frameworks][7 Top Python GUI Frameworks]
 
 [Fuatbeser Python Notları]: https://github.com/fuatbeser/python-notlarim
 [Quick Draw]: https://github.com/vietnguyen91/QuickDraw
+[7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/

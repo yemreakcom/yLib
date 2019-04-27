@@ -43,7 +43,7 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 
 ## Karma Bilgiler
 
-- [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
+- [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar)
 
 ## Programlama Notları
 

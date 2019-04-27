@@ -14,76 +14,81 @@ Birkaç distro örneği:
 > `Home` tuşu ile yukarı yönelebilirsin.
 
 - [Linux Genel Kullanım Notları](#linux-genel-kullan%C4%B1m-notlar%C4%B1)
-  - [Linux Yapılandırma Ayarları](#linux-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
-    - [Yapılandırma Ayalarını Dosyaya Aktarma](#yap%C4%B1land%C4%B1rma-ayalar%C4%B1n%C4%B1-dosyaya-aktarma)
-    - [Yapılandırma Ayarlarını Dosyadan Alma](#yap%C4%B1land%C4%B1rma-ayarlar%C4%B1n%C4%B1-dosyadan-alma)
-- [Linux Terminali Notları](#linux-terminali-notlar%C4%B1)
-  - [Terminal Numaları](#terminal-numalar%C4%B1)
-  - [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
-  - [Kurulum Notları](#kurulum-notlar%C4%B1)
-    - [Snapd Kurulum](#snapd-kurulum)
-    - [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
-    - [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
-    - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
-    - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
-  - [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
-    - [Desktop kısayolu oluşturma](#desktop-k%C4%B1sayolu-olu%C5%9Fturma)
-  - [Terminalde Yazdırma İşlemleri (Echo)](#terminalde-yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
-    - [Değişkeni Ekrana Basma](#de%C4%9Fi%C5%9Fkeni-ekrana-basma)
-    - [Komut Çıktısını Ekrana Basma](#komut-%C3%A7%C4%B1kt%C4%B1s%C4%B1n%C4%B1-ekrana-basma)
-    - [Çıktıları Gizleme](#%C3%A7%C4%B1kt%C4%B1lar%C4%B1-gizleme)
-    - [Ekran Yerine Dosyaya Basma](#ekran-yerine-dosyaya-basma)
-  - [Terminalde For Döngüsü (For Loop)](#terminalde-for-d%C3%B6ng%C3%BCs%C3%BC-for-loop)
-    - [Her Dizine For Döngüsü](#her-dizine-for-d%C3%B6ng%C3%BCs%C3%BC)
-      - [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
-      - [Alt Dizinler Dahil](#alt-dizinler-dahil)
-  - [Donanım Komutları](#donan%C4%B1m-komutlar%C4%B1)
+	- [Linux Yapılandırma Ayarları](#linux-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
 - [Linux Kısayolları](#linux-k%C4%B1sayollar%C4%B1)
-  - [Uygulama Kısayolları](#uygulama-k%C4%B1sayollar%C4%B1)
-  - [Panel Kısayolları](#panel-k%C4%B1sayollar%C4%B1)
-  - [Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları](#ubuntu-i%C3%A7in-ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-ve-kayd%C4%B1-k%C4%B1sayollar%C4%B1)
+	- [Uygulama Kısayolları](#uygulama-k%C4%B1sayollar%C4%B1)
+	- [Panel Kısayolları](#panel-k%C4%B1sayollar%C4%B1)
+	- [Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları](#ubuntu-i%C3%A7in-ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-ve-kayd%C4%B1-k%C4%B1sayollar%C4%B1)
+		- [Yapılandırma Ayalarını Dosyaya Aktarma](#yap%C4%B1land%C4%B1rma-ayalar%C4%B1n%C4%B1-dosyaya-aktarma)
+		- [Yapılandırma Ayarlarını Dosyadan Alma](#yap%C4%B1land%C4%B1rma-ayarlar%C4%B1n%C4%B1-dosyadan-alma)
+- [Linux Terminali Notları](#linux-terminali-notlar%C4%B1)
+	- [Terminal Numaları](#terminal-numalar%C4%B1)
+	- [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
+	- [Kurulum Notları](#kurulum-notlar%C4%B1)
+		- [Snapd Kurulum](#snapd-kurulum)
+		- [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
+		- [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
+		- [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
+		- [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
+	- [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
+		- [Desktop kısayolu oluşturma](#desktop-k%C4%B1sayolu-olu%C5%9Fturma)
 - [Linux Değişkenleri](#linux-de%C4%9Fi%C5%9Fkenleri)
-  - [Temel Değişkenler](#temel-de%C4%9Fi%C5%9Fkenler)
-  - [Komut Çıktısını Ele Alma](#komut-%C3%A7%C4%B1kt%C4%B1s%C4%B1n%C4%B1-ele-alma)
+	- [Temel Değişkenler](#temel-de%C4%9Fi%C5%9Fkenler)
+	- [Komut Çıktısını Ele Alma](#komut-%C3%A7%C4%B1kt%C4%B1s%C4%B1n%C4%B1-ele-alma)
 - [Linux Temel Dosyaları](#linux-temel-dosyalar%C4%B1)
 - [Faydalı Uygulamalar](#faydal%C4%B1-uygulamalar)
-  - [Temel Araçların Kurulumu (Flameshot, Font, Gnome Tweaaks, Unrar)](#temel-ara%C3%A7lar%C4%B1n-kurulumu-flameshot-font-gnome-tweaaks-unrar)
-    - [Flameshot Hakkında Notlar](#flameshot-hakk%C4%B1nda-notlar)
-  - [Sistem Bakım Aracı Kurulumu (Stacer)](#sistem-bak%C4%B1m-arac%C4%B1-kurulumu-stacer)
-    - [Paket Yöneticisi Üzerinden Stacer Kurulumu](#paket-y%C3%B6neticisi-%C3%BCzerinden-stacer-kurulumu)
-  - [Tarayıcı Kurulumu (Chrome)](#taray%C4%B1c%C4%B1-kurulumu-chrome)
-    - [Chrome Gnome Eklentisi](#chrome-gnome-eklentisi)
-    - [Gnome Eklentileri](#gnome-eklentileri)
-      - [Ubuntu Üstteki Çubuğu Gizleme](#ubuntu-%C3%BCstteki-%C3%A7ubu%C4%9Fu-gizleme)
-      - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
-      - [Dast to Panel](#dast-to-panel)
-      - [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
-      - [Clipboard Indicator](#clipboard-indicator)
-      - [EasyScreenCast](#easyscreencast)
-  - [Gedit Eklentileri](#gedit-eklentileri)
-    - [Çoklu İmleç Desteği (Multi Cursor)](#%C3%A7oklu-i%CC%87mle%C3%A7-deste%C4%9Fi-multi-cursor)
-  - [Yazılım Araçları Kurulumu (VsCode ve Git)](#yaz%C4%B1l%C4%B1m-ara%C3%A7lar%C4%B1-kurulumu-vscode-ve-git)
-  - [Miniconda3 Kurulumu](#miniconda3-kurulumu)
-  - [Nodejs Kurulumu](#nodejs-kurulumu)
-  - [Xampp Kurulumu](#xampp-kurulumu)
-  - [Postgresql Kurulumu](#postgresql-kurulumu)
-    - [Postgresql JDBC Driver Kurulumu](#postgresql-jdbc-driver-kurulumu)
-  - [Wine Kurulumu](#wine-kurulumu)
-  - [Terminal Üzerinden Markdown to PDF](#terminal-%C3%BCzerinden-markdown-to-pdf)
-  - [Terminal Üzerinden Çevirici](#terminal-%C3%BCzerinden-%C3%A7evirici)
-  - [Video Düzenleyici Kurulumu (Open Shot)](#video-d%C3%BCzenleyici-kurulumu-open-shot)
-  - [Indirme Yöneticisi Kurulumu (Uget)](#indirme-y%C3%B6neticisi-kurulumu-uget)
-  - [ADB & Fastboot (Android Tools) Kurulumu](#adb--fastboot-android-tools-kurulumu)
-  - [League of Legends](#league-of-legends)
+	- [Temel Araçların Kurulumu (Flameshot, Font, Gnome Tweaaks, Unrar)](#temel-ara%C3%A7lar%C4%B1n-kurulumu-flameshot-font-gnome-tweaaks-unrar)
+		- [Flameshot Hakkında Notlar](#flameshot-hakk%C4%B1nda-notlar)
+	- [Sistem Bakım Aracı Kurulumu (Stacer)](#sistem-bak%C4%B1m-arac%C4%B1-kurulumu-stacer)
+		- [Paket Yöneticisi Üzerinden Stacer Kurulumu](#paket-y%C3%B6neticisi-%C3%BCzerinden-stacer-kurulumu)
+	- [Tarayıcı Kurulumu (Chrome)](#taray%C4%B1c%C4%B1-kurulumu-chrome)
+		- [Chrome Gnome Eklentisi](#chrome-gnome-eklentisi)
+		- [Gnome Eklentileri](#gnome-eklentileri)
+			- [Ubuntu Üstteki Çubuğu Gizleme](#ubuntu-%C3%BCstteki-%C3%A7ubu%C4%9Fu-gizleme)
+			- [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
+			- [Dast to Panel](#dast-to-panel)
+			- [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
+			- [Clipboard Indicator](#clipboard-indicator)
+			- [EasyScreenCast](#easyscreencast)
+	- [Gedit Eklentileri](#gedit-eklentileri)
+		- [Çoklu İmleç Desteği (Multi Cursor)](#%C3%A7oklu-i%CC%87mle%C3%A7-deste%C4%9Fi-multi-cursor)
+	- [Yazılım Araçları Kurulumu (VsCode ve Git)](#yaz%C4%B1l%C4%B1m-ara%C3%A7lar%C4%B1-kurulumu-vscode-ve-git)
+	- [Miniconda3 Kurulumu](#miniconda3-kurulumu)
+	- [Nodejs Kurulumu](#nodejs-kurulumu)
+	- [Xampp Kurulumu](#xampp-kurulumu)
+	- [Postgresql Kurulumu](#postgresql-kurulumu)
+		- [Postgresql JDBC Driver Kurulumu](#postgresql-jdbc-driver-kurulumu)
+	- [Wine Kurulumu](#wine-kurulumu)
+	- [Terminal Üzerinden Markdown to PDF](#terminal-%C3%BCzerinden-markdown-to-pdf)
+	- [Terminal Üzerinden Çevirici](#terminal-%C3%BCzerinden-%C3%A7evirici)
+	- [Video Düzenleyici Kurulumu (Open Shot)](#video-d%C3%BCzenleyici-kurulumu-open-shot)
+	- [Indirme Yöneticisi Kurulumu (Uget)](#indirme-y%C3%B6neticisi-kurulumu-uget)
+	- [ADB & Fastboot (Android Tools) Kurulumu](#adb--fastboot-android-tools-kurulumu)
+	- [League of Legends](#league-of-legends)
+- [Batch Script](#batch-script)
+	- [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
+		- [Değişkeni Ekrana Basma](#de%C4%9Fi%C5%9Fkeni-ekrana-basma)
+		- [Komut Çıktısını Ekrana Basma](#komut-%C3%A7%C4%B1kt%C4%B1s%C4%B1n%C4%B1-ekrana-basma)
+		- [Çıktıları Gizleme](#%C3%A7%C4%B1kt%C4%B1lar%C4%B1-gizleme)
+		- [Ekran Yerine Dosyaya Basma](#ekran-yerine-dosyaya-basma)
+	- [Terminalde Seçim Yaptırma](#terminalde-se%C3%A7im-yapt%C4%B1rma)
+		- [Switch - Case Yapısı](#switch---case-yap%C4%B1s%C4%B1)
+		- [Select Yapısı](#select-yap%C4%B1s%C4%B1)
+		- [Çok Satırlı Seçim Yapısı](#%C3%A7ok-sat%C4%B1rl%C4%B1-se%C3%A7im-yap%C4%B1s%C4%B1)
+	- [Terminalde For Döngüsü (For Loop)](#terminalde-for-d%C3%B6ng%C3%BCs%C3%BC-for-loop)
+		- [Her Dizine For Döngüsü](#her-dizine-for-d%C3%B6ng%C3%BCs%C3%BC)
+			- [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
+			- [Alt Dizinler Dahil](#alt-dizinler-dahil)
 - [Faydalı Gelişmiş Bilgiler](#faydal%C4%B1-geli%C5%9Fmi%C5%9F-bilgiler)
-  - [Window Manager Controls](#window-manager-controls)
-  - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
-  - [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
-  - [Kernel Güncelleme](#kernel-g%C3%BCncelleme)
-  - [Bashrc Dosyası Yedeği](#bashrc-dosyas%C4%B1-yede%C4%9Fi)
-  - [Silinen Yerel Dosyaları Kurtarma](#silinen-yerel-dosyalar%C4%B1-kurtarma)
-- [Process İşlemleri](#process-i%CC%87%C5%9Flemleri)
-  - [Process Id (PID) Bulma](#process-id-pid-bulma)
+	- [Window Manager Controls](#window-manager-controls)
+	- [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
+	- [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
+	- [Donanım Komutları](#donan%C4%B1m-komutlar%C4%B1)
+	- [Silinen Yerel Dosyaları Kurtarma](#silinen-yerel-dosyalar%C4%B1-kurtarma)
+	- [Process İşlemleri](#process-i%CC%87%C5%9Flemleri)
+		- [Process Id (PID) Bulma](#process-id-pid-bulma)
+	- [Bashrc Dosyası Yedeği](#bashrc-dosyas%C4%B1-yede%C4%9Fi)
+	- [Kernel Güncelleme](#kernel-g%C3%BCncelleme)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Linux Genel Kullanım Notları
@@ -94,6 +99,44 @@ Birkaç distro örneği:
 ### Linux Yapılandırma Ayarları
 
 İşletim sistemi üzerinde yapmış olduğunuz değişikliklerin hepsi `dconf` komutu tarafından kontrol edilir.
+
+## Linux Kısayolları
+
+### Uygulama Kısayolları
+
+| Kısayol                         | Açıklama                                     |
+| ------------------------------- | -------------------------------------------- |
+| <kbd>ALT</kbd> + <kbd>TAB</kbd> | Farklı uygulama türleri arasında hızlı geçiş |
+| <kbd>ALT</kbd>+ <kbd>"</kbd>    | Aynı uygulama türleri arasında hızlı geçiş   |
+| <kbd>ALT</kbd>+ <kbd>ESC</kbd>  | Son uygulamaya hızlı geçiş                   |
+
+- <kbd>TAB</kbd>, <kbd>CAPS LOCK</kbd> tuşu üstündeki iki yönlü oku ifade eder.
+- <kbd>"</kbd>, <kbd>TAB</kbd> üstündeki tuşu temsil eder.
+
+### Panel Kısayolları
+
+| Kısayol                                                   | Açıklama                |
+| --------------------------------------------------------- | ----------------------- |
+| <kbd>SUPER</kbd> + <kbd>`<sayı>`</kbd>                    | Uygulamarı çalıştırma   |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı gizleme      |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>`<sayı>`</kbd>  | Uygulamayı yeniden açma |
+
+- <kbd>`<sayı>`</kbd> Sayı tuşları
+
+### Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları
+
+Orjinal sayfayı görmek istiyorsan [buraya](https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html) tıklayabilirsin.
+
+| Kısayol                                                            | Açıklama                                          |
+| ------------------------------------------------------------------ | ------------------------------------------------- |
+| <kbd>PRINT SCREEN</kbd>                                            | Ekran görüntüsü alma                              |
+| <kbd>ALT</kbd> + <kbd>PRINT SCREEN</kbd>                           | Üzerinde bulunduğumuz pencerenin görüntüsünü alma |
+| <kbd>SHIFT</kbd>+ <kbd>PRINT SCREN</kbd>                           | Seçilecek alnın görüntüsünü alma                  |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Ekranı komple kayıt eder                          |
+
+- <kbd>CTRL</kbd> tuşuna da basılırsa `$HOME/Pictures` ya da `HOME/Videos` dizinleri yerine panoya kayıt edilir.
+
+> Ekran görüntüsü olarak [flameshot][flameshot], ekran kayıt edicisi olarak [simplescreenrecorder][simplescreenrecorder] uygulamları önerilir.
 
 #### Yapılandırma Ayalarını Dosyaya Aktarma
 
@@ -270,114 +313,6 @@ Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir ol
 chmod +x dosyadi.desktop
 ```
 
-### Terminalde Yazdırma İşlemleri (Echo)
-
-#### Değişkeni Ekrana Basma
-
-```sh
-echo $PYTHONPATH
-```
-
-#### Komut Çıktısını Ekrana Basma
-
-```sh
-echo $(pwd)
-```
-
-#### Çıktıları Gizleme
-
-```sh
-@Echo off
-```
-
-#### Ekran Yerine Dosyaya Basma
-
-| Komut                            | Açıklama                                                      |
-| -------------------------------- | ------------------------------------------------------------- |
-| `echo "<metin>" > <dosya_yolu>`  | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
-| `echo "<metin>" >> <dosya_yolu>` | Verilen metni dosyaya ekleme                                  |
-
-### Terminalde For Döngüsü (For Loop)
-
-```sh
-for f in *; do
-    echo "-> $f"
-done
-```
-
-#### Her Dizine For Döngüsü
-
-##### Alt Dizinler Dahil Değil
-
-```sh
-for D in *; do
-    if [ -d "${D}" ]; then
-        echo "${D}"   # your processing here
-    fi
-done
-```
-
-```sh
-for D in *; do [ -d "${D}" ] && my_command; done
-```
-
-```sh
-for D in */; do my_command; done
-```
-
-##### Alt Dizinler Dahil
-
-```sh
-for D in `find . -type d`
-do
-    //Do whatever you need with D
-done
-```
-
-### Donanım Komutları
-
-- `nproc` İşlemci çekirdek sayısını gösterir.
-- `uname -v` Kernel sürümünü gösterir
-- `lspci` Donanum bilgilerini gösterir
-
-## Linux Kısayolları
-
-### Uygulama Kısayolları
-
-| Kısayol                         | Açıklama                                     |
-| ------------------------------- | -------------------------------------------- |
-| <kbd>ALT</kbd> + <kbd>TAB</kbd> | Farklı uygulama türleri arasında hızlı geçiş |
-| <kbd>ALT</kbd>+ <kbd>"</kbd>    | Aynı uygulama türleri arasında hızlı geçiş   |
-| <kbd>ALT</kbd>+ <kbd>ESC</kbd>  | Son uygulamaya hızlı geçiş                   |
-
-- <kbd>TAB</kbd>, <kbd>CAPS LOCK</kbd> tuşu üstündeki iki yönlü oku ifade eder.
-- <kbd>"</kbd>, <kbd>TAB</kbd> üstündeki tuşu temsil eder.
-
-### Panel Kısayolları
-
-| Kısayol                                                   | Açıklama                |
-| --------------------------------------------------------- | ----------------------- |
-| <kbd>SUPER</kbd> + <kbd>`<sayı>`</kbd>                    | Uygulamarı çalıştırma   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı gizleme      |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>`<sayı>`</kbd>  | Uygulamayı yeniden açma |
-
-- <kbd>`<sayı>`</kbd> Sayı tuşları
-
-### Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları
-
-Orjinal sayfayı görmek istiyorsan [buraya](https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html) tıklayabilirsin.
-
-| Kısayol                                                            | Açıklama                                          |
-| ------------------------------------------------------------------ | ------------------------------------------------- |
-| <kbd>PRINT SCREEN</kbd>                                            | Ekran görüntüsü alma                              |
-| <kbd>ALT</kbd> + <kbd>PRINT SCREEN</kbd>                           | Üzerinde bulunduğumuz pencerenin görüntüsünü alma |
-| <kbd>SHIFT</kbd>+ <kbd>PRINT SCREN</kbd>                           | Seçilecek alnın görüntüsünü alma                  |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Ekranı komple kayıt eder                          |
-
-- <kbd>CTRL</kbd> tuşuna da basılırsa `$HOME/Pictures` ya da `HOME/Videos` dizinleri yerine panoya kayıt edilir.
-
-> Ekran görüntüsü olarak [flameshot][flameshot], ekran kayıt edicisi olarak [simplescreenrecorder][simplescreenrecorder] uygulamları önerilir.
-
 ## Linux Değişkenleri
 
 İşletim sisteminde terminal için değişkenler mevcuttur.
@@ -401,12 +336,13 @@ echo $(komut)
 - `komut` Herhangi kullanılabilir komut (örn: nproc)
 - Örnek Kullanım: `echo $(nproc)` İşlemcideki çekirdek sayısını gösterir
 
-> Komutlar hakkında detaylı bilgi almak için [buraya](./Linux_Komutları.md) tıklayabilirsin.
+<!-- TODO Linux komutlarına link ver -->
 
 ## Linux Temel Dosyaları
 
 | Yol                        | Açıklama              |
 | -------------------------- | --------------------- |
+| `~/.bashrc`                | Terminal ayaları      |
 | `~/.config/user-dirs.dirs` | Temel dosya dizinleri |
 
 ## Faydalı Uygulamalar
@@ -709,6 +645,130 @@ adb version
 sudo snap install --edge leagueoflegends --devmode
 ```
 
+## Batch Script
+
+### Yazdırma İşlemleri (Echo)
+
+#### Değişkeni Ekrana Basma
+
+```sh
+echo $PYTHONPATH
+```
+
+#### Komut Çıktısını Ekrana Basma
+
+```sh
+echo $(pwd)
+```
+
+#### Çıktıları Gizleme
+
+```sh
+@Echo off
+```
+
+#### Ekran Yerine Dosyaya Basma
+
+| Komut                            | Açıklama                                                      |
+| -------------------------------- | ------------------------------------------------------------- |
+| `echo "<metin>" > <dosya_yolu>`  | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
+| `echo "<metin>" >> <dosya_yolu>` | Verilen metni dosyaya ekleme                                  |
+
+### Terminalde Seçim Yaptırma
+
+#### Switch - Case Yapısı
+
+```sh
+while true; do
+    read -p "Do you wish to install this program?" yn
+    case $yn in
+        [Yy]* ) make install; break;;
+        [Nn]* ) exit;;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
+```
+
+#### Select Yapısı
+
+```sh
+echo "Do you wish to install this program?"
+select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) make install; break;;
+        No ) exit;;
+    esac
+done
+```
+
+#### Çok Satırlı Seçim Yapısı
+
+```sh
+while true; do
+    read -p "Medya oynatıcısı kurmak ister misin? (vlc) [y/n] " # -n 1 -r
+    case $REPLY in
+        [Yy]* ) {
+            sudo apt install vlc
+
+            while true; do
+                read -p "Medya oynatıcısı kurmak ister misin? (vlc) [y/n] " # -n 1 -r
+                case $REPLY in
+                    [Yy]* ) {
+                        sudo apt install vlc
+                        break
+                    };;
+                    [Nn]* ) {
+                      break
+                    };;
+                esac
+            done
+
+            break
+        };;
+        [Nn]* ) {
+          break
+        };;
+    esac
+done
+```
+
+### Terminalde For Döngüsü (For Loop)
+
+```sh
+for f in *; do
+    echo "-> $f"
+done
+```
+
+#### Her Dizine For Döngüsü
+
+##### Alt Dizinler Dahil Değil
+
+```sh
+for D in *; do
+    if [ -d "${D}" ]; then
+        echo "${D}"   # your processing here
+    fi
+done
+```
+
+```sh
+for D in *; do [ -d "${D}" ] && my_command; done
+```
+
+```sh
+for D in */; do my_command; done
+```
+
+##### Alt Dizinler Dahil
+
+```sh
+for D in `find . -type d`
+do
+    //Do whatever you need with D
+done
+```
+
 ## Faydalı Gelişmiş Bilgiler
 
 ### Window Manager Controls
@@ -734,9 +794,53 @@ xprop | grep WM_CLASS
 - <kbd>CTRL</kbd> + <kbd>S</kbd> e basarak kaytıt edin, <kbd>CTRL</kbd> + <kbd>X</kbd> ile çıkış yapın
 - `sudo update-grub` ile yine grub ayarlarını aktifleştirin
 
-### Kernel Güncelleme
+### Donanım Komutları
 
-Kernel güncelleme yazım için [buraya](https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36) bakabilirsin.
+- `nproc` İşlemci çekirdek sayısını gösterir.
+- `uname -v` Kernel sürümünü gösterir
+- `lspci` Donanum bilgilerini gösterir
+
+### Silinen Yerel Dosyaları Kurtarma
+
+Home dizinin yanlışlıkla (ya da bilinçli 🧐) `rm -rf *` komutu uygulanması durumunda bu sorun meydana gelir. İster en alttaki script ile isterseniz talimatlarla sorunu çözebilirsiniz.
+
+- `cd ~` ile `Home` dizinine gelin ve dizinlerinizi oluşturun
+- `gedit ~/.config/user-dirs.dirs` ile dizinleri ayarların
+- `xdg-user-dirs-update` komutu ile dizinleri güncelleyin
+
+```sh
+cd ~
+mkdir Downloads Templates Shares Documents Musics Pictures Videos Desktop
+echo '# This file is written by xdg-user-dirs-update' > ~/.config/user-dirs.dirs
+echo '# If you want to change or add directories, just edit the line you are' >> ~/.config/user-dirs.dirs
+echo '# interested in. All local changes will be retained on the next run.' >> ~/.config/user-dirs.dirs
+echo '# Format is XDG_xxx_DIR="$HOME/yyy", where yyy is a shell-escaped' >> ~/.config/user-dirs.dirs
+echo '# homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an' >> ~/.config/user-dirs.dirs
+echo '# absolute path. No other format is supported.' >> ~/.config/user-dirs.dirs
+echo '# YEmreAk' >> ~/.config/user-dirs.dirs
+echo 'XDG_DOWNLOAD_DIR="$HOME/Downloads"' >> ~/.config/user-dirs.dirs
+echo 'XDG_TEMPLATES_DIR="$HOME/Templates"' >> ~/.config/user-dirs.dirs
+echo 'XDG_PUBLICSHARE_DIR="$HOME/Shares"' >> ~/.config/user-dirs.dirs
+echo 'XDG_DOCUMENTS_DIR="$HOME/Documents"' >> ~/.config/user-dirs.dirs
+echo 'XDG_MUSIC_DIR="$HOME/Musics"' >> ~/.config/user-dirs.dirs
+echo 'XDG_PICTURES_DIR="$HOME/Pictures"' >> ~/.config/user-dirs.dirs
+echo 'XDG_VIDEOS_DIR="$HOME/Videos"' >> ~/.config/user-dirs.dirs
+echo 'XDG_DESKTOP_DIR="$HOME/Desktop"' >> ~/.config/user-dirs.dirs
+xdg-user-dirs-update
+```
+
+### Process İşlemleri
+
+| Komut   | Açıklama                 |
+| ------- | ------------------------ |
+| `pgrep` | PID (process id) Bulma   |
+| `kill`  | PID öldürme, sonlandırma |
+
+#### Process Id (PID) Bulma
+
+```sh
+pgrep [option] <pattern>
+```
 
 ### Bashrc Dosyası Yedeği
 
@@ -864,56 +968,20 @@ fi
 alias sudo='sudo '
 ```
 
-### Silinen Yerel Dosyaları Kurtarma
+### Kernel Güncelleme
 
-Home dizinin yanlışlıkla (ya da bilinçli 🧐) `rm -rf *` komutu uygulanması durumunda bu sorun meydana gelir. İster en alttaki script ile isterseniz talimatlarla sorunu çözebilirsiniz.
-
-- `cd ~` ile `Home` dizinine gelin ve dizinlerinizi oluşturun
-- `gedit ~/.config/user-dirs.dirs` ile dizinleri ayarların
-- `xdg-user-dirs-update` komutu ile dizinleri güncelleyin
-
-```sh
-cd ~
-mkdir Downloads Templates Shares Documents Musics Pictures Videos Desktop
-echo '# This file is written by xdg-user-dirs-update' > ~/.config/user-dirs.dirs
-echo '# If you want to change or add directories, just edit the line you are' >> ~/.config/user-dirs.dirs
-echo '# interested in. All local changes will be retained on the next run.' >> ~/.config/user-dirs.dirs
-echo '# Format is XDG_xxx_DIR="$HOME/yyy", where yyy is a shell-escaped' >> ~/.config/user-dirs.dirs
-echo '# homedir-relative path, or XDG_xxx_DIR="/yyy", where /yyy is an' >> ~/.config/user-dirs.dirs
-echo '# absolute path. No other format is supported.' >> ~/.config/user-dirs.dirs
-echo '# YEmreAk' >> ~/.config/user-dirs.dirs
-echo 'XDG_DOWNLOAD_DIR="$HOME/Downloads"' >> ~/.config/user-dirs.dirs
-echo 'XDG_TEMPLATES_DIR="$HOME/Templates"' >> ~/.config/user-dirs.dirs
-echo 'XDG_PUBLICSHARE_DIR="$HOME/Shares"' >> ~/.config/user-dirs.dirs
-echo 'XDG_DOCUMENTS_DIR="$HOME/Documents"' >> ~/.config/user-dirs.dirs
-echo 'XDG_MUSIC_DIR="$HOME/Musics"' >> ~/.config/user-dirs.dirs
-echo 'XDG_PICTURES_DIR="$HOME/Pictures"' >> ~/.config/user-dirs.dirs
-echo 'XDG_VIDEOS_DIR="$HOME/Videos"' >> ~/.config/user-dirs.dirs
-echo 'XDG_DESKTOP_DIR="$HOME/Desktop"' >> ~/.config/user-dirs.dirs
-xdg-user-dirs-update
-```
-
-## Process İşlemleri
-
-| Komut   | Açıklama                 |
-| ------- | ------------------------ |
-| `pgrep` | PID (process id) Bulma   |
-| `kill`  | PID öldürme, sonlandırma |
-
-### Process Id (PID) Bulma
-
-```sh
-pgrep [option] <pattern>
-```
+Kernel güncelleme yazım için [buraya](https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36) bakabilirsin.
 
 <!--  Harici Bağlantılar  -->
 
 ## Harici Bağlantılar
 
 - [I somehow deleted my Desktop from nautilus places][Restore Local Folder]
+- [Batch Script ile 'Yes/No' yapısı oluşturma][Batch Script ile 'Yes/No' yapısı oluşturma]
 
 [flameshot]: https://github.com/lupoDharkael/flameshot
 [simplescreenrecorder]: https://www.maartenbaert.be/simplescreenrecorder/
 [Restore Local Folder]: https://askubuntu.com/questions/745255/i-somehow-deleted-my-desktop-from-nautilus-places
 
 [Best Gnome Extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/
+[Batch Script ile 'Yes/No' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490

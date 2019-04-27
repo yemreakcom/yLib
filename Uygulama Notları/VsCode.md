@@ -149,13 +149,14 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 
 ### Proje Yönetimi Eklentileri
 
-| Eklenti                                                                                                     | Açıklama                                 |
-| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)             | Anlık olarak kod paylaşma                |
-| [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) | Proje kısayolları, sık kullanılanlar vs. |
-| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)          | Git yönetimi arayüzü                     |
-| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                  | Git commit geçmişini gösterir            |
-| [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)                   | Docker sanal makinesi için uyumluluk     |
+| Eklenti                                                                                                     | Açıklama                                        |
+| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)             | Anlık olarak kod paylaşma                       |
+| [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) | Proje kısayolları, sık kullanılanlar vs.        |
+| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)          | Git yönetimi arayüzü                            |
+| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                  | Git commit geçmişini gösterir                   |
+| [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)                   | Docker sanal makinesi için uyumluluk            |
+| [GitBlame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)                           | Satırların en son ne zaman değiştiğini gösterir |
 
 ### Yapılandırma Eklentileri
 

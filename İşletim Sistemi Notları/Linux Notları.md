@@ -13,7 +13,10 @@ Birkaç distro örneği:
 
 > `Home` tuşu ile yukarı yönelebilirsin.
 
-- [Linux Kullanım Notları](#linux-kullan%C4%B1m-notlar%C4%B1)
+- [Linux Genel Kullanım Notları](#linux-genel-kullan%C4%B1m-notlar%C4%B1)
+  - [Linux Yapılandırma Ayarları](#linux-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
+    - [Yapılandırma Ayalarını Dosyaya Aktarma](#yap%C4%B1land%C4%B1rma-ayalar%C4%B1n%C4%B1-dosyaya-aktarma)
+    - [Yapılandırma Ayarlarını Dosyadan Alma](#yap%C4%B1land%C4%B1rma-ayarlar%C4%B1n%C4%B1-dosyadan-alma)
 - [Linux Terminali Notları](#linux-terminali-notlar%C4%B1)
   - [Terminal Numaları](#terminal-numalar%C4%B1)
   - [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
@@ -83,10 +86,32 @@ Birkaç distro örneği:
   - [Process Id (PID) Bulma](#process-id-pid-bulma)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
-## Linux Kullanım Notları
+## Linux Genel Kullanım Notları
 
 - Dosya gezgini `nautilus` içerisin <kbd>CTRL</kbd> + <kbd>H</kbd> yapıldığında gizli dosyaları gösterir / gizler
 - <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd> terminali açar
+
+### Linux Yapılandırma Ayarları
+
+İşletim sistemi üzerinde yapmış olduğunuz değişiklikleri yedekeleme ve format durumunda yeniden yapılandırmaya harcanan vakti engellemek için kullanılır.
+
+#### Yapılandırma Ayalarını Dosyaya Aktarma
+
+Yapılandırma ayarlarını `dconf dump <dizin> > <dosya_ismi>`  komutu ile dosyaya aktarabilrisiniz
+
+- `<dizin>` Hangi dizinden itibaren yapılandırma verileri yedeklensin
+  - `/` olursa tüm yapılandırma ayarlarını dahil eder
+- `<dosya_ismi>` Ayarların yazılacağı dosya ismi
+  - `dconf-settings.ini` yaparsanız, `dconf-settings.ini` isimli dosya oluşturup içine ayarları yazacaktır
+
+#### Yapılandırma Ayarlarını Dosyadan Alma
+
+Yapılandırma ayarlarını `dconf load <dizin> < <dosya_ismi>`  komutu ile dosyaya aktarabilrisiniz
+
+- `<dizin>` Hangi dizinden itibaren yapılandırma verileri yedeklensin
+  - `/` olursa tüm yapılandırma ayarlarını dahil eder
+- `<dosya_ismi>` Ayarların alınacağı dosya ismi
+  - `dconf-settings.ini` yaparsanız, `dconf-settings.ini` isimli dosya dosyadan ayarları okuyup sisteme kaydeder
 
 ## Linux Terminali Notları
 

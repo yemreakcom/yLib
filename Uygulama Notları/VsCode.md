@@ -244,6 +244,8 @@ Değişkenlerin kullanım şekilleri:
     // Editör Ayarları
     "editor.fontSize": 15,
     "editor.fontFamily": "Ubuntu Mono, Roboto Mono", // https://fonts.google.com/specimen/Ubuntu+Mono?selection.family=Ubuntu+Mono
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4,
     "editor.formatOnSave": true,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 99,
@@ -257,7 +259,9 @@ Değişkenlerin kullanım şekilleri:
     "git.autofetch": false,
     // Markdownlint ayarları
     "markdownlint.config": {
-        "MD033": false
+        "MD033": false,
+        "MD010": false,
+        "MD007": false
     },
 }
 ```

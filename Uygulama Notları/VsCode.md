@@ -28,6 +28,7 @@
     - [Code Runner Kısayollar](#code-runner-k%C4%B1sayollar)
 - [Debug Ayarları](#debug-ayarlar%C4%B1)
   - [Nodejs için Debug Ayarı](#nodejs-i%C3%A7in-debug-ayar%C4%B1)
+- [VsCode Değişkenleri](#vscode-de%C4%9Fi%C5%9Fkenleri)
 - [Yapılacaklar](#yap%C4%B1lacaklar)
 - [Harici Linkler](#harici-linkler)
 
@@ -334,6 +335,10 @@ Debug ayarlarına erişmek için:
   ]
 }
 ```
+
+## VsCode Değişkenleri
+
+Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables-reference) bakabilirisin.
 
 ## Yapılacaklar
 

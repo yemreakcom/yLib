@@ -67,10 +67,7 @@ Birkaç distro örneği:
   - [League of Legends](#league-of-legends)
 - [Batch Script](#batch-script)
   - [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
-    - [Değişkeni Ekrana Basma](#de%C4%9Fi%C5%9Fkeni-ekrana-basma)
-    - [Komut Çıktısını Ekrana Basma](#komut-%C3%A7%C4%B1kt%C4%B1s%C4%B1n%C4%B1-ekrana-basma)
-    - [Çıktıları Gizleme](#%C3%A7%C4%B1kt%C4%B1lar%C4%B1-gizleme)
-    - [Ekran Yerine Dosyaya Basma](#ekran-yerine-dosyaya-basma)
+  - [Cat ile Yazdırma İşlemi](#cat-ile-yazd%C4%B1rma-i%CC%87%C5%9Flemi)
   - [Terminalde Seçim Yaptırma](#terminalde-se%C3%A7im-yapt%C4%B1rma)
     - [Switch - Case Yapısı](#switch---case-yap%C4%B1s%C4%B1)
     - [Select Yapısı](#select-yap%C4%B1s%C4%B1)
@@ -650,30 +647,40 @@ sudo snap install --edge leagueoflegends --devmode
 
 ### Yazdırma İşlemleri (Echo)
 
-#### Değişkeni Ekrana Basma
-
-```sh
-echo $PYTHONPATH
-```
-
-#### Komut Çıktısını Ekrana Basma
-
-```sh
-echo $(pwd)
-```
-
-#### Çıktıları Gizleme
-
-```sh
-@Echo off
-```
-
-#### Ekran Yerine Dosyaya Basma
-
 | Komut                            | Açıklama                                                      |
 | -------------------------------- | ------------------------------------------------------------- |
+| `echo "<metin>"`                 | Ekrana metni olduğu gibi basma                                |
+| `echo -e "<metin>"`              | Ekrana metni formatlı basma (\n \t gibi karakterler çalışır)  |
+| `echo $<değişken>`               | Ekrana değişken basma                                         |
+| `echo $(<komut>)`                | Ekrana komut çıktısını basma                                  |
 | `echo "<metin>" > <dosya_yolu>`  | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
 | `echo "<metin>" >> <dosya_yolu>` | Verilen metni dosyaya ekleme                                  |
+| `@Echo off`                      | Çıktıları gizleme                                             |
+
+- `<metin>` Ekrana basılacak metin
+  - Örn: `yemreak`
+- `<değişken>` Linux değişkenleri (ortam değişkenleri vs.)
+  - Örn: `PYTHONPATH`, `HOME`
+- `<komut>` Linux komutları
+  - Örn: `pwd`
+- `<dosya_yolu>` Metnin yazılacağı dosyanın yolu
+  - Örn: `yemreak.txt`, `../yemreak.sh`, `~/yemreak.ini`
+
+### Cat ile Yazdırma İşlemi
+
+Dosyaya EOT gelene kadar yazma
+
+```sh
+cat << <sonlandırma_metni> >> <dosya_yolu>
+satır1
+satır2
+<sonlandırma_metni>
+```
+
+- `<sonlandırma_metni>` Bu metin geldiğinde yazma işlemini sonlandırır
+  - Örn: `A` olursa `YemreAK` yazıldığında sonlanmaz, `A` yazıldığında sonlanır.
+- `<dosya_yolu>` Metnin yazılacağı dosyanın yolu
+  - Örn: `yemreak.txt`, `../yemreak.sh`, `~/yemreak.ini`
 
 ### Terminalde Seçim Yaptırma
 

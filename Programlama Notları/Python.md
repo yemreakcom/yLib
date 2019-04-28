@@ -164,11 +164,16 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 
 - `CTRL` + `SHIFT` + `P` yapın
 - Çıkan alana `Python: Select Linter` yazın
-- `pep8` düzenleyicisini seçin
+- `pylint` düzenleyicisini seçin
+  - `pylint` aynı dizindeki modulleri bulamamakta, bu hatananın çözümü için `.pylintrc` dosyasını düzenlemek gerekmekte
+  - <!-- TODO echolu koda çevir -->
+  - `pylint --generate-rcfile .pylintrc` komutunu çalışma dizininde yazdıktan sonra, içini açıp `#init-hook` satırını `init-hook='import sys; system.path.append("${workspaceFolder}")'` ile değiştirin. (Yorum satırı olmaktan kaldırın)
+  - Eğer girintiyi <kbd>TAB</kbd> ile yapıyorsanız `pylint`'de *bug*'a sebebiyet vermekte, <kbd>SPACE</kbd> kullanın
 - Python derleyicinize `autopep8` paketini aşağıdaki komutlarla veya vscode arayüzü ile yükleyin
   - pip install autopep8
   - conda install autopep8
 - Artık `SHIFT` + `ALT` + `F` ile kodları düzenleyebilirsiniz.
+- Dosyaya sağ tıklayarak derleyebilirsiniz.
 
 #### VsCode Debug Yapılandırması
 

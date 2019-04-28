@@ -11,6 +11,7 @@
 
 - [İÜ-CE Ders Notları](#i%CC%87%C3%BC-ce-ders-notlar%C4%B1)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
+- [Karma Bilgiler](#karma-bilgiler)
 - [Programlama Notları](#programlama-notlar%C4%B1)
 - [Proje Yönetimi Notları](#proje-y%C3%B6netimi-notlar%C4%B1)
 - [Teknolojik Alet Notları](#teknolojik-alet-notlar%C4%B1)
@@ -37,83 +38,81 @@ Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. 
 
 ## Günlük Hayat Notları
 
-- [Aydınlatma](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Ayd%C4%B1nlatma)
-- [Staj İlanları](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1)
-- [Çamaşır Makinesi](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi)
+- [Aydınlatmamd](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Ayd%C4%B1nlatmamd)
+- [Staj İlanlarımd](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1md)
+- [Çamaşır Makinesimd](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesimd)
 
 ## Karma Bilgiler
 
-- [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar)
+- [Udemy Ücresiz Kurslarmd](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslarmd)
 
 ## Programlama Notları
 
-- [Android](Programlama%20Notlar%C4%B1/Android)
-- [DOM](Programlama%20Notlar%C4%B1/DOM)
-- [Genel Bilgiler](Programlama%20Notlar%C4%B1/Genel%20Bilgiler)
-- [Java](Programlama%20Notlar%C4%B1/Java)
-- [Javascript](Programlama%20Notlar%C4%B1/Javascript)
-- [Markdown](Programlama%20Notlar%C4%B1/Markdown)
-- [MySQL](Programlama%20Notlar%C4%B1/MySQL)
-- [Nodejs Çok Kullanılan Kütüphaneler](Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler)
-- [Nodejs](Programlama%20Notlar%C4%B1/Nodejs)
-- [Php](Programlama%20Notlar%C4%B1/Php)
-- [Python](Programlama%20Notlar%C4%B1/Python)
-- [React](Programlama%20Notlar%C4%B1/React)
-- [Web Programlama](Programlama%20Notlar%C4%B1/Web%20Programlama)
+- [Androidmd](Programlama%20Notlar%C4%B1/Androidmd)
+- [DOMmd](Programlama%20Notlar%C4%B1/DOMmd)
+- [Genel Bilgilermd](Programlama%20Notlar%C4%B1/Genel%20Bilgilermd)
+- [Javamd](Programlama%20Notlar%C4%B1/Javamd)
+- [Javascriptmd](Programlama%20Notlar%C4%B1/Javascriptmd)
+- [Markdownmd](Programlama%20Notlar%C4%B1/Markdownmd)
+- [MySQLmd](Programlama%20Notlar%C4%B1/MySQLmd)
+- [Nodejs Çok Kullanılan Kütüphanelermd](Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphanelermd)
+- [Nodejsmd](Programlama%20Notlar%C4%B1/Nodejsmd)
+- [Phpmd](Programlama%20Notlar%C4%B1/Phpmd)
+- [Pythonmd](Programlama%20Notlar%C4%B1/Pythonmd)
+- [Reactmd](Programlama%20Notlar%C4%B1/Reactmd)
+- [Web Programlamamd](Programlama%20Notlar%C4%B1/Web%20Programlamamd)
 
 ## Proje Yönetimi Notları
 
-- [Git Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1)
-- [Git için Emojiler](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20i%C3%A7in%20Emojiler)
-- [Github Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1)
-- [Heroku Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1)
-- [Proje Yönetimi](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi)
-- [github_cheat_sheet](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/github_cheat_sheet)
+- [Git Notlarımd](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1md)
+- [Git için Emojilermd](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20i%C3%A7in%20Emojilermd)
+- [Github Notlarımd](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1md)
+- [Heroku Notlarımd](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1md)
+- [Proje Yönetimimd](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimimd)
 
 ## Teknolojik Alet Notları
 
-- [HP Bilgisayar Notları](Teknolojik%20Alet%20Notlar%C4%B1/HP%20Bilgisayar%20Notlar%C4%B1)
-- [HTC Desire 820](Teknolojik%20Alet%20Notlar%C4%B1/HTC%20Desire%20820)
-- [Telefon Rehberini Taşıma](Teknolojik%20Alet%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1ma)
-- [Xiaomi Mi A2 Lite](Teknolojik%20Alet%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Lite)
+- [HP Bilgisayar Notlarımd](Teknolojik%20Alet%20Notlar%C4%B1/HP%20Bilgisayar%20Notlar%C4%B1md)
+- [HTC Desire 820md](Teknolojik%20Alet%20Notlar%C4%B1/HTC%20Desire%20820md)
+- [Telefon Rehberini Taşımamd](Teknolojik%20Alet%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1mamd)
+- [Xiaomi Mi A2 Litemd](Teknolojik%20Alet%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Litemd)
 
 ## Uygulama Notları
 
-- [Anaconda](Uygulama%20Notlar%C4%B1/Anaconda)
-- [Chrome](Uygulama%20Notlar%C4%B1/Chrome)
-- [JetBrains IDE](Uygulama%20Notlar%C4%B1/JetBrains%20IDE)
-- [Karma Notlar](Uygulama%20Notlar%C4%B1/Karma%20Notlar)
-- [LGSV Simulator](Uygulama%20Notlar%C4%B1/LGSV%20Simulator)
-- [Uygulamalar](Uygulama%20Notlar%C4%B1/Uygulamalar)
-- [VsCode](Uygulama%20Notlar%C4%B1/VsCode)
-- [Youtube](Uygulama%20Notlar%C4%B1/Youtube)
+- [Anacondamd](Uygulama%20Notlar%C4%B1/Anacondamd)
+- [Chromemd](Uygulama%20Notlar%C4%B1/Chromemd)
+- [JetBrains IDEmd](Uygulama%20Notlar%C4%B1/JetBrains%20IDEmd)
+- [Karma Notlarmd](Uygulama%20Notlar%C4%B1/Karma%20Notlarmd)
+- [LGSV Simulatormd](Uygulama%20Notlar%C4%B1/LGSV%20Simulatormd)
+- [Uygulamalarmd](Uygulama%20Notlar%C4%B1/Uygulamalarmd)
+- [VsCodemd](Uygulama%20Notlar%C4%B1/VsCodemd)
+- [Youtubemd](Uygulama%20Notlar%C4%B1/Youtubemd)
 
 ## Yapay Zeka Notları
 
-- [Türkçe Yapay Zeka Kaynakları](Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1)
-- [Veri Kümeleri](Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmeleri)
-- [Yapay Zeka Kullanımı](Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Kullan%C4%B1m%C4%B1)
-- [Yapay Zeka Notları](Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1)
+- [Türkçe Yapay Zeka Kaynaklarımd](Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1md)
+- [Veri Kümelerimd](Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmelerimd)
+- [Yapay Zeka Kullanımımd](Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Kullan%C4%B1m%C4%B1md)
+- [Yapay Zeka Notlarımd](Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1md)
 
 ## Yazılım Notları
 
-- [Adb Komutları](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Adb%20Komutlar%C4%B1)
-- [GittiGidiyor Entegrasyon](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/GittiGidiyor%20Entegrasyon)
-- [Google Colabrotory](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Colabrotory)
-- [Google Hacking](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Hacking)
-- [Karma Notlar](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Karma%20Notlar)
-- [Lisanslar](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Lisanslar)
-- [OpenCart](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCart)
-- [Protocol Buffer (Protobuf)](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Protocol%20Buffer%20%28Protobuf%29)
-- [Selenium](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium)
-- [Terimler](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler)
-- [Wordpress](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress)
+- [Adb Komutlarımd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Adb%20Komutlar%C4%B1md)
+- [GittiGidiyor Entegrasyonmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/GittiGidiyor%20Entegrasyonmd)
+- [Google Colabrotorymd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Colabrotorymd)
+- [Google Hackingmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Hackingmd)
+- [Karma Notlarmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Karma%20Notlarmd)
+- [Lisanslarmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Lisanslarmd)
+- [OpenCartmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCartmd)
+- [Protocol Buffer (Protobuf)md](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Protocol%20Buffer%20%28Protobuf%29md)
+- [Seleniummd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Seleniummd)
+- [Terimlermd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimlermd)
+- [Wordpressmd](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpressmd)
 
 ## İşletim Sistemi Notları
 
-- [Linux Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1)
-- [Windows 10 Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1)
-- [Windows10 Kaynakları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows10%20Kaynaklar%C4%B1)
+- [Linux Notlarımd](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1md)
+- [Windows 10 Notlarımd](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1md)
 
 <!-- Index -->
 

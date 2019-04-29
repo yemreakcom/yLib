@@ -9,7 +9,7 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [İÜ-CE Ders Notları](#i%CC%87%C3%BC-ce-ders-notlar%C4%B1)
+- [IstanbulUniversity - CE](#istanbuluniversity---ce)
 - [Scipts](#scipts)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
 - [Karma Bilgiler](#karma-bilgiler)
@@ -27,7 +27,7 @@
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
-## İÜ-CE Ders Notları
+## IstanbulUniversity - CE
 
 Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. Yeni *repositoy* açılma amacı:
 
@@ -178,5 +178,5 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ~ Yunus Emre Ak
 
-[İÜ-CE Ders Notları]: https://github.com/yedhrab/IU-CE-DersNotlari
+[İÜ-CE Ders Notları]: https://github.com/yedhrab/IstanbulUniversity-CE
 [Scripts]: https://github.com/yedhrab/Scripts

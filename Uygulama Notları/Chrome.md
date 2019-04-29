@@ -65,8 +65,7 @@
 | Eklenti                                                                                                                         | Açıklama                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
 | [App For WA Webb](https://chrome.google.com/webstore/detail/app-for-wa-web/bpocngoedbjmnmkngoohaccdmidcjjhm?hl=en)              | Whatsapp wep yerine oldukça kullanışlı basit açılır pencere          |
-| [God Mode for Whatsapp](https://chrome.google.com/webstore/detail/god-mode-fo                                                   |
-| r-whatsapp/cgdfebhnckdgckcjhidjnochmahdohad)                                                                                    | Whatsapp wep yerine oldukça kullanışlı ve ek özelliklere sahip popup |
+| [God Mode for Whatsapp](https://chrome.google.com/webstore/detail/god-mode-for-whatsapp/cgdfebhnckdgckcjhidjnochmahdohad)       | Whatsapp wep yerine oldukça kullanışlı ve ek özelliklere sahip popup |
 | [Instagram Veri İndirici](https://chrome.google.com/webstore/detail/batch-media-saver-from-in/plmnmnpijgncjompjiccojbccinacefh) | Instagramdaki verilerini indiren eklenti                             |
 
 ### Programlama Eklentileri

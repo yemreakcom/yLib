@@ -55,20 +55,18 @@ UBUNTU_CODENAME=bionic
 !kill -9 -1
 ```
 
-
-
 ## Komut Parametreleri
 
 - `%` Magic Command
 - `!` Command
-- Python kodu 
+- Python kodu
 
 ### Shell Komutları Kullanımı
 
 Shell komutlarıyla:
 
 - `{ }` arasında python kod parçları
--  `$` Ortam değişkenleri
+- `$` Ortam değişkenleri
 
 ```sh
 TEMP = 'gecici'

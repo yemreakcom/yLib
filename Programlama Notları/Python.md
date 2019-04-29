@@ -189,15 +189,53 @@ Detaylar için [buraya](https://code.visualstudio.com/docs/python/jupyter-suppor
 
 - Kod alanının üstüne `#%%` yazarak olutşurabilirsiniz.
 
-#### VsCode Python Ortamı Ayarlama
+#### VsCode Python Derleyicisi Ayarlama
 
 Aktif olan derleyici ortamı, en altta bulunan durum çubuğunun solunda gösterilmektedir. Değiştirmek için:
 
 - `CTRL` + `SHIFT` + `P` tuş kombinasyonuna basın
 - Çıkan alana `Python: Select Interpreter` yazınız
-- Çıkan ekrandan istediğiniz derleyici ortamını seçiniz
+- Çıkan ekrandan istediğiniz derleyiciyi seçiniz
 
-> PYTHONPATH için `.env` oluşturma bilgisi için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin.
+#### VsCode PYTHONPATH Oluşturma
+
+- Çalışma dizininde `.env` dosyası oluşturun
+- `.env` dosyasının içerisine `PYTHONPATH=` satırını ekleyin
+  - Örnek için bir alttaki başlığa bakınız
+- Vscode ayarlarına `"python.envFile": "${workspaceFolder}/.env"` satırını ekleyin
+- Vscode'u yeniden başlatın
+
+> Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin.
+
+#### Vscode PYTHONPATH Örneği
+
+Resmi döküman için [buraya](https://code.visualstudio.com/docs/python/environments#_environment-variable-definitions-file) bakabilirsin.
+
+- VsCode birden fazla satıra sahip değişken değerlerini kabul etmez
+- Ortam değişklenleri oluşturmak için proje ayarlarından **env file** seçmemiz gerekmekte
+- Ardından içine değişkenlerimizi tanımlamamız gerkemekte
+
+```json
+"python.envFile": "${workspaceFolder}/prod.env"
+```
+
+```sh
+# prod.env
+# Python kaynak dizinleri
+RESEARCH_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research
+OBJECT_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research/object_detection
+SLIM_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research/slim
+SCRIPT_FOLDER=C:/Users/YEmre/Documents/Tensorflow/scripts
+
+# Python modül yolu
+PYTHONPATH=${RESEARCH_FOLDER}:${OBJECT_FOLDER}:${SLIM_FOLDER}:${SCRIPT_FOLDER}
+```
+
+```sh
+PYTHONPATH=./src:${PYTHONPATH}
+```
+
+> Kaynak için [buraya](https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable) bakabilirsin.
 
 #### VsCode Ek Python Ayarları
 
@@ -248,32 +286,6 @@ Alttaki kısayollar `keybindings.json` dosyası içerisinde bulunmalıdır.
   }
 ]
 ```
-
-#### VsCode Python Ortam Değişkenleri
-
-Resmi döküman için [buraya](https://code.visualstudio.com/docs/python/environments#_environment-variable-definitions-file) bakabilirsin.
-
-- VsCode birden fazla satıra sahip değişken değerlerini kabul etmez
-- Ortam değişklenleri oluşturmak için proje ayarlarından **env file** seçmemiz gerekmekte
-- Ardından içine değişkenlerimizi tanımlamamız gerkemekte
-
-```json
-"python.envFile": "${workspaceFolder}/prod.env"
-```
-
-```sh
-# prod.env
-# Python kaynak dizinleri
-RESEARCH_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research
-OBJECT_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research/object_detection
-SLIM_FOLDER=C:/Users/YEmre/Documents/Tensorflow/models/research/slim
-SCRIPT_FOLDER=C:/Users/YEmre/Documents/Tensorflow/scripts
-
-# Python modül yolu
-PYTHONPATH=${RESEARCH_FOLDER}:${OBJECT_FOLDER}:${SLIM_FOLDER}:${SCRIPT_FOLDER}
-```
-
-> Kaynak için [buraya](https://code.visualstudio.com/docs/python/environments#_use-of-the-pythonpath-variable) bakabilirsin.
 
 ### Faydalı Soru & Cevaplar
 
@@ -1232,6 +1244,11 @@ type(Color.RED) # <enum 'Color'>
 Color(1) # <Color.RED: 1>
 Color(3) # <Color.BLUE: 3>
 isinstance(Color.GREEN, Color) # True
+
+# Obje olarka kullanımı
+color = Color.RED
+color.value # 1
+color.name # RED
 ```
 
 ##### Enum Özellikleri
@@ -1644,6 +1661,16 @@ if __name__ == '__main__':
 
 ### Kod Parçaları (Code Snippet)
 
+#### PYTHONPATH Ayarlama
+
+```py
+# Tek başına çalışmak isterse
+if __name__ == "__main__":
+    import os
+    import sys
+    sys.path.append(os.getcwd())
+```
+
 #### Ekran Görünüsünü Alma ve Kaydetme
 
 ```py
@@ -1653,7 +1680,7 @@ import numpy as np
 import time
 import cv2
 
-# Hata ayıklama ve bilgilendirme notlarını aktif eder
+# Hata ayıklama ve bilgilendirme notlarını aktif edery
 DEBUG = True
 
 # Çıktı kaydını aktif etme
@@ -1838,7 +1865,9 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 - [Google Keep to Text](https://github.com/HardFork/KeepToText)
 - [Python ile QuickDraw Projesi][Quick Draw]
 - [7 Top Python GUI Frameworks][7 Top Python GUI Frameworks]
+- [Python __init__.py Dosyası][Python __init__.py Dosyası]
 
+[Python __init__.py Dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
 [Fuatbeser Python Notları]: https://github.com/fuatbeser/python-notlarim
 [Quick Draw]: https://github.com/vietnguyen91/QuickDraw
 [7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/

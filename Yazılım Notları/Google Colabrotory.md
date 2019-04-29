@@ -4,6 +4,7 @@ Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](htt
 
 ## İçerikler <!-- omit in toc -->
 
+- [İşletim Sistemi Bilgileri](#i%CC%87%C5%9Fletim-sistemi-bilgileri)
 - [Run Time Ayarları](#run-time-ayarlar%C4%B1)
   - [Kernel'ı Sıfırlama](#kernel%C4%B1-s%C4%B1f%C4%B1rlama)
 - [Komut Parametreleri](#komut-parametreleri)
@@ -18,6 +19,29 @@ Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](htt
   - [Drive Dosyalarına Erişme](#drive-dosyalar%C4%B1na-eri%C5%9Fme)
 - [Colab Üzerinden Özel İşlemler](#colab-%C3%BCzerinden-%C3%B6zel-i%CC%87%C5%9Flemler)
   - [Bilgisayar Kamerasına Erişme](#bilgisayar-kameras%C4%B1na-eri%C5%9Fme)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+
+## İşletim Sistemi Bilgileri
+
+```ipynb
+!less /etc/os-release
+```
+
+```sh
+NAME="Ubuntu"
+VERSION="18.04.2 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.2 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+(END)^C
+```
 
 ## Run Time Ayarları
 
@@ -30,6 +54,8 @@ Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](htt
 ```py
 !kill -9 -1
 ```
+
+
 
 ## Komut Parametreleri
 

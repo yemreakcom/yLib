@@ -77,10 +77,11 @@
 
 ### Web Eklentileri
 
-| Eklenti                                        | Açıklama          |
-| ---------------------------------------------- | ----------------- |
-| [SimilarWeb - Traffic Rank & Website Analysis] | Websitesi analizi |
-| [SEOquake]                                     | Seo analizi       |
+| Eklenti      | Açıklama               |
+| ------------ | ---------------------- |
+| [VStat]      | Site ziyaret bilgileri |
+| [SEOquake]   | Seo analizi            |
+| [SimilarWeb] | Websitesi analizi      |
 
 ## Adress Çubuğu Anahtarları
 
@@ -100,7 +101,7 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 - -t
 - `http://tureng.com/tr/turkce-ingilizce/%s`
 
-> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (*Help `%s` olan yere yazılır.*)
+> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (*Help `%s` olan yere yazılır.*)"
 
 ## Harici Linkler
 
@@ -119,5 +120,6 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 [Privacy Badger]: https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en
 
 <!-- Web programlama -->
-[SimilarWeb - Traffic Rank & Website Analysis]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
+[SimilarWeb]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
 [SEOquake]: https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en
+[VStat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma

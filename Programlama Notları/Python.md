@@ -205,7 +205,7 @@ Aktif olan derleyici ortamı, en altta bulunan durum çubuğunun solunda göster
 - Vscode ayarlarına `"python.envFile": "${workspaceFolder}/.env"` satırını ekleyin
 - Vscode'u yeniden başlatın
 
-> Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin.
+> Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin. Ek olarak [buraya](https://stackoverflow.com/a/54083402/9770490) bakmanda da fayda var.
 
 #### Vscode PYTHONPATH Örneği
 

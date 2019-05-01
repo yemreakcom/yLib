@@ -77,7 +77,9 @@ Birkaç distro örneği:
       - [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
       - [Alt Dizinler Dahil](#alt-dizinler-dahil)
 - [Faydalı Gelişmiş Bilgiler](#faydal%C4%B1-geli%C5%9Fmi%C5%9F-bilgiler)
-  - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#dizine-ve-alt-dizinlerine-okuma-ve-yazma-i%CC%87zni-verme)
+  - [Dosya İzinleri](#dosya-i%CC%87zinleri)
+    - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
+    - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#dizine-ve-alt-dizinlerine-okuma-ve-yazma-i%CC%87zni-verme)
   - [Window Manager Controls](#window-manager-controls)
   - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
   - [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
@@ -780,7 +782,35 @@ done
 
 ## Faydalı Gelişmiş Bilgiler
 
-### Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme
+### Dosya İzinleri
+
+Dosya izinleri `chmod <parametre> <izin_no> <dosya_veya_dizin>` komutuyla yapılır.
+
+| Parametmerler | Açılımı   | Anlamı                               |
+| ------------- | --------- | ------------------------------------ |
+| `-R`          | Recursive | Dizin ve alt dizinlerini de ele alır |
+
+#### İzin Kodu Hesaplama
+
+İzin kodu, aşağıdaki formattaki kod yapısıdır.
+
+- Sırasıyla `owner`, `group`, `others` basamaklarına alttaki yetkilerin toplamının atanmasıdır
+  - `4` Read (okuma)
+  - `2` Write (yazma)
+  - `1` Execute (çalıştırma)
+  - `0` No permission (izin yok)
+
+```sh
+mkdir temp
+sudo chmod 777 temp # Her gruba tüm yekileri verme
+sudo chmod 751 temp # Oner: Hepsi Group: Read & Write Others: Execute
+sudo chmod 000 temo # Hiç yetki yok
+sudo chmod -R 777 temp # Dizine ve altdizinlere herkes için tam yetki verme
+```
+
+> `Root` her şeye erişebilir.
+
+#### Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme
 
 Alttaki komutla dizine ve alt dizinlerine herkes için okuma ve yazma erişimi verebilirsin.
 

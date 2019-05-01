@@ -55,6 +55,7 @@ Wordpress kurulumu için veritabanı gerekmektedir.
   - Kullanıcı adı ve şifre işlemleri için [buraya][Username & Password] bakabilirsiniz
 - Yapılandırma dosyalarının oluşumunda hata meydana gelirse, XAMPP içerisindeki `htdocs/wordpress` dizinine `wp-config.php` dosyası oluşturup, içerisine yapılandırma bilgilerinizi yapıştırın.
 - FTP kullanmak için `wp-config.php` dosyanıza `define('FS_METHOD', 'direct');` satırını ekleyin.
+  - FTP için kullanıcı adı ve şifreniz **PC**'nizin bilgileridir, wordpress hesabınızın değil.
   - FTP ile yerel dosya işlemleri yapabilrisiniz
   - İnternetten tema indirme, deneme vs.
 
@@ -102,7 +103,7 @@ sahip olması gerekir
 - [10 Markdowns for Wordpress]
 - [Twentyfifteen Theme]
 - [Natro Hosting]
-- [Markdown Wordpress Editor]
+- [Markdown Wordpress Editor]y
 - [Markdown Plugins]
 - [How to change or set username or password][Username & Password]
 - [5 quick fixes for ‘failed to write file to disk WordPress error]

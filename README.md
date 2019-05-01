@@ -12,11 +12,14 @@
 - [IstanbulUniversity - CE](#istanbuluniversity---ce)
 - [Scipts](#scipts)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
-- [Yapılacaklar](#yap%C4%B1lacaklar)
-  - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
-- [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-- [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
+- [Karma Bilgiler](#karma-bilgiler)
+- [Programlama Notları](#programlama-notlar%C4%B1)
+- [Proje Yönetimi Notları](#proje-y%C3%B6netimi-notlar%C4%B1)
+- [Teknolojik Alet Notları](#teknolojik-alet-notlar%C4%B1)
+- [Uygulama Notları](#uygulama-notlar%C4%B1)
+- [Yapay Zeka Notları](#yapay-zeka-notlar%C4%B1)
+- [Yazılım Notları](#yaz%C4%B1l%C4%B1m-notlar%C4%B1)
+- [İşletim Sistemi Notları](#i%CC%87%C5%9Fletim-sistemi-notlar%C4%B1)
 
 ## IstanbulUniversity - CE
 
@@ -113,4 +116,3 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [Linux Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1)
 - [Windows 10 Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1)
-

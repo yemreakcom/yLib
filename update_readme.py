@@ -12,10 +12,24 @@ from urllib.parse import quote
 # TODO Github dosyanda çalıştırdığında tüm git projelerini güncellesin
 # TODO Dosyayı CLI parametresi olarak alsın (yoksa bulunduğu dizindeki klasörleri ele alsın)
 
-############    private.cfg     ############
-# # VsCode dosyaları
-# .vscode
+############    readme.cfg     ############
+# [Config]
 #
+# # Sıralı indeksleme
+# SORTED_INDEX = True
+# # Sadece bu veriyi barındıranları indeksleme (hepsi için boş bırakın)
+# INDEX_FILTER =
+# # İndekslemeye dosya uzantısını da ekleme
+# INDEX_WITH_EXT = True
+# # Gizli dosyaları atlama
+# SKIP_PRIVATE_FOLDER = True
+#
+# [Private]
+# .git
+# res
+# images
+# .vscode
+# Windows10 Kaynakları
 #############################################
 
 # Yaplandırma dosyası
@@ -115,6 +129,8 @@ def load_cfg():
         read_file()
     except FileNotFoundError:
         create_file()
+    finally:
+        read_file()
 
 
 def check_dir_if_wanted(dir_name: str) -> bool:
@@ -139,17 +155,15 @@ def check_dir_if_wanted(dir_name: str) -> bool:
     ])
 
 
-def list_files(path):
-    list = [i for i in os.listdir(path) if os.path.isfile("/".join([path, i]))]
+def listdir(path=False, filter=False):
+    list = []
 
-    if SORTED_INDEX:
-        list.sort()
-
-    return list
-
-
-def list_wanted_dir():
-    list = [i for i in os.listdir() if check_dir_if_wanted(i)]
+    if path and os.path.isdir(path):
+        list = os.listdir(path)
+    elif filter:
+        list = [i for i in os.listdir() if check_dir_if_wanted(i)]
+    else:
+        list = os.listdir()
 
     if SORTED_INDEX:
         list.sort()
@@ -173,7 +187,7 @@ def insert_indexes(dir_names):
             str += create_header(dir_name)
 
             # Dizindeki dosya isimlerini alma ve sıralama
-            filenames = list_files(dir_name)
+            filenames = listdir(path=dir_name)
 
             # Verileri sıralama ve işleme
             for filename in filenames:
@@ -189,33 +203,39 @@ def insert_indexes(dir_names):
 
         return str
 
-    # README'yi okuma
-    file_str = ""
-    save_to_file = True
-    with open("README.md", "r", encoding="utf-8") as file:
-        for line in file:
-            if "<!-- Index -->" in line:
-                if save_to_file:
-                    # Yeni index satırına kadar dosyaya kaydetmeyi devre dışı bırakma
-                    save_to_file = False
+    def create_readme_str():
+        # README'yi okuma
+        file_str = ""
+        save_to_file = True
+        with open("README.md", "r", encoding="utf-8") as file:
+            for line in file:
+                if "<!-- Index -->" in line:
+                    if save_to_file:
+                        # Yeni index satırına kadar dosyaya kaydetmeyi devre dışı bırakma
+                        save_to_file = False
 
-                    # Dosyaların indekslerini oluşturup ekleme
-                    file_str += "<!-- Index -->" + "\n\n"
-                    file_str += create_indexes(dir_names)
+                        # Dosyaların indekslerini oluşturup ekleme
+                        file_str += "<!-- Index -->" + "\n\n"
+                        file_str += create_indexes(dir_names)
+                    else:
+                        # İkinci index için okuma modunu aktif etme
+                        save_to_file = True
+
+                        # Indeks satırını ekleme
+                        file_str += "<!-- Index -->" + "\n"
                 else:
-                    # İkinci index için okuma modunu aktif etme
-                    save_to_file = True
+                    # Okuma izni varsa dosyayı değişkene aktarma
+                    if save_to_file:
+                        file_str += line
+        return file_str
 
-                    # Indeks satırını ekleme
-                    file_str += "<!-- Index -->" + "\n"
-            else:
-                # Okuma izni varsa dosyayı değişkene aktarma
-                if save_to_file:
-                    file_str += line
+    def write_readme(file_str):
+        # Yeni metni dosyaya yazma
+        with open("README.md", "w", encoding="utf-8") as file:
+            file.writelines(file_str)
 
-    # Yeni metni dosyaya yazma
-    with open("README.md", "w", encoding="utf-8") as file:
-        file.writelines(file_str)
+    file_str = create_readme_str()
+    write_readme(file_str)
 
 
 def update() -> None:
@@ -224,7 +244,7 @@ def update() -> None:
     """
 
     # Dizinleri sıralı olarak alma
-    dir_names = list_wanted_dir()
+    dir_names = listdir(filter=True)
 
     # İndeksleri dosya arasına yerleştirme
     insert_indexes(dir_names)

@@ -78,7 +78,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Github Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
 - [Heroku Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
 - [Proje Yönetimi](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
-- [github_cheat_sheet](Proje%20Y%C3%B6netimi%20Notlar%C4%B1/github_cheat_sheet.pdf)
 
 ## Teknolojik Alet Notları
 

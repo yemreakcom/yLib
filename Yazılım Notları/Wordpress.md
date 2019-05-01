@@ -44,6 +44,7 @@ Wordpress kurulumu için veritabanı gerekmektedir.
 - Indirelen dosyaları çıkartıp XAMPP'ın `htdocs` dizinine taşıyın
   - Taşıdığınız `wordpress` adlı dosyasına ve alt dosyalarına **okuma ve yazma** erişiminizin olmasını sağlayın.
   - Linux için `sudo nautilus /opt/lampp/htdocs` ile dosya gezgininni açıp, alddaki dosyalara sağ tıklayıp `Özellikler > İzinler` alanından her kullanıcıya (*other* en alttaki) **okuma ve yazma** izinlerini verin.
+    - Terminal ile bu komut yardımıyla `sudo chmod -R 757 /opt/lampp/htdocs/wordpress/` ya da el ile yetki verin.
     - `wordpress`
     - `wordpress/wp-content`
     - `wordpress/wp-admin`
@@ -105,6 +106,7 @@ sahip olması gerekir
 - [Markdown Plugins]
 - [How to change or set username or password][Username & Password]
 - [5 quick fixes for ‘failed to write file to disk WordPress error]
+- [Blogger'ı Wordpress'e Aktarma]
 
 [10 Markdowns for Wordpress]: https://blogging.org/blog/10-best-markdown-plugins-for-wordpress-websites/
 [Twentyfifteen Theme]: https://wordpress.org/themes/twentyfifteen/
@@ -115,3 +117,4 @@ sahip olması gerekir
 [5 quick fixes for ‘failed to write file to disk WordPress error]: https://bobcares.com/blog/failed-to-write-file-to-disk-wordpress-error/
 [WP Githuber MD]: https://terryl.in/en/repository/wordpress-markdown-plugin-githuber-md/
 [Mynote WordPress Theme]: https://terryl.in/en/repository/mynote/
+[Blogger'ı Wordpress'e Aktarma]: https://firstsiteguide.com/move-blogger-to-wordpress/

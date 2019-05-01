@@ -11,6 +11,7 @@
   - [Görsellik Eklentileri](#g%C3%B6rsellik-eklentileri)
   - [Sosyal Medya Eklentileri](#sosyal-medya-eklentileri)
   - [Programlama Eklentileri](#programlama-eklentileri)
+  - [Web Eklentileri](#web-eklentileri)
 - [Adress Çubuğu Anahtarları](#adress-%C3%A7ubu%C4%9Fu-anahtarlar%C4%B1)
 - [Harici Linkler](#harici-linkler)
 
@@ -48,6 +49,7 @@
 | [Adblock Plus]              | Reklam engelleme                                     |
 | [Pop up Blocker for Chrome] | Popup (Açılır pencere) engelleme                     |
 | [Google Çeviri]             | Çeviri                                               |
+| [No Script]                 | Javascript engelleyici                               |
 | [OneTab]                    | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [Temp Mail]                 | Geçici mail oluşturma eklentisi.                     |
 | [Selenium IDE]              | Web eylemlerini tekrarlama                           |
@@ -68,10 +70,18 @@
 
 ### Programlama Eklentileri
 
-| Eklenti                                                                                                     | Açıklama                                                     |
+| Eklenti                                                   e                                                 | Açıklama                                                     |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
 | [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)     | Web işlemlerini tekrarlayan web testing yazılımı             |
+
+### Web Eklentileri
+
+| Eklenti      | Açıklama               |
+| ------------ | ---------------------- |
+| [VStat]      | Site ziyaret bilgileri |
+| [SEOquake]   | Seo analizi            |
+| [SimilarWeb] | Websitesi analizi      |
 
 ## Adress Çubuğu Anahtarları
 
@@ -91,7 +101,7 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 - -t
 - `http://tureng.com/tr/turkce-ingilizce/%s`
 
-> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (*Help `%s` olan yere yazılır.*)
+> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (*Help `%s` olan yere yazılır.*)"
 
 ## Harici Linkler
 
@@ -106,3 +116,10 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 [OneTab]: https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=tr
 [Temp Mail]: https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj
 [Selenium IDE]: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
+[No Script]: https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/related?hl=en
+[Privacy Badger]: https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en
+
+<!-- Web programlama -->
+[SimilarWeb]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
+[SEOquake]: https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en
+[VStat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma

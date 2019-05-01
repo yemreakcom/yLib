@@ -205,7 +205,7 @@ Aktif olan derleyici ortamı, en altta bulunan durum çubuğunun solunda göster
 - Vscode ayarlarına `"python.envFile": "${workspaceFolder}/.env"` satırını ekleyin
 - Vscode'u yeniden başlatın
 
-> Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin.
+> Kaynak için [buraya](https://github.com/Microsoft/vscode-python/issues/3840#issuecomment-463789294) bakabilirsin. Ek olarak [buraya](https://stackoverflow.com/a/54083402/9770490) bakmanda da fayda var.
 
 #### Vscode PYTHONPATH Örneği
 
@@ -390,7 +390,9 @@ degersiz = None
 
 #### Sabit Değerler (Constants)
 
-Her karakter büyük harfler ile yazılırsa sabit değer olur.
+Python'da *constant*'lar yoktur. Sabit değerler büyük harfler ile belirtilir.
+
+> Aynı dosya içerisinde büyük harflerle yazılsa bile değiştirilebilir.
 
 **`sabitler.py` dosyası**
 
@@ -659,22 +661,25 @@ Son
 
 Çok önemli ve ileride kullanılacak bir konudur. 🌟
 
-| Metot          | Açıklama                | Örnek                          | Çıktı                  |
-| -------------- | ----------------------- | ------------------------------ | ---------------------- |
-| `len`          | Uzunluk                 | `len("yemreak")`               | 7                      |
-| `format`       | Formatlama              | `"X: {}, Y: {}".format(1, 2)`  | `'X: 1, Y: 2'`         |
-| `%`            | Operatör ile formatlama | `'new(%s %d)' % ('help', 5)`   | `'new(help 5)'`        |
-| `f`            | Format string ön eki    | `f'X: {a}'`                    | `'X: 2'`               |
-| `r`            | Raw String ön eki       | `r"C:\Users"`                  | `C:\\Users`            |
-| `"""`          | Çok satırlı string      |
-| `split`        | Parçalama               | `"ye mre ak".split(" ")`       | `['ye', 'mre', 'ak']`  |
-| `join`         | Birleştirme             | `','.join(['do', 're', 'mi'])` | `'do,re,mi'`           |
-| `split & join` | Yeniden formatlama      | `arr.split("\t").join("|")`    | `'İsim|Soyisim|Numara` |
-| `replace`      | Metin değiştirme        | `"yemreak".replace("ak", "")`  | `'yemre'`              |
-| `strip`        | Metin düzeltme          | `' abc '.strip()`              | `'abc'`                |
-| `ltrip`        | Metnin solunu düzeltme  | `' abc '.ltrip()`              | `'abc '`               |
-| `rtrip`        | Metnin sağını düzeltme  | `' abc '.rtrip()`              | `' abc'`               |
-| `sort`         | Metni sıralama          | `['n', 'a', 'i']`              | `['a', 'i', 'n']`      |
+<!-- TODO linkleri ekle -->
+
+| Link    | Metot                   | Açıklama                | Örnek                                  | Çıktı                  |
+| ------- | ----------------------- | ----------------------- | -------------------------------------- | ---------------------- |
+|         | `len`                   | Uzunluk                 | `len("yemreak")`                       | 7                      |
+|         | `format`                | Formatlama              | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`         |
+|         | `%`                     | Operatör ile formatlama | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`        |
+|         | `f`                     | Format string ön eki    | `f'X: {a}'`                            | `'X: 2'`               |
+|         | `r`                     | Raw String ön eki       | `r"C:\Users"`                          | `C:\\Users`            |
+|         | `"""`                   | Çok satırlı string      |
+|         | `split`                 | Parçalama               | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']`  |
+| [Slice] | `[<başlangıç>:<bitiş>]` | Kesme                   | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`        |
+|         | `join`                  | Birleştirme             | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`           |
+|         | `split & join`          | Yeniden formatlama      | `arr.split("\t").join("|")`            | `'İsim|Soyisim|Numara` |
+|         | `replace`               | Metin değiştirme        | `"yemreak".replace("ak", "")`          | `'yemre'`              |
+|         | `strip`                 | Metin düzeltme          | `' abc '.strip()`                      | `'abc'`                |
+|         | `ltrip`                 | Metnin solunu düzeltme  | `' abc '.ltrip()`                      | `'abc '`               |
+|         | `rtrip`                 | Metnin sağını düzeltme  | `' abc '.rtrip()`                      | `' abc'`               |
+|         | `sort`                  | Metni sıralama          | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
 
 > Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin.
 
@@ -1871,3 +1876,4 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 [Fuatbeser Python Notları]: https://github.com/fuatbeser/python-notlarim
 [Quick Draw]: https://github.com/vietnguyen91/QuickDraw
 [7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
+[Slice]: https://www.webucator.com/how-to/how-slice-strings-python.cfm

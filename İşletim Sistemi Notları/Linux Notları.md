@@ -77,6 +77,7 @@ Birkaç distro örneği:
       - [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
       - [Alt Dizinler Dahil](#alt-dizinler-dahil)
 - [Faydalı Gelişmiş Bilgiler](#faydal%C4%B1-geli%C5%9Fmi%C5%9F-bilgiler)
+  - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#dizine-ve-alt-dizinlerine-okuma-ve-yazma-i%CC%87zni-verme)
   - [Window Manager Controls](#window-manager-controls)
   - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
   - [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
@@ -778,6 +779,14 @@ done
 ```
 
 ## Faydalı Gelişmiş Bilgiler
+
+### Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme
+
+Alttaki komutla dizine ve alt dizinlerine herkes için okuma ve yazma erişimi verebilirsin.
+
+```sh
+sudo chmod -R 757 /opt/lampp/htdocs/wordpress/
+```
 
 ### Window Manager Controls
 

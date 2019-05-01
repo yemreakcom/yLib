@@ -1,9 +1,11 @@
-# Bilgiler <!-- omit in toc -->
+# YBilgiler <!-- omit in toc -->
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yedhrab/bilgiler.svg?label=Son%20G%C3%BCncelleme&style=popout)
-![GitHub](https://img.shields.io/github/license/yedhrab/bilgiler.svg?label=Lisans&style=popout)
+![GitHub last commit](https://img.shields.io/github/last-commit/yedhrab/YBilgiler.svg?label=Son%20G%C3%BCncelleme&style=popout)
+![GitHub](https://img.shields.io/github/license/yedhrab/YBilgiler.svg?label=Lisans&style=popout)
 ![made_with_Markdown](https://img.shields.io/badge/%C4%B0%C3%A7erik-Markdown-blue.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/yedhrab/bilgiler.svg?label=Boyut&style=popout)
+![GitHub repo size](https://img.shields.io/github/repo-size/yedhrab/YBilgiler.svg?label=Boyut&style=popout)
+
+Karma konular hakkında aldığım notlar.
 
 ## İçerikler <!-- omit in toc -->
 
@@ -20,6 +22,11 @@
 - [Yapay Zeka Notları](#yapay-zeka-notlar%C4%B1)
 - [Yazılım Notları](#yaz%C4%B1l%C4%B1m-notlar%C4%B1)
 - [İşletim Sistemi Notları](#i%CC%87%C5%9Fletim-sistemi-notlar%C4%B1)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Yapılacaklar](#yap%C4%B1lacaklar)
+  - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
+- [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
+- [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
 ## IstanbulUniversity - CE
 
@@ -116,3 +123,55 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [Linux Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1)
 - [Windows 10 Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1)
+
+<!-- Index -->
+
+## Harici Bağlantılar
+
+- [Alibaba Cloud for Students](https://www.alibabacloud.com/campaign/education)
+- [The Best Font for Resume](https://www.businessnewsdaily.com/5331-best-resume-fonts.html)
+- [[Yaratıcı Fikirler için Tasarımlar](https://www.behance.net/)]
+- [Açık API listesi][[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]]
+
+[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
+
+## Yapılacaklar
+
+- [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
+- [ ] Her yazının altına lisans menti eklenecek (?)
+- [ ] Sadece **github**'da bulunacak
+- [ ] Linkler dinamikleştirilecek
+  - [ ] Harici bağlantılar yapısı: `[link_name]` [link_name]:link`
+  - [ ] Metnin en altına eklenecek
+- [ ] Butonlar `<kbd>buton</kbd>` formatına alınacak
+- [ ] 🌐📃📺 Döküman yapısı eklenecek
+- [ ] Tablolara ☆ favori özellği eklenecek
+- [ ] Konu ve kaynakları için dizinler oluşturalaca
+  - [ ] Ders Notları/Software Enginnering/README.md
+  - [ ] Ders Notları/Software Enginnering/res
+  - [ ] Bölümlere ayrılabilir, göz korkutan bilgileri engeller.
+- [x] Her sayfanın en üst kısmına (?) işaretçi ekle.
+- [x] Git notlarındaki komutları tablosal olarak göster.
+- [x] win10 sık kullanılan cmd komutları tablosal olacak
+
+### İleride Yapılacaklar
+
+- [ ] Birden fazla kişiyle çalışabilmek için parçalara ayrılacak
+
+## Çalışma Notları
+
+- Her şey **dinamik** olmalı
+- Önce sabit değerli yaz, sonrasında `CTRL`+ `F` ile sabitleri değişken haline dönüştür
+- Terimler *italik*, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
+
+## Lisans ve Teferruatlar
+
+Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.
+
+- [Github](https://github.com/yedhrab)
+- [Website](https://yemreak.com)
+- [LinkedIn](https://www.linkedin.com/in/yemreak/)
+
+> Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github) geçebilrsiniz 🤗
+
+~ Yunus Emre Ak

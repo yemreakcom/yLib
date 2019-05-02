@@ -54,6 +54,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [Renk Kodları](Karma%20Bilgiler/Renk%20Kodlar%C4%B1)
 - [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar)
 
 ## Programlama Notları
@@ -63,6 +64,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Genel Bilgiler](Programlama%20Notlar%C4%B1/Genel%20Bilgiler)
 - [Java](Programlama%20Notlar%C4%B1/Java)
 - [Javascript](Programlama%20Notlar%C4%B1/Javascript)
+- [Kotlin](Programlama%20Notlar%C4%B1/Kotlin)
 - [Markdown](Programlama%20Notlar%C4%B1/Markdown)
 - [MySQL](Programlama%20Notlar%C4%B1/MySQL)
 - [Nodejs Çok Kullanılan Kütüphaneler](Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler)
@@ -70,6 +72,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Php](Programlama%20Notlar%C4%B1/Php)
 - [Python](Programlama%20Notlar%C4%B1/Python)
 - [React](Programlama%20Notlar%C4%B1/React)
+- [Unity](Programlama%20Notlar%C4%B1/Unity)
 - [Web Programlama](Programlama%20Notlar%C4%B1/Web%20Programlama)
 
 ## Proje Yönetimi Notları
@@ -138,6 +141,11 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## Yapılacaklar
 
 - [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
+- [ ] Çöp gibi bilgi var kategorize edilecek
+  - [ ] Java klasörü adı altında, dosyalandırılacak
+    - [ ] Java Giriş
+    - [ ] Netbeans Kurulumu
+    - [ ] ...
 - [ ] Her yazının altına lisans menti eklenecek (?)
 - [ ] Sadece **github**'da bulunacak
 - [ ] Linkler dinamikleştirilecek

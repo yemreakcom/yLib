@@ -81,14 +81,17 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 ### Verimlilik Eklentileri
 
-| Eklenti                                                                                                         | Açıklama                       |
-| --------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| Scratchpad                                                                                                      | Anlık derleyiciler             |
-| [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)               | Spotify ile müzik desteği      |
-| [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)            | Kısayollar üzerine bir eklenti |
-| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | İmla kontrolü                  |
-| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                          | Yapılacakları gösteren arayüz  |
-| [Emoji](https://marketplace.visualstudio.com/items?itemName=Perkovec.emoji)                                     | Komutla emoji ekleme           |
+| Eklenti                                                                                                         | Açıklama                                        |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| Scratchpad                                                                                                      | Anlık derleyiciler                              |
+| [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)               | Spotify ile müzik desteği                       |
+| [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)            | Kısayollar üzerine bir eklenti                  |
+| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | İmla kontrolü                                   |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                          | Yapılacakları gösteren arayüz                   |
+| [Emoji](https://marketplace.visualstudio.com/items?itemName=Perkovec.emoji)                                     | Komutla emoji ekleme                            |
+| [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)           | Klavye üzerinden dosya işlemleri                |
+| [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)              | Tag'ları otomatik kapatma                       |
+| [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)            | Tag'ların biri değişirse, diğeri de güncellenir |
 
 ### Farkındalık Eklentileri
 
@@ -154,7 +157,7 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)             | Anlık olarak kod paylaşma                       |
 | [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) | Proje kısayolları, sık kullanılanlar vs.        |
-| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)          | Git yönetimi arayüzü                            |
+| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)           | Git yönetimi arayüzü                            |
 | [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                  | Git commit geçmişini gösterir                   |
 | [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)                   | Docker sanal makinesi için uyumluluk            |
 | [GitBlame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)                           | Satırların en son ne zaman değiştiğini gösterir |

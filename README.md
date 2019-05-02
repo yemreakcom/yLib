@@ -122,9 +122,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Terimler](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
 
-## res
-
-
 ## İşletim Sistemi Notları
 
 - [Linux Notları](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1.md)

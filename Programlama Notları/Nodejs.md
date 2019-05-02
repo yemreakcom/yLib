@@ -10,6 +10,7 @@
     - [Geliştirici Paketleri](#geli%C5%9Ftirici-paketleri)
   - [NPM Kullanım Yapısı](#npm-kullan%C4%B1m-yap%C4%B1s%C4%B1)
   - [Paket Kurulum Örnekleri](#paket-kurulum-%C3%B6rnekleri)
+  - [Nodejs Dependency Prefixes](#nodejs-dependency-prefixes)
 - [Ortam Değişkenleri](#ortam-de%C4%9Fi%C5%9Fkenleri)
   - [Ortam Değişkenleri Açıklamaları](#ortam-de%C4%9Fi%C5%9Fkenleri-a%C3%A7%C4%B1klamalar%C4%B1)
   - [Ortam Değişkenleri Kullanımı](#ortam-de%C4%9Fi%C5%9Fkenleri-kullan%C4%B1m%C4%B1)
@@ -26,6 +27,7 @@
   - [Package.json için Script Açıklamaları](#packagejson-i%C3%A7in-script-a%C3%A7%C4%B1klamalar%C4%B1)
   - [Programı Derleme İşlemi](#program%C4%B1-derleme-i%CC%87%C5%9Flemi)
 - [VsCode için Debug Ayarları](#vscode-i%C3%A7in-debug-ayarlar%C4%B1)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Paket Yönetimi
 
@@ -72,6 +74,13 @@ npm install nodemon --save-dev
 npm install -g babel-cli
 npm install colors
 ```
+
+### Nodejs Dependency Prefixes
+
+`<prefix><dependency_version>`
+
+- ~ This version
+- ^ latest version
 
 ## Ortam Değişkenleri
 
@@ -266,5 +275,7 @@ export function _getCallerInfo() {
 - [Fonksiyonu Çağıran Dosya İsmini Bulma](https://stackoverflow.com/a/29581862/9770490)
 - [Debugging Visual Studio Code (Node)](https://www.youtube.com/watch?v=yFtU6_UaOtA)
 - [Nodejs React ve Redux ile Medium Klonu][Medium Clone]
+- [Top 10 Es6 Feature][Top 10 ES6 Feautres]
 
+[Top 10 ES6 Feautres]: https://webapplog.com/es6/
 [Medium Clone]: https://github.com/krissnawat/medium-clone-on-node

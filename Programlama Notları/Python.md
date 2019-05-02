@@ -432,6 +432,19 @@ sonuc = 7 / 3 # 2.33 atanır
 
 > Detaylar için [buraya](https://www.bogotobogo.com/python/python_private_attributes_methods.php) bakabilirsin.
 
+#### Değişkenin Tanımlı Olduğunu Kontrol Etme
+
+```py
+if 'myVar' in locals():
+  # myVar exists.
+if 'myVar' in globals():
+  # myVar exists.
+if hasattr(obj, 'attr_name'):
+  # obj.attr_name exists.
+```
+
+> Kaynak için [buraya](https://stackoverflow.com/a/843293) bakabilirsin.
+
 ### Operatörler
 
 | Operatör | Açıklama                       |

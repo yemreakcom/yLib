@@ -54,6 +54,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [Drive Notları](Karma%20Bilgiler/Drive%20Notlar%C4%B1.md)
 - [Renk Kodları](Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
 
@@ -95,7 +96,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Anaconda](Uygulama%20Notlar%C4%B1/Anaconda.md)
 - [Chrome](Uygulama%20Notlar%C4%B1/Chrome.md)
 - [JetBrains IDE](Uygulama%20Notlar%C4%B1/JetBrains%20IDE.md)
-- [Karma Notlar](Uygulama%20Notlar%C4%B1/Karma%20Notlar.md)
 - [LGSV Simulator](Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
 - [Uygulamalar](Uygulama%20Notlar%C4%B1/Uygulamalar.md)
 - [VsCode](Uygulama%20Notlar%C4%B1/VsCode.md)

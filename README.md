@@ -54,6 +54,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [Renk Kodları](Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
 
 ## Programlama Notları
@@ -63,6 +64,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Genel Bilgiler](Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
 - [Java](Programlama%20Notlar%C4%B1/Java.md)
 - [Javascript](Programlama%20Notlar%C4%B1/Javascript.md)
+- [Kotlin](Programlama%20Notlar%C4%B1/Kotlin.md)
 - [Markdown](Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](Programlama%20Notlar%C4%B1/MySQL.md)
 - [Nodejs Çok Kullanılan Kütüphaneler](Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler.md)
@@ -70,6 +72,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Php](Programlama%20Notlar%C4%B1/Php.md)
 - [Python](Programlama%20Notlar%C4%B1/Python.md)
 - [React](Programlama%20Notlar%C4%B1/React.md)
+- [Unity](Programlama%20Notlar%C4%B1/Unity.md)
 - [Web Programlama](Programlama%20Notlar%C4%B1/Web%20Programlama.md)
 
 ## Proje Yönetimi Notları
@@ -118,6 +121,9 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Selenium](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
 - [Terimler](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
+
+## res
+
 
 ## İşletim Sistemi Notları
 

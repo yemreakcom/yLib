@@ -48,6 +48,8 @@
 | --------------------------- | ---------------------------------------------------- |
 | [Adblock Plus]              | Reklam engelleme                                     |
 | [Pop up Blocker for Chrome] | Popup (Açılır pencere) engelleme                     |
+| [Nightlight]                | Karanlık tema                                        |
+| [One Click Translate]       | Çeviri                                               |
 | [Google Çeviri]             | Çeviri                                               |
 | [No Script]                 | Javascript engelleyici                               |
 | [OneTab]                    | Sekme karışıklığını ve fazla ram kullanımı engelleme |
@@ -123,3 +125,5 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 [SimilarWeb]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
 [SEOquake]: https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en
 [VStat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma
+[Nightlight]: https://chrome.google.com/webstore/detail/night-light/aionebabdognkieabomemdegmjedkked
+[One Click Translate]: https://chrome.google.com/webstore/detail/one-click-translate/anhjddeakbabimdgmonfbnpbainknbfa/related

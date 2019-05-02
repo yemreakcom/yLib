@@ -138,6 +138,11 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## Yapılacaklar
 
 - [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
+- [ ] Çöp gibi bilgi var kategorize edilecek
+  - [ ] Java klasörü adı altında, dosyalandırılacak
+    - [ ] Java Giriş
+    - [ ] Netbeans Kurulumu
+    - [ ] ...
 - [ ] Her yazının altına lisans menti eklenecek (?)
 - [ ] Sadece **github**'da bulunacak
 - [ ] Linkler dinamikleştirilecek

@@ -73,6 +73,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Php](Programlama%20Notlar%C4%B1/Php.md)
 - [Python](Programlama%20Notlar%C4%B1/Python.md)
 - [React](Programlama%20Notlar%C4%B1/React.md)
+- [Shell Script](Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Unity](Programlama%20Notlar%C4%B1/Unity.md)
 - [Web Programlama](Programlama%20Notlar%C4%B1/Web%20Programlama.md)
 

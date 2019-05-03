@@ -4,6 +4,8 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 > Anaconda ile yerel PC üzerinden çalışmak yerine, kurulumlarla uğraşmamak adına [Google Colab](https://colab.research.google.com/) hizmetini kullanabilirisin.
 
+<!-- TODO İçerikleri kullanabilitesine göre sırala -->
+
 ## İçerikler <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
@@ -17,6 +19,7 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
   - [Conda ile Paket Sürümlerini Gösterme](#conda-ile-paket-s%C3%BCr%C3%BCmlerini-g%C3%B6sterme)
   - [Conda ile Yükleme İşlemleri](#conda-ile-y%C3%BCkleme-i%CC%87%C5%9Flemleri)
     - [Conda ile Belli Bir Sürümü İndirme](#conda-ile-belli-bir-s%C3%BCr%C3%BCm%C3%BC-i%CC%87ndirme)
+  - [Conda ile Requirements Dosyası Oluşturma](#conda-ile-requirements-dosyas%C4%B1-olu%C5%9Fturma)
 - [Paket ve Kütüphane Kurulumları](#paket-ve-k%C3%BCt%C3%BCphane-kurulumlar%C4%B1)
   - [Numpy Kurulumu](#numpy-kurulumu)
   - [OpenCV Kurulumu](#opencv-kurulumu)
@@ -31,6 +34,7 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
   - [Pillow (Python Image Library) Kurulumu](#pillow-python-image-library-kurulumu)
 - [Sanal Ortam İşlemleri](#sanal-ortam-i%CC%87%C5%9Flemleri)
   - [Sanal Ortam Oluşturma](#sanal-ortam-olu%C5%9Fturma)
+    - [Requirements Dosyasına Uygun Sanal Ortam Oluşturma](#requirements-dosyas%C4%B1na-uygun-sanal-ortam-olu%C5%9Fturma)
     - [Belirli Python Sürümünde Ortam Oluşturma](#belirli-python-s%C3%BCr%C3%BCm%C3%BCnde-ortam-olu%C5%9Fturma)
   - [Sanal Ortamı Aktif Etme](#sanal-ortam%C4%B1-aktif-etme)
   - [Sanal Ortamı Pasif Etme](#sanal-ortam%C4%B1-pasif-etme)
@@ -111,6 +115,17 @@ conda install -c anaconda  flask # Örnek (stable olabilir)
 conda install -c <depo_ismi> <paket>=<versiyon>
 conda install -c anaconda tensorflow-gpu=<versiyon> # Örnek
 ```
+
+### Conda ile Requirements Dosyası Oluşturma
+
+`requirements.txt` dosyası sayesinde projeyi farklı ortamlara aktarmak istediğimizde, gerekli kurulumları hızlıca yapabiliriz.
+
+```sh
+conda list --export > requirements.txt
+conda create --name <envname> --file requirements.txt # Dosyadan ortam oluşturma
+```
+
+> Kaynak için [buraya][Requirements Dosyası] bakabilirsin.
 
 ## Paket ve Kütüphane Kurulumları
 
@@ -236,6 +251,12 @@ conda create -n <ortam_ismi>
 conda create -n myenv # Örnek
 ```
 
+#### Requirements Dosyasına Uygun Sanal Ortam Oluşturma
+
+```sh
+conda create --name <ortam_ismi> --file requirements.txt
+```
+
 #### Belirli Python Sürümünde Ortam Oluşturma
 
 ```sh
@@ -326,3 +347,5 @@ conda install -c anaconda networkx
   - `Conda Enviroment`
   - `OK`
 - `+` butonu ile ek paket kurulumu yapabilirsiniz (*İsteğe Bağlı*)
+
+[Requirements Dosyası]: https://stackoverflow.com/a/45491091/9770490

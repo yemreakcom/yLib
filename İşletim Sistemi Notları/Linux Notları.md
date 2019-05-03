@@ -1,6 +1,9 @@
 # Linux <!-- omit in toc -->
 
-Birkaç distro örneği:
+Açık kaynak olan **Unix** tabanlı işletim sistemidir.
+
+- Linux işletim sistemlerinde **python** gömülü olarak gelir, temel dili **bash** veya **shell** olarak geçmektedir. 
+- Farklı linux dağıtımlarına **distro** denir, bunlardan bazıları:
 
 | Distro                            | İyi Yanı                                 | Kötü Yanı                           |
 | --------------------------------- | ---------------------------------------- | ----------------------------------- |
@@ -65,17 +68,7 @@ Birkaç distro örneği:
   - [Indirme Yöneticisi Kurulumu (Uget)](#indirme-y%C3%B6neticisi-kurulumu-uget)
   - [ADB & Fastboot (Android Tools) Kurulumu](#adb--fastboot-android-tools-kurulumu)
   - [League of Legends](#league-of-legends)
-- [Batch Script](#batch-script)
-  - [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
-  - [Cat ile Yazdırma İşlemi](#cat-ile-yazd%C4%B1rma-i%CC%87%C5%9Flemi)
-  - [Terminalde Seçim Yaptırma](#terminalde-se%C3%A7im-yapt%C4%B1rma)
-    - [Switch - Case Yapısı](#switch---case-yap%C4%B1s%C4%B1)
-    - [Select Yapısı](#select-yap%C4%B1s%C4%B1)
-    - [Çok Satırlı Seçim Yapısı](#%C3%A7ok-sat%C4%B1rl%C4%B1-se%C3%A7im-yap%C4%B1s%C4%B1)
-  - [Terminalde For Döngüsü (For Loop)](#terminalde-for-d%C3%B6ng%C3%BCs%C3%BC-for-loop)
-    - [Her Dizine For Döngüsü](#her-dizine-for-d%C3%B6ng%C3%BCs%C3%BC)
-      - [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
-      - [Alt Dizinler Dahil](#alt-dizinler-dahil)
+- [Shell (Bash) Scripting](#shell-bash-scripting)
 - [Faydalı Gelişmiş Bilgiler](#faydal%C4%B1-geli%C5%9Fmi%C5%9F-bilgiler)
   - [Dosya İzinleri](#dosya-i%CC%87zinleri)
     - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
@@ -646,139 +639,9 @@ adb version
 sudo snap install --edge leagueoflegends --devmode
 ```
 
-## Batch Script
+## Shell (Bash) Scripting
 
-### Yazdırma İşlemleri (Echo)
-
-| Komut                            | Açıklama                                                      |
-| -------------------------------- | ------------------------------------------------------------- |
-| `echo "<metin>"`                 | Ekrana metni olduğu gibi basma                                |
-| `echo -e "<metin>"`              | Ekrana metni formatlı basma (\n \t gibi karakterler çalışır)  |
-| `echo $<değişken>`               | Ekrana değişken basma                                         |
-| `echo $(<komut>)`                | Ekrana komut çıktısını basma                                  |
-| `echo "<metin>" > <dosya_yolu>`  | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
-| `echo "<metin>" >> <dosya_yolu>` | Verilen metni dosyaya ekleme                                  |
-| `@Echo off`                      | Çıktıları gizleme                                             |
-
-- `<metin>` Ekrana basılacak metin
-  - Örn: `yemreak`
-- `<değişken>` Linux değişkenleri (ortam değişkenleri vs.)
-  - Örn: `PYTHONPATH`, `HOME`
-- `<komut>` Linux komutları
-  - Örn: `pwd`
-- `<dosya_yolu>` Metnin yazılacağı dosyanın yolu
-  - Örn: `yemreak.txt`, `../yemreak.sh`, `~/yemreak.ini`
-
-### Cat ile Yazdırma İşlemi
-
-Dosyaya EOT gelene kadar yazma
-
-```sh
-cat << <sonlandırma_metni> >> <dosya_yolu>
-satır1
-satır2
-<sonlandırma_metni>
-```
-
-- `<sonlandırma_metni>` Bu metin geldiğinde yazma işlemini sonlandırır
-  - Örn: `A` olursa `YemreAK` yazıldığında sonlanmaz, `A` yazıldığında sonlanır.
-- `<dosya_yolu>` Metnin yazılacağı dosyanın yolu
-  - Örn: `yemreak.txt`, `../yemreak.sh`, `~/yemreak.ini`
-
-### Terminalde Seçim Yaptırma
-
-#### Switch - Case Yapısı
-
-```sh
-while true; do
-    read -p "Do you wish to install this program?" yn
-    case $yn in
-        [Yy]* ) make install; break;;
-        [Nn]* ) exit;;
-        * ) echo "Please answer yes or no.";;
-    esac
-done
-```
-
-#### Select Yapısı
-
-```sh
-echo "Do you wish to install this program?"
-select yn in "Yes" "No"; do
-    case $yn in
-        Yes ) make install; break;;
-        No ) exit;;
-    esac
-done
-```
-
-#### Çok Satırlı Seçim Yapısı
-
-```sh
-while true; do
-    read -p "Medya oynatıcısı kurmak ister misin? (vlc) [y/n] " # -n 1 -r
-    case $REPLY in
-        [Yy]* ) {
-            sudo apt install vlc
-
-            while true; do
-                read -p "Medya oynatıcısı kurmak ister misin? (vlc) [y/n] " # -n 1 -r
-                case $REPLY in
-                    [Yy]* ) {
-                        sudo apt install vlc
-                        break
-                    };;
-                    [Nn]* ) {
-                      break
-                    };;
-                esac
-            done
-
-            break
-        };;
-        [Nn]* ) {
-          break
-        };;
-    esac
-done
-```
-
-### Terminalde For Döngüsü (For Loop)
-
-```sh
-for f in *; do
-    echo "-> $f"
-done
-```
-
-#### Her Dizine For Döngüsü
-
-##### Alt Dizinler Dahil Değil
-
-```sh
-for D in *; do
-    if [ -d "${D}" ]; then
-        echo "${D}"   # your processing here
-    fi
-done
-```
-
-```sh
-for D in *; do [ -d "${D}" ] && my_command; done
-```
-
-```sh
-for D in */; do my_command; done
-```
-
-##### Alt Dizinler Dahil
-
-```sh
-for D in `find . -type d`
-do
-    //Do whatever you need with D
-done
-```
+Shell script hakkında detaylı bilgi için [buraya][Shell Script] bakabilrisin.
 
 ## Faydalı Gelişmiş Bilgiler
 
@@ -1032,3 +895,5 @@ Kernel güncelleme yazım için [buraya](https://medium.com/@yyunussemree/linux-
 
 [Best Gnome Extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/
 [Batch Script ile 'Yes/No' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490
+
+[Shell Script]: ../Programlama%20Notlar%C4%B1%2FShell%20Script.md

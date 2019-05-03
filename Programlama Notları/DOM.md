@@ -4,6 +4,11 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Beklemeli İşlemler](#beklemeli-i%CC%87%C5%9Flemler)
+  - [Basit Geciktirme Metodları](#basit-geciktirme-metodlar%C4%B1)
+  - [Promise Yapısı ile Bekletme](#promise-yap%C4%B1s%C4%B1-ile-bekletme)
+  - [Promise ile Beklemeli Metod İşleme](#promise-ile-beklemeli-metod-i%CC%87%C5%9Fleme)
+- [HTTP İstekleri](#http-i%CC%87stekleri)
 - [Dosya İndirme](#dosya-i%CC%87ndirme)
   - [Çoklu Dosya İndirme](#%C3%A7oklu-dosya-i%CC%87ndirme)
   - [MIME - Internet Media Types](#mime---internet-media-types)
@@ -11,6 +16,69 @@
   - [HTML Elemanlarını Alma](#html-elemanlar%C4%B1n%C4%B1-alma)
     - [ID ile HTML Elemanı Alma](#id-ile-html-eleman%C4%B1-alma)
     - [Class, Tag veya Name ile HTML Elemanları Alma](#class-tag-veya-name-ile-html-elemanlar%C4%B1-alma)
+- [Harici Kaynaklar](#harici-kaynaklar)
+
+## Beklemeli İşlemler
+
+Bu konuda hakkında yazılmış bir medium yazısına [buradan][Wait Function] erişebilirsin.
+
+### Basit Geciktirme Metodları
+
+```js
+setTimeout(metod, ms_gecikme); // Gecikmeli olarak metodu başlatır
+```
+
+### Promise Yapısı ile Bekletme
+
+```js
+function wait(ms) {
+    return new Promise(
+        (r, j) => setTimeout(r, ms)
+    )
+}
+
+function method() {
+    console.log("done")
+}
+
+// Promise Yapısı ile çalışma
+const prom = wait(2000)
+prom.then(metod)
+
+// Await yapısı ile çalışma
+await wait(2000)
+method()
+```
+
+### Promise ile Beklemeli Metod İşleme
+
+```js
+function startDelayed(method, ms) {
+    new Promise(
+        (r, j) => setTimeout(r, ms)
+    ).then(method)
+}
+```
+
+```js
+async function startDelayed(method, ms) {
+    await new Promise((r, j) => setTimeout(r, ms));
+    return method();
+}
+```
+
+## HTTP İstekleri
+
+```js
+// https://stackoverflow.com/questions/247483/http-get-request-in-javascript
+// https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
+function httpGet(theUrl) {
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", theUrl, false); // false for synchronous request
+    xmlHttp.send(null);
+    return xmlHttp.responseText;
+}
+```
 
 ## Dosya İndirme
 
@@ -161,3 +229,9 @@ document.getElementsByTagName('tag_name');  // HTML elemanları dizisi döndür�
 document.getElementsByClassName('class_name'); // HTML elemanları dizisi döndürür (HTMLCollection)
 document.getElementsByName('name');  // HTML elemanları dizisi döndürür (HTMLCollection)
 ```
+
+## Harici Kaynaklar
+
+- [Wait Function]
+
+[Wait Function]: https://hackernoon.com/lets-make-a-javascript-wait-function-fa3a2eb88f11

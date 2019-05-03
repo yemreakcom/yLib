@@ -141,6 +141,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Yapılacaklar
 
+- [ ] İçerikleri kullanabilitesine göre sırala (Tıklamaları sayıp, çok tıklananı yukarı al vs.)
 - [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
 - [ ] Çöp gibi bilgi var kategorize edilecek
   - [ ] Java klasörü adı altında, dosyalandırılacak

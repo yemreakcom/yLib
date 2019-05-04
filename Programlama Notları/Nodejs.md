@@ -276,6 +276,8 @@ export function _getCallerInfo() {
 - [Debugging Visual Studio Code (Node)](https://www.youtube.com/watch?v=yFtU6_UaOtA)
 - [Nodejs React ve Redux ile Medium Klonu][Medium Clone]
 - [Top 10 Es6 Feature][Top 10 ES6 Feautres]
+- [Chrome API]
 
 [Top 10 ES6 Feautres]: https://webapplog.com/es6/
 [Medium Clone]: https://github.com/krissnawat/medium-clone-on-node
+[Chrome API]: https://stackoverflow.com/a/52257595/9770490

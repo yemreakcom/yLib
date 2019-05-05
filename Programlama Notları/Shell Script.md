@@ -257,6 +257,7 @@ done < "../$file"
 - [If Else Yapısı]
 - [For Döngüsü]
 - [Dosyayı satır satır okuma]
+- [Zaman işlemleri]
 
 [Bash Script]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc11
 [Let Komutu]: https://www.computerhope.com/unix/bash/let.htm
@@ -265,3 +266,4 @@ done < "../$file"
 [If Else Yapısı]: http://codewiki.wikidot.com/shell-script:if-else
 [For Döngüsü]: https://www.cyberciti.biz/faq/bash-for-loop/
 [Dosyayı satır satır okuma]: https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
+[Zaman işlemleri]: https://stackoverflow.com/a/1401495/9770490

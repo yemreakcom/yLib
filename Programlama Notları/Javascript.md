@@ -250,6 +250,8 @@ document.getElementById(<button_id>).click()
 
 ## Dosya İndirme
 
+> Popup blocker gibi eklentiler varsa kapatılması gerekmektedir.
+
 ```js
 function download(filename, text, mime='text/plain') {
     const link = document.createElement("a");

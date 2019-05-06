@@ -61,8 +61,8 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## Programlama Notları
 
 - [Android](Programlama%20Notlar%C4%B1/Android.md)
-- [DOM](Programlama%20Notlar%C4%B1/DOM.md)
 - [Genel Bilgiler](Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
+- [JQuery](Programlama%20Notlar%C4%B1/JQuery.md)
 - [Java](Programlama%20Notlar%C4%B1/Java.md)
 - [Javascript](Programlama%20Notlar%C4%B1/Javascript.md)
 - [Kotlin](Programlama%20Notlar%C4%B1/Kotlin.md)

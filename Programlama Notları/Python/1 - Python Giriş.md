@@ -11,12 +11,15 @@
 - [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
   - [Ana Değişkenler](#ana-de%C4%9Fi%C5%9Fkenler)
   - [Ek Değişkenler](#ek-de%C4%9Fi%C5%9Fkenler)
+  - [Dictionary](#dictionary)
 - [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
   - [Sabit Değerler (Constants)](#sabit-de%C4%9Ferler-constants)
-  - [Değişkenler Arası Takılama (Casting)](#de%C4%9Fi%C5%9Fkenler-aras%C4%B1-tak%C4%B1lama-casting)
+  - [Değişkenler Arası Dönüşüm (Casting)](#de%C4%9Fi%C5%9Fkenler-aras%C4%B1-d%C3%B6n%C3%BC%C5%9F%C3%BCm-casting)
+    - [İleri Seviye Değişken Dönüştürme](#i%CC%87leri-seviye-de%C4%9Fi%C5%9Fken-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
   - [Değişken Tipleri için Ek Kaynak](#de%C4%9Fi%C5%9Fken-tipleri-i%C3%A7in-ek-kaynak)
   - [Değişken ve Sabitlerde Gizlilik](#de%C4%9Fi%C5%9Fken-ve-sabitlerde-gizlilik)
   - [Değişkenin Tanımlı Olduğunu Kontrol Etme](#de%C4%9Fi%C5%9Fkenin-tan%C4%B1ml%C4%B1-oldu%C4%9Funu-kontrol-etme)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Python ile Programlamaya Hazırlanma
 
@@ -106,6 +109,20 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 - `[<değişken> for <değişken> in <dizi_veya_liste> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in a if x != 20]`
 
+### Dictionary
+
+> Alttaki işlemlerin her biri `dict` objesinin alt işlemidir.
+
+| İşlem                        | Açıklama                                        |
+| ---------------------------- | ----------------------------------------------- |
+| `dict[<key>]` & `get(<key>)` | Anahtar ile veri alma, veri yoksa hata fırlatır |
+| `dict[<key>] = <değer>`      | Belirli anahtara değer atama                    |
+| `<key> in dict`              | Anahtar `dict`'e var mı kontrolü                |
+| `json.dumps(dict)`           | `dict`'i `str`'a çevirme                        |
+
+- [`Dict`'i `str`'a çevirme][Dict'i str'a çevirme]
+- [`Dict`'ten hızlı bir yöntem var mı][Dict'ten hızlı var mı]
+
 ## Değersiz Değişken Tanımlama
 
 ```py
@@ -134,15 +151,36 @@ print(sabitler.PI) # 3.14
 print(sabitler.GRAVITY) # 9.8
 ```
 
-### Değişkenler Arası Takılama (Casting)
+### Değişkenler Arası Dönüşüm (Casting)
+
+Değişkenin tipi öğrenmek için `type(<değişken>)` komutu kullanılır.
 
 ```py
 ondalikli = 5.8
+type(ondalikli) #  <class 'float'>
+
 tam = int(5.8) # 5 atanır
+type(tam) # <class 'number'>
+
 sonuc = int(7/3.5) # 2 atanır
 sonuc = int(7/3) # 2 atanır
 sonuc = float(7 / 3.5) # 2.0 atanır
 sonuc = 7 / 3 # 2.33 atanır
+```
+
+#### İleri Seviye Değişken Dönüştürme
+
+```py
+value1 = True
+value2 = "True"
+type(value1) # <class 'bool'>
+type(value2) # <class 'str'>
+
+value3 = valu2 # value3'e `'True'` stringi atanır
+type(value3) # <class 'str'>
+
+value3 = type(value1)(value2) # value2'nin değeri value1'in tipine dönüştürülüp value3'e aktarılır
+type(value3) # <class 'bool'>
 ```
 
 ### Değişken Tipleri için Ek Kaynak
@@ -169,3 +207,7 @@ if hasattr(obj, 'attr_name'):
 
 > Kaynak için [buraya](https://stackoverflow.com/a/843293) bakabilirsin.
 
+## Harici Bağlantılar
+
+[Dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
+[Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490

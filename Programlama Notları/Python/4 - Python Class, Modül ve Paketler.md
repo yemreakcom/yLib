@@ -8,9 +8,9 @@
   - [Metodlu Class Örneği](#metodlu-class-%C3%B6rne%C4%9Fi)
     - [Obje Özelliği Silme](#obje-%C3%B6zelli%C4%9Fi-silme)
     - [Class Silme](#class-silme)
-  - [Scopes and Namespaces](#scopes-and-namespaces)
   - [Enumeration](#enumeration)
     - [Basit Kullanım](#basit-kullan%C4%B1m)
+    - [Fonksiyon API ile Kullanım](#fonksiyon-api-ile-kullan%C4%B1m)
     - [Enum Özellikleri](#enum-%C3%B6zellikleri)
       - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%C4%B1mlamas%C4%B1)
 - [Modüller](#mod%C3%BCller)
@@ -86,40 +86,6 @@ del p1.age
 del p1
 ```
 
-### Scopes and Namespaces
-
-```py
-def scope_test():
-    def do_local():
-        spam = "local spam"
-
-    def do_nonlocal():
-        nonlocal spam
-        spam = "nonlocal spam"
-
-    def do_global():
-        global spam
-        spam = "global spam"
-
-    spam = "test spam"
-    do_local()
-    print("After local assignment:", spam)
-    do_nonlocal()
-    print("After nonlocal assignment:", spam)
-    do_global()
-    print("After global assignment:", spam)
-
-scope_test()
-print("In global scope:", spam)
-```
-
-```txt
-After local assignment: test spam
-After nonlocal assignment: nonlocal spam
-After global assignment: nonlocal spam
-In global scope: global spa
-```
-
 ### Enumeration
 
 Resmi dökümantasyon için [buraya](https://docs.python.org/3/library/enum.html) bakabilirsin.
@@ -138,7 +104,8 @@ class Color(Enum):
     BLUE = 3
 
 # Erişim şekli
-Color.RED # 1
+Color # <enum 'Color'>
+Color.RED.value # 1
 Color.RED.name # RED
 type(Color.RED) # <enum 'Color'>
 Color(1) # <Color.RED: 1>
@@ -149,6 +116,13 @@ isinstance(Color.GREEN, Color) # True
 color = Color.RED
 color.value # 1
 color.name # RED
+```
+
+#### Fonksiyon API ile Kullanım
+
+```py
+ornek = Enum('Color', 'ANT BEE CAT DOG')
+print(ornek) # <enum 'Color'>
 ```
 
 #### Enum Özellikleri

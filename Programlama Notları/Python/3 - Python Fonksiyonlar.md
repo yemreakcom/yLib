@@ -20,9 +20,11 @@
 - [Lambda Fonksiyonlar](#lambda-fonksiyonlar)
   - [Filter ile Lambda Kullanımı](#filter-ile-lambda-kullan%C4%B1m%C4%B1)
   - [Map ile Lambda Kullanımı](#map-ile-lambda-kullan%C4%B1m%C4%B1)
+- [İç İçe Fonksiyonlar](#i%CC%87%C3%A7-i%CC%87%C3%A7e-fonksiyonlar)
 - [Global, Local ve Nonlocal Kavramları](#global-local-ve-nonlocal-kavramlar%C4%B1)
-  - [Global, Local ve Nonlocal Kavramlarına Örnek](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek)
+  - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek-scopes-and-namespaces)
   - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
+  - [Global Kullanımına Karmaşık Örnek](#global-kullan%C4%B1m%C4%B1na-karma%C5%9F%C4%B1k-%C3%B6rnek)
 
 ## Dahili Fonksiyon Kullanımları
 
@@ -98,6 +100,8 @@
   - *Örn: `*.txt`, `../help`*
 
 ## Fonksiyon Oluşturma
+
+Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 
 ### Fonksiyon İskeleti
 
@@ -234,36 +238,105 @@ katlanmis_listem = list(map(lambda x: x * 2 , listem))
 print(katlanmis_listem) # Output: [2, 10, 8, 12, 16, 22, 6, 24]
 ```
 
-## Global, Local ve Nonlocal Kavramları
+## İç İçe Fonksiyonlar
 
-| Kavram     | Açıklama                                                                                    |
-| ---------- | ------------------------------------------------------------------------------------------- |
-| `global`   | Tüm modülde geçerli değişkenler                                                             |
-| `local`    | Fonksiyonların içerisindeki yerel değişkenler                                               |
-| `nonlocal` | Modül ile fonksiyon arasında kalan, genellikle iç içe fonksiyonlarda kullanılan değişkenler |
+Python ile fonksiyon içinde fonksiyon tanımalamak mümkündür.
 
-### Global, Local ve Nonlocal Kavramlarına Örnek
+> Hatırlatma: Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 
 ```py
-x = 5 # Global
+def func1():
 
-def fonksiyonum():
-  x = 3 # Nonlocal
+    # func2() bu alanda kullanılamaz
 
-  def degisitirici():
-    x = 1 # Local
+    def func2():
+        print("Selam2")
+
+    print("Selam1")
+    func2() # Bu alanda ekrana 'Selam2' basar
+
+```
+
+## Global, Local ve Nonlocal Kavramları
+
+| Kavram     | Açıklama                                                                                    | Erişim         |
+| ---------- | ------------------------------------------------------------------------------------------- | -------------- |
+| `global`   | Tüm modülde geçerli değişkenler                                                             | Okuma          |
+| `local`    | Fonksiyonların içerisindeki yerel değişkenler                                               | Okuma ve Yazma |
+| `nonlocal` | Modül ile fonksiyon arasında kalan, genellikle iç içe fonksiyonlarda kullanılan değişkenler | Okuma          |
+
+### Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)
+
+```py
+x = 5 # Global değişken
+
+def func1():
+
+    x = 4 # Nonlocal değişken
+  
+    def func11():
+      x = 1 # Local değişken
+
+    print(x)
+    # Python otomatik olarak `global x` deyimini kullanır
+    #  x'i global değişkenlerde arar ve ekrana '5' basar
+
+    # print(x)
+    # x = 3
+    # Yukarıdaki işlemde x'e atama yapıldığından `nonlocal x` olarak tanımlanır.
+    # Bu sebeple `print(x)` komutu çalışmaz hata verir.
+    # x tanımlanmadan kullanıldı (`global x` olarak yazılması lazım)
+    global x
+    print(x)
+    x = 3
+    print(x)
+
 ```
 
 ### Global Kullanımına Örnek
 
 ```py
 x = 5
-  # Yerel x değişkenine 3 değeri atanır, evrensel x değişmez.
+  
   def xDegistir():
-    x = 3
+    x = 3 # Yerel x değişkenine 3 değeri atanır, evrensel x değişmez.
 
-  # Evrensel x değişir
+  
   def globalXDegistir():
     global x
-    x = 4
+    x = 4 # Evrensel x değişir
+```
+
+### Global Kullanımına Karmaşık Örnek
+
+```py
+def scope_test():
+    def do_local():
+        spam = "local spam"
+
+    def do_nonlocal():
+        nonlocal spam
+        spam = "nonlocal spam"
+
+    def do_global():
+        global spam
+        spam = "global spam"
+
+    spam = "test spam"
+    do_local()
+    print("After local assignment:", spam)
+    do_nonlocal()
+    print("After nonlocal assignment:", spam)
+    do_global()
+    print("After global assignment:", spam)
+
+scope_test()
+print("In global scope:", spam)
+```
+
+```txt
+After local assignment: test spam
+After nonlocal assignment: nonlocal spam
+After global assignment: nonlocal spam
+In global scope: global spa
 ```

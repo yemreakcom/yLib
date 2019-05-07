@@ -19,6 +19,7 @@
   - [Yapılandırma Eklentileri](#yap%C4%B1land%C4%B1rma-eklentileri)
   - [Dökümantasyon Eklentileri](#d%C3%B6k%C3%BCmantasyon-eklentileri)
 - [Editör ayarları](#edit%C3%B6r-ayarlar%C4%B1)
+  - [Intellicode Ayaları](#intellicode-ayalar%C4%B1)
   - [Editör Değişkenleri](#edit%C3%B6r-de%C4%9Fi%C5%9Fkenleri)
   - [Editör Klavye Kısayollarım](#edit%C3%B6r-klavye-k%C4%B1sayollar%C4%B1m)
   - [Editör JSON Ayarlarım](#edit%C3%B6r-json-ayarlar%C4%B1m)
@@ -182,6 +183,10 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 ## Editör ayarları
 
 > Sol alt köşedeki `ayarlar` simgesi -> Sağ üst köşedeki `{}` simgesine tıklayıp oraya bunlardan istediklerini kopyalayabilirsin.
+
+### Intellicode Ayaları
+
+Buradan [detaylara][Intellicode] erişebilirsin.
 
 ### Editör Değişkenleri
 
@@ -355,3 +360,5 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 - [Best Visual Studio Code Extension](https://blog.elmah.io/best-visual-studio-code-extensions/)
 - [10 Essential VS Code Extensions for JavaScript Developers in 2019](https://hackernoon.com/10-essential-vs-code-extensions-for-javascript-developers-in-2019-e8320e3f421e)
 - [Debugging ES6 in Visual Studio Code](https://medium.com/@drcallaway/debugging-es6-in-visual-studio-code-4444db797954)
+
+[Intellicode]: https://code.visualstudio.com/docs/editor/intellisense

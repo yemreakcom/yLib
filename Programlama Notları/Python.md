@@ -243,13 +243,12 @@ Ek python ayarları için [buradaki](https://code.visualstudio.com/docs/python/s
 
 #### VsCode Python Eklentileri
 
-| Eklenti                                                                                                                               | Açıklama                                                   |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)                                                        | Dil desteği                                                |
-| [Visual Studio IntelliCode - **Preview**](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
-| [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)                                          | Dökümantasyon parçaları sağlayan eklenti                   |
-| [Better Comment](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)                                      | Yorum satırı renklediricisi                                |
-| [Trailing Space](https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces)                                      | Gereksiz boşlukları hızlıca silmek için aydınlatır         |
+| Eklenti                                                                        | Açıklama                                                   |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------- |
+| [Python][Python - Vscode]                                                      | Dil desteği                                                |
+| [Visual Studio IntelliCode - **Preview**][Visual studio intellicode - vscode]) | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
+| [autoDocstring][Autodocstring - Vscode]                                        | Dökümantasyon parçaları sağlayan eklenti                   |
+| [Better Comment][Bettercomment - VsCode]                                       | Yorum satırı renklediricisi                                |
 
 #### Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler
 
@@ -1890,3 +1889,19 @@ Google Colabrotory `IPython` modülünü kullanmaktadır.
 [Quick Draw]: https://github.com/vietnguyen91/QuickDraw
 [7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
 [Slice]: https://www.webucator.com/how-to/how-slice-strings-python.cfm
+[Python - Vscode]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+[Visual studio intellicode - vscode]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+[Autodocstring - Vscode]: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+[Bettercomment - VsCode]: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+
+## Lisans ve Teferruatlar
+
+Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.
+
+- [Github](https://github.com/yedhrab)
+- [Website](https://yemreak.com)
+- [LinkedIn](https://www.linkedin.com/in/yemreak/)
+
+> Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github) geçebilrsiniz 🤗
+
+~ Yunus Emre Ak

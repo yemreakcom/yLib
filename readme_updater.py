@@ -1,6 +1,7 @@
 """Readme dosyasına indeksleri ekleme
 """
 
+import os
 from enum import Enum, unique
 
 # Yapılandırma dosyası ayarları
@@ -53,7 +54,10 @@ README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliş
 
 def load_cfg():
 
-    def read_file():
+    def check_cfg():
+        return CONFIG_FILE in os.listdir()
+
+    def read_cfg():
 
         @unique
         class Sections(Enum):
@@ -145,11 +149,12 @@ def load_cfg():
         def reg_option(name, value):
 
             def cast_value(name, value):
-                return type(OPTIONS[name].value)(value)
+                if type(OPTIONS[name].value) is not str:
+                    return eval(value)
+                return value
 
-            for option in OPTIONS:
-                if name in OPTIONS:
-                    OPTIONS[name].value = cast_value(name, value)
+            if name in OPTIONS:
+                OPTIONS[name].value = cast_value(name, value)
 
         def reg_privates(value):
             if value not in PRIVATES:
@@ -173,7 +178,7 @@ def load_cfg():
                     except:
                         continue
 
-    def create_file():
+    def create_cfg():
 
         def create_header_filestr(string: str) -> str:
             return f"{string}\n\n"
@@ -211,10 +216,10 @@ def load_cfg():
 
     # TODO Dosya varsa okuma moduna al
     try:
-        read_file()
+        read_cfg()
     except:
-        create_file()
-        read_file()
+        create_cfg()
+        read_cfg()
 
 
 load_cfg()

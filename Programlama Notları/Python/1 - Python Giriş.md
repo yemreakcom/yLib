@@ -15,6 +15,7 @@
 - [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
   - [Sabit Değerler (Constants)](#sabit-de%C4%9Ferler-constants)
   - [Değişkenler Arası Dönüşüm (Casting)](#de%C4%9Fi%C5%9Fkenler-aras%C4%B1-d%C3%B6n%C3%BC%C5%9F%C3%BCm-casting)
+    - [Eval Fonksiyonu ile Dönüştürme](#eval-fonksiyonu-ile-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
     - [İleri Seviye Değişken Dönüştürme](#i%CC%87leri-seviye-de%C4%9Fi%C5%9Fken-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
   - [Değişken Tipleri için Ek Kaynak](#de%C4%9Fi%C5%9Fken-tipleri-i%C3%A7in-ek-kaynak)
   - [Değişken ve Sabitlerde Gizlilik](#de%C4%9Fi%C5%9Fken-ve-sabitlerde-gizlilik)
@@ -160,27 +161,40 @@ ondalikli = 5.8
 type(ondalikli) #  <class 'float'>
 
 tam = int(5.8) # 5 atanır
-type(tam) # <class 'number'>
+type(tam) # <class 'int'>
 
 sonuc = int(7/3.5) # 2 atanır
 sonuc = int(7/3) # 2 atanır
 sonuc = float(7 / 3.5) # 2.0 atanır
 sonuc = 7 / 3 # 2.33 atanır
+
+value = "False"
+print(bool(value)) # True verir, bool'a takılama string içeriğine bakmaz.
+print(bool("")) # False
+```
+
+#### Eval Fonksiyonu ile Dönüştürme
+
+```py
+value = "5"
+print(type(value)) # <class 'str'>
+print(type(eval(value))) # <class 'int'>
+print(type(value)) # <class 'str'>
 ```
 
 #### İleri Seviye Değişken Dönüştürme
 
 ```py
-value1 = True
-value2 = "True"
-type(value1) # <class 'bool'>
-type(value2) # <class 'str'>
+value1 = "5"
+value2 = 3
 
-value3 = valu2 # value3'e `'True'` stringi atanır
-type(value3) # <class 'str'>
+print(type(value1)) # <class 'str'>
+print(type(value2)) # <class 'int'>
 
-value3 = type(value1)(value2) # value2'nin değeri value1'in tipine dönüştürülüp value3'e aktarılır
-type(value3) # <class 'bool'>
+value3 = type(value2)(value1) # Value1'i value2'nin tipine dönüştürme
+
+print(value3) # 5
+print(type(value3)) # <class 'int'>
 ```
 
 ### Değişken Tipleri için Ek Kaynak

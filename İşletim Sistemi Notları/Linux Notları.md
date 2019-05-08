@@ -70,6 +70,7 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
   - [League of Legends](#league-of-legends)
 - [Shell (Bash) Scripting](#shell-bash-scripting)
 - [Faydalı Gelişmiş Bilgiler](#faydal%C4%B1-geli%C5%9Fmi%C5%9F-bilgiler)
+  - [Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)](#%C3%A7al%C4%B1%C5%9Fma-alanlar%C4%B1n%C4%B1-ba%C4%9F%C4%B1ms%C4%B1zla%C5%9Ft%C4%B1rma-isolate-workspace)
   - [Dosya İzinleri](#dosya-i%CC%87zinleri)
     - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
     - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#dizine-ve-alt-dizinlerine-okuma-ve-yazma-i%CC%87zni-verme)
@@ -644,6 +645,16 @@ sudo snap install --edge leagueoflegends --devmode
 Shell script hakkında detaylı bilgi için [buraya][Shell Script] bakabilrisin.
 
 ## Faydalı Gelişmiş Bilgiler
+
+### Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)
+
+Bu işlem için `isolate workspaces` ayarını dash, dock ya da panel ayarlarında aktif hale getirmemiz lazım.
+
+> Panel için `dock` yazan kısma `panel` yazıp komutu kullanın.
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock isolate-workspaces true
+```
 
 ### Dosya İzinleri
 

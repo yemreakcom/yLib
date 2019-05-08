@@ -3,7 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%C4%B1mlar%C4%B1)
-  - [Ekrana Yazma / Print İşlemleri](#ekrana-yazma--print-i%CC%87%C5%9Flemleri)
+  - [Genel Fonksiyonlar](#genel-fonksiyonlar)
   - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
 - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Harici String İşlemleri](#harici-string-i%CC%87%C5%9Flemleri)
@@ -28,12 +28,13 @@
 
 ## Dahili Fonksiyon Kullanımları
 
-### Ekrana Yazma / Print İşlemleri
+### Genel Fonksiyonlar
 
-| Fonksiyon                      | Açıklama              | Örnek                      | Çıktı        |
-| ------------------------------ | --------------------- | -------------------------- | ------------ |
-| `print(<string>)`              | Ekrana yazma          | `print(f"X: {a}, Y: {2}")` | `X: 1, Y: 2` |
-| `print(f'...{<python_kodu>}')` | Ekrana formatlı yazma | `print(f"X: {a}, Y: {2}")` | `X: 1, Y: 2` |
+| Fonksiyon         | Açıklama                  | Örnek                     | Çıktı              |
+| ----------------- | ------------------------- | ------------------------- | ------------------ |
+| `print(<string>)` | Ekrana yazma              | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}`   |
+| `eval(<string>)`  | Verilen stringi hesaplama | `eval("x + 5")`           | `6`                |
+| `type(<obje>)`    | Objenin türünü bulma      | `type(x)`                 | `<class 'number'>` |
 
 ### String İşlemleri
 
@@ -340,3 +341,5 @@ After nonlocal assignment: nonlocal spam
 After global assignment: nonlocal spam
 In global scope: global spa
 ```
+
+[Slice]: https://www.webucator.com/how-to/how-slice-strings-python.cfm

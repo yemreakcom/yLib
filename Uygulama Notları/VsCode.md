@@ -226,14 +226,38 @@ Değişkenlerin kullanım şekilleri:
         "command": "python.execInTerminal"
     },
     {
-        "key": "ctrl+[KeyI] ctrl+k",
-        "command": "editor.foldAll",
-        "when": "editorTextFocus"
+        "key": "ctrl+[KeyI] ctrl+p",
+        "command": "git.pullRebase"
     },
     {
-        "key": "ctrl+[KeyI] ctrl+o",
-        "command": "editor.unfoldAll",
-        "when": "editorTextFocus"
+        "key": "ctrl+i ctrl+c",
+        "command": "extension.currentAREPLSession",
+        "when": "!inQuickOpen && !terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-extension.currentAREPLSession",
+        "when": "!inQuickOpen && !terminalFocus"
+    },
+    {
+        "key": "ctrl+i ctrl+n",
+        "command": "extension.newAREPLSession",
+        "when": "!inQuickOpen && !terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+q",
+        "command": "-extension.newAREPLSession",
+        "when": "!inQuickOpen && !terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+f10",
+        "command": "python.execSelectionInTerminal",
+        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
+    },
+    {
+        "key": "shift+enter",
+        "command": "-python.execSelectionInTerminal",
+        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
     }
 ]
 ```
@@ -252,9 +276,7 @@ Değişkenlerin kullanım şekilleri:
     "window.menuBarVisibility": "toggle",
     // Editör Ayarları
     "editor.fontSize": 15,
-    "editor.fontFamily": "Ubuntu Mono, Roboto Mono", // https://fonts.google.com/specimen/Ubuntu+Mono?selection.family=Ubuntu+Mono
-    "editor.insertSpaces": false,
-    "editor.tabSize": 4,
+    "editor.fontFamily": "Ubuntu Mono, Roboto Mono",
     "editor.formatOnSave": true,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 99,
@@ -268,10 +290,12 @@ Değişkenlerin kullanım şekilleri:
     "git.autofetch": false,
     // Markdownlint ayarları
     "markdownlint.config": {
-        "MD033": false,
-        "MD010": false,
-        "MD007": false
+        "MD033": false
     },
+    // Python kite için ek ayarlar
+    "python.jediEnabled": false,
+    "editor.suggestSelection": "first",
+    "kite.showWelcomeNotificationOnStartup": false,
 }
 ```
 

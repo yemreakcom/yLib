@@ -9,8 +9,8 @@
   - [Fonksyion Oluşturma Anahtar Kelimeleri](#fonksyion-olu%C5%9Fturma-anahtar-kelimeleri)
     - [Fonksiyon Anahtar Kelimeleri](#fonksiyon-anahtar-kelimeleri)
 - [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
-  - [Ana Değişkenler](#ana-de%C4%9Fi%C5%9Fkenler)
-  - [Ek Değişkenler](#ek-de%C4%9Fi%C5%9Fkenler)
+  - [List](#list)
+  - [Set](#set)
   - [Dictionary](#dictionary)
 - [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
   - [Sabit Değerler (Constants)](#sabit-de%C4%9Ferler-constants)
@@ -88,27 +88,56 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 
 ## Değişkenler
 
-### Ana Değişkenler
+| Tip          | Açıklama                           | Örnek                 |
+| ------------ | ---------------------------------- | --------------------- |
+| bool         | 2'li değer, bit                    | `True`                |
+| int          | Sayı                               | `1`                   |
+| float        | Virgüllü sayı                      | `1.2`                 |
+| complex      | Karmaşık sayılar                   | `2+3j`                |
+| str          | String, metin                      | `"Hello"` / `'Hello'` |
+| [List]       | `liste = [1, 2]`                   | `liste[index]`        |
+| [Set]        | `kume = {1.0, "Hello", (1, 2, 3)}` | `kume.add(1)`         |
+| [Dictionary] | `site = {"adi":"yemreak"}`         | `site['adi']`         |
+| [Tuple]      | `konum = (1, 2)`                   | `x, y = konum`        |
 
-| Tip     | Açıklama         | Örnek                 |
-| ------- | ---------------- | --------------------- |
-| bool    | 2'li değer, bit  | `True`                |
-| int     | Sayı             | `1`                   |
-| float   | Virgüllü sayı    | `1.2`                 |
-| complex | Karmaşık sayılar | `2+3j`                |
-| str     | String, metin    | `"Hello"` / `'Hello'` |
+### List
 
-### Ek Değişkenler
+Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
-| Tip                                                                   | Oluştuma                           | Erişim         |
-| --------------------------------------------------------------------- | ---------------------------------- | -------------- |
-| [List](https://www.programiz.com/python-programming/list)             | `liste = [1, 2]`                   | `liste[index]` |
-| [Set](https://www.programiz.com/python-programming/set)               | `kume = {1.0, "Hello", (1, 2, 3)}` | `kume.add(1)`  |
-| [Dictionary](https://www.programiz.com/python-programming/dictionary) | `site = {"adi":"yemreak"}`         | `site['adi']`  |
-| [Tuple](https://www.programiz.com/python-programming/tuple)           | `konum = (1, 2)`                   | `x, y = konum` |
+- Birbirinden farklı değişkenleri tutabilir
+- Aynı değişken birden fazla tekrar edebilir
+- Hızlıca göz atmak için [buraya][List] buraya bakabilirsin
+
+| List Metodları                  | Açıklama      |
+| ------------------------------- | ------------- |
+| `append(<value>)`               | Eleman ekleme |
+| `[<index>]` veya `get(<index>)` | Eleman alma   |
 
 - `[<değişken> for <değişken> in <dizi_veya_liste> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in a if x != 20]`
+
+### Set
+
+Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
+
+- Birbirinden farklı değişkenleri tutabilir
+- Aynı değişken birden fazla **yazılamaz** (küme özelliği)
+- Tüm değerlerin *inmutable* (değiştirilemez) olması gerekmektedir
+  - `myset = {[1, 2, 3]}` komutunda `[1, 2, 3]` list öğesi *mutable* olduğundan değiştirilebilir (ekleme çıkarma olabilir)
+- *Indexing* (indekslenme) ve *slicing, subscription* (kesme, parçalama) işlemlerini desteklemez
+  - `myset[0]` çalışmaz
+- Hızlıca göz atmak için [buraya][Set], detaylı olarak incelemek için [buraya][Set - Datacamp] bakabilirsin
+
+| Set Metodları                | Açıklama                  |
+| ---------------------------- | ------------------------- |
+| `add(<immutable>)`           | Eleman ekleme             |
+| `for <isim> in <set>`        | Elemanları döngü ile alma |
+| `<isim> = next(iter(<set>))` | Elemanları sıra ile alma  |
+
+- `<immutable>` Herhangi değiştirilemez değer
+  - Örn: `1`, `"yemreak"`, `tuple`, `str`, `int` vs
+- `<isim>` Elemena verilecek isim
+  - Örn: `i`, `e` vs
 
 ### Dictionary
 
@@ -223,5 +252,10 @@ if hasattr(obj, 'attr_name'):
 
 ## Harici Bağlantılar
 
+[List]: https://www.programiz.com/python-programming/list
+[Set]: https://www.programiz.com/python-programming/set
+[Set - Datacamp]: https://www.datacamp.com/community/tutorials/sets-in-python
+[Tuple]: https://www.programiz.com/python-programming/tuple
+[Dictionary]: https://www.programiz.com/python-programming/dictionary
 [Dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
 [Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490

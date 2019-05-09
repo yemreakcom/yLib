@@ -30,11 +30,15 @@
 
 ### Class Anahtar Kelimeleri
 
-| Anhatar                | Açıklama                               | Örnek                                                   |
-| ---------------------- | -------------------------------------- | ------------------------------------------------------- |
-| `self`                 | Diğer dillerdeki `this` anlamına gelir | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
-| `__init__`             | Constructer fonksiyonudur              | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
-| `def function(param):` | Fonksiyon tanımalama                   | [Metodlu Class Örneği](#metodlu-class-%C3%B6rne%C4%9Fi) |
+<!-- TODO: Operator overloading ekle __sub__ vs. -->
+
+| Anhatar                | Açıklama                                  | Örnek                                                   |
+| ---------------------- | ----------------------------------------- | ------------------------------------------------------- |
+| `self`                 | Diğer dillerdeki `this` anlamına gelir    | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
+| `__init__`             | Constructer fonksiyonudur                 | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
+| `__sub__`              | Çıkarma işlemi yapıldığında çalışan metod | [Çıkarma işlemi]                                        |
+| `__contains__`         | Dahiliyet işlemi                          |
+| `def function(param):` | Fonksiyon tanımalama                      | [Metodlu Class Örneği](#metodlu-class-%C3%B6rne%C4%9Fi) |
 
 ### Basit Class Örneği
 
@@ -308,3 +312,5 @@ from Game.Level.start import select_difficulty
 - [Python Kütüphaneleri](https://docs.python.org/3/library/)
 - [Argparse Tutorial](https://docs.python.org/3/howto/argparse.html)
 - [PyAutoGUI vs Pywinauto](https://www.reddit.com/r/Python/comments/8bymeo/pyautogui_vs_pywinauto/)
+
+[Çıkarma işlemi]: https://stackoverflow.com/a/3428637/9770490

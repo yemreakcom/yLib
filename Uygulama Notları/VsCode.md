@@ -206,7 +206,6 @@ Değişkenlerin kullanım şekilleri:
 ### Editör Klavye Kısayollarım
 
 ```json
-// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+[Backquote]",
@@ -230,7 +229,7 @@ Değişkenlerin kullanım şekilleri:
         "command": "git.pullRebase"
     },
     {
-        "key": "ctrl+i ctrl+c",
+        "key": "ctrl+[KeyI] ctrl+c",
         "command": "extension.currentAREPLSession",
         "when": "!inQuickOpen && !terminalFocus"
     },
@@ -240,7 +239,7 @@ Değişkenlerin kullanım şekilleri:
         "when": "!inQuickOpen && !terminalFocus"
     },
     {
-        "key": "ctrl+i ctrl+n",
+        "key": "ctrl+[KeyI] ctrl+n",
         "command": "extension.newAREPLSession",
         "when": "!inQuickOpen && !terminalFocus"
     },

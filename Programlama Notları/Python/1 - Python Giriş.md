@@ -1,5 +1,7 @@
 # Python Giriş <!-- omit in toc -->
 
+<!-- TODO: Immutabble mutable kavramını açıkla -->
+
 ## İçerikler <!-- omit in toc -->
 
 - [Python ile Programlamaya Hazırlanma](#python-ile-programlamaya-haz%C4%B1rlanma)
@@ -126,7 +128,6 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
   - `myset = {[1, 2, 3]}` komutunda `[1, 2, 3]` list öğesi *mutable* olduğundan değiştirilebilir (ekleme çıkarma olabilir)
 - *Indexing* (indekslenme) ve *slicing, subscription* (kesme, parçalama) işlemlerini desteklemez
   - `myset[0]` çalışmaz
-- Hızlıca göz atmak için [buraya][Set], detaylı olarak incelemek için [buraya][Set - Datacamp] bakabilirsin
 
 | Set Metodları                | Açıklama                  |
 | ---------------------------- | ------------------------- |
@@ -138,6 +139,12 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
   - Örn: `1`, `"yemreak"`, `tuple`, `str`, `int` vs
 - `<isim>` Elemena verilecek isim
   - Örn: `i`, `e` vs
+
+> Ek bağlantılar:
+>
+> - [Hızlıca set açıklaması][Set]
+> - [Detaylı set açıklaması][Set Detaylı]
+> - [Set mi yoksa list mi daha hızlı]
 
 ### Dictionary
 
@@ -254,8 +261,9 @@ if hasattr(obj, 'attr_name'):
 
 [List]: https://www.programiz.com/python-programming/list
 [Set]: https://www.programiz.com/python-programming/set
-[Set - Datacamp]: https://www.datacamp.com/community/tutorials/sets-in-python
+[Set Detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
 [Tuple]: https://www.programiz.com/python-programming/tuple
 [Dictionary]: https://www.programiz.com/python-programming/dictionary
 [Dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
 [Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
+[Set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490

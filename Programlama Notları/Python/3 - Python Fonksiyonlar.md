@@ -7,7 +7,6 @@
   - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
 - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Harici String İşlemleri](#harici-string-i%CC%87%C5%9Flemleri)
-  - [Dizin ve Yol İşlemleri](#dizin-ve-yol-i%CC%87%C5%9Flemleri)
 - [Fonksiyon Oluşturma](#fonksiyon-olu%C5%9Fturma)
   - [Fonksiyon İskeleti](#fonksiyon-i%CC%87skeleti)
   - [Fonksiyon Örneği](#fonksiyon-%C3%B6rne%C4%9Fi)
@@ -79,26 +78,6 @@
   - *Örn:* `'\n|\t|\*'`
 - `<string>` Ayrıştırılacak metin
   - *Örn:* `'yemreak.com'`
-
-### Dizin ve Yol İşlemleri
-
-| Paket     | Fonksiyon                      | Açıklama                                                                         |
-| --------- | ------------------------------ | -------------------------------------------------------------------------------- |
-| `os`      | `listdir(<yol>)`               | Yolu verilen dizinin içindekileri döndürür                                       |
-| `os`      | `rename(<eski_ad>, <yeni_ad>)` | Dosya veya dizin adlandırma                                                      |
-| `os.path` | `isfile(<yol>)`                | Dosya mı kontrolü                                                                |
-| `os.path` | `join(<yol1>, <dosya_adı>)`    | Dizinleri birleştirme                                                            |
-| `os.path` | `basename(<yol>)`              | Yolu verilen dosyanın salt adını ve uzantısını bulma                             |
-| `os.path` | `splittext(<dosya_adı>)`       | Dosyanın başlığını ve uzantısını döndürür (title, ext)                           |
-| `glob`    | `glob(<yol_şablonu>)`          | Verilen sorguya veya yola uygun dosya ve dizinleri döndürür                      |
-| `glob`    | `iglob(<yol_şablonu>)`         | Verilen sorguya veya yola uygun dosya ve dizinleri generator yapısı ile döndürür |
-
-- `<yol>` Path, dosya yolu
-  - *Örn: C:\Users\Username\help.txt*
-- `<dosya_adı>` Dosyanın uzantısıyla birlikteki adı
-  - *Örn: help.txt*
-- `<yol_şablonu>` Özel dizin sorguları
-  - *Örn: `*.txt`, `../help`*
 
 ## Fonksiyon Oluşturma
 

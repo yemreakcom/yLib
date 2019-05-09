@@ -26,6 +26,7 @@ Karma konular hakkında aldığım notlar.
 - [Yapılacaklar](#yap%C4%B1lacaklar)
   - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
 - [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
+  - [İçerik Yapısı](#i%CC%87%C3%A7erik-yap%C4%B1s%C4%B1)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
 ## IstanbulUniversity - CE
@@ -173,6 +174,28 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - Her şey **dinamik** olmalı
 - Önce sabit değerli yaz, sonrasında `CTRL`+ `F` ile sabitleri değişken haline dönüştür
 - Terimler *italik*, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
+
+### İçerik Yapısı
+
+Giriş cümlesi veya alakalı cümle.
+
+> Varsa ek yorum
+
+- Alaklı maddesel bilgiler
+- Bilgi 2
+
+| Tablo        | Tablo1                      |
+| ------------ | --------------------------- |
+| `<değişken>` | Tablosal yapı ile örnekleme |
+
+- `<değişken>` Tablo değişkenlerini açıklama
+  - Örn: `kod` örneklendirme
+
+> Ek bağlantılar:
+>
+> - Link
+> - Link
+> - Link
 
 ## Lisans ve Teferruatlar
 

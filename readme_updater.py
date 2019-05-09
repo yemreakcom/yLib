@@ -235,10 +235,42 @@ def insert_indexes():
                 return True
         return False
 
-    def listfiles():
-        return [name for name in os.listdir() if (not is_private(name) and os.path.isfile(name))]
+    def listfolders(path: str = os.getcwd()) -> str:
+        folderlist = []
+        for name in os.listdir(path):
+            pathname = os.path.join(path, name)
+            if not is_private(name) and os.path.isdir(pathname):
+                folderlist.append(pathname)
+        return folderlist
 
-    def listfolders():
-        return [name for name in os.listdir() if (not is_private(name) and os.path.isdir(name))]
+    def listfiles(path: str = os.getcwd()) -> str:
+        filelist = []
+        for name in os.listdir(path):
+            pathname = os.path.join(path, name)
+            if not is_private(name) and os.path.isfile(pathname):
+                filelist.append(pathname)
+        return filelist
+
+    def create_header(name, lvl):
+        header = ""
+        for i in range(0, lvl):
+            header += "#"
+        header += f" {name}\n\n"
+
+        return header
+
+    def create_link(name: str, path: str):
+        path.replace(os.getcwd(), ".")
+        link = f"- [{name}]({url})"
+
+    headerlvl = 2
+    folders = listfolders()
+    for folder in folders:
+        create_header(folder, headerlvl)
+        files = listfiles(folder)
+        for file in files:
+            create_link(folder, file)
+
 
 # listdir()
+insert_indexes()

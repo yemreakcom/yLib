@@ -1,4 +1,8 @@
 """Readme dosyasına indeksleri ekleme
+
+TODO: ToC oluştur
+TODO: Header'lar için dinamik link oluştur [Baslik]: #baslik
+TODO: Belki vscode eklentisi yapabilirsin
 """
 
 import os
@@ -10,7 +14,7 @@ COMMENT_DELIM = "#"
 VARIABLE_DELIM = "="
 CONFIG_HEADER = "[Config]"
 PRIVATE_HEADER = "[Private]"
-WHITESPACES = ["\n", " "]
+WHITESPACES = {"\n", " "}
 
 
 # Program aylarındaki indeks bilgileri
@@ -40,16 +44,8 @@ OPTIONS = {
     )
 }
 
-# Görmezden gelinen dosya veya dizinler
-PRIVATES = [".git", ".vscode"]
-
-
-def update():
-    """README'de indeksleme oluşturucu
-README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliştirir.
-"""
-
-    load_cfg()
+# Görmezden gelinen dosya veya dizinler ('set' olma sebebi tekrarlı verileri engellemektir)
+PRIVATES = {".git", ".vscode"}
 
 
 def load_cfg():
@@ -158,7 +154,7 @@ def load_cfg():
 
         def reg_privates(value):
             if value not in PRIVATES:
-                PRIVATES.append(value)
+                PRIVATES.add(value)
 
         with open(CONFIG_FILE, "r") as file:
             for line in file:
@@ -222,4 +218,27 @@ def load_cfg():
         read_cfg()
 
 
-load_cfg()
+def update():
+    """README'de indeksleme oluşturucu
+README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliştirir.
+"""
+
+    load_cfg()
+
+
+def insert_indexes():
+
+    def is_private(filename):
+        global PRIVATES
+        for private in PRIVATES:
+            if filename == private:
+                return True
+        return False
+
+    def listfiles():
+        return [name for name in os.listdir() if (not is_private(name) and os.path.isfile(name))]
+
+    def listfolders():
+        return [name for name in os.listdir() if (not is_private(name) and os.path.isdir(name))]
+
+# listdir()

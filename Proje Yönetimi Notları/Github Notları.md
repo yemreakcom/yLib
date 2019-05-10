@@ -41,7 +41,9 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 
 ## Harici Bağlantılar
 
-> Yok 😒
+- [Github page'e domain bağlama]
+
+> Başka yok 😒
 
 [Git Notlarım]: ../Git%20Notlar%C4%B1.md
 
@@ -63,3 +65,4 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 [Codetree - Github]: https://github.com/marketplace/codetree
 
 [GitGuardian]: https://www.gitguardian.com/
+[Github page'e domain bağlama]: https://medium.com/@tivikter/github-pagesi-%C3%B6zel-domain-ile-kullanmak-ce57d229dae9

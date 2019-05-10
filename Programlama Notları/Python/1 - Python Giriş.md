@@ -22,7 +22,6 @@
   - [Değişken Tipleri için Ek Kaynak](#de%C4%9Fi%C5%9Fken-tipleri-i%C3%A7in-ek-kaynak)
   - [Değişken ve Sabitlerde Gizlilik](#de%C4%9Fi%C5%9Fken-ve-sabitlerde-gizlilik)
   - [Değişkenin Tanımlı Olduğunu Kontrol Etme](#de%C4%9Fi%C5%9Fkenin-tan%C4%B1ml%C4%B1-oldu%C4%9Funu-kontrol-etme)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Python ile Programlamaya Hazırlanma
 
@@ -257,7 +256,7 @@ if hasattr(obj, 'attr_name'):
 
 > Kaynak için [buraya](https://stackoverflow.com/a/843293) bakabilirsin.
 
-## Harici Bağlantılar
+<!-- ## Harici Bağlantılar -->
 
 [List]: https://www.programiz.com/python-programming/list
 [Set]: https://www.programiz.com/python-programming/set

@@ -1,5 +1,8 @@
 """Readme dosyasına indeksleri ekleme
 
+Author:
+    Yunus Emre Ak
+
 TODO: Options'lara bağlı olanlar Options metdolarında olsun
 TODO: Aranan options yoksa default değer döndürsün
 TODO: ToC oluştur

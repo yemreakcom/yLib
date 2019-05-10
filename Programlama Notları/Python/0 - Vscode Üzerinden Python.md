@@ -14,17 +14,16 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 - [Ek Python Ayarları](#ek-python-ayarlar%C4%B1)
 - [Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler](#anaconda-%C3%BCzerindeki-python%C4%B1-desteklemeyen-eklentiler)
 - [Python Kısayolları](#python-k%C4%B1sayollar%C4%B1)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Python Eklentileri
 
-| Eklenti                                                   | Açıklama                                                   |
-| --------------------------------------------------------- | ---------------------------------------------------------- |
-| [Python][Python ext]                                      | Dil desteği                                                |
-| [Kite][Kite]                                              | AI destekli kod tamamlama                                  |
-| [Visual Studio IntelliCode - **Preview**][vsintellicode]) | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
-| [autoDocstring][autdocstring]                             | Dökümantasyon parçaları sağlayan eklenti                   |
-| [Better Comment][bettercomment]                           | Yorum satırı renklediricisi                                |
+| Eklenti                                                  | Açıklama                                                   |
+| -------------------------------------------------------- | ---------------------------------------------------------- |
+| [Python][Python ext]                                     | Dil desteği                                                |
+| [Kite][Kite]                                             | AI destekli kod tamamlama                                  |
+| [Visual Studio IntelliCode - **Preview**][vsintellicode] | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
+| [autoDocstring][autdocstring]                            | Dökümantasyon parçaları sağlayan eklenti                   |
+| [Better Comment][bettercomment]                          | Yorum satırı renklediricisi                                |
 
 ## Python Kodlarını Formatlama
 
@@ -143,7 +142,7 @@ Alttaki kısayollar `keybindings.json` dosyası içerisinde bulunmalıdır.
 ]
 ```
 
-## Harici Bağlantılar
+<!-- ## Harici Bağlantılar -->
 
 [Python ext]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [vsintellicode]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode

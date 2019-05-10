@@ -1,5 +1,6 @@
 """Readme dosyasına indeksleri ekleme
 
+TODO: Options'lara bağlı olanlar Options metdolarında olsun
 TODO: ToC oluştur
 TODO: Header'lar için dinamik link oluştur [Baslik]: #baslik
 TODO: Belki vscode eklentisi yapabilirsin
@@ -218,22 +219,14 @@ def load_cfg():
         create_cfg()
         read_cfg()
 
-
-def update():
-    """README'de indeksleme oluşturucu
-README dosyasında `<!-- Index -->` adlı kısmın içerisine indekslemeyi iliştirir.
-"""
-
-    load_cfg()
-
-
 def insert_indexes():
 
     def is_private(filename):
-        global PRIVATES
-        for private in PRIVATES:
-            if filename == private:
-                return True
+        global PRIVATES, OPTIONS
+        if OPTIONS['SKIP_PRIVATE_FOLDER'].value:
+            for private in PRIVATES:
+                if filename == private:
+                    return True
         return False
 
     def listfolderpaths(path: str = os.getcwd()) -> str:
@@ -242,6 +235,11 @@ def insert_indexes():
             pathname = os.path.join(path, name)
             if not is_private(name) and os.path.isdir(pathname):
                 folderlist.append(pathname)
+
+        global OPTIONS
+        if OPTIONS['SORTED_INDEX'].value:
+            folderlist.sort()
+
         return folderlist
 
     def listfilepaths(path: str = os.getcwd()) -> str:
@@ -250,6 +248,11 @@ def insert_indexes():
             pathname = os.path.join(path, name)
             if not is_private(name) and os.path.isfile(pathname):
                 filelist.append(pathname)
+
+        global OPTIONS
+        if OPTIONS['SORTED_INDEX'].value:
+            folderlist.sort()
+
         return filelist
 
     def headerstr(folderpath: str, headerlvl: int, withext=True) -> str:
@@ -277,6 +280,7 @@ def insert_indexes():
         def encoded_realtivepath(pathname: str) -> str:
 
             def modifypath(pathname: str):
+                global OPTIONS
                 if not OPTIONS['INDEX_WITH_EXT'].value:
                     pathname = remove_extension(pathname)
                 return pathname
@@ -315,9 +319,12 @@ def insert_indexes():
 
         return filestr
 
-    indexstr()
-    print(indexstr())
 
+def update():
+    """README'de indeksleme oluşturucu
+README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliştirir.
+"""
 
-load_cfg()
-insert_indexes()
+    load_cfg()
+    insert_indexes()
+

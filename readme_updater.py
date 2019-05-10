@@ -56,7 +56,7 @@ def load_cfg():
     """Yapılandırma dosyasındaki bilgileri programa yükleme
     """
 
-    def check_cfg() -> bool:
+    def cfg_exist() -> bool:
         """Yapılandırma dosyası kontrolü
 
         Returns:
@@ -256,10 +256,9 @@ def load_cfg():
             file.write(configstr())
             file.write(privatestr())
 
-    # TODO Dosya varsa okuma moduna al
-    try:
+    if cfg_exist():
         read_cfg()
-    except:
+    else:
         create_cfg()
         read_cfg()
 
@@ -551,6 +550,8 @@ README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliş
     string = indexstr(privates=PRIVATES, sort=sort,
                       ext=ext, indexfilter=indexfilter)
     insertfile(README_FILE, string, indicator)
+
+    print("Updated! ~YEmreAk")
 
 
 update()

@@ -496,31 +496,43 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
 
 def insertfile(filename: str, string: str, indicator: str):
 
-    def indicatorstr() -> str:
-        filestr = "\n"
-        filestr += string
-        filestr += indicator
-        filestr += "\n"
-        return filestr
+    def create_filestr():
+        # Dosya metni
+        filestr = ""
 
-    filestr = ""
-    with open(filename, "r") as file:
+        # Kontrol flagları
         inserted = False
         save = True
 
-        for line in file:
-            if save:
-                filestr += line
+        def indicatorstr() -> str:
+            filestr = "\n"
+            filestr += string
+            filestr += indicator
+            filestr += "\n"
+            return filestr
 
-            if indicator in line:
-                if not inserted:
-                    filestr += indicatorstr()
-                    inserted = True
+        with open(filename, "r") as file:
+            for line in file:
+                if save:
+                    filestr += line
 
-                save = not save
+                if indicator in line:
+                    if not inserted:
+                        filestr += indicatorstr()
+                        inserted = True
 
-    with open(filename, "w") as file:
-        file.write(filestr)
+                    save = not save
+
+        return filestr
+
+    filestr = create_filestr()
+
+    # Hatalı işlemleri dosyanın silinmesini engeller
+    if len(filestr) > 0:
+        with open(filename, "w") as file:
+            file.write(filestr)
+    else:
+        print("Dosya okumada hata meydana geldi :(")
 
 
 def update():

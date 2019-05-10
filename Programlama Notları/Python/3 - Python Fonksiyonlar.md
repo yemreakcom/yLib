@@ -23,7 +23,7 @@
 - [Global, Local ve Nonlocal Kavramları](#global-local-ve-nonlocal-kavramlar%C4%B1)
   - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek-scopes-and-namespaces)
   - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
-  - [Global Kullanımına Karmaşık Örnek](#global-kullan%C4%B1m%C4%B1na-karma%C5%9F%C4%B1k-%C3%B6rnek)
+  - [Global Kullanımına Ek Örnek](#global-kullan%C4%B1m%C4%B1na-ek-%C3%B6rnek)
 
 ## Dahili Fonksiyon Kullanımları
 
@@ -222,19 +222,23 @@ print(katlanmis_listem) # Output: [2, 10, 8, 12, 16, 22, 6, 24]
 
 Python ile fonksiyon içinde fonksiyon tanımalamak mümkündür.
 
+- İç içe fonksiyonlarda parametreler ortak kullanılır
+
 > Hatırlatma: Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 
 ```py
-def func1():
+def func1(param):
 
     # func2() bu alanda kullanılamaz
 
     def func2():
-        print("Selam2")
+        # Parametreler ortak kullanıldığından ek olarak almasına gerek yoktur
+        print("2.", param)
 
-    print("Selam1")
-    func2() # Bu alanda ekrana 'Selam2' basar
+    print(param)
+    func2() # Bu alanda ekrana '2.Selam' basar
 
+func1("Selam")
 ```
 
 ## Global, Local ve Nonlocal Kavramları
@@ -250,12 +254,21 @@ def func1():
 ```py
 x = 5 # Global değişken
 
-def func1():
+def func1(param):
 
     x = 4 # Nonlocal değişken
   
     def func11():
       x = 1 # Local değişken
+
+      # print(param)
+      # Otomatik olarak üst fonksiyonun parametresini ele alır
+
+      # print(param)
+      # param = 5
+      # Yukarıdaki işlemde param'a atama yapıldığından `local param` olarak tanımlanır.
+      # Print içindeki param tanımlanmadan kullanılmaktadır, bu sebeple `print(param)` komutu çalışmaz hata verir.
+      # param tanımlanmadan kullanıldı (`nonlocal param` olarak yazılması lazım)
 
     print(x)
     # Python otomatik olarak `global x` deyimini kullanır
@@ -263,8 +276,8 @@ def func1():
 
     # print(x)
     # x = 3
-    # Yukarıdaki işlemde x'e atama yapıldığından `nonlocal x` olarak tanımlanır.
-    # Bu sebeple `print(x)` komutu çalışmaz hata verir.
+    # Yukarıdaki işlemde x'e atama yapıldığından `local x` olarak tanımlanır.
+    # Print içindeki x tanımlanmadan kullanılmaktadır, bu sebeple `print(x)` komutu çalışmaz hata verir.
     # x tanımlanmadan kullanıldı (`global x` olarak yazılması lazım)
     global x
     print(x)
@@ -287,7 +300,7 @@ x = 5
     x = 4 # Evrensel x değişir
 ```
 
-### Global Kullanımına Karmaşık Örnek
+### Global Kullanımına Ek Örnek
 
 ```py
 def scope_test():

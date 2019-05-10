@@ -8,6 +8,7 @@ TODO: Aranan options yoksa default değer döndürsün
 TODO: ToC oluştur
 TODO: Header'lar için dinamik link oluştur [Baslik]: #baslik
 TODO: Belki vscode eklentisi yapabilirsin
+TODO: index="md" şeklinde veri alımı yap, stringlerdeki boşluk siliniyor
 """
 
 import os

@@ -7,8 +7,11 @@
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
+- [Tarih İşlemleri](#tarih-i%CC%87%C5%9Flemleri)
+  - [Türkçe Tarih Alma](#t%C3%BCrk%C3%A7e-tarih-alma)
 - [HTML Elemanları](#html-elemanlar%C4%B1)
   - [HTML Elemanlarını Alma](#html-elemanlar%C4%B1n%C4%B1-alma)
+    - [Query Selector ile HTML Elemanı Alma](#query-selector-ile-html-eleman%C4%B1-alma)
     - [ID ile HTML Elemanı Alma](#id-ile-html-eleman%C4%B1-alma)
     - [Class, Tag veya Name ile HTML Elemanları Alma](#class-tag-veya-name-ile-html-elemanlar%C4%B1-alma)
   - [HTML elemanının alt elemanlarını alma](#html-eleman%C4%B1n%C4%B1n-alt-elemanlar%C4%B1n%C4%B1-alma)
@@ -40,6 +43,55 @@
 - `<ayırac>` Metnin parçalara ayırmak için belirleyici
   - Örn: `' '` ile boşluklu metinler ayrıştırılıp, yeni bir diziye atanır
 
+## Tarih İşlemleri
+
+Tarih işlemleri için `new Date()` kullanılır.
+
+> Detaylar için [buraya][Js Date İşlemleri] bakabilirsin.
+
+| Metod                             | Açıklama                              | Ek açıklama                         |
+| --------------------------------- | ------------------------------------- | ----------------------------------- |
+| `getDate()`                       | Gün verisini alır                     | Ayın 6'sı                           |
+| `getDay()`                        | Gün ismini sayısal olarak verir       | Pazar için 0, Cumartesi için 6      |
+| `setDate(<date> + <offset>)`      | Tarihi değiştirme                     | Bir sonraki veya önceki tarihi alma |
+| `toLocaleDateString(<ülke_kodu>)` | Verilen ülkeye göre zaman metni verir | TR'ye göre için `"06.05.2019"`      |
+
+- `<date>` Tarih objesi
+  - Örn: `new Date()`
+- `<offset>` Değişken sayı
+  - Örn: 1 gün sonrası için `1`, 1 gün öncesi için `-1`
+- `<ülke_kodu>` Ülkenin kodu
+  - Örn: Tr için `"tr"`, Amerika için `"en-US"`
+
+### Türkçe Tarih Alma
+
+```js
+/**
+ * Bugüne kıyasla yeni bir gün verisi döndürür
+ * @param {number} offset Sonrası ya da öncesi (`-1` 1 gün önce)
+ */
+function getDateTR(offset = 0) {
+	// Günlerin türkçe karşılığı
+	day = [
+		"Pazar",
+		"Pazartesi",
+		"Salı",
+		"Çarşamba",
+		"Perşembe",
+		"Cuma",
+		"Cumartesi"
+	]
+
+	// Değişken tarih oluşturma
+	date = new Date()
+	date.setDate(date.getDate() + offset)
+	dateString = date.toLocaleDateString("tr")
+	dayName = day[date.getDay()]
+
+	return dateString + " " + dayName
+}
+```
+
 ## HTML Elemanları
 
 ### HTML Elemanlarını Alma
@@ -58,6 +110,20 @@ document.querySelectorAll("span.style-scope.ytd-playlist-video-renderer") // Hep
 - `Tag` *a, div, i, p, input, article ...*
 - `Class` *Css dosyasındaki classları ifade eden alanlar*
 - `Name` *Inputlarda sıklıkla kullanınlan alanlar*
+
+#### Query Selector ile HTML Elemanı Alma
+
+Tek bir eleman alınmak isteniyorsa `querySelector(<işlem>)`, hepsi alınmak isteniyorsa `querySelectorAll(<işlem>)` komutu kullanılır
+
+| İşlem                  | Seçilen                                            |
+| ---------------------- | -------------------------------------------------- |
+| `"#yemreak"`           | ID'si yemreak olan eleman                          |
+| `".yemre"`             | `yemre` *class*'ına sahip olan elemanlar           |
+| `"[href]"`             | `href` özelliği olan elemanlar                     |
+| `"a[target='_blank']"` | `target`'i `_blank` olan linkler                   |
+| `"p.active"`           | `active` *class*'ına sahip olan tüm *p* elemanları |
+| `"*"`                  | Her eleman                                         |
+| `this`                 | Şuanki eleman                                      |
 
 #### ID ile HTML Elemanı Alma
 
@@ -174,6 +240,8 @@ Beklemeli işlemlerde `await`, `promise` yapısı kullanılır.
 - `async` özelliği olan fonksiyonlar `await func()` şeklinde kullanılır
   - `await` işlemi bitene kadar bekle anlamı taşımaktadır
   - `await` deyimi kullanıldığı için bu deyimi içeren fonksiyon da `async` özelliği taşımalıdır
+- Bir fonksiyonda `await` beklemesi varsa onu kullanan fonksyionlar da o fonksiyonu `await` ile beklemelidir
+  - Aksi halde asenkron olarak çalışır bekleme gerçekleşmez
 
 Bu konuda hakkında yazılmış bir medium yazısına [buradan][Wait Function] erişebilirsin.
 
@@ -210,11 +278,21 @@ function startDelayed(method, ms) {
 ```
 
 ```js
-async function startDelayed(method, ms) {
+async function startDelayed(method, ms, param) {
     await new Promise((r, j) => setTimeout(r, ms));
-    return method();
+    return typeof param != "undefined" ? method(param) : method()
 }
 ```
+
+```js
+async function startAndWait(method, ms, param) {
+	const result = typeof param != "undefined" ? method(param) : method()
+	await new Promise((r, j) => setTimeout(r, ms));
+	return result
+}
+```
+
+`
 
 ### Sayfa İşlemleri
 
@@ -393,6 +471,14 @@ function getKeyByValue(object, value) {
 
 - [Wait Function]
 - [Sayfanın en altına inmek]
+- [Js Date İşlemleri]
+- [Js gün işlemleri]
+- [10 Js Extension for Vscode]
+- [Js throws]
 
 [Wait Function]: https://hackernoon.com/lets-make-a-javascript-wait-function-fa3a2eb88f11
 [Sayfanın en altına inmek]: https://stackoverflow.com/a/11715670
+[Js Date İşlemleri]: https://www.w3schools.com/jsref/jsref_obj_date.asp
+[Js gün işlemleri]: https://stackoverflow.com/a/24998705/9770490
+[10 Js Extension for Vscode]: https://www.sitepoint.com/vs-code-extensions-javascript-developers/
+[Js throws]: https://www.w3schools.com/js/js_errors.asp

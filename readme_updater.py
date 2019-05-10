@@ -7,6 +7,7 @@ TODO: Belki vscode eklentisi yapabilirsin
 
 import os
 from enum import Enum, unique
+from urllib.parse import quote
 
 # Yapılandırma dosyası ayarları
 CONFIG_FILE = "readme.cfg"
@@ -235,7 +236,7 @@ def insert_indexes():
                 return True
         return False
 
-    def listfolders(path: str = os.getcwd()) -> str:
+    def listfolderpaths(path: str = os.getcwd()) -> str:
         folderlist = []
         for name in os.listdir(path):
             pathname = os.path.join(path, name)
@@ -243,7 +244,7 @@ def insert_indexes():
                 folderlist.append(pathname)
         return folderlist
 
-    def listfiles(path: str = os.getcwd()) -> str:
+    def listfilepaths(path: str = os.getcwd()) -> str:
         filelist = []
         for name in os.listdir(path):
             pathname = os.path.join(path, name)
@@ -251,26 +252,72 @@ def insert_indexes():
                 filelist.append(pathname)
         return filelist
 
-    def create_header(name, lvl):
+    def headerstr(folderpath: str, headerlvl: int, withext=True) -> str:
         header = ""
-        for i in range(0, lvl):
+        for i in range(0, headerlvl):
             header += "#"
-        header += f" {name}\n\n"
+
+        foldername = os.path.basename(folderpath)
+        header += f" {foldername}\n\n"
 
         return header
 
-    def create_link(name: str, path: str):
-        path.replace(os.getcwd(), ".")
-        link = f"- [{name}]({url})"
+    def linkstr(folderpath: str):
 
-    headerlvl = 2
-    folders = listfolders()
-    for folder in folders:
-        create_header(folder, headerlvl)
-        files = listfiles(folder)
-        for file in files:
-            create_link(folder, file)
+        def barename(filepath: str):
+            filename = os.path.basename(filepath)
+            filename = remove_extension(filename)
+
+            return filename
+
+        def remove_extension(filepath: str) -> str:
+            filepath, _ = os.path.splitext(filepath)
+            return filepath
+
+        def encoded_realtivepath(pathname: str) -> str:
+
+            def modifypath(pathname: str):
+                if not OPTIONS['INDEX_WITH_EXT'].value:
+                    pathname = remove_extension(pathname)
+                return pathname
+
+            def relativepath(pathname: str):
+                return pathname.replace(os.getcwd(), '.')
+
+            def encodedpath(pathname: str):
+                return quote(pathname)
+
+            pathname = modifypath(pathname)
+            pathname = relativepath(pathname)
+            pathname = encodedpath(pathname)
+            return pathname
+
+        def create_link(filepath: str):
+            filename = barename(filepath)
+            link = f"- [{filename}]({encoded_realtivepath(filepath)})\n"
+            return link
+
+        linkstr = ""
+        filepaths = listfilepaths(folderpath)
+        for filepath in filepaths:
+            linkstr += create_link(filepath)
+        linkstr += "\n"
+
+        return linkstr
+
+    def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2):
+        filestr = ""
+        folderpaths = listfolderpaths(pathname)
+        for folderpath in folderpaths:
+            filestr += headerstr(folderpath, headerlvl)
+            filestr += linkstr(folderpath)
+            filestr += indexstr(folderpath, headerlvl + 1)
+
+        return filestr
+
+    indexstr()
+    print(indexstr())
 
 
-# listdir()
+load_cfg()
 insert_indexes()

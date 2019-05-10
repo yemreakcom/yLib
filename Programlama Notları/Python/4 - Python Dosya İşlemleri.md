@@ -6,7 +6,7 @@
   - [Dosya Erişim Modları](#dosya-eri%C5%9Fim-modlar%C4%B1)
 - [Dosya Okuma](#dosya-okuma)
 - [Dizin (Dir) İşlemleri](#dizin-dir-i%CC%87%C5%9Flemleri)
-  - [Dizin veya Dosya İsimleri Listesi Döndürme](#dizin-veya-dosya-i%CC%87simleri-listesi-d%C3%B6nd%C3%BCrme)
+  - [Dizin veya Dosya Yolları Listesi Döndürme](#dizin-veya-dosya-yollar%C4%B1-listesi-d%C3%B6nd%C3%BCrme)
 - [Dosya Yolu (Path) İşlemleri](#dosya-yolu-path-i%CC%87%C5%9Flemleri)
 
 ## Dosya Açma
@@ -78,10 +78,10 @@ Dizin işlemleri için `os` veya `glob` paketi kullanılır.
 - `<yol_şablonu>` Özel dizin sorguları
   - *Örn: `*.txt`, `../help`*
 
-### Dizin veya Dosya İsimleri Listesi Döndürme
+### Dizin veya Dosya Yolları Listesi Döndürme
 
 ```py
-def listfolders(path=os.getcwd()):
+def listfolderpaths(path=os.getcwd()):
         folderlist = []
         for name in os.listdir(path):
             pathname = os.path.join(path, name)
@@ -89,10 +89,10 @@ def listfolders(path=os.getcwd()):
                 folderlist.append(pathname)
         return folderlist
 
-def listfolders(path=os.getcwd()):
+def listfolderpaths(path=os.getcwd()):
     return [os.path.join(path, name) for name in os.listdir(path) if (not is_private(name) and os.path.isdir(os.path.join(path, name)))]
 
-def listfiles(path=os.getcwd()):
+def listfilepaths(path=os.getcwd()):
     return [os.path.join(path, name) for name in os.listdir(path) if (not is_private(name) and os.path.isfile(os.path.join(path, name)))]
 ```
 

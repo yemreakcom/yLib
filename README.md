@@ -22,6 +22,9 @@ Karma konular hakkında aldığım notlar.
 - [Uygulama Notları](#uygulama-notlar%C4%B1)
 - [Yapay Zeka Notları](#yapay-zeka-notlar%C4%B1)
 - [Yazılım Notları](#yaz%C4%B1l%C4%B1m-notlar%C4%B1)
+- [images](#images)
+- [pdfs](#pdfs)
+- [res](#res)
 - [İşletim Sistemi Notları](#i%CC%87%C5%9Fletim-sistemi-notlar%C4%B1)
   - [Windows10 Kaynakları](#windows10-kaynaklar%C4%B1)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
@@ -137,6 +140,42 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Selenium](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
 - [Terimler](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
+
+## images
+
+- [bg](./images/bg.jpg)
+- [cmd](./images/cmd.png)
+- [csv_to_vcf](./images/csv_to_vcf.jpg)
+- [explain-select](./images/explain-select.jpg)
+- [git-cheet-sheet](./images/git-cheet-sheet.jpeg)
+- [group-by](./images/group-by.jpg)
+- [krc-extensions](./images/krc-extensions.bmp)
+- [lang_network](./images/lang_network.jpg)
+- [mysql-ex-1](./images/mysql-ex-1.jpg)
+- [pyqt_widgets](./images/pyqt_widgets.png)
+- [taskbar](./images/taskbar.jpg)
+- [theme_color](./images/theme_color.png)
+- [win](./images/win.png)
+
+## pdfs
+
+- [Github Cheat Sheet](./pdfs/Github%20Cheat%20Sheet.pdf)
+- [Visual Studio Code Shortcuts](./pdfs/Visual%20Studio%20Code%20Shortcuts.pdf)
+
+## res
+
+- [android_alertdialog](./res/android_alertdialog.png)
+- [android_anim1](./res/android_anim1.gif)
+- [android_anim2](./res/android_anim2.gif)
+- [android_change_packagename1](./res/android_change_packagename1.png)
+- [android_change_packagename2](./res/android_change_packagename2.png)
+- [android_change_packagename3](./res/android_change_packagename3.png)
+- [android_change_packagename4](./res/android_change_packagename4.png)
+- [android_navbar](./res/android_navbar.png)
+- [android_navview](./res/android_navview.png)
+- [android_progressbar](./res/android_progressbar.png)
+- [android_seekbar](./res/android_seekbar.png)
+- [android_viewpager](./res/android_viewpager.gif)
 
 ## İşletim Sistemi Notları
 

@@ -42,9 +42,9 @@ OPTIONS = {
         "",
         "Sadece bu veriyi barındıranları indeksleme (hepsi için boş bırakın)"
     ),
-    "INDEX_WITH_EXT": Option(
-        True,
-        "İndekslemeye dosya uzantısını da ekleme"
+    "INDEX_FOR_PAGE": Option(
+        False,
+        "Github sayfası (gh-pages) için indeksleme"
     ),
     "INSERT_INDICATOR": Option(
         "<!-- Index -->",
@@ -267,7 +267,7 @@ def load_cfg():
         read_cfg()
 
 
-def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = set(), sort=True, ext=True, indexfilter="") -> str:
+def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = set(), sort=True, remove_md=True, indexfilter="") -> str:
     """Indekslenmiş metin oluşturma
 
     Args:
@@ -275,7 +275,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
         headerlvl (int, optional): Markdown header seviyesi. Defaults to 2.
         privates (set, optional): Gizli dosya veya dizinler. Defaults to set().
         sort (bool, optional): İndeksleri sıralama. Defaults to True.
-        ext (bool, optional): Uzantı ile indeksleme. Defaults to True.
+        remove_md (bool, optional): Markdown (.md) uzantısını kaldırma. Defaults to True.
         indexfilter (str, optional): İndeks filtresi. Defaults to "".
 
     Returns:
@@ -433,7 +433,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
                     str: Düzenlenen yol
                 """
 
-                if not ext:
+                if remove_md and ("md" in pathname):
                     pathname = remove_extension(pathname)
                 return pathname
 
@@ -483,7 +483,10 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
         filepaths = listfilepaths(folderpath)
         for filepath in filepaths:
             linkstr += create_link(filepath)
-        linkstr += "\n"
+
+        # Link varsa satır atlatma, link yoksa gereksiz satır oluşturulmasını engelliyor
+        if len(linkstr) > 0:
+            linkstr += "\n"
 
         return linkstr
 
@@ -493,7 +496,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
         filestr += headerstr(folderpath, headerlvl)
         filestr += linkstr(folderpath)
         filestr += indexstr(folderpath, headerlvl + 1,
-                            privates, sort, ext, indexfilter)
+                            privates, sort, remove_md, indexfilter)
 
     return filestr
 
@@ -547,12 +550,12 @@ README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliş
     # TODO: Veriler bulunamazsa default değer veren bir metod ekle
     global OPTIONS, PRIVATES, README_FILE
     sort = OPTIONS['SORTED_INDEX'].value
-    ext = OPTIONS['INDEX_WITH_EXT'].value
+    remove_md = OPTIONS['INDEX_FOR_PAGE'].value
     indicator = OPTIONS['INSERT_INDICATOR'].value
     indexfilter = OPTIONS['INDEX_FILTER'].value
 
     string = indexstr(privates=PRIVATES, sort=sort,
-                      ext=ext, indexfilter=indexfilter)
+                      remove_md=remove_md, indexfilter=indexfilter)
     insertfile(README_FILE, string, indicator)
 
     print("Updated! ~YEmreAk")

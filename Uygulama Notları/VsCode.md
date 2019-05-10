@@ -19,6 +19,7 @@
   - [Yapılandırma Eklentileri](#yap%C4%B1land%C4%B1rma-eklentileri)
   - [Dökümantasyon Eklentileri](#d%C3%B6k%C3%BCmantasyon-eklentileri)
 - [Editör ayarları](#edit%C3%B6r-ayarlar%C4%B1)
+  - [Editör Ayar Dosyaları](#edit%C3%B6r-ayar-dosyalar%C4%B1)
   - [Intellicode Ayaları](#intellicode-ayalar%C4%B1)
   - [Editör Değişkenleri](#edit%C3%B6r-de%C4%9Fi%C5%9Fkenleri)
   - [Editör Klavye Kısayollarım](#edit%C3%B6r-klavye-k%C4%B1sayollar%C4%B1m)
@@ -64,13 +65,14 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> Seçili alanı yorum satırı yapma
 - Tüm kodları gizleme (*fold all*)
-  - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>K</kbd>
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>0</kbd> (sıfır)
   - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>0</kbd> (sıfır)
+- Kodları seviyeye göre gizleme
+  - <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd><sayı></kbd>
+  - Örn: <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>2</kbd>
 - Tüm kodları gösterme (*unfold all*)
-  - Kendi kısayolum <kbd>Ctrl</kbd> + <kbd>I</kbd> (ı harfi), <kbd>Ctrl</kbd> + <kbd>O</kbd> (o harfi)
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>J</kbd> (sıfır)
-  - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>J</kbd> (sıfır)
+  - macOS için <kbd>⌘</kbd> + <kbd>K</kbd>, <kbd>⌘</kbd> + <kbd>J</kbd>
 
 ### Görünüm Kısayolları
 
@@ -184,6 +186,12 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 
 > Sol alt köşedeki `ayarlar` simgesi -> Sağ üst köşedeki `{}` simgesine tıklayıp oraya bunlardan istediklerini kopyalayabilirsin.
 
+### Editör Ayar Dosyaları
+
+- Windows: `%APPDATA%\Code\User\settings.json`
+- macOS: `$HOME/Library/Application Support/Code/User/settings.json`
+- Linux: `$HOME/.config/Code/User/settings.json`
+
 ### Intellicode Ayaları
 
 Buradan [detaylara][Intellicode] erişebilirsin.
@@ -206,10 +214,16 @@ Değişkenlerin kullanım şekilleri:
 ### Editör Klavye Kısayollarım
 
 ```json
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "ctrl+[Backquote]",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "key": "f10",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+[KeyI] ctrl+c",
+        "command": "extension.currentAREPLSession",
+        "when": "!inQuickOpen && !terminalFocus"
     },
     {
         "key": "shift+alt+f",
@@ -219,19 +233,6 @@ Değişkenlerin kullanım şekilleri:
     {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
         "command": "git.sync"
-    },
-    {
-        "key": "f10",
-        "command": "python.execInTerminal"
-    },
-    {
-        "key": "ctrl+[KeyI] ctrl+p",
-        "command": "git.pullRebase"
-    },
-    {
-        "key": "ctrl+[KeyI] ctrl+c",
-        "command": "extension.currentAREPLSession",
-        "when": "!inQuickOpen && !terminalFocus"
     },
     {
         "key": "ctrl+shift+a",
@@ -249,14 +250,14 @@ Değişkenlerin kullanım şekilleri:
         "when": "!inQuickOpen && !terminalFocus"
     },
     {
-        "key": "ctrl+shift+f10",
-        "command": "python.execSelectionInTerminal",
-        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
+        "key": "ctrl+[KeyI] ctrl+enter",
+        "command": "extension.executeAREPLBlock",
+        "when": "editorTextFocus && editorLangId == 'python'"
     },
     {
-        "key": "shift+enter",
-        "command": "-python.execSelectionInTerminal",
-        "when": "editorFocus && !findInputFocussed && !python.datascience.ownsSelection && !replaceInputFocussed && editorLangId == 'python'"
+        "key": "ctrl+enter",
+        "command": "-extension.executeAREPLBlock",
+        "when": "editorTextFocus && editorLangId == 'python'"
     }
 ]
 ```

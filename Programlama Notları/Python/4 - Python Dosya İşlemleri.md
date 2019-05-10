@@ -34,6 +34,8 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 | `w` | Write (Yazma)   | Dosyayı sıfırdan yazmak için oluşturma (verileri siler) |
 | `a` | Append (Ekleme) | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
 
+> Ek bilgiler için [buraya][Dosya erişim modları] bakabilirsin.
+
 ## Dosya Okuma
 
 ```py
@@ -112,3 +114,5 @@ Dosya yolu işlemleri için `os.path` modülü kullanılır.
   - *Örn: C:\Users\Username\help.txt*
 - `<dosya_adı>` Dosyanın uzantısıyla birlikteki adı
   - *Örn: help.txt*
+
+[Dosya erişim modları]: https://stackoverflow.com/a/1466036/9770490

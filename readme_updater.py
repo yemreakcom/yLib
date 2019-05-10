@@ -1,6 +1,7 @@
 """Readme dosyasına indeksleri ekleme
 
 TODO: Options'lara bağlı olanlar Options metdolarında olsun
+TODO: Aranan options yoksa default değer döndürsün
 TODO: ToC oluştur
 TODO: Header'lar için dinamik link oluştur [Baslik]: #baslik
 TODO: Belki vscode eklentisi yapabilirsin
@@ -12,6 +13,7 @@ from urllib.parse import quote
 
 # Yapılandırma dosyası ayarları
 CONFIG_FILE = "readme.cfg"
+README_FILE = "README.md"
 COMMENT_DELIM = "#"
 VARIABLE_DELIM = "="
 CONFIG_HEADER = "[Config]"
@@ -40,9 +42,9 @@ OPTIONS = {
         True,
         "İndekslemeye dosya uzantısını da ekleme"
     ),
-    "SKIP_PRIVATE_FOLDER": Option(
-        True,
-        "Gizli dosyaları atlama"
+    "INSERT_INDICATOR": Option(
+        "<!-- Index -->",
+        "İndexlenmesinin ekleneceği dosya aralığının başlangıç ve bitiş belirteci"
     )
 }
 
@@ -51,14 +53,25 @@ PRIVATES = {".git", ".vscode"}
 
 
 def load_cfg():
+    """Yapılandırma dosyasındaki bilgileri programa yükleme
+    """
 
-    def check_cfg():
+    def check_cfg() -> bool:
+        """Yapılandırma dosyası kontrolü
+
+        Returns:
+            bool -- Dosya varsa `True`, yoksa `False`
+        """
         return CONFIG_FILE in os.listdir()
 
-    def read_cfg():
+    def read_cfg() -> None:
+        """Yapılandırma dosyasındaki verileri değişkenlere kaydetme
+        """
 
         @unique
         class Sections(Enum):
+            """Dosya bölge indeksleri
+            """
             Config = 0
             Private = 1
 
@@ -144,7 +157,13 @@ def load_cfg():
             datas = line.split(VARIABLE_DELIM)
             return datas[0], datas[1]
 
-        def reg_option(name, value):
+        def reg_option(name: str, value):
+            """Verilen ayarı `OPTIONS` içerisine kaydetme
+
+            Args:
+                name (str): Ayar ismi
+                value: Ayarın değeri
+            """
 
             def cast_value(name, value):
                 if type(OPTIONS[name].value) is not str:
@@ -155,6 +174,11 @@ def load_cfg():
                 OPTIONS[name].value = cast_value(name, value)
 
         def reg_privates(value):
+            """Gizli dosya ve dizinleri `PRIVATES` değişkenine kaydetme
+
+            Args:
+                value : Dosya veya dizin ismi
+            """
             if value not in PRIVATES:
                 PRIVATES.add(value)
 
@@ -177,13 +201,33 @@ def load_cfg():
                         continue
 
     def create_cfg():
+        """Yapılandırma dosyasını oluşturma
+        """
 
-        def create_header_filestr(string: str) -> str:
+        def headerstr(string: str) -> str:
+            """Başlık metnini oluşturma
+
+            Args:
+                string (str): Başlık ismi
+
+            Returns:
+                str: Başlık metni
+            """
             return f"{string}\n\n"
 
-        def get_config_filestr():
+        def configstr() -> str:
+            """Yapılandırma metnini oluşturma
 
-            def get_options_filestr() -> str:
+            Returns:
+                str: Oluşturulan metin
+            """
+
+            def optionstr() -> str:
+                """Ayar metnini oluşturma
+
+                Returns:
+                    str: Oluşturulan metin
+                """
                 filestr = ""
                 for option in OPTIONS:
                     filestr += f"# {OPTIONS[option].description}\n"
@@ -191,26 +235,26 @@ def load_cfg():
                 filestr += "\n"
                 return filestr
 
-            filestr = create_header_filestr(CONFIG_HEADER)
-            filestr += get_options_filestr()
+            filestr = headerstr(CONFIG_HEADER)
+            filestr += optionstr()
             return filestr
 
-        def get_privates_filestr():
+        def privatestr() -> str:
+            """Gizli dosya ve dizinlerin metnini oluşturma
 
-            def get_privates_filestr():
-                filestr = ""
-                for private in PRIVATES:
-                    filestr += f"{private}\n"
-                filestr += "\n"
-                return filestr
+            Returns:
+                str: Oluşturulan metin
+            """
 
-            filestr = create_header_filestr(PRIVATE_HEADER)
-            filestr += get_privates_filestr()
+            filestr = headerstr(PRIVATE_HEADER)
+            for private in PRIVATES:
+                filestr += f"{private}\n"
+            filestr += "\n"
             return filestr
 
         with open(CONFIG_FILE, "w") as file:
-            file.write(get_config_filestr())
-            file.write(get_privates_filestr())
+            file.write(configstr())
+            file.write(privatestr())
 
     # TODO Dosya varsa okuma moduna al
     try:
@@ -219,43 +263,90 @@ def load_cfg():
         create_cfg()
         read_cfg()
 
-def insert_indexes():
 
-    def is_private(filename):
-        global PRIVATES, OPTIONS
-        if OPTIONS['SKIP_PRIVATE_FOLDER'].value:
-            for private in PRIVATES:
-                if filename == private:
-                    return True
+def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = set(), sort=True, ext=True, indexfilter="") -> str:
+    """Indekslenmiş metin oluşturma
+
+    Args:
+        pathname (str, optional): İndekslerin oluşturulacağı dizin. Defaults to os.getcwd().
+        headerlvl (int, optional): Markdown header seviyesi. Defaults to 2.
+        privates (set, optional): Gizli dosya veya dizinler. Defaults to set().
+        sort (bool, optional): İndeksleri sıralama. Defaults to True.
+        ext (bool, optional): Uzantı ile indeksleme. Defaults to True.
+        indexfilter (str, optional): İndeks filtresi. Defaults to "".
+
+    Returns:
+        str: Oluşturulan metin
+    """
+
+    def is_private(name: str) -> bool:
+        """İsmi verilen gizli mi kontrolü
+
+        Args:
+            name (str): Dosya ismi
+
+        Returns:
+            bool: Gizli ise `True` değilse `False`
+        """
+
+        for private in privates:
+            if name == private:
+                return True
         return False
 
-    def listfolderpaths(path: str = os.getcwd()) -> str:
+    def listfolderpaths(path: str = os.getcwd()) -> list:
+        """Dizinleri listeleme
+
+        Args:
+            path (str, optional): Dizinleri listelenecek dizin. Defaults to os.getcwd().
+
+        Returns:
+            list: Listenelenen dizinler
+        """
+
         folderlist = []
         for name in os.listdir(path):
             pathname = os.path.join(path, name)
-            if not is_private(name) and os.path.isdir(pathname):
+            if os.path.isdir(pathname) and not is_private(name):
                 folderlist.append(pathname)
 
-        global OPTIONS
-        if OPTIONS['SORTED_INDEX'].value:
+        if sort:
             folderlist.sort()
 
         return folderlist
 
-    def listfilepaths(path: str = os.getcwd()) -> str:
+    def listfilepaths(path: str = os.getcwd()) -> list:
+        """Dosyaları listeleme
+
+        Args:
+            path (str, optional): Dosyaları listelenecek dizin. Defaults to os.getcwd().
+
+        Returns:
+            list: Listenelenen dosyalar
+        """
+
         filelist = []
         for name in os.listdir(path):
             pathname = os.path.join(path, name)
-            if not is_private(name) and os.path.isfile(pathname):
+            if os.path.isfile(pathname) and not is_private(name):
                 filelist.append(pathname)
 
-        global OPTIONS
-        if OPTIONS['SORTED_INDEX'].value:
-            folderlist.sort()
+        if sort:
+            filelist.sort()
 
         return filelist
 
-    def headerstr(folderpath: str, headerlvl: int, withext=True) -> str:
+    def headerstr(folderpath: str, headerlvl: int) -> str:
+        """Dizin için markdown header'ı oluşturma
+
+        Args:
+            folderpath (str): Dizin yolu
+            headerlvl (int): # sayısı
+
+        Returns:
+            str: Oluşturulan metin
+        """
+
         header = ""
         for i in range(0, headerlvl):
             header += "#"
@@ -265,30 +356,105 @@ def insert_indexes():
 
         return header
 
-    def linkstr(folderpath: str):
+    def linkstr(folderpath: str) -> str:
+        """Dizin için markdown linklerini oluşturma
 
-        def barename(filepath: str):
+        Args:
+            folderpath (str): Dizin yolu
+            headerlvl (int): # sayısı
+
+        Returns:
+            str: Oluşturulan metin
+        """
+
+        def barename(filepath: str) -> str:
+            """Dosya yolundan, yol ve uzantıyı temizleme
+
+            Args:
+                filepath (str): Dosya yolu
+
+            Returns:
+                str: Sadece dosya ismi
+            """
+
             filename = os.path.basename(filepath)
             filename = remove_extension(filename)
 
             return filename
 
         def remove_extension(filepath: str) -> str:
+            """Dosya uzantısını kaldırma
+
+            Args:
+                filepath (str): Dosya yolu
+
+            Returns:
+                str: Uzantsız dosya yolu
+            """
+
             filepath, _ = os.path.splitext(filepath)
             return filepath
 
-        def encoded_realtivepath(pathname: str) -> str:
+        def get_ext(filepath: str) -> str:
+            """Dosya uzantısını alma
 
-            def modifypath(pathname: str):
-                global OPTIONS
-                if not OPTIONS['INDEX_WITH_EXT'].value:
+            Args:
+                filepath (str): Dosya yolu
+
+            Returns:
+                str: Uzantı `.ext`
+            """
+
+            _, ext = os.path.splitext(filepath)
+            return ext
+
+        def encoded_realtivepath(pathname: str) -> str:
+            """Verilen yola uygun kodlanmış markdown linki oluşturma
+
+            Args:
+                pathname (str): Yol
+
+            Returns:
+                str: Oluşturulan link metni
+            """
+
+            def modifypath(pathname: str) -> str:
+                """Yol verisini düzenleme
+
+                Uzantıyı koşula bağlı kaldırma veya kaldırmama
+
+                Args:
+                    pathname (str): Yol
+
+                Returns:
+                    str: Düzenlenen yol
+                """
+
+                if not ext:
                     pathname = remove_extension(pathname)
                 return pathname
 
-            def relativepath(pathname: str):
+            def relativepath(pathname: str) -> str:
+                """Statik yol verisini dinamik yol verisine dönüştürme
+
+                Args:
+                    pathname (str): Yol ismi
+
+                Returns:
+                    str: Dönüştürülen metin
+                """
+
                 return pathname.replace(os.getcwd(), '.')
 
-            def encodedpath(pathname: str):
+            def encodedpath(pathname: str) -> str:
+                """Verilen yolu url formatında kodlama
+
+                Args:
+                    pathname (str): Yol ismi
+
+                Returns:
+                    str: Kodlanmış metin
+                """
                 return quote(pathname)
 
             pathname = modifypath(pathname)
@@ -296,7 +462,16 @@ def insert_indexes():
             pathname = encodedpath(pathname)
             return pathname
 
-        def create_link(filepath: str):
+        def create_link(filepath: str) -> str:
+            """Markdown linki oluşturma
+
+            Args:
+                filepath (str): Dosya yolu
+
+            Returns:
+                str: Oluşturulan link
+            """
+
             filename = barename(filepath)
             link = f"- [{filename}]({encoded_realtivepath(filepath)})\n"
             return link
@@ -309,15 +484,43 @@ def insert_indexes():
 
         return linkstr
 
-    def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2):
-        filestr = ""
-        folderpaths = listfolderpaths(pathname)
-        for folderpath in folderpaths:
-            filestr += headerstr(folderpath, headerlvl)
-            filestr += linkstr(folderpath)
-            filestr += indexstr(folderpath, headerlvl + 1)
+    filestr = ""
+    folderpaths = listfolderpaths(pathname)
+    for folderpath in folderpaths:
+        filestr += headerstr(folderpath, headerlvl)
+        filestr += linkstr(folderpath)
+        filestr += indexstr(folderpath, headerlvl + 1)
 
+    return filestr
+
+
+def insertfile(filename: str, string: str, indicator: str):
+
+    def indicatorstr() -> str:
+        filestr = "\n"
+        filestr += string
+        filestr += indicator
+        filestr += "\n"
         return filestr
+
+    filestr = ""
+    with open(filename, "r") as file:
+        inserted = False
+        save = True
+
+        for line in file:
+            if save:
+                filestr += line
+
+            if indicator in line:
+                if not inserted:
+                    filestr += indicatorstr()
+                    inserted = True
+
+                save = not save
+
+    with open(filename, "w") as file:
+        file.write(filestr)
 
 
 def update():
@@ -326,5 +529,16 @@ README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliş
 """
 
     load_cfg()
-    insert_indexes()
+    # TODO: Veriler bulunamazsa default değer veren bir metod ekle
+    global OPTIONS, PRIVATES, README_FILE
+    sort = OPTIONS['SORTED_INDEX'].value
+    ext = OPTIONS['INDEX_WITH_EXT'].value
+    indicator = OPTIONS['INSERT_INDICATOR'].value
+    indexfilter = OPTIONS['INDEX_FILTER'].value
 
+    string = indexstr(privates=PRIVATES, sort=sort,
+                      ext=ext, indexfilter=indexfilter)
+    insertfile(README_FILE, string, indicator)
+
+
+update()

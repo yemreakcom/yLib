@@ -386,3 +386,4 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 - [Debugging ES6 in Visual Studio Code](https://medium.com/@drcallaway/debugging-es6-in-visual-studio-code-4444db797954)
 
 [Intellicode]: https://code.visualstudio.com/docs/editor/intellisense
+[Vscode extension yazma]: https://scotch.io/tutorials/create-your-first-visual-studio-code-extension

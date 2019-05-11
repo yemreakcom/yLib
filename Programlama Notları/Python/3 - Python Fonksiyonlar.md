@@ -4,6 +4,7 @@
 
 - [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Genel Fonksiyonlar](#genel-fonksiyonlar)
+    - [Enumerata (Numaralandırma, Sayma) İşlemi](#enumerata-numaraland%C4%B1rma-sayma-i%CC%87%C5%9Flemi)
   - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
   - [String İçerisinde Metin Arama](#string-i%CC%87%C3%A7erisinde-metin-arama)
 - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
@@ -30,11 +31,39 @@
 
 ### Genel Fonksiyonlar
 
-| Fonksiyon         | Açıklama                  | Örnek                     | Çıktı              |
-| ----------------- | ------------------------- | ------------------------- | ------------------ |
-| `print(<string>)` | Ekrana yazma              | `print("X: {1}, Y: {2}")` | `X: {1}, Y: {2}`   |
-| `eval(<string>)`  | Verilen stringi hesaplama | `eval("x + 5")`           | `6`                |
-| `type(<obje>)`    | Objenin türünü bulma      | `type(x)`                 | `<class 'number'>` |
+| Fonksiyon                 | Açıklama                  | Örnek                           | Çıktı              |
+| ------------------------- | ------------------------- | ------------------------------- | ------------------ |
+| `print(<string>)`         | Ekrana yazma              | `print("X: {1}, Y: {2}")`       | `X: {1}, Y: {2}`   |
+| `eval(<string>)`          | Verilen stringi hesaplama | `eval("x + 5")`                 | `6`                |
+| `type(<obje>)`            | Objenin türünü bulma      | `type(x)`                       | `<class 'number'>` |
+| `enumerate(<obje>, <si>)` | Numaralandırma            | `i, line in enumerate(file, 0)` |
+
+#### Enumerata (Numaralandırma, Sayma) İşlemi
+
+Metin karakterlerini sayma
+
+```py
+string = "Yemreak"
+for i, char in enumerate(string):
+  print(i, char)
+
+# 0 Y
+# 1 e
+# 2 m
+# ...
+```
+
+Dosya satırlarını a'dan başlayarak sayma
+
+```py
+with open(FILE, "r") as file:
+  for i, line in enumerate(file, a):
+    print(f"{i}. {line}")
+
+# a. satır
+# (a+1). satır
+# ...
+```
 
 ### String İşlemleri
 

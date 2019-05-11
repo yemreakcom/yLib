@@ -39,6 +39,10 @@
 
 Çok önemli ve ileride kullanılacak bir konudur. 🌟
 
+- `r` ök eki ile yazılan string daha hızlı işlenir
+- `replace` metodu en hızlı string değiştirme metodudur.
+  - `replace(...).replace(...)` ile çoklu değişim yapılması daha hızlıdır
+
 <!-- TODO linkleri ekle -->
 
 | Link    | Metot                   | Açıklama                | Örnek                                  | Çıktı                  |
@@ -59,7 +63,10 @@
 |         | `rtrip`                 | Metnin sağını düzeltme  | `' abc '.rtrip()`                      | `' abc'`               |
 |         | `sort`                  | Metni sıralama          | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
 
-> Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin.
+> Ek kaynaklar:
+>
+> - Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin.
+> - String değiştirme hızları kıyaslaması için [buraya][String değiştirme hızları] bakabilirsin.
 
 ## Harici Fonksiyon Kullanımları
 
@@ -335,3 +342,4 @@ In global scope: global spa
 ```
 
 [Slice]: https://www.webucator.com/how-to/how-slice-strings-python.cfm
+[String değiştirme hızları]: https://stackoverflow.com/a/27086669/9770490

@@ -384,6 +384,8 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 - [Best Visual Studio Code Extension](https://blog.elmah.io/best-visual-studio-code-extensions/)
 - [10 Essential VS Code Extensions for JavaScript Developers in 2019](https://hackernoon.com/10-essential-vs-code-extensions-for-javascript-developers-in-2019-e8320e3f421e)
 - [Debugging ES6 in Visual Studio Code](https://medium.com/@drcallaway/debugging-es6-in-visual-studio-code-4444db797954)
+- [Vscode faydalı eklentiler 1]
 
 [Intellicode]: https://code.visualstudio.com/docs/editor/intellisense
 [Vscode extension yazma]: https://scotch.io/tutorials/create-your-first-visual-studio-code-extension
+[Vscode faydalı eklentiler 1]: https://itnext.io/12-vs-code-extensions-you-should-consider-using-4747e6281ee

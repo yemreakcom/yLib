@@ -5,6 +5,7 @@
 - [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Genel Fonksiyonlar](#genel-fonksiyonlar)
   - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
+  - [String İçerisinde Metin Arama](#string-i%CC%87%C3%A7erisinde-metin-arama)
 - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Harici String İşlemleri](#harici-string-i%CC%87%C5%9Flemleri)
 - [Fonksiyon Oluşturma](#fonksiyon-olu%C5%9Fturma)
@@ -45,28 +46,52 @@
 
 <!-- TODO linkleri ekle -->
 
-| Link    | Metot                   | Açıklama                | Örnek                                  | Çıktı                  |
-| ------- | ----------------------- | ----------------------- | -------------------------------------- | ---------------------- |
-|         | `len`                   | Uzunluk                 | `len("yemreak")`                       | 7                      |
-|         | `format`                | Formatlama              | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`         |
-|         | `%`                     | Operatör ile formatlama | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`        |
-|         | `f`                     | Format string ön eki    | `f'X: {a}'`                            | `'X: 2'`               |
-|         | `r`                     | Raw String ön eki       | `r"C:\Users"`                          | `C:\\Users`            |
-|         | `"""`                   | Çok satırlı string      |
-|         | `split`                 | Parçalama               | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']`  |
-| [Slice] | `[<başlangıç>:<bitiş>]` | Kesme                   | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`        |
-|         | `join`                  | Birleştirme             | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`           |
-|         | `split & join`          | Yeniden formatlama      | `arr.split("\t").join("|")`            | `'İsim|Soyisim|Numara` |
-|         | `replace`               | Metin değiştirme        | `"yemreak".replace("ak", "")`          | `'yemre'`              |
-|         | `strip`                 | Metin düzeltme          | `' abc '.strip()`                      | `'abc'`                |
-|         | `ltrip`                 | Metnin solunu düzeltme  | `' abc '.ltrip()`                      | `'abc '`               |
-|         | `rtrip`                 | Metnin sağını düzeltme  | `' abc '.rtrip()`                      | `' abc'`               |
-|         | `sort`                  | Metni sıralama          | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
+| Link    | Metot                   | Açıklama                 | Örnek                                  | Çıktı                  |
+| ------- | ----------------------- | ------------------------ | -------------------------------------- | ---------------------- |
+|         | `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                    |
+|         | `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`         |
+|         | `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`        |
+|         | `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`               |
+|         | `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`            |
+|         | `"""`                   | Çok satırlı string       |
+|         | `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']`  |
+| [Slice] | `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`        |
+|         | `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`           |
+|         | `split & join`          | Yeniden formatlama       | `arr.split("\t").join("|")`            | `'İsim|Soyisim|Numara` |
+|         | `find`                  | Karakter indeksini bulma | `"yemreak".find('e')`                  | `1` (yoksa `-1`)       |
+|         | `replace`               | Metin değiştirme         | `"yemreak".replace("ak", "")`          | `'yemre'`              |
+|         | `strip`                 | Metin düzeltme           | `' abc '.strip()`                      | `'abc'`                |
+|         | `ltrip`                 | Metnin solunu düzeltme   | `' abc '.ltrip()`                      | `'abc '`               |
+|         | `rtrip`                 | Metnin sağını düzeltme   | `' abc '.rtrip()`                      | `' abc'`               |
+|         | `sort`                  | Metni sıralama           | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
 
 > Ek kaynaklar:
 >
 > - Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin.
 > - String değiştirme hızları kıyaslaması için [buraya][String değiştirme hızları] bakabilirsin.
+
+### String İçerisinde Metin Arama
+
+Alttaki yöntem ile tek bir karakteri string içerisinde bulabilirsiniz.
+
+```py
+string = "yemreak"
+tek_metin = "yemre"
+metinler = ['emre', 'ak']
+
+# Tek metin işlemi
+if tek_metin in string:
+  print("Metin bulundu")
+
+# Çok fazla metin işlemleri
+if all(metin in string for metin in metinler):
+  print("Hepsi bulundu")
+
+if any(metin in string for metin in metinler):
+  print("Herhangi biri bulundu)
+```
+
+> Kaynak için [buraya][String içerisinde çoklu metin arama] bakabilirsin.
 
 ## Harici Fonksiyon Kullanımları
 
@@ -343,3 +368,4 @@ In global scope: global spa
 
 [Slice]: https://www.webucator.com/how-to/how-slice-strings-python.cfm
 [String değiştirme hızları]: https://stackoverflow.com/a/27086669/9770490
+[String içerisinde çoklu metin arama]: https://stackoverflow.com/a/3389611/9770490

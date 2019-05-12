@@ -1,4 +1,7 @@
-"""Readme dosyasına indeksleri ekleme
+"""Markdown Yöneticisi
+
+README.md dosyasına indeksleri ekleme
+Linkleri dynamic yapma
 
 Author:
     Yunus Emre Ak
@@ -9,6 +12,13 @@ TODO: ToC oluştur
 TODO: Header'lar için dinamik link oluştur [Baslik]: #baslik
 TODO: Belki vscode eklentisi yapabilirsin
 TODO: index="md" şeklinde veri alımı yap, stringlerdeki boşluk siliniyor
+
+Yapısal işlem Notları:
+    TODO: list, private gibi işlemler en dışta olacak
+    TODO: Cfg yapısına dinamik link oluşturma gibi ek scriptler eklenebilir olacak
+
+Belki yapılır:
+    TODO: Vscode extension yapabilirsin
 """
 
 import os
@@ -16,7 +26,7 @@ from enum import Enum, unique
 from urllib.parse import quote
 
 # Yapılandırma dosyası ayarları
-CONFIG_FILE = "readme.cfg"
+CONFIG_FILE = "ymm.cfg"
 README_FILE = "README.md"
 COMMENT_DELIM = "#"
 VARIABLE_DELIM = "="
@@ -32,6 +42,7 @@ class Option():
         self.description = description
 
 
+# TODO: option.add_argument(...) ile ayar ekleme olanağı sun
 # Program ayarları
 OPTIONS = {
     "SORTED_INDEX": Option(
@@ -47,13 +58,17 @@ OPTIONS = {
         "Github sayfası (gh-pages) için indeksleme"
     ),
     "INSERT_INDICATOR": Option(
-        "<!-- Index -->",
+        "<!--Index-->",
         "İndexlenmesinin ekleneceği dosya aralığının başlangıç ve bitiş belirteci"
+    ),
+    "MAKE_LINKS_DYNAMIC": Option(
+        False,
+        "Statik linkleri dinamik linklere çevirme"
     )
 }
 
 # Görmezden gelinen dosya veya dizinler ('set' olma sebebi tekrarlı verileri engellemektir)
-PRIVATES = {".git", ".vscode"}
+PRIVATES = {".git", ".vscode", "temp", "phpoffice"}
 
 
 def load_cfg():
@@ -267,6 +282,83 @@ def load_cfg():
         read_cfg()
 
 
+def is_private(name: str) -> bool:
+    """İsmi verilen gizli mi kontrolü
+
+    Args:
+        name (str): Dosya ismi
+
+    Returns:
+        bool: Gizli ise `True` değilse `False`
+    """
+
+    for private in PRIVATES:
+        if name == private:
+            return True
+    return False
+
+
+def listfolderpaths(path: str = os.getcwd(), sort: bool = False) -> list:
+    """Dizinleri listeleme
+
+    Args:
+        path (str, optional): Dizinleri listelenecek dizin. Defaults to os.getcwd().
+
+    Returns:
+        list: Listenelenen dizinler
+    """
+
+    folderlist = []
+    for name in os.listdir(path):
+        pathname = os.path.join(path, name)
+        if os.path.isdir(pathname) and not is_private(name):
+            folderlist.append(pathname)
+
+    if sort:
+        folderlist.sort()
+
+    return folderlist
+
+
+def listfilepaths(path: str = os.getcwd(), sort: bool = False) -> list:
+    """Dosyaları listeleme
+
+    Args:
+        path (str, optional): Dosyaları listelenecek dizin. Defaults to os.getcwd().
+
+    Returns:
+        list: Listenelenen dosyalar
+    """
+
+    filelist = []
+    for name in os.listdir(path):
+        pathname = os.path.join(path, name)
+        if os.path.isfile(pathname) and not is_private(name):
+            filelist.append(pathname)
+
+    if sort:
+        filelist.sort()
+
+    return filelist
+
+
+def apply_all_files(func, path: str = os.getcwd(), sort: bool = False):
+    for filepath in listfilepaths(path, sort):
+        filepath = os.path.join(path, filepath)
+        func(filepath)
+
+    for folderpath in listfolderpaths(path, sort):
+        folderpath = os.path.join(path, folderpath)
+        apply_all_files(func, path=folderpath, sort=sort)
+
+
+def apply_all_folders(func, path: str = os.getcwd(), sort: bool = False):
+    for folderpath in listfolderpaths(path, sort):
+        folderpath = os.path.join(path, folderpath)
+        func(folderpath)
+        apply_all_folders(func, path=folderpath, sort=sort)
+
+
 def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = set(), sort=True, remove_md=True, indexfilter="") -> str:
     """Indekslenmiş metin oluşturma
 
@@ -281,63 +373,6 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
     Returns:
         str: Oluşturulan metin
     """
-
-    def is_private(name: str) -> bool:
-        """İsmi verilen gizli mi kontrolü
-
-        Args:
-            name (str): Dosya ismi
-
-        Returns:
-            bool: Gizli ise `True` değilse `False`
-        """
-
-        for private in privates:
-            if name == private:
-                return True
-        return False
-
-    def listfolderpaths(path: str = os.getcwd()) -> list:
-        """Dizinleri listeleme
-
-        Args:
-            path (str, optional): Dizinleri listelenecek dizin. Defaults to os.getcwd().
-
-        Returns:
-            list: Listenelenen dizinler
-        """
-
-        folderlist = []
-        for name in os.listdir(path):
-            pathname = os.path.join(path, name)
-            if os.path.isdir(pathname) and not is_private(name):
-                folderlist.append(pathname)
-
-        if sort:
-            folderlist.sort()
-
-        return folderlist
-
-    def listfilepaths(path: str = os.getcwd()) -> list:
-        """Dosyaları listeleme
-
-        Args:
-            path (str, optional): Dosyaları listelenecek dizin. Defaults to os.getcwd().
-
-        Returns:
-            list: Listenelenen dosyalar
-        """
-
-        filelist = []
-        for name in os.listdir(path):
-            pathname = os.path.join(path, name)
-            if os.path.isfile(pathname) and not is_private(name):
-                filelist.append(pathname)
-
-        if sort:
-            filelist.sort()
-
-        return filelist
 
     def headerstr(folderpath: str, headerlvl: int) -> str:
         """Dizin için markdown header'ı oluşturma
@@ -480,7 +515,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
             return link
 
         linkstr = ""
-        filepaths = listfilepaths(folderpath)
+        filepaths = listfilepaths(folderpath, sort=sort)
         for filepath in filepaths:
             linkstr += create_link(filepath)
 
@@ -491,7 +526,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
         return linkstr
 
     filestr = ""
-    folderpaths = listfolderpaths(pathname)
+    folderpaths = listfolderpaths(pathname, sort=sort)
     for folderpath in folderpaths:
         filestr += headerstr(folderpath, headerlvl)
         filestr += linkstr(folderpath)
@@ -541,9 +576,176 @@ def insertfile(filename: str, string: str, indicator: str):
         print("Dosya okumada hata meydana geldi :(")
 
 
+def replace_static_links_from_file(filepath) -> str:
+    # Markdownlar için çalışacak
+    if '.md' not in filepath:
+        return
+
+    DELIMS = ('[', ']', '(', ')')
+    NOT_FOUND = -1
+    LINKS = []
+
+    def init_indexes() -> list:
+        nonlocal DELIMS
+        return [-1 for i in range(len(DELIMS))]
+
+    def reset_indexes(indexlist: list, start: int = 0) -> list:
+        """İndeksleri sıfırlama
+
+        Args:
+            indexlist (list): İndex listesi
+            start (int, optional): Başlangıç indeksi. Defaults to 0.
+
+        Returns:
+            list: Değiştirilen indeksler
+        """
+
+        nonlocal NOT_FOUND
+        for i in range(start, len(indexlist)):
+            indexlist[i] = NOT_FOUND
+
+        return indexlist
+
+    def grablink(line: str, indexes: list) -> str:
+        """Verilen satırdaki linki alma
+
+        Args:
+            line (str): Satır
+            indexes (list): Ayıraçların indeksleri
+
+        Returns:
+            str: Link metni
+        """
+        return line[indexes[2] + 1:indexes[3]]
+
+    def replace_line(line: str, link: str, index: int) -> (str, int):
+        """Satırdaki linki dinamikleştirme
+
+        Args:
+            line (str): Satır
+            link (str): Link metni
+            link_index (int): Link indeksi
+
+        Returns:
+            ((str, int)): Yeni satır ve yeni indeks değeri
+        """
+
+        def reg_link(linkstr: str) -> int:
+            """Link kayıtlı değil koşula göre kayıt altına alma
+
+            Args:
+                linkstr (str): Link metni
+                condition (str, optional): Koşul metni. Defaults to "".
+
+            Returns:
+                int: Kayıt altına alınan linkin indeksi
+            """
+            nonlocal LINKS
+
+            link_index = len(LINKS)
+            found = False
+            for i, link in enumerate(LINKS):
+                if link == linkstr:
+                    link_index = i
+                    found = True
+                    break
+
+            # Link yoksa ekleme
+            if not found:
+                LINKS.append(linkstr)
+
+            return link_index
+
+        # Anchor linkleri atlama
+        if len(link) > 0 and link[0] != "#":
+            link_index = reg_link(link)
+
+            line = line.replace(f"({link})", f"[{link_index}]")
+            index -= len(link) - len(str(link_index))
+
+        return line, index
+
+    def append_header(filestr: str) -> str:
+        if len(LINKS) > 0:
+            if filestr[len(filestr) - 1] != "\n":
+                filestr += "\n"
+
+            filestr += "\n<!--DynamicLinks-->\n"
+
+        return filestr
+
+    def append_links(filestr: str):
+        if len(LINKS) > 0:
+            filestr += "\n"
+
+            for i, link in enumerate(LINKS):
+                filestr += f"[{i}]: {link}\n"
+
+        return filestr
+
+    filestr = ""
+    with open(filepath, "r") as file:
+
+        for line in file:
+            # Her ayıracın konum indeksini tanımlama
+            delim_indexes = init_indexes()
+
+            # Satırları satır indeksiyle okuma
+            index = 0
+            for char in line:
+                # Karakter '[' ise indeksini alma
+                if char == DELIMS[0]:
+                    delim_indexes[0] = index
+
+                    # Diğer indeksleri sıfırlama
+                    delim_indexes = reset_indexes(delim_indexes, 1)
+
+                # "[" karakteri bulunduysa diğer karakterleri arama
+                elif delim_indexes[0] != NOT_FOUND:
+                    # "]" karakteri ise indeksini alma
+                    if char == DELIMS[1]:
+                        delim_indexes[1] = index
+
+                    # "]" karakteri alındıysa diğer karakterleri arama
+                    elif delim_indexes[1] != NOT_FOUND:
+                        # Karakter ')' ise ve ']' dan hemen sonra geliyorsa indeksini alma
+                        if char == DELIMS[2] and index == delim_indexes[1] + 1:
+                            delim_indexes[2] = index
+
+                        # '(' bulundusya diğer karakterleri arama
+                        elif delim_indexes[2] != NOT_FOUND:
+                            # Karakter ")" ise indeksini alma ve ek işlemler
+                            if char == DELIMS[3]:
+                                delim_indexes[3] = index
+
+                                # Linkleri ayrıştırma ve gerekli dizilere ekleme
+                                linkstr = grablink(line, delim_indexes)
+
+                                # Parantezleri ve aradaki linki dinamikleştirme, indeksi yenileme
+                                line, index = replace_line(
+                                    line, linkstr, index)
+
+                                # İndeksleri sıfırlama (yenisi için hazırlama)
+                                delim_indexes = reset_indexes(delim_indexes)
+
+                            # Boşluk karakteri link yapısını bozduğundan yeni link için hazırlama
+                            elif char == ' ':
+                                delim_indexes = reset_indexes(delim_indexes)
+
+                # Yeni karaktere geçmeden önce indeksi ayarlama
+                index += 1
+            filestr += line
+
+    filestr = append_header(filestr)
+    filestr = append_links(filestr)
+
+    with open(filepath, "w") as file:
+        file.write(filestr)
+
+
 def update():
     """README'de indeksleme oluşturucu
-README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliştirir.
+README dosyasında '<!--Index-->' adlı kısmın içerisine indekslemeyi iliştirir.
 """
 
     load_cfg()
@@ -553,10 +755,14 @@ README dosyasında '<!-- Index -->' adlı kısmın içerisine indekslemeyi iliş
     remove_md = OPTIONS['INDEX_FOR_PAGE'].value
     indicator = OPTIONS['INSERT_INDICATOR'].value
     indexfilter = OPTIONS['INDEX_FILTER'].value
+    dynamic_link = OPTIONS['MAKE_LINKS_DYNAMIC'].value
 
     string = indexstr(privates=PRIVATES, sort=sort,
                       remove_md=remove_md, indexfilter=indexfilter)
     insertfile(README_FILE, string, indicator)
+
+    if dynamic_link:
+        apply_all_files(replace_static_links_from_file, sort=True)
 
     print("Updated! ~YEmreAk")
 

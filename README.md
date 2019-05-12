@@ -55,6 +55,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## Günlük Hayat Notları
 
 - [Aydınlatma](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Ayd%C4%B1nlatma.md)
+- [Boyama](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Boyama.md)
 - [Staj İlanları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1.md)
 - [Çamaşır Makinesi](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi.md)
 
@@ -87,7 +88,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [0 - Vscode Üzerinden Python](./Programlama%20Notlar%C4%B1/Python/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
 - [1 - Python Giriş](./Programlama%20Notlar%C4%B1/Python/1%20-%20Python%20Giri%C5%9F.md)
-- [2 - Python Döngüler ve İşlemler](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20%C4%B0%C5%9Flemler.md)
+- [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
 - [4 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
 - [4 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)

@@ -743,7 +743,7 @@ def replace_static_links_from_file(filepath) -> str:
         file.write(filestr)
 
 
-def update():
+def manager():
     """README'de indeksleme oluşturucu
 README dosyasında '<!--Index-->' adlı kısmın içerisine indekslemeyi iliştirir.
 """
@@ -767,4 +767,5 @@ README dosyasında '<!--Index-->' adlı kısmın içerisine indekslemeyi ilişti
     print("Updated! ~YEmreAk")
 
 
-update()
+if __name__ == "__main__":
+    manager()

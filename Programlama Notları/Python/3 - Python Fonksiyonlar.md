@@ -27,6 +27,7 @@
   - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
   - [Global Kullanımına Ek Örnek](#global-kullan%C4%B1m%C4%B1na-ek-%C3%B6rnek)
 - [Fonksiyonlarda Hız](#fonksiyonlarda-h%C4%B1z)
+  - [Fonksiyon Hızı Ölçme Scripti](#fonksiyon-h%C4%B1z%C4%B1-%C3%B6l%C3%A7me-scripti)
 
 ## Dahili Fonksiyon Kullanımları
 
@@ -401,7 +402,15 @@ In global scope: global spa
 
 Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapılmasından daha hızlıdır.
 
-> Test script'i için aşağıya bakabilirsin.
+- ~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
+- Bu değer bilgisayar **donanımınıza göre değişiklik** gösterecektir
+
+> **Ek kaynaklar:**
+>
+> - [Fonksiyonların CPU ve Memory kullanımını ölçme]
+> - [Fonksiyonun CPU kullanımını bulma - StackOverflow]
+
+### Fonksiyon Hızı Ölçme Scripti
 
 ```py
 from time import time
@@ -416,20 +425,34 @@ TEST_RANGE = 10000
 func_slow_count = 0
 
 # Objeyi oluşturma
-data = [i for i in range(RANGE)]
+data1 = [i for i in range(RANGE)]
+data2 = [i for i in range(RANGE)]
+data3 = [i for i in range(RANGE)]
 
+avg_func_time = 0
 for test in range(TEST_RANGE):
     first_time = time()
 
-    # Elden veri atama
-    for test1 in range(len(data)):
-        data[test1] = 0
+    # Normal işleme
+    data = []
+    for test2 in range(len(data1)):
+        data.append(data1[test2])
+    for test2 in range(len(data2)):
+        data.append(data2[test2])
+    for test2 in range(len(data3)):
+        data.append(data3[test2])
 
     normal_time = time() - first_time
 
-    def fdata(data):
-        for test2 in range(len(data)):
-            data[test2] = 0
+    # Fonksiyon ile işleme
+    def fdata(data1, data2, data3):
+        data = []
+        for test2 in range(len(data1)):
+            data.append(data1[test2])
+        for test2 in range(len(data2)):
+            data.append(data2[test2])
+        for test2 in range(len(data3)):
+            data.append(data3[test2])
         return data
 
     data = [i for i in range(RANGE)]
@@ -437,19 +460,23 @@ for test in range(TEST_RANGE):
     first_time = time()
 
     # Fonksiyon ile veri atama
-    data = fdata(data)
+    fdata = fdata(data1, data2, data3)
 
     func_time = time() - first_time
 
     if normal_time - func_time < 0:
         func_slow_count += 1
 
-print(
-    f"Fonksiyon %{func_slow_count * (100 / TEST_RANGE)} ihtimalle daha yavaş")
+    avg_func_time = (
+        avg_func_time * test + (normal_time / func_time - 1) * 100
+    ) / (test + 1)
 
-# Fonksiyon %0.52 ihtimalle daha yavaş (yani %99.48 ihitmalle daha hızlı)
+print("Fonksiyon işlemi normalden %" + "%.2f daha hızlı" % avg_func_time)
+# Fonksiyon işlemi normalden %87.11 daha hızlı (87 değişkenlik gösterebilir)
 ```
 
 [Slice - Stackoverflow]: https://stackoverflow.com/a/509295/9770490
 [String değiştirme hızları]: https://stackoverflow.com/a/27086669/9770490
 [String içerisinde çoklu metin arama]: https://stackoverflow.com/a/3389611/9770490
+[Fonksiyonların CPU ve Memory kullanımını ölçme]: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
+[Fonksiyonun CPU kullanımını bulma - StackOverflow]: https://stackoverflow.com/a/8957968/9770490

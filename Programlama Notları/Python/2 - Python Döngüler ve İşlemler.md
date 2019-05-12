@@ -3,7 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [If / Else Koşul (Constraints) Yapısı](#if--else-ko%C5%9Ful-constraints-yap%C4%B1s%C4%B1)
-  - [Tek satır (üçlü) If / Else Yapısı](#tek-sat%C4%B1r-%C3%BC%C3%A7l%C3%BC-if--else-yap%C4%B1s%C4%B1)
+  - [Üçlü (Ternary) If / Else Yapısı](#%C3%BC%C3%A7l%C3%BC-ternary-if--else-yap%C4%B1s%C4%B1)
 - [Döngüler (Loop)](#d%C3%B6ng%C3%BCler-loop)
   - [For Döngüsü](#for-d%C3%B6ng%C3%BCs%C3%BC)
     - [Değişken içinde For Döngüsü](#de%C4%9Fi%C5%9Fken-i%C3%A7inde-for-d%C3%B6ng%C3%BCs%C3%BC)
@@ -48,7 +48,7 @@ else:
     print("Negatif sayı")
 ```
 
-### Tek satır (üçlü) If / Else Yapısı
+### Üçlü (Ternary) If / Else Yapısı
 
 ```py
 fruit = 'Apple'

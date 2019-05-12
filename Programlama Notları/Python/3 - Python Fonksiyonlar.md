@@ -26,6 +26,7 @@
   - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek-scopes-and-namespaces)
   - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
   - [Global Kullanımına Ek Örnek](#global-kullan%C4%B1m%C4%B1na-ek-%C3%B6rnek)
+- [Fonksiyonlarda Hız](#fonksiyonlarda-h%C4%B1z)
 
 ## Dahili Fonksiyon Kullanımları
 
@@ -394,6 +395,59 @@ After local assignment: test spam
 After nonlocal assignment: nonlocal spam
 After global assignment: nonlocal spam
 In global scope: global spa
+```
+
+## Fonksiyonlarda Hız
+
+Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapılmasından daha hızlıdır.
+
+> Test script'i için aşağıya bakabilirsin.
+
+```py
+from time import time
+
+# Obje uzunluğu
+RANGE = 1000
+
+# Toplam test sayısı
+TEST_RANGE = 10000
+
+# Fonksiyonun yavaş kaldığı testlerin sayısı
+func_slow_count = 0
+
+# Objeyi oluşturma
+data = [i for i in range(RANGE)]
+
+for test in range(TEST_RANGE):
+    first_time = time()
+
+    # Elden veri atama
+    for test1 in range(len(data)):
+        data[test1] = 0
+
+    normal_time = time() - first_time
+
+    def fdata(data):
+        for test2 in range(len(data)):
+            data[test2] = 0
+        return data
+
+    data = [i for i in range(RANGE)]
+
+    first_time = time()
+
+    # Fonksiyon ile veri atama
+    data = fdata(data)
+
+    func_time = time() - first_time
+
+    if normal_time - func_time < 0:
+        func_slow_count += 1
+
+print(
+    f"Fonksiyon %{func_slow_count * (100 / TEST_RANGE)} ihtimalle daha yavaş")
+
+# Fonksiyon %0.52 ihtimalle daha yavaş (yani %99.48 ihitmalle daha hızlı)
 ```
 
 [Slice - Stackoverflow]: https://stackoverflow.com/a/509295/9770490

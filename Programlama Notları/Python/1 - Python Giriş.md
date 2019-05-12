@@ -101,6 +101,8 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 | [Dictionary] | `site = {"adi":"yemreak"}`         | `site['adi']`         |
 | [Tuple]      | `konum = (1, 2)`                   | `x, y = konum`        |
 
+> Değişkenin daha önceden tanımlandığını kontorl etme için [buraya][Değişkenin daha önceden tanımlandığını kontrol etme] bakabilirsin.
+
 ### List
 
 Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
@@ -121,6 +123,10 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
 Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 
+- Set'in kendine özgü bir yerleştirme yapısı (*hash*) vardır.
+  - Bu yapı sayesinde veriler, en hızlı olacak şekilde, **karmaşık** olarak dizilir
+  - List'ten daha **hızlıdır**
+  - Kaynak için [buraya][Set mi yoksa list mi daha hızlı] bakabilirsin
 - Birbirinden farklı değişkenleri tutabilir
 - Aynı değişken birden fazla **yazılamaz** (küme özelliği)
 - Tüm değerlerin *inmutable* (değiştirilemez) olması gerekmektedir
@@ -139,11 +145,10 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 - `<isim>` Elemena verilecek isim
   - Örn: `i`, `e` vs
 
-> Ek bağlantılar:
+> **Ek bağlantılar:**
 >
 > - [Hızlıca set açıklaması][Set]
 > - [Detaylı set açıklaması][Set Detaylı]
-> - [Set mi yoksa list mi daha hızlı]
 
 ### Dictionary
 
@@ -266,3 +271,4 @@ if hasattr(obj, 'attr_name'):
 [Dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
 [Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
 [Set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490
+[Değişkenin daha önceden tanımlandığını kontrol etme]: https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists

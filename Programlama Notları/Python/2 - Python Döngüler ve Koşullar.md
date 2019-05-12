@@ -32,6 +32,9 @@
 
 ## If / Else Koşul (Constraints) Yapısı
 
+If içerisine yazılan koşul otomatik olarak `bool` değişkenine dönüştürülür, değer `True` ise içindeki kodlar çalıştırılır.
+
+- `None`, `""`, `0` gibi değerler `False` değerine denktir
 - `:` ile if / else satırı sonlandırılır
 - `Tab` kadar boşluk atılırsa if scope*'u içerisinde olur
 

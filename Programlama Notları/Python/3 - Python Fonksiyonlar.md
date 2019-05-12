@@ -412,6 +412,8 @@ Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapı
 
 ### Fonksiyon Hızı Ölçme Scripti
 
+> Google colabratory üzerinden çalıştırmak için [buraya][Fonksiyon testini colab üzerinde çalıştırma] tıklayabilirsin.
+
 ```py
 from time import time
 
@@ -429,7 +431,7 @@ data1 = [i for i in range(RANGE)]
 data2 = [i for i in range(RANGE)]
 data3 = [i for i in range(RANGE)]
 
-avg_func_time = 0
+avg_func_speed = 0
 for test in range(TEST_RANGE):
     first_time = time()
 
@@ -467,12 +469,33 @@ for test in range(TEST_RANGE):
     if normal_time - func_time < 0:
         func_slow_count += 1
 
-    avg_func_time = (
-        avg_func_time * test + (normal_time / func_time - 1) * 100
+    avg_func_speed = (
+        avg_func_speed * test + (normal_time / func_time - 1) * 100
     ) / (test + 1)
 
-print("Fonksiyon işlemi normalden %" + "%.2f daha hızlı" % avg_func_time)
-# Fonksiyon işlemi normalden %87.11 daha hızlı (87 değişkenlik gösterebilir)
+print("Fonksiyon işlemi normalden %" + "%.2f daha hızlı, testlerde " % avg_func_speed + "%" + "%.2f ihtimalle yavaş kalmıştır." %
+      (func_slow_count * 100 / TEST_RANGE))
+
+```
+
+```py
+# Colab çıktıları
+Fonksiyon işlemi normalden %47.32 daha hızlı, testlerde %0.09 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.86 daha hızlı, testlerde %0.21 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %52.29 daha hızlı, testlerde %0.31 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %48.02 daha hızlı, testlerde %0.41 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.89 daha hızlı, testlerde %0.53 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.73 daha hızlı, testlerde %0.68 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %47.21 daha hızlı, testlerde %0.86 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %47.02 daha hızlı, testlerde %1.09 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %47.60 daha hızlı, testlerde %1.27 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %52.76 daha hızlı, testlerde %1.41 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %48.76 daha hızlı, testlerde %1.74 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.28 daha hızlı, testlerde %1.90 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.94 daha hızlı, testlerde %2.11 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.21 daha hızlı, testlerde %2.25 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %46.50 daha hızlı, testlerde %2.39 ihtimalle yavaş kalmıştır.
+Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yavaş kalmıştır.
 ```
 
 [Slice - Stackoverflow]: https://stackoverflow.com/a/509295/9770490
@@ -480,3 +503,4 @@ print("Fonksiyon işlemi normalden %" + "%.2f daha hızlı" % avg_func_time)
 [String içerisinde çoklu metin arama]: https://stackoverflow.com/a/3389611/9770490
 [Fonksiyonların CPU ve Memory kullanımını ölçme]: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
 [Fonksiyonun CPU kullanımını bulma - StackOverflow]: https://stackoverflow.com/a/8957968/9770490
+[Fonksiyon testini colab üzerinde çalıştırma]: https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl_9ftDIytVGS

@@ -899,6 +899,7 @@ Kernel güncelleme yazım için [buraya](https://medium.com/@yyunussemree/linux-
 
 - [I somehow deleted my Desktop from nautilus places][Restore Local Folder]
 - [Batch Script ile 'Yes/No' yapısı oluşturma][Batch Script ile 'Yes/No' yapısı oluşturma]
+- [Windows yanına linux kurulduğunda windows saatinin bozulması]
 
 [flameshot]: https://github.com/lupoDharkael/flameshot
 [simplescreenrecorder]: https://www.maartenbaert.be/simplescreenrecorder/
@@ -908,3 +909,5 @@ Kernel güncelleme yazım için [buraya](https://medium.com/@yyunussemree/linux-
 [Batch Script ile 'Yes/No' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490
 
 [Shell Script]: ../Programlama%20Notlar%C4%B1%2FShell%20Script.md
+
+[Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/

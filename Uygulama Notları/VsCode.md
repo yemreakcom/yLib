@@ -266,36 +266,32 @@ Değişkenlerin kullanım şekilleri:
 
 ```json
 {
-    // Kişisel bilgilerin paylaşılmasını engellemes
-    "telemetry.enableTelemetry": false,
-    // Tema ayarları
-    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    // Tasarım ve arayüz ayarları
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.statusBar.feedback.visible": false,
-    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
     "window.menuBarVisibility": "toggle",
-    // Editör Ayarları
-    "editor.fontSize": 15,
-    "editor.fontFamily": "Ubuntu Mono, Roboto Mono",
+    "window.titleBarStyle": "custom",
+    "terminal.integrated.cursorStyle": "line",
+    // Gizlilik ayarları
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    // Editör ayarları
     "editor.formatOnSave": true,
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 99,
-    // Dosya Gezgini Ayarları
+    // Font Ayarları https://github.com/i-tu/Hasklig
+    "editor.fontFamily": "Hasklig",
+    "editor.fontWeight": "500",
+    "editor.fontSize": 13.8,
+    "editor.fontLigatures": true,
+    // Dosya işlemleri ayarları
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    // Entegre terminal ayarları
-    "terminal.integrated.cursorStyle": "line",
     // Git ayarları
     "git.confirmSync": false,
     "git.autofetch": false,
-    // Markdownlint ayarları
+    // Markdown ayarları
     "markdownlint.config": {
         "MD033": false
-    },
-    // Python kite için ek ayarlar
-    "python.jediEnabled": false,
-    "editor.suggestSelection": "first",
-    "kite.showWelcomeNotificationOnStartup": false,
+    }
 }
 ```
 

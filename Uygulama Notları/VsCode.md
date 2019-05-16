@@ -297,16 +297,17 @@ Değişkenlerin kullanım şekilleri:
 
 ### Editör Eklentilerim
 
-- [autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring)
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Deepdark Material Theme](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material)
-- [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
-- [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-- [Visual Studio IntelliCode - Preview](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+- [Deepdark Material Theme]
+- [Markdown All in One]
+- [Markdown PDF]
+- [markdownlint]
+- [Material Icon Theme]
+- [Better Comments]
+- [Todo Tree]
+- [Python]
+- [autoDocstring]
+- [Visual Studio IntelliCode - Preview]
+- [AREPL For Python]
 
 ### Java Ayarları
 
@@ -385,3 +386,15 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [Intellicode]: https://code.visualstudio.com/docs/editor/intellisense
 [Vscode extension yazma]: https://scotch.io/tutorials/create-your-first-visual-studio-code-extension
 [Vscode faydalı eklentiler 1]: https://itnext.io/12-vs-code-extensions-you-should-consider-using-4747e6281ee
+
+[autoDocstring]: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+[Better Comments]: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments
+[Deepdark Material Theme]: https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material
+[Markdown All in One]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+[Markdown PDF]: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
+[markdownlint]: https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+[Material Icon Theme]: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+[Python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+[Todo Tree]: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+[Visual Studio IntelliCode - Preview]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+[AREPL For Python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl

@@ -78,7 +78,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Nodejs Çok Kullanılan Kütüphaneler](./Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler.md)
 - [Nodejs](./Programlama%20Notlar%C4%B1/Nodejs.md)
 - [Php](./Programlama%20Notlar%C4%B1/Php.md)
-- [Python](./Programlama%20Notlar%C4%B1/Python.md)
 - [React](./Programlama%20Notlar%C4%B1/React.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Unity](./Programlama%20Notlar%C4%B1/Unity.md)
@@ -91,15 +90,14 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
 - [4 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
-- [4 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
-- [5 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
-- [6 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/Python%20Harici%20Linkler.md)
+- [5 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [6 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
+- [7 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20%C4%B0leri%20Seviye.md)
+- [8 - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Harici%20Linkler.md)
 
 ## Proje Yönetimi Notları
 
 - [Git Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1.md)
-- [Git için Emojiler](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20i%C3%A7in%20Emojiler.md)
 - [Github Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
 - [Heroku Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
 - [Proje Yönetimi](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
@@ -160,8 +158,16 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## pdfs
 
+- [An E-learning System With Multifacial Emotion](./pdfs/An%20E-learning%20System%20With%20Multifacial%20Emotion.pdf)
+- [Education 4.0 – Fostering Student’s Performance](./pdfs/Education%204.0%20%E2%80%93%20Fostering%20Student%E2%80%99s%20Performance.pdf)
 - [Github Cheat Sheet](./pdfs/Github%20Cheat%20Sheet.pdf)
+- [Importance of Including Practical Machine Learning](./pdfs/Importance%20of%20Including%20Practical%20Machine%20Learning.pdf)
+- [Improving of Personal Educational Content Using](./pdfs/Improving%20of%20Personal%20Educational%20Content%20Using.pdf)
+- [Linux Notları](./pdfs/Linux%20Notlar%C4%B1.pdf)
+- [Machine Learning Model for Analyzing Learning](./pdfs/Machine%20Learning%20Model%20for%20Analyzing%20Learning.pdf)
+- [Python](./pdfs/Python.pdf)
 - [Visual Studio Code Shortcuts](./pdfs/Visual%20Studio%20Code%20Shortcuts.pdf)
+- [Windows PowerShell Tutorial for Beginners](./pdfs/Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
 
 ## res
 
@@ -180,12 +186,13 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## İşletim Sistemi Notları
 
-- [Linux Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1.md)
 - [Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1.md)
 
-### Windows10 Kaynakları
+### Linux Notları
 
-- [Windows PowerShell Tutorial for Beginners](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows10%20Kaynaklar%C4%B1/Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
+- [1 - Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
+- [2 - Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
+- [3 - Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
 
 <!--Index-->
 

@@ -6,6 +6,9 @@
 - [Dosya İzinleri](#dosya-i%CC%87zinleri)
   - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
   - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#dizine-ve-alt-dizinlerine-okuma-ve-yazma-i%CC%87zni-verme)
+- [Desktop kısayolu oluşturma](#desktop-k%C4%B1sayolu-olu%C5%9Fturma)
+  - [Whatsapp Kısayolu](#whatsapp-k%C4%B1sayolu)
+    - [Whatsapp İkonu Ekleme](#whatsapp-i%CC%87konu-ekleme)
 - [Window Manager Controls](#window-manager-controls)
 - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
 - [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
@@ -62,6 +65,74 @@ Alttaki komutla dizine ve alt dizinlerine herkes için okuma ve yazma erişimi v
 ```sh
 sudo chmod -R 757 /opt/lampp/htdocs/wordpress/
 ```
+
+## Desktop kısayolu oluşturma
+
+Text editörü açıp
+
+```sh
+gedit dosya/yolu.desktop
+```
+
+Alttaki alanda gerekli yerleri doldurun.
+
+```ini
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Exec=command to run here
+Name=visible name here
+Comment=comment here
+Icon=icon path here
+```
+
+Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir olarak işaretleyin (?)
+
+```bash
+chmod +x dosyadi.desktop
+```
+
+### Whatsapp Kısayolu
+
+Text editörü açıp;
+
+```sh
+gedit /usr/share/applications/whatsapp-webapp.desktop
+```
+
+açılan yere alttaki verileri kopyalayın;
+
+```ini
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WhatsApp
+GenericName=WhatsApp
+Comment=WhatsApp desktop webapp
+#Exec=webapp-container --store-session-cookies --webappUrlPatterns=https?://*.whatsapp.com/* --user-agent-string='Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' https://web.whatsapp.com %u
+Exec=/opt/google/chrome/google-chrome --app=https://web.whatsapp.com/
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+# Alttaki alana ikon yolunuzu kopyalayın
+# Icon=
+Categories=Network;Application;
+Keywords=WhatsApp;webapp;
+X-Ubuntu-Gettext-Domain=WhatsApp
+StartupWMClass=web.whatsapp.com
+```
+
+#### Whatsapp İkonu Ekleme
+
+İlk olarak [buradaki][Whatsapp Svg] ikonu indirin.
+
+- İndirdiğiniz dosyanın yolunu kopyalayın
+- `gedit /usr/share/applications/whatsapp-webapp.desktop` komutu ile dosyayı tekrar açın
+- İçerisinde `Icon=` olan satırın başındaki `#` karkterini silin ve yolu kopyalayın
+  - Örn: `Icon=/home/yemreak/Pictures/Ikons/Svg/whatsapp-webapp.svg`
 
 ## Window Manager Controls
 
@@ -272,3 +343,4 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 [Kernel Güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
 [Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 [Linux desktop entry oluşturma]: https://askubuntu.com/a/282187
+[Whatsapp Svg]: res/whatsapp-webapp.svg

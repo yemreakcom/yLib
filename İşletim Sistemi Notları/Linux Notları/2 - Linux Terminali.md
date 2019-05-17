@@ -13,7 +13,6 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
   - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
   - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
 - [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
-  - [Desktop kısayolu oluşturma](#desktop-k%C4%B1sayolu-olu%C5%9Fturma)
 - [Shell (Bash) Scripting](#shell-bash-scripting)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
@@ -140,35 +139,6 @@ sudo ln -s /dosya/yolu/ dosyaAdi
 - `-s` Statik link yerine sembolik link oluşturma
 - `/dosya/yolu` Örneğin /home/$USER
 - `dosyaAdi` Oluşturulacak kısayolun ismi
-
-### Desktop kısayolu oluşturma
-
-Text editörü açıp
-
-```bash
-gedit dosya/yolu.desktop
-```
-
-Alttaki alanda gerekli yerleri doldurun.
-
-```txt
-#!/usr/bin/env xdg-open
-
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Exec=command to run here
-Name=visible name here
-Comment=comment here
-Icon=icon path here
-```
-
-Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir olarak işaretleyin (?)
-
-```bash
-chmod +x dosyadi.desktop
-```
 
 ## Shell (Bash) Scripting
 

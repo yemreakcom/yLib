@@ -95,6 +95,8 @@ Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir ol
 chmod +x dosyadi.desktop
 ```
 
+> Detaylı bilgi için [buraya][Linux desktop entry oluşturma] bakabilirsin.
+
 ### Whatsapp Kısayolu
 
 Text editörü açıp;

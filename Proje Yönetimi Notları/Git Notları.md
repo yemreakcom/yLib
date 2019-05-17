@@ -28,11 +28,7 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
     - [Örnek Çıktı](#%C3%B6rnek-%C3%A7%C4%B1kt%C4%B1)
   - [Teslim Etme](#teslim-etme)
 - [Branch İşlemleri](#branch-i%CC%87%C5%9Flemleri)
-  - [Branch (Dal) Oluşturma](#branch-dal-olu%C5%9Fturma)
-  - [Branch (Dal) Değiştirme](#branch-dal-de%C4%9Fi%C5%9Ftirme)
-  - [Branch (Dal) Kaldırma](#branch-dal-kald%C4%B1rma)
-    - [Yerel branch silme](#yerel-branch-silme)
-    - [Uzaktaki (remote) branch'ı silme](#uzaktaki-remote-branch%C4%B1-silme)
+  - [Sık Kullanılan Branch İşlemleri](#s%C4%B1k-kullan%C4%B1lan-branch-i%CC%87%C5%9Flemleri)
 - [Faydalı git komutları](#faydal%C4%B1-git-komutlar%C4%B1)
   - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#git-%C3%BCzerinde-kullan%C4%B1c%C4%B1-bilgilerini-saklama)
   - [Remote Kaldırma & Gösterme](#remote-kald%C4%B1rma--g%C3%B6sterme)
@@ -228,45 +224,26 @@ Branch (dal) git yığıtlarında imleç görevi gören araçlardır. Ek bilgi i
 
 ![detailed-branch-pic](https://git-scm.com/figures/18333fig0309-tn.png)
 
-### Branch (Dal) Oluşturma
+### Sık Kullanılan Branch İşlemleri
 
-```bash
-git branch [branch_ismi]
-```
+Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 
-> Yeni bir branch (imleç) oluştulur. Test işlemleri için sık kullanılırlar.
+| İşlem                                 | Açıklama                    |
+| ------------------------------------- | --------------------------- |
+| `git branch <branch_ismi>`            | Branch oluşturma            |
+| `git checkout <branch>`               | Branch değiştirme           |
+| `git branch -d <branch>`              | Local branch kaldırma       |
+| `git branch -D <branch>`              | Local branch zorla kaldırma |
+| `git push <url | remote> -d <branch>` | Remote branch kaldırma      |
 
-### Branch (Dal) Değiştirme
+- `<branch>` Seçilecek dal (HEAD (ana dal) için 'master' kullanılır)
+  - Örn: `master`
+- `-d` Silme parametresi yani `--delete`
+- `-D` Zorla silme parametresi yani `--delete --force`
+- `<url | remote>` Uzaktaki git adresi veya ismi
+  - **Örn**: `origin` veya `https://github.com/yedhrab/YBilgiler.git`
 
-```bash
-git checkout [branch]
-```
-
-- `branch` Seçilecek dal (HEAD (ana dal) için 'master' kullanılır)
-  - git checkout master
-
-> Seçili branch'i değiştiri. (Master iken test'e geçmek gibi)
-
-### Branch (Dal) Kaldırma
-
-Eklenen branch'i kaldırmak için uygulanır. Detaylara [buraya](https://koukia.ca/delete-a-local-and-a-remote-git-branch-61df0b10d323) tıklayarak erişebilirsin.
-
-#### Yerel branch silme
-
-```bash
-git branch [param] [branch]
-```
-
-**Parametreler:**
-
-- `-d` Silme parametresi
-- `-D` Zorla silme parametresi
-
-#### Uzaktaki (remote) branch'ı silme
-
-```bash
-git push [url] --delete [branch]
-```
+> Branch kaldırma hakkında ek bilgi için [buraya][Git branch silme işlemleri] bakabilirsin
 
 ## Faydalı git komutları
 
@@ -329,3 +306,6 @@ git reset HEAD~
 - [Github ile Fork ve Pull Request](https://medium.com/@noteCe/github-ile-fork-ve-pull-request-be6077342834)
 - [git: 'credential-cache' is not a git command](https://stackoverflow.com/a/11889392/9770490)
 - [Git Rebase Kavramı](https://git-scm.com/book/tr/v1/Git-te-Dallanma-Rebasing-Tekrar-Adresleme)
+- [Git branch silme işlemleri]
+
+[Git branch silme işlemleri]: https://stackoverflow.com/a/2003515

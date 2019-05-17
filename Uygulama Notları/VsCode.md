@@ -299,6 +299,7 @@ Değişkenlerin kullanım şekilleri:
 
 - [Deepdark Material Theme]
 - [Markdown All in One]
+- [WakaTime]
 - [Markdown PDF]
 - [markdownlint]
 - [Material Icon Theme]
@@ -398,3 +399,4 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [Todo Tree]: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
 [Visual Studio IntelliCode - Preview]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
 [AREPL For Python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl
+[WakaTime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime

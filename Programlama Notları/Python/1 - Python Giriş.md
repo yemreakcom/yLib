@@ -2,6 +2,9 @@
 
 <!-- TODO: Immutabble mutable kavramını açıkla -->
 
+- Ek başlangıç yazısı için [buraya][Python türkçe başlangıç] bakabilirsin
+- Kod yeteneklerini test etmek için [buraya][Python hackerrank] bakabilirsin
+
 ## İçerikler <!-- omit in toc -->
 
 - [Python ile Programlamaya Hazırlanma](#python-ile-programlamaya-haz%C4%B1rlanma)
@@ -66,9 +69,10 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 
 | Anahtar | Anlamı                          |
 | ------- | ------------------------------- |
-| `pass`  | Tanımsız (null)                 |
-| `is`    | Eşitlik (==)                    |
+| `is`    | Adres eşitliği (==)             |
 | `in`    | İçerisindeki elemanlar          |
+| `pass`  | Boş                             |
+| `None`  | Tanımsız (null)                 |
 | `with`  | Açık olduğu sürece anlamı taşır |
 
 > Döngü veya metotların *içleri doldurulana* kadar yer kaplayıcı olarak `pass` kullanılır.
@@ -272,3 +276,6 @@ if hasattr(obj, 'attr_name'):
 [Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
 [Set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490
 [Değişkenin daha önceden tanımlandığını kontrol etme]: https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
+
+[Python türkçe başlangıç]: https://github.com/fuatbeser/python-notlarim/blob/master/python_turkce_baslangic.ipynb
+[Python hackerrank]: https://www.hackerrank.com/domains/python

@@ -111,6 +111,7 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 - [Make Chrome Run Faster](https://www.techspot.com/article/1193-chrome-performance-memory-tweaks/)
 - [The Power User's Guide to Chrome](https://lifehacker.com/the-power-users-guide-to-google-chrome-5045904)
 - [Add Custom Keyboard Shortcuts to Chrome Extensions for Quick Launching](https://lifehacker.com/add-custom-keyboard-shortcuts-to-chrome-extensions-for-1595322121)
+- [Chrome app yazma]
 
 [Adblock Plus]: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
 [Pop up Blocker for Chrome]: https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche
@@ -127,3 +128,5 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 [VStat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma
 [Nightlight]: https://chrome.google.com/webstore/detail/night-light/aionebabdognkieabomemdegmjedkked
 [One Click Translate]: https://chrome.google.com/webstore/detail/one-click-translate/anhjddeakbabimdgmonfbnpbainknbfa/related
+
+[Chrome app yazma]: https://developers.chrome.com/apps/first_app

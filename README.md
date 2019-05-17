@@ -169,21 +169,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Visual Studio Code Shortcuts](./pdfs/Visual%20Studio%20Code%20Shortcuts.pdf)
 - [Windows PowerShell Tutorial for Beginners](./pdfs/Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
 
-## res
-
-- [android_alertdialog](./res/android_alertdialog.png)
-- [android_anim1](./res/android_anim1.gif)
-- [android_anim2](./res/android_anim2.gif)
-- [android_change_packagename1](./res/android_change_packagename1.png)
-- [android_change_packagename2](./res/android_change_packagename2.png)
-- [android_change_packagename3](./res/android_change_packagename3.png)
-- [android_change_packagename4](./res/android_change_packagename4.png)
-- [android_navbar](./res/android_navbar.png)
-- [android_navview](./res/android_navview.png)
-- [android_progressbar](./res/android_progressbar.png)
-- [android_seekbar](./res/android_seekbar.png)
-- [android_viewpager](./res/android_viewpager.gif)
-
 ## İşletim Sistemi Notları
 
 - [Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1.md)

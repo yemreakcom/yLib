@@ -140,22 +140,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Terimler](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
 
-## images
-
-- [bg](./images/bg.jpg)
-- [cmd](./images/cmd.png)
-- [csv_to_vcf](./images/csv_to_vcf.jpg)
-- [explain-select](./images/explain-select.jpg)
-- [git-cheet-sheet](./images/git-cheet-sheet.jpeg)
-- [group-by](./images/group-by.jpg)
-- [krc-extensions](./images/krc-extensions.bmp)
-- [lang_network](./images/lang_network.jpg)
-- [mysql-ex-1](./images/mysql-ex-1.jpg)
-- [pyqt_widgets](./images/pyqt_widgets.png)
-- [taskbar](./images/taskbar.jpg)
-- [theme_color](./images/theme_color.png)
-- [win](./images/win.png)
-
 ## pdfs
 
 - [An E-learning System With Multifacial Emotion](./pdfs/An%20E-learning%20System%20With%20Multifacial%20Emotion.pdf)

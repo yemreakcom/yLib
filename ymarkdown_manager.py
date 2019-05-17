@@ -26,7 +26,7 @@ from enum import Enum, unique
 from urllib.parse import quote
 
 # Yapılandırma dosyası ayarları
-CONFIG_FILE = "ymm.cfg"
+INI_FILE = "ymm.ini"
 README_FILE = "README.md"
 COMMENT_DELIM = "#"
 VARIABLE_DELIM = "="
@@ -81,7 +81,7 @@ def load_cfg():
         Returns:
             bool -- Dosya varsa `True`, yoksa `False`
         """
-        return CONFIG_FILE in os.listdir()
+        return INI_FILE in os.listdir()
 
     def read_cfg() -> None:
         """Yapılandırma dosyasındaki verileri değişkenlere kaydetme
@@ -201,7 +201,7 @@ def load_cfg():
             if value not in PRIVATES:
                 PRIVATES.add(value)
 
-        with open(CONFIG_FILE, "r") as file:
+        with open(INI_FILE, "r") as file:
             for line in file:
                 # Gereksiz karakterleri kaldırma
                 line = trim_line(line)
@@ -271,7 +271,7 @@ def load_cfg():
             filestr += "\n"
             return filestr
 
-        with open(CONFIG_FILE, "w") as file:
+        with open(INI_FILE, "w") as file:
             file.write(configstr())
             file.write(privatestr())
 

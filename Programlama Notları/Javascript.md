@@ -31,6 +31,7 @@
   - [MIME - Internet Media Types](#mime---internet-media-types)
 - [HTTP İstekleri](#http-i%CC%87stekleri)
 - [Objedeki Değer ile Anahtarını Bulma](#objedeki-de%C4%9Fer-ile-anahtar%C4%B1n%C4%B1-bulma)
+- [Latex Ayrıştırma](#latex-ayr%C4%B1%C5%9Ft%C4%B1rma)
 - [Harici Kaynaklar](#harici-kaynaklar)
 
 ## String İşlemleri
@@ -465,6 +466,15 @@ function httpGet(theUrl) {
 function getKeyByValue(object, value) {
   return Object.keys(object).find(key => object[key] === value);
 }
+```
+
+## Latex Ayrıştırma
+
+```html
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
 ```
 
 ## Harici Kaynaklar

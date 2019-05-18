@@ -102,7 +102,7 @@ chmod +x dosyadi.desktop
 Text editörü açıp;
 
 ```sh
-gedit /usr/share/applications/whatsapp-webapp.desktop
+sudo gedit /usr/share/applications/whatsapp-webapp.desktop
 ```
 
 açılan yere alttaki verileri kopyalayın;

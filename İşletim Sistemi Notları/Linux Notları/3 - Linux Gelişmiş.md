@@ -9,8 +9,13 @@
 - [Desktop kısayolu oluşturma](#desktop-k%C4%B1sayolu-olu%C5%9Fturma)
   - [Whatsapp Kısayolu](#whatsapp-k%C4%B1sayolu)
     - [Whatsapp İkonu Ekleme](#whatsapp-i%CC%87konu-ekleme)
+    - [Wmctrl ile Kısayol Oluşturma](#wmctrl-ile-k%C4%B1sayol-olu%C5%9Fturma)
 - [Window Manager Controls](#window-manager-controls)
 - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
+- [Herhangi bir Uygulama için Kısayol Oluşturma](#herhangi-bir-uygulama-i%C3%A7in-k%C4%B1sayol-olu%C5%9Fturma)
+  - [Uygulama için `WM_CLASS` metnini tanımlama](#uygulama-i%C3%A7in-wmclass-metnini-tan%C4%B1mlama)
+  - [Herhangi bir uygulamanın `WM_CLASS` metnini alma](#herhangi-bir-uygulaman%C4%B1n-wmclass-metnini-alma)
+  - [Kısayolu oluşturma](#k%C4%B1sayolu-olu%C5%9Fturma)
 - [Grub Menüyü Atlama](#grub-men%C3%BCy%C3%BC-atlama)
 - [Donanım Komutları](#donan%C4%B1m-komutlar%C4%B1)
 - [Silinen Yerel Dosyaları Kurtarma](#silinen-yerel-dosyalar%C4%B1-kurtarma)
@@ -102,7 +107,7 @@ chmod +x dosyadi.desktop
 Text editörü açıp;
 
 ```sh
-sudo gedit /usr/share/applications/whatsapp-webapp.desktop
+sudo -H gedit /usr/share/applications/whatsapp-webapp.desktop
 ```
 
 açılan yere alttaki verileri kopyalayın;
@@ -136,11 +141,20 @@ StartupWMClass=web.whatsapp.com
 - İçerisinde `Icon=` olan satırın başındaki `#` karkterini silin ve yolu kopyalayın
   - Örn: `Icon=/home/yemreak/Pictures/Ikons/Svg/whatsapp-webapp.svg`
 
+#### Wmctrl ile Kısayol Oluşturma
+
+Alttaki komut ile wapp açıksa gösterme, kapalıysa oluşturmayı sağlayabilirsin.
+
+```sh
+bash -c "wmctrl -xa web.whatsapp.com || /opt/google/chrome/google-chrome --app=https://web.whatsapp.com/"
+```
+
 ## Window Manager Controls
 
 Uygulamaların durumlarını kontrol eden `wmctrl` adlı komuttur.
 
 - `wmctrl -xa <uygulama_komutu>` uygulama açıksa ekrana getirir.
+- `wmctrl -v <uygulama>` Uygulama varsa 1 döndürür
 - `wmctrl -xc <uygulama_komutu>` uygulamayı kibarca kapatma
 - `wmctrl -lxG` açık olan uygulamalar hakkında bilgi basar.
 
@@ -151,6 +165,50 @@ Alttaki komutu yazdıktan sonra pencerenin üstüne tıklamanız yeterlidir.
 ```sh
 xprop | grep WM_CLASS
 ```
+
+## Herhangi bir Uygulama için Kısayol Oluşturma
+
+### Uygulama için `WM_CLASS` metnini tanımlama
+
+To do this, you need to make desktop app.
+
+- Terminale `sudo -H gedit /usr/share/applications/<appname>.desktop` komutunu yazın
+- Açılan dosyada gerekli bilgileri, [buradaki][Linux desktop entry oluşturma] bilgiden de yararlanarak doldurun
+- Örnek dosya içeriği aşağıdaki gibi olacaktır
+
+```ini
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=WhatsApp
+GenericName=WhatsApp
+Comment=WhatsApp desktop webapp
+Exec=/opt/google/chrome/google-chrome --app=https://web.whatsapp.com/
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+# Alttaki alana ikon yolunuzu kopyalayın
+# Icon=
+Categories=Network;Application;
+Keywords=WhatsApp;webapp;
+X-Ubuntu-Gettext-Domain=WhatsApp
+StartupWMClass=web.whatsapp.com
+```
+
+### Herhangi bir uygulamanın `WM_CLASS` metnini alma
+
+- Terminal üzerinde `xprop | grep WM_CLASS` komutu ile `WM_CLASS` metnini alabiliriz
+- Komutu yazıp <kbd>ENTER</kbd>'a bastıktan sonra kısayolunu oluşturmak istediğimiz uygulamaya tıklıyoruz
+- Yandaki gibi bir çıktı gelecektir `WM_CLASS(STRING) = "gnome-terminal-server", "Gnome-terminal`
+- `gnome-terminal-server` olan metni <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> ile kopyalıyoruz
+
+### Kısayolu oluşturma
+
+- <kbd>SUPER</kbd> tuşuna basıp arama yerine `shortcut` yazıyoruz
+- Açılan pencerenin en altındaki `+` butonuna tıklayarak kısayol ekliyoruz
+- **name** alanına herhangi bir isim giriyoruz
+- Ardından **command** alanına `bash -c "wmctrl -xa <wm_class> || <wm_class>` yazıyoruz
+- Son olarak klavye kısayolunu atıyoruz ve kaydediyoruz
 
 ## Grub Menüyü Atlama
 
@@ -341,8 +399,10 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 
 - [Windows yanına linux kurulduğunda windows saatinin bozulması]
 - [Linux desktop entry oluşturma]
+- [Uygulamalar için neden sudo -h kullanılmalı]
 
 [Kernel Güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
 [Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 [Linux desktop entry oluşturma]: https://askubuntu.com/a/282187
 [Whatsapp Svg]: res/whatsapp-webapp.svg
+[Uygulamalar için neden sudo -h kullanılmalı]: https://askubuntu.com/questions/270006/why-should-users-never-use-normal-sudo-to-start-graphical-applications

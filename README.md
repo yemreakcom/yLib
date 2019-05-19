@@ -139,6 +139,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Selenium](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
 - [Terimler](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
+- [Yapay Zeka Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)
 
 ## pdfs
 
@@ -150,6 +151,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Linux Notları](./pdfs/Linux%20Notlar%C4%B1.pdf)
 - [Machine Learning Model for Analyzing Learning](./pdfs/Machine%20Learning%20Model%20for%20Analyzing%20Learning.pdf)
 - [Python](./pdfs/Python.pdf)
+- [Türkçe Yapay Zeka Kaynakları](./pdfs/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.pdf)
 - [Visual Studio Code Shortcuts](./pdfs/Visual%20Studio%20Code%20Shortcuts.pdf)
 - [Windows PowerShell Tutorial for Beginners](./pdfs/Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
 

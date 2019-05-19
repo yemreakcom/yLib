@@ -217,47 +217,20 @@ Değişkenlerin kullanım şekilleri:
 // Place your key bindings in this file to override the defaultsauto[]
 [
     {
-        "key": "f10",
-        "command": "python.execInTerminal"
-    },
-    {
-        "key": "ctrl+[KeyI] ctrl+c",
-        "command": "extension.currentAREPLSession",
-        "when": "!inQuickOpen && !terminalFocus"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "editor.action.formatDocument",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
         "command": "git.sync"
     },
     {
-        "key": "ctrl+shift+a",
-        "command": "-extension.currentAREPLSession",
-        "when": "!inQuickOpen && !terminalFocus"
+        "key": "ctrl+[KeyI] ctrl+p",
+        "command": "git.pull"
     },
     {
-        "key": "ctrl+[KeyI] ctrl+n",
-        "command": "extension.newAREPLSession",
-        "when": "!inQuickOpen && !terminalFocus"
+        "key": "ctrl+shift+[KeyI] ctrl+shift+p",
+        "command": "git.pullFrom"
     },
     {
-        "key": "ctrl+shift+q",
-        "command": "-extension.newAREPLSession",
-        "when": "!inQuickOpen && !terminalFocus"
-    },
-    {
-        "key": "ctrl+[KeyI] ctrl+enter",
-        "command": "extension.executeAREPLBlock",
-        "when": "editorTextFocus && editorLangId == 'python'"
-    },
-    {
-        "key": "ctrl+enter",
-        "command": "-extension.executeAREPLBlock",
-        "when": "editorTextFocus && editorLangId == 'python'"
+        "key": "ctrl+[KeyI] ctrl+o",
+        "command": "git.checkout"
     }
 ]
 ```
@@ -291,7 +264,10 @@ Değişkenlerin kullanım şekilleri:
     // Markdown ayarları
     "markdownlint.config": {
         "MD033": false
-    }
+    },
+    // Markdown PDF ayarları
+    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><a href='https://www.yemreak.com'>~YEmreAk</a></div>",
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><span class='pageNumber'></span> / <span class='totalPages'></span></div>"
 }
 ```
 

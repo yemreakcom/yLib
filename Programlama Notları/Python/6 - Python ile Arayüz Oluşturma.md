@@ -8,6 +8,7 @@
   - [Argüman Action Özelliği](#arg%C3%BCman-action-%C3%B6zelli%C4%9Fi)
   - [Örnek CLI Kodu](#%C3%B6rnek-cli-kodu)
 - [Python Görsel Programlama (GUI)](#python-g%C3%B6rsel-programlama-gui)
+- [PyQT5](#pyqt5)
   - [PyQt5 Kurulumu](#pyqt5-kurulumu)
   - [Basit GUI Yapımı](#basit-gui-yap%C4%B1m%C4%B1)
   - [PyQt Widgets](#pyqt-widgets)
@@ -113,10 +114,21 @@ if __name__ == '__main__':
 
 ## Python Görsel Programlama (GUI)
 
+Python görsel programlama araçları:
+
+- PyQt5
+- Tkintrer (zaten yüklü olarak gelir)
+- WxPython
+- Kivy (opensource)
+- PyForms
+
+## PyQT5
+
 Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 
 - Bu yazıyı oluştururken yararlandığım kaynak için [buraya](https://build-system.fman.io/pyqt5-tutorial) bakabilirsin.
 - Türkçe eğitim serisi için [buraya](https://www.youtube.com/playlist?list=PLOl6SW8nLgJx9guRvfylVwrMXIginZhin) bakabilirsin.
+- Hızlıca göz atmak için [buraya](https://www.youtube.com/watch?v=GLqrzLIIW2E) bakabilirsin
 
 ### PyQt5 Kurulumu
 

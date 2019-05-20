@@ -7,15 +7,16 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [Kullanım Örnekleri](#kullan%C4%B1m-%C3%B6rnekleri)
-  - [Temel Formatlar](#temel-formatlar)
-  - [Bağlantı Verme](#ba%C4%9Flant%C4%B1-verme)
-    - [Satıriçi Bağlantı (Inline Link)](#sat%C4%B1ri%C3%A7i-ba%C4%9Flant%C4%B1-inline-link)
-    - [Dinamik Bağlantı (Dynamic Link)](#dinamik-ba%C4%9Flant%C4%B1-dynamic-link)
-    - [Resim Bağlantısı](#resim-ba%C4%9Flant%C4%B1s%C4%B1)
-  - [Tablo Oluşturma](#tablo-olu%C5%9Fturma)
-  - [Matematik Denklemleri](#matematik-denklemleri)
-  - [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
+- [Temel Formatlar](#temel-formatlar)
+- [Bağlantı Verme](#ba%C4%9Flant%C4%B1-verme)
+  - [Satıriçi Bağlantı (Inline Link)](#sat%C4%B1ri%C3%A7i-ba%C4%9Flant%C4%B1-inline-link)
+  - [Dinamik Bağlantı (Dynamic Link)](#dinamik-ba%C4%9Flant%C4%B1-dynamic-link)
+  - [Resim Bağlantısı](#resim-ba%C4%9Flant%C4%B1s%C4%B1)
+- [Tablo Oluşturma](#tablo-olu%C5%9Fturma)
+- [Matematik Denklemleri](#matematik-denklemleri)
+- [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
 - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
+  - [Markdown PDF](#markdown-pdf)
 - [Faydalı Siteler](#faydal%C4%B1-siteler)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
@@ -25,7 +26,7 @@ Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) 
 
 > HTML etiketlerini destekler.
 
-### Temel Formatlar
+## Temel Formatlar
 
 - `*[metin]*` Metni italik (eğik) yazma
 - `**[metin]**` Metni bold (kalın) yazma
@@ -34,8 +35,10 @@ Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) 
 - \` karakteri ile `<code>` etiketli metin yazabilirsin
   - Metni biçimlendirmeden uzak tutar
 - `-` ile maddesel yapı oluşturabilirsin.
+- `$ $` karakterleri arasına **latex** (matematiksel formül) yazabilirsin
+  - `$$` ile çok satırlı matematiksel formül yazabilirsin
 
-### Bağlantı Verme
+## Bağlantı Verme
 
 Link işlemleri için bilgiler. Kaynak için [buraya](https://css-tricks.com/snippets/html/mailto-links/) tıklayabilirsin.
 
@@ -53,13 +56,13 @@ Link işlemleri için bilgiler. Kaynak için [buraya](https://css-tricks.com/sni
 - [Test](../Markdown#ba%C4%9Flant%C4%B1-verme) `[Test](../Markdown#ba%C4%9Flant%C4%B1-verme)`
 - `%20` Boşluk karakteri
 
-#### Satıriçi Bağlantı (Inline Link)
+### Satıriçi Bağlantı (Inline Link)
 
 `[metin](url)` yapısı ile metne *inline link* verebilirsin. [Test](https://yemreak.com)
 
 > *Dynamic link*'te `[]` kullanıldığına dikkat ediniz.
 
-#### Dinamik Bağlantı (Dynamic Link)
+### Dinamik Bağlantı (Dynamic Link)
 
 Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
 
@@ -72,11 +75,11 @@ Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
 
 > *Inline link*'te `()` kullanıldığına dikkat ediniz.
 
-#### Resim Bağlantısı
+### Resim Bağlantısı
 
 `![resim_açıklaması][resim_urli]` yapısı ile yazına resim yerleştirebilirsin.
 
-### Tablo Oluşturma
+## Tablo Oluşturma
 
 ```markdown
 | Tables   |      Are      |  Cool |
@@ -92,13 +95,13 @@ Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
 | col 2 is |   centered    |   $12 |
 | col 3 is | right-aligned |    $1 |
 
-### Matematik Denklemleri
+## Matematik Denklemleri
 
 Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) bakabilirsin.
 
 > Online editör için [buraya](https://www.codecogs.com/latex/eqneditor.php) bakabilirsin.
 
-### Sık Kullanılan Rozetler
+## Sık Kullanılan Rozetler
 
 Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
@@ -119,6 +122,19 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 | [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)                | Markdown'u PDF'e çevirme                                                  |
 | [ToDo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                | Yapılacakları derleme ve arayüzde sunma                                   |
 | [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)          | Panodan resim kopyalama                                                   |
+
+### Markdown PDF
+
+- PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
+- Dökümanda *latex* varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
+  - Aksi halde *latex* yapısı derlenmez.
+
+```html
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+```
 
 ## Faydalı Siteler
 

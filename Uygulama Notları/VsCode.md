@@ -255,6 +255,9 @@ Değişkenlerin kullanım şekilleri:
     "editor.fontWeight": "500",
     "editor.fontSize": 13.8,
     "editor.fontLigatures": true,
+    // Satır uzunluğu ayarı
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 200,
     // Dosya işlemleri ayarları
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,

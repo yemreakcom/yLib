@@ -99,6 +99,8 @@ Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
 
 Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) bakabilirsin.
 
+- Latex listesi için [buraya](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) bakabilirsin
+
 > Online editör için [buraya](https://www.codecogs.com/latex/eqneditor.php) bakabilirsin.
 
 ## Sık Kullanılan Rozetler

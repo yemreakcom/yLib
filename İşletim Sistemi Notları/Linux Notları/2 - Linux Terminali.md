@@ -14,6 +14,7 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
   - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
 - [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
 - [Shell (Bash) Scripting](#shell-bash-scripting)
+  - [100MB ve Üzeri Dosyaları Bulma](#100mb-ve-%C3%BCzeri-dosyalar%C4%B1-bulma)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Terminal Numaları
@@ -143,6 +144,13 @@ sudo ln -s /dosya/yolu/ dosyaAdi
 ## Shell (Bash) Scripting
 
 Shell script hakkında detaylı bilgi için [buraya][Shell Script] bakabilrisin.
+
+### 100MB ve Üzeri Dosyaları Bulma
+
+```sh
+find /User/mkyong -type f -size +100000k -exec ls -lh {} \; | awk '{ print $9 ": " $5 }'
+Copy
+```
 
 ## Harici Bağlantılar
 

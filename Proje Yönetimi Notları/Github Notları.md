@@ -1,4 +1,4 @@
-# Github Notları
+# Github Notları <!-- omit in toc -->
 
 Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨‍💻 paylaşım ve yönetim platformudur.
 
@@ -8,6 +8,14 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 - Alternatifleri: Gitlab, Bitbucket, Sourceforge ...
 
 > Bu konuyla **birebir alakalı** olan [git notlarıma][Git Notlarım] bakmanda fayda var.
+
+## İçerikler <!-- omit in toc -->
+
+- [Github Pro](#github-pro)
+- [Github Eklentileri](#github-eklentileri)
+- [Github Yardımcıları](#github-yard%C4%B1mc%C4%B1lar%C4%B1)
+- [Github Credential Değiştirme](#github-credential-de%C4%9Fi%C5%9Ftirme)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Github Pro
 
@@ -39,6 +47,10 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 | -------------------------- | -------------------------------------------------------------- |
 | [GitGuardian][GitGuardian] | Kimlik bilgilerinin paylaşılması durumunu kontrol eder, uyarır |
 
+## Github Credential Değiştirme
+
+Kaynak için [buraya][Credential Settings - Video] bakabilirsin
+
 ## Harici Bağlantılar
 
 - [Github page'e domain bağlama]
@@ -66,3 +78,5 @@ Eklentilerin sayfasına [buradan][Marketplace] erişebilirsin.
 
 [GitGuardian]: https://www.gitguardian.com/
 [Github page'e domain bağlama]: https://medium.com/@tivikter/github-pagesi-%C3%B6zel-domain-ile-kullanmak-ce57d229dae9
+
+[Credential Settings - Video]: https://www.youtube.com/watch?v=otBNYXz5Ie0

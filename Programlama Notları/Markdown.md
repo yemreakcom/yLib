@@ -138,6 +138,9 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 </script>
 ```
 
+- [ ] CSS yapısı araştırılacak ve en sevdiğim bulunacak
+- [ ] İleride kullanışlı bir araç olacağından bunun detaylarını öğrenmem faydalı olur
+
 ## Faydalı Siteler
 
 | Site                                       | Açıklama                   |

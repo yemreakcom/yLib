@@ -23,6 +23,8 @@
   - [Intellicode Ayaları](#intellicode-ayalar%C4%B1)
   - [Editör Değişkenleri](#edit%C3%B6r-de%C4%9Fi%C5%9Fkenleri)
   - [Editör Klavye Kısayollarım](#edit%C3%B6r-klavye-k%C4%B1sayollar%C4%B1m)
+    - [Windows10 Klavye Kısayolları](#windows10-klavye-k%C4%B1sayollar%C4%B1)
+    - [Linux Klavye Kısayolları](#linux-klavye-k%C4%B1sayollar%C4%B1)
   - [Editör JSON Ayarlarım](#edit%C3%B6r-json-ayarlar%C4%B1m)
   - [Editör Eklentilerim](#edit%C3%B6r-eklentilerim)
   - [Java Ayarları](#java-ayarlar%C4%B1)
@@ -213,8 +215,37 @@ Değişkenlerin kullanım şekilleri:
 
 ### Editör Klavye Kısayollarım
 
+#### Windows10 Klavye Kısayolları
+
 ```json
-// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+[KeyI] ctrl+[KeyI]",
+        "command": "git.sync"
+    },
+    {
+        "key": "ctrl+[KeyI] ctrl+p",
+        "command": "git.pull"
+    },
+    {
+        "key": "ctrl+shift+[KeyI] ctrl+shift+p",
+        "command": "git.pullFrom"
+    },
+    {
+        "key": "ctrl+[KeyI] ctrl+o",
+        "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+oem_7",
+        "command": "markdown.extension.editing.toggleItalic",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    }
+]
+```
+
+#### Linux Klavye Kısayolları
+
+```json
 [
     {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
@@ -252,7 +283,7 @@ Değişkenlerin kullanım şekilleri:
     "editor.formatOnSave": true,
     // Font Ayarları https://github.com/i-tu/Hasklig
     "editor.fontFamily": "Hasklig",
-    "editor.fontSize": 12.7,
+    "editor.fontSize": 12.7, // Linux için 13.7
     "editor.fontLigatures": true,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
@@ -265,7 +296,8 @@ Değişkenlerin kullanım şekilleri:
     "git.autofetch": false,
     // Markdown ayarları
     "markdownlint.config": {
-        "MD033": false
+        "MD033": false, // <kbd>
+        "MD010": false // No-hard tabs
     },
     // Markdown PDF ayarları
     "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><a href='https://www.yemreak.com'>~YEmreAk</a></div>",

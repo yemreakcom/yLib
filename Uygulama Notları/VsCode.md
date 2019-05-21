@@ -252,8 +252,7 @@ Değişkenlerin kullanım şekilleri:
     "editor.formatOnSave": true,
     // Font Ayarları https://github.com/i-tu/Hasklig
     "editor.fontFamily": "Hasklig",
-    "editor.fontWeight": "500",
-    "editor.fontSize": 13.8,
+    "editor.fontSize": 12.7,
     "editor.fontLigatures": true,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",

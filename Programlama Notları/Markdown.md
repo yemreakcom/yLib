@@ -17,6 +17,7 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 - [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
 - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
   - [Markdown PDF](#markdown-pdf)
+    - [PDF için Marddown Imzam](#pdf-i%C3%A7in-marddown-imzam)
 - [Faydalı Siteler](#faydal%C4%B1-siteler)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
@@ -128,6 +129,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 ### Markdown PDF
 
 - PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
+  - Yaklaşık **40** satırda bir yeni sayfaya geçmek mantıklı
 - Dökümanda *latex* varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
   - Aksi halde *latex* yapısı derlenmez.
 
@@ -140,6 +142,17 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 - [ ] CSS yapısı araştırılacak ve en sevdiğim bulunacak
 - [ ] İleride kullanışlı bir araç olacağından bunun detaylarını öğrenmem faydalı olur
+
+#### PDF için Marddown Imzam
+
+```md
+$Yunus$ $Emre$ $AK$ © tarafından yazılmıştır.
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+</script>
+```
 
 ## Faydalı Siteler
 

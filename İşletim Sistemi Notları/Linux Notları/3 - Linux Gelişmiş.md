@@ -400,9 +400,14 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 - [Windows yanına linux kurulduğunda windows saatinin bozulması]
 - [Linux desktop entry oluşturma]
 - [Uygulamalar için neden sudo -h kullanılmalı]
+- [Ubuntu soluk renk]
+- [Ubuntu 19.04 yenilikleri]
 
 [Kernel Güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
 [Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
 [Linux desktop entry oluşturma]: https://askubuntu.com/a/282187
 [Whatsapp Svg]: res/whatsapp-webapp.svg
 [Uygulamalar için neden sudo -h kullanılmalı]: https://askubuntu.com/questions/270006/why-should-users-never-use-normal-sudo-to-start-graphical-applications
+
+[Ubuntu soluk renk]: https://askubuntu.com/questions/621964/colors-on-display-are-washed-out#
+[Ubuntu 19.04 yenilikleri]: https://itsfoss.com/ubuntu-19-04-release-features/

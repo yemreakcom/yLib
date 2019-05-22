@@ -158,12 +158,17 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## İşletim Sistemi Notları
 
 - [Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1.md)
+- [İşletim Sistemi Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1.md)
 
 ### Linux Notları
 
 - [1 - Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
 - [2 - Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
 - [3 - Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
+
+### Windows 10
+
+- [3 -Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-Windows10%20Geli%C5%9Fmi%C5%9F.md)
 
 <!--Index-->
 

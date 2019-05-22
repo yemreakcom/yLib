@@ -201,7 +201,7 @@ def load_cfg():
             if value not in PRIVATES:
                 PRIVATES.add(value)
 
-        with open(INI_FILE, "r") as file:
+        with open(INI_FILE, "r", encoding='utf8') as file:
             for line in file:
                 # Gereksiz karakterleri kaldırma
                 line = trim_line(line)
@@ -271,7 +271,7 @@ def load_cfg():
             filestr += "\n"
             return filestr
 
-        with open(INI_FILE, "w") as file:
+        with open(INI_FILE, "w", encoding='utf8') as file:
             file.write(configstr())
             file.write(privatestr())
 
@@ -386,7 +386,7 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
         """
 
         header = ""
-        for i in range(0, headerlvl):
+        for _ in range(0, headerlvl):
             header += "#"
 
         foldername = os.path.basename(folderpath)
@@ -433,18 +433,18 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
             filepath, _ = os.path.splitext(filepath)
             return filepath
 
-        def get_ext(filepath: str) -> str:
-            """Dosya uzantısını alma
+        # def get_ext(filepath: str) -> str:
+        #     """Dosya uzantısını alma
 
-            Args:
-                filepath (str): Dosya yolu
+        #     Args:
+        #         filepath (str): Dosya yolu
 
-            Returns:
-                str: Uzantı `.ext`
-            """
+        #     Returns:
+        #         str: Uzantı `.ext`
+        #     """
 
-            _, ext = os.path.splitext(filepath)
-            return ext
+        #     _, ext = os.path.splitext(filepath)
+        #     return ext
 
         def encoded_realtivepath(pathname: str) -> str:
             """Verilen yola uygun kodlanmış markdown linki oluşturma
@@ -459,7 +459,8 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
             def modifypath(pathname: str) -> str:
                 """Yol verisini düzenleme
 
-                Uzantıyı koşula bağlı kaldırma veya kaldırmama
+                - Uzantıyı koşula bağlı kaldırma veya kaldırmama
+                - Windows için yol düzeltme ( '\\' -> '/' )
 
                 Args:
                     pathname (str): Yol
@@ -468,8 +469,12 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
                     str: Düzenlenen yol
                 """
 
-                if remove_md and ("md" in pathname):
+                if remove_md and (".md" in pathname):
                     pathname = remove_extension(pathname)
+
+                # Windows yollarındaki "\" karakterinin sorununu giderir
+                pathname = pathname.replace("\\", "/")
+
                 return pathname
 
             def relativepath(pathname: str) -> str:
@@ -495,9 +500,10 @@ def indexstr(pathname: str = os.getcwd(), headerlvl: int = 2, privates: set = se
                 """
                 return quote(pathname)
 
-            pathname = modifypath(pathname)
             pathname = relativepath(pathname)
+            pathname = modifypath(pathname)
             pathname = encodedpath(pathname)
+
             return pathname
 
         def create_link(filepath: str) -> str:
@@ -553,7 +559,7 @@ def insertfile(filename: str, string: str, indicator: str):
             filestr += "\n"
             return filestr
 
-        with open(filename, "r") as file:
+        with open(filename, "r", encoding='utf8') as file:
             for line in file:
                 if save:
                     filestr += line
@@ -570,7 +576,7 @@ def insertfile(filename: str, string: str, indicator: str):
     filestr = create_filestr()
     # Hatalı işlemleri dosyanın silinmesini engeller
     if len(filestr) > 0:
-        with open(filename, "w") as file:
+        with open(filename, "w", encoding='utf8') as file:
             file.write(filestr)
     else:
         print("Dosya okumada hata meydana geldi :(")
@@ -684,7 +690,7 @@ def replace_static_links_from_file(filepath) -> str:
         return filestr
 
     filestr = ""
-    with open(filepath, "r") as file:
+    with open(filepath, "r", encoding='utf8') as file:
 
         for line in file:
             # Her ayıracın konum indeksini tanımlama
@@ -739,7 +745,7 @@ def replace_static_links_from_file(filepath) -> str:
     filestr = append_header(filestr)
     filestr = append_links(filestr)
 
-    with open(filepath, "w") as file:
+    with open(filepath, "w", encoding='utf8') as file:
         file.write(filestr)
 
 

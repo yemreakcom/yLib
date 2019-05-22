@@ -1,12 +1,8 @@
 # 1 - Linux Giriş <!-- omit in toc -->
 
-Açık kaynak olan **Unix** tabanlı işletim sistemidir.
-
-- Linux işletim sistemlerinde **python** gömülü olarak gelir, temel dili **bash** veya **shell** olarak geçmektedir. 
-- Farklı linux dağıtımlarına **distro** denir, bunlardan bazıları:
-
 ## İçerikler <!-- omit in toc -->
 
+- [Linux Nedir](#linux-nedir)
 - [Birkaç Öneri Distro](#birka%C3%A7-%C3%B6neri-distro)
 - [Linux Genel Kullanım Notları](#linux-genel-kullan%C4%B1m-notlar%C4%B1)
   - [Linux Temel Dosyaları](#linux-temel-dosyalar%C4%B1)
@@ -24,20 +20,30 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
     - [Paket Yöneticisi Üzerinden Stacer Kurulumu](#paket-y%C3%B6neticisi-%C3%BCzerinden-stacer-kurulumu)
   - [Tarayıcı Kurulumu (Chrome)](#taray%C4%B1c%C4%B1-kurulumu-chrome)
     - [Chrome Gnome Eklentisi](#chrome-gnome-eklentisi)
-    - [Gnome Eklentileri](#gnome-eklentileri)
-      - [Ubuntu Üstteki Çubuğu Gizleme](#ubuntu-%C3%BCstteki-%C3%A7ubu%C4%9Fu-gizleme)
-      - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
-      - [Dast to Panel](#dast-to-panel)
-      - [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
-      - [Clipboard Indicator](#clipboard-indicator)
-      - [EasyScreenCast](#easyscreencast)
+- [Gnome Eklentileri](#gnome-eklentileri)
+  - [Ubuntu Üstteki Çubuğu Gizleme](#ubuntu-%C3%BCstteki-%C3%A7ubu%C4%9Fu-gizleme)
+  - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#dash-to-dock-ile-macos-durum-%C3%A7ubu%C4%9Fu-g%C3%B6r%C3%BCn%C3%BCm%C3%BC)
+  - [Dast to Panel](#dast-to-panel)
+  - [Emoji Selector (Emoji Klavyesi)](#emoji-selector-emoji-klavyesi)
+  - [Clipboard Indicator](#clipboard-indicator)
+  - [EasyScreenCast](#easyscreencast)
+  - [GS Connect](#gs-connect)
+
+## Linux Nedir
+
+Açık kaynak olan **Unix** tabanlı işletim sistemidir.
+
+- Linux işletim sistemlerinde **python** gömülü olarak gelir, temel dili **bash** veya **shell** olarak geçmektedir.
+- Farklı linux dağıtımlarına **distro** denir.
 
 ## Birkaç Öneri Distro
 
-| Distro                            | İyi Yanı                                 | Kötü Yanı                           |
-| --------------------------------- | ---------------------------------------- | ----------------------------------- |
-| [ubuntu](https://www.ubuntu.com/) | Çok fazla kaynak ve bilgi desteği vardır | Arayüz tasarımı hususunda geridedir |
-| [deepin](https://www.deepin.org/) | Çok şık bir arayüz tasarımına sahiptir   | Donanım ve bilgi desteği zayıftır   |
+| Distro                                     | İyi Yanı                                 | Kötü Yanı                           |
+| ------------------------------------------ | ---------------------------------------- | ----------------------------------- |
+| [ubuntu](https://www.ubuntu.com/)          | Çok fazla kaynak ve bilgi desteği vardır | Arayüz tasarımı hususunda geridedir |
+| [deepin](https://www.deepin.org/)          | Çok şık bir arayüz tasarımına sahiptir   | Donanım ve bilgi desteği zayıftır   |
+| [elementary OS](http://www.elementary.io/) | Mac OS Temalı                            |
+| Manjaro                                    | Hız ve verimlilik                        | Linux bilgisi gerektirir            |
 
 ## Linux Genel Kullanım Notları
 
@@ -193,7 +199,7 @@ sudo apt install -y chrome-gnome-shell
 google-chrome https://extensions.gnome.org/extension/1160/dash-to-panel/ https://extensions.gnome.org/extension/750/openweather/ https://extensions.gnome.org/extension/1162/emoji-selector/
 ```
 
-#### Gnome Eklentileri
+## Gnome Eklentileri
 
 Gnome eklentileri ile ubuntu distronuzu özelleştirebilirsiniz.
 
@@ -202,11 +208,11 @@ Gnome eklentileri ile ubuntu distronuzu özelleştirebilirsiniz.
 
 > En iyi 19 gnome eklentisi için [buraya][Best Gnome Extension] bakabilirsin.
 
-##### Ubuntu Üstteki Çubuğu Gizleme
+### Ubuntu Üstteki Çubuğu Gizleme
 
 Gnome eklentisini kurduktan sonra [buradan](https://extensions.gnome.org/extension/545/hide-top-bar/) eklentiyi `ON/OFF` ile açıp kapatabilirsiniz.
 
-##### Dash to Dock ile MacOS Durum Çubuğu Görünümü
+### Dash to Dock ile MacOS Durum Çubuğu Görünümü
 
 Tam ekranı kaplayan uzun görüntü yerine, içerdiği uygulama kadar yer kaplayan bir görüntü sağlar, [buradan](https://extensions.gnome.org/extension/307/dash-to-dock/) indirebilirsiniz.
 
@@ -214,22 +220,22 @@ Tam ekranı kaplayan uzun görüntü yerine, içerdiği uygulama kadar yer kapla
 - `Dash to Dock` yazıp aratın ev indirin
 - `Extension Settings` kısmından özelleştirebilirsiniz
 
-##### Dast to Panel
+### Dast to Panel
 
 Windows 10 görev çubuğu izlenimi verir, [buraya](https://extensions.gnome.org/extension/1160/dash-to-panel/) tıklayarak erişebilirsiniz
 
-##### Emoji Selector (Emoji Klavyesi)
+### Emoji Selector (Emoji Klavyesi)
 
 Emoji klavyesi ile emojiyi panoya kopyalar, [buradan](https://extensions.gnome.org/extension/1162/emoji-selector/) indirebilirsiniz.
 
 - <kbd>CTRL</kbd> + <kbd>V</kbd> ile yapıştırarak kullanabilirsiniz
 - <kbd>SUPER</kbd> + <kbd>E</kbd> Emoji klavyesini açar
 
-##### Clipboard Indicator
+### Clipboard Indicator
 
 Pano'yu yönetme imkanı sağlar, [buradan](https://extensions.gnome.org/extension/779/clipboard-indicator/) indirebilirsin.
 
-##### EasyScreenCast
+### EasyScreenCast
 
 Ekranı paylaşma eklentisidir. Kurulum öncesi alttaki komutla gereksinimleri kurman gerekmektedir. Eklentiyi kurmak için [buraya](https://extensions.gnome.org/extension/690/easyscreencast/) tıklayabilirsin.
 
@@ -237,7 +243,15 @@ Ekranı paylaşma eklentisidir. Kurulum öncesi alttaki komutla gereksinimleri k
 sudo apt-get install gir1.2-clutter-1.0 gir1.2-clutter-gst-3.0 gir1.2-gtkclutter-1.0
 ```
 
+### GS Connect
+
+Mobil cihaz ile bilgisayarı entegre etmeyi sağlar, [buradan][GS Connect - Extension] erişebilirsin.
+
 [flameshot]: https://github.com/lupoDharkael/flameshot
 [simplescreenrecorder]: https://www.maartenbaert.be/simplescreenrecorder/
 
+[GS Connect - Extension]: https://extensions.gnome.org/extension/1319/gsconnect/
+
 [Best Gnome Extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/
+[Best Gnome Applications]: https://www.maketecheasier.com/best-gnome-applications/
+[Best Desktop Environment]: https://www.ubuntupit.com/best-linux-desktop-environment-reviewed-and-compared/

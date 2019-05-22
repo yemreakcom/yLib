@@ -2,6 +2,8 @@
 
 Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojidir. Senkronize çalışmayı ve versiyon yönetimi sağlar.
 
+<!-- TODO: Yapıyı temizle -->
+
 ## İçerik <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
@@ -41,13 +43,14 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 
 ## Git İşleme Yapısı
 
-> Terimlerin üzerine tıklayarak, açıklamalarının yapıldığı yazıya yönelebilirsin.
-
 - İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](#git-deposunu-g%C3%BCncelleme) edilir.
 - Her yenilik için **değişikliği açıklayan yorumla birlikte**  ayrı ayrı [commit](#Teslim%20etme%20haz%C4%B1rl%C4%B1%C4%9F%C4%B1%20ve%20yorum%20ekleme) yapılır.
 - Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch](#Branch%20İşlemleri) oluşturulur.
   - Yeni branch kontrol edildikten sonra orjinal (master) branch'ine dahil edilir. ( *Alakalı: [merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html)* )
   - Bu sistemle hataların orjinal projeyi bozması engellenmeye çalışılır.
+- Eğer 2 farklı alanda çalışılacakca yeni branch üzerinden dosyalar oluşturulmalı
+  - Bu sayede master pull edildiğinde dosya kaybı söz konusu olmayacaktır
+  - Bu yeni branch'lar master'a pull edilmez (edilirse branch'a özgü dosyalar da aktarılır)
 
 ## Git'in Kullanıldığı Siteler
 

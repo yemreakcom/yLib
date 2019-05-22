@@ -101,6 +101,7 @@ Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
 Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) bakabilirsin.
 
 - Latex listesi için [buraya](https://oeis.org/wiki/List_of_LaTeX_mathematical_symbols) bakabilirsin
+- Latex sembolleri için [buraya](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols) bakabilirsin
 
 > Online editör için [buraya](https://www.codecogs.com/latex/eqneditor.php) bakabilirsin.
 
@@ -130,6 +131,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 - PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
   - Yaklaşık **40** satırda bir yeni sayfaya geçmek mantıklı
+  - Bu sayda metnini otomatik ekleyen script yazılabilir
 - Dökümanda *latex* varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
   - Aksi halde *latex* yapısı derlenmez.
 

@@ -48,6 +48,7 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 | ------- | ----------------------- |
 | `#`     | Çalışma dizininde arama |
 | `>`     | Komutlarda arama        |
+| `:`     | Satıra yönelme          |
 | `?`     | Yardım                  |
 
 ### İmleç Kısayolalrı
@@ -285,6 +286,7 @@ Değişkenlerin kullanım şekilleri:
     "editor.fontFamily": "Hasklig",
     "editor.fontSize": 12.7, // Linux için 13.7
     "editor.fontLigatures": true,
+    "terminal.integrated.fontSize": 13, // Linux için gerekli olmayabilir
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 200,
@@ -301,7 +303,8 @@ Değişkenlerin kullanım şekilleri:
     },
     // Markdown PDF ayarları
     "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><a href='https://www.yemreak.com'>~YEmreAk</a></div>",
-    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><span class='pageNumber'></span> / <span class='totalPages'></span></div>"
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
 }
 ```
 

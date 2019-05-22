@@ -35,6 +35,7 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
   - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#git-%C3%BCzerinde-kullan%C4%B1c%C4%B1-bilgilerini-saklama)
   - [Remote Kaldırma & Gösterme](#remote-kald%C4%B1rma--g%C3%B6sterme)
   - [Son hatalı yüklemeyi kaldırma](#son-hatal%C4%B1-y%C3%BCklemeyi-kald%C4%B1rma)
+  - [Pull From işlemini Geri Alma](#pull-from-i%C5%9Flemini-geri-alma)
 - [Uygulamalar Üzerinde Git](#uygulamalar-%C3%BCzerinde-git)
   - [JetBrains IDEs](#jetbrains-ides)
 - [Git Cheat Sheet](#git-cheat-sheet)
@@ -284,6 +285,19 @@ git reset HEAD~
 ```
 
 > Son yüklemeyi kaldırır. Bu işlemden sonra tekrar commit etmeniz gerekmekte. Detay için [link](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git)
+
+### Pull From işlemini Geri Alma
+
+Bunun için başka bir branch'a geçip, geri almak istediğimiz branch'ı siliyoruz.
+
+```sh
+git checkout <branch2>
+git branch -D <branch1>
+git checkout <branch1>
+```
+
+- `<branch1>` Düzeltilmek istenen branch
+- `<branch2>` Farkı herhangi bir branch
 
 ## Uygulamalar Üzerinde Git
 

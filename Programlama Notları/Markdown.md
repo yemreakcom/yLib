@@ -17,7 +17,9 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 - [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
 - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
   - [Markdown PDF](#markdown-pdf)
-    - [PDF için Marddown Imzam](#pdf-i%C3%A7in-marddown-imzam)
+    - [PDF için Markdown Imzam](#pdf-i%C3%A7in-markdown-imzam)
+    - [PDF için Özelleştirmem](#pdf-i%C3%A7in-%C3%B6zelle%C5%9Ftirmem)
+    - [PDF için VsCode Ayarları](#pdf-i%C3%A7in-vscode-ayarlar%C4%B1)
 - [Faydalı Siteler](#faydal%C4%B1-siteler)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
@@ -145,15 +147,54 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 - [ ] CSS yapısı araştırılacak ve en sevdiğim bulunacak
 - [ ] İleride kullanışlı bir araç olacağından bunun detaylarını öğrenmem faydalı olur
 
-#### PDF için Marddown Imzam
+#### PDF için Markdown Imzam
 
 ```md
-$Yunus$ $Emre$ $AK$ © tarafından yazılmıştır.
+Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.
+
+~ $Yunus$ $Emre$ $AK$ **©**
+
+> $Sefa$ $Yalçındağ$ ile çalışılmıştır.
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
 </script>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+---
+
+![PDF Yapısı Hakkında Bilgilendirme](../res/pdf_structure.png)
+
+---
+
+<div class="page"/>
+```
+
+#### PDF için Özelleştirmem
+
+- Css dosyamı [buradan](../res/markdown-pdf.css) indirebilirsin
+- VsCode üzerinden ayarlara `"markdown-pdf.styles"` komutu ile `css` dosyasının yolunu belirtin
+- Link: `http://tiny.cc/yek86y`
+
+![PDF Css](../res/pdf_structure.png)
+
+#### PDF için VsCode Ayarları
+
+```json
+{
+    // Markdown PDF ayarları
+    "markdown-pdf.styles": [
+        "http://tiny.cc/yek86y"
+    ],
+    "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>Yunus Emre Ak ©</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
+    "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>",
+}
 ```
 
 ## Faydalı Siteler

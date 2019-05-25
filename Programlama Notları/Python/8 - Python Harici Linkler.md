@@ -1,5 +1,11 @@
 # Python Harici Linkler
 
+## Veri Bilimi
+
+- [PDF için python][Python for PDF]
+
+## Karma
+
 - [String işlemleri](https://sites.google.com/site/egitimbilgileri/home/a---python---twisted---qt/03---string-islemleri)
 - [Learn Python Programming](https://www.programiz.com/python-programming)
 - [Python Türkçe Başlangıç](https://github.com/fuatbeser/python-notlarim/blob/master/python_turkce_baslangic.ipynb)
@@ -23,9 +29,6 @@
 - [7 Top Python GUI Frameworks][7 Top Python GUI Frameworks]
 - [Python __init__.py Dosyası][Python __init__.py Dosyası]
 
-[Quick Draw]: https://github.com/vietnguyen91/QuickDraw
-[7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
-[Python __init__.py Dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
 
 ## Lisans ve Teferruatlar
 
@@ -38,3 +41,9 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 > Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github) geçebilrsiniz 🤗
 
 ~ Yunus Emre Ak
+
+[Quick Draw]: https://github.com/vietnguyen91/QuickDraw
+[7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
+[Python __init__.py Dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
+
+[Python for PDF]: https://towardsdatascience.com/python-for-pdf-ef0fac2808b0

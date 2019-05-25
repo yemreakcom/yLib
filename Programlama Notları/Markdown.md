@@ -154,8 +154,6 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ~ $Yunus$ $Emre$ $AK$ **©**
 
-> $Sefa$ $Yalçındağ$ ile çalışılmıştır.
-
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
@@ -169,7 +167,7 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ---
 
-![PDF Yapısı Hakkında Bilgilendirme](../res/pdf_structure.png)
+![PDF Yapısı Hakkında Bilgilendirme](https://bit.ly/2QmZtIc)
 
 ---
 

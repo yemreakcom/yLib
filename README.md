@@ -22,11 +22,10 @@ Karma konular hakkında aldığım notlar.
 - [Uygulama Notları](#uygulama-notlar%C4%B1)
 - [Yapay Zeka Notları](#yapay-zeka-notlar%C4%B1)
 - [Yazılım Notları](#yaz%C4%B1l%C4%B1m-notlar%C4%B1)
-- [images](#images)
 - [pdfs](#pdfs)
-- [res](#res)
 - [İşletim Sistemi Notları](#i%CC%87%C5%9Fletim-sistemi-notlar%C4%B1)
-  - [Windows10 Kaynakları](#windows10-kaynaklar%C4%B1)
+  - [Linux Notları](#linux-notlar%C4%B1)
+  - [Windows 10](#windows-10)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 - [Yapılacaklar](#yap%C4%B1lacaklar)
   - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
@@ -61,6 +60,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [CV Notları](./Karma%20Bilgiler/CV%20Notlar%C4%B1.md)
 - [Drive Notları](./Karma%20Bilgiler/Drive%20Notlar%C4%B1.md)
 - [Renk Kodları](./Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
@@ -168,7 +168,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ### Windows 10
 
-- [3 -Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-Windows10%20Geli%C5%9Fmi%C5%9F.md)
+- [3 - Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows10%20Geli%C5%9Fmi%C5%9F.md)
 
 <!--Index-->
 

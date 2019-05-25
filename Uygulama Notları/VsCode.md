@@ -285,7 +285,6 @@ Değişkenlerin kullanım şekilleri:
     // Font Ayarları https://github.com/i-tu/Hasklig
     "editor.fontFamily": "Hasklig",
     "editor.fontSize": 12.7, // Linux için 13.7
-    "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 13, // Linux için gerekli olmayabilir
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
@@ -302,9 +301,11 @@ Değişkenlerin kullanım şekilleri:
         "MD010": false // No-hard tabs
     },
     // Markdown PDF ayarları
-    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><a href='https://www.yemreak.com'>~YEmreAk</a></div>",
+    "markdown-pdf.styles": [
+        "http://tiny.cc/yek86y"
+    ],
+    "markdown-pdf.headerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><span class='date'></span> ~ <a style='text-decoration: none; color: #4080D0; font: Segoe UI' href='https://www.yemreak.com'>YEmreAk</a> </div>",
     "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"><span class='pageNumber'></span> / <span class='totalPages'></span></div>",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
 }
 ```
 

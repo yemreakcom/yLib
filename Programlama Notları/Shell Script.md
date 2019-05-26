@@ -106,6 +106,10 @@ echo $file
 
 > Let komutu hakkında daha fazla bilgi için [buraya][Let Komutu] bakabilirsin.
 
+## String İşlemleri
+
+- `${#var}` $Var değişkeninin uzunluğunu döndürür
+
 ## İf-Else Yapısı
 
 Temel açıklamaya [buradan][If Else Yapısı] erişebilirsin.

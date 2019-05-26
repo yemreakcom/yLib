@@ -284,8 +284,8 @@ Değişkenlerin kullanım şekilleri:
     // Editör ayarları
     "editor.formatOnSave": true,
     // Font Ayarları https://github.com/i-tu/Hasklig
-    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu
-    "editor.fontSize": 12.7,
+    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu
+    "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
@@ -415,3 +415,4 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [Visual Studio IntelliCode - Preview]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
 [AREPL For Python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl
 [WakaTime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
+[Best Vscode Extension Javascript and Shell]: https://www.elsewebdevelopment.com/vs-code-the-best-extensions-for-general-use-javascript-and-shell/

@@ -150,7 +150,9 @@ Alttaki komut ile wapp açıksa gösterme, kapalıysa oluşturmayı sağlayabili
 bash -c "wmctrl -xa web.whatsapp.com || /opt/google/chrome/google-chrome --app=https://web.whatsapp.com/"
 ```
 
-## Window Manager Controls
+## Pencere İşlemleri
+
+### Window Manager Controls
 
 Uygulamaların durumlarını kontrol eden `wmctrl` adlı komuttur.
 
@@ -158,6 +160,26 @@ Uygulamaların durumlarını kontrol eden `wmctrl` adlı komuttur.
 - `wmctrl -v <uygulama>` Uygulama varsa 1 döndürür
 - `wmctrl -xc <uygulama_komutu>` uygulamayı kibarca kapatma
 - `wmctrl -lxG` açık olan uygulamalar hakkında bilgi basar.
+- `wmctrl -xr $WM_CLASS -b toggle,shaded` uygulamayı gizleme (shaded özelliğini toggle'lar)
+- `wmctrl -xr $WM_CLASS -b add,maximize_vert,maximize_hor` uygulmaya tam ekran özelliği verir
+
+### Window ID Alma
+
+- `xwininfo | grep "Window id:"` Pencere yöneticisi üzerinden Fare seçimiyle Windows ID olarak alma
+- `xprop | grep "window id #"` Process yöneticisi üzerinden Fare seçimiyle Windows ID olarak alma
+- `xprop -id $WID | grep _NET_WM_STATE` Pencere durumunu gösterme
+
+### Xdotool ile Pencere Yönetimi
+
+- `$NAME` Pencere başlığı
+- `xdotool search --name $NAME` İsme göre Windows ID alma
+- `xdotool getwindowfocus` Seçili olan ekranın WID'ini alır
+- `xdotool getwindowfocus getwindowname` Seçili olan ekranın ismini alır
+- `WID=$(xdotool search --name $NAME)` Windows ID'yi değişkende tutma
+- `xdotool windowminimize $WID` Pencereyi gizleme
+- `xdotool windowactivate $WID` Pencreyi gösterme ve odaklanma
+
+> Burada WID xdotool'a özgü id değeridir.
 
 ## Uygulamaların Terminal Komutlarını öğrenme
 

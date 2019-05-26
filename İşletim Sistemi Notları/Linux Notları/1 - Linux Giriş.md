@@ -8,6 +8,7 @@
   - [Linux Temel Dosyaları](#linux-temel-dosyalar%C4%B1)
   - [Linux Yapılandırma Ayarları](#linux-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
 - [Linux Kısayolları](#linux-k%C4%B1sayollar%C4%B1)
+  - [Pencere Kısayolları](#pencere-k%C4%B1sayollar%C4%B1)
   - [Uygulama Kısayolları](#uygulama-k%C4%B1sayollar%C4%B1)
   - [Panel Kısayolları](#panel-k%C4%B1sayollar%C4%B1)
   - [Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları](#ubuntu-i%C3%A7in-ekran-g%C3%B6r%C3%BCnt%C3%BCs%C3%BC-ve-kayd%C4%B1-k%C4%B1sayollar%C4%B1)
@@ -63,6 +64,15 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 
 ## Linux Kısayolları
 
+### Pencere Kısayolları
+
+<!-- ↑←↓→ -->
+
+| Kısayol                                                             | Açıklama                          |
+| ------------------------------------------------------------------- | --------------------------------- |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>↑↓</kbd>                    | Çalışma alanları arasında geçiş   |
+| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>↑↓</kbd> | Uygulamayı çalışma alanına taşıma |
+
 ### Uygulama Kısayolları
 
 | Kısayol                         | Açıklama                                     |
@@ -80,7 +90,7 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 | Kısayol                                                   | Açıklama                |
 | --------------------------------------------------------- | ----------------------- |
 | <kbd>SUPER</kbd> + <kbd>`<sayı>`</kbd>                    | Uygulamarı çalıştırma   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı gizleme      |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı yeniden açma |
 | <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>`<sayı>`</kbd>  | Uygulamayı yeniden açma |
 
 - <kbd>`<sayı>`</kbd> Sayı tuşları
@@ -132,14 +142,13 @@ Yapılandırma ayarlarını `dconf load <dizin> < <dosya_ismi>`  komutu ile dosy
 | kolourpaint 🌟         | Paint alternatifi resim düzenleyici                  |
 | VsCode 🌟              | Çok fonksiyonel microsoft yapımı editör              |
 | stacer 🌟              | System Optimizer & Monitor                           |
+| gpick 🌟               | Renk seçme uygulaması (<kbd>SPACE</kbd> ile seçilir) |
 | simplescreenrecorder   | Sade ekran kaydedicisi                               |
 | zenkit                 | Proje yönetim uygulaması                             |
 | wine                   | Windows uygulamalarını çalıştırma                    |
 | nomachine              | Uzaktan PC bağlantısı                                |
 | vlc                    | En çok sevilen video oynatıcısı                      |
 | Onlyoffice             | Office alternatifi sade ve şık arayüzü olan uygulama |
-| copyq                  | Clipboard (pano) yöneticisi                          |
-| gpick                  | Renk seçme uygulaması                                |
 | dictd                  | Terminal üzerinden çeviri                            |
 | retropie               | Atari oyunlarını içerisinde barındıran platform      |
 | autocity               | Ses ile ilgili işlemleri barındıran uygulama         |

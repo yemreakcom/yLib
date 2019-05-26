@@ -4,6 +4,8 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 
 ## İçerikler <!-- omit in toc -->
 
+- [Temel Operatörler](#temel-operat%C3%B6rler)
+- [Bash Komutu](#bash-komutu)
 - [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
 - [Cat ile Yazdırma İşlemi](#cat-ile-yazd%C4%B1rma-i%CC%87%C5%9Flemi)
 - [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
@@ -25,17 +27,43 @@ Unix işletim sistemlerinin ortak programlama dilidir.
   - [Dosyadan URL ile İndirme](#dosyadan-url-ile-i%CC%87ndirme)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
+## Temel Operatörler
+
+| Operatör             | Açıklama                                               |
+| -------------------- | ------------------------------------------------------ |
+| `-`                  | Son çalışan dizine gitme                               |
+| `~`                  | Home dizini                                            |
+| `<komut>; <komut>;`  | Birden fazla komut işleme (birbirlerini beklemez)      |
+| `<komut> & <komut>`  | Birden fazla komut işleme (sırayla işler)              |
+| `<komut> && <komut>` | 1. komut çalışırsa 2.'yi işleme                        |
+| `<komut> || <komut>` | 1. olmazsa 2. komutu işleme                            |
+| `<komut> | <komut>`  | 2. komutu ilk komutun çıktısında çalıştırma (pipeline) |
+| `>`                  | Yönlendirme (yoksa oluşturur)                          |
+| `>>`                 | Eklemeli yönlendirme  (üzerine yazmaz, ekler)          |
+| `!$`                 | Bir önce kullanılan değişkeni kullanma                 |
+| `!!`                 | Bir önceki komutu kullanma                             |
+
+## Bash Komutu
+
+| Komut               | Açıklama                                      |
+| ------------------- | --------------------------------------------- |
+| `bash <dosya>`      | Dosyadaki komutları terminalde gerçekleştirir |
+| `bash -c "<komut>"` | Verilen komutu terminalde gerçekleştirir      |
+
 ## Yazdırma İşlemleri (Echo)
 
-| Komut                            | Açıklama                                                      |
-| -------------------------------- | ------------------------------------------------------------- |
-| `echo "<metin>"`                 | Ekrana metni olduğu gibi basma                                |
-| `echo -e "<metin>"`              | Ekrana metni formatlı basma (\n \t gibi karakterler çalışır)  |
-| `echo $<değişken>`               | Ekrana değişken basma                                         |
-| `echo $(<komut>)`                | Ekrana komut çıktısını basma                                  |
-| `echo "<metin>" > <dosya_yolu>`  | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
-| `echo "<metin>" >> <dosya_yolu>` | Verilen metni dosyaya ekleme                                  |
-| `@Echo off`                      | Çıktıları gizleme                                             |
+| Komut                                        | Açıklama                                                      |
+| -------------------------------------------- | ------------------------------------------------------------- |
+| `echo "<metin>"`                             | Ekrana metni olduğu gibi basma                                |
+| `echo -e "<metin>"`                          | Ekrana metni formatlı basma (\n \t gibi karakterler çalışır)  |
+| `echo $<değişken>`                           | Ekrana değişken basma                                         |
+| `echo $(<komut>)`                            | Ekrana komut çıktısını basma                                  |
+| `echo "<metin>" > <dosya_yolu>`              | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
+| `echo "<metin>" >> <dosya_yolu>`             | Verilen metni dosyaya ekleme                                  |
+| `sudo bash -c echo "<metin>" > <root_dosya>` | Root dosyasının üzerine yazma, yoksa dosyayı oluşturma        |
+| `@Echo off`                                  | Çıktıları gizleme                                             |
+
+> `>` ile yapılan yönlendirme işlemleri `echo` tarafından değil `shell` tarafından yapılır. Yetki sorunları olursa `echo`'ya değil `shell`'e yetki verilmelidir.
 
 - `<metin>` Ekrana basılacak metin
   - Örn: `yemreak`

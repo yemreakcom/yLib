@@ -247,6 +247,7 @@ Değişkenlerin kullanım şekilleri:
 #### Linux Klavye Kısayolları
 
 ```json
+// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
@@ -283,9 +284,9 @@ Değişkenlerin kullanım şekilleri:
     // Editör ayarları
     "editor.formatOnSave": true,
     // Font Ayarları https://github.com/i-tu/Hasklig
-    "editor.fontFamily": "Hasklig",
-    "editor.fontSize": 12.7, // Linux için 13.7
-    "terminal.integrated.fontSize": 13, // Linux için gerekli olmayabilir
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu
+    "editor.fontSize": 12.7,
+    "terminal.integrated.fontSize": 13,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 200,

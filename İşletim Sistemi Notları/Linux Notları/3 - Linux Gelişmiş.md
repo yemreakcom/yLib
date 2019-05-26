@@ -12,6 +12,7 @@
     - [Wmctrl ile Kısayol Oluşturma](#wmctrl-ile-k%C4%B1sayol-olu%C5%9Fturma)
 - [Window Manager Controls](#window-manager-controls)
 - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
+- [Ubuntu Soluk Renk Sorunu](#ubuntu-soluk-renk-sorunu)
 - [Herhangi bir Uygulama için Kısayol Oluşturma](#herhangi-bir-uygulama-i%C3%A7in-k%C4%B1sayol-olu%C5%9Fturma)
   - [Uygulama için `WM_CLASS` metnini tanımlama](#uygulama-i%C3%A7in-wmclass-metnini-tan%C4%B1mlama)
   - [Herhangi bir uygulamanın `WM_CLASS` metnini alma](#herhangi-bir-uygulaman%C4%B1n-wmclass-metnini-alma)
@@ -164,6 +165,20 @@ Alttaki komutu yazdıktan sonra pencerenin üstüne tıklamanız yeterlidir.
 
 ```sh
 xprop | grep WM_CLASS
+```
+
+## Ubuntu Soluk Renk Sorunu
+
+Tek seferlik:
+
+```sh
+xrandr --output HDMI-1 --set "Broadcast RGB" "Full"
+```
+
+Kalıcı ayar:
+
+```sh
+echo 'xrandr --output HDMI-1 --set "Broadcast RGB" "Full"' >> ~/.xprofile
 ```
 
 ## Herhangi bir Uygulama için Kısayol Oluşturma

@@ -10,6 +10,7 @@
   - [Whatsapp Kısayolu](#whatsapp-k%C4%B1sayolu)
     - [Whatsapp İkonu Ekleme](#whatsapp-i%CC%87konu-ekleme)
     - [Wmctrl ile Kısayol Oluşturma](#wmctrl-ile-k%C4%B1sayol-olu%C5%9Fturma)
+- [USB Bağlanma Sorunlarını Düzeltme](#usb-ba%C4%9Flanma-sorunlar%C4%B1n%C4%B1-d%C3%BCzeltme)
 - [Gnome Geliştmiş Ayarlar](#gnome-geli%C5%9Ftmi%C5%9F-ayarlar)
   - [Gnome Alt Gelişmiş Ayarlar](#gnome-alt-geli%C5%9Fmi%C5%9F-ayarlar)
 - [Pencere İşlemleri](#pencere-i%CC%87%C5%9Flemleri)
@@ -155,6 +156,18 @@ Alttaki komut ile wapp açıksa gösterme, kapalıysa oluşturmayı sağlayabili
 ```sh
 bash -c "wmctrl -xa web.whatsapp.com || /opt/google/chrome/google-chrome --app=https://web.whatsapp.com/"
 ```
+
+## USB Bağlanma Sorunlarını Düzeltme
+
+```sh
+sudo apt install ntfs-3g
+ntfsfix <adres>
+```
+
+- `<adres>` Takılan USB'nin bağlanmaya çalıştığı adres
+  - Örn: `/dev/sbd1`
+
+> Detaylar için [buraya][USB NTFS onarımı] bakabilirsin.
 
 ## Gnome Geliştmiş Ayarlar
 
@@ -370,3 +383,4 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 [Ubuntu 19.04 yenilikleri]: https://itsfoss.com/ubuntu-19-04-release-features/
 
 [Bashrc Dosyası]: ../../res/.bashrc
+[USB NTFS onarımı]: https://askubuntu.com/a/47711/898692

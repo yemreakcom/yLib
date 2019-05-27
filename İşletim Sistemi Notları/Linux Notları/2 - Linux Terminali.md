@@ -12,6 +12,7 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
   - [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
   - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
   - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
+  - [Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)](#se%C3%A7meli-veya-ko%C5%9Ful-kabul-etmeli-kurulumlar-ok-butonu)
 - [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
 - [Shell (Bash) Scripting](#shell-bash-scripting)
   - [100MB ve Üzeri Dosyaları Bulma](#100mb-ve-%C3%BCzeri-dosyalar%C4%B1-bulma)
@@ -127,6 +128,12 @@ Run dosyaları kurulum dosyalarıdır bu sebeple yetkileri olmadan çalıştır�
 chmod +x <run_dosyası>
 ./<run_dosyası>
 ```
+
+### Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)
+
+`<OK>` butonunu veya başka butonları seçmek için:
+
+- <kbd>TAB</kbd> tuşuna basıp <kbd>ENTER</kbd>'a basın
 
 ## Kısayol oluşturma
 

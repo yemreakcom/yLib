@@ -60,6 +60,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [Bağlı eli çözme](./Karma%20Bilgiler/Ba%C4%9Fl%C4%B1%20eli%20%C3%A7%C3%B6zme.mp4)
 - [CV Notları](./Karma%20Bilgiler/CV%20Notlar%C4%B1.md)
 - [Drive Notları](./Karma%20Bilgiler/Drive%20Notlar%C4%B1.md)
 - [Renk Kodları](./Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)

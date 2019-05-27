@@ -284,7 +284,8 @@ Değişkenlerin kullanım şekilleri:
     // Editör ayarları
     "editor.formatOnSave": true,
     // Font Ayarları https://github.com/i-tu/Hasklig
-    "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu
+    "editor.fontFamily": "'Hasklig', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
+    "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "terminal.integrated.fontSize": 13,
     // Satır uzunluğu ayarı

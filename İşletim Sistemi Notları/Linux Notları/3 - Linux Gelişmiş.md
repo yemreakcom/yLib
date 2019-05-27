@@ -10,7 +10,11 @@
   - [Whatsapp Kısayolu](#whatsapp-k%C4%B1sayolu)
     - [Whatsapp İkonu Ekleme](#whatsapp-i%CC%87konu-ekleme)
     - [Wmctrl ile Kısayol Oluşturma](#wmctrl-ile-k%C4%B1sayol-olu%C5%9Fturma)
-- [Window Manager Controls](#window-manager-controls)
+- [Pencere İşlemleri](#pencere-i%CC%87%C5%9Flemleri)
+  - [Ubuntu 19.04 için Pencere Kısayollarını Kaldırma (Super + Num)](#ubuntu-1904-i%C3%A7in-pencere-k%C4%B1sayollar%C4%B1n%C4%B1-kald%C4%B1rma-super--num)
+  - [Window Manager Controls](#window-manager-controls)
+  - [Window ID Alma](#window-id-alma)
+  - [Xdotool ile Pencere Yönetimi](#xdotool-ile-pencere-y%C3%B6netimi)
 - [Uygulamaların Terminal Komutlarını öğrenme](#uygulamalar%C4%B1n-terminal-komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
 - [Ubuntu Soluk Renk Sorunu](#ubuntu-soluk-renk-sorunu)
 - [Herhangi bir Uygulama için Kısayol Oluşturma](#herhangi-bir-uygulama-i%C3%A7in-k%C4%B1sayol-olu%C5%9Fturma)
@@ -152,6 +156,21 @@ bash -c "wmctrl -xa web.whatsapp.com || /opt/google/chrome/google-chrome --app=h
 
 ## Pencere İşlemleri
 
+### Ubuntu 19.04 için Pencere Kısayollarını Kaldırma (Super + Num)
+
+```sh
+gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
+gsettings set org.gnome.shell.keybindings switch-to-application-1 []
+gsettings set org.gnome.shell.keybindings switch-to-application-2 []
+gsettings set org.gnome.shell.keybindings switch-to-application-3 []
+gsettings set org.gnome.shell.keybindings switch-to-application-4 []
+gsettings set org.gnome.shell.keybindings switch-to-application-5 []
+gsettings set org.gnome.shell.keybindings switch-to-application-6 []
+gsettings set org.gnome.shell.keybindings switch-to-application-7 []
+gsettings set org.gnome.shell.keybindings switch-to-application-8 []
+gsettings set org.gnome.shell.keybindings switch-to-application-9 []
+```
+
 ### Window Manager Controls
 
 Uygulamaların durumlarını kontrol eden `wmctrl` adlı komuttur.
@@ -172,12 +191,17 @@ Uygulamaların durumlarını kontrol eden `wmctrl` adlı komuttur.
 ### Xdotool ile Pencere Yönetimi
 
 - `$NAME` Pencere başlığı
-- `xdotool search --name $NAME` İsme göre Windows ID alma
+- `xdotool search --name $NAME` VM_NAME'e (isme) göre Windows ID alma
+- `xdotool search --class $WM_CLASS` Temel VM_CLASS'a (sınıfa) göre Windows ID alma (en sondaki WM_CLASS öğesi)
+- `xdotool search --classname $WM_CLASS` VM_CLASS'a (sınıfa) göre Windows ID alma
+- `xdotool search --desktop $(xdotool get_desktop) --class $WM_CLASS` Aktif masaüstünde temel VM_CLASS'a (sınıfa) göre Windows ID alma (en sondaki WM_CLASS öğesi)
+- `xdotool search --desktop $(xdotool get_desktop) --classname $WM_CLASS` Aktif masaüstünde VM_CLASS'a (sınıfa) göre Windows ID alma
 - `xdotool getwindowfocus` Seçili olan ekranın WID'ini alır
 - `xdotool getwindowfocus getwindowname` Seçili olan ekranın ismini alır
 - `WID=$(xdotool search --name $NAME)` Windows ID'yi değişkende tutma
 - `xdotool windowminimize $WID` Pencereyi gizleme
 - `xdotool windowactivate $WID` Pencreyi gösterme ve odaklanma
+- `xdotool get_desktop` Seçili olan masaüstünü gösterir (0, 1, 2...)
 
 > Burada WID xdotool'a özgü id değeridir.
 

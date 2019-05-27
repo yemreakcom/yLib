@@ -9,6 +9,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 - [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
 - [Cat ile Yazdırma İşlemi](#cat-ile-yazd%C4%B1rma-i%CC%87%C5%9Flemi)
 - [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
+- [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
 - [İf-Else Yapısı](#i%CC%87f-else-yap%C4%B1s%C4%B1)
 - [For Döngüsü](#for-d%C3%B6ng%C3%BCs%C3%BC)
 - [Terminalde Seçim Yaptırma](#terminalde-se%C3%A7im-yapt%C4%B1rma)
@@ -58,6 +59,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 | `echo -e "<metin>"`                          | Ekrana metni formatlı basma (\n \t gibi karakterler çalışır)  |
 | `echo $<değişken>`                           | Ekrana değişken basma                                         |
 | `echo $(<komut>)`                            | Ekrana komut çıktısını basma                                  |
+| `echo $(<komut>)' metin '$(<komut>)`         | Ekrana komut çıktısını ve metni basma                         |
 | `echo "<metin>" > <dosya_yolu>`              | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
 | `echo "<metin>" >> <dosya_yolu>`             | Verilen metni dosyaya ekleme                                  |
 | `sudo bash -c echo "<metin>" > <root_dosya>` | Root dosyasının üzerine yazma, yoksa dosyayı oluşturma        |
@@ -108,7 +110,32 @@ echo $file
 
 ## String İşlemleri
 
-- `${#var}` $Var değişkeninin uzunluğunu döndürür
+```sh
+
+${#var} # Var string'inin uzunluğunu hesaplama
+${var#*.} # .'ya kadar tüm metni siler
+
+# String Kıyaslama
+if [ $kelime == "yemreak" ]; then
+    echo "Eşdeğer"
+fi
+
+# String içinde alt stirng arama (cümle'de kelime varsa 1) (2 tane [ olduğuna dikkat)
+if [[ "$cumle" =~ "$kelime" ]]; then
+    echo "Bulundu"
+else
+    echo "Bulunamadı"
+fi
+
+# Stringdeki i. sıradaki kelimeyi alma
+let "word = $(echo $WID | awk '{print $1}')" # İlk olanı alma $word1 = ilk kelime
+let "word = $(echo $WID | awk '{print $i}')" # i. olanı alma
+
+# Boşluklarla ayrılan cümledenki kelimeleri alma
+for kelime in $cumle; do
+    echo $kelime
+done
+```
 
 ## İf-Else Yapısı
 
@@ -299,3 +326,9 @@ done < "../$file"
 [For Döngüsü]: https://www.cyberciti.biz/faq/bash-for-loop/
 [Dosyayı satır satır okuma]: https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
 [Zaman işlemleri]: https://stackoverflow.com/a/1401495/9770490
+
+[String #*. Kullanımı]: https://unix.stackexchange.com/a/461064/344875
+[String'i ayıraç ile ayırma]: https://stackoverflow.com/q/918886/9770490
+[String içerisinde alt string arama - Regular Expression]: https://stackoverflow.com/a/6823554/9770490
+[String içerisinde alt string arama - Interpolate]: https://unix.stackexchange.com/a/370891/344875
+[String'den substring (word) alma]: https://stackoverflow.com/questions/2440414/how-to-retrieve-the-first-word-of-the-output-of-a-command-in-bash

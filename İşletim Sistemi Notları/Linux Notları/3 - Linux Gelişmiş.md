@@ -10,6 +10,7 @@
   - [Whatsapp Kısayolu](#whatsapp-k%C4%B1sayolu)
     - [Whatsapp İkonu Ekleme](#whatsapp-i%CC%87konu-ekleme)
     - [Wmctrl ile Kısayol Oluşturma](#wmctrl-ile-k%C4%B1sayol-olu%C5%9Fturma)
+- [Font Yükleme](#font-y%C3%BCkleme)
 - [USB Bağlanma Sorunlarını Düzeltme](#usb-ba%C4%9Flanma-sorunlar%C4%B1n%C4%B1-d%C3%BCzeltme)
 - [Gnome Geliştmiş Ayarlar](#gnome-geli%C5%9Ftmi%C5%9F-ayarlar)
   - [Gnome Alt Gelişmiş Ayarlar](#gnome-alt-geli%C5%9Fmi%C5%9F-ayarlar)
@@ -155,6 +156,14 @@ Alttaki komut ile wapp açıksa gösterme, kapalıysa oluşturmayı sağlayabili
 
 ```sh
 bash -c "wmctrl -xa web.whatsapp.com || /opt/google/chrome/google-chrome --app=https://web.whatsapp.com/"
+```
+
+## Font Yükleme
+
+```sh
+mkdir -p ~/.font # Yerel font dizinini oluşturma
+mv <font.ttf> ~/.font # Font dosyasını gerekli yere aktarma
+fc-cache -fv # Fontları yeniden derleme
 ```
 
 ## USB Bağlanma Sorunlarını Düzeltme

@@ -1,8 +1,11 @@
 # React <!-- omit in toc -->
 
+## İçerikler <!-- omit in toc -->
+
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [Neden react](#neden-react)
+- [Ücretsiz React Çalışma Yerleri](#%C3%BCcretsiz-react-%C3%A7al%C4%B1%C5%9Fma-yerleri)
 - [Görsel Kaynaklar](#g%C3%B6rsel-kaynaklar)
 - [Faydalı Bağlantılar](#faydal%C4%B1-ba%C4%9Flant%C4%B1lar)
 
@@ -12,6 +15,13 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 
 - Sanal bir DOM oluşturarak DOM üzerinden değişiklik olduğunda tüm kod sanal DOM'a aktarılır ardından sadece değişen kısımları DOM'a aktarır.
 - DOM'a sadece değişenler aktarıldıkları için daha hızlı ve daha senkronize işlem yapılır
+
+## Ücretsiz React Çalışma Yerleri
+
+- [Master React & Redux]
+- [Best free react courses for tutorials]
+- Kitap için [buraya][Road to learn react]
+- [Ücretli kurs][React Udemy - Ücretli]
 
 ## Görsel Kaynaklar
 
@@ -31,3 +41,8 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 [React Instagram Clone 2]: https://github.com/hibiken/hackafy
 [Medium Clone]: https://github.com/krissnawat/medium-clone-on-node
 [Reactjs Awesome Button]: https://caferati.me/demo/react-awesome-button
+
+[Master React & Redux]: https://bahdcasts.com/courses/learn-react-redux
+[Best free react courses for tutorials]: https://designrevision.com/best-free-react-tutorials-courses/
+[Road to learn react]: ../res/the-road-to-learn-react.pdf
+[React Udemy - Ücretli]: https://www.udemy.com/react-the-complete-guide-incl-redux/

@@ -286,7 +286,7 @@ Değişkenlerin kullanım şekilleri:
     // Font Ayarları https://github.com/i-tu/Hasklig
     "editor.fontFamily": "'Hasklig', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
     "editor.fontLigatures": true,
-    "editor.fontSize": 13,
+    "editor.fontSize": 13.7,
     "terminal.integrated.fontSize": 13,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",

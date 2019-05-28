@@ -4,6 +4,10 @@
 
 - [Otomatik Giriş Yapma](#otomatik-giri%C5%9F-yapma)
 - [Windows10 Karanlık Tema Kurulumu](#windows10-karanl%C4%B1k-tema-kurulumu)
+- [Windows Saat Sorunu](#windows-saat-sorunu)
+  - [Yerel Saati Kullanma](#yerel-saati-kullanma)
+  - [Evrensel (UTC) Saati Kullanma](#evrensel-utc-saati-kullanma)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Otomatik Giriş Yapma
 
@@ -33,7 +37,37 @@ En çok sevilen karanlık tema olan [Nocturnal] temasını kurmak için:
   - `Install` butonuna tıklayın
 - Tüm işlemler bittiğine göre artık, Ayarlar > Kişiselleştirme > Tema kısmından `Nocturnal` temasını seçebilirsiniz
 
+## Windows Saat Sorunu
+
+Windows yanına linux kurulmasında gerçekleşen bu sorunun çözümü **yerel saati** kullanmaktır.
+
+> Alttaki metinleri dosya açıp içine kopyaladıktan sonra, dosya uzantısını `reg` yapın ve çalıştırın.
+
+### Yerel Saati Kullanma
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=-
+```
+
+### Evrensel (UTC) Saati Kullanma
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=dword:00000001
+```
+
+## Harici Bağlantılar
+
+- [Windows yanına linux kurulduğunda windows saatinin bozulması]
+
 [Nocturnal]: https://www.deviantart.com/chloechantelle/art/Nocturnal-W10-582106490
 [Nocturnal - Download]: https://www.deviantart.com/download/582106490/d9mkk8q-d0678559-518e-48f3-bf36-30bd91f73496?token=53c9fe62794d3574b12d5aad67c1998665b93c20&ts=1558436081
 [UltraUXThemePatcher]: https://www.deviantart.com/users/outgoing?https://www.syssel.net/hoefs/software_uxtheme.php?lang=en
 [OldNewExplorer]: https://tihiy.net/files/OldNewExplorer.rar
+
+[Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/

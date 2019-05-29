@@ -21,6 +21,7 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
     - [PDF için Özelleştirmem](#pdf-i%C3%A7in-%C3%B6zelle%C5%9Ftirmem)
     - [PDF için VsCode Ayarları](#pdf-i%C3%A7in-vscode-ayarlar%C4%B1)
     - [PDF'te Emoji Fontlarının Gözükmemesi](#pdfte-emoji-fontlar%C4%B1n%C4%B1n-g%C3%B6z%C3%BCkmemesi)
+    - [PDF Dosya Boyutu Sorunu](#pdf-dosya-boyutu-sorunu)
 - [Faydalı Siteler](#faydal%C4%B1-siteler)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
@@ -203,6 +204,13 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 ```sh
 sudo apt install fonts-noto-color-emoji
 ```
+
+#### PDF Dosya Boyutu Sorunu
+
+Dosya boyutunu düşürmek için:
+
+- Emojilerin kaldırılması 😢 (~ 7MB)
+- Chromium (~ 3MB)
 
 ## Faydalı Siteler
 

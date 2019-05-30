@@ -212,6 +212,8 @@ Dosya boyutunu düşürmek için:
 - Emojilerin kaldırılması 😢 (~ 7MB)
 - Chromium (~ 3MB)
 
+> Emoji sorunu sadece linux'ta var.
+
 ## Faydalı Siteler
 
 | Site                                       | Açıklama                   |

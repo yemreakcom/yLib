@@ -140,6 +140,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [OpenCart](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCart.md)
 - [Protocol Buffer (Protobuf)](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Protocol%20Buffer%20%28Protobuf%29.md)
 - [Selenium](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
+- [Tasarım Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Tasar%C4%B1m%20Notlar%C4%B1.md)
 - [Terimler](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
 - [Yapay Zeka Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)

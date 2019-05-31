@@ -17,6 +17,7 @@
 - [TL'yi Bulma]
 - [Gerçekçi Sinirsel Konuşan Kafa Modelleri]
 - [Tutorial List]
+- [Top 50 Machine Learning Interview]
   
 ## Faydalı Makaleler
 
@@ -37,6 +38,7 @@
 [Makine Öğrenimi ve Derin Öğrenme ile Müşteri Kayıp (Churn) Analizi-1]: https://medium.com/deep-learning-turkiye/makine-%C3%B6%C4%9Frenimi-ve-derin-%C3%B6%C4%9Frenme-ile-m%C3%BC%C5%9Fteri-kay%C4%B1p-churn-analizi-1-63a4513b8a6f
 [TL'yi Bulma]: https://www.linkedin.com/pulse/g%C3%B6r%C3%BCnt%C3%BC-tan%C4%B1yan-mobil-uygulama-nas%C4%B1l-geli%C5%9Ftirilir-%C3%B6zg%C3%BCr-%C5%9Fahin/
 [Gerçekçi Sinirsel Konuşan Kafa Modelleri]: https://www.youtube.com/watch?v=p1b5aiTrGzY&feature=youtu.be
+[Top 50 Machine Learning Interview]: https://www.linkedin.com/feed/update/urn:li:activity:6540239772655419392
 
 [Machine learning mastery]: https://machinelearningmastery.com/start-here/
 [An E-learning System With Multifacial Emotion]: ..%2Fpdfs%2FAn%20E-learning%20System%20With%20Multifacial%20Emotion.pdf

@@ -20,6 +20,7 @@ Bulduğum staj ilanlarını burada listelemekteyim, katkıda bulunmak isteyenler
 - [Creditwest Bank]
 - [diyalog]
 - [Macro Gaming]
+- [DBA Aktifbank]
 
 [mail]: mailto::yedhrab@gmail.com?Subject=Staj%20%C4%B0lanlar%C4%B1
 [CareerJet]: https://www.careerjet.com.tr/
@@ -35,3 +36,4 @@ Bulduğum staj ilanlarını burada listelemekteyim, katkıda bulunmak isteyenler
 [diyalog]: https://www.yenibiris.com/diyalog/full-stack-developer-pozisyonunda-stajyer-ariyoruz-is-ilani/850370
 [Macro Gaming]: https://www.yenibiris.com/macro-gaming-ltd/yazilim-stajyeri-is-ilani/845348
 [Yenibiris]: https://www.yenibiris.com/
+[DBA Aktifbank]: https://www.linkedin.com/feed/update/urn:li:activity:6539119460173905920

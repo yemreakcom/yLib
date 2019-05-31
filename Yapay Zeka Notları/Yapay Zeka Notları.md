@@ -61,6 +61,7 @@ Python ile derin öğrenme notlarım.
 ## Yapay Zeka Kullanım Alanları
 
 - Otamatik Al-Sat işlemleri ile kullanılır.
+- [El ile emoji oluşturma]
 
 ## Harici Bağlantılar
 
@@ -86,3 +87,5 @@ Python ile derin öğrenme notlarım.
 
 - [Yapay zeka GauGAN, çizimleri tabloya dönüştürmeyi öğrendi!](https://www.youtube.com/watch?v=1iMmenHFdCE)
 - [AYNA DÜNYALAR](https://www.youtube.com/watch?v=-3DvuLtuf1U)
+
+[El ile emoji oluşturma]: https://www.linkedin.com/feed/update/urn:li:ugcPost:6531200017103880192

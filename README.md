@@ -126,7 +126,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Makine Öğrenimi](./Yapay%20Zeka%20Notlar%C4%B1/Makine%20%C3%96%C4%9Frenimi.md)
 - [Türkçe Yapay Zeka Kaynakları](./Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.md)
 - [Veri Kümeleri](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmeleri.md)
-- [Yapay Zeka Kullanımı](./Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Kullan%C4%B1m%C4%B1.md)
 - [Yapay Zeka Notları](./Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)
 
 ## Yazılım Notları

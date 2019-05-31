@@ -1,14 +1,15 @@
 # Yapay Zeka Notları <!-- omit in toc -->
 
-Python ile derin öğrenme notlarımı bu alanda derleyeceğim.
+Python ile derin öğrenme notlarım.
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
+## İçerikler <!-- omit in toc -->
 
 - [Cloud Destekleri](#cloud-destekleri)
 - [Derin Öğrenme Notları](#derin-%C3%B6%C4%9Frenme-notlar%C4%B1)
   - [Aktivasyon Fonksiyonları](#aktivasyon-fonksiyonlar%C4%B1)
   - [Aktivasyon Fonksiyonlarının Özellikleri](#aktivasyon-fonksiyonlar%C4%B1n%C4%B1n-%C3%B6zellikleri)
-- [Kaynaklar](#kaynaklar)
+- [Yapay Zeka Kullanım Alanları](#yapay-zeka-kullan%C4%B1m-alanlar%C4%B1)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
   - [Araştırmacılar Web Siteleri](#ara%C5%9Ft%C4%B1rmac%C4%B1lar-web-siteleri)
   - [GitHub Kaynakları](#github-kaynaklar%C4%B1)
     - [Firmalar](#firmalar)
@@ -57,7 +58,11 @@ Python ile derin öğrenme notlarımı bu alanda derleyeceğim.
 
 ![Aktivasyon Fonkisyonlarının Özellikleri](https://cdn-images-1.medium.com/max/800/1*lI22JpQMrlx777AOhzvjcw.png)
 
-## Kaynaklar
+## Yapay Zeka Kullanım Alanları
+
+- Otamatik Al-Sat işlemleri ile kullanılır.
+
+## Harici Bağlantılar
 
 ### Araştırmacılar Web Siteleri
 

@@ -2,9 +2,14 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Faydalı Dosyalar](#faydal%C4%B1-dosyalar)
 - [Faydalı Linkler](#faydal%C4%B1-linkler)
 - [Faydalı Makaleler](#faydal%C4%B1-makaleler)
 - [Faydalı Siteler](#faydal%C4%B1-siteler)
+
+## Faydalı Dosyalar
+
+- [ML Cheat Sheed]
 
 ## Faydalı Linkler
 
@@ -22,6 +27,8 @@
 ## Faydalı Siteler
 
 - [Machine learning mastery]
+
+[ML Cheat Sheed]: ../res%2Fmicrosoft-machine-learning-algorithm-cheat-sheet-v7.pdf
 
 [Makine Öğrenimi ve Derin Öğrenme ile Müşteri Kayıp (Churn) Analizi-1]: https://medium.com/deep-learning-turkiye/makine-%C3%B6%C4%9Frenimi-ve-derin-%C3%B6%C4%9Frenme-ile-m%C3%BC%C5%9Fteri-kay%C4%B1p-churn-analizi-1-63a4513b8a6f
 

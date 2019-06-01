@@ -14,10 +14,11 @@
   - [Fonksyion Oluşturma Anahtar Kelimeleri](#fonksyion-olu%C5%9Fturma-anahtar-kelimeleri)
     - [Fonksiyon Anahtar Kelimeleri](#fonksiyon-anahtar-kelimeleri)
 - [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
+  - [Değişkenlere Hızlı Bakış](#de%C4%9Fi%C5%9Fkenlere-h%C4%B1zl%C4%B1-bak%C4%B1%C5%9F)
   - [List](#list)
   - [Set](#set)
   - [Dictionary](#dictionary)
-- [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
+  - [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
   - [Sabit Değerler (Constants)](#sabit-de%C4%9Ferler-constants)
   - [Değişkenler Arası Dönüşüm (Casting)](#de%C4%9Fi%C5%9Fkenler-aras%C4%B1-d%C3%B6n%C3%BC%C5%9F%C3%BCm-casting)
     - [Eval Fonksiyonu ile Dönüştürme](#eval-fonksiyonu-ile-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
@@ -92,6 +93,8 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 | `yield`  | Her çağırılmada te |
 
 ## Değişkenler
+
+### Değişkenlere Hızlı Bakış
 
 | Tip          | Açıklama                           | Örnek                 |
 | ------------ | ---------------------------------- | --------------------- |
@@ -168,7 +171,7 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 - [`Dict`'i `str`'a çevirme][Dict'i str'a çevirme]
 - [`Dict`'ten hızlı bir yöntem var mı][Dict'ten hızlı var mı]
 
-## Değersiz Değişken Tanımlama
+### Değersiz Değişken Tanımlama
 
 ```py
 degersiz = None

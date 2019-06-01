@@ -5,10 +5,7 @@
 - [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%C4%B1mlar%C4%B1)
   - [Genel Fonksiyonlar](#genel-fonksiyonlar)
     - [Enumerata (Numaralandırma, Sayma) İşlemi](#enumerata-numaraland%C4%B1rma-sayma-i%CC%87%C5%9Flemi)
-  - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
-  - [String İçerisinde Metin Arama](#string-i%CC%87%C3%A7erisinde-metin-arama)
 - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
-  - [Harici String İşlemleri](#harici-string-i%CC%87%C5%9Flemleri)
 - [Fonksiyon Oluşturma](#fonksiyon-olu%C5%9Fturma)
   - [Fonksiyon İskeleti](#fonksiyon-i%CC%87skeleti)
   - [Fonksiyon Örneği](#fonksiyon-%C3%B6rne%C4%9Fi)
@@ -67,81 +64,10 @@ with open(FILE, "r") as file:
 # ...
 ```
 
-### String İşlemleri
-
-Çok önemli ve ileride kullanılacak bir konudur. 🌟
-
-- `r` ök eki ile yazılan string daha hızlı işlenir
-- `replace` metodu en hızlı string değiştirme metodudur.
-  - `replace(...).replace(...)` ile çoklu değişim yapılması daha hızlıdır
-
-<!-- TODO linkleri ekle -->
-
- | Metot                   | Açıklama                 | Örnek                                  | Çıktı                  |
- | ----------------------- | ------------------------ | -------------------------------------- | ---------------------- |
- | `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                    |
- | `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`         |
- | `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`        |
- | `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`               |
- | `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`            |
- | `"""`                   | Çok satırlı string       |
- | `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']`  |
- | `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`        |
- | `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`           |
- | `split & join`          | Yeniden formatlama       | `arr.split("\t").join("|")`            | `'İsim|Soyisim|Numara` |
- | `find`                  | Karakter indeksini bulma | `"yemreak".find('e')`                  | `1` (yoksa `-1`)       |
- | `replace`               | Metin değiştirme         | `"yemreak".replace("ak", "")`          | `'yemre'`              |
- | `strip`                 | Metin düzeltme           | `' abc '.strip()`                      | `'abc'`                |
- | `ltrip`                 | Metnin solunu düzeltme   | `' abc '.ltrip()`                      | `'abc '`               |
- | `rtrip`                 | Metnin sağını düzeltme   | `' abc '.rtrip()`                      | `' abc'`               |
- | `sort`                  | Metni sıralama           | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
-
-> Ek kaynaklar:
->
-> - Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin
-> - Slice hakkında ek bilgi için [buraya][Slice - Stackoverflow] bakabilirsin
-> - String değiştirme hızları kıyaslaması için [buraya][String değiştirme hızları] bakabilirsin
-
-### String İçerisinde Metin Arama
-
-Alttaki yöntem ile tek bir karakteri string içerisinde bulabilirsiniz.
-
-```py
-string = "yemreak"
-tek_metin = "yemre"
-metinler = ['emre', 'ak']
-
-# Tek metin işlemi
-if tek_metin in string:
-  print("Metin bulundu")
-
-# Çok fazla metin işlemleri
-if all(metin in string for metin in metinler):
-  print("Hepsi bulundu")
-
-if any(metin in string for metin in metinler):
-  print("Herhangi biri bulundu)
-```
-
-> Kaynak için [buraya][String içerisinde çoklu metin arama] bakabilirsin.
-
 ## Harici Fonksiyon Kullanımları
 
 - Fonksiyonları kullanmadan önce `import <paket>` ile paketi dahil etmeniz lazım
 - Fonksiyonların kullanımı `<paket>.<fonksiyon>` şeklindedir
-
-### Harici String İşlemleri
-
-| Paket | Fonksiyon                                | Açıklama                              |
-| ----- | ---------------------------------------- | ------------------------------------- |
-| `re`  | `split(<ayırıcı_karakterler>, <string>)` | Birden fazla karaktere göre parçalama |
-
-- `<ayırıcı_karakterler>` Metni hangi karakterlere göre böleceğimizi ifade eder
-  - Birden fazla olacaksa `|` ile birbirinden ayrılır
-  - Ayırma sırasında `boşluk karakteri`nin kullanılması sorun oluşturur
-  - *Örn:* `'\n|\t|\*'`
-- `<string>` Ayrıştırılacak metin
-  - *Örn:* `'yemreak.com'`
 
 ## Fonksiyon Oluşturma
 
@@ -499,8 +425,6 @@ Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yava�
 ```
 
 [Slice - Stackoverflow]: https://stackoverflow.com/a/509295/9770490
-[String değiştirme hızları]: https://stackoverflow.com/a/27086669/9770490
-[String içerisinde çoklu metin arama]: https://stackoverflow.com/a/3389611/9770490
 [Fonksiyonların CPU ve Memory kullanımını ölçme]: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
 [Fonksiyonun CPU kullanımını bulma - StackOverflow]: https://stackoverflow.com/a/8957968/9770490
 [Fonksiyon testini colab üzerinde çalıştırma]: https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl_9ftDIytVGS

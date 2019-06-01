@@ -9,6 +9,7 @@
 
 - [Python ile Programlamaya Hazırlanma](#python-ile-programlamaya-haz%C4%B1rlanma)
   - [Yazım Kuralları](#yaz%C4%B1m-kurallar%C4%B1)
+  - [Çok Satırlı Kod Yazma](#%C3%A7ok-sat%C4%B1rl%C4%B1-kod-yazma)
   - [Dökümantasyon PyDoc](#d%C3%B6k%C3%BCmantasyon-pydoc)
 - [Anahtar Kelimeler (Keywords)](#anahtar-kelimeler-keywords)
   - [Fonksyion Oluşturma Anahtar Kelimeleri](#fonksyion-olu%C5%9Fturma-anahtar-kelimeleri)
@@ -26,6 +27,7 @@
   - [Değişken Tipleri için Ek Kaynak](#de%C4%9Fi%C5%9Fken-tipleri-i%C3%A7in-ek-kaynak)
   - [Değişken ve Sabitlerde Gizlilik](#de%C4%9Fi%C5%9Fken-ve-sabitlerde-gizlilik)
   - [Değişkenin Tanımlı Olduğunu Kontrol Etme](#de%C4%9Fi%C5%9Fkenin-tan%C4%B1ml%C4%B1-oldu%C4%9Funu-kontrol-etme)
+- [Programı Sonlandırma](#program%C4%B1-sonland%C4%B1rma)
 
 ## Python ile Programlamaya Hazırlanma
 
@@ -50,6 +52,21 @@ Orjinal dökümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/
 - Kodun en son satırı boş olmalıdır (End of File)
 
 > Daha fazla bilgi için harici linklerdeki [Should I use underscores or camel case for Python?](https://www.quora.com/Should-I-use-underscores-or-camel-case-for-Python) bağlantısına tıklayabilirsin.
+
+### Çok Satırlı Kod Yazma
+
+Çok satırlı kod yazmak için `\` karakterini koyup <kbd>ENTER</kbd>'a basarak alt satırdan devam edebilirsin
+
+- Alttaki iki komut birbirine eşdeğerdir
+
+```py
+python 'train.py' \
+      --train_dir="/{MODELIN_CIKTI_DIZINI_YOLU}" \
+      --pipeline_config_path="/{YAPILANDIRMA_DOSYASI_YOLU}" \
+      {'--logtostderr' if logdir else ''}
+
+python 'train.py' --train_dir="/{MODELIN_CIKTI_DIZINI_YOLU}" --pipeline_config_path="/{YAPILANDIRMA_DOSYASI_YOLU}" {'--logtostderr' if logdir else ''}
+```
 
 ### Dökümantasyon PyDoc
 
@@ -118,10 +135,15 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 - Aynı değişken birden fazla tekrar edebilir
 - Hızlıca göz atmak için [buraya][List] buraya bakabilirsin
 
-| List Metodları                  | Açıklama      |
-| ------------------------------- | ------------- |
-| `append(<value>)`               | Eleman ekleme |
-| `[<index>]` veya `get(<index>)` | Eleman alma   |
+| List Metodları               | Açıklama                                                    |
+| ---------------------------- | ----------------------------------------------------------- |
+| `len(list)`                  | Karakter sayısı                                             |
+| `list.append(<value>)`       | Eleman ekleme                                               |
+| `list[i]` veya `list.get(i)` | `i`. karakter                                               |
+| `list[-i]`                   | `len-i`. karakter                                           |
+| `list[i:]`                   | `i`. eleman ve sonrasındakiler                              |
+| `list[:i]`                   | `i`. elemana kadar (`i` dahil değil) olanlar                |
+| `list[i:j]`                  | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar |
 
 - `[<değişken> for <değişken> in <dizi_veya_liste> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in a if x != 20]`
@@ -267,6 +289,14 @@ if hasattr(obj, 'attr_name'):
 ```
 
 > Kaynak için [buraya](https://stackoverflow.com/a/843293) bakabilirsin.
+
+## Programı Sonlandırma
+
+Alttaki metodlarla programı sonlandırabilirsin.
+
+- `exit(<mesaj>)`
+- `quit(<mesaj>)`
+- `sys.exit(<mesaj>)`
 
 <!-- ## Harici Bağlantılar -->
 

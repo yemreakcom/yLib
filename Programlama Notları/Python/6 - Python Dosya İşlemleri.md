@@ -108,7 +108,7 @@ Dosya yolu işlemleri için `os.path` modülü kullanılır.
 | `isdir(<yol>)`              | Dizin mi kontrolü                                  |
 | `join(<yol1>, <dosya_adı>)` | Dizinleri birleştirme                              |
 | `basename(<yol>)`           | Dosyanın adını ve uzantısını bulma                 |
-| `splittext(<dosya_adı>)`    | Dosyanın yolunu ve uzantısını döndürür (path, ext) |
+| `splitext(<dosya_adı>)`     | Dosyanın yolunu ve uzantısını döndürür (path, ext) |
 
 - `<yol>` Path, dosya yolu
   - *Örn: C:\Users\Username\help.txt*

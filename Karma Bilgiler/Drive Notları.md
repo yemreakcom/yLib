@@ -18,7 +18,11 @@ Drive öğrenci hesaplarına sınırsız depolama hakkı sunmaktadır.
 
 Drive'a üzerindeki linkleri tek tıklama ile indirmek için (wget vs) [buradan][Direct Link Generator] *direct link*'e çevirmen gerekmektedir.
 
-[Direct Link Generator]: https://www.directlinkgenerator.com/
+**Direct Link Yapısı:**
+
+```url
+https://docs.google.com/uc?export=download&id=<YourIndividualID>
+```
 
 ### El ile Oluşturmak İçin
 
@@ -29,3 +33,5 @@ def fix_drive_url(url):
   if "drive.google.com/open?" in url:
     return url.replace(r"open?", r"uc?export=download&")
 ```
+
+[Direct Link Generator]: https://www.directlinkgenerator.com/

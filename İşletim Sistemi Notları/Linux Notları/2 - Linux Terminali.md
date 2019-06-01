@@ -96,9 +96,17 @@ Ubuntu yerel mağazasından yapılan indirmelerdir
 
 Tar.gz uzantılı dosyayı bulup, sağ tıklayıp, buraya çıkar diyoruz. Ya da terminal yardımıyla arşivi çıkarın
 
-```bash
-tar xzf dosya.tar.gz -C ./dizin
-cd dizin
+| Parametre | Açıklama                                 |
+| --------- | ---------------------------------------- |
+| `x`       | Çıkarmak (e**x**tract)                   |
+| `c`       | Arşivelemek (**c**ompress)               |
+| `z`       | G**z**ip ile işleme sokma                |
+| `v`       | Yapılan işlemleri gösterme (**v**erbose) |
+| `f`       | Dosya ismi belirtme (**f**ilename)       |
+| `C`       | Çıkartılacak dizin                       |
+
+```sh
+tar xzvf "dosya.tar.gz" -C "./dizin"
 ```
 
 > Terminat komutlarını kullandıysanız, direk alttaki komutları uygulayabilirisiniz.

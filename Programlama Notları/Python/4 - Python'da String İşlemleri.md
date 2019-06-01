@@ -1,11 +1,13 @@
 # Python'da String İşlemleri <!-- omit in toc -->
 
+*String*'lere kabaca **metin** diyebiliriz 🤔
+
 ## İçerikler <!-- omit in toc -->
 
 - [Temel String İşlemleri](#temel-string-i%CC%87%C5%9Flemleri)
   - [String Üzerinde Karakter Değiştirme](#string-%C3%BCzerinde-karakter-de%C4%9Fi%C5%9Ftirme)
-  - [Karakterleri Ters Çevirme](#karakterleri-ters-%C3%A7evirme)
-  - [Cümlenin Kelimelerini Ters Çevirme](#c%C3%BCmlenin-kelimelerini-ters-%C3%A7evirme)
+  - [String'in Karakterleri Ters Çevirme](#stringin-karakterleri-ters-%C3%A7evirme)
+  - [String'in Kelimelerini Ters Çevirme](#stringin-kelimelerini-ters-%C3%A7evirme)
 - [String Fonksiyonları](#string-fonksiyonlar%C4%B1)
 - [String İçerisinde Metin Arama](#string-i%CC%87%C3%A7erisinde-metin-arama)
 - [String Üzerinde Sayma İşlemleri](#string-%C3%BCzerinde-sayma-i%CC%87%C5%9Flemleri)
@@ -36,7 +38,10 @@ Stringler `string[i] = char` yapısını desteklemez, alttaki yöntem gibi işle
 
 ```py
 def change_char(string, i, char):
-    return string[:i]+char+string[i+1:]
+    if i != -1:
+        return string[:i]+char+string[i+1:]
+    else:
+        return string[:i]+char
 ```
 
 **List yapısı ile:**
@@ -48,21 +53,26 @@ def change_char(string, i, char):
     return string.join("")
 ```
 
-### Karakterleri Ters Çevirme
+### String'in Karakterleri Ters Çevirme
 
 ```py
-reverse = ""
-for i in range(1, len(sentence) + 1):
-    reverse += sentence[-i]
+def reverse_char(sentence):
+    rev = ""
+    for i in range(1, len(sentence) + 1):
+        rev += sentence[-i]
+
+    return rev
 ```
 
-### Cümlenin Kelimelerini Ters Çevirme
+### String'in Kelimelerini Ters Çevirme
 
 ```py
-words = sentence.split(' ')
-for i in range(1, len(words) + 1):
-    sentence += words[-i] + " "
-sentence = sentence[:-1]
+def reverse_word(sentence):
+    words = sentence.split(' ')
+    for i in range(1, len(words) + 1):
+        sentence += words[-i] + " "
+
+    return sentence[:-1] # Sondaki, fazladan ' ' karakteri kaldırılıyor
 ```
 
 ## String Fonksiyonları

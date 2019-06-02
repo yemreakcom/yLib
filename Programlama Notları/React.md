@@ -22,6 +22,7 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 - [Best free react courses for tutorials]
 - Kitap için [buraya][Road to learn react]
 - [Ücretli kurs][React Udemy - Ücretli]
+- [Başkalarının yaptığı demo'lu ve açık kaynaklı projeler][Açık kaynak react projeleri]
 
 ## Görsel Kaynaklar
 
@@ -36,6 +37,7 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 - [React Instagram Klonu][React Instagram Clone]
 - [React Instagram Klonu 2][React Instagram Clone 2]
 - [Nodejs React ve Redux ile Medium Klonu][Medium Clone]
+- [React ile yapılan uygulama örnekleri]
 
 [React Instagram Clone]: https://github.com/yedehrab/React-Instagram-Clone-2.0
 [React Instagram Clone 2]: https://github.com/hibiken/hackafy
@@ -46,3 +48,5 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 [Best free react courses for tutorials]: https://designrevision.com/best-free-react-tutorials-courses/
 [Road to learn react]: ../res/the-road-to-learn-react.pdf
 [React Udemy - Ücretli]: https://www.udemy.com/react-the-complete-guide-incl-redux/
+[Açık kaynak react projeleri]: https://react.rocks/
+[React ile yapılan uygulama örnekleri]: https://madewithreact.com/

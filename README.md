@@ -70,7 +70,9 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [Android](./Programlama%20Notlar%C4%B1/Android.md)
 - [Batch Script](./Programlama%20Notlar%C4%B1/Batch%20Script.md)
+- [C, C++ Notları](./Programlama%20Notlar%C4%B1/C%2C%20C%2B%2B%20Notlar%C4%B1.md)
 - [Genel Bilgiler](./Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
+- [IPython](./Programlama%20Notlar%C4%B1/IPython.md)
 - [JQuery](./Programlama%20Notlar%C4%B1/JQuery.md)
 - [Java](./Programlama%20Notlar%C4%B1/Java.md)
 - [Javascript](./Programlama%20Notlar%C4%B1/Javascript.md)
@@ -91,11 +93,12 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [1 - Python Giriş](./Programlama%20Notlar%C4%B1/Python/1%20-%20Python%20Giri%C5%9F.md)
 - [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
-- [4 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
-- [5 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
-- [6 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
-- [7 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [8 - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Harici%20Linkler.md)
+- [4 - Python'da String İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
+- [5 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
+- [6 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [7 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
+- [8 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20%C4%B0leri%20Seviye.md)
+- [9 - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20Harici%20Linkler.md)
 
 ## Proje Yönetimi Notları
 

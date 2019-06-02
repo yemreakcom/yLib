@@ -98,7 +98,8 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [6 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
 - [7 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [8 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [9 - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20Harici%20Linkler.md)
+- [9 - Pyton Verimli Kodlama](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Verimli%20Kodlama.md)
+- [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 
 ## Proje Yönetimi Notları
 

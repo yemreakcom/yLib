@@ -29,7 +29,6 @@
 - [7 Top Python GUI Frameworks][7 Top Python GUI Frameworks]
 - [Python __init__.py Dosyası][Python __init__.py Dosyası]
 
-
 ## Lisans ve Teferruatlar
 
 Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.

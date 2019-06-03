@@ -9,6 +9,8 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
 - [Kurulum Notları](#kurulum-notlar%C4%B1)
   - [Snapd Kurulum](#snapd-kurulum)
   - [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
+    - [Apt ile kurulum](#apt-ile-kurulum)
+    - [Dpkg ile Kurulum](#dpkg-ile-kurulum)
   - [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
   - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
   - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
@@ -87,10 +89,21 @@ Ubuntu yerel mağazasından yapılan indirmelerdir
 
 ### Dpkg - Debian Paket Kurma
 
+#### Apt ile kurulum
+
+```sh
+sudo apt install -f ./dosya.deb # Hatalı paketleri yenileyerek kurma (-f: --fix-broken)
+sudo apt autoremove # Artıkları temizleme
+```
+
+#### Dpkg ile Kurulum
+
 - `sudo dpkq -i deb_uzantılı.deb` (kurulumu başlatma)
 - `sudo apt-get install --fix-broken` (kurulum için gerekli paketleri kurma)
 - `sudo dpkq -i deb_uzantılı.deb` (kurulumu yeniden deneme)
 - `sudo apt-get autoremove` (gereksizleri kaldırma)
+
+> Kaynak için [buraya][Dpkg kurulumu] bakabilrisin.
 
 ### Tar dosyalarının kurulumları
 
@@ -173,3 +186,4 @@ Copy
 
 [Shell Script]: ../../Programlama%20Notlar%C4%B1%2FShell%20Script.md
 [Batch Script ile 'Yes/No' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490
+[Dpkg kurulumu]: https://unix.stackexchange.com/a/159114/344875

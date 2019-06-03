@@ -8,18 +8,21 @@
 
 Alttaki yapı yerine, bir sonraki yapıyı kullanarak daha **verimli ve anlaşılır** kod yazabilrisin 😊
 
+- Döngüde fazladan kontrolü engelleriz
+- Her seferin tüm değişkenlere bakmak yerine, ihtiyacımız olanlara bakarız
+
 ```py
 KOSUL1 = 1
 KOSUL2 = 1
 KOSUL3 = 0
 
-if "kosul1" in line:
+if KOSUL1 != 0 and "kosul1" in line:
     # yapılacaklar
     pass
-elif "kosul2" in line:
+elif KOSUL2 != 0 and "kosul2" in line:
     # yapılacaklar
     pass
-elif "kosul3" in line:
+elif KOSUL3 != 0 and "kosul3" in line:
     # yapılacaklar
     pass
 

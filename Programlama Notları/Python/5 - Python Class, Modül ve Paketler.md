@@ -15,6 +15,8 @@
       - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%C4%B1mlamas%C4%B1)
 - [Modüller](#mod%C3%BCller)
   - [Modül Kullanım Örnekleri](#mod%C3%BCl-kullan%C4%B1m-%C3%B6rnekleri)
+  - [Sık Kullanılan Modüller](#s%C4%B1k-kullan%C4%B1lan-mod%C3%BCller)
+    - [Random Modülü](#random-mod%C3%BCl%C3%BC)
   - [Python Modül Dosyaları](#python-mod%C3%BCl-dosyalar%C4%B1)
     - [Sistemin Python Modüllerine Bakma](#sistemin-python-mod%C3%BCllerine-bakma)
   - [Modül İçinde Tanımlanan İsimleri Alma](#mod%C3%BCl-i%CC%87%C3%A7inde-tan%C4%B1mlanan-i%CC%87simleri-alma)
@@ -201,6 +203,20 @@ from math import * # Modül içindeki her şeyi alma
 print("Pi: ", pi) # Pi: 3.141592653589793
 ```
 
+### Sık Kullanılan Modüller
+
+| Modül  | Odaklantığı İşlemler |
+| ------ | -------------------- |
+| math   | Matematiksel         |
+| random | Rastgele             |
+
+#### Random Modülü
+
+| Fonksiyon                         | Açıklama                                    |
+| --------------------------------- | ------------------------------------------- |
+| `randrange(<max>)`                | sayı <= `max`                               |
+| `randrange(<min>, <max>, <adım>)` | `min` <= sayı <= `max` (`adım` kadar artar) |
+
 ### Python Modül Dosyaları
 
 Modül dosyalarının aranma yerleri:
@@ -274,7 +290,7 @@ from Game.Level.start import select_difficulty
 
 ### Sık Kullanılan Paketler
 
-| Modül                                                                                          | Odaklantığı İşlemler |
+| Paket                                                                                          | Odaklantığı İşlemler |
 | ---------------------------------------------------------------------------------------------- | -------------------- |
 | [os](https://www.pythonforbeginners.com/os/pythons-os-module)                                  | İşletim sistemi      |
 | time                                                                                           | Zaman                |

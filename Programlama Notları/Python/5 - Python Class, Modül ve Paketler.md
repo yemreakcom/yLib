@@ -214,6 +214,7 @@ print("Pi: ", pi) # Pi: 3.141592653589793
 
 | Fonksiyon                         | Açıklama                                    |
 | --------------------------------- | ------------------------------------------- |
+| `random()`                        | 0 <= sayı <= 1 kesirli sayı                 |
 | `randrange(<max>)`                | sayı <= `max`                               |
 | `randrange(<min>, <max>, <adım>)` | `min` <= sayı <= `max` (`adım` kadar artar) |
 

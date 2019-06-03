@@ -5,10 +5,10 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Temel String İşlemleri](#temel-string-i%CC%87%C5%9Flemleri)
+- [String Fonksiyonları](#string-fonksiyonlar%C4%B1)
   - [String Üzerinde Karakter Değiştirme](#string-%C3%BCzerinde-karakter-de%C4%9Fi%C5%9Ftirme)
   - [String'in Karakterleri Ters Çevirme](#stringin-karakterleri-ters-%C3%A7evirme)
   - [String'in Kelimelerini Ters Çevirme](#stringin-kelimelerini-ters-%C3%A7evirme)
-- [String Fonksiyonları](#string-fonksiyonlar%C4%B1)
 - [String İçerisinde Metin Arama](#string-i%CC%87%C3%A7erisinde-metin-arama)
 - [String Üzerinde Sayma İşlemleri](#string-%C3%BCzerinde-sayma-i%CC%87%C5%9Flemleri)
   - [Metin karakterlerini sayma](#metin-karakterlerini-sayma)
@@ -30,6 +30,42 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 | `string[i:j]`   | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar             |
 | `string[-j:-i]` | `len-j`. eleman ve `len-i`. elemana kadar (`len-i` dahil değil) olanlar |
 
+## String Fonksiyonları
+
+Çok önemli ve ileride kullanılacak bir konudur. 🌟
+
+- `r` ök eki ile yazılan string daha hızlı işlenir
+- `replace` metodu en hızlı string değiştirme metodudur.
+  - `replace(...).replace(...)` ile çoklu değişim yapılması daha hızlıdır
+
+<!-- TODO linkleri ekle -->
+
+| Metot                   | Açıklama                 | Örnek                                  | Çıktı                 |
+| ----------------------- | ------------------------ | -------------------------------------- | --------------------- |
+| `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                   |
+| `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`        |
+| `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`       |
+| `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`              |
+| `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`           |
+| `"""`                   | Çok satırlı string       |
+| `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']` |
+| `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`       |
+| `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`          |
+| `split`                 | Yeniden formatlama       | `"Selam ben".split(" ")`               | `["Selam", "Ben"]`    |
+| `find`                  | Karakter indeksini bulma | `"yemreak".find('e')`                  | `1` (yoksa `-1`)      |
+| `replace`               | Metin değiştirme         | `"yemreak".replace("ak", "")`          | `'yemre'`             |
+| `strip`                 | Metin düzeltme           | `' abc '.strip()`                      | `'abc'`               |
+| `ltrip`                 | Metnin solunu düzeltme   | `' abc '.ltrip()`                      | `'abc '`              |
+| `rtrip`                 | Metnin sağını düzeltme   | `' abc '.rtrip()`                      | `' abc'`              |
+| `sort`                  | Metni sıralama           | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`     |
+
+> Ek kaynaklar:
+>
+> - Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin
+> - Slice hakkında ek bilgi için [buraya][Slice - Stackoverflow] bakabilirsin
+> - String değiştirme hızları kıyaslaması için [buraya][String değiştirme hızları] bakabilirsin
+
+
 ### String Üzerinde Karakter Değiştirme
 
 Stringler `string[i] = char` yapısını desteklemez, alttaki yöntem gibi işlemler kullanılır
@@ -42,15 +78,6 @@ def change_char(string, i, char):
         return string[:i]+char+string[i+1:]
     else:
         return string[:i]+char
-```
-
-**List yapısı ile:**
-
-```py
-def change_char(string, i, char):
-    string = list[string]
-    string[i] = char
-    return string.join("")
 ```
 
 ### String'in Karakterleri Ters Çevirme
@@ -74,41 +101,6 @@ def reverse_word(sentence):
 
     return sentence[:-1] # Sondaki, fazladan ' ' karakteri kaldırılıyor
 ```
-
-## String Fonksiyonları
-
-Çok önemli ve ileride kullanılacak bir konudur. 🌟
-
-- `r` ök eki ile yazılan string daha hızlı işlenir
-- `replace` metodu en hızlı string değiştirme metodudur.
-  - `replace(...).replace(...)` ile çoklu değişim yapılması daha hızlıdır
-
-<!-- TODO linkleri ekle -->
-
-| Metot                   | Açıklama                 | Örnek                                  | Çıktı                  |
-| ----------------------- | ------------------------ | -------------------------------------- | ---------------------- |
-| `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                    |
-| `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`         |
-| `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`        |
-| `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`               |
-| `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`            |
-| `"""`                   | Çok satırlı string       |
-| `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']`  |
-| `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`        |
-| `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`           |
-| `split & join`          | Yeniden formatlama       | `arr.split("\t").join("|")`            | `'İsim|Soyisim|Numara` |
-| `find`                  | Karakter indeksini bulma | `"yemreak".find('e')`                  | `1` (yoksa `-1`)       |
-| `replace`               | Metin değiştirme         | `"yemreak".replace("ak", "")`          | `'yemre'`              |
-| `strip`                 | Metin düzeltme           | `' abc '.strip()`                      | `'abc'`                |
-| `ltrip`                 | Metnin solunu düzeltme   | `' abc '.ltrip()`                      | `'abc '`               |
-| `rtrip`                 | Metnin sağını düzeltme   | `' abc '.rtrip()`                      | `' abc'`               |
-| `sort`                  | Metni sıralama           | `['n', 'a', 'i']`                      | `['a', 'i', 'n']`      |
-
-> Ek kaynaklar:
->
-> - Daha fazla bilgi için [buraya](https://www.programiz.com/python-programming/methods/string) ve [buraya](https://stackoverflow.com/questions/10660435/pythonic-way-to-create-a-long-multi-line-string) bakabilirsin
-> - Slice hakkında ek bilgi için [buraya][Slice - Stackoverflow] bakabilirsin
-> - String değiştirme hızları kıyaslaması için [buraya][String değiştirme hızları] bakabilirsin
 
 ## String İçerisinde Metin Arama
 

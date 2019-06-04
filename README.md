@@ -51,6 +51,14 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 <!--Index-->
 
+## Google Yazılımları
+
+- [Chrome](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Chrome.md)
+- [Drive Notları](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Drive%20Notlar%C4%B1.md)
+- [Google Colabrotory](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Google%20Colabrotory.md)
+- [Google Hacking](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Google%20Hacking.md)
+- [Google Notları](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Google%20Notlar%C4%B1.md)
+
 ## Günlük Hayat Notları
 
 - [Aydınlatma](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Ayd%C4%B1nlatma.md)
@@ -62,7 +70,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [Bağlı eli çözme](./Karma%20Bilgiler/Ba%C4%9Fl%C4%B1%20eli%20%C3%A7%C3%B6zme.mp4)
 - [CV Notları](./Karma%20Bilgiler/CV%20Notlar%C4%B1.md)
-- [Drive Notları](./Karma%20Bilgiler/Drive%20Notlar%C4%B1.md)
 - [Renk Kodları](./Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
 
@@ -71,6 +78,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Android](./Programlama%20Notlar%C4%B1/Android.md)
 - [Batch Script](./Programlama%20Notlar%C4%B1/Batch%20Script.md)
 - [C, C++ Notları](./Programlama%20Notlar%C4%B1/C%2C%20C%2B%2B%20Notlar%C4%B1.md)
+- [Excel](./Programlama%20Notlar%C4%B1/Excel.md)
 - [Genel Bilgiler](./Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
 - [IPython](./Programlama%20Notlar%C4%B1/IPython.md)
 - [JQuery](./Programlama%20Notlar%C4%B1/JQuery.md)
@@ -118,7 +126,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 ## Uygulama Notları
 
 - [Anaconda](./Uygulama%20Notlar%C4%B1/Anaconda.md)
-- [Chrome](./Uygulama%20Notlar%C4%B1/Chrome.md)
 - [JetBrains IDE](./Uygulama%20Notlar%C4%B1/JetBrains%20IDE.md)
 - [LGSV Simulator](./Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
 - [Uygulamalar](./Uygulama%20Notlar%C4%B1/Uygulamalar.md)
@@ -136,8 +143,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [Adb Komutları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Adb%20Komutlar%C4%B1.md)
 - [GittiGidiyor Entegrasyon](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/GittiGidiyor%20Entegrasyon.md)
-- [Google Colabrotory](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Colabrotory.md)
-- [Google Hacking](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Google%20Hacking.md)
 - [Karma Notlar](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Karma%20Notlar.md)
 - [Lisanslar](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Lisanslar.md)
 - [OpenCart](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCart.md)
@@ -172,6 +177,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [1 - Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
 - [2 - Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
 - [3 - Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
+- [X - Linux Uygulamaları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Uygulamalar%C4%B1.md)
 
 ### Windows 10
 

@@ -287,7 +287,7 @@ Değişkenlerin kullanım şekilleri:
     // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
     "editor.fontFamily": "Fira Code, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
     "editor.fontLigatures": true,
-    "editor.fontSize": 13.3,
+    "editor.fontSize": 13.1,
     "terminal.integrated.fontSize": 13,
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",

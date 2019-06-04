@@ -63,7 +63,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 | `echo "<metin>" > <dosya_yolu>`              | Verilen metni dosyanın üzerine yazma, yoksa dosyayı oluşturma |
 | `echo "<metin>" >> <dosya_yolu>`             | Verilen metni dosyaya ekleme                                  |
 | `sudo bash -c echo "<metin>" > <root_dosya>` | Root dosyasının üzerine yazma, yoksa dosyayı oluşturma        |
-| `@Echo off`                                  | Çıktıları gizleme                                             |
+| `<komut> &> /dev/null`                       | Çıktıları gizleme                                             |
 
 > `>` ile yapılan yönlendirme işlemleri `echo` tarafından değil `shell` tarafından yapılır. Yetki sorunları olursa `echo`'ya değil `shell`'e yetki verilmelidir.
 

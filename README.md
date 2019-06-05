@@ -11,7 +11,7 @@ Karma konular hakkında aldığım notlar.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ayrılan Notlarım 😢](#ayr%C4%B1lan-notlar%C4%B1m-%F0%9F%98%A2)
+- [Ayrılan Notlarım](#ayr%C4%B1lan-notlar%C4%B1m)
   - [IstanbulUniversity - CE](#istanbuluniversity---ce)
   - [Scipts](#scipts)
 - [Google Yazılımları](#google-yaz%C4%B1l%C4%B1mlar%C4%B1)
@@ -35,7 +35,7 @@ Karma konular hakkında aldığım notlar.
   - [İçerik Yapısı](#i%CC%87%C3%A7erik-yap%C4%B1s%C4%B1)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
-## Ayrılan Notlarım 😢
+## Ayrılan Notlarım
 
 ### IstanbulUniversity - CE
 

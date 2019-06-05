@@ -36,7 +36,7 @@ Karma konular hakkında aldığım notlar.
 
 ## IstanbulUniversity - CE
 
-Ders notları için ayrı bir [repository][İÜ-CE Ders Notları] hazırlandı. Yeni *repositoy* açılma amacı:
+Ders notları için ayrı bir [repository][IstanbulUniversity-CE] hazırlandı. Yeni *repositoy* açılma amacı:
 
 - Katkıda bulunmayı kolaylaştırma 🙏
 - Bilgilerin daha net olabilmesi 🗽
@@ -195,8 +195,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Yaratıcı Fikirler için Tasarımlar](https://www.behance.net/)
 - [Açık API listesi][Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]
 
-[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
-
 ## Yapılacaklar
 
 - [ ] İçerikleri kullanabilitesine göre sırala (Tıklamaları sayıp, çok tıklananı yukarı al vs.)
@@ -264,3 +262,7 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 > Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github) geçebilrsiniz 🤗
 
 ~ Yunus Emre Ak
+
+[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
+[IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE
+[Scripts]: https://github.com/yedhrab/YScripts

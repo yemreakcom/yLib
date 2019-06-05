@@ -11,8 +11,9 @@ Karma konular hakkında aldığım notlar.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [IstanbulUniversity - CE](#istanbuluniversity---ce)
-- [Scipts](#scipts)
+- [Ayrılan Notlarım 😢](#ayr%C4%B1lan-notlar%C4%B1m-%F0%9F%98%A2)
+  - [IstanbulUniversity - CE](#istanbuluniversity---ce)
+  - [Scipts](#scipts)
 - [Google Yazılımları](#google-yaz%C4%B1l%C4%B1mlar%C4%B1)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
 - [Karma Bilgiler](#karma-bilgiler)
@@ -34,7 +35,9 @@ Karma konular hakkında aldığım notlar.
   - [İçerik Yapısı](#i%CC%87%C3%A7erik-yap%C4%B1s%C4%B1)
 - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
-## IstanbulUniversity - CE
+## Ayrılan Notlarım 😢
+
+### IstanbulUniversity - CE
 
 Ders notları için ayrı bir [repository][IstanbulUniversity-CE] hazırlandı. Yeni *repositoy* açılma amacı:
 
@@ -42,7 +45,7 @@ Ders notları için ayrı bir [repository][IstanbulUniversity-CE] hazırlandı. 
 - Bilgilerin daha net olabilmesi 🗽
 - Vs vs. 😒
 
-## Scipts
+### Scipts
 
 Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *repositoy* açılma amacı:
 

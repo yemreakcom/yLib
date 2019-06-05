@@ -23,8 +23,10 @@ Unix işletim sistemlerinin ortak programlama dilidir.
     - [Alt Dizinler Dahil](#alt-dizinler-dahil)
 - [Fonksiyonlar](#fonksiyonlar)
   - [Fonksiyonların Kullanımı](#fonksiyonlar%C4%B1n-kullan%C4%B1m%C4%B1)
+  - [Parametreler](#parametreler)
   - [Parametreli Fonksiyonlar](#parametreli-fonksiyonlar)
 - [Dosya İşlemleri](#dosya-i%CC%87%C5%9Flemleri)
+  - [Kontrol Bayrakları](#kontrol-bayraklar%C4%B1)
   - [Dosya Okuma](#dosya-okuma)
   - [Dosyadan URL ile İndirme](#dosyadan-url-ile-i%CC%87ndirme)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
@@ -147,6 +149,10 @@ done
 ## İf-Else Yapısı
 
 Temel açıklamaya [buradan][If Else Yapısı] erişebilirsin.
+
+```sh
+[ $1 ] || { echo "Usage: $0 file1.wma file2.wma"; exit 1; } # 1.parametre yoksa çıkma
+```
 
 ## For Döngüsü
 
@@ -272,6 +278,13 @@ echo $? # Return değeri '$?' olarak tanımlanır. Hello basar
 
 > Temel fonksiyon kaynağı için [buraya][Temel Fonksiyonlar] bakabilirsin.
 
+### Parametreler
+
+- `$1` 1. parametre
+- `$2` 2. parametre
+- `$0` Fonksiyonun ismi
+- `$@` Tüm parametreler (dizi)
+
 ### Parametreli Fonksiyonlar
 
 ```sh
@@ -286,6 +299,17 @@ fonksiyon arguman1 arguman2 # 1. arguman1, 2. arguman2
 ```
 
 ## Dosya İşlemleri
+
+### Kontrol Bayrakları
+
+Kullanım şekli `[ <bayrak> <string> ]`
+
+- `[ -f "$1" ] || {echo "$1 dosyadır"}`
+
+| Bayrak | Açıklama                   |
+| ------ | -------------------------- |
+| `-f`   | Dosya kontrolü (File)      |
+| `-d`   | Dizin kontrolü (Directory) |
 
 ### Dosya Okuma
 

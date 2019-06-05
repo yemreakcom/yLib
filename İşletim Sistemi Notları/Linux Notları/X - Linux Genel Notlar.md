@@ -6,6 +6,9 @@
   - [Telefon ile PC Arasında Dosya Paylaşımı](#telefon-ile-pc-aras%C4%B1nda-dosya-payla%C5%9F%C4%B1m%C4%B1)
 - [Uygulama Notları](#uygulama-notlar%C4%B1)
   - [Gedit Metin Editörü](#gedit-metin-edit%C3%B6r%C3%BC)
+  - [FFMPEG](#ffmpeg)
+    - [MP4'ü MP3'e çevirme](#mp4%C3%BC-mp3e-%C3%A7evirme)
+    - [MP3 Sıkıştırma](#mp3-s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma)
 
 ## Dosya Paylaşımı
 
@@ -36,3 +39,31 @@
 | `Modelica`        | `ini`, `cfg`, `config` |
 
 [Share Music & Transfer Files - Mi Drop]: https://play.google.com/store/apps/details?id=com.xiaomi.midrop
+
+### FFMPEG
+
+#### MP4'ü MP3'e çevirme
+
+**FFmpeg with Constant Bitrate Encoding (CBR):**
+
+```sh
+ffmpeg -i video.mp4 -vn \
+    -acodec libmp3lame -ac 2 -ab 160k -ar 48000 \
+    audio.mp3
+```
+
+**FFmpeg with Variable Bitrate Encoding (VBR):**
+
+```sh
+ffmpeg -i video.mp4 -vn \
+    -acodec libmp3lame -ac 2 -qscale:a 4 -ar 48000 \
+    audio.mp3
+```
+
+> The VBR example has a target bitrate of 165 Kbit/s with a bitrate range of 140...185. [Kaynak](https://askubuntu.com/a/84633/898692)
+
+#### MP3 Sıkıştırma
+
+```sh
+ffmpeg -i input.file -map 0:a:0 -b:a 96k output.mp3
+```

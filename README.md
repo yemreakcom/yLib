@@ -121,12 +121,13 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Heroku Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
 - [Proje Yönetimi](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
 
-## Teknolojik Alet Notları
+## Teknoloji Notları
 
-- [HP Bilgisayar Notları](./Teknolojik%20Alet%20Notlar%C4%B1/HP%20Bilgisayar%20Notlar%C4%B1.md)
-- [HTC Desire 820](./Teknolojik%20Alet%20Notlar%C4%B1/HTC%20Desire%20820.md)
-- [Telefon Rehberini Taşıma](./Teknolojik%20Alet%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1ma.md)
-- [Xiaomi Mi A2 Lite](./Teknolojik%20Alet%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Lite.md)
+- [Genel Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/Genel%20Teknoloji%20Notlar%C4%B1.md)
+- [HP Bilgisayar Notları](./Teknoloji%20Notlar%C4%B1/HP%20Bilgisayar%20Notlar%C4%B1.md)
+- [HTC Desire 820](./Teknoloji%20Notlar%C4%B1/HTC%20Desire%20820.md)
+- [Telefon Rehberini Taşıma](./Teknoloji%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1ma.md)
+- [Xiaomi Mi A2 Lite](./Teknoloji%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Lite.md)
 
 ## Uygulama Notları
 

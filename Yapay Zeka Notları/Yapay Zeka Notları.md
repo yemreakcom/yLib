@@ -2,6 +2,8 @@
 
 Python ile derin öğrenme notlarım.
 
+<!-- TODO: YTensorflow'a taşı -->
+
 ## İçerikler <!-- omit in toc -->
 
 - [Cloud Destekleri](#cloud-destekleri)

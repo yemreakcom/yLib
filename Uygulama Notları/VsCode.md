@@ -27,6 +27,8 @@
     - [Linux Klavye Kısayolları](#linux-klavye-k%C4%B1sayollar%C4%B1)
   - [Editör JSON Ayarlarım](#edit%C3%B6r-json-ayarlar%C4%B1m)
   - [Editör Eklentilerim](#edit%C3%B6r-eklentilerim)
+    - [Python için Eklentiler](#python-i%C3%A7in-eklentiler)
+- [Eski Ayarlarım](#eski-ayarlar%C4%B1m)
   - [Java Ayarları](#java-ayarlar%C4%B1)
   - [Code Runner Ayarları](#code-runner-ayarlar%C4%B1)
     - [Code Runner Kısayollar](#code-runner-k%C4%B1sayollar)
@@ -240,6 +242,14 @@ Değişkenlerin kullanım şekilleri:
         "key": "ctrl+oem_7",
         "command": "markdown.extension.editing.toggleItalic",
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
     }
 ]
 ```
@@ -247,7 +257,6 @@ Değişkenlerin kullanım şekilleri:
 #### Linux Klavye Kısayolları
 
 ```json
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
@@ -264,6 +273,14 @@ Değişkenlerin kullanım şekilleri:
     {
         "key": "ctrl+[KeyI] ctrl+o",
         "command": "git.checkout"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
     }
 ]
 ```
@@ -314,18 +331,24 @@ Değişkenlerin kullanım şekilleri:
 
 ### Editör Eklentilerim
 
-- [Deepdark Material Theme]
-- [Markdown All in One]
 - [WakaTime]
+- [Deepdark Material Theme]
+- [Material Icon Theme]
+- [Markdown All in One]
 - [Markdown PDF]
 - [markdownlint]
-- [Material Icon Theme]
 - [Better Comments]
 - [Todo Tree]
-- [Python]
+
+#### Python için Eklentiler
+
+- [kite](https://marketplace.visualstudio.com/items?itemName=kiteco.kite)
 - [autoDocstring]
-- [Visual Studio IntelliCode - Preview]
+- [Python]
 - [AREPL For Python]
+- [Visual Studio IntelliCode - Preview]
+
+## Eski Ayarlarım
 
 ### Java Ayarları
 

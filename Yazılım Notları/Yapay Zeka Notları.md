@@ -1,7 +1,6 @@
 # Yapay Zeka Notları <!-- omit in toc -->
 
-<!-- 
-TODO: Buradaki kaynaktan verileri aktar
+<!--TODO: Buradaki kaynaktan verileri aktar
 https://www.yemreak.com/p/python.html
  -->
 

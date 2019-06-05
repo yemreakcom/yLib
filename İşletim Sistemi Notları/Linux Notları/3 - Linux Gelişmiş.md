@@ -2,6 +2,7 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Dosya içeriğinden Türünü Bulma](#dosya-i%C3%A7eri%C4%9Finden-t%C3%BCr%C3%BCn%C3%BC-bulma)
 - [Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)](#%C3%A7al%C4%B1%C5%9Fma-alanlar%C4%B1n%C4%B1-ba%C4%9F%C4%B1ms%C4%B1zla%C5%9Ft%C4%B1rma-isolate-workspace)
 - [Dosya İzinleri](#dosya-i%CC%87zinleri)
   - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
@@ -33,6 +34,15 @@
 - [Bashrc Dosyası Yedeği](#bashrc-dosyas%C4%B1-yede%C4%9Fi)
 - [Kernel Güncelleme](#kernel-g%C3%BCncelleme)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+
+## Dosya içeriğinden Türünü Bulma
+
+| Satr Metni              | Açıklama                      |
+| ----------------------- | ----------------------------- |
+| `!`                     | Çalıştırılabilir (executable) |
+| `#!/bin/bash`           | Bash script                   |
+| `#usr/bin/env xdg-open` | Desktop uygulamaları          |
+| `#!/usr/bin/python`     | Python dosyaları              |
 
 ## Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)
 
@@ -381,6 +391,7 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 - [Uygulamalar için neden sudo -h kullanılmalı]
 - [Ubuntu soluk renk]
 - [Ubuntu 19.04 yenilikleri]
+- [Linux bilgisayarlarını birbirine bağlama](https://www.maketecheasier.com/netcat-transfer-files-between-linux-computers/)
 
 [Kernel Güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
 [Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/

@@ -13,6 +13,7 @@ Karma konular hakkında aldığım notlar.
 
 - [IstanbulUniversity - CE](#istanbuluniversity---ce)
 - [Scipts](#scipts)
+- [Google Yazılımları](#google-yaz%C4%B1l%C4%B1mlar%C4%B1)
 - [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
 - [Karma Bilgiler](#karma-bilgiler)
 - [Programlama Notları](#programlama-notlar%C4%B1)
@@ -68,6 +69,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## Karma Bilgiler
 
+- [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
 - [Bağlı eli çözme](./Karma%20Bilgiler/Ba%C4%9Fl%C4%B1%20eli%20%C3%A7%C3%B6zme.mp4)
 - [CV Notları](./Karma%20Bilgiler/CV%20Notlar%C4%B1.md)
 - [Renk Kodları](./Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
@@ -177,7 +179,8 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [1 - Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
 - [2 - Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
 - [3 - Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
-- [X - Linux Uygulamaları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Uygulamalar%C4%B1.md)
+- [4 - Linux Terminal İndiricileri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4%20-%20Linux%20Terminal%20%C4%B0ndiricileri.md)
+- [X - Linux Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Genel%20Notlar.md)
 
 ### Windows 10
 
@@ -209,7 +212,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
   - [ ] Harici bağlantılar yapısı: `[link_name]` [link_name]:link`
   - [ ] Metnin en altına eklenecek
 - [ ] Butonlar `<kbd>buton</kbd>` formatına alınacak
-- [ ] 🌐📃📺 Döküman yapısı eklenecek
 - [ ] Tablolara ☆ favori özellği eklenecek
 - [ ] Konu ve kaynakları için dizinler oluşturalaca
   - [ ] Ders Notları/Software Enginnering/README.md

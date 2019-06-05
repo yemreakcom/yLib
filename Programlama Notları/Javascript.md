@@ -1,7 +1,5 @@
 # Javascript <!-- omit in toc -->
 
-<!-- TODO Javascript DOM'u taşınabilir -->
-
 ## İçerikler <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.

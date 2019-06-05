@@ -4,6 +4,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 
 ## İçerikler <!-- omit in toc -->
 
+- [Önemli Bilgiler](#%C3%B6nemli-bilgiler)
 - [Temel Operatörler](#temel-operat%C3%B6rler)
 - [Bash Komutu](#bash-komutu)
 - [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
@@ -27,6 +28,12 @@ Unix işletim sistemlerinin ortak programlama dilidir.
   - [Dosya Okuma](#dosya-okuma)
   - [Dosyadan URL ile İndirme](#dosyadan-url-ile-i%CC%87ndirme)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+
+## Önemli Bilgiler
+
+- `sh` uzantılı dosyalara yazılırlar
+- Dosyanın ilk satırına *shell script* olduğunu belli etmesi için `#!/bin/bash` yazılır
+- Terminal üzerinden `bash <dosya>` olarak çalıştırılabilirler
 
 ## Temel Operatörler
 

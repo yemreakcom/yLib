@@ -88,17 +88,11 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [IPython](./Programlama%20Notlar%C4%B1/IPython.md)
 - [JQuery](./Programlama%20Notlar%C4%B1/JQuery.md)
 - [Java](./Programlama%20Notlar%C4%B1/Java.md)
-- [Javascript](./Programlama%20Notlar%C4%B1/Javascript.md)
 - [Kotlin](./Programlama%20Notlar%C4%B1/Kotlin.md)
 - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
-- [Nodejs Çok Kullanılan Kütüphaneler](./Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler.md)
-- [Nodejs](./Programlama%20Notlar%C4%B1/Nodejs.md)
-- [Php](./Programlama%20Notlar%C4%B1/Php.md)
-- [React](./Programlama%20Notlar%C4%B1/React.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Unity](./Programlama%20Notlar%C4%B1/Unity.md)
-- [Web Programlama](./Programlama%20Notlar%C4%B1/Web%20Programlama.md)
 
 ### Python
 
@@ -114,11 +108,20 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [9 - Pyton Verimli Kodlama](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Verimli%20Kodlama.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 
+### Web Programlama Notları
+
+- [Heroku Notları](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
+- [Javascript](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Javascript.md)
+- [Nodejs Çok Kullanılan Kütüphaneler](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler.md)
+- [Nodejs](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Nodejs.md)
+- [Php](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Php.md)
+- [React](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/React.md)
+- [Web Programlama](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Web%20Programlama.md)
+
 ## Proje Yönetimi Notları
 
 - [Git Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1.md)
 - [Github Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
-- [Heroku Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
 - [Proje Yönetimi](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
 
 ## Teknoloji Notları

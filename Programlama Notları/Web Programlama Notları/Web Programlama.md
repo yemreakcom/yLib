@@ -42,6 +42,7 @@ Web otomasyonu için selenium ide kullanılmaktadır.
 
 ## Karma Linkler
 
+- [Netlify](https://app.netlify.com) & [Heroku](https://www.heroku.com/) ücretsiz github entegrasyonlu site sunucuları
 - [CSS Psudo Sınıfları ve Elemanları](https://fatihhayrioglu.com/pseudo-siniflari-ve-pseudo-elementleri/) (*after, before vs.*)
 - [Responsive Circle](https://codeitdown.com/css-circles/) | Bootstrap
 - [Resimden renk kodunu alma](https://html-color-codes.info/colors-from-image/)

@@ -77,7 +77,7 @@ port = process.env.PORT || 5000
 
 ### Bu komutların çalışması için heroku-cli'nin yüklü olması lazım
 
-```cmd 
+```sh
 npm install -g heroku
 ```
 
@@ -98,8 +98,8 @@ heroku git:clone -a [herokudaki uygulama adı] [kopyalanacağı dizin yolu]
 cd [kopyalanacağı dizin yolu]
 ```
 
-* herokudaki uygulama adı: mytempsite
-* kopyalanacağı dizin yolu: C:\Desktop\Temp
+- herokudaki uygulama adı: mytempsite
+- kopyalanacağı dizin yolu: C:\Desktop\Temp
 
 > Heroku'da bulunan uygulamayı istediğimiz dizinin içine kopyalıyoruz. Sonrasında kopyalama işleminin olduğu dizine giriyoruz.
 

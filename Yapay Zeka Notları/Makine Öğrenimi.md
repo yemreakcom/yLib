@@ -7,6 +7,7 @@
 - [Yönlendirici ve Eğitici Kaynaklar](#y%C3%B6nlendirici-ve-e%C4%9Fitici-kaynaklar)
 - [Yapılmış Çalışmalar Linkler](#yap%C4%B1lm%C4%B1%C5%9F-%C3%A7al%C4%B1%C5%9Fmalar-linkler)
 - [Faydalı PDF'ler](#faydal%C4%B1-pdfler)
+- [Takip Edilmesi Gereken Kişiler veya Topluluklar](#takip-edilmesi-gereken-ki%C5%9Filer-veya-topluluklar)
 
 ## Yönlendirici ve Eğitici Kaynaklar
   
@@ -32,6 +33,10 @@
 - [Importance of Including Practical Machine Learning]
 - [Improving of Personal Educational Content Using]
 - [Machine Learning Model for Analyzing Learning]
+
+## Takip Edilmesi Gereken Kişiler veya Topluluklar
+
+- [Nabih Ibrahim Bawazir](https://www.linkedin.com/in/nabihbawazir/detail/recent-activity/shares/)
 
 <!-- Yönlendirici ve Eğiti Kaynaklar -->
 [ML Cheat Sheet]: ../res%2Fmicrosoft-machine-learning-algorithm-cheat-sheet-v7.pdf

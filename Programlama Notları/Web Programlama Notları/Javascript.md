@@ -4,6 +4,7 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
+- [Ön Bilgi](#%C3%B6n-bilgi)
 - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
 - [Tarih İşlemleri](#tarih-i%CC%87%C5%9Flemleri)
   - [Türkçe Tarih Alma](#t%C3%BCrk%C3%A7e-tarih-alma)
@@ -31,6 +32,12 @@
 - [Objedeki Değer ile Anahtarını Bulma](#objedeki-de%C4%9Fer-ile-anahtar%C4%B1n%C4%B1-bulma)
 - [Latex Ayrıştırma](#latex-ayr%C4%B1%C5%9Ft%C4%B1rma)
 - [Harici Kaynaklar](#harici-kaynaklar)
+
+## Ön Bilgi
+
+Python ve Javascript en popüler diller arasındadır.
+
+> Aralarındaki kıyaslama için [buraya][Python vs Javascript] bakabilirisin.
 
 ## String İşlemleri
 
@@ -483,6 +490,8 @@ function getKeyByValue(object, value) {
 - [Js gün işlemleri]
 - [10 Js Extension for Vscode]
 - [Js throws]
+
+[Python vs Javascript]: https://www.educba.com/python-vs-javascript/
 
 [Wait Function]: https://hackernoon.com/lets-make-a-javascript-wait-function-fa3a2eb88f11
 [Sayfanın en altına inmek]: https://stackoverflow.com/a/11715670

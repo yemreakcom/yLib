@@ -31,6 +31,10 @@
 
 ## Python ile Programlamaya Hazırlanma
 
+Python ve Javascript en popüler diller arasındadır.
+
+> Aralarındaki kıyaslama için [buraya][Python vs Javascript] bakabilirisin.
+
 ### Yazım Kuralları
 
 Orjinal dökümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/) bakabilirsin.
@@ -299,6 +303,8 @@ Alttaki metodlarla programı sonlandırabilirsin.
 - `sys.exit(<mesaj>)`
 
 <!-- ## Harici Bağlantılar -->
+
+[Python vs Javascript]: https://www.educba.com/python-vs-javascript/
 
 [List]: https://www.programiz.com/python-programming/list
 [Set]: https://www.programiz.com/python-programming/set

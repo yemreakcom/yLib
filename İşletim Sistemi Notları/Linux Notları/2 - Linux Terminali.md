@@ -6,6 +6,7 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
 
 - [Terminal Numaları](#terminal-numalar%C4%B1)
 - [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
+  - [Sudo Komutları](#sudo-komutlar%C4%B1)
 - [Kurulum Notları](#kurulum-notlar%C4%B1)
   - [Snapd Kurulum](#snapd-kurulum)
   - [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
@@ -72,6 +73,21 @@ Detalar için [buraya](https://gist.github.com/sayz/1130312/a45b548b82ee459e05a9
 - `sudo apt-get purge <paket_adi>*` Bulunan dizinde paket ile başlayan tüm paketleri kaldırma
 - `sudo apt-get purge '<paket_adi>*'` paket ile başlayan tüm paketleri ve alt bileşenlerini kaldırma
 - `sudo apt-cache search <paket_adi>` Depoda paketadi arama işlemi
+
+### Sudo Komutları
+
+| Komut          | Açıklama                                                     |
+| -------------- | ------------------------------------------------------------ |
+| `search`       | search in package descriptions                               |
+| `show`         | show package details                                         |
+| `install`      | install packages                                             |
+| `reinstall`    | reinstall packages                                           |
+| `remove`       | remove packages                                              |
+| `autoremove`   | Remove automatically all unused packages                     |
+| `update`       | update list of available packages                            |
+| `upgrade`      | upgrade the system by installing/upgrading packages          |
+| `full-upgrade` | upgrade the system by removing/installing/upgrading packages |
+| `edit-sources` | edit the source information file                             |
 
 ## Kurulum Notları
 

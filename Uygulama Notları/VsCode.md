@@ -3,19 +3,19 @@
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [VsCode kısayolları](#vscode-k%C4%B1sayollar%C4%B1)
+  - [Hızlı Notlar](#h%C4%B1zl%C4%B1-notlar)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
   - [İmleç Kısayolalrı](#i%CC%87mle%C3%A7-k%C4%B1sayolalr%C4%B1)
   - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
   - [Editör Kısayolları](#edit%C3%B6r-k%C4%B1sayollar%C4%B1)
   - [Görünüm Kısayolları](#g%C3%B6r%C3%BCn%C3%BCm-k%C4%B1sayollar%C4%B1)
 - [Faydalı Eklentiler](#faydal%C4%B1-eklentiler)
+  - [Proje Yönetimi Eklentileri](#proje-y%C3%B6netimi-eklentileri)
   - [Verimlilik Eklentileri](#verimlilik-eklentileri)
-  - [Farkındalık Eklentileri](#fark%C4%B1ndal%C4%B1k-eklentileri)
   - [Görsellik Eklentileri](#g%C3%B6rsellik-eklentileri)
   - [Programlama Eklentileri](#programlama-eklentileri)
     - [Web Programlama Eklentileri](#web-programlama-eklentileri)
     - [Javascript - Nodejs Eklentileri](#javascript---nodejs-eklentileri)
-  - [Proje Yönetimi Eklentileri](#proje-y%C3%B6netimi-eklentileri)
   - [Yapılandırma Eklentileri](#yap%C4%B1land%C4%B1rma-eklentileri)
   - [Dökümantasyon Eklentileri](#d%C3%B6k%C3%BCmantasyon-eklentileri)
 - [Editör ayarları](#edit%C3%B6r-ayarlar%C4%B1)
@@ -42,16 +42,23 @@
 
 PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) bakabilirsin.
 
+> [Vscode ipuçları](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_files-and-folders)
+
+### Hızlı Notlar
+
+- [Snipped](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_snippets)
+
 ### Aksiyon Penceresi
 
 `CTRL` + `P` ile aksiyon penceresiini erişebilirsiniz.
 
-| Kısayol | Açıklama                |
-| ------- | ----------------------- |
-| `#`     | Çalışma dizininde arama |
-| `>`     | Komutlarda arama        |
-| `:`     | Satıra yönelme          |
-| `?`     | Yardım                  |
+| Kısayol    | Açıklama                                             |
+| ---------- | ---------------------------------------------------- |
+| `#`        | Çalışma dizininde arama                              |
+| `@` & `@:` | Dosya içerisnde sembole özgü arama (gruplu gösterme) | <kbd> CTRL </kbd> + <kbd> SHIFT </kbd> + <kbd> O </kbd> |
+| `>`        | Komutlarda arama                                     |
+| `:`        | Satıra yönelme                                       |
+| `?`        | Yardım                                               |
 
 ### İmleç Kısayolalrı
 
@@ -61,6 +68,8 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 ### Metin Kısayolları
 
+- temszlik
+- comfortble
 - <kbd>CTRL</kbd> + <kbd>D</kbd> Kelimeyi seçme
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
@@ -87,25 +96,30 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 ## Faydalı Eklentiler
 
+### Proje Yönetimi Eklentileri
+
+| Eklenti                                                                                                                | Açıklama                                        |
+| ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)                        | Anlık olarak kod paylaşma                       |
+| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                                 | Yapılacakları gösteren arayüz                   |
+| [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager)            | Proje kısayolları, sık kullanılanlar vs.        |
+| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                      | Git yönetimi arayüzü                            |
+| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                             | Git commit geçmişini gösterir                   |
+| [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)                              | Docker sanal makinesi için uyumluluk            |
+| [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) | Uzak bilgisayarlarda metni VsCode ile açma      |
+| [GitBlame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)                                      | Satırların en son ne zaman değiştiğini gösterir |
+
 ### Verimlilik Eklentileri
 
 | Eklenti                                                                                                         | Açıklama                                        |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Scratchpad                                                                                                      | Anlık derleyiciler                              |
-| [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)               | Spotify ile müzik desteği                       |
-| [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)            | Kısayollar üzerine bir eklenti                  |
-| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | İmla kontrolü                                   |
-| [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                          | Yapılacakları gösteren arayüz                   |
-| [Emoji](https://marketplace.visualstudio.com/items?itemName=Perkovec.emoji)                                     | Komutla emoji ekleme                            |
+| [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)                        | Kodlama başında geçen vakti raporlar            |
 | [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)           | Klavye üzerinden dosya işlemleri                |
+| [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | İmla kontrolü                                   |
+| [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)               | Spotify ile müzik desteği                       |
 | [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)              | Tag'ları otomatik kapatma                       |
 | [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)            | Tag'ların biri değişirse, diğeri de güncellenir |
-
-### Farkındalık Eklentileri
-
-| Eklenti                                                                                  | Açıklama                             |
-| ---------------------------------------------------------------------------------------- | ------------------------------------ |
-| [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) | Kodlama başında geçen vakti raporlar |
 
 ### Görsellik Eklentileri
 
@@ -158,17 +172,6 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 | [jshint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)                                    | Javascript imla kontrolcüsü                                                             |
 | [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                             | JS için imla kontrolcüsü                                                                |
 | [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)                        | Bellek kullanımını gösterir                                                             |
-
-### Proje Yönetimi Eklentileri
-
-| Eklenti                                                                                                     | Açıklama                                        |
-| ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)             | Anlık olarak kod paylaşma                       |
-| [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager) | Proje kısayolları, sık kullanılanlar vs.        |
-| [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)           | Git yönetimi arayüzü                            |
-| [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)                  | Git commit geçmişini gösterir                   |
-| [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)                   | Docker sanal makinesi için uyumluluk            |
-| [GitBlame](https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame)                           | Satırların en son ne zaman değiştiğini gösterir |
 
 ### Yapılandırma Eklentileri
 

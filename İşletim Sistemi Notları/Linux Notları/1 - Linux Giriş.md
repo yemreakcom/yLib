@@ -8,6 +8,7 @@
   - [Linux Temel Dosyaları](#linux-temel-dosyalar%C4%B1)
   - [Linux Yapılandırma Ayarları](#linux-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
 - [Linux Kısayolları](#linux-k%C4%B1sayollar%C4%B1)
+  - [Özel karakter Oluşturma (Compose Key)](#%C3%B6zel-karakter-olu%C5%9Fturma-compose-key)
   - [Pencere Kısayolları](#pencere-k%C4%B1sayollar%C4%B1)
   - [Uygulama Kısayolları](#uygulama-k%C4%B1sayollar%C4%B1)
   - [Panel Kısayolları](#panel-k%C4%B1sayollar%C4%B1)
@@ -63,6 +64,16 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 İşletim sistemi üzerinde yapmış olduğunuz değişikliklerin hepsi `dconf` komutu tarafından kontrol edilir.
 
 ## Linux Kısayolları
+
+### Özel karakter Oluşturma (Compose Key)
+
+Öncelikle aktif edilmesi lazımdır:
+
+- Tweak (`sudo apt install gnome-tweaks`)
+- Keyboard & Mouse
+- Compose Key
+
+Şimdilik [buradan](https://fsymbols.com/keyboard/linux/compose/) bakabilirsin
 
 ### Pencere Kısayolları
 

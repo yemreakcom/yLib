@@ -9,6 +9,8 @@
   - [FFMPEG](#ffmpeg)
     - [MP4'ü MP3'e çevirme](#mp4%C3%BC-mp3e-%C3%A7evirme)
     - [MP3 Sıkıştırma](#mp3-s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma)
+- [Hata Notları](#hata-notlar%C4%B1)
+  - [Failed to load module “canberra-gtk-module”](#failed-to-load-module-canberra-gtk-module)
 
 ## Dosya Paylaşımı
 
@@ -66,4 +68,12 @@ ffmpeg -i video.mp4 -vn \
 
 ```sh
 ffmpeg -i input.file -map 0:a:0 -b:a 96k output.mp3
+```
+
+## Hata Notları
+
+### Failed to load module “canberra-gtk-module”
+
+```sh
+sudo apt install libcanberra-gtk-module
 ```

@@ -3,6 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Dosya içeriğinden Türünü Bulma](#dosya-i%C3%A7eri%C4%9Finden-t%C3%BCr%C3%BCn%C3%BC-bulma)
+- [Başka İşletim Sistemlerinin Dosyalarına Erişme](#ba%C5%9Fka-i%CC%87%C5%9Fletim-sistemlerinin-dosyalar%C4%B1na-eri%C5%9Fme)
 - [Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)](#%C3%A7al%C4%B1%C5%9Fma-alanlar%C4%B1n%C4%B1-ba%C4%9F%C4%B1ms%C4%B1zla%C5%9Ft%C4%B1rma-isolate-workspace)
 - [Dosya İzinleri](#dosya-i%CC%87zinleri)
   - [İzin Kodu Hesaplama](#i%CC%87zin-kodu-hesaplama)
@@ -43,6 +44,20 @@
 | `#!/bin/bash`           | Bash script                   |
 | `#usr/bin/env xdg-open` | Desktop uygulamaları          |
 | `#!/usr/bin/python`     | Python dosyaları              |
+
+## Başka İşletim Sistemlerinin Dosyalarına Erişme
+
+Erişim yapmak için `mount` işlemi ile sisteme bağlamalısınız.
+
+- Disk yolunu öğrenmek için `gparted` kullanabilisiniz
+- `sudo apt install gparted`
+- `sudo gparted`
+- Partition kısmının altındaki disk yoludur
+
+```sh
+sudo mount <disk_yolu> <bağlacağı_yer>
+# Örn: sudo mount /dev/sda4 /mnt/
+```
 
 ## Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)
 

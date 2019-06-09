@@ -1,9 +1,37 @@
 # Python Harici Linkler
 
+## İçeriklr <!-- omit in toc -->
+
+- [Python Harici Linkler](#python-harici-linkler)
+  - [PDF İşlemleri](#pdf-i%CC%87%C5%9Flemleri)
+  - [Veri Bilimi](#veri-bilimi)
+  - [Karma](#karma)
+  - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
+
+## PDF İşlemleri
+
+PDF işlemleri için [pdfkit] modülü kullanılır.
+
+- `pip install pdfkit` ile modülü indirin
+- Modül için gerekli [wkhtmltopdf] aracını indirin
+- İndirdiğiniz aracın içerisindeki `wkhtmltopdf.exe` dosyasının yolunu bulun
+  - İleride yapılandırma ayarı için kullanılacaktır
+- İşlemler sırasında python kodunun çalıştırıldığı yola dikkat edin
+
+> Farklı bir modül için [buraya][Python for PDF] bakabilirsin
+
+```py
+import pdfkit
+
+path_wkthmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'
+config = pdfkit.configuration(wkhtmltopdf=path_wkthmltopdf)
+
+pdfkit.from_file('file.html', 'out.pdf', configuration=config)
+```
+
 ## Veri Bilimi
 
-- [PDF için python][Python for PDF]
-- [HTML to PDF](https://pdfcrowd.com/doc/api/)
+- [HTML to PDF](https://pypi.org/project/pdfkit/)
 
 ## Karma
 
@@ -47,3 +75,5 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 [Python __init__.py Dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
 
 [Python for PDF]: https://towardsdatascience.com/python-for-pdf-ef0fac2808b0
+[wkhtmltopdf]: https://github.com/wkhtmltopdf/wkhtmltopdf/releases
+[pdfkit]: https://pypi.org/project/pdfkit/

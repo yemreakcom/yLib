@@ -3,6 +3,7 @@
 ## Veri Bilimi
 
 - [PDF için python][Python for PDF]
+- [HTML to PDF](https://pdfcrowd.com/doc/api/)
 
 ## Karma
 

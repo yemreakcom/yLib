@@ -14,6 +14,7 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
   - [Resim Bağlantısı](#resim-ba%C4%9Flant%C4%B1s%C4%B1)
 - [Tablo Oluşturma](#tablo-olu%C5%9Fturma)
 - [Matematik Denklemleri](#matematik-denklemleri)
+  - [Formül Yapısı](#form%C3%BCl-yap%C4%B1s%C4%B1)
 - [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
 - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
   - [Markdown PDF](#markdown-pdf)
@@ -108,6 +109,24 @@ Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathe
 - Latex sembolleri için [buraya](https://artofproblemsolving.com/wiki/index.php/LaTeX:Symbols) bakabilirsin
 
 > Online editör için [buraya](https://www.codecogs.com/latex/eqneditor.php) bakabilirsin.
+
+### Formül Yapısı
+
+$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$
+$$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
+$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
+$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
+$$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \mbox{otherwise } \end{cases}\tag{5}$$
+$$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{(i)}\log\left(a^{[2] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[2] (i)}\right)  \large  \right) \small \tag{6}$$
+
+```latex
+$$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$
+$$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
+$$z^{[2] (i)} = W^{[2]} a^{[1] (i)} + b^{[2]}\tag{3}$$
+$$\hat{y}^{(i)} = a^{[2] (i)} = \sigma(z^{ [2] (i)})\tag{4}$$
+$$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \mbox{otherwise } \end{cases}\tag{5}$$
+$$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{(i)}\log\left(a^{[2] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[2] (i)}\right)  \large  \right) \small \tag{6}$$
+```
 
 ## Sık Kullanılan Rozetler
 

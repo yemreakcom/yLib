@@ -1,9 +1,20 @@
 # IPython <!-- omit in toc -->
 
+<!-- TODO: Google Colab notlarını buraya taşı -->
+
 ## İçerikler <!-- omit in toc -->
 
+- [Hızlı Notlar](#h%C4%B1zl%C4%B1-notlar)
 - [Kullanıldığı Alanlar](#kullan%C4%B1ld%C4%B1%C4%9F%C4%B1-alanlar)
 - [Progress Bar](#progress-bar)
+
+## Hızlı Notlar
+
+| Operatör   | Açıklama                       |
+| ---------- | ------------------------------ |
+| `<func>??` | Fonksiyonun kodlarını gösterir |
+| `!`        | Terminal üzerinde çalıştırılır |
+| `%`        | Magic function                 |
 
 ## Kullanıldığı Alanlar
 

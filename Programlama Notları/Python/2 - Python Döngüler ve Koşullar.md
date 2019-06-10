@@ -8,8 +8,8 @@
   - [For Döngüsü](#for-d%C3%B6ng%C3%BCs%C3%BC)
     - [Değişken içinde For Döngüsü](#de%C4%9Fi%C5%9Fken-i%C3%A7inde-for-d%C3%B6ng%C3%BCs%C3%BC)
     - [İki Liste Üzerinde Paralel For Döngüsü](#i%CC%87ki-liste-%C3%BCzerinde-paralel-for-d%C3%B6ng%C3%BCs%C3%BC)
-  - [While Döngüsü](#while-d%C3%B6ng%C3%BCs%C3%BC)
   - [Range Fonksiyonu](#range-fonksiyonu)
+  - [While Döngüsü](#while-d%C3%B6ng%C3%BCs%C3%BC)
 - [Break / Continue](#break--continue)
 - [Operatörler](#operat%C3%B6rler)
   - [Aritmatik Operatörler](#aritmatik-operat%C3%B6rler)
@@ -93,6 +93,23 @@ for num, cheese, color in zip([1,2,3], ['manchego', 'stilton', 'brie'],
 3 green brie
 ```
 
+### Range Fonksiyonu
+
+**Temel Kullanım:**
+
+```py
+# for i in <range>:
+for i in range(0,3):
+    print(i)
+```
+
+| Kullanım             | Çıktı                            |
+| -------------------- | -------------------------------- |
+| `range(10)`          | `[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]` |
+| `range(2, 8)`        | `[2, 3, 4, 5, 6, 7]`             |
+| `range(2, 20, 3)`    | `[2, 5, 8, 11, 14, 17]`          |
+| `reversed(range(3))` | `2 1 0`                          |
+
 ### While Döngüsü
 
 ```py
@@ -110,15 +127,6 @@ Döngü içinde
 Döngü içinde
 Döngü içinde
 Döngü dışında
-```
-
-### Range Fonksiyonu
-
-```py
-print(range(10)) # range(0, 10)
-print(list(range(10))) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list(range(2, 8))) # [2, 3, 4, 5, 6, 7]
-print(list(range(2, 20, 3))) #  [2, 5, 8, 11, 14, 17]
 ```
 
 ## Break / Continue

@@ -19,6 +19,7 @@
   - [Filter ile Lambda Kullanımı](#filter-ile-lambda-kullan%C4%B1m%C4%B1)
   - [Map ile Lambda Kullanımı](#map-ile-lambda-kullan%C4%B1m%C4%B1)
 - [İç İçe Fonksiyonlar](#i%CC%87%C3%A7-i%CC%87%C3%A7e-fonksiyonlar)
+  - [Karmaşık İç İçe Fonksiyon](#karma%C5%9F%C4%B1k-i%CC%87%C3%A7-i%CC%87%C3%A7e-fonksiyon)
 - [Global, Local ve Nonlocal Kavramları](#global-local-ve-nonlocal-kavramlar%C4%B1)
   - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek-scopes-and-namespaces)
   - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
@@ -229,6 +230,18 @@ def func1(param):
     func2() # Bu alanda ekrana '2.Selam' basar
 
 func1("Selam")
+```
+
+### Karmaşık İç İçe Fonksiyon
+
+```py
+def foo():
+    bar()
+
+
+def bar():
+    foo()
+
 ```
 
 ## Global, Local ve Nonlocal Kavramları

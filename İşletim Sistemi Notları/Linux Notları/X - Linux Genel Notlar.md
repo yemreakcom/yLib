@@ -2,6 +2,8 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [WSL (Windows Subsystem for Linux)](#wsl-windows-subsystem-for-linux)
+  - [Terminel Sesini Kapatma](#terminel-sesini-kapatma)
 - [Dosya Paylaşımı](#dosya-payla%C5%9F%C4%B1m%C4%B1)
   - [Telefon ile PC Arasında Dosya Paylaşımı](#telefon-ile-pc-aras%C4%B1nda-dosya-payla%C5%9F%C4%B1m%C4%B1)
 - [Uygulama Notları](#uygulama-notlar%C4%B1)
@@ -11,6 +13,15 @@
     - [MP3 Sıkıştırma](#mp3-s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma)
 - [Hata Notları](#hata-notlar%C4%B1)
   - [Failed to load module “canberra-gtk-module”](#failed-to-load-module-canberra-gtk-module)
+
+## WSL (Windows Subsystem for Linux)
+
+### Terminel Sesini Kapatma
+
+- `sudo nano /etc/inputrc` ile girdi dosyasını yetki ile açın
+- `set bell-style none` satırını yorum satırı olmaktan kaldırın
+- <kbd>CTRL</kbd> + <kbd>X</kbd> ile düzenlemden çıkın
+- <kbd>Y</kbd> ile kaydedin
 
 ## Dosya Paylaşımı
 

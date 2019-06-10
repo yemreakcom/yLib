@@ -224,6 +224,7 @@ Değişkenlerin kullanım şekilleri:
 #### Windows10 Klavye Kısayolları
 
 ```json
+// Place your key bindings in this file to override the defaults
 [
     {
         "key": "ctrl+[KeyI] ctrl+[KeyI]",
@@ -255,6 +256,7 @@ Değişkenlerin kullanım şekilleri:
         "command": "-workbench.action.togglePanel"
     }
 ]
+
 ```
 
 #### Linux Klavye Kısayolları

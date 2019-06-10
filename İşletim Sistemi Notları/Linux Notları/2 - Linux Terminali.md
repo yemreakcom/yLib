@@ -25,6 +25,7 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
 
 Çok sık kullanılan ve faydalı olacak olan bir kaç terminal yöntemleri:
 
+- Terminal üzerinden hızlıca dosya düzenlemek isterseniz `nano` komutunu kullanın
 - Tüm terminal ön işlemleri `~/.bashrc` dosyasındadır.
 - `alias` ile kendinize özgü komutlar oluşturabilirsiniz
   - sudo ile kullanılması için `alias sudo='sudo '` satırını `.bashrc` dosyanıza eklemeniz gerekmektedir

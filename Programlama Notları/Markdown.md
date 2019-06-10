@@ -16,7 +16,9 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 - [Matematik Denklemleri](#matematik-denklemleri)
   - [Formül Yapısı](#form%C3%BCl-yap%C4%B1s%C4%B1)
 - [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
-- [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
+- [VsCode için Markdown](#vscode-i%C3%A7in-markdown)
+  - [VsCode için Markdown Snippets](#vscode-i%C3%A7in-markdown-snippets)
+  - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
   - [Markdown PDF](#markdown-pdf)
     - [PDF için Markdown Imzam](#pdf-i%C3%A7in-markdown-imzam)
     - [PDF için Özelleştirmem](#pdf-i%C3%A7in-%C3%B6zelle%C5%9Ftirmem)
@@ -140,7 +142,19 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 ![status](https://img.shields.io/nodeping/status/jkiwn052-ntpp-4lbb-8d45-ihew6d9ucoei.svg)
 
-## VsCode için Faydalı Eklentiler
+## VsCode için Markdown
+
+### VsCode için Markdown Snippets
+
+```json
+"Markdown için buton etiketi": {
+    "prefix": "kbd",
+    "body": "<kbd>$1</kbd>$0",
+    "description": "Buton tanımlama"
+}
+```
+
+### VsCode için Faydalı Eklentiler
 
 | Eklenti                                                                                               | Açıklama                                                                  |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |

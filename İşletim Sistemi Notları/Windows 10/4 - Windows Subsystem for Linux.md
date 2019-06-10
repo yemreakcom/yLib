@@ -28,6 +28,13 @@ sudo apt dist-upgrade # Tam yükseltme
 lsb_release  -a
 ```
 
+```text
+Distributor ID: Ubuntu
+Description:    Ubuntu 19.04
+Release:        19.04
+Codename:       disco
+```
+
 > [Kaynak](https://www.linuxbabe.com/ubuntu/upgrade-ubuntu-18-04-18-10-to-ubuntu-19-04)
 
 ## Linux Uygulamalarını WSL Üzerinde Çalıştırma
@@ -43,5 +50,5 @@ lsb_release  -a
 
 - `sudo nano /etc/inputrc` ile girdi dosyasını yetki ile açın
 - `set bell-style none` satırını yorum satırı olmaktan kaldırın
-- <kbd>CTRL</kbd> + <kbd>X</kbd> ile düzenlemden çıkın
-- <kbd>Y</kbd> ile kaydedin
+- <kbd>CTRL</kbd> + <kbd>O</kbd> ile düzenlemeyi kaydedin
+- <kbd>CTRL</kbd> + <kbd>X</kbd> ile çıkın

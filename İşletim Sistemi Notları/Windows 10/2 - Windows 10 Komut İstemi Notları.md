@@ -3,6 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Command Promp (CMD)](#command-promp-cmd)
+  - [Tab ile Kod Tamamlama](#tab-ile-kod-tamamlama)
   - [Cmder Komut İstemi Alternatifi](#cmder-komut-i%CC%87stemi-alternatifi)
     - [CmDer Yapılandırma Ayarları](#cmder-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
   - [CMD Komutları](#cmd-komutlar%C4%B1)
@@ -22,6 +23,10 @@
 ## Command Promp (CMD)
 
 Terminalde dosya isimlerinin **sonu veya başı sayı içerirse** çeşitli sorunlara neden olmakta.
+
+### Tab ile Kod Tamamlama
+
+Buradan [clink] ile daha verimli kod tamamlayı cmd için aktif edebilirsin.
 
 ### Cmder Komut İstemi Alternatifi
 
@@ -161,3 +166,5 @@ choco install -y vscode git minicoda3 # Programlama için
 ## PowerShell Kullanımı
 
 İlgili dökümana [buraya](Windows10%20Kaynaklar%C4%B1\Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf) tıklayarak erişebilirsin.
+
+[clink]: http://mridgers.github.io/clink/

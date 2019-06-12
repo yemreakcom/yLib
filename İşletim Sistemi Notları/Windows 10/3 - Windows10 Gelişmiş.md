@@ -7,6 +7,7 @@
 - [Windows Saat Sorunu](#windows-saat-sorunu)
   - [Yerel Saati Kullanma](#yerel-saati-kullanma)
   - [Evrensel (UTC) Saati Kullanma](#evrensel-utc-saati-kullanma)
+  - [Windows Boot Kurtarma](#windows-boot-kurtarma)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Otomatik Giriş Yapma
@@ -60,6 +61,28 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation]
 "RealTimeIsUniversal"=dword:00000001
 ```
+
+### Windows Boot Kurtarma
+
+```bat
+diskpart
+list disk
+sel disk 0
+
+list vol
+sel vol 2
+assign letter=G:
+
+cd /d G:\EFI\Microsoft\Boot\
+bootrec /fixboot
+
+ren BCD BCD.old
+bcdboot C:\Windows /l tr-tr /s G: /f ALL
+
+exit
+```
+
+> [Kaynak](https://www.easeus.com/partition-manager-software/fix-uefi-boot-in-windows-10-8-7.html)
 
 ## Harici Bağlantılar
 

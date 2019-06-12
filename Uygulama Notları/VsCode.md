@@ -115,6 +115,7 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Scratchpad                                                                                                      | Anlık derleyiciler                              |
 | [WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime)                        | Kodlama başında geçen vakti raporlar            |
+| [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)                    | Pano'dan resim kopyalama                        |
 | [advanced-new-file](https://marketplace.visualstudio.com/items?itemName=patbenatar.advanced-new-file)           | Klavye üzerinden dosya işlemleri                |
 | [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) | İmla kontrolü                                   |
 | [vscode-spotify](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)               | Spotify ile müzik desteği                       |
@@ -261,9 +262,14 @@ Değişkenlerin kullanım şekilleri:
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+a",
-        "command": "-editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "alt+v",
+        "command": "extension.pasteImage",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "-extension.pasteImage",
+        "when": "editorTextFocus"
     }
 ]
 
@@ -309,6 +315,7 @@ Değişkenlerin kullanım şekilleri:
     "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
+    // Terminal ayarları
     "terminal.integrated.cursorStyle": "line",
     // Gizlilik ayarları
     "telemetry.enableTelemetry": false,
@@ -320,7 +327,9 @@ Değişkenlerin kullanım şekilleri:
     "editor.fontFamily": "Fira Code, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
     "editor.fontLigatures": true,
     "editor.fontSize": 13.1,
+    // Terminal ayalarım
     "terminal.integrated.fontSize": 13,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     // Satır uzunluğu ayarı
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 200,
@@ -335,13 +344,16 @@ Değişkenlerin kullanım şekilleri:
         "MD033": false, // <kbd>
         "MD010": false // No-hard tabs
     },
+    // Pano'dan resim kopyalam ayarı
+    "pasteImage.path": "${projectRoot}/res",
     // Markdown PDF ayarları
     "markdown-pdf.styles": [
         "http://tiny.cc/yek86y"
     ],
     "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; font: Risque; color: red;' href='https://gogetfunding.com/yemreak/'>Destek ❤</a></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>Yunus Emre Ak ©</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
-    "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>",
+    "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>"
 }
+
 ```
 
 ### Editör Eklentilerim
@@ -354,6 +366,7 @@ Değişkenlerin kullanım şekilleri:
 - [markdownlint]
 - [Better Comments]
 - [Todo Tree]
+- [Paste Image]
 
 #### Python için Eklentiler
 
@@ -456,3 +469,4 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [AREPL For Python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl
 [WakaTime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
 [Best Vscode Extension Javascript and Shell]: https://www.elsewebdevelopment.com/vs-code-the-best-extensions-for-general-use-javascript-and-shell/
+[Paste Image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image

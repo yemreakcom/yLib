@@ -2,14 +2,28 @@
 
 Daha az kodla daha çok js işi yapmayı amaçlayan API.
 
+## JQuery Kurulumu
+
+### Tarayıcı Consoluna Kurulum
+
+```js
+async function loadScript(url) {
+  let response = await fetch(url);
+  let script = await response.text();
+  eval(script);
+}
+
+let scriptUrl = 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js'
+loadScript(scriptUrl);
+```
+
 ## Temel Giriş
 
-- `$` karakteri `document.querySelector()` komutuna karşılık gelir
-- `$$` karakteri `document.querySelectorAll()` komutuna karşılık gelir
+- `$ veya $$` karakteri `document.querySelectorAll()` komutuna karşılık gelir
 - Sayfadaki JQuery kontrolü için *console*'a `jQuery` yazıldığında tepki vermesi gerekir
 - Jquery versiyonunu `$().jquery` komutuyla öğrenebilirsin.
 
-> Kaynak için [buraya][JQuery Tek Eleman Seçme Sorunu] bakabilirsin.
+> Ek bilgi için [buraya][JQuery Tek Eleman Seçme Sorunu] bakabilirsin.
 
 ## HTML Seçme İşlemleri
 
@@ -29,6 +43,12 @@ Tüm seçme işlemleri `$(<işlem>)` ve `$$(<işlem>)` komutu ile yapılır.
 | `"p.active"`           | `active` *class*'ına sahip olan tüm *p* elemanları |
 | `"*"`                  | Her eleman                                         |
 | `this`                 | Şuanki eleman                                      |
+
+## Temel Metodlar
+
+| İşlem                       | Seçilen                                       |
+| --------------------------- | --------------------------------------------- |
+| `.each(func(index) => {} )` | Her eleman için döngü (index olduğuna dikkat) |
 
 ## Harici Bağlantılar
 

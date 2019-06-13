@@ -5,6 +5,7 @@
 - [VsCode için Önemli Notlar](#vscode-i%C3%A7in-%C3%B6nemli-notlar)
 - [VsCode kısayolları](#vscode-k%C4%B1sayollar%C4%B1)
   - [Hızlı Notlar](#h%C4%B1zl%C4%B1-notlar)
+  - [Verimlilik Kısayolları](#verimlilik-k%C4%B1sayollar%C4%B1)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
   - [İmleç Kısayolalrı](#i%CC%87mle%C3%A7-k%C4%B1sayolalr%C4%B1)
   - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
@@ -58,6 +59,10 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 - [Snipped](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_snippets)
 
+### Verimlilik Kısayolları
+
+- Zen Mode <kbd>CTRL</kbd> + <kbd>K</kbd> + <kbd>Z</kbd>
+
 ### Aksiyon Penceresi
 
 `CTRL` + `P` ile aksiyon penceresiini erişebilirsiniz.
@@ -91,6 +96,7 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 ### Editör Kısayolları
 
 - <kbd>ALT</kbd> tuşuna basılı tutarak dosyalara tıklarsan yan panelde açılır
+- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>Sağ veya Sol</kbd> Pencereyi sağa veya sola alır
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> Seçili alanı yorum satırı yapma
 - Tüm kodları gizleme (*fold all*)
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>0</kbd> (sıfır)
@@ -109,6 +115,8 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 - <kbd>CTRL</kbd> + <kbd>J</kbd> Alt paneli görünür kılar
 
 ## Faydalı Eklentiler
+
+Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/) tıklamanda fayda var.
 
 ### Proje Yönetimi Eklentileri
 
@@ -177,16 +185,16 @@ VsCode programlama dökümantasyon için [buraya](https://code.visualstudio.com/
 
 #### Javascript - Nodejs Eklentileri
 
-| Eklenti                                                                                                          | Açıklama                                                                                |
-| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| [Quokka.js](https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode)                         | Anlık derleyici ve hata ayıklama ([video](https://www.youtube.com/watch?v=eyzO1xPI6_k)) |
-| [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)          | Kod formatlama ve güzelleştirme                                                         |
-| [JavaScript (ES6) code snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets) | Kod kısayolları                                                                         |
-| [Babel Javascript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)        | ES6 tipinde yazmayı sağlar                                                              |
-| [npm Intellisese](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)         | NPM modüllerini önerir                                                                  |
-| [jshint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint)                                    | Javascript imla kontrolcüsü                                                             |
-| [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)                             | JS için imla kontrolcüsü                                                                |
-| [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)                        | Bellek kullanımını gösterir                                                             |
+| Eklenti                          | Açıklama                                                                                |
+| -------------------------------- | --------------------------------------------------------------------------------------- |
+| [Quokka.js]                      | Anlık derleyici ve hata ayıklama ([video](https://www.youtube.com/watch?v=eyzO1xPI6_k)) |
+| [Prettier - Code formatter]      | Kod formatlama ve güzelleştirme                                                         |
+| [JavaScript (ES6) code snippets] | Kod kısayolları                                                                         |
+| [Babel Javascript]               | ES6 tipinde yazmayı sağlar                                                              |
+| [npm Intellisese]                | NPM modüllerini önerir                                                                  |
+| [jshint]                         | Javascript imla kontrolcüsü                                                             |
+| [Eslint]                         | JS için imla kontrolcüsü                                                                |
+| [Import Cost]                    | Bellek kullanımını gösterir                                                             |
 
 ### Yapılandırma Eklentileri
 
@@ -488,3 +496,12 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 
 [Vscode Doc]: https://code.visualstudio.com/docs
 [Vscode Intro Videos]: https://code.visualstudio.com/docs/getstarted/introvideos
+
+[Quokka.js]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+[Prettier - Code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[JavaScript (ES6) code snippets]: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+[Babel Javascript]: https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel
+[npm Intellisese]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+[jshint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint
+[Eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[Import Cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost

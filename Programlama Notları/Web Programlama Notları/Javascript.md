@@ -4,8 +4,11 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ön Bilgi](#%C3%B6n-bilgi)
+- [Ön Bilgilendirme](#%C3%B6n-bilgilendirme)
 - [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
+- [Koşul İşlemleri](#ko%C5%9Ful-i%CC%87%C5%9Flemleri)
+  - [Tek Satırlı Koşul İşlemleri (Ternary If)](#tek-sat%C4%B1rl%C4%B1-ko%C5%9Ful-i%CC%87%C5%9Flemleri-ternary-if)
+  - [Dizilerde Koşul İşlemleri](#dizilerde-ko%C5%9Ful-i%CC%87%C5%9Flemleri)
 - [Tarih İşlemleri](#tarih-i%CC%87%C5%9Flemleri)
   - [Türkçe Tarih Alma](#t%C3%BCrk%C3%A7e-tarih-alma)
 - [HTML Elemanları](#html-elemanlar%C4%B1)
@@ -27,15 +30,20 @@
   - [Input İşlemleri](#input-i%CC%87%C5%9Flemleri)
 - [Dosya İndirme](#dosya-i%CC%87ndirme)
   - [Çoklu Dosya İndirme](#%C3%A7oklu-dosya-i%CC%87ndirme)
+  - [`console.save` Metodu Oluşturma](#consolesave-metodu-olu%C5%9Fturma)
   - [MIME - Internet Media Types](#mime---internet-media-types)
 - [HTTP İstekleri](#http-i%CC%87stekleri)
+- [Harici Javascript Dosyası Ekleme](#harici-javascript-dosyas%C4%B1-ekleme)
 - [Objedeki Değer ile Anahtarını Bulma](#objedeki-de%C4%9Fer-ile-anahtar%C4%B1n%C4%B1-bulma)
 - [Latex Ayrıştırma](#latex-ayr%C4%B1%C5%9Ft%C4%B1rma)
+- [VsCode Eklentileri](#vscode-eklentileri)
 - [Harici Kaynaklar](#harici-kaynaklar)
 
-## Ön Bilgi
+## Ön Bilgilendirme
 
 Python ve Javascript en popüler diller arasındadır.
+
+- Javascript kodlarım [YScripts] repomda tutulmaktadır ✨
 
 > Aralarındaki kıyaslama için [buraya][Python vs Javascript] bakabilirisin.
 
@@ -48,6 +56,49 @@ Python ve Javascript en popüler diller arasındadır.
 
 - `<ayırac>` Metnin parçalara ayırmak için belirleyici
   - Örn: `' '` ile boşluklu metinler ayrıştırılıp, yeni bir diziye atanır
+
+## Koşul İşlemleri
+
+```js
+elems = [] // Herhangi sayılabilir bir obje
+for (let i = 0; i < elems.lenght < i++) {
+    elem = elems[i]
+    // ...
+}
+```
+
+### Tek Satırlı Koşul İşlemleri (Ternary If)
+
+```js
+kosul ? "Doğru" : "Yanlış" // Koşul sağlanırsa 'Doğru' sağlanmazsa 'Yanlış' döndürür
+const sonuc = 1 > 2 ? "Doğru" : "Yanlış" // sonuc = 'Yanlış'
+```
+
+### Dizilerde Koşul İşlemleri
+
+**Dahili fonksiyon ile:**
+
+```js
+arr = [1, 2, 3]
+
+arr.every(a => {return a > 1}) // Her biri 1'ten büyük mü? false
+arr.some(a => {return a > 1}) // Herhangi biri 1'ten büyük mü? true
+
+```
+
+**Harici fonksiyon ile:**
+
+```js
+arr = [1, 2, 3]
+
+function checkIndex(index) {
+    return index > 1
+}
+
+arr.every(checkIndex) // Her biri 1'ten büyük mü? false
+arr.some(checkIndex) // Herhangi biri 1'ten büyük mü? true
+
+```
 
 ## Tarih İşlemleri
 
@@ -334,26 +385,42 @@ document.getElementById(<button_id>).click()
 
 ## Dosya İndirme
 
-> Popup blocker gibi eklentiler varsa kapatılması gerekmektedir.
+> *Popup blocker* gibi eklentiler varsa kapatılması gerekmektedir.
 
 ```js
-function download(filename, text, mime='text/plain') {
-    const link = document.createElement("a");
+function download(data, filename, mime = 'text/plain') {
+        if (!data) {
+            console.error("Veri olmadan indirme işlemi yapılmaz")
+            return;
+        }
 
-    if (mime.includes("json")) {
-        text = JSON.stringify(text)
-    }
+        if (!data.includes("http")) {
+            if (mime.includes("json") || typeof data === "object") {
+                mime = "text/json"
+                data = JSON.stringify(data)
+            }
+            data = `data:${mime};charset=utf-8,${encodeURIComponent(data)}`
 
-    link.download = filename;
-    link.href = `data:${mime};charset=utf-8,${encodeURIComponent(text)}`;
-    link.style.display = 'none';
+            if (!filename) {
+                filename = `template.${mime.split('/')[0]}`
+            }
+        }
 
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+        if (!filename) {
+            filename = data.split('/').pop()
+        }
 
-    delete link;
-}
+        const link = document.createElement("a");
+
+        link.download = filename;
+        link.href = data
+        link.style.display = 'none';
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        delete link;
 ```
 
 ### Çoklu Dosya İndirme
@@ -379,78 +446,42 @@ function sleep(milliseconds) {
 }
 ```
 
+### `console.save` Metodu Oluşturma
+
+```js
+(function(console){
+
+    console.save = function(data, filename){
+
+        if(!data) {
+            console.error('Console.save: No data')
+            return;
+        }
+
+        if(!filename) filename = 'console.json'
+
+        if(typeof data === "object"){
+            data = JSON.stringify(data, undefined, 4)
+        }
+
+        var blob = new Blob([data], {type: 'text/json'}),
+            e    = document.createEvent('MouseEvents'),
+            a    = document.createElement('a')
+
+        a.download = filename
+        a.href = window.URL.createObjectURL(blob)
+        a.dataset.downloadurl =  ['text/json', a.download, a.href].join(':')
+        e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
+        a.dispatchEvent(e)
+    }
+})(console)
+
+// console.save(<url>, <filename>)
+```
+
 ### MIME - Internet Media Types
 
 Hepsi için [buraya](https://www.freeformatter.com/mime-types-list.html) bakabilirsin, sık kullanılanlar aşağıda listelenmiştir.
-
-| Extension  | Kind of document                               | MIME Type                                                                                                                            |
-| ---------- | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| .aac       | AAC audio                                      | audio/aac                                                                                                                            |
-| .abw       | AbiWord document                               | application/x-abiword                                                                                                                |
-| .arc       | Archive document (multiple files embedded)     | application/x-freearc                                                                                                                |
-| .avi       | AVI: Audio Video Interleave                    | video/x-msvideo                                                                                                                      |
-| .azw       | Amazon Kindle eBook format                     | application/vnd.amazon.ebook                                                                                                         |
-| .bin       | Any kind of binary data                        | application/octet-stream                                                                                                             |
-| .bmp       | Windows OS/2 Bitmap Graphics                   | image/bmp                                                                                                                            |
-| .bz        | BZip archive                                   | application/x-bzip                                                                                                                   |
-| .bz2       | BZip2 archive                                  | application/x-bzip2                                                                                                                  |
-| .csh       | C-Shell script                                 | application/x-csh                                                                                                                    |
-| .css       | Cascading Style Sheets (CSS)                   | text/css                                                                                                                             |
-| .csv       | Comma-separated values (CSV)                   | text/csv                                                                                                                             |
-| .doc       | Microsoft Word                                 | application/msword                                                                                                                   |
-| .docx      | Microsoft Word (OpenXML)                       | application/vnd.openxmlformats-officedocument.wordprocessingml.document                                                              |
-| .eot       | MS Embedded OpenType fonts                     | application/vnd.ms-fontobject                                                                                                        |
-| .epub      | Electronic publication (EPUB)                  | application/epub+zip                                                                                                                 |
-| .gif       | Graphics Interchange Format (GIF)              | image/gif                                                                                                                            |
-| .htm.html  | HyperText Markup Language (HTML)               | text/html                                                                                                                            |
-| .ico       | Icon format                                    | image/vnd.microsoft.icon                                                                                                             |
-| .ics       | iCalendar format                               | text/calendar                                                                                                                        |
-| .jar       | Java Archive (JAR)                             | application/java-archive                                                                                                             |
-| .jpeg .jpg | JPEG images                                    | image/jpeg                                                                                                                           |
-| .js        | JavaScript                                     | text/javascript                                                                                                                      |
-| .json      | JSON format                                    | application/json                                                                                                                     |
-| .jsonld    | JSON-LD format                                 | application/ld+json                                                                                                                  |
-| .mid .midi | Musical Instrument Digital Interface (MIDI)    | audio/midi audio/x-midi                                                                                                              |
-| .mjs       | JavaScript module                              | text/javascript                                                                                                                      |
-| .mp3       | MP3 audio                                      | audio/mpeg                                                                                                                           |
-| .mpeg      | MPEG Video                                     | video/mpeg                                                                                                                           |
-| .mpkg      | Apple Installer Package                        | application/vnd.apple.installer+xml                                                                                                  |
-| .odp       | OpenDocument presentation document             | application/vnd.oasis.opendocument.presentation                                                                                      |
-| .ods       | OpenDocument spreadsheet document              | application/vnd.oasis.opendocument.spreadsheet                                                                                       |
-| .odt       | OpenDocument text document                     | application/vnd.oasis.opendocument.text                                                                                              |
-| .oga       | OGG audio                                      | audio/ogg                                                                                                                            |
-| .ogv       | OGG video                                      | video/ogg                                                                                                                            |
-| .ogx       | OGG                                            | application/ogg                                                                                                                      |
-| .otf       | OpenType font                                  | font/otf                                                                                                                             |
-| .png       | Portable Network Graphics                      | image/png                                                                                                                            |
-| .pdf       | Adobe Portable Document Format (PDF)           | application/pdf                                                                                                                      |
-| .ppt       | Microsoft PowerPoint                           | application/vnd.ms-powerpoint                                                                                                        |
-| .pptx      | Microsoft PowerPoint (OpenXML)                 | application/vnd.openxmlformats-officedocument.presentationml.presentation                                                            |
-| .rar       | RAR archive                                    | application/x-rar-compressed                                                                                                         |
-| .rtf       | Rich Text Format (RTF)                         | application/rtf                                                                                                                      |
-| .sh        | Bourne shell script                            | application/x-sh                                                                                                                     |
-| .svg       | Scalable Vector Graphics (SVG)                 | image/svg+xml                                                                                                                        |
-| .swf       | Small web format (SWF) or Adobe Flash document | application/x-shockwave-flash                                                                                                        |
-| .tar       | Tape Archive (TAR)                             | application/x-tar                                                                                                                    |
-| .tif .tiff | Tagged Image File Format (TIFF)                | image/tiff                                                                                                                           |
-| .ttf       | TrueType Font                                  | font/ttf                                                                                                                             |
-| .txt       | Text, (generally ASCII or ISO 8859-n)          | text/plain                                                                                                                           |
-| .vsd       | Microsoft Visio                                | application/vnd.visio                                                                                                                |
-| .wav       | Waveform Audio Format                          | audio/wav                                                                                                                            |
-| .weba      | WEBM audio                                     | audio/webm                                                                                                                           |
-| .webm      | WEBM video                                     | video/webm                                                                                                                           |
-| .webp      | WEBP image                                     | image/webp                                                                                                                           |
-| .woff      | Web Open Font Format (WOFF)                    | font/woff                                                                                                                            |
-| .woff2     | Web Open Font Format (WOFF)                    | font/woff2                                                                                                                           |
-| .xhtml     | XHTML                                          | application/xhtml+xml                                                                                                                |
-| .xls       | Microsoft Excel                                | application/vnd.ms-excel                                                                                                             |
-| .xlsx      | Microsoft Excel (OpenXML)                      | application/vnd.openxmlformats-officedocument.spreadsheetml.sheet                                                                    |
-| .xml       | XML                                            | application/xml if not readable from casual users (RFC 3023, section 3) text/xml if readable from casual users (RFC 3023, section 3) |
-| .xul       | XUL                                            | application/vnd.mozilla.xul+xml                                                                                                      |
-| .zip       | ZIP archive                                    | application/zip                                                                                                                      |
-| .3gp       | 3GPP audio/video container                     | video/3gpp, audio/3gpp if it doesn't contain video                                                                                   |
-| .3g2       | 3GPP2 audio/video container                    | video/3gpp2 audio/3gpp2 if it doesn't contain video                                                                                  |
-| .7z        | 7-zip archive                                  | application/x-7z-compressed"                                                                                                         |
 
 ## HTTP İstekleri
 
@@ -464,6 +495,21 @@ function httpGet(theUrl) {
     return xmlHttp.responseText;
 }
 ```
+
+## Harici Javascript Dosyası Ekleme
+
+```js
+async function loadScript(url) {
+  let response = await fetch(url);
+  let script = await response.text();
+  eval(script);
+}
+
+let scriptUrl = '<url.js>'
+loadScript(scriptUrl);
+```
+
+> [Kaynak](https://stackoverflow.com/a/44042421)
 
 ## Objedeki Değer ile Anahtarını Bulma
 
@@ -482,6 +528,19 @@ function getKeyByValue(object, value) {
 </script>
 ```
 
+## VsCode Eklentileri
+
+| Eklenti                          | Açıklama                                                                                |
+| -------------------------------- | --------------------------------------------------------------------------------------- |
+| [Quokka.js]                      | Anlık derleyici ve hata ayıklama ([video](https://www.youtube.com/watch?v=eyzO1xPI6_k)) |
+| [Prettier - Code formatter]      | Kod formatlama ve güzelleştirme                                                         |
+| [JavaScript (ES6) code snippets] | Kod kısayolları                                                                         |
+| [Babel Javascript]               | ES6 tipinde yazmayı sağlar                                                              |
+| [npm Intellisese]                | NPM modüllerini önerir                                                                  |
+| [jshint]                         | Javascript imla kontrolcüsü                                                             |
+| [Eslint]                         | JS için imla kontrolcüsü                                                                |
+| [Import Cost]                    | Bellek kullanımını gösterir                                                             |
+
 ## Harici Kaynaklar
 
 - [Wait Function]
@@ -499,3 +558,14 @@ function getKeyByValue(object, value) {
 [Js gün işlemleri]: https://stackoverflow.com/a/24998705/9770490
 [10 Js Extension for Vscode]: https://www.sitepoint.com/vs-code-extensions-javascript-developers/
 [Js throws]: https://www.w3schools.com/js/js_errors.asp
+
+[Quokka.js]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+[Prettier - Code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[JavaScript (ES6) code snippets]: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+[Babel Javascript]: https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel
+[npm Intellisese]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+[jshint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint
+[Eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[Import Cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+
+[YScripts]: https://github.com/yedhrab/YScripts

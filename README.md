@@ -138,6 +138,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Anaconda](./Uygulama%20Notlar%C4%B1/Anaconda.md)
 - [JetBrains IDE](./Uygulama%20Notlar%C4%B1/JetBrains%20IDE.md)
 - [LGSV Simulator](./Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
+- [Nodepad++](./Uygulama%20Notlar%C4%B1/Nodepad%2B%2B.md)
 - [Uygulamalar](./Uygulama%20Notlar%C4%B1/Uygulamalar.md)
 - [VsCode](./Uygulama%20Notlar%C4%B1/VsCode.md)
 - [Youtube](./Uygulama%20Notlar%C4%B1/Youtube.md)

@@ -19,6 +19,9 @@ Windows için ikon paketini [buradan][Windows Icon Pack] indirebilirsin
 - Sağ alt köşede, çok hızlı bir erişimi oldukça kolaydır
 - 90k ikon içerir
 - Çok sık kullanılan bir pakettir
+- Windows görev çubuğu üzerinden sürükle bırak mantığı ile ikon almanızı sağlıyor
+- Adobe ürünleri üzerinden çalışanların kullandığını gördüm
+- GUI uygulamaları yapanlar için de oldukça faydalı
 
 ![icon8](../res/icon8.png)
 

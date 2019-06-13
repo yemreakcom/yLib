@@ -70,13 +70,13 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Boyama](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Boyama.md)
 - [Staj İlanları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1.md)
 - [Çamaşır Makinesi](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi.md)
+- [İŞKUR](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C4%B0%C5%9EKUR.md)
 
 ## Karma Bilgiler
 
 - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
 - [Bağlı eli çözme](./Karma%20Bilgiler/Ba%C4%9Fl%C4%B1%20eli%20%C3%A7%C3%B6zme.mp4)
-- [CV Notları](./Karma%20Bilgiler/CV%20Notlar%C4%B1.md)
-- [Renk Kodları](./Karma%20Bilgiler/Renk%20Kodlar%C4%B1.md)
+- [Tasarım Notları](./Karma%20Bilgiler/Tasar%C4%B1m%20Notlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
 
 ## Programlama Notları
@@ -179,7 +179,6 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ## İşletim Sistemi Notları
 
-- [Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010%20Notlar%C4%B1.md)
 - [İşletim Sistemi Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1.md)
 
 ### Linux Notları
@@ -192,7 +191,11 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 ### Windows 10
 
+- [1 - Windows 10 Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20Giri%C5%9F.md)
+- [2 - Windows 10 Komut İstemi Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20Komut%20%C4%B0stemi%20Notlar%C4%B1.md)
 - [3 - Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows10%20Geli%C5%9Fmi%C5%9F.md)
+- [4 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%20Subsystem%20for%20Linux.md)
+- [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)
 
 <!--Index-->
 

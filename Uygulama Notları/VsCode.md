@@ -1,4 +1,4 @@
-s# VsCode <!-- omit in toc -->
+# VsCode <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
@@ -485,7 +485,6 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [WakaTime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
 [Best Vscode Extension Javascript and Shell]: https://www.elsewebdevelopment.com/vs-code-the-best-extensions-for-general-use-javascript-and-shell/
 [Paste Image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
-
 
 [Vscode Doc]: https://code.visualstudio.com/docs
 [Vscode Intro Videos]: https://code.visualstudio.com/docs/getstarted/introvideos

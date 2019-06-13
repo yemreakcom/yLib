@@ -335,15 +335,22 @@ function startDelayed(method, ms) {
 ```
 
 ```js
+async function startDelayed(method, ms) {
+    await new Promise((r, j) => setTimeout(r, ms));
+    return method();
+}
+```
+
+```js
 async function startDelayed(method, ms, param) {
     await new Promise((r, j) => setTimeout(r, ms));
-    return typeof param != "undefined" ? method(param) : method()
+    return param ? method(param) : method()
 }
 ```
 
 ```js
 async function startAndWait(method, ms, param) {
-	const result = typeof param != "undefined" ? method(param) : method()
+	const result = param ? method(param) : method()
 	await new Promise((r, j) => setTimeout(r, ms));
 	return result
 }

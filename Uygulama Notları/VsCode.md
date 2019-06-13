@@ -1,7 +1,8 @@
-# VsCode <!-- omit in toc -->
+s# VsCode <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
+- [VsCode için Önemli Notlar](#vscode-i%C3%A7in-%C3%B6nemli-notlar)
 - [VsCode kısayolları](#vscode-k%C4%B1sayollar%C4%B1)
   - [Hızlı Notlar](#h%C4%B1zl%C4%B1-notlar)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
@@ -38,6 +39,15 @@
 - [Yapılacaklar](#yap%C4%B1lacaklar)
 - [Harici Linkler](#harici-linkler)
 
+## VsCode için Önemli Notlar
+
+VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.
+
+- İlk defa VsCode kullanıyor isen [buradaki][Vscode Intro Videos] videoları izlemen ve açıklamaları okuman oldukça önemli (okumadan öğrenemezsin 😔)
+- VsCode'a başlamadan önce [buradan][Vscode Doc] üzerinden, hangi dile odaklı çalışacaksanız onun dökümasyanunu okuyun
+- Ardından gerekli olan eklentileri, eklenti mağazasından indirin (<kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>X</kbd>)
+- Sağ taraftaki kodların ön izlesinin olduğu alanı (minimap) kaldırmak için `"editor.minimap.enabled": false`
+
 ## VsCode kısayolları
 
 PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) bakabilirsin.
@@ -68,15 +78,19 @@ PDF dökümanı 📃 için [buraya](..\pdfs\keyboard-shortcuts-windows.pdf) baka
 
 ### Metin Kısayolları
 
-- temszlik
-- comfortble
+- <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>Sağ veya Sol</kbd> Bir sonraki bloğu seçme
+- <kbd>SHIFT</kbd> + <kbd>ALT</kbd> + <kbd>Yukarı veya Aşağı</kbd> Satırı çoğaltma
 - <kbd>CTRL</kbd> + <kbd>D</kbd> Kelimeyi seçme
+  - Birden fazla tekrarlanırsa aynı metinleri seçer yanlarına imleç getirir
+  - Değişkenleri yeniden adlandırmada çok faydalıdır
 - <kbd>CTRL</kbd> + <kbd>L</kbd> Satırı seçme
 - <kbd>CTRL</kbd> + <kbd>X</kbd> Satırı kesme
 - <kbd>ALT</kbd> + <kbd>Yukarı yada Aşağı Tuşu</kbd> Satırı taşıma
+  - Sırasıya: Kelime, Satır, Kod bloğu, ..., Tüm metin
 
 ### Editör Kısayolları
 
+- <kbd>ALT</kbd> tuşuna basılı tutarak dosyalara tıklarsan yan panelde açılır
 - <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> Seçili alanı yorum satırı yapma
 - Tüm kodları gizleme (*fold all*)
   - Windows and Linux için <kbd>Ctrl</kbd> + <kbd>K</kbd>, <kbd>Ctrl</kbd> + <kbd>0</kbd> (sıfır)
@@ -322,12 +336,13 @@ Değişkenlerin kullanım şekilleri:
     "telemetry.enableCrashReporter": false,
     // Editör ayarları
     "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
     "files.insertFinalNewline": true, // Dosyaların sonuna boş satır koyar
     // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
     "editor.fontFamily": "Fira Code, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
     "editor.fontLigatures": true,
     "editor.fontSize": 13.1,
-    // Terminal ayalarım
+    // Terminal ayarlarım
     "terminal.integrated.fontSize": 13,
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     // Satır uzunluğu ayarı
@@ -470,3 +485,7 @@ Değişkenler için [buraya](https://code.visualstudio.com/docs/editor/variables
 [WakaTime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
 [Best Vscode Extension Javascript and Shell]: https://www.elsewebdevelopment.com/vs-code-the-best-extensions-for-general-use-javascript-and-shell/
 [Paste Image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
+
+
+[Vscode Doc]: https://code.visualstudio.com/docs
+[Vscode Intro Videos]: https://code.visualstudio.com/docs/getstarted/introvideos

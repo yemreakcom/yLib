@@ -1,4 +1,4 @@
-# Python Giriş <!-- omit in toc -->
+# Python Temeli ve Değişkenleri <!-- omit in toc -->
 
 <!-- TODO: Immutabble mutable kavramını açıkla -->
 

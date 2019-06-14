@@ -29,6 +29,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
   - [Kontrol Bayrakları](#kontrol-bayraklar%C4%B1)
   - [Dosya Okuma](#dosya-okuma)
   - [Dosyadan URL ile İndirme](#dosyadan-url-ile-i%CC%87ndirme)
+  - [Sıkıştırma (Arşivleme) İşlemleri](#s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma-ar%C5%9Fivleme-i%CC%87%C5%9Flemleri)
 - [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Önemli Bilgiler
@@ -336,6 +337,26 @@ do
     wget -O $prefix$num$ext "$line"
     let "num += 1"
 done < "../$file"
+```
+
+### Sıkıştırma (Arşivleme) İşlemleri
+
+**Dosya sıkıştırma:**
+
+```sh
+filename="dosya yolu"
+out="Çıktı yolu.zip"
+zip "$out" "$filename$"
+
+zip -R $out "*.c" $ # '.c' ile biten düm dosyaları sıkıştırır (alt dizinlerde de arar /dir1/file.c /dir2/file.c)
+```
+
+**Dizin Sıkıştırma:**
+
+```sh
+dirname="dizin_yolu"
+out="Çıktı yolu.zip" # Boşluk kabul eder
+zip -r "$out" "$dirname$"
 ```
 
 ## Harici Bağlantılar

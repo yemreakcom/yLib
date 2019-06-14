@@ -345,6 +345,7 @@ Değişkenlerin kullanım şekilleri:
     // Editör ayarları
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off", // Enter ile tavsiye seçimini kapatır, Tab ile seçilir
     "files.insertFinalNewline": true, // Dosyaların sonuna boş satır koyar
     // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
     "editor.fontFamily": "Fira Code, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono

@@ -63,7 +63,7 @@ render()(
 )
 
 render () {
-    return <div>temp</div>
+    return <div>temp</div>****
 }
 ```
 
@@ -77,15 +77,21 @@ render () {
 
 ## Ücretsiz React Çalışma Yerleri
 
-- [Master React & Redux]
+- [Complete React Tutorial (with Redux)]
+- [React, Redux & Firebase App Tutorial]
 - [Best free react courses for tutorials]
 - Kitap için [buraya][Road to learn react]
+- [Master React & Redux]
 - [Ücretli kurs][React Udemy - Ücretli]
 - [Başkalarının yaptığı demo'lu ve açık kaynaklı projeler][Açık kaynak react projeleri]
 
 ## Görsel Kaynaklar
 
+- [MDB Component]
+- [Shard UI]
 - [Button Tasarımları][Reactjs Awesome Button]
+- [React Datepicker]
+- [React Poper]
 
 ## Faydalı Bağlantılar
 
@@ -104,6 +110,7 @@ render () {
 [Reactjs Awesome Button]: https://caferati.me/demo/react-awesome-button
 
 [Master React & Redux]: https://bahdcasts.com/courses/learn-react-redux
+[Complete React Tutorial (with Redux)]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
 [Best free react courses for tutorials]: https://designrevision.com/best-free-react-tutorials-courses/
 [Road to learn react]: ../res/the-road-to-learn-react.pdf
 [React Udemy - Ücretli]: https://www.udemy.com/react-the-complete-guide-incl-redux/
@@ -113,3 +120,9 @@ render () {
 [CodeSandbox]: https://codesandbox.io/
 [Nodejs]: https://nodejs.org/en/download/
 [React Kurulumu]: https://github.com/facebook/create-react-app
+
+[React Datepicker]: https://reactdatepicker.com/#example-10
+[React Poper]: https://github.com/FezVrasta/react-popper
+[MDB Component]: https://mdbootstrap.com/docs/react/components/demo/
+[Shard UI]: https://designrevision.com/docs/shards-react/getting-started
+[React, Redux & Firebase App Tutorial]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3

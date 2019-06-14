@@ -123,6 +123,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | Eklenti                                                                                                                | Açıklama                                        |
 | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | [VS Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)                        | Anlık olarak kod paylaşma                       |
+| [Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio)               | Anlık olarak ses paylaşma                       |
 | [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                                 | Yapılacakları gösteren arayüz                   |
 | [Git Project Manager](https://marketplace.visualstudio.com/items?itemName=felipecaputo.git-project-manager)            | Proje kısayolları, sık kullanılanlar vs.        |
 | [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)                      | Git yönetimi arayüzü                            |
@@ -348,7 +349,7 @@ Değişkenlerin kullanım şekilleri:
     "editor.acceptSuggestionOnEnter": "off", // Enter ile tavsiye seçimini kapatır, Tab ile seçilir
     "files.insertFinalNewline": true, // Dosyaların sonuna boş satır koyar
     // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
-    "editor.fontFamily": "Fira Code, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
+    "editor.fontFamily": "Fira Code Retina, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono
     "editor.fontLigatures": true,
     "editor.fontSize": 13.1,
     // Terminal ayarlarım

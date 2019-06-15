@@ -147,15 +147,16 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 ### Görsellik Eklentileri
 
-| Eklenti                                                                                                           | Açıklama                        |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| [Deepdark Material Theme](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material)            | Çok karanlık bir tema           |
-| [Sublime Material Theme](https://marketplace.visualstudio.com/items?itemName=jprestidge.theme-material-theme)     | Sublime Editörün temaları       |
-| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)              | Dosya ikon teması               |
-| [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)            | En sık kullanılan karanlık tema |
-| [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)              | Popüler tema seti               |
-| [Base16 Tomorrow Dark+](https://marketplace.visualstudio.com/items?itemName=Shurelia.base16-tomorrow-dark-vscode) | Karanlık tema                   |
-| [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)               | Karanlık bir tema               |
+| Eklenti                                                                                                                  | Açıklama                                |
+| ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- |
+| [DarkCode Theme](https://marketplace.visualstudio.com/items?itemName=yedhrab.darkcode-theme-adopted-python-and-markdown) | Python ve Markdown odaklı karanlık tema |
+| [Deepdark Material Theme](https://marketplace.visualstudio.com/items?itemName=Nimda.deepdark-material)                   | Çok karanlık bir tema                   |
+| [Sublime Material Theme](https://marketplace.visualstudio.com/items?itemName=jprestidge.theme-material-theme)            | Sublime Editörün temaları               |
+| [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)                     | Dosya ikon teması                       |
+| [Atom One Dark Theme](https://marketplace.visualstudio.com/items?itemName=akamud.vscode-theme-onedark)                   | En sık kullanılan karanlık tema         |
+| [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme)                     | Popüler tema seti                       |
+| [Base16 Tomorrow Dark+](https://marketplace.visualstudio.com/items?itemName=Shurelia.base16-tomorrow-dark-vscode)        | Karanlık tema                           |
+| [Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)                      | Karanlık bir tema                       |
 
 ### Programlama Eklentileri
 
@@ -335,7 +336,7 @@ Değişkenlerin kullanım şekilleri:
 {
     // Tasarım ve arayüz ayarları
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Deepdark Material Theme | Full Black Version",
+    "workbench.colorTheme": "DarkCode Theme Adopted Python and Markdown",
     "window.menuBarVisibility": "toggle",
     "window.titleBarStyle": "custom",
     // Terminal ayarları
@@ -347,6 +348,7 @@ Değişkenlerin kullanım şekilleri:
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.acceptSuggestionOnEnter": "off", // Enter ile tavsiye seçimini kapatır, Tab ile seçilir
+    "editor.cursorBlinking": "phase", // İmleç yanıp sönmesi
     "files.insertFinalNewline": true, // Dosyaların sonuna boş satır koyar
     // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
     "editor.fontFamily": "Fira Code Retina, 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'", // Linux fontu: Droid Sans Mono

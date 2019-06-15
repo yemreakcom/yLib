@@ -265,14 +265,12 @@ Giriş cümlesi veya alakalı cümle.
 
 ## Destek ve İletişim
 
-
 [![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github)
 [![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)](https://github.com/yedhrab)
 [![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)](https://yemreak.com)
 [![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)](https://www.linkedin.com/in/yemreak/)
 
 **~ The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
-
 
 [Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
 [IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE

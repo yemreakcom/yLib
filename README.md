@@ -34,7 +34,7 @@ Karma konular hakkında aldığım notlar.
   - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
 - [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
   - [İçerik Yapısı](#i%CC%87%C3%A7erik-yap%C4%B1s%C4%B1)
-- [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
+- [Destek ve İletişim](#destek-ve-i%CC%87leti%C5%9Fim)
 
 ## Ayrılan Notlarım
 
@@ -263,17 +263,14 @@ Giriş cümlesi veya alakalı cümle.
 > - Link
 > - Link
 
-## Lisans ve Teferruatlar
+## Destek ve İletişim
 
-Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.
+[![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github)
+[![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)](https://github.com/yedhrab)
+[![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)](https://yemreak.com)
+[![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)](https://www.linkedin.com/in/yemreak/)
 
-- [Github](https://github.com/yedhrab)
-- [Website](https://yemreak.com)
-- [LinkedIn](https://www.linkedin.com/in/yemreak/)
-
-> Yardım veya destek için [iletişime](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github) geçebilrsiniz 🤗
-
-~ Yunus Emre Ak
+<h4 align="center"> The <a href="https://choosealicense.com/licenses/mit/">MIT License</a> Copyright &copy; Yunus Emre Ak </h4>
 
 [Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
 [IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE

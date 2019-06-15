@@ -12,6 +12,7 @@
   - [Hook Yapısı (useSatate)](#hook-yap%C4%B1s%C4%B1-usesatate)
 - [Ücretsiz React Çalışma Yerleri](#%C3%BCcretsiz-react-%C3%A7al%C4%B1%C5%9Fma-yerleri)
 - [Görsel Kaynaklar](#g%C3%B6rsel-kaynaklar)
+  - [Admin Paneli (Dashboard)](#admin-paneli-dashboard)
 - [Faydalı Bağlantılar](#faydal%C4%B1-ba%C4%9Flant%C4%B1lar)
 
 Facebook'un çıkarmış olduğu bir web programlama framework'udür.
@@ -87,11 +88,18 @@ render () {
 
 ## Görsel Kaynaklar
 
+- [Material Kit] ✨
 - [MDB Component]
 - [Shard UI]
 - [Button Tasarımları][Reactjs Awesome Button]
 - [React Datepicker]
 - [React Poper]
+
+> Kaynaklar için [buradaki][React UI Compenent Framework] makeleye bakmanda fayda var
+
+### Admin Paneli (Dashboard)
+
+- [MDB Dasboard]
 
 ## Faydalı Bağlantılar
 
@@ -126,3 +134,6 @@ render () {
 [MDB Component]: https://mdbootstrap.com/docs/react/components/demo/
 [Shard UI]: https://designrevision.com/docs/shards-react/getting-started
 [React, Redux & Firebase App Tutorial]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
+[Material Kit]: https://demos.creative-tim.com/material-kit-react/#/
+[React UI Compenent Framework]: https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/
+[MDB Dasboard]: https://mdbootstrap.com/previews/free-templates/react-admin-dashboard/

@@ -372,6 +372,7 @@ Değişkenlerin kullanım şekilleri:
     // Pano'dan resim kopyalam ayarı
     "pasteImage.path": "${projectRoot}/res",
     // Markdown PDF ayarları
+    "markdown-pdf.outputDirectory": "Dökümanlar",
     "markdown-pdf.styles": [
         "http://tiny.cc/yek86y"
     ],

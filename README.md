@@ -275,13 +275,13 @@ Giriş cümlesi veya alakalı cümle.
 
 [![Patreon](https://drive.google.com/uc?id=11YmCRmySX7v7QDFS62ST2JZuE70RFjDG)][Bağış Aylık]
 
-[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
-[IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE
-[Scripts]: https://github.com/yedhrab/YScripts
-
 [Mail]: mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github
 [Github]: https://github.com/yedhrab
 [Website]: https://yemreak.com
 [LinkedIn]: https://www.linkedin.com/in/yemreak/
 [Bağış Anlık]: https://gogetfunding.com/yemreak/
 [Bağış Aylık]: https://www.patreon.com/yemreak/
+
+[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
+[IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE
+[Scripts]: https://github.com/yedhrab/YScripts

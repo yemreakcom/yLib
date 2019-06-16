@@ -92,13 +92,19 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Kotlin](./Programlama%20Notlar%C4%B1/Kotlin.md)
 - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
+- [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
-- [Unity](./Programlama%20Notlar%C4%B1/Unity.md)
+- [VsCode Eklenti (VSIX)](./Programlama%20Notlar%C4%B1/VsCode%20Eklenti%20%28VSIX%29.md)
+
+### Oyun Programlama
+
+- [Unity](./Programlama%20Notlar%C4%B1/Oyun%20Programlama/Unity.md)
+- [Unreal Engine](./Programlama%20Notlar%C4%B1/Oyun%20Programlama/Unreal%20Engine.md)
 
 ### Python
 
 - [0 - Vscode Üzerinden Python](./Programlama%20Notlar%C4%B1/Python/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
-- [1 - Python Giriş](./Programlama%20Notlar%C4%B1/Python/1%20-%20Python%20Giri%C5%9F.md)
+- [1 - Python Temeli ve Değişkenleri](./Programlama%20Notlar%C4%B1/Python/1%20-%20Python%20Temeli%20ve%20De%C4%9Fi%C5%9Fkenleri.md)
 - [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
 - [4 - Python'da String İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
@@ -194,7 +200,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - [1 - Windows 10 Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20Giri%C5%9F.md)
 - [2 - Windows 10 Komut İstemi Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20Komut%20%C4%B0stemi%20Notlar%C4%B1.md)
-- [3 - Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows10%20Geli%C5%9Fmi%C5%9F.md)
+- [3 - Windows 10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F.md)
 - [4 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%20Subsystem%20for%20Linux.md)
 - [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)
 

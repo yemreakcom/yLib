@@ -2,62 +2,38 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Özelleştirmelerim](#%C3%B6zelle%C5%9Ftirmelerim)
-  - [CMD Düzeni](#cmd-d%C3%BCzeni)
-  - [Tema Düzeni](#tema-d%C3%BCzeni)
-  - [Taskbar Düzeni](#taskbar-d%C3%BCzeni)
-  - [Ek Ayalarım](#ek-ayalar%C4%B1m)
-- [Windows Özellikleri](#windows-%C3%B6zellikleri)
-  - [Varsayılan Windows Özellikleri](#varsay%C4%B1lan-windows-%C3%B6zellikleri)
-  - [Alt İşletim Sistemleri](#alt-i%CC%87%C5%9Fletim-sistemleri)
-- [Uygulama Ayarları](#uygulama-ayarlar%C4%B1)
-  - [Video Ayarları](#video-ayarlar%C4%B1)
-- [Terimler](#terimler)
-- [Windows 10 Ön Belleğini Temizleme](#windows-10-%C3%B6n-belle%C4%9Fini-temizleme)
-  - [CMD Üzerinden Önbelleği Elle Temizleme](#cmd-%C3%BCzerinden-%C3%B6nbelle%C4%9Fi-elle-temizleme)
-- [Windows10 Insider Programı](#windows10-insider-program%C4%B1)
-  - [Insider Kısayolları](#insider-k%C4%B1sayollar%C4%B1)
-  - [Arka Plandaki Evolution Copy Logosunu Kaldırma](#arka-plandaki-evolution-copy-logosunu-kald%C4%B1rma)
-- [Harici Linkler](#harici-linkler)
+- [Özelleştirmeler](#%C3%96zelle%C5%9Ftirmeler)
+- [Hata Notları](#Hata-Notlar%C4%B1)
+  - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
+- [Windows Özellikleri](#Windows-%C3%96zellikleri)
+  - [Varsayılan Windows Özellikleri](#Varsay%C4%B1lan-Windows-%C3%96zellikleri)
+  - [Alt İşletim Sistemleri](#Alt-%C4%B0%C5%9Fletim-Sistemleri)
+- [Uygulama Ayarları](#Uygulama-Ayarlar%C4%B1)
+  - [Video Ayarları](#Video-Ayarlar%C4%B1)
+- [Terimler](#Terimler)
+- [Windows 10 Ön Belleğini Temizleme](#Windows-10-%C3%96n-Belle%C4%9Fini-Temizleme)
+  - [CMD Üzerinden Önbelleği Elle Temizleme](#CMD-%C3%9Czerinden-%C3%96nbelle%C4%9Fi-Elle-Temizleme)
+- [Windows10 Insider Programı](#Windows10-Insider-Program%C4%B1)
+  - [Insider Kısayolları](#Insider-K%C4%B1sayollar%C4%B1)
+  - [Arka Plandaki Evolution Copy Logosunu Kaldırma](#Arka-Plandaki-Evolution-Copy-Logosunu-Kald%C4%B1rma)
+- [Harici Linkler](#Harici-Linkler)
 
-## Özelleştirmelerim
+## Özelleştirmeler
 
-Kendime özgü görsellik ayarlarım
+| Ayar                                                                                           | Açıklama            |
+| ---------------------------------------------------------------------------------------------- | ------------------- |
+| [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma |
 
-> Kendime not amaçlı eklenmiştir 🙄
+## Hata Notları
 
-### CMD Düzeni
+### Email Hesabı Kaydetme Sorunu
 
-Düzenin görüntüsü için [buraya](../images/cmd.png) bakabilirsin.
+- `Setting` - `Privacy` başlığı altında alttaki izinleri mail uygulamasına tanıyın
+  - Email
+  - Account info
+  - Contact
 
-- `**Font:**` *14 - Consolas*
-- **Layout:** *Windows Size - w: 120 h: 30*
-- **Color**
-  - **Screen Text:** *R: 242 G: 242 B: 242*
-  - **Screen Background** *R: 50 G: 47 B: 65*
-  - **Opacity** *%89*
-
-### Tema Düzeni
-
-- [Arka plan resmi](../images/bg.jpg)
-- [Fare Teması](https://drive.google.com/open?id=1Xs1YcQhwH4bo9SwHFQ06yMihJY8QQn15)
-- [Tema Rengi](../images/theme_color.png)
-  - Transparan etkisi `açık`
-  - Yüzeylerde renk gösterme `aktif`
-  - Uygulama modu `karanlık`
-
-### Taskbar Düzeni
-
-![taskbar](../images/taskbar.jpg)
-
-### Ek Ayalarım
-
-| Ayar                                                                                           | Açıklama                                        |
-| ---------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| Open With Code                                                                                 | Dosyayı vscode ile açma                         |
-| Open With Code                                                                                 | Dizini vscode ile açma                          |
-| [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma                             |
-| `%b%`                                                                                          | Bilgiler projesini vscode'da açan özel değişken |
+> Diğer izinleri kapatın gitsin, verilerinizi toplamasın 🧐
 
 ## Windows Özellikleri
 

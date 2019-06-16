@@ -20,9 +20,10 @@
 
 ## Özelleştirmeler
 
-| Ayar                                                                                           | Açıklama            |
-| ---------------------------------------------------------------------------------------------- | ------------------- |
-| [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma |
+| Ayar                                                                                           | Açıklama                                 |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma                      |
+| CMD karakter formatını UTF-8 yapma                                                             | <https://superuser.com/a/269857/1046035> |
 
 ## Hata Notları
 

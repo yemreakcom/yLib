@@ -11,30 +11,30 @@ Karma konular hakkında aldığım notlar.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ayrılan Notlarım](#ayr%C4%B1lan-notlar%C4%B1m)
-  - [IstanbulUniversity - CE](#istanbuluniversity---ce)
-  - [Scipts](#scipts)
-- [Google Yazılımları](#google-yaz%C4%B1l%C4%B1mlar%C4%B1)
-- [Günlük Hayat Notları](#g%C3%BCnl%C3%BCk-hayat-notlar%C4%B1)
-- [Karma Bilgiler](#karma-bilgiler)
-- [Programlama Notları](#programlama-notlar%C4%B1)
-  - [Python](#python)
-  - [Web Programlama Notları](#web-programlama-notlar%C4%B1)
-- [Proje Yönetimi Notları](#proje-y%C3%B6netimi-notlar%C4%B1)
-- [Teknoloji Notları](#teknoloji-notlar%C4%B1)
-- [Uygulama Notları](#uygulama-notlar%C4%B1)
-- [Yapay Zeka Notları](#yapay-zeka-notlar%C4%B1)
-- [Yazılım Notları](#yaz%C4%B1l%C4%B1m-notlar%C4%B1)
+- [Ayrılan Notlarım](#Ayr%C4%B1lan-Notlar%C4%B1m)
+  - [IstanbulUniversity - CE](#IstanbulUniversity---CE)
+  - [Scipts](#Scipts)
+- [Google Yazılımları](#Google-Yaz%C4%B1l%C4%B1mlar%C4%B1)
+- [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
+- [Karma Bilgiler](#Karma-Bilgiler)
+- [Programlama Notları](#Programlama-Notlar%C4%B1)
+  - [Python](#Python)
+  - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
+- [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
+- [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
+- [Uygulama Notları](#Uygulama-Notlar%C4%B1)
+- [Yapay Zeka Notları](#Yapay-Zeka-Notlar%C4%B1)
+- [Yazılım Notları](#Yaz%C4%B1l%C4%B1m-Notlar%C4%B1)
 - [pdfs](#pdfs)
-- [İşletim Sistemi Notları](#i%CC%87%C5%9Fletim-sistemi-notlar%C4%B1)
-  - [Linux Notları](#linux-notlar%C4%B1)
-  - [Windows 10](#windows-10)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-- [Yapılacaklar](#yap%C4%B1lacaklar)
-  - [İleride Yapılacaklar](#i%CC%87leride-yap%C4%B1lacaklar)
-- [Çalışma Notları](#%C3%A7al%C4%B1%C5%9Fma-notlar%C4%B1)
-  - [İçerik Yapısı](#i%CC%87%C3%A7erik-yap%C4%B1s%C4%B1)
-- [Destek ve İletişim](#destek-ve-i%CC%87leti%C5%9Fim)
+- [İşletim Sistemi Notları](#%C4%B0%C5%9Fletim-Sistemi-Notlar%C4%B1)
+  - [Linux Notları](#Linux-Notlar%C4%B1)
+  - [Windows 10](#Windows-10)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Yapılacaklar](#Yap%C4%B1lacaklar)
+  - [İleride Yapılacaklar](#%C4%B0leride-Yap%C4%B1lacaklar)
+- [Çalışma Notları](#%C3%87al%C4%B1%C5%9Fma-Notlar%C4%B1)
+  - [İçerik Yapısı](#%C4%B0%C3%A7erik-Yap%C4%B1s%C4%B1)
+- [Destek ve İletişim](#Destek-ve-%C4%B0leti%C5%9Fim)
 
 ## Ayrılan Notlarım
 
@@ -265,13 +265,23 @@ Giriş cümlesi veya alakalı cümle.
 
 ## Destek ve İletişim
 
-[![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)](mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github)
-[![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)](https://github.com/yedhrab)
-[![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)](https://yemreak.com)
-[![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)](https://www.linkedin.com/in/yemreak/)
+**The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
 
-**~ The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
+[![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)][Mail]
+[![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)][Github]
+[![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)][Website]
+[![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)][LinkedIn]
+[![Destek](https://drive.google.com/uc?id=1zyU7JWlw4sJTOx46gJlHOfYBwGIkvMQs)][Bağış Anlık]
+
+[![Patreon](https://drive.google.com/uc?id=11YmCRmySX7v7QDFS62ST2JZuE70RFjDG)][Bağış Aylık]
 
 [Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
 [IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE
 [Scripts]: https://github.com/yedhrab/YScripts
+
+[Mail]: mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github
+[Github]: https://github.com/yedhrab
+[Website]: https://yemreak.com
+[LinkedIn]: https://www.linkedin.com/in/yemreak/
+[Bağış Anlık]: https://gogetfunding.com/yemreak/
+[Bağış Aylık]: https://www.patreon.com/yemreak/

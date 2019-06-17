@@ -18,6 +18,7 @@ Karma konular hakkında aldığım notlar.
 - [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
 - [Karma Bilgiler](#Karma-Bilgiler)
 - [Programlama Notları](#Programlama-Notlar%C4%B1)
+  - [Oyun Programlama](#Oyun-Programlama)
   - [Python](#Python)
   - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
 - [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
@@ -40,7 +41,7 @@ Karma konular hakkında aldığım notlar.
 
 ### IstanbulUniversity - CE
 
-Ders notları için ayrı bir [repository][IstanbulUniversity-CE] hazırlandı. Yeni *repositoy* açılma amacı:
+Ders notları için ayrı bir [repository][istanbuluniversity-ce] hazırlandı. Yeni _repositoy_ açılma amacı:
 
 - Katkıda bulunmayı kolaylaştırma 🙏
 - Bilgilerin daha net olabilmesi 🗽
@@ -48,7 +49,7 @@ Ders notları için ayrı bir [repository][IstanbulUniversity-CE] hazırlandı. 
 
 ### Scipts
 
-Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *repositoy* açılma amacı:
+Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _repositoy_ açılma amacı:
 
 - Katkıda bulunmayı kolaylaştırma 🙏
 - Bilgilerin daha net olabilmesi 🗽
@@ -211,7 +212,8 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 - [Alibaba Cloud for Students](https://www.alibabacloud.com/campaign/education)
 - [The Best Font for Resume](https://www.businessnewsdaily.com/5331-best-resume-fonts.html)
 - [Yaratıcı Fikirler için Tasarımlar](https://www.behance.net/)
-- [Açık API listesi][Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]
+- [Açık API listesi][geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]
+- [Türkçe Dökümanlar](https://turkcedokuman.com/)
 
 ## Yapılacaklar
 
@@ -245,7 +247,7 @@ Kod parçalarının olduğu ayrı bir [repository][Scripts] hazırlandı.Yeni *r
 
 - Her şey **dinamik** olmalı
 - Önce sabit değerli yaz, sonrasında `CTRL`+ `F` ile sabitleri değişken haline dönüştür
-- Terimler *italik*, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
+- Terimler _italik_, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
 
 ### İçerik Yapısı
 
@@ -273,21 +275,20 @@ Giriş cümlesi veya alakalı cümle.
 
 **The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
 
-[![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)][Mail]
-[![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)][Github]
-[![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)][Website]
-[![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)][LinkedIn]
-[![Destek](https://drive.google.com/uc?id=1zyU7JWlw4sJTOx46gJlHOfYBwGIkvMQs)][Bağış Anlık]
+[![Mail](https://drive.google.com/uc?id=142rP0hbrnY8T9kj_84_r7WxPG1hzWEcN)][mail]
+[![Github](https://drive.google.com/uc?id=1PzkuWOoBNMg0uOMmqwHtVoYt0WCqi-O5)][github]
+[![Website](https://drive.google.com/uc?id=1wR8Ph0FBs36ZJl0Ud-HkS0LZ9b66JBqJ)][website]
+[![LinkedIn](https://drive.google.com/uc?id=1hvdil0ZHVEzekQ4AYELdnPOqzunKpnzJ)][linkedin]
+[![Destek](https://drive.google.com/uc?id=1zyU7JWlw4sJTOx46gJlHOfYBwGIkvMQs)][bağış anlık]
 
-[![Patreon](https://drive.google.com/uc?id=11YmCRmySX7v7QDFS62ST2JZuE70RFjDG)][Bağış Aylık]
+[![Patreon](https://drive.google.com/uc?id=11YmCRmySX7v7QDFS62ST2JZuE70RFjDG)][bağış aylık]
 
-[Mail]: mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github
-[Github]: https://github.com/yedhrab
-[Website]: https://yemreak.com
-[LinkedIn]: https://www.linkedin.com/in/yemreak/
-[Bağış Anlık]: https://gogetfunding.com/yemreak/
-[Bağış Aylık]: https://www.patreon.com/yemreak/
-
-[Geliştiriciler için API yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
-[IstanbulUniversity-CE]: https://github.com/yedhrab/IstanbulUniversity-CE
-[Scripts]: https://github.com/yedhrab/YScripts
+[mail]: mailto::yedhrab@gmail.com?subject=YBilgiler%20%7C%20Github
+[github]: https://github.com/yedhrab
+[website]: https://yemreak.com
+[linkedin]: https://www.linkedin.com/in/yemreak/
+[bağış anlık]: https://gogetfunding.com/yemreak/
+[bağış aylık]: https://www.patreon.com/yemreak/
+[geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
+[istanbuluniversity-ce]: https://github.com/yedhrab/IstanbulUniversity-CE
+[scripts]: https://github.com/yedhrab/YScripts

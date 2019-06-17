@@ -4,6 +4,7 @@
 
 - [Linux Nedir](#Linux-Nedir)
 - [Birkaç Öneri Distro](#Birka%C3%A7-%C3%96neri-Distro)
+- [Linux Kurulumu](#Linux-Kurulumu)
 - [Linux Genel Kullanım Notları](#Linux-Genel-Kullan%C4%B1m-Notlar%C4%B1)
   - [Linux Temel Dosyaları](#Linux-Temel-Dosyalar%C4%B1)
   - [Linux Yapılandırma Ayarları](#Linux-Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1)
@@ -46,6 +47,13 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 | [deepin](https://www.deepin.org/)          | Çok şık bir arayüz tasarımına sahiptir   | Donanım ve bilgi desteği zayıftır   |
 | [elementary OS](http://www.elementary.io/) | Mac OS Temalı                            |
 | Manjaro                                    | Hız ve verimlilik                        | Linux bilgisi gerektirir            |
+
+## Linux Kurulumu
+
+- Yukarıdaki distrolardan birini indirin
+- [Rüfus](https://github.com/pbatard/rufus/releases/download/v3.5/rufus-3.5.exe) programını indirin (linux için etcher)
+- En az 8Gb olan bir usb belleği takıp, rüfus programını çalıştırın
+- Sırasıyla disk imajını, GPT / UEFI ayarını seçin, DD image ile başlatın
 
 ## Linux Genel Kullanım Notları
 
@@ -123,7 +131,7 @@ Orjinal sayfayı görmek istiyorsan [buraya](https://help.ubuntu.com/stable/ubun
 
 #### Yapılandırma Ayalarını Dosyaya Aktarma
 
-Yapılandırma ayarlarını `dconf dump <dizin> > <dosya_ismi>`  komutu ile dosyaya aktarabilrisiniz
+Yapılandırma ayarlarını `dconf dump <dizin> > <dosya_ismi>` komutu ile dosyaya aktarabilrisiniz
 
 - `<dizin>` Hangi dizinden itibaren yapılandırma verileri yedeklensin
   - `/` olursa tüm yapılandırma ayarlarını dahil eder
@@ -132,7 +140,7 @@ Yapılandırma ayarlarını `dconf dump <dizin> > <dosya_ismi>`  komutu ile dosy
 
 #### Yapılandırma Ayarlarını Dosyadan Alma
 
-Yapılandırma ayarlarını `dconf load <dizin> < <dosya_ismi>`  komutu ile dosyaya aktarabilrisiniz
+Yapılandırma ayarlarını `dconf load <dizin> < <dosya_ismi>` komutu ile dosyaya aktarabilrisiniz
 
 - `<dizin>` Hangi dizinden itibaren yapılandırma verileri yedeklensin
   - `/` olursa tüm yapılandırma ayarlarını dahil eder
@@ -226,7 +234,7 @@ Gnome eklentileri ile ubuntu distronuzu özelleştirebilirsiniz.
 - `sudo apt install chrome-gnome-shell` ile chrome için gnome çekirdeğini kurun
 - [Chrome](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) veya [Opera](https://addons.opera.com/en/extensions/details/gnome-shell-integration/) için gnome eklentisini kurun
 
-> En iyi 19 gnome eklentisi için [buraya][Best Gnome Extension] bakabilirsin.
+> En iyi 19 gnome eklentisi için [buraya][best gnome extension] bakabilirsin.
 
 ### Ubuntu Üstteki Çubuğu Gizleme
 
@@ -265,13 +273,11 @@ sudo apt-get install gir1.2-clutter-1.0 gir1.2-clutter-gst-3.0 gir1.2-gtkclutter
 
 ### GS Connect
 
-Mobil cihaz ile bilgisayarı entegre etmeyi sağlar, [buradan][GS Connect - Extension] erişebilirsin.
+Mobil cihaz ile bilgisayarı entegre etmeyi sağlar, [buradan][gs connect - extension] erişebilirsin.
 
 [flameshot]: https://github.com/lupoDharkael/flameshot
 [simplescreenrecorder]: https://www.maartenbaert.be/simplescreenrecorder/
-
-[GS Connect - Extension]: https://extensions.gnome.org/extension/1319/gsconnect/
-
-[Best Gnome Extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/
-[Best Gnome Applications]: https://www.maketecheasier.com/best-gnome-applications/
-[Best Desktop Environment]: https://www.ubuntupit.com/best-linux-desktop-environment-reviewed-and-compared/
+[gs connect - extension]: https://extensions.gnome.org/extension/1319/gsconnect/
+[best gnome extension]: https://www.ubuntupit.com/19-best-gnome-shell-extensions-ubuntu-gnome-desktop/
+[best gnome applications]: https://www.maketecheasier.com/best-gnome-applications/
+[best desktop environment]: https://www.ubuntupit.com/best-linux-desktop-environment-reviewed-and-compared/

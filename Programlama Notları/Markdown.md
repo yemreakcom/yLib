@@ -6,27 +6,27 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Kullanım Örnekleri](#kullan%C4%B1m-%C3%B6rnekleri)
-- [Temel Formatlar](#temel-formatlar)
-- [Bağlantı Verme](#ba%C4%9Flant%C4%B1-verme)
-  - [Satıriçi Bağlantı (Inline Link)](#sat%C4%B1ri%C3%A7i-ba%C4%9Flant%C4%B1-inline-link)
-  - [Dinamik Bağlantı (Dynamic Link)](#dinamik-ba%C4%9Flant%C4%B1-dynamic-link)
-  - [Resim Bağlantısı](#resim-ba%C4%9Flant%C4%B1s%C4%B1)
-- [Tablo Oluşturma](#tablo-olu%C5%9Fturma)
-- [Matematik Denklemleri](#matematik-denklemleri)
-  - [Formül Yapısı](#form%C3%BCl-yap%C4%B1s%C4%B1)
-- [Sık Kullanılan Rozetler](#s%C4%B1k-kullan%C4%B1lan-rozetler)
-- [VsCode için Markdown](#vscode-i%C3%A7in-markdown)
-  - [VsCode için Markdown Snippets](#vscode-i%C3%A7in-markdown-snippets)
-  - [VsCode için Faydalı Eklentiler](#vscode-i%C3%A7in-faydal%C4%B1-eklentiler)
-  - [Markdown PDF](#markdown-pdf)
-    - [PDF için Markdown Imzam](#pdf-i%C3%A7in-markdown-imzam)
-    - [PDF için Özelleştirmem](#pdf-i%C3%A7in-%C3%B6zelle%C5%9Ftirmem)
-    - [PDF için VsCode Ayarları](#pdf-i%C3%A7in-vscode-ayarlar%C4%B1)
-    - [PDF'te Emoji Fontlarının Gözükmemesi](#pdfte-emoji-fontlar%C4%B1n%C4%B1n-g%C3%B6z%C3%BCkmemesi)
-    - [PDF Dosya Boyutu Sorunu](#pdf-dosya-boyutu-sorunu)
-- [Faydalı Siteler](#faydal%C4%B1-siteler)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Kullanım Örnekleri](#Kullan%C4%B1m-%C3%96rnekleri)
+- [Temel Formatlar](#Temel-Formatlar)
+- [Bağlantı Verme](#Ba%C4%9Flant%C4%B1-Verme)
+  - [Satıriçi Bağlantı (Inline Link)](#Sat%C4%B1ri%C3%A7i-Ba%C4%9Flant%C4%B1-Inline-Link)
+  - [Dinamik Bağlantı (Dynamic Link)](#Dinamik-Ba%C4%9Flant%C4%B1-Dynamic-Link)
+  - [Resim Bağlantısı](#Resim-Ba%C4%9Flant%C4%B1s%C4%B1)
+- [Tablo Oluşturma](#Tablo-Olu%C5%9Fturma)
+- [Matematik Denklemleri](#Matematik-Denklemleri)
+  - [Formül Yapısı](#Form%C3%BCl-Yap%C4%B1s%C4%B1)
+- [Sık Kullanılan Rozetler (Badge)](#S%C4%B1k-Kullan%C4%B1lan-Rozetler-Badge)
+- [VsCode için Markdown](#VsCode-i%C3%A7in-Markdown)
+  - [VsCode için Markdown Snippets](#VsCode-i%C3%A7in-Markdown-Snippets)
+  - [VsCode için Faydalı Eklentiler](#VsCode-i%C3%A7in-Faydal%C4%B1-Eklentiler)
+  - [Markdown PDF](#Markdown-PDF)
+    - [PDF için Markdown Imzam](#PDF-i%C3%A7in-Markdown-Imzam)
+    - [PDF için Özelleştirmem](#PDF-i%C3%A7in-%C3%96zelle%C5%9Ftirmem)
+    - [PDF için VsCode Ayarları](#PDF-i%C3%A7in-VsCode-Ayarlar%C4%B1)
+    - [PDF'te Emoji Fontlarının Gözükmemesi](#PDFte-Emoji-Fontlar%C4%B1n%C4%B1n-G%C3%B6z%C3%BCkmemesi)
+    - [PDF Dosya Boyutu Sorunu](#PDF-Dosya-Boyutu-Sorunu)
+- [Faydalı Siteler](#Faydal%C4%B1-Siteler)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Kullanım Örnekleri
 
@@ -130,9 +130,11 @@ $$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \m
 $$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{(i)}\log\left(a^{[2] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[2] (i)}\right)  \large  \right) \small \tag{6}$$
 ```
 
-## Sık Kullanılan Rozetler
+## Sık Kullanılan Rozetler (Badge)
 
 Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
+
+- [Vscode Rozetleri](https://vsmarketplacebadge.apphb.com/)
 
 ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
 
@@ -141,6 +143,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 ![quality](https://img.shields.io/ansible/quality/432.svg)
 
 ![status](https://img.shields.io/nodeping/status/jkiwn052-ntpp-4lbb-8d45-ihew6d9ucoei.svg)
+
 
 ## VsCode için Markdown
 

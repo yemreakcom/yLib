@@ -2,9 +2,9 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Terminel Sesini Kapatma](#terminel-sesini-kapatma)
-- [Linux Uygulamalarını WSL Üzerinde Çalıştırma](#linux-uygulamalar%C4%B1n%C4%B1-wsl-%C3%BCzerinde-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-- [WSL'i Ubuntu'nun Son Sürümüne Güncelleme](#wsli-ubuntunun-son-s%C3%BCr%C3%BCm%C3%BCne-g%C3%BCncelleme)
+- [Terminel Sesini Kapatma](#Terminel-Sesini-Kapatma)
+- [Linux Uygulamalarını WSL Üzerinde Çalıştırma](#Linux-Uygulamalar%C4%B1n%C4%B1-WSL-%C3%9Czerinde-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
+- [WSL'i Ubuntu'nun Son Sürümüne Güncelleme](#WSLi-Ubuntunun-Son-S%C3%BCr%C3%BCm%C3%BCne-G%C3%BCncelleme)
 
 ## Terminel Sesini Kapatma
 

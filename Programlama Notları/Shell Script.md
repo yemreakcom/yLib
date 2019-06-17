@@ -4,39 +4,46 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 
 ## İçerikler <!-- omit in toc -->
 
-- [Önemli Bilgiler](#%C3%B6nemli-bilgiler)
-- [Temel Operatörler](#temel-operat%C3%B6rler)
-- [Bash Komutu](#bash-komutu)
-- [Yazdırma İşlemleri (Echo)](#yazd%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
-- [Cat ile Yazdırma İşlemi](#cat-ile-yazd%C4%B1rma-i%CC%87%C5%9Flemi)
-- [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
-- [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
-- [İf-Else Yapısı](#i%CC%87f-else-yap%C4%B1s%C4%B1)
-- [For Döngüsü](#for-d%C3%B6ng%C3%BCs%C3%BC)
-- [Terminalde Seçim Yaptırma](#terminalde-se%C3%A7im-yapt%C4%B1rma)
-  - [Switch - Case Yapısı](#switch---case-yap%C4%B1s%C4%B1)
-  - [Select Yapısı](#select-yap%C4%B1s%C4%B1)
-  - [İç İçe Seçim Yapısı](#i%CC%87%C3%A7-i%CC%87%C3%A7e-se%C3%A7im-yap%C4%B1s%C4%B1)
-- [Terminalde For Döngüsü (For Loop)](#terminalde-for-d%C3%B6ng%C3%BCs%C3%BC-for-loop)
-  - [Her Dizine For Döngüsü](#her-dizine-for-d%C3%B6ng%C3%BCs%C3%BC)
-    - [Alt Dizinler Dahil Değil](#alt-dizinler-dahil-de%C4%9Fil)
-    - [Alt Dizinler Dahil](#alt-dizinler-dahil)
-- [Fonksiyonlar](#fonksiyonlar)
-  - [Fonksiyonların Kullanımı](#fonksiyonlar%C4%B1n-kullan%C4%B1m%C4%B1)
-  - [Parametreler](#parametreler)
-  - [Parametreli Fonksiyonlar](#parametreli-fonksiyonlar)
-- [Dosya İşlemleri](#dosya-i%CC%87%C5%9Flemleri)
-  - [Kontrol Bayrakları](#kontrol-bayraklar%C4%B1)
-  - [Dosya Okuma](#dosya-okuma)
-  - [Dosyadan URL ile İndirme](#dosyadan-url-ile-i%CC%87ndirme)
-  - [Sıkıştırma (Arşivleme) İşlemleri](#s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma-ar%C5%9Fivleme-i%CC%87%C5%9Flemleri)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Önemli Bilgiler](#%C3%96nemli-Bilgiler)
+- [VsCode Eklentileri](#VsCode-Eklentileri)
+- [Temel Operatörler](#Temel-Operat%C3%B6rler)
+- [Bash Komutu](#Bash-Komutu)
+- [Yazdırma İşlemleri (Echo)](#Yazd%C4%B1rma-%C4%B0%C5%9Flemleri-Echo)
+- [Cat ile Yazdırma İşlemi](#Cat-ile-Yazd%C4%B1rma-%C4%B0%C5%9Flemi)
+- [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
+- [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
+- [İf-Else Yapısı](#%C4%B0f-Else-Yap%C4%B1s%C4%B1)
+- [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
+- [Terminalde Seçim Yaptırma](#Terminalde-Se%C3%A7im-Yapt%C4%B1rma)
+  - [Switch - Case Yapısı](#Switch---Case-Yap%C4%B1s%C4%B1)
+  - [Select Yapısı](#Select-Yap%C4%B1s%C4%B1)
+  - [İç İçe Seçim Yapısı](#%C4%B0%C3%A7-%C4%B0%C3%A7e-Se%C3%A7im-Yap%C4%B1s%C4%B1)
+- [Terminalde For Döngüsü (For Loop)](#Terminalde-For-D%C3%B6ng%C3%BCs%C3%BC-For-Loop)
+  - [Her Dizine For Döngüsü](#Her-Dizine-For-D%C3%B6ng%C3%BCs%C3%BC)
+    - [Alt Dizinler Dahil Değil](#Alt-Dizinler-Dahil-De%C4%9Fil)
+    - [Alt Dizinler Dahil](#Alt-Dizinler-Dahil)
+- [Fonksiyonlar](#Fonksiyonlar)
+  - [Fonksiyonların Kullanımı](#Fonksiyonlar%C4%B1n-Kullan%C4%B1m%C4%B1)
+  - [Parametreler](#Parametreler)
+  - [Parametreli Fonksiyonlar](#Parametreli-Fonksiyonlar)
+- [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
+  - [Kontrol Bayrakları](#Kontrol-Bayraklar%C4%B1)
+  - [Dosya Okuma](#Dosya-Okuma)
+  - [Dosyadan URL ile İndirme](#Dosyadan-URL-ile-%C4%B0ndirme)
+  - [Sıkıştırma (Arşivleme) İşlemleri](#S%C4%B1k%C4%B1%C5%9Ft%C4%B1rma-Ar%C5%9Fivleme-%C4%B0%C5%9Flemleri)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Önemli Bilgiler
 
 - `sh` uzantılı dosyalara yazılırlar
-- Dosyanın ilk satırına *shell script* olduğunu belli etmesi için `#!/bin/bash` yazılır
+- Dosyaların ilk satırlarına [shebang] olarka ifade edilen satır yazılır
+  - Kodlar derlenmeden önce bu satıra bakılır ve yapısına karar verilir ([kaynak](https://www.shellscript.sh/tips/shebang/))
+- Dosyanın ilk satırına _shell script_ olduğunu belli etmesi için `#!/bin/bash` yazılır
 - Terminal üzerinden `bash <dosya>` olarak çalıştırılabilirler
+
+## VsCode Eklentileri
+
+- [Bash Beautify](https://marketplace.visualstudio.com/items?itemName=shakram02.bash-beautify)
 
 ## Temel Operatörler
 
@@ -50,7 +57,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 | `<komut> || <komut>` | 1. olmazsa 2. komutu işleme                            |
 | `<komut> | <komut>`  | 2. komutu ilk komutun çıktısında çalıştırma (pipeline) |
 | `>`                  | Yönlendirme (yoksa oluşturur)                          |
-| `>>`                 | Eklemeli yönlendirme  (üzerine yazmaz, ekler)          |
+| `>>`                 | Eklemeli yönlendirme (üzerine yazmaz, ekler)           |
 | `!$`                 | Bir önce kullanılan değişkeni kullanma                 |
 | `!!`                 | Bir önceki komutu kullanma                             |
 
@@ -116,7 +123,7 @@ let "file = 'wow'"
 echo $file
 ```
 
-> Let komutu hakkında daha fazla bilgi için [buraya][Let Komutu] bakabilirsin.
+> Let komutu hakkında daha fazla bilgi için [buraya][let komutu] bakabilirsin.
 
 ## String İşlemleri
 
@@ -149,7 +156,7 @@ done
 
 ## İf-Else Yapısı
 
-Temel açıklamaya [buradan][If Else Yapısı] erişebilirsin.
+Temel açıklamaya [buradan][if else yapısı] erişebilirsin.
 
 ```sh
 [ $1 ] || { echo "Usage: $0 file1.wma file2.wma"; exit 1; } # 1.parametre yoksa çıkma
@@ -157,7 +164,7 @@ Temel açıklamaya [buradan][If Else Yapısı] erişebilirsin.
 
 ## For Döngüsü
 
-Temel açıklamaya [buradan][For Döngüsü] erişebilirsin.
+Temel açıklamaya [buradan][for döngüsü] erişebilirsin.
 
 ## Terminalde Seçim Yaptırma
 
@@ -277,7 +284,7 @@ dowload_with_name # Fonksiyonlar isimleri ile kullanılır
 echo $? # Return değeri '$?' olarak tanımlanır. Hello basar
 ```
 
-> Temel fonksiyon kaynağı için [buraya][Temel Fonksiyonlar] bakabilirsin.
+> Temel fonksiyon kaynağı için [buraya][temel fonksiyonlar] bakabilirsin.
 
 ### Parametreler
 
@@ -370,17 +377,17 @@ zip -r "$out" "$dirname$"
 - [Dosyayı satır satır okuma]
 - [Zaman işlemleri]
 
-[Bash Script]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc11
-[Let Komutu]: https://www.computerhope.com/unix/bash/let.htm
-[Temel Fonksiyonlar]: https://linuxize.com/post/bash-functions/
-[Fonksiyon Parametreleri]: https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function
-[If Else Yapısı]: http://codewiki.wikidot.com/shell-script:if-else
-[For Döngüsü]: https://www.cyberciti.biz/faq/bash-for-loop/
-[Dosyayı satır satır okuma]: https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
-[Zaman işlemleri]: https://stackoverflow.com/a/1401495/9770490
-
-[String #*. Kullanımı]: https://unix.stackexchange.com/a/461064/344875
-[String'i ayıraç ile ayırma]: https://stackoverflow.com/q/918886/9770490
-[String içerisinde alt string arama - Regular Expression]: https://stackoverflow.com/a/6823554/9770490
-[String içerisinde alt string arama - Interpolate]: https://unix.stackexchange.com/a/370891/344875
-[String'den substring (word) alma]: https://stackoverflow.com/questions/2440414/how-to-retrieve-the-first-word-of-the-output-of-a-command-in-bash
+[bash script]: http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html#toc11
+[let komutu]: https://www.computerhope.com/unix/bash/let.htm
+[temel fonksiyonlar]: https://linuxize.com/post/bash-functions/
+[fonksiyon parametreleri]: https://bash.cyberciti.biz/guide/Pass_arguments_into_a_function
+[if else yapısı]: http://codewiki.wikidot.com/shell-script:if-else
+[for döngüsü]: https://www.cyberciti.biz/faq/bash-for-loop/
+[dosyayı satır satır okuma]: https://www.cyberciti.biz/faq/unix-howto-read-line-by-line-from-file/
+[zaman işlemleri]: https://stackoverflow.com/a/1401495/9770490
+[string #*. kullanımı]: https://unix.stackexchange.com/a/461064/344875
+[string'i ayıraç ile ayırma]: https://stackoverflow.com/q/918886/9770490
+[string içerisinde alt string arama - regular expression]: https://stackoverflow.com/a/6823554/9770490
+[string içerisinde alt string arama - interpolate]: https://unix.stackexchange.com/a/370891/344875
+[string'den substring (word) alma]: https://stackoverflow.com/questions/2440414/how-to-retrieve-the-first-word-of-the-output-of-a-command-in-bash
+[shebang]: http://dcjtech.info/topic/list-of-shebang-interpreter-directives/

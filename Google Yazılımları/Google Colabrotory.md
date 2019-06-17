@@ -4,22 +4,22 @@ Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](htt
 
 ## İçerikler <!-- omit in toc -->
 
-- [İşletim Sistemi Bilgileri](#i%CC%87%C5%9Fletim-sistemi-bilgileri)
-- [Run Time Ayarları](#run-time-ayarlar%C4%B1)
-  - [Kernel'ı Sıfırlama](#kernel%C4%B1-s%C4%B1f%C4%B1rlama)
-- [Komut Parametreleri](#komut-parametreleri)
-  - [Shell Komutları Kullanımı](#shell-komutlar%C4%B1-kullan%C4%B1m%C4%B1)
-- [Giriş / Çıkış İşlemleri](#giri%C5%9F--%C3%A7%C4%B1k%C4%B1%C5%9F-i%CC%87%C5%9Flemleri)
-  - [Colab'a Dosya Upload Etme](#colaba-dosya-upload-etme)
-  - [Colab'tan Dosya İndirme](#colabtan-dosya-i%CC%87ndirme)
-  - [Colab'tan Dizin İndirme](#colabtan-dizin-i%CC%87ndirme)
-    - [Dizin İndirme Arayüzü](#dizin-i%CC%87ndirme-aray%C3%BCz%C3%BC)
-- [Colab Üzerinde Google Drive](#colab-%C3%BCzerinde-google-drive)
-  - [Drive Dosyalarını Dosya Sistemine Bağlama](#drive-dosyalar%C4%B1n%C4%B1-dosya-sistemine-ba%C4%9Flama)
-  - [Drive Dosyalarına Erişme](#drive-dosyalar%C4%B1na-eri%C5%9Fme)
-- [Colab Üzerinden Özel İşlemler](#colab-%C3%BCzerinden-%C3%B6zel-i%CC%87%C5%9Flemler)
-  - [Bilgisayar Kamerasına Erişme](#bilgisayar-kameras%C4%B1na-eri%C5%9Fme)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [İşletim Sistemi Bilgileri](#%C4%B0%C5%9Fletim-Sistemi-Bilgileri)
+- [Run Time Ayarları](#Run-Time-Ayarlar%C4%B1)
+  - [Kernel'ı Sıfırlama](#Kernel%C4%B1-S%C4%B1f%C4%B1rlama)
+- [Komut Parametreleri](#Komut-Parametreleri)
+  - [Shell Komutları Kullanımı](#Shell-Komutlar%C4%B1-Kullan%C4%B1m%C4%B1)
+- [Giriş / Çıkış İşlemleri](#Giri%C5%9F--%C3%87%C4%B1k%C4%B1%C5%9F-%C4%B0%C5%9Flemleri)
+  - [Colab'a Dosya Upload Etme](#Colaba-Dosya-Upload-Etme)
+  - [Colab'tan Dosya İndirme](#Colabtan-Dosya-%C4%B0ndirme)
+  - [Colab'tan Dizin İndirme](#Colabtan-Dizin-%C4%B0ndirme)
+    - [Dizin İndirme Arayüzü](#Dizin-%C4%B0ndirme-Aray%C3%BCz%C3%BC)
+- [Colab Üzerinde Google Drive](#Colab-%C3%9Czerinde-Google-Drive)
+  - [Drive Dosyalarını Dosya Sistemine Bağlama](#Drive-Dosyalar%C4%B1n%C4%B1-Dosya-Sistemine-Ba%C4%9Flama)
+  - [Drive Dosyalarına Erişme](#Drive-Dosyalar%C4%B1na-Eri%C5%9Fme)
+- [Colab Üzerinden Özel İşlemler](#Colab-%C3%9Czerinden-%C3%96zel-%C4%B0%C5%9Flemler)
+  - [Bilgisayar Kamerasına Erişme](#Bilgisayar-Kameras%C4%B1na-Eri%C5%9Fme)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## İşletim Sistemi Bilgileri
 
@@ -227,3 +227,5 @@ except Exception as err:
 - [Magic Command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 - [Resetting VM](https://stackoverflow.com/questions/49001921/how-to-restart-virtual-machine)
 - [Interacting with Shell](http://mmcdan.github.io/posts/interacting-with-the-shell-via-jupyter-notebook/)
+- [Colab'ı Jupyter üzerinde Kendi PC'mizde Kullanma](https://research.google.com/colaboratory/local-runtimes.html)
+- <https://dev.to/ikeyasu/how-to-use-google-colaboratory-with-local-runtime-4j1p>

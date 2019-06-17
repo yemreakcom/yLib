@@ -4,22 +4,24 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
 
 ## İçerikler <!-- omit in toc -->
 
-- [Terminal Numaları](#terminal-numalar%C4%B1)
-- [Temel Terminal Komutları](#temel-terminal-komutlar%C4%B1)
-  - [Sudo Komutları](#sudo-komutlar%C4%B1)
-- [Kurulum Notları](#kurulum-notlar%C4%B1)
-  - [Snapd Kurulum](#snapd-kurulum)
-  - [Dpkg - Debian Paket Kurma](#dpkg---debian-paket-kurma)
-    - [Apt ile kurulum](#apt-ile-kurulum)
-    - [Dpkg ile Kurulum](#dpkg-ile-kurulum)
-  - [Tar dosyalarının kurulumları](#tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
-  - [AppImage Uzantılı Dosyaların Kurulumu](#appimage-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
-  - [Run Uzantılı Dosyaların Kurulumu](#run-uzant%C4%B1l%C4%B1-dosyalar%C4%B1n-kurulumu)
-  - [Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)](#se%C3%A7meli-veya-ko%C5%9Ful-kabul-etmeli-kurulumlar-ok-butonu)
-- [Kısayol oluşturma](#k%C4%B1sayol-olu%C5%9Fturma)
-- [Shell (Bash) Scripting](#shell-bash-scripting)
-  - [100MB ve Üzeri Dosyaları Bulma](#100mb-ve-%C3%BCzeri-dosyalar%C4%B1-bulma)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Terminal Numaları](#Terminal-Numalar%C4%B1)
+- [Temel Terminal Komutları](#Temel-Terminal-Komutlar%C4%B1)
+  - [Sudo Komutları](#Sudo-Komutlar%C4%B1)
+- [Kurulum Notları](#Kurulum-Notlar%C4%B1)
+  - [Snapd Kurulum](#Snapd-Kurulum)
+  - [Dpkg - Debian Paket Kurma](#Dpkg---Debian-Paket-Kurma)
+    - [Apt ile kurulum](#Apt-ile-kurulum)
+    - [Dpkg ile Kurulum](#Dpkg-ile-Kurulum)
+  - [Tar dosyalarının kurulumları](#Tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
+  - [AppImage Uzantılı Dosyaların Kurulumu](#AppImage-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
+  - [Run Uzantılı Dosyaların Kurulumu](#Run-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
+  - [Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)](#Se%C3%A7meli-veya-Ko%C5%9Ful-Kabul-Etmeli-Kurulumlar-OK-Butonu)
+- [Terminal Üzerinde Çalışan Faydalı Paketler](#Terminal-%C3%9Czerinde-%C3%87al%C4%B1%C5%9Fan-Faydal%C4%B1-Paketler)
+  - [Terminal Üzerinden PDF işlemleri](#Terminal-%C3%9Czerinden-PDF-i%C5%9Flemleri)
+- [Kısayol oluşturma](#K%C4%B1sayol-olu%C5%9Fturma)
+- [Shell (Bash) Scripting](#Shell-Bash-Scripting)
+  - [100MB ve Üzeri Dosyaları Bulma](#100MB-ve-%C3%9Czeri-Dosyalar%C4%B1-Bulma)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Terminal Numaları
 
@@ -172,6 +174,24 @@ chmod +x <run_dosyası>
 `<OK>` butonunu veya başka butonları seçmek için:
 
 - <kbd>TAB</kbd> tuşuna basıp <kbd>ENTER</kbd>'a basın
+
+## Terminal Üzerinde Çalışan Faydalı Paketler
+
+### Terminal Üzerinden PDF işlemleri
+
+- PDF'e dönüştürme işlemlerini [unoconv](https://github.com/unoconv/unoconv) paketi ile yapabilirsin
+  - Çok fazla dosya formatını PDF'e dönüştürebilir
+  - `sudo apt install unoconv` ile kurulur
+- PDF işlemlerini [pdfkit](https://linuxhint.com/install_pdftk_ubuntu/) ile yapabilirsin
+
+```sh
+# convert to pdf
+unoconv -f pdf myfile1.odt myfile2.odt ...
+# merge pdfs
+pdftk myfile1.pdf myfile2.pdf ...
+# remove individual pdf documents
+rm myfile1.pdf myfile2.pdf ...
+```
 
 ## Kısayol oluşturma
 

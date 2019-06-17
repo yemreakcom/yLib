@@ -8,46 +8,46 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Git İşleme Yapısı](#git-i%CC%87%C5%9Fleme-yap%C4%B1s%C4%B1)
-- [Git'in Kullanıldığı Siteler](#gitin-kullan%C4%B1ld%C4%B1%C4%9F%C4%B1-siteler)
-- [Git Kimlik Bilgileri](#git-kimlik-bilgileri)
-  - [Git Kimlik Bilgilerini Ayarlama](#git-kimlik-bilgilerini-ayarlama)
-  - [Git Kimlik Bilgilerini Kaydetme](#git-kimlik-bilgilerini-kaydetme)
-  - [Git Kimlik Bilgilerini Sıfırlama](#git-kimlik-bilgilerini-s%C4%B1f%C4%B1rlama)
-- [Git Deposunu Oluşturma & Güncelleme](#git-deposunu-olu%C5%9Fturma--g%C3%BCncelleme)
-  - [Git Deposunu Güncelleme](#git-deposunu-g%C3%BCncelleme)
-  - [Yeni repository oluşturma](#yeni-repository-olu%C5%9Fturma)
-  - [Yerel repo klonlama](#yerel-repo-klonlama)
-  - [Belli branch'i klonlama](#belli-branchi-klonlama)
-  - [Uzak repo klonlama](#uzak-repo-klonlama)
-  - [Proje dosyalarımızın depoya eklenmesi](#proje-dosyalar%C4%B1m%C4%B1z%C4%B1n-depoya-eklenmesi)
-  - [Teslim etme hazırlığı ve yorum ekleme](#teslim-etme-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-ve-yorum-ekleme)
-  - [Teslim edilecek URL'i belirleme](#teslim-edilecek-urli-belirleme)
-  - [Birden fazla teslim URL'i belirleme](#birden-fazla-teslim-urli-belirleme)
-    - [Teslim URL'i ekleme](#teslim-urli-ekleme)
-    - [Teslim URL'i kaldırma](#teslim-urli-kald%C4%B1rma)
-    - [Teslim URL'lerini kontrol etme](#teslim-urllerini-kontrol-etme)
-    - [Örnek Çıktı](#%C3%B6rnek-%C3%A7%C4%B1kt%C4%B1)
-  - [Teslim Etme](#teslim-etme)
-- [Branch İşlemleri](#branch-i%CC%87%C5%9Flemleri)
-  - [Sık Kullanılan Branch İşlemleri](#s%C4%B1k-kullan%C4%B1lan-branch-i%CC%87%C5%9Flemleri)
-- [Faydalı git komutları](#faydal%C4%B1-git-komutlar%C4%B1)
-  - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#git-%C3%BCzerinde-kullan%C4%B1c%C4%B1-bilgilerini-saklama)
-  - [Remote Kaldırma & Gösterme](#remote-kald%C4%B1rma--g%C3%B6sterme)
-  - [Son hatalı yüklemeyi kaldırma](#son-hatal%C4%B1-y%C3%BCklemeyi-kald%C4%B1rma)
-  - [Pull From işlemini Geri Alma](#pull-from-i%C5%9Flemini-geri-alma)
-- [Uygulamalar Üzerinde Git](#uygulamalar-%C3%BCzerinde-git)
-  - [JetBrains IDEs](#jetbrains-ides)
-- [Git Cheat Sheet](#git-cheat-sheet)
-- [Kitaplar](#kitaplar)
-- [Harici Linkler](#harici-linkler)
+- [Git İşleme Yapısı](#Git-%C4%B0%C5%9Fleme-Yap%C4%B1s%C4%B1)
+- [Git'in Kullanıldığı Siteler](#Gitin-Kullan%C4%B1ld%C4%B1%C4%9F%C4%B1-Siteler)
+- [Git Kimlik Bilgileri](#Git-Kimlik-Bilgileri)
+  - [Git Kimlik Bilgilerini Ayarlama](#Git-Kimlik-Bilgilerini-Ayarlama)
+  - [Git Kimlik Bilgilerini Kaydetme](#Git-Kimlik-Bilgilerini-Kaydetme)
+  - [Git Kimlik Bilgilerini Sıfırlama](#Git-Kimlik-Bilgilerini-S%C4%B1f%C4%B1rlama)
+- [Git Deposunu Oluşturma & Güncelleme](#Git-Deposunu-Olu%C5%9Fturma--G%C3%BCncelleme)
+  - [Git Deposunu Güncelleme](#Git-Deposunu-G%C3%BCncelleme)
+  - [Yeni repository oluşturma](#Yeni-repository-olu%C5%9Fturma)
+  - [Yerel repo klonlama](#Yerel-repo-klonlama)
+  - [Belli branch'i klonlama](#Belli-branchi-klonlama)
+  - [Uzak repo klonlama](#Uzak-repo-klonlama)
+  - [Proje dosyalarımızın depoya eklenmesi](#Proje-dosyalar%C4%B1m%C4%B1z%C4%B1n-depoya-eklenmesi)
+  - [Teslim etme hazırlığı ve yorum ekleme](#Teslim-etme-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-ve-yorum-ekleme)
+  - [Teslim edilecek URL'i belirleme](#Teslim-edilecek-URLi-belirleme)
+  - [Birden fazla teslim URL'i belirleme](#Birden-fazla-teslim-URLi-belirleme)
+    - [Teslim URL'i ekleme](#Teslim-URLi-ekleme)
+    - [Teslim URL'i kaldırma](#Teslim-URLi-kald%C4%B1rma)
+    - [Teslim URL'lerini kontrol etme](#Teslim-URLlerini-kontrol-etme)
+    - [Örnek Çıktı](#%C3%96rnek-%C3%87%C4%B1kt%C4%B1)
+  - [Teslim Etme](#Teslim-Etme)
+- [Branch İşlemleri](#Branch-%C4%B0%C5%9Flemleri)
+  - [Sık Kullanılan Branch İşlemleri](#S%C4%B1k-Kullan%C4%B1lan-Branch-%C4%B0%C5%9Flemleri)
+- [Faydalı git komutları](#Faydal%C4%B1-git-komutlar%C4%B1)
+  - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#Git-%C3%9Czerinde-Kullan%C4%B1c%C4%B1-Bilgilerini-Saklama)
+  - [Remote Kaldırma & Gösterme](#Remote-Kald%C4%B1rma--G%C3%B6sterme)
+  - [Son hatalı yüklemeyi kaldırma](#Son-hatal%C4%B1-y%C3%BCklemeyi-kald%C4%B1rma)
+  - [Pull From işlemini Geri Alma](#Pull-From-i%C5%9Flemini-Geri-Alma)
+- [Uygulamalar Üzerinde Git](#Uygulamalar-%C3%9Czerinde-Git)
+  - [JetBrains IDEs](#JetBrains-IDEs)
+- [Git Cheat Sheet](#Git-Cheat-Sheet)
+- [Kitaplar](#Kitaplar)
+- [Harici Linkler](#Harici-Linkler)
 
 ## Git İşleme Yapısı
 
 - İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](#git-deposunu-g%C3%BCncelleme) edilir.
-- Her yenilik için **değişikliği açıklayan yorumla birlikte**  ayrı ayrı [commit](#Teslim%20etme%20haz%C4%B1rl%C4%B1%C4%9F%C4%B1%20ve%20yorum%20ekleme) yapılır.
+- Her yenilik için **değişikliği açıklayan yorumla birlikte** ayrı ayrı [commit](#Teslim%20etme%20haz%C4%B1rl%C4%B1%C4%9F%C4%B1%20ve%20yorum%20ekleme) yapılır.
 - Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch](#Branch%20İşlemleri) oluşturulur.
-  - Yeni branch kontrol edildikten sonra orjinal (master) branch'ine dahil edilir. ( *Alakalı: [merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html)* )
+  - Yeni branch kontrol edildikten sonra orjinal (master) branch'ine dahil edilir. ( _Alakalı: [merge request](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html)_ )
   - Bu sistemle hataların orjinal projeyi bozması engellenmeye çalışılır.
 - Eğer 2 farklı alanda çalışılacakca yeni branch üzerinden dosyalar oluşturulmalı
   - Bu sayede master pull edildiğinde dosya kaybı söz konusu olmayacaktır
@@ -80,13 +80,13 @@ git config --global credential.helper store
 
 Detaylar için [buraya](https://stackoverflow.com/a/15382950) tıklayabilirsin.
 
-*Windows:*
+_Windows:_
 
 ```bash
 git config --system --unset credential.helper
 ```
 
-*Diğerleri:*
+_Diğerleri:_
 
 ```bash
 git config --global --unset credential.helper
@@ -161,10 +161,10 @@ git commit -m "Yorum" -m "Açıklama" # Başlıklı uzun açıklama
 git remote add [remote_name] [url]
 ```
 
-- `remote_name` Kontrol ismi. *Örn: origin*
+- `remote_name` Kontrol ismi. _Örn: origin_
 - `url` Yüklemek istediğimiz yerin adresi
 
-> Github için, projenizin konumuna gelip, *download kısmındaki kopyalama resmine- basarak, projenizin url'ini kopyalabilirsiniz.
+> Github için, projenizin konumuna gelip, \*download kısmındaki kopyalama resmine- basarak, projenizin url'ini kopyalabilirsiniz.
 
 ### Birden fazla teslim URL'i belirleme
 
@@ -177,7 +177,7 @@ git remote set-url --add --push [remote_name] [url1]
 git remote set-url --add --push [remote_name] [url2]
 ```
 
-- `--push` yerine diğer git işlemlerini de kullanabilirsiniz. *Örn: fetch*
+- `--push` yerine diğer git işlemlerini de kullanabilirsiniz. _Örn: fetch_
 
 > Uzaktan kontrol (remote) eklemek için `git remote add [remote_name] [url]` ile oluşturulması gerekir. Aksi halde hata verir.
 
@@ -247,7 +247,7 @@ Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 - `<url | remote>` Uzaktaki git adresi veya ismi
   - **Örn**: `origin` veya `https://github.com/yedhrab/YBilgiler.git`
 
-> Branch kaldırma hakkında ek bilgi için [buraya][Git branch silme işlemleri] bakabilirsin
+> Branch kaldırma hakkında ek bilgi için [buraya][git branch silme işlemleri] bakabilirsin
 
 ## Faydalı git komutları
 
@@ -304,8 +304,8 @@ git checkout <branch1>
 ### JetBrains IDEs
 
 - Branch kontrollerini sağ alt köşedeki git alanından yapabilirsin.
-  - Bu alan açık iken klavyen ile *arama- yapabilirsin.
-  - `New Branch` kısmından yeni *yerel branch* oluşturabilirsin.
+  - Bu alan açık iken klavyen ile \*arama- yapabilirsin.
+  - `New Branch` kısmından yeni _yerel branch_ oluşturabilirsin.
   - `Remote branch` kısmındaki herhangi bir branch üzerine tıklayarak `Merge Into Current` ile kendi projene dahil edebilirsin.
 
 ## Git Cheat Sheet
@@ -325,4 +325,4 @@ git checkout <branch1>
 - [Git Rebase Kavramı](https://git-scm.com/book/tr/v1/Git-te-Dallanma-Rebasing-Tekrar-Adresleme)
 - [Git branch silme işlemleri]
 
-[Git branch silme işlemleri]: https://stackoverflow.com/a/2003515
+[git branch silme işlemleri]: https://stackoverflow.com/a/2003515

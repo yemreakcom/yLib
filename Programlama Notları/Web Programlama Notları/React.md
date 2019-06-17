@@ -4,16 +4,16 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Neden React](#neden-react)
-- [React Kullanımı](#react-kullan%C4%B1m%C4%B1)
-- [Temel Bilgiler](#temel-bilgiler)
-- [Yazım Formatı](#yaz%C4%B1m-format%C4%B1)
-  - [Return Yapısı](#return-yap%C4%B1s%C4%B1)
-  - [Hook Yapısı (useSatate)](#hook-yap%C4%B1s%C4%B1-usesatate)
-- [Ücretsiz React Çalışma Yerleri](#%C3%BCcretsiz-react-%C3%A7al%C4%B1%C5%9Fma-yerleri)
-- [Görsel Kaynaklar](#g%C3%B6rsel-kaynaklar)
-  - [Admin Paneli (Dashboard)](#admin-paneli-dashboard)
-- [Faydalı Bağlantılar](#faydal%C4%B1-ba%C4%9Flant%C4%B1lar)
+- [Neden React](#Neden-React)
+- [React Kullanımı](#React-Kullan%C4%B1m%C4%B1)
+- [Temel Bilgiler](#Temel-Bilgiler)
+- [Yazım Formatı](#Yaz%C4%B1m-Format%C4%B1)
+  - [Return Yapısı](#Return-Yap%C4%B1s%C4%B1)
+  - [Hook Yapısı (useSatate)](#Hook-Yap%C4%B1s%C4%B1-useSatate)
+- [Ücretsiz React Çalışma Yerleri](#%C3%9Ccretsiz-React-%C3%87al%C4%B1%C5%9Fma-Yerleri)
+- [Görsel Kaynaklar](#G%C3%B6rsel-Kaynaklar)
+  - [Admin Paneli (Dashboard)](#Admin-Paneli-Dashboard)
+- [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
 
 Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 
@@ -31,7 +31,7 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 **Bilgisayarın üzerinden çalıştırmak için:**
 
 - [Nodejs] kurulumunu gerektirir
-- React'i basit olarak kurmak için [buraya][React Kurulumu] bakabilirsin
+- React'i basit olarak kurmak için [buraya][react kurulumu] bakabilirsin
 - `npm init react-app my-app`
 
 ## Temel Bilgiler
@@ -51,7 +51,9 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 - Classlar'ın içinde `render()` olur ve `div` içinde html döndürmek zorundadır
 - `()` kullanılırsa içerisindeki veri otomatik olarak **return** edilir
 - Html içine javascriptler `{}` karakterleri arasına `<div>{"javascript_kodu"}</div>` yapısı ile eklenir
-- `onClick` gibi metodların kullanımı `onClick={() => this.<func>}` şeklindedir
+- `onClick` gibi metodların kullanımı `onClick={() => this.<func>()}` şeklindedir
+- `{<func>()}` şeklinde kullanılırsa fonksiyon tıklanmadan, direkt olarak çalıştırılır
+- `{() => {<func>()}}` şeklinde de kullanılabilir
   - `this` sadece class componentler için kullanılır, function componentler için gerek yoktur
 
 ### Return Yapısı
@@ -81,21 +83,27 @@ render () {
 - [Complete React Tutorial (with Redux)]
 - [React, Redux & Firebase App Tutorial]
 - [Best free react courses for tutorials]
-- Kitap için [buraya][Road to learn react]
+- Kitap için [buraya][road to learn react]
 - [Master React & Redux]
-- [Ücretli kurs][React Udemy - Ücretli]
-- [Başkalarının yaptığı demo'lu ve açık kaynaklı projeler][Açık kaynak react projeleri]
+- [Ücretli kurs][react udemy - ücretli]
+- [Başkalarının yaptığı demo'lu ve açık kaynaklı projeler][açık kaynak react projeleri]
 
 ## Görsel Kaynaklar
 
+- [Daynight Animation](https://codepen.io/Catagen/pen/PqYdXR/)
+- [Meterial UI](https://github.com/mui-org/material-ui)
+  - Codesanbox üzerinden deneyebilirsin
+  - Upload butonu da vardır
 - [Material Kit] ✨
 - [MDB Component]
+  - `npm install mdbreact`
+  - [Examples](https://mdbootstrap.com/docs/react/css/background-image/)
 - [Shard UI]
-- [Button Tasarımları][Reactjs Awesome Button]
+- [Button Tasarımları][reactjs awesome button]
 - [React Datepicker]
 - [React Poper]
 
-> Kaynaklar için [buradaki][React UI Compenent Framework] makeleye bakmanda fayda var
+> Kaynaklar için [buradaki][react ui compenent framework] makeleye bakmanda fayda var
 
 ### Admin Paneli (Dashboard)
 
@@ -107,33 +115,30 @@ render () {
 - [Ana Kavramlar](https://reactjs.org/docs/hello-world.html)
 - [Hosting](https://www.roast.io/for/react)
 - [Online IDE](https://codesandbox.io/s/new)
-- [React Instagram Klonu][React Instagram Clone]
-- [React Instagram Klonu 2][React Instagram Clone 2]
-- [Nodejs React ve Redux ile Medium Klonu][Medium Clone]
+- [React Instagram Klonu][react instagram clone]
+- [React Instagram Klonu 2][react instagram clone 2]
+- [Nodejs React ve Redux ile Medium Klonu][medium clone]
 - [React ile yapılan uygulama örnekleri]
 
-[React Instagram Clone]: https://github.com/yedehrab/React-Instagram-Clone-2.0
-[React Instagram Clone 2]: https://github.com/hibiken/hackafy
-[Medium Clone]: https://github.com/krissnawat/medium-clone-on-node
-[Reactjs Awesome Button]: https://caferati.me/demo/react-awesome-button
-
-[Master React & Redux]: https://bahdcasts.com/courses/learn-react-redux
-[Complete React Tutorial (with Redux)]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
-[Best free react courses for tutorials]: https://designrevision.com/best-free-react-tutorials-courses/
-[Road to learn react]: ../res/the-road-to-learn-react.pdf
-[React Udemy - Ücretli]: https://www.udemy.com/react-the-complete-guide-incl-redux/
-[Açık kaynak react projeleri]: https://react.rocks/
-[React ile yapılan uygulama örnekleri]: https://madewithreact.com/
-
-[CodeSandbox]: https://codesandbox.io/
-[Nodejs]: https://nodejs.org/en/download/
-[React Kurulumu]: https://github.com/facebook/create-react-app
-
-[React Datepicker]: https://reactdatepicker.com/#example-10
-[React Poper]: https://github.com/FezVrasta/react-popper
-[MDB Component]: https://mdbootstrap.com/docs/react/components/demo/
-[Shard UI]: https://designrevision.com/docs/shards-react/getting-started
-[React, Redux & Firebase App Tutorial]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
-[Material Kit]: https://demos.creative-tim.com/material-kit-react/#/
-[React UI Compenent Framework]: https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/
-[MDB Dasboard]: https://mdbootstrap.com/previews/free-templates/react-admin-dashboard/
+[react instagram clone]: https://github.com/yedehrab/React-Instagram-Clone-2.0
+[react instagram clone 2]: https://github.com/hibiken/hackafy
+[medium clone]: https://github.com/krissnawat/medium-clone-on-node
+[reactjs awesome button]: https://caferati.me/demo/react-awesome-button
+[master react & redux]: https://bahdcasts.com/courses/learn-react-redux
+[complete react tutorial (with redux)]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
+[best free react courses for tutorials]: https://designrevision.com/best-free-react-tutorials-courses/
+[road to learn react]: ../res/the-road-to-learn-react.pdf
+[react udemy - ücretli]: https://www.udemy.com/react-the-complete-guide-incl-redux/
+[açık kaynak react projeleri]: https://react.rocks/
+[react ile yapılan uygulama örnekleri]: https://madewithreact.com/
+[codesandbox]: https://codesandbox.io/
+[nodejs]: https://nodejs.org/en/download/
+[react kurulumu]: https://github.com/facebook/create-react-app
+[react datepicker]: https://reactdatepicker.com/#example-10
+[react poper]: https://github.com/FezVrasta/react-popper
+[mdb component]: https://mdbootstrap.com/docs/react/components/demo/
+[shard ui]: https://designrevision.com/docs/shards-react/getting-started
+[react, redux & firebase app tutorial]: https://www.youtube.com/playlist?list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
+[material kit]: https://demos.creative-tim.com/material-kit-react/#/
+[react ui compenent framework]: https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/
+[mdb dasboard]: https://mdbootstrap.com/previews/free-templates/react-admin-dashboard/

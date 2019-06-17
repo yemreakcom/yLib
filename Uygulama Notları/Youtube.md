@@ -4,51 +4,53 @@ Youtube üzerindeki beğendiğim videolar
 
 ## İçerikler <!-- omit in toc -->
 
-- [Youtube Video İndirici](#youtube-video-i%CC%87ndirici)
-- [Kişisel Gelişim](#ki%C5%9Fisel-geli%C5%9Fim)
-  - [İnsan Piskolojisi](#i%CC%87nsan-piskolojisi)
-  - [TEDX Videoları](#tedx-videolar%C4%B1)
-  - [Farkındalık & Zihin Açıcı](#fark%C4%B1ndal%C4%B1k--zihin-a%C3%A7%C4%B1c%C4%B1)
-  - [Algoritma & Matematik](#algoritma--matematik)
-  - [Öğrenme Teknikleri](#%C3%B6%C4%9Frenme-teknikleri)
-  - [Ahlak](#ahlak)
-  - [Eğitim](#e%C4%9Fitim)
-  - [Motivasyon](#motivasyon)
-- [Verimlilik](#verimlilik)
-- [Teknoloji](#teknoloji)
-- [Bilgisayar Bilimi](#bilgisayar-bilimi)
-  - [Programlama Dilleri](#programlama-dilleri)
-    - [Java](#java)
-    - [Kotlin](#kotlin)
-    - [Android](#android)
-    - [Andorid Studio UI](#andorid-studio-ui)
-    - [Javascript](#javascript)
-    - [Python](#python)
-    - [Web](#web)
-    - [C Sharp](#c-sharp)
-    - [C++](#c)
-    - [Ardunio](#ardunio)
-  - [Makine Öğrenimi](#makine-%C3%B6%C4%9Frenimi)
-  - [Ses & Müzik Editleme](#ses--m%C3%BCzik-editleme)
-  - [Blokchain](#blokchain)
-  - [Cyber](#cyber)
-  - [Dizayn](#dizayn)
-- [Din](#din)
-- [Sağlık & Kişisel Bakım](#sa%C4%9Fl%C4%B1k--ki%C5%9Fisel-bak%C4%B1m)
-  - [Spor](#spor)
-- [Müzikler](#m%C3%BCzikler)
-  - [Solo Piyano Müzikler](#solo-piyano-m%C3%BCzikler)
-  - [Sesli Müzikler](#sesli-m%C3%BCzikler)
-  - [İlahiler](#i%CC%87lahiler)
-  - [Oyun Müzikleri](#oyun-m%C3%BCzikleri)
-- [Şiir](#%C5%9Fiir)
-- [Ekonomi](#ekonomi)
-- [Faydalı Kanallar](#faydal%C4%B1-kanallar)
-- [Youtube Listesini Markdown'a Çevirme](#youtube-listesini-markdowna-%C3%A7evirme)
+- [Youtube Video İndirici](#Youtube-Video-%C4%B0ndirici)
+- [Kişisel Gelişim](#Ki%C5%9Fisel-Geli%C5%9Fim)
+  - [İnsan Piskolojisi](#%C4%B0nsan-Piskolojisi)
+  - [TEDX Videoları](#TEDX-Videolar%C4%B1)
+  - [Farkındalık & Zihin Açıcı](#Fark%C4%B1ndal%C4%B1k--Zihin-A%C3%A7%C4%B1c%C4%B1)
+  - [Algoritma & Matematik](#Algoritma--Matematik)
+  - [Öğrenme Teknikleri](#%C3%96%C4%9Frenme-Teknikleri)
+  - [Ahlak](#Ahlak)
+  - [Eğitim](#E%C4%9Fitim)
+  - [Motivasyon](#Motivasyon)
+- [Verimlilik](#Verimlilik)
+- [Teknoloji](#Teknoloji)
+- [Bilgisayar Bilimi](#Bilgisayar-Bilimi)
+  - [Programlama Dilleri](#Programlama-Dilleri)
+    - [Java](#Java)
+    - [Kotlin](#Kotlin)
+    - [Android](#Android)
+    - [Andorid Studio UI](#Andorid-Studio-UI)
+    - [Javascript](#Javascript)
+    - [Python](#Python)
+    - [Web](#Web)
+    - [C Sharp](#C-Sharp)
+    - [C++](#C)
+    - [Ardunio](#Ardunio)
+  - [Makine Öğrenimi](#Makine-%C3%96%C4%9Frenimi)
+  - [Ses & Müzik Editleme](#Ses--M%C3%BCzik-Editleme)
+  - [Blokchain](#Blokchain)
+  - [Cyber](#Cyber)
+  - [Dizayn](#Dizayn)
+- [Din](#Din)
+- [Sağlık & Kişisel Bakım](#Sa%C4%9Fl%C4%B1k--Ki%C5%9Fisel-Bak%C4%B1m)
+  - [Spor](#Spor)
+- [Müzikler](#M%C3%BCzikler)
+  - [Solo Piyano Müzikler](#Solo-Piyano-M%C3%BCzikler)
+  - [Sesli Müzikler](#Sesli-M%C3%BCzikler)
+  - [İlahiler](#%C4%B0lahiler)
+  - [Oyun Müzikleri](#Oyun-M%C3%BCzikleri)
+- [Şiir](#%C5%9Eiir)
+- [Ekonomi](#Ekonomi)
+- [Faydalı Kanallar](#Faydal%C4%B1-Kanallar)
+- [Youtube Listesini Markdown'a Çevirme](#Youtube-Listesini-Markdowna-%C3%87evirme)
 
 ## Youtube Video İndirici
 
 - Video indirici aracı olan [Youtube-dl]'i indirin
+  - [Windows][Youtube-dl Windows] için [Microsoft Visual C++ 2010 Redistributable Package (x86)] gerektirir
+  - Linux için `sudo apt install youtube-dl`
 - Kullanımı`youtube-dl <url>` şeklindedir, dökümantasyonuna [buradan][Youtube-dl Doc] bakabilirsin.
 
 ```sh
@@ -370,5 +372,7 @@ for (let i = 0; i < names.length; i++) {
 console.log(markdown)
 ```
 
-[Youtube-dl]: https://github.com/ytdl-org/youtube-dl/releases
+[Youtube-dl]: https://github.com/ytdl-org/youtube-dl
+[Youtube-dl Windows]: https://yt-dl.org/downloads/2019.06.08/youtube-dl.exe
 [Youtube-dl Doc]: https://github.com/ytdl-org/youtube-dl
+[Microsoft Visual C++ 2010 Redistributable Package (x86)]: https://www.microsoft.com/en-US/download/details.aspx?id=5555

@@ -2,19 +2,36 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Merkeze konumlandırma](#Merkeze-konumland%C4%B1rma)
+- [CSS Notları](#CSS-Notlar%C4%B1)
+  - [Merkeze konumlandırma](#Merkeze-konumland%C4%B1rma)
+  - [Animasyon (Transition)](#Animasyon-Transition)
 - [VsCode Eklentileri](#VsCode-Eklentileri)
   - [Code runner ek ayarı](#Code-runner-ek-ayar%C4%B1)
 - [Web Automation (Web Otomasyaonu)](#Web-Automation-Web-Otomasyaonu)
+- [Faydalı Araçlar](#Faydal%C4%B1-Ara%C3%A7lar)
 - [İlham Verici Çalışmalar](#%C4%B0lham-Verici-%C3%87al%C4%B1%C5%9Fmalar)
 - [Karma Linkler](#Karma-Linkler)
 
-## Merkeze konumlandırma
+## CSS Notları
+
+- `width: 1vw` Ekranın genişliğinin 100'de 1'ini temsil eder
+- `height: 1vh` Ekranın yüksekliğinin 100'de 1'ini temsil eder
+- `em, rem` Fonta oranla boyut belirtme
+
+### Merkeze konumlandırma
 
 ```css
 display: flex;
 align-items: center;
 justify-content: center;
+```
+
+### Animasyon (Transition)
+
+Tüm eylemleri için animasyon
+
+```css
+transition: all 1.1s ease-in-out;
 ```
 
 ## VsCode Eklentileri
@@ -41,9 +58,15 @@ Web otomasyonu için selenium ide kullanılmaktadır.
 - Chrome için eklentisini [buraya](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) tıklayarak indirebilirsin.
 - Örnek video için [buraya](https://www.youtube.com/watch?v=4I7xay_NV8A) bakabilirsin.
 
+## Faydalı Araçlar
+
+- [CSS Animasyonu Oluşturma](http://animista.net)
+
 ## İlham Verici Çalışmalar
 
 - [Karma Figürler ve Animasyonlar İçeren İlginç Site](https://iuri.is/)
+- [CSS Animasyon Örnekleri](https://www.mockplus.com/blog/post/css-animation-examples)
+- [Codepen Üzerindeki CSS Animasyon Örnekleri](https://webdesign.tutsplus.com/articles/15-inspiring-examples-of-css-animation-on-codepen--cms-23937)
 
 ## Karma Linkler
 

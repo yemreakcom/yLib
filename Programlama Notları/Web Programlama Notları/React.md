@@ -18,6 +18,8 @@
   - [Faydalı Metodlar](#Faydal%C4%B1-Metodlar)
   - [For veya Map Döngüsü İşlemleri](#For-veya-Map-D%C3%B6ng%C3%BCs%C3%BC-%C4%B0%C5%9Flemleri)
   - [Hook Yapısı (useSatate)](#Hook-Yap%C4%B1s%C4%B1-useSatate)
+- [React Bilgileri](#React-Bilgileri)
+  - [SVG alımı](#SVG-al%C4%B1m%C4%B1)
 - [Ücretsiz React Çalışma Yerleri](#%C3%9Ccretsiz-React-%C3%87al%C4%B1%C5%9Fma-Yerleri)
 - [Görsel Kaynaklar](#G%C3%B6rsel-Kaynaklar)
   - [Admin Paneli (Dashboard)](#Admin-Paneli-Dashboard)
@@ -193,6 +195,17 @@ const moves = history.map((step, move) => {
   - `useState` kodu kullanılır
   - `const [<state>, <handler>] = useState(<value>)` formatında kullanımı vardır
   - Bu sayede function componentlerde de state'ler kullanılabilir hale gelmekte
+
+## React Bilgileri
+
+- [React ile CSS Ayalarma Yolları](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
+
+### SVG alımı
+
+- Svg dosyası oluşturulup içine svg ekleniir
+  - `<svg> <g> ...`
+- `jsx` dosyasından `import` edilir
+- `img src={svg}` şeklinde kullanılır
 
 ## Ücretsiz React Çalışma Yerleri
 

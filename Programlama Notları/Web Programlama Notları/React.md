@@ -18,6 +18,7 @@
   - [Faydalı Metodlar](#Faydal%C4%B1-Metodlar)
   - [For veya Map Döngüsü İşlemleri](#For-veya-Map-D%C3%B6ng%C3%BCs%C3%BC-%C4%B0%C5%9Flemleri)
   - [Hook Yapısı (useSatate)](#Hook-Yap%C4%B1s%C4%B1-useSatate)
+- [Github Üzerinde Yayınlama](#Github-%C3%9Czerinde-Yay%C4%B1nlama)
 - [React Bilgileri](#React-Bilgileri)
   - [SVG alımı](#SVG-al%C4%B1m%C4%B1)
 - [Ücretsiz React Çalışma Yerleri](#%C3%9Ccretsiz-React-%C3%87al%C4%B1%C5%9Fma-Yerleri)
@@ -195,6 +196,17 @@ const moves = history.map((step, move) => {
   - `useState` kodu kullanılır
   - `const [<state>, <handler>] = useState(<value>)` formatında kullanımı vardır
   - Bu sayede function componentlerde de state'ler kullanılabilir hale gelmekte
+
+## Github Üzerinde Yayınlama
+
+- `package.json` dosyasına `"homepage":"https://yourusername.github.io/repository-name"` alnını ekleyin
+- `npm install --save gh-pages` ile gh-pages'i yükleyin
+- `package.json`'daki scripts'lere alttakileri ekleyin:
+  - `"predeploy": "npm run build",`
+  - `"deploy": "gh-pages -d build"`
+- `npm run deploy` ile gh-pages'e aktarabilirsiniz 🚀
+
+> [Netlify](https://www.netlify.com/) üzerinden yayınlar isen [daha fazla avataja](https://www.netlify.com/github-pages-vs-netlify/) sahipsin 🎈
 
 ## React Bilgileri
 

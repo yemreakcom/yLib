@@ -14,7 +14,12 @@
 
 ## Giriş Kalıbını Oluşturma
 
-Video anlatımı için [buraya][VsCode Create Theme Extension in 1 min - Shows all steps] bakabilirsin.
+Video anlatımı için [buraya][vscode create theme extension in 1 min - shows all steps] bakabilirsin.
+
+<center>
+<video width="620" height="440" src="vscode_theme.mp4" type="video/mp4" controls>
+</video>
+</center>
 
 - Terminal'i yada cmd'yi açın
 - `npm i -g yo generator-code` ile kalıp oluşturucuyu indirin
@@ -27,28 +32,25 @@ Video anlatımı için [buraya][VsCode Create Theme Extension in 1 min - Shows a
 
 ### Eklentiyi Paylaşma
 
-- Öncelikle [buradan][Token oluşturma] token oluşturmanız gerekmekte
+- Öncelikle [buradan][token oluşturma] token oluşturmanız gerekmekte
   - `New Token` -> Organizatin **All accessiable organization**'ı seçin
 - `npm install -g vsce` ile `vsix` oluşturucuyu indirin
 - `vsce login <id>`
-- Package json'u [örnekteki][Package JSON Örneği] gibi ayarların
+- Package json'u [örnekteki][package json örneği] gibi ayarların
 - [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'den vsix uzantılı dosyanızı yükleyin
 
 #### Package JSON Örneği
 
 ```json
 {
-    "publisher": "Buraya vsce ile girdiğiniz hesabı yazın",
-    "icon": "resim yolu",
-    "license": "SEE LICENSE IN LICENSE.txt",
-    "keywords": [
-        "anahtar",
-        "helimeler"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "github_proje urli"
-    },
+  "publisher": "Buraya vsce ile girdiğiniz hesabı yazın",
+  "icon": "resim yolu",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "keywords": ["anahtar", "helimeler"],
+  "repository": {
+    "type": "git",
+    "url": "github_proje urli"
+  }
 }
 ```
 
@@ -56,7 +58,7 @@ Video anlatımı için [buraya][VsCode Create Theme Extension in 1 min - Shows a
 >
 > <https://code.visualstudio.com/api/working-with-extensions/publishing-extension#common-questions>
 
-[Özel tema oluşturma]: https://www.youtube.com/watch?v=3Ju74i1MyBg
-[Token oluşturma]: https://dev.azure.com/yedhrab/_usersSettings/tokens
-[Package JSON Örneği]: #package-json-%C3%B6rne%C4%9Fi
-[VsCode Create Theme Extension in 1 min - Shows all steps]: https://youtu.be/z_D_86WjXg4
+[özel tema oluşturma]: https://www.youtube.com/watch?v=3Ju74i1MyBg
+[token oluşturma]: https://dev.azure.com/yedhrab/_usersSettings/tokens
+[package json örneği]: #package-json-%C3%B6rne%C4%9Fi
+[vscode create theme extension in 1 min - shows all steps]: https://youtu.be/z_D_86WjXg4

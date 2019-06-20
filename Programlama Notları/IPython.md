@@ -4,31 +4,31 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Temel Bilgiler](#temel-bilgiler)
-- [Hızlı Notlar](#h%C4%B1zl%C4%B1-notlar)
-  - [Google Colab için Çalışma Ortamını Yapılandırma](#google-colab-i%C3%A7in-%C3%A7al%C4%B1%C5%9Fma-ortam%C4%B1n%C4%B1-yap%C4%B1land%C4%B1rma)
-- [Terminal İşlemleri](#terminal-i%CC%87%C5%9Flemleri)
-  - [Terminal İşlemleri Örneği](#terminal-i%CC%87%C5%9Flemleri-%C3%B6rne%C4%9Fi)
-  - [İşletim Sistemi Bilgileri](#i%CC%87%C5%9Fletim-sistemi-bilgileri)
-- [Form Oluşturma İşlemleri (GUI)](#form-olu%C5%9Fturma-i%CC%87%C5%9Flemleri-gui)
-- [Drive İşlemleri](#drive-i%CC%87%C5%9Flemleri)
-  - [Drive Dosyalarını Dosya Sistemine Bağlama](#drive-dosyalar%C4%B1n%C4%B1-dosya-sistemine-ba%C4%9Flama)
-  - [Drive Dosyalarına Erişme](#drive-dosyalar%C4%B1na-eri%C5%9Fme)
-- [I / O (Giriş / Çıkış) İşlemleri](#i--o-giri%C5%9F--%C3%A7%C4%B1k%C4%B1%C5%9F-i%CC%87%C5%9Flemleri)
-  - [Dosya Upload Etme](#dosya-upload-etme)
-  - [Dosya İndirme](#dosya-i%CC%87ndirme)
-  - [Dizin İndirme](#dizin-i%CC%87ndirme)
-    - [Dizin İndirme Arayüzü](#dizin-i%CC%87ndirme-aray%C3%BCz%C3%BC)
-  - [Bilgisayar Kamerasına Erişme](#bilgisayar-kameras%C4%B1na-eri%C5%9Fme)
-- [Progress Bar](#progress-bar)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Temel Bilgiler](#Temel-Bilgiler)
+- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
+  - [Google Colab için Çalışma Ortamını Yapılandırma](#Google-Colab-i%C3%A7in-%C3%87al%C4%B1%C5%9Fma-Ortam%C4%B1n%C4%B1-Yap%C4%B1land%C4%B1rma)
+- [Terminal İşlemleri](#Terminal-%C4%B0%C5%9Flemleri)
+  - [Terminal İşlemleri Örneği](#Terminal-%C4%B0%C5%9Flemleri-%C3%96rne%C4%9Fi)
+  - [İşletim Sistemi Bilgileri](#%C4%B0%C5%9Fletim-Sistemi-Bilgileri)
+- [Form Oluşturma İşlemleri (GUI)](#Form-Olu%C5%9Fturma-%C4%B0%C5%9Flemleri-GUI)
+- [Drive İşlemleri](#Drive-%C4%B0%C5%9Flemleri)
+  - [Drive Dosyalarını Dosya Sistemine Bağlama](#Drive-Dosyalar%C4%B1n%C4%B1-Dosya-Sistemine-Ba%C4%9Flama)
+  - [Drive Dosyalarına Erişme](#Drive-Dosyalar%C4%B1na-Eri%C5%9Fme)
+- [I / O (Giriş / Çıkış) İşlemleri](#I--O-Giri%C5%9F--%C3%87%C4%B1k%C4%B1%C5%9F-%C4%B0%C5%9Flemleri)
+  - [Dosya Upload Etme](#Dosya-Upload-Etme)
+  - [Dosya İndirme](#Dosya-%C4%B0ndirme)
+  - [Dizin İndirme](#Dizin-%C4%B0ndirme)
+    - [Dizin İndirme Arayüzü](#Dizin-%C4%B0ndirme-Aray%C3%BCz%C3%BC)
+  - [Bilgisayar Kamerasına Erişme](#Bilgisayar-Kameras%C4%B1na-Eri%C5%9Fme)
+- [Progress Bar](#Progress-Bar)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Temel Bilgiler
 
 - Tüm python özelliklerini destekler, python'a ek özellikler barındırır.
-- *Jupyter Notebook* ve *Google Colab* gibi platformlarda kulanılır
+- _Jupyter Notebook_ ve _Google Colab_ gibi platformlarda kulanılır
 
-> Bu yazı *Google Colab*'ı temel almıştır.
+> Bu yazı _Google Colab_'ı temel almıştır.
 
 ## Hızlı Notlar
 
@@ -151,7 +151,7 @@ with open('/content/gdrive/My Drive/foo.txt', 'w') as f:
 
 ## I / O (Giriş / Çıkış) İşlemleri
 
-Resmi [Google Colab dökümanına][I/0 Ipython] bakmanda fayda var
+Resmi [Google Colab dökümanına][i/0 ipython] bakmanda fayda var
 
 ### Dosya Upload Etme
 
@@ -255,22 +255,22 @@ def take_photo(filename='photo.jpg', quality=0.8):
   with open(filename, 'wb') as f:
     f.write(binary)
   return filename
-  ```
+```
 
-  ---
+---
 
-  ```py
-  from IPython.display import Image
+```py
+from IPython.display import Image
 try:
-  filename = take_photo()
-  print('Saved to {}'.format(filename))
-  
-  # Show the image which was just taken.
-  display(Image(filename))
+filename = take_photo()
+print('Saved to {}'.format(filename))
+
+# Show the image which was just taken.
+display(Image(filename))
 except Exception as err:
-  # Errors will be thrown if the user does not have a webcam or if they do not
-  # grant the page permission to access it.
-  print(str(err))
+# Errors will be thrown if the user does not have a webcam or if they do not
+# grant the page permission to access it.
+print(str(err))
 ```
 
 ## Progress Bar
@@ -310,4 +310,4 @@ for ii in range(101):
 - [Resetting VM](https://stackoverflow.com/questions/49001921/how-to-restart-virtual-machine)
 - [Interacting with Shell](http://mmcdan.github.io/posts/interacting-with-the-shell-via-jupyter-notebook/)
 
-[I/0 Ipython]: https://colab.research.google.com/notebooks/io.ipynb
+[i/0 ipython]: https://colab.research.google.com/notebooks/io.ipynb

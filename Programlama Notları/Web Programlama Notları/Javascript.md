@@ -46,7 +46,7 @@ Python ve Javascript en popüler diller arasındadır.
 
 - Javascript kodlarım [YScripts] repomda tutulmaktadır ✨
 
-> Aralarındaki kıyaslama için [buraya][Python vs Javascript] bakabilirisin.
+> Aralarındaki kıyaslama için [buraya][python vs javascript] bakabilirisin.
 
 ## Değişken Tipleri
 
@@ -57,11 +57,11 @@ Python ve Javascript en popüler diller arasındadır.
 | `const`  | Tekrardan tanımlanmaz ve değiştirilmez   |
 
 ```js
-var temp = 1
-var temp = 2
-let temp2
-temp2 = 4
-const temp3 = 5
+var temp = 1;
+var temp = 2;
+let temp2;
+temp2 = 4;
+const temp3 = 5;
 ```
 
 ## String İşlemleri
@@ -87,8 +87,8 @@ for (let i = 0; i < elems.lenght < i++) {
 ### Tek Satırlı Koşul İşlemleri (Ternary If)
 
 ```js
-kosul ? "Doğru" : "Yanlış" // Koşul sağlanırsa 'Doğru' sağlanmazsa 'Yanlış' döndürür
-const sonuc = 1 > 2 ? "Doğru" : "Yanlış" // sonuc = 'Yanlış'
+kosul ? "Doğru" : "Yanlış"; // Koşul sağlanırsa 'Doğru' sağlanmazsa 'Yanlış' döndürür
+const sonuc = 1 > 2 ? "Doğru" : "Yanlış"; // sonuc = 'Yanlış'
 ```
 
 ### Dizilerde Koşul İşlemleri
@@ -96,32 +96,34 @@ const sonuc = 1 > 2 ? "Doğru" : "Yanlış" // sonuc = 'Yanlış'
 **Dahili fonksiyon ile:**
 
 ```js
-arr = [1, 2, 3]
+arr = [1, 2, 3];
 
-arr.every(a => {return a > 1}) // Her biri 1'ten büyük mü? false
-arr.some(a => {return a > 1}) // Herhangi biri 1'ten büyük mü? true
-
+arr.every(a => {
+  return a > 1;
+}); // Her biri 1'ten büyük mü? false
+arr.some(a => {
+  return a > 1;
+}); // Herhangi biri 1'ten büyük mü? true
 ```
 
 **Harici fonksiyon ile:**
 
 ```js
-arr = [1, 2, 3]
+arr = [1, 2, 3];
 
 function checkIndex(index) {
-    return index > 1
+  return index > 1;
 }
 
-arr.every(checkIndex) // Her biri 1'ten büyük mü? false
-arr.some(checkIndex) // Herhangi biri 1'ten büyük mü? true
-
+arr.every(checkIndex); // Her biri 1'ten büyük mü? false
+arr.some(checkIndex); // Herhangi biri 1'ten büyük mü? true
 ```
 
 ## Tarih İşlemleri
 
 Tarih işlemleri için `new Date()` kullanılır.
 
-> Detaylar için [buraya][Js Date İşlemleri] bakabilirsin.
+> Detaylar için [buraya][js date i̇şlemleri] bakabilirsin.
 
 | Metod                             | Açıklama                              | Ek açıklama                         |
 | --------------------------------- | ------------------------------------- | ----------------------------------- |
@@ -145,24 +147,24 @@ Tarih işlemleri için `new Date()` kullanılır.
  * @param {number} offset Sonrası ya da öncesi (`-1` 1 gün önce)
  */
 function getDateTR(offset = 0) {
-	// Günlerin türkçe karşılığı
-	day = [
-		"Pazar",
-		"Pazartesi",
-		"Salı",
-		"Çarşamba",
-		"Perşembe",
-		"Cuma",
-		"Cumartesi"
-	]
+  // Günlerin türkçe karşılığı
+  day = [
+    "Pazar",
+    "Pazartesi",
+    "Salı",
+    "Çarşamba",
+    "Perşembe",
+    "Cuma",
+    "Cumartesi"
+  ];
 
-	// Değişken tarih oluşturma
-	date = new Date()
-	date.setDate(date.getDate() + offset)
-	dateString = date.toLocaleDateString("tr")
-	dayName = day[date.getDay()]
+  // Değişken tarih oluşturma
+  date = new Date();
+  date.setDate(date.getDate() + offset);
+  dateString = date.toLocaleDateString("tr");
+  dayName = day[date.getDay()];
 
-	return dateString + " " + dayName
+  return dateString + " " + dayName;
 }
 ```
 
@@ -171,19 +173,19 @@ function getDateTR(offset = 0) {
 ### HTML Elemanlarını Alma
 
 ```javascript
-document.getElementById('id'); // HTML elemanı döndürür (object)
-document.getElementsByTagName('tag_name');  // HTML elemanları dizisi döndürür (HTMLCollection)
-document.getElementsByClassName('class_name'); // HTML elemanları dizisi döndürür (HTMLCollection)
-document.getElementsByName('name');  // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementById("id"); // HTML elemanı döndürür (object)
+document.getElementsByTagName("tag_name"); // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementsByClassName("class_name"); // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementsByName("name"); // HTML elemanları dizisi döndürür (HTMLCollection)
 // id'ler için '#' classlar için '.' kullanılır
-document.querySelector("#content") // İlk elemanı alma
-document.querySelectorAll("span.style-scope.ytd-playlist-video-renderer") // Hepsini alma
+document.querySelector("#content"); // İlk elemanı alma
+document.querySelectorAll("span.style-scope.ytd-playlist-video-renderer"); // Hepsini alma
 ```
 
-- `Id` *Kimlik verisi*
-- `Tag` *a, div, i, p, input, article ...*
-- `Class` *Css dosyasındaki classları ifade eden alanlar*
-- `Name` *Inputlarda sıklıkla kullanınlan alanlar*
+- `Id` _Kimlik verisi_
+- `Tag` _a, div, i, p, input, article ..._
+- `Class` _Css dosyasındaki classları ifade eden alanlar_
+- `Name` _Inputlarda sıklıkla kullanınlan alanlar_
 
 #### Query Selector ile HTML Elemanı Alma
 
@@ -192,10 +194,10 @@ Tek bir eleman alınmak isteniyorsa `querySelector(<işlem>)`, hepsi alınmak is
 | İşlem                  | Seçilen                                            |
 | ---------------------- | -------------------------------------------------- |
 | `"#yemreak"`           | ID'si yemreak olan eleman                          |
-| `".yemre"`             | `yemre` *class*'ına sahip olan elemanlar           |
+| `".yemre"`             | `yemre` _class_'ına sahip olan elemanlar           |
 | `"[href]"`             | `href` özelliği olan elemanlar                     |
 | `"a[target='_blank']"` | `target`'i `_blank` olan linkler                   |
-| `"p.active"`           | `active` *class*'ına sahip olan tüm *p* elemanları |
+| `"p.active"`           | `active` _class_'ına sahip olan tüm _p_ elemanları |
 | `"*"`                  | Her eleman                                         |
 | `this`                 | Şuanki eleman                                      |
 
@@ -204,64 +206,65 @@ Tek bir eleman alınmak isteniyorsa `querySelector(<işlem>)`, hepsi alınmak is
 ID'ler eşsiz olduğundan 1 tane html elamanı bulunacaktır.
 
 ```js
-document.getElementById('<id>'); // HTML elemanı döndürür (object)
+document.getElementById("<id>"); // HTML elemanı döndürür (object)
 ```
 
 **Örnek kullanım**:
 
 ```html
-<div id="secondary" class="widget-area col-md-4" role="complementary">
+<div id="secondary" class="widget-area col-md-4" role="complementary"></div>
 ```
 
 ```js
-const div_element = document.getElementById('secondary');
+const div_element = document.getElementById("secondary");
 ```
 
 #### Class, Tag veya Name ile HTML Elemanları Alma
 
-*Class*, *tag* ve *name* özellikleri birden fazla *html* elemanında olabileceğinden, *HTMLCollection* objesi döndürür.
+_Class_, _tag_ ve _name_ özellikleri birden fazla _html_ elemanında olabileceğinden, _HTMLCollection_ objesi döndürür.
 
 ```js
-document.getElementsByTagName('tag_name');  // HTML elemanları dizisi döndürür (HTMLCollection)
-document.getElementsByClassName('class_name'); // HTML elemanları dizisi döndürür (HTMLCollection)
-document.getElementsByName('name');  // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementsByTagName("tag_name"); // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementsByClassName("class_name"); // HTML elemanları dizisi döndürür (HTMLCollection)
+document.getElementsByName("name"); // HTML elemanları dizisi döndürür (HTMLCollection)
 ```
 
 ### HTML elemanının alt elemanlarını alma
 
 ```js
-document.getElementById('id').childNodes;
+document.getElementById("id").childNodes;
 ```
 
-- `Id` *Kimlik verisi*
-- `document.getElementById('id')` *HTMLElemanı*
+- `Id` _Kimlik verisi_
+- `document.getElementById('id')` _HTMLElemanı_
 
 ### HTMLCollection'u array'e dönüştürmek
 
 ```javascript
-const array = [...htmlCollection] // array: Array objesidir
-array.forEach(element => { // Arraydeki her bir elemanı işleme
-    // element.method()
+const array = [...htmlCollection]; // array: Array objesidir
+array.forEach(element => {
+  // Arraydeki her bir elemanı işleme
+  // element.method()
 });
 ```
 
 ### HTML Attribute Alma
 
-*Tag* özellikleri olarak geçer. Örn; src, href, data-thumb-url, ...
+_Tag_ özellikleri olarak geçer. Örn; src, href, data-thumb-url, ...
 
 > <a class="" href="" ...> </a> Tag içindeki kısımlar (class, href)
 
 ```javascript
-document.getElementById('id').getAttribute('attribute') // Özelliğin değerini döndürür (string)
+document.getElementById("id").getAttribute("attribute"); // Özelliğin değerini döndürür (string)
 ```
 
 ### HTML Elemanının Konumunu Alma
 
 ```js
-document.getElementById('id').getBoundingClientRect();
+document.getElementById("id").getBoundingClientRect();
 ```
 
-- `Id` *Kimlik verisi*
+- `Id` _Kimlik verisi_
 
 ## Beklemeli İşlemler
 
@@ -274,13 +277,13 @@ document.getElementById('id').getBoundingClientRect();
 
 ### Senkronize Bekleme (Sync)
 
-*Senkronize* bekleme işlemleri, yani sırayla çalışan bekleme işlemleri alttaki fonksyionlarla sağlanır:
+_Senkronize_ bekleme işlemleri, yani sırayla çalışan bekleme işlemleri alttaki fonksyionlarla sağlanır:
 
 > Senkronize beklemelerde, bekleme durumunda hiç bir kod parçası çalışmaz.
 
 ```js
 setTimeout(metod, ms_gecikme, varsa_parametreler); // Gecikmeli olarak metodu başlatır
-setInterval(metod, ms_gecikme, varsa_parametreler) // Gecikmeli olarak metodu tekrarlar
+setInterval(metod, ms_gecikme, varsa_parametreler); // Gecikmeli olarak metodu tekrarlar
 ```
 
 - `metod` Fonksiyon
@@ -296,9 +299,14 @@ Kaynak için [buraya](https://www.w3schools.com/jsref/met_win_settimeout.asp) t�
 
 ```js
 setTimeout(func, delay); // Temel kullanım
-setTimeout(function(){ alert('Hello'); }, 2000); // Fonksiyonu içeride tanımlama
+setTimeout(function() {
+  alert("Hello");
+}, 2000); // Fonksiyonu içeride tanımlama
 setTimeout(help, 2000); // Fonksiyonu dışarıda tanımlama
-setTimeout(function(){ help(1); help(2); }, 2000); // Paremetreli fonksyion kullanma
+setTimeout(function() {
+  help(1);
+  help(2);
+}, 2000); // Paremetreli fonksyion kullanma
 
 clearTimeout(); // Zamanlayıcıları temizleme
 ```
@@ -317,59 +325,55 @@ Beklemeli işlemlerde `await`, `promise` yapısı kullanılır.
 - Bir fonksiyonda `await` beklemesi varsa onu kullanan fonksyionlar da o fonksiyonu `await` ile beklemelidir
   - Aksi halde asenkron olarak çalışır bekleme gerçekleşmez
 
-Bu konuda hakkında yazılmış bir medium yazısına [buradan][Wait Function] erişebilirsin.
+Bu konuda hakkında yazılmış bir medium yazısına [buradan][wait function] erişebilirsin.
 
 #### Promise Yapısı ile Bekletme
 
 ```js
 function wait(ms) {
-    return new Promise(
-        (r, j) => setTimeout(r, ms)
-    )
+  return new Promise((r, j) => setTimeout(r, ms));
 }
 
 function method() {
-    console.log("done")
+  console.log("done");
 }
 
 // Promise Yapısı ile çalışma
-const prom = wait(2000)
-prom.then(metod)
+const prom = wait(2000);
+prom.then(metod);
 
 // Await yapısı ile çalışma
-await wait(2000)
-method()
+await wait(2000);
+method();
 ```
 
 #### Promise ile Beklemeli Metod İşleme
 
 ```js
 function startDelayed(method, ms) {
-    new Promise(
-        (r, j) => setTimeout(r, ms)
-    ).then(method)
+  new Promise((r, j) => setTimeout(r, ms)).then(method);
 }
 ```
 
 ```js
 async function startDelayed(method, ms) {
-    await new Promise((r, j) => setTimeout(r, ms));
-    return method();
+  await new Promise((r, j) => setTimeout(r, ms));
+  return method();
 }
 ```
 
 ```js
 async function startDelayed(method, ms, param) {
-    await new Promise((r, j) => setTimeout(r, ms));
-    return param ? method(param) : method()
+  await new Promise((r, j) => setTimeout(r, ms));
+  return param ? method(param) : method();
 }
 ```
 
 ```js
 async function startAndWait(method, ms, param) {
-	const result = param ? method(param) : method()
-	await new Promise((r, j) => setTimeout(r, ms));
-	return result
+  const result = param ? method(param) : method();
+  await new Promise((r, j) => setTimeout(r, ms));
+  return result;
 }
 ```
 
@@ -390,8 +394,8 @@ window.scrollTo(5, 100); // Örnek atlama
 
 ```js
 function pageScroll() {
-    window.scrollBy(0,1);
-    scrolldelay = setTimeout(pageScroll,10); // 10ms de bir kaydırma
+  window.scrollBy(0, 1);
+  scrolldelay = setTimeout(pageScroll, 10); // 10ms de bir kaydırma
 }
 ```
 
@@ -409,7 +413,7 @@ document.getElementById(<button_id>).click()
 
 ## Dosya İndirme
 
-> *Popup blocker* gibi eklentiler varsa kapatılması gerekmektedir.
+> _Popup blocker_ gibi eklentiler varsa kapatılması gerekmektedir.
 
 ```js
 function download(data, filename, mime = 'text/plain') {
@@ -451,54 +455,68 @@ function download(data, filename, mime = 'text/plain') {
 
 ```js
 function downladUrlArrayWithKey(array, key) {
-    array.forEach(element => {
-        const url = element[key];
-        const fileName = url.split("/").pop();
+  array.forEach(element => {
+    const url = element[key];
+    const fileName = url.split("/").pop();
 
-        download(url, fileName);  
-        sleep(100); // Bekleme olmazsa chrome her dosyayı indirmiyor
-    });
+    download(url, fileName);
+    sleep(100); // Bekleme olmazsa chrome her dosyayı indirmiyor
+  });
 }
 
 function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-        if ((new Date().getTime() - start) > milliseconds){
-            break;
-        }
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if (new Date().getTime() - start > milliseconds) {
+      break;
     }
+  }
 }
 ```
 
 ### `console.save` Metodu Oluşturma
 
 ```js
-(function(console){
-
-    console.save = function(data, filename){
-
-        if(!data) {
-            console.error('Console.save: No data')
-            return;
-        }
-
-        if(!filename) filename = 'console.json'
-
-        if(typeof data === "object"){
-            data = JSON.stringify(data, undefined, 4)
-        }
-
-        var blob = new Blob([data], {type: 'text/json'}),
-            e    = document.createEvent('MouseEvents'),
-            a    = document.createElement('a')
-
-        a.download = filename
-        a.href = window.URL.createObjectURL(blob)
-        a.dataset.downloadurl =  ['text/json', a.download, a.href].join(':')
-        e.initMouseEvent('click', true, false, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null)
-        a.dispatchEvent(e)
+(function(console) {
+  console.save = function(data, filename) {
+    if (!data) {
+      console.error("Console.save: No data");
+      return;
     }
-})(console)
+
+    if (!filename) filename = "console.json";
+
+    if (typeof data === "object") {
+      data = JSON.stringify(data, undefined, 4);
+    }
+
+    var blob = new Blob([data], { type: "text/json" }),
+      e = document.createEvent("MouseEvents"),
+      a = document.createElement("a");
+
+    a.download = filename;
+    a.href = window.URL.createObjectURL(blob);
+    a.dataset.downloadurl = ["text/json", a.download, a.href].join(":");
+    e.initMouseEvent(
+      "click",
+      true,
+      false,
+      window,
+      0,
+      0,
+      0,
+      0,
+      0,
+      false,
+      false,
+      false,
+      false,
+      0,
+      null
+    );
+    a.dispatchEvent(e);
+  };
+})(console);
 
 // console.save(<url>, <filename>)
 ```
@@ -513,10 +531,10 @@ Hepsi için [buraya](https://www.freeformatter.com/mime-types-list.html) bakabil
 // https://stackoverflow.com/questions/247483/http-get-request-in-javascript
 // https://medium.freecodecamp.org/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
 function httpGet(theUrl) {
-    var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", theUrl, false); // false for synchronous request
-    xmlHttp.send(null);
-    return xmlHttp.responseText;
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open("GET", theUrl, false); // false for synchronous request
+  xmlHttp.send(null);
+  return xmlHttp.responseText;
 }
 ```
 
@@ -529,7 +547,7 @@ async function loadScript(url) {
   eval(script);
 }
 
-let scriptUrl = '<url.js>'
+let scriptUrl = "<url.js>";
 loadScript(scriptUrl);
 ```
 
@@ -546,9 +564,12 @@ function getKeyByValue(object, value) {
 ## Latex Ayrıştırma
 
 ```html
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script
+  type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+></script>
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
 </script>
 ```
 
@@ -574,22 +595,19 @@ function getKeyByValue(object, value) {
 - [10 Js Extension for Vscode]
 - [Js throws]
 
-[Python vs Javascript]: https://www.educba.com/python-vs-javascript/
-
-[Wait Function]: https://hackernoon.com/lets-make-a-javascript-wait-function-fa3a2eb88f11
-[Sayfanın en altına inmek]: https://stackoverflow.com/a/11715670
-[Js Date İşlemleri]: https://www.w3schools.com/jsref/jsref_obj_date.asp
-[Js gün işlemleri]: https://stackoverflow.com/a/24998705/9770490
-[10 Js Extension for Vscode]: https://www.sitepoint.com/vs-code-extensions-javascript-developers/
-[Js throws]: https://www.w3schools.com/js/js_errors.asp
-
-[Quokka.js]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
-[Prettier - Code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-[JavaScript (ES6) code snippets]: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
-[Babel Javascript]: https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel
-[npm Intellisese]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
+[python vs javascript]: https://www.educba.com/python-vs-javascript/
+[wait function]: https://hackernoon.com/lets-make-a-javascript-wait-function-fa3a2eb88f11
+[sayfanın en altına inmek]: https://stackoverflow.com/a/11715670
+[js date i̇şlemleri]: https://www.w3schools.com/jsref/jsref_obj_date.asp
+[js gün işlemleri]: https://stackoverflow.com/a/24998705/9770490
+[10 js extension for vscode]: https://www.sitepoint.com/vs-code-extensions-javascript-developers/
+[js throws]: https://www.w3schools.com/js/js_errors.asp
+[quokka.js]: https://marketplace.visualstudio.com/items?itemName=WallabyJs.quokka-vscode
+[prettier - code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+[javascript (es6) code snippets]: https://marketplace.visualstudio.com/items?itemName=xabikos.JavaScriptSnippets
+[babel javascript]: https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel
+[npm intellisese]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 [jshint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint
-[Eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[Import Cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
-
-[YScripts]: https://github.com/yedhrab/YScripts
+[eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[import cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+[yscripts]: https://github.com/yedhrab/YScripts

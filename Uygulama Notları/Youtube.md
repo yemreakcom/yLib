@@ -49,31 +49,35 @@ Youtube üzerindeki beğendiğim videolar
 ## Youtube Video İndirici
 
 - Video indirici aracı olan [Youtube-dl]'i indirin
-  - [Windows][Youtube-dl Windows] için [Microsoft Visual C++ 2010 Redistributable Package (x86)] gerektirir
+  - [Windows][youtube-dl windows] için [Microsoft Visual C++ 2010 Redistributable Package (x86)] gerektirir
   - Linux için `sudo apt install youtube-dl`
-- Kullanımı`youtube-dl <url>` şeklindedir, dökümantasyonuna [buradan][Youtube-dl Doc] bakabilirsin.
+- Kullanımı`youtube-dl <url>` şeklindedir, dökümantasyonuna [buradan][youtube-dl doc] bakabilirsin.
 
 ```sh
-$ youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc
+youtube-dl [url] # Video'yu indirme
+youtube-dl -F [url] # İndirlir formatları gösterir
+youtube-dl -F [format] [url] # Verilen formatı indirme
+
+youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc
 youtube-dl test video ''_ä↭𝕐.mp4    # All kinds of weird characters
 
-$ youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc --restrict-filenames
+youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc --restrict-filenames
 youtube-dl_test_video_.mp4          # A simple file name
 
 # Download YouTube playlist videos in separate directory indexed by video order in a playlist
-$ youtube-dl -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re
+youtube-dl -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLwiyx1dc3P2JR9N8gQaQN_BCvlSlap7re
 
 # Download all playlists of YouTube channel/user keeping each playlist in separate directory:
-$ youtube-dl -o '%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/user/TheLinuxFoundation/playlists
+youtube-dl -o '%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/user/TheLinuxFoundation/playlists
 
 # Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home
-$ youtube-dl -u user -p password -o '~/MyVideos/%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s' https://www.udemy.com/java-tutorial/
+youtube-dl -u user -p password -o '~/MyVideos/%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s' https://www.udemy.com/java-tutorial/
 
 # Download entire series season keeping each series and each season in separate directory under C:/MyVideos
-$ youtube-dl -o "C:/MyVideos/%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s" https://videomore.ru/kino_v_detalayah/5_sezon/367617
+youtube-dl -o "C:/MyVideos/%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s" https://videomore.ru/kino_v_detalayah/5_sezon/367617
 
 # Stream the video being downloaded to stdout
-$ youtube-dl -o - BaW_jenozKc
+youtube-dl -o - BaW_jenozKc
 ```
 
 ## Kişisel Gelişim
@@ -362,17 +366,21 @@ $ youtube-dl -o - BaW_jenozKc
 ## Youtube Listesini Markdown'a Çevirme
 
 ```js
-var names = document.querySelectorAll("span.style-scope.ytd-playlist-video-renderer")
-var links = document.getElementsByClassName("yt-simple-endpoint style-scope ytd-playlist-video-renderer")
+var names = document.querySelectorAll(
+  "span.style-scope.ytd-playlist-video-renderer"
+);
+var links = document.getElementsByClassName(
+  "yt-simple-endpoint style-scope ytd-playlist-video-renderer"
+);
 
-var markdown = ""
+var markdown = "";
 for (let i = 0; i < names.length; i++) {
-  markdown +=`- [${names[i].innerText}](${links[i].href})\n`
+  markdown += `- [${names[i].innerText}](${links[i].href})\n`;
 }
-console.log(markdown)
+console.log(markdown);
 ```
 
-[Youtube-dl]: https://github.com/ytdl-org/youtube-dl
-[Youtube-dl Windows]: https://yt-dl.org/downloads/2019.06.08/youtube-dl.exe
-[Youtube-dl Doc]: https://github.com/ytdl-org/youtube-dl
-[Microsoft Visual C++ 2010 Redistributable Package (x86)]: https://www.microsoft.com/en-US/download/details.aspx?id=5555
+[youtube-dl]: https://github.com/ytdl-org/youtube-dl
+[youtube-dl windows]: https://yt-dl.org/downloads/2019.06.08/youtube-dl.exe
+[youtube-dl doc]: https://github.com/ytdl-org/youtube-dl
+[microsoft visual c++ 2010 redistributable package (x86)]: https://www.microsoft.com/en-US/download/details.aspx?id=5555

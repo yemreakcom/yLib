@@ -6,6 +6,8 @@
 
 ## IntelliJ için JavaFx Kurulumu
 
+JavaFX ve JFhoenix Material UI'ı kurulumunu anlatan videom için [buraya][videom] bakabilrisin 💁‍♂️
+
 - İlk olarak [IntelliJ][intellij]'yi indirin
 - Resmi sitesinden [JavaFX SDK][javafx sdk]'sını indirin
 - İndirdiğiniz arşivdeki çıkartın
@@ -17,10 +19,14 @@
 - Son olarak `File` - `Project Structure` - `Modules`
 - Açılan ekranda `+` - `Library` - `Java`
 - Çıkan ekran ile `C:\Program Files\Java\javafx-sdk-12.0.1\lib` kütüphanesini ekleyin
-- İyi kodlamalar ✨
+- `Run` - `Edit Configurations`
+- Çıkan ekranda `VM Opitons` alanına alttaki metni kopyalayın:
+  - `--module-path "C:\Program Files\Java\javafx-sdk-12.0.1\lib" --add-modules=javafx.controls,javafx.fxml`
+- Artık `.fxml` uzantılı dosyalarda ekranın sol alt köşesinden `Scene Builder`'a tıklayarak GUI programlamaya başlayabilirsiniz ✨
 
 > Not sizin sürümünüz ve yolunuz farklı ise ona göre ayalayın `<yol>\javafx-sdk-<version>\lib`
 
 [intellij]: https://www.jetbrains.com/idea/download/#section=windows
 [javafx sdk]: https://gluonhq.com/products/javafx/
 [scene builder]: https://gluonhq.com/products/scene-builder/
+[videom]: https://www.youtube.com/watch?v=1uDuWfPPL6s

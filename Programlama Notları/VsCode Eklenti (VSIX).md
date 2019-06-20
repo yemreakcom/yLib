@@ -16,11 +16,6 @@
 
 Video anlatımı için [buraya][vscode create theme extension in 1 min - shows all steps] bakabilirsin.
 
-<center>
-<video width="620" height="440" src="vscode_theme.mp4" type="video/mp4" controls>
-</video>
-</center>
-
 - Terminal'i yada cmd'yi açın
 - `npm i -g yo generator-code` ile kalıp oluşturucuyu indirin
 - Kalıbın oluşmasını istediğiniz dizine `cd` ile gidin

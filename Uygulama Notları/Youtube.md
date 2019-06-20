@@ -54,9 +54,9 @@ Youtube üzerindeki beğendiğim videolar
 - Kullanımı`youtube-dl <url>` şeklindedir, dökümantasyonuna [buradan][youtube-dl doc] bakabilirsin.
 
 ```sh
-youtube-dl [url] # Video'yu indirme
-youtube-dl -F [url] # İndirlir formatları gösterir
-youtube-dl -F [format] [url] # Verilen formatı indirme
+youtube-dl <url> # Video'yu indirme
+youtube-dl -F <url> # İndirlir formatları gösterir
+youtube-dl -f <format> <url> # Verilen formatı indirme
 
 youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc
 youtube-dl test video ''_ä↭𝕐.mp4    # All kinds of weird characters

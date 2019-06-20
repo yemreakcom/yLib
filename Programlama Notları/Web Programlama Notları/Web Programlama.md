@@ -3,7 +3,10 @@
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [CSS Notları](#CSS-Notlar%C4%B1)
-  - [Merkeze konumlandırma](#Merkeze-konumland%C4%B1rma)
+  - [Faydalı Linkler](#Faydal%C4%B1-Linkler)
+  - [Arkaplaba Ortalanmış Resim Ekleme](#Arkaplaba-Ortalanm%C4%B1%C5%9F-Resim-Ekleme)
+  - [Ekranın Tam Ortasına Alma](#Ekran%C4%B1n-Tam-Ortas%C4%B1na-Alma)
+  - [İçeriklerini Merkeze konumlandırma](#%C4%B0%C3%A7eriklerini-Merkeze-konumland%C4%B1rma)
   - [Animasyon (Transition)](#Animasyon-Transition)
 - [VsCode Eklentileri](#VsCode-Eklentileri)
   - [Code runner ek ayarı](#Code-runner-ek-ayar%C4%B1)
@@ -18,12 +21,41 @@
 - `height: 1vh` Ekranın yüksekliğinin 100'de 1'ini temsil eder
 - `em, rem` Fonta oranla boyut belirtme
 
-### Merkeze konumlandırma
+### Faydalı Linkler
+
+- [Css Before After](https://www.youtube.com/watch?reload=9&v=9t6j2UQx0Dc)
+
+### Arkaplaba Ortalanmış Resim Ekleme
 
 ```css
-display: flex;
-align-items: center;
-justify-content: center;
+.add-image {
+    background-image: url(url);
+    background-size: cover; /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+```
+
+### Ekranın Tam Ortasına Alma
+
+```css
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+```
+
+### İçeriklerini Merkeze konumlandırma
+
+```css
+.centered-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 ```
 
 ### Animasyon (Transition)
@@ -60,7 +92,8 @@ Web otomasyonu için selenium ide kullanılmaktadır.
 
 ## Faydalı Araçlar
 
-- [CSS Animasyonu Oluşturma](http://animista.net)
+- [CSS Animasyonu Oluşturucu](http://animista.net)
+- [CSS Gölgelendirme Oluşturucu](https://www.cssmatic.com/box-shadow)
 
 ## İlham Verici Çalışmalar
 

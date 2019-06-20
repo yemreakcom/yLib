@@ -3,6 +3,8 @@
 ## İçerikler <!-- omit in toc -->
 
 - [IntelliJ için JavaFx Kurulumu](#IntelliJ-i%C3%A7in-JavaFx-Kurulumu)
+- [JavaFX Scene Builder](#JavaFX-Scene-Builder)
+- [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
 
 ## IntelliJ için JavaFx Kurulumu
 
@@ -25,6 +27,20 @@ JavaFX ve JFhoenix Material UI'ı kurulumunu anlatan videom için [buraya][video
 - Artık `.fxml` uzantılı dosyalarda ekranın sol alt köşesinden `Scene Builder`'a tıklayarak GUI programlamaya başlayabilirsiniz ✨
 
 > Not sizin sürümünüz ve yolunuz farklı ise ona göre ayalayın `<yol>\javafx-sdk-<version>\lib`
+
+## JavaFX Scene Builder
+
+- `View` - `Show Sample Controller Skeleton` ile Controller'a yazılacak kodu görebiliriz
+- Sol alttaki alandan `Controller` içerisinde
+  - `Controller Class` alanına `<package>.Controller` yazarak Controller class'ını görmesini sağlıyoruz
+- Sol alttaki `code` alanındakiler Controller'a aktarılacaktır
+- Her importta `javafx.scene` olması lazımdır
+  - Image vs..
+- Sağ taraftaki `code` alanındaki `fx:id` kısmında ismi yazacak (Controller'dan erişmek için)
+
+## Faydalı Bağlantılar
+
+- [Drag Drop](https://www.youtube.com/watch?v=f7KGXUrAH0g)
 
 [intellij]: https://www.jetbrains.com/idea/download/#section=windows
 [javafx sdk]: https://gluonhq.com/products/javafx/

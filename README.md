@@ -77,6 +77,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 
 - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
 - [Bağlı eli çözme](./Karma%20Bilgiler/Ba%C4%9Fl%C4%B1%20eli%20%C3%A7%C3%B6zme.mp4)
+- [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
 - [Tasarım Notları](./Karma%20Bilgiler/Tasar%C4%B1m%20Notlar%C4%B1.md)
 - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
 
@@ -89,13 +90,17 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [Genel Bilgiler](./Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
 - [IPython](./Programlama%20Notlar%C4%B1/IPython.md)
 - [JQuery](./Programlama%20Notlar%C4%B1/JQuery.md)
-- [Java](./Programlama%20Notlar%C4%B1/Java.md)
 - [Kotlin](./Programlama%20Notlar%C4%B1/Kotlin.md)
 - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
 - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [VsCode Eklenti (VSIX)](./Programlama%20Notlar%C4%B1/VsCode%20Eklenti%20%28VSIX%29.md)
+
+### Java
+
+- [1 - Java Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20Java%20Giri%C5%9F.md)
+- [2 - JavaFX ile GUI](./Programlama%20Notlar%C4%B1/Java/2%20-%20JavaFX%20ile%20GUI.md)
 
 ### Oyun Programlama
 

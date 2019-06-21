@@ -18,12 +18,14 @@ Karma konular hakkında aldığım notlar.
 - [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
 - [Karma Bilgiler](#Karma-Bilgiler)
 - [Programlama Notları](#Programlama-Notlar%C4%B1)
+  - [Java](#Java)
   - [Oyun Programlama](#Oyun-Programlama)
   - [Python](#Python)
   - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
 - [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
 - [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
 - [Uygulama Notları](#Uygulama-Notlar%C4%B1)
+  - [VsCode](#VsCode)
 - [Yapay Zeka Notları](#Yapay-Zeka-Notlar%C4%B1)
 - [Yazılım Notları](#Yaz%C4%B1l%C4%B1m-Notlar%C4%B1)
 - [pdfs](#pdfs)
@@ -95,12 +97,12 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
 - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
-- [VsCode Eklenti (VSIX)](./Programlama%20Notlar%C4%B1/VsCode%20Eklenti%20%28VSIX%29.md)
 
 ### Java
 
 - [1 - Java Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20Java%20Giri%C5%9F.md)
-- [2 - JavaFX ile GUI](./Programlama%20Notlar%C4%B1/Java/2%20-%20JavaFX%20ile%20GUI.md)
+- [1 - JavaFX Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20JavaFX%20Giri%C5%9F.md)
+- [2 - JavaFX 12 Hızlı Notlar](./Programlama%20Notlar%C4%B1/Java/2%20-%20JavaFX%2012%20H%C4%B1zl%C4%B1%20Notlar.md)
 
 ### Oyun Programlama
 
@@ -152,8 +154,15 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [LGSV Simulator](./Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
 - [Nodepad++](./Uygulama%20Notlar%C4%B1/Nodepad%2B%2B.md)
 - [Uygulamalar](./Uygulama%20Notlar%C4%B1/Uygulamalar.md)
-- [VsCode](./Uygulama%20Notlar%C4%B1/VsCode.md)
 - [Youtube](./Uygulama%20Notlar%C4%B1/Youtube.md)
+
+### VsCode
+
+- [1 - VsCode Giriş](./Uygulama%20Notlar%C4%B1/VsCode/1%20-%20VsCode%20Giri%C5%9F.md)
+- [2 - VsCode Eklentiler](./Uygulama%20Notlar%C4%B1/VsCode/2%20-%20VsCode%20Eklentiler.md)
+- [3 - VsCode Editör Ayarları](./Uygulama%20Notlar%C4%B1/VsCode/3%20-%20VsCode%20Edit%C3%B6r%20Ayarlar%C4%B1.md)
+- [4 - Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
+- [X - VsCode Özelleştirmem](./Uygulama%20Notlar%C4%B1/VsCode/X%20-%20VsCode%20%C3%96zelle%C5%9Ftirmem.md)
 
 ## Yapay Zeka Notları
 
@@ -171,7 +180,6 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [OpenCart](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/OpenCart.md)
 - [Protocol Buffer (Protobuf)](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Protocol%20Buffer%20%28Protobuf%29.md)
 - [Selenium](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Selenium.md)
-- [Tasarım Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Tasar%C4%B1m%20Notlar%C4%B1.md)
 - [Terimler](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Terimler.md)
 - [Wordpress](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Wordpress.md)
 - [Yapay Zeka Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)

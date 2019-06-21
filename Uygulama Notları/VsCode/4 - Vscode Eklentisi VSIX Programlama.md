@@ -4,8 +4,8 @@
 
 - [Temel Gereksinimler](#Temel-Gereksinimler)
 - [Giriş Kalıbını Oluşturma](#Giri%C5%9F-Kal%C4%B1b%C4%B1n%C4%B1-Olu%C5%9Fturma)
-  - [Eklentiyi Paylaşma](#Eklentiyi-Payla%C5%9Fma)
-    - [Package JSON Örneği](#Package-JSON-%C3%96rne%C4%9Fi)
+- [Eklentiyi Paylaşma](#Eklentiyi-Payla%C5%9Fma)
+- [Package JSON Örneği](#Package-JSON-%C3%96rne%C4%9Fi)
 
 ## Temel Gereksinimler
 
@@ -25,7 +25,7 @@ Video anlatımı için [buraya][vscode create theme extension in 1 min - shows a
   - Ek açıklamalar
   - Package.json
 
-### Eklentiyi Paylaşma
+## Eklentiyi Paylaşma
 
 - Öncelikle [buradan][token oluşturma] token oluşturmanız gerekmekte
   - `New Token` -> Organizatin **All accessiable organization**'ı seçin
@@ -34,7 +34,7 @@ Video anlatımı için [buraya][vscode create theme extension in 1 min - shows a
 - Package json'u [örnekteki][package json örneği] gibi ayarların
 - [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'den vsix uzantılı dosyanızı yükleyin
 
-#### Package JSON Örneği
+## Package JSON Örneği
 
 ```json
 {

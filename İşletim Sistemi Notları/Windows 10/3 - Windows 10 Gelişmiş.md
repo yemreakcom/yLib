@@ -2,13 +2,14 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Otomatik Giriş Yapma](#otomatik-giri%C5%9F-yapma)
-- [Windows10 Karanlık Tema Kurulumu](#windows10-karanl%C4%B1k-tema-kurulumu)
-- [Windows Saat Sorunu](#windows-saat-sorunu)
-  - [Yerel Saati Kullanma](#yerel-saati-kullanma)
-  - [Evrensel (UTC) Saati Kullanma](#evrensel-utc-saati-kullanma)
-  - [Windows Boot Kurtarma](#windows-boot-kurtarma)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
+- [Otomatik Giriş Yapma](#Otomatik-Giri%C5%9F-Yapma)
+- [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
+- [Windows10 Karanlık Tema Kurulumu](#Windows10-Karanl%C4%B1k-Tema-Kurulumu)
+- [Windows Saat Sorunu](#Windows-Saat-Sorunu)
+  - [Yerel Saati Kullanma](#Yerel-Saati-Kullanma)
+  - [Evrensel (UTC) Saati Kullanma](#Evrensel-UTC-Saati-Kullanma)
+  - [Windows Boot Kurtarma](#Windows-Boot-Kurtarma)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Otomatik Giriş Yapma
 
@@ -18,19 +19,33 @@ Her defasında şifre girişi yapmaz istemezseniz, otomatik şifre girmek sizin 
 - Çıkan alandaki kutucuğun işaretini kaldırın
 - Şifrenizi girin ve onlayın
 
+## File Explorer'ı Geliştirme
+
+Alttaki işlem ile file explorer'a hem **tab** hem de **önizleme** fonksiyonu eklebilirsin.
+
+- İlk olarak [QTTabBar](http://qttabbar.wikidot.com/) sitesine girin
+- [QTabBar ver 1038](http://qttabbar.wdfiles.com/local--files/qttabbar/QTTabBar_1038.zip)'i indirin
+- Ardından update kurulumu olan [QTTabBar ver 1040](http://qttabbar.wdfiles.com/local--files/qttabbar/UpdateQTTabBar1040.zip) ile güncelleyin
+- Resimdeki gibi özelleştirebilirsin
+
+> İstersen [buradan](https://www.raymond.cc/blog/how-to-have-tabs-in-your-windows-explorer/) diğer seçenekleri de deneyebilirsin.
+
+![win_qttabbar](../../res/win_qttabbar.png)
+![win_qtabbar_autoplay](../../res/win_qtabbar_autoplay.png)
+
 ## Windows10 Karanlık Tema Kurulumu
 
 En çok sevilen karanlık tema olan [Nocturnal] temasını kurmak için:
 
-- Kurulum dosyasını [buradan][Nocturnal - Download] indirin ve `zip` halinden çıkarın , eğer bu link çalışmaz ise sitesinden erişebilirsiniz
-- Güvenlik amaçlı *System Geri Dönüşüm Noktası* oluşturun
+- Kurulum dosyasını [buradan][nocturnal - download] indirin ve `zip` halinden çıkarın , eğer bu link çalışmaz ise sitesinden erişebilirsiniz
+- Güvenlik amaçlı _System Geri Dönüşüm Noktası_ oluşturun
 - İndirdiğiniz dosyada `Blank Caption Text` dizine girin ve içerisinde bulunan `Blank.ttf` dosyasına sağ tıklayın ve `Yükle` deyin
 - Ardından `Blank.reg` dosyasını çalıştırın
   - Bu değişikliği geri almak isterseniz `Default.reg` dosyasınını kullanabilirsiniz
 - `Visual Style` dizinindeki seçtiğiniz bir version ismine sahip olan klasörün **içindekileri** kopyalayın ve `C:\Windows\Resources\Themes` dizinine yapıştırın
 - [UltraUXThemePatcher] ile bilgisayarınıza tema yamasını kurun
-- *Settings > Personalization > Themes > Select the theme*
-- Dosya gezginindeki en üstteki çubuğu kaldırmak (*ribbon*) için:
+- _Settings > Personalization > Themes > Select the theme_
+- Dosya gezginindeki en üstteki çubuğu kaldırmak (_ribbon_) için:
   - [OldNewExplorer] programını indirin ve çıkartarak `.exe` uzantılı dosyayı **yönetici olarak** çalıştırın
   - `Use commond bar instead of ribbon` kutucuğunu seçin
     - Altındaki kutucuklardan sadece `Use alternate navigation button style` olanı seçin
@@ -88,9 +103,8 @@ exit
 
 - [Windows yanına linux kurulduğunda windows saatinin bozulması]
 
-[Nocturnal]: https://www.deviantart.com/chloechantelle/art/Nocturnal-W10-582106490
-[Nocturnal - Download]: https://www.deviantart.com/download/582106490/d9mkk8q-d0678559-518e-48f3-bf36-30bd91f73496?token=53c9fe62794d3574b12d5aad67c1998665b93c20&ts=1558436081
-[UltraUXThemePatcher]: https://www.deviantart.com/users/outgoing?https://www.syssel.net/hoefs/software_uxtheme.php?lang=en
-[OldNewExplorer]: https://tihiy.net/files/OldNewExplorer.rar
-
-[Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+[nocturnal]: https://www.deviantart.com/chloechantelle/art/Nocturnal-W10-582106490
+[nocturnal - download]: https://www.deviantart.com/download/582106490/d9mkk8q-d0678559-518e-48f3-bf36-30bd91f73496?token=53c9fe62794d3574b12d5aad67c1998665b93c20&ts=1558436081
+[ultrauxthemepatcher]: https://www.deviantart.com/users/outgoing?https://www.syssel.net/hoefs/software_uxtheme.php?lang=en
+[oldnewexplorer]: https://tihiy.net/files/OldNewExplorer.rar
+[windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/

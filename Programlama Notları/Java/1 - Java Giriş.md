@@ -55,6 +55,8 @@ Buradaki [link](https://www.yemreak.com/2017/10/java-programlama-1.html) aktarı
 
 ## Harici Bağlantılar
 
+- Java ve onunla alaklı PDF'lere [buradan](https://drive.google.com/open?id=123UxrfswdDnpfDZCcjWXHpCRWpJCBl1h) erişebilirsin.
+
 [head first java]: http://ikucukkoc.baun.edu.tr/lectures/EMM3115/Head_First_Java.pdf
 [neden java kullanıyorsunuz sorusunu sorulduğunda hangi cevabı verirsiniz]: http://www.kurumsaljava.com/2012/05/29/herhangi-birisi-size-neden-java-kullaniyorsunuz-sorusunu-sordugunda-hangi-cevabi-verirsiniz/
 [java neden harika bir dil]: http://ilkaygunel.com/blog/2016/java-neden-harika-bir-dil/

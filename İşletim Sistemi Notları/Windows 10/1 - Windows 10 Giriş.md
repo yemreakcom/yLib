@@ -3,7 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [İndirme](#%C4%B0ndirme)
-  - [Media creating tools kullanmadan indirme](#Media-creating-tools-kullanmadan-indirme)
+- [Faydalı Programlar](#Faydal%C4%B1-Programlar)
 - [Kısayollar](#K%C4%B1sayollar)
   - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
   - [Gezimti](#Gezimti)
@@ -15,7 +15,7 @@
 _Windows 10 October 2019 EN_ orjinal dosyasını [buradan](https://drive.google.com/open?id=1uzLjabuUUVYaOuRM2f5fX4HtHrb9XMgI) indirebilirsin.
 Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/tr-tr/software-download/windows10) tıklayabilirsin.
 
-### Media creating tools kullanmadan indirme
+**Media creating tools kullanmadan indirme:**
 
 Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerekmekte:
 
@@ -27,6 +27,21 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 - Sayfayı yenileyin
 
 > Detaaylı bilgi için [buraya](https://pureinfotech.com/download-windows-10-iso-without-media-creation-tool/) tıklayabilirsin.
+
+## Faydalı Programlar
+
+- Windows ile gelen video düzenleyicisinin kullanımı hakkında [buraya](https://www.howtogeek.com/355524/how-to-use-windows-10s-hidden-video-editor/) bakabilirsin
+  - Birleştirme
+  - Kırpma
+  - Ses ekleme
+  - Yavaşlatma
+  - Efekt ekleme
+
+| Program                | Açıklama                       |
+| ---------------------- | ------------------------------ |
+| [Sharex]               | Ekran görüntüsü ve video kaydı |
+| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri     |
+| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi       |
 
 ## Kısayollar
 
@@ -74,3 +89,9 @@ Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde ça
 - `WİNDOWS TUŞU (SUPER)` + `A` Aksiyon Merkezi (Action Center) menüsü
 - `WİNDOWS TUŞU (SUPER)` + `Q` veya `S` Arama penceresini açma
 - `WİNDOWS TUŞU (SUPER)` + `W` Windows INK çalışma alanını açma
+
+<!-- Bağlantılar -->
+
+[sharex]: https://www.microsoft.com/en-us/p/sharex/9nblggh4z1sp?rtc=1&activetab=pivot:overviewtab
+[pichon - free icons]: https://www.microsoft.com/en-us/p/icons8-pichon/9nk8t1kshffr?rtc=1&activetab=pivot:overviewtab
+[pdf conversion suite]: https://www.microsoft.com/en-us/p/pdf-conversion-suite/9nblggh0c572?cid=msft_web_chart&activetab=pivot:overviewtab

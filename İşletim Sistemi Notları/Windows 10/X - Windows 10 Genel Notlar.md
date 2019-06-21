@@ -28,8 +28,9 @@
 
 ## Uygulama Verileri
 
-- `C:\Users\<User>\AppData\Roaming` yani `%appdata%` dizininde yer alır.
+- `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
   - Arama yerine `%appdata%` yazarak erişebilirsin
+- `C:\Users\%username%\AppData\Local`
 
 ## Hata Notları
 

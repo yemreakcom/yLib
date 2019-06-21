@@ -3,8 +3,10 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Özelleştirmeler](#%C3%96zelle%C5%9Ftirmeler)
+- [Uygulama Verileri](#Uygulama-Verileri)
 - [Hata Notları](#Hata-Notlar%C4%B1)
   - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
+  - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
 - [Windows Özellikleri](#Windows-%C3%96zellikleri)
   - [Varsayılan Windows Özellikleri](#Varsay%C4%B1lan-Windows-%C3%96zellikleri)
   - [Alt İşletim Sistemleri](#Alt-%C4%B0%C5%9Fletim-Sistemleri)
@@ -24,6 +26,11 @@
 | ---------------------------------------------------------------------------------------------- | ------------------- |
 | [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma |
 
+## Uygulama Verileri
+
+- `C:\Users\<User>\AppData\Roaming` yani `%appdata%` dizininde yer alır.
+  - Arama yerine `%appdata%` yazarak erişebilirsin
+
 ## Hata Notları
 
 ### Email Hesabı Kaydetme Sorunu
@@ -34,6 +41,10 @@
   - Contact
 
 > Diğer izinleri kapatın gitsin, verilerinizi toplamasın 🧐
+
+### Altgr gibi Tuşlar ile Özel Karakter Oluşturamama
+
+![win_langbug](../../res/win_langbug.png)
 
 ## Windows Özellikleri
 
@@ -66,9 +77,9 @@ Alt sistem kurulum dökümantasyonlarına üzerlerine tıklayarak erişlebilirsi
 
 ### Video Ayarları
 
-| Ayar    | Ulaşım                                                | Açıklama                                           | Kaynak                                                                                                           |
-| ------- | ----------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Altyazı | Options - Ease of Access -  Hearing / Closed captions | Yerel uygulamalardaki altyazı metnini özelleştirme | [Microsoft](https://support.microsoft.com/en-us/help/3078107/closed-captions-in-movies-tv-content-on-windows-10) |
+| Ayar    | Ulaşım                                               | Açıklama                                           | Kaynak                                                                                                           |
+| ------- | ---------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Altyazı | Options - Ease of Access - Hearing / Closed captions | Yerel uygulamalardaki altyazı metnini özelleştirme | [Microsoft](https://support.microsoft.com/en-us/help/3078107/closed-captions-in-movies-tv-content-on-windows-10) |
 
 ## Terimler
 

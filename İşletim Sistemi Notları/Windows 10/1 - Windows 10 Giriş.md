@@ -2,17 +2,17 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [İndirme](#i%CC%87ndirme)
-  - [Media creating tools kullanmadan indirme](#media-creating-tools-kullanmadan-indirme)
-- [Kısayollar](#k%C4%B1sayollar)
-  - [Uygulama İşlemleri](#uygulama-i%CC%87%C5%9Flemleri)
-  - [Gezimti](#gezimti)
-  - [Girdi İşlemleri](#girdi-i%CC%87%C5%9Flemleri)
-  - [Menü Kısayolları](#men%C3%BC-k%C4%B1sayollar%C4%B1)
+- [İndirme](#%C4%B0ndirme)
+  - [Media creating tools kullanmadan indirme](#Media-creating-tools-kullanmadan-indirme)
+- [Kısayollar](#K%C4%B1sayollar)
+  - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
+  - [Gezimti](#Gezimti)
+  - [Girdi İşlemleri](#Girdi-%C4%B0%C5%9Flemleri)
+  - [Menü Kısayolları](#Men%C3%BC-K%C4%B1sayollar%C4%B1)
 
 ## İndirme
 
-*Windows 10 October 2019 EN* orjinal dosyasını [buradan](https://drive.google.com/open?id=1uzLjabuUUVYaOuRM2f5fX4HtHrb9XMgI) indirebilirsin.
+_Windows 10 October 2019 EN_ orjinal dosyasını [buradan](https://drive.google.com/open?id=1uzLjabuUUVYaOuRM2f5fX4HtHrb9XMgI) indirebilirsin.
 Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/tr-tr/software-download/windows10) tıklayabilirsin.
 
 ### Media creating tools kullanmadan indirme
@@ -20,10 +20,10 @@ Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/t
 Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerekmekte:
 
 - Geliştirici Ayarları
-- *Network conditions*
-- *User Agent* başlığı altında
-  - *Select automatically* seçimini kaldırın
-  - *Safari – iPad iOS 9*
+- _Network conditions_
+- _User Agent_ başlığı altında
+  - _Select automatically_ seçimini kaldırın
+  - _Safari – iPad iOS 9_
 - Sayfayı yenileyin
 
 > Detaaylı bilgi için [buraya](https://pureinfotech.com/download-windows-10-iso-without-media-creation-tool/) tıklayabilirsin.

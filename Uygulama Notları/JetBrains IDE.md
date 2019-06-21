@@ -2,26 +2,26 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Kısayolar](#k%C4%B1sayolar)
-  - [Kod Kısayolları](#kod-k%C4%B1sayollar%C4%B1)
-  - [Metin Kısayolları](#metin-k%C4%B1sayollar%C4%B1)
-  - [Debug Kısayolları](#debug-k%C4%B1sayollar%C4%B1)
-  - [Git Kısayolları](#git-k%C4%B1sayollar%C4%B1)
-- [Git Yönetimi](#git-y%C3%B6netimi)
-- [Pluginler (Eklenti gibi)](#pluginler-eklenti-gibi)
-- [Proje Yapılandırma](#proje-yap%C4%B1land%C4%B1rma)
-  - [Interpreter (Derleyici) Değiştirme](#interpreter-derleyici-de%C4%9Fi%C5%9Ftirme)
-  - [Configuration (Yapılandırma) Ayarları](#configuration-yap%C4%B1land%C4%B1rma-ayarlar%C4%B1)
-  - [Kaynak Kod Dosyalarını Belirtme](#kaynak-kod-dosyalar%C4%B1n%C4%B1-belirtme)
-    - [Ek Ortam Değşkenleri Tanımlama](#ek-ortam-de%C4%9F%C5%9Fkenleri-tan%C4%B1mlama)
-    - [Ortam Değişkenleri Ayarlama Eklentisi](#ortam-de%C4%9Fi%C5%9Fkenleri-ayarlama-eklentisi)
-- [Faydalı Ayarlar](#faydal%C4%B1-ayarlar)
-  - [Font Ayarları](#font-ayarlar%C4%B1)
-  - [Dökümantasyon Önizle](#d%C3%B6k%C3%BCmantasyon-%C3%B6nizle)
-  - [Dictionaries](#dictionaries)
-  - [Spellcheck Kaldırma](#spellcheck-kald%C4%B1rma)
-- [Karma Notlar](#karma-notlar)
-- [Yapılacaklar](#yap%C4%B1lacaklar)
+- [Kısayolar](#K%C4%B1sayolar)
+  - [Kod Kısayolları](#Kod-K%C4%B1sayollar%C4%B1)
+  - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
+  - [Debug Kısayolları](#Debug-K%C4%B1sayollar%C4%B1)
+  - [Git Kısayolları](#Git-K%C4%B1sayollar%C4%B1)
+- [Git Yönetimi](#Git-Y%C3%B6netimi)
+- [Pluginler (Eklenti gibi)](#Pluginler-Eklenti-gibi)
+- [Proje Yapılandırma](#Proje-Yap%C4%B1land%C4%B1rma)
+  - [Interpreter (Derleyici) Değiştirme](#Interpreter-Derleyici-De%C4%9Fi%C5%9Ftirme)
+  - [Configuration (Yapılandırma) Ayarları](#Configuration-Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1)
+  - [Kaynak Kod Dosyalarını Belirtme](#Kaynak-Kod-Dosyalar%C4%B1n%C4%B1-Belirtme)
+    - [Ek Ortam Değşkenleri Tanımlama](#Ek-Ortam-De%C4%9F%C5%9Fkenleri-Tan%C4%B1mlama)
+    - [Ortam Değişkenleri Ayarlama Eklentisi](#Ortam-De%C4%9Fi%C5%9Fkenleri-Ayarlama-Eklentisi)
+- [Faydalı Ayarlar](#Faydal%C4%B1-Ayarlar)
+  - [Font Ayarları](#Font-Ayarlar%C4%B1)
+  - [Dökümantasyon Önizle](#D%C3%B6k%C3%BCmantasyon-%C3%96nizle)
+  - [Dictionaries](#Dictionaries)
+  - [Spellcheck Kaldırma](#Spellcheck-Kald%C4%B1rma)
+- [Karma Notlar](#Karma-Notlar)
+- [Yapılacaklar](#Yap%C4%B1lacaklar)
 
 ## Kısayolar
 
@@ -29,8 +29,8 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 
 - `CTRL` + `CTRL` Komut çalıştırma
 - `SHIFT` + `SHIFT` Kod içerisinde arama yapma
-- `CTRL` + `SHUFT` + `ALT` + `L` Açık olan dosyayı formatlama / biçimlendirme
-- `CTRL` + `ALT` + `L` Tüm kodu otamatik derleme
+- `CTRL` + `SHIFT` + `ALT` + `L` Code formatlama diyaloğu
+- `CTRL` + `ALT` + `L` Tüm kodu otamatik formatlama
 - `CTRL` + `ALT` `O` Import'ları optimize etme
 - `CTRL` + `N` Classlar arasında dolanma
 - `CTRL` + `F12` Üzerinde bulunduğumuz dosya üzerinde dolanma
@@ -51,7 +51,7 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 - `CTRL` + `D` Satırı hemen altına kopyalam (dublicate)
 - `CTRL` + `SHIFT` + `/` Yorum satırına çevirme
 - `CTRL` + `SHIFT` + `YON TUSLARI` İmlecin üzerinde durduğu metni taşıma
-- `SHIFT`  + `F6` Yeniden adlandırma
+- `SHIFT` + `F6` Yeniden adlandırma
 
 ### Debug Kısayolları
 
@@ -65,8 +65,8 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 ## Git Yönetimi
 
 - `JetBrain IDE` - `Check out from Version Control` - `Git`
-  - *Url:* Proje URL'idir. (Adress çubuğunda yazan metin)
-  - *Directory:* Proje yolunudur. (projenin/konumu)
+  - _Url:_ Proje URL'idir. (Adress çubuğunda yazan metin)
+  - _Directory:_ Proje yolunudur. (projenin/konumu)
 - `Test` & `Clone`
 
 ## Pluginler (Eklenti gibi)
@@ -89,9 +89,9 @@ Sanal environment gibi durumlarda system yerine onların derleyicisini kullanma
 
 - Sağ üst kısımdaki yeşin `Run` butonunun solundaki alandan `Edit Configuration`ı seçin.
 - Sol üst köşedeki `+` butonuna basın
-- Derlemek istediğiniz dili | uygulamayı seçin (*Örn: Python | PyCharm için*)
-- Dosya derleyeceksiniz *Script* kısmına `dosyanın yolunu` yazın.
-- *Python Interpreter* kısmında yorumlayıcıyı seçin, ayarlanmadıysa `Interpreter (Derleyici) Değiştirme` aşamasında (üst aşamada) nasıl ayarlayacağınıza bakabilirsiniz.
+- Derlemek istediğiniz dili | uygulamayı seçin (_Örn: Python | PyCharm için_)
+- Dosya derleyeceksiniz _Script_ kısmına `dosyanın yolunu` yazın.
+- _Python Interpreter_ kısmında yorumlayıcıyı seçin, ayarlanmadıysa `Interpreter (Derleyici) Değiştirme` aşamasında (üst aşamada) nasıl ayarlayacağınıza bakabilirsiniz.
 
 ### Kaynak Kod Dosyalarını Belirtme
 
@@ -120,13 +120,13 @@ Eklenti sitesi için [buraya](https://github.com/ashald/EnvFile/blob/develop/REA
 ### Font Ayarları
 
 - `CTRL` + `ALT` + `S` yaptıktan sonra `Editor | Font` kısmında
-  - *Font:* `Consolas`
-  - *Size:* `12`
-  - *Line spacing:* `1.0`
+  - _Font:_ `Consolas`
+  - _Size:_ `12`
+  - _Line spacing:_ `1.0`
 
 ### Dökümantasyon Önizle
 
-Fareyle kodun üzerinize geldiğiniz *açıklamalarını* ve dökümantasyonlarını gösterecektir.
+Fareyle kodun üzerinize geldiğiniz _açıklamalarını_ ve dökümantasyonlarını gösterecektir.
 
 - `CTRL` + `ALT` + `S` yaptıktan sonra `Editor | General | Other` başlığı altında `Show quick documentation on mouse move` kısmını seçin ve süreyi `500` yapın.
 

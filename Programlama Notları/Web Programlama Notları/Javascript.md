@@ -38,6 +38,7 @@
 - [Objedeki Değer ile Anahtarını Bulma](#Objedeki-De%C4%9Fer-ile-Anahtar%C4%B1n%C4%B1-Bulma)
 - [Latex Ayrıştırma](#Latex-Ayr%C4%B1%C5%9Ft%C4%B1rma)
 - [VsCode Eklentileri](#VsCode-Eklentileri)
+  - [VsCode Nodejs için Debug Ayarı](#VsCode-Nodejs-i%C3%A7in-Debug-Ayar%C4%B1)
 - [Harici Kaynaklar](#Harici-Kaynaklar)
 
 ## Ön Bilgilendirme
@@ -586,6 +587,30 @@ function getKeyByValue(object, value) {
 | [Eslint]                         | JS için imla kontrolcüsü                                                                |
 | [Import Cost]                    | Bellek kullanımını gösterir                                                             |
 
+### VsCode Nodejs için Debug Ayarı
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "program": "${workspaceFolder}\\index.js",
+      "outFiles": ["${workspaceRoot}/dist/**/**/*.js"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Current File",
+      "program": "${file}",
+      "outFiles": ["${workspaceRoot}/dist/**/**/*.js"]
+    }
+  ]
+}
+```
+
 ## Harici Kaynaklar
 
 - [Wait Function]
@@ -611,3 +636,7 @@ function getKeyByValue(object, value) {
 [eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [import cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
 [yscripts]: https://github.com/yedhrab/YScripts
+
+```
+
+```

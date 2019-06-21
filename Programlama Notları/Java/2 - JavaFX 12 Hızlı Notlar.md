@@ -80,3 +80,8 @@ public class Main extends Application {
     }
 }
 ```
+
+## Harici Bağlantılar
+
+- [JavaFX Drag and Drop for Internal and External Communication](https://www.youtube.com/watch?v=f7KGXUrAH0g)
+- [JavaFX Settings UI Design - Scene builder and Netbeans](https://youtu.be/gJYXctDSIl8?list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w)

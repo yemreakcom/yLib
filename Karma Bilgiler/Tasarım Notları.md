@@ -4,6 +4,7 @@
 
 - [CV Notları](#CV-Notlar%C4%B1)
 - [Windows için İkon Seti](#Windows-i%C3%A7in-%C4%B0kon-Seti)
+- [Adobe XD](#Adobe-XD)
 - [Renk Kodları](#Renk-Kodlar%C4%B1)
 
 ## CV Notları
@@ -24,6 +25,11 @@ Windows için ikon paketini [buradan][windows icon pack] indirebilirsin
 - GUI uygulamaları yapanlar için de oldukça faydalı
 
 ![icon8](../res/icon8.png)
+
+## Adobe XD
+
+- [Web Design UI](https://www.youtube.com/watch?v=aShSUqSbhss)
+- [Your developer license has expired. To continue to use this app, please renew your license.](https://forums.adobe.com/thread/2607910)
 
 ## Renk Kodları
 

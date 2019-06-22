@@ -3,6 +3,8 @@
 ## İçerikler <!-- omit in toc -->
 
 - [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
+- [Koşul Yapıları](#Ko%C5%9Ful-Yap%C4%B1lar%C4%B1)
+  - [Yeni Switch Case](#Yeni-Switch-Case)
 - [Dizi İşlemleri](#Dizi-%C4%B0%C5%9Flemleri)
 - [Regex](#Regex)
 - [WhiteSpaces](#WhiteSpaces)
@@ -19,6 +21,21 @@
 | `contains(<char>)`        | Metinde kelime arama         |
 | `strip()`                 | Boşlukları kaldırma          |
 | `split(<string | regex>)` | String ayrıştırma            |
+
+## Koşul Yapıları
+
+### Yeni Switch Case
+
+```java
+String test = switch (type) {
+    case "formatCode" -> data.formatCode;
+    case "extension" -> data.extension;
+    case "type" -> data.type;
+    case "resolution" -> data.resolution;
+    case "size" -> data.size;
+    default -> "";
+}
+```
 
 ## Dizi İşlemleri
 

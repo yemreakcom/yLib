@@ -9,6 +9,7 @@
 - İlk önce `Controller` clasına ekle sonra `Scene Builder` tarafında `fx:id`'ye eşle
 - `drive.png` okunmuyor ama `google_drive.png` okunuyor
   - Refactor ile ismi yenilenirse de düzeliyor
+  - Resimlerin herbiri **src dizinininin altında** olmalı
 - Üst üste tasarımlar için tasarım yapacağın paneli `Hierarchy` kısmından en alta alırsan, diğerlerinin üstüne gelir ve karışmaz
 - Ya da visible değerini `false` yaparsın
 - En alta alınan program çalıştığında ilk görülendir

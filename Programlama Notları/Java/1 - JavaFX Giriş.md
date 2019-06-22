@@ -41,6 +41,7 @@ JavaFX ve JFhoenix Material UI'ı kurulumunu anlatan videom için [buraya][video
 ## Faydalı Bağlantılar
 
 - [Drag Drop](https://www.youtube.com/watch?v=f7KGXUrAH0g)
+- [Java Settings UI Design](https://www.youtube.com/watch?v=gJYXctDSIl8&list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w&index=3)
 
 [intellij]: https://www.jetbrains.com/idea/download/#section=windows
 [javafx sdk]: https://gluonhq.com/products/javafx/

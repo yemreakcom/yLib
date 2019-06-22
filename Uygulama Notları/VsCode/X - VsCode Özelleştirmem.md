@@ -2,7 +2,59 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Code Snippets](#Code-Snippets)
+- [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
+- [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
+  - [Windows 10 Klavye Kısayolları Ayarı](#Windows-10-Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1)
+  - [Linux Klavye Kısayolları Ayarım](#Linux-Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+
+## Code Snippets
+
+**Markdown:**
+
+```json
+{
+  // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+
+  "Omit from ToC": {
+    "prefix": "om",
+    "body": ["<!-- omit in toc -->"],
+    "description": "Omit from ToC"
+  },
+  "Make 1 button key": {
+    "prefix": "k1",
+    "body": ["<kbd>$1</kbd>$0"],
+    "description": "1 Buton anahtarı oluşturur"
+  },
+  "Make 2 button key": {
+    "prefix": "k2",
+    "body": ["<kbd>$1</kbd> + <kbd>$2</kbd>$0"],
+    "description": "2 Buton anahtarı oluşturur"
+  },
+  "Make 3 button key": {
+    "prefix": "k3",
+    "body": ["<kbd>$1</kbd> + <kbd>$2</kbd> + <kbd>$3</kbd>$0"],
+    "description": "3 Buton anahtarı oluşturur"
+  }
+}
+```
+
 ## Editör Ayarlarım
+
+> <kbd>ENTER</kbd> ile seçim yapılabilmekte.
 
 ```json
 {
@@ -20,7 +72,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
-  "editor.acceptSuggestionOnEnter": "off", // Enter ile tavsiye seçimini kapatır, Tab ile seçilir
   "editor.cursorBlinking": "phase", // İmleç yanıp sönmesi
   "files.insertFinalNewline": true, // Dosyaların sonuna boş satır koyar
   // Font Ayarları https://github.com/tonsky/FiraCode/releases/download/1.206/FiraCode_1.206.zip
@@ -55,7 +106,10 @@
 
 ### Windows 10 Klavye Kısayolları Ayarı
 
+> <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu kaldırıldı, yerine <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu olan yerel kısayol kullanılacak.
+
 ```json
+// Place your key bindings in this file to override the defaults
 // Place your key bindings in this file to override the defaults
 [
   {
@@ -86,11 +140,6 @@
   {
     "key": "ctrl+j",
     "command": "-workbench.action.togglePanel"
-  },
-  {
-    "key": "ctrl+shift+a",
-    "command": "editor.action.blockComment",
-    "when": "editorTextFocus && !editorReadonly"
   },
   {
     "key": "alt+v",

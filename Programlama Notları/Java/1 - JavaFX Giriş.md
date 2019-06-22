@@ -4,6 +4,8 @@
 
 - [IntelliJ için JavaFx Kurulumu](#IntelliJ-i%C3%A7in-JavaFx-Kurulumu)
 - [JavaFX Scene Builder](#JavaFX-Scene-Builder)
+- [JavaFX RunTime Images](#JavaFX-RunTime-Images)
+- [Hata Notları](#Hata-Notlar%C4%B1)
 - [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
 
 ## IntelliJ için JavaFx Kurulumu
@@ -37,6 +39,21 @@ JavaFX ve JFhoenix Material UI'ı kurulumunu anlatan videom için [buraya][video
 - Her importta `javafx.scene` olması lazımdır
   - Image vs..
 - Sağ taraftaki `code` alanındaki `fx:id` kısmında ismi yazacak (Controller'dan erişmek için)
+
+## JavaFX RunTime Images
+
+```bat
+export PATH_TO_FX_MODS=path/to/javafx-jmods-12.0.1
+$JAVA_HOME/bin/jlink --module-path $PATH_TO_FX_MODS:mods/production --add-modules hellofx --output jre
+jre/bin/java -m hellofx/org.openjfx.MainApp
+```
+
+## Hata Notları
+
+**class com.sun.javafx.fxml.FXMLLoaderHelper (in unnamed module @0x24782c87) cannot access class com.sun.javafx.util.Utils (in module javafx.graphics) because module javafx.graphics:**
+
+- Çıkan ekranda `VM Opitons` alanına alttaki metni kopyalayın:
+  - `--module-path "C:\Program Files\Java\javafx-sdk-12.0.1\lib" --add-modules=javafx.controls,javafx.fxml`
 
 ## Faydalı Bağlantılar
 

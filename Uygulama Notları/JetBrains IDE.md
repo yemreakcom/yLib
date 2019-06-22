@@ -7,6 +7,7 @@
   - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
   - [Debug Kısayolları](#Debug-K%C4%B1sayollar%C4%B1)
   - [Git Kısayolları](#Git-K%C4%B1sayollar%C4%B1)
+  - [VsCode KeyMap](#VsCode-KeyMap)
 - [Git Yönetimi](#Git-Y%C3%B6netimi)
 - [Pluginler (Eklenti gibi)](#Pluginler-Eklenti-gibi)
 - [Proje Yapılandırma](#Proje-Yap%C4%B1land%C4%B1rma)
@@ -22,10 +23,13 @@
   - [Spellcheck Kaldırma](#Spellcheck-Kald%C4%B1rma)
 - [Karma Notlar](#Karma-Notlar)
 - [Yapılacaklar](#Yap%C4%B1lacaklar)
+- [Keymmap (Kısayollar)](#Keymmap-K%C4%B1sayollar)
 
 ## Kısayolar
 
 Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html) tıklayabilirsin.
+
+> VsCode kısayollarını aktarmak için [buraya](https://plugins.jetbrains.com/plugin/12062-vs-code-keymap/versions) bakabilirsin.
 
 - `CTRL` + `CTRL` Komut çalıştırma
 - `SHIFT` + `SHIFT` Kod içerisinde arama yapma
@@ -39,6 +43,7 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 
 - `CTRL` + `SPACE` Kod tamamlama
   - 2 kez ard arda basılırsa **import edilmemiş** değişkenleri de gösterir ve otomatik dahil eder
+- `CTRL` + `SHIFT` + `SPACE` İle akıllı kod önerileri sunar
 - `ALT` + `F7` Projedeki kullanım alanını gösterir
 - `CTRL` + `Q` Dökümanı hızlı önizleme
   - **import** edilen modüller için kullanışlıdır
@@ -61,6 +66,12 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 
 - `CTRL` + `K` Commit
 - `CTRL` + `SHIFT` + `K` Push
+
+### VsCode KeyMap
+
+- <kbd>CTRL</kbd> + <kbd>P</kbd>, Dosyalarda arama
+  - <kbd>CTRL</kbd> + <kbd>TAB</kbd>, Arama ekranındaki sekmeyi değiştirme
+- <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>, Seçilen alanı yorum satırına alma
 
 ## Git Yönetimi
 
@@ -153,3 +164,10 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 
 - [x] PyCharm Env Variable
   - [Link1](https://stackoverflow.com/a/42708476/9770490)
+
+## Keymmap (Kısayollar)
+
+- Comment with line Comment, <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
+- Extend Selection, <kbd>CTRL</kbd> + <kbd>D</kbd>
+- Editör Tab - Close, <kbd>CTRL</kbd> + <kbd>W</kbd>
+- Toggle Distraction Free mode, <kbd>CLTR</kbd> + <kbd>K</kbd>, <kbd>Z</kbd>

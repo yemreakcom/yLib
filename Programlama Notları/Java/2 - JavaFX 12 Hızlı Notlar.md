@@ -10,6 +10,8 @@
 - `drive.png` okunmuyor ama `google_drive.png` okunuyor
   - Refactor ile ismi yenilenirse de düzeliyor
 - Üst üste tasarımlar için tasarım yapacağın paneli `Hierarchy` kısmından en alta alırsan, diğerlerinin üstüne gelir ve karışmaz
+- Ya da visible değerini `false` yaparsın
+- En alta alınan program çalıştığında ilk görülendir
 - [Arkaplanı görünmez yapma](https://stackoverflow.com/a/48404925/9770490)
 
 ## Kod Notları
@@ -42,6 +44,27 @@ private void putClipboard(String clipboardString) {
 String getClipboard() throws IOException, UnsupportedFlavorException {
     Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
     return (String) clipboard.getData(DataFlavor.stringFlavor);
+}
+```
+
+## Dosya Sürükle Bırak İşlemleri
+
+```java
+@FXML
+private ImageView imageView;
+
+@FXML
+void handleDragOver(DragEvent event) {
+    if (event.getDragboard().hasFiles()) {
+        event.acceptTransferModes(TransferMode.ANY);
+    }
+}
+
+@FXML
+void handleDragDropped(DragEvent event) throws FileNotFoundException {
+    List<File> files = event.getDragboard().getFiles();
+    Image img = new Image(new FileInputStream(files.get(0)));
+    imageView.setImage(img);
 }
 ```
 
@@ -83,5 +106,7 @@ public class Main extends Application {
 
 ## Harici Bağlantılar
 
+- [JavaFX Executable File](https://www.youtube.com/watch?v=_KHCHiH2RZ0)
 - [JavaFX Drag and Drop for Internal and External Communication](https://www.youtube.com/watch?v=f7KGXUrAH0g)
 - [JavaFX Settings UI Design - Scene builder and Netbeans](https://youtu.be/gJYXctDSIl8?list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w)
+- [JPackage Tools](http://jdk.java.net/jpackage/)

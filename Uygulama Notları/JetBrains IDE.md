@@ -23,7 +23,7 @@
   - [Spellcheck Kaldırma](#Spellcheck-Kald%C4%B1rma)
 - [Karma Notlar](#Karma-Notlar)
 - [Yapılacaklar](#Yap%C4%B1lacaklar)
-- [Keymmap (Kısayollar)](#Keymmap-K%C4%B1sayollar)
+- [Keymap (Kısayollar)](#Keymap-K%C4%B1sayollar)
 
 ## Kısayolar
 
@@ -165,9 +165,9 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 - [x] PyCharm Env Variable
   - [Link1](https://stackoverflow.com/a/42708476/9770490)
 
-## Keymmap (Kısayollar)
+## Keymap (Kısayollar)
 
 - Comment with line Comment, <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>
-- Extend Selection, <kbd>CTRL</kbd> + <kbd>D</kbd>
+- Extend Selection, <kbd>CTRL</kbd> + <kbd>D</kbd> (Kelime ve daha fazlasını seçme)
 - Editör Tab - Close, <kbd>CTRL</kbd> + <kbd>W</kbd>
 - Toggle Distraction Free mode, <kbd>CLTR</kbd> + <kbd>K</kbd>, <kbd>Z</kbd>

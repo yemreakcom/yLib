@@ -38,12 +38,15 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - Yavaşlatma
   - Efekt ekleme
 
-| Program                | Açıklama                                |
-| ---------------------- | --------------------------------------- |
-| [Sharex]               | Ekran görüntüsü ve video kaydı          |
-| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri              |
-| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi                |
-| Light Key              | Metin tamamlama (Ctrl + TIklama ile) 🤔 |
+| Program                | Açıklama                                     |
+| ---------------------- | -------------------------------------------- |
+| [Sharex]               | Ekran görüntüsü ve video kaydı               |
+| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri                   |
+| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi                     |
+| [Paint.NET]            | Paint'in gelişmiş hali, transparant destekli |
+| [Whatsapp Desktop]     | Whatsapp masajlaşma uygulaması               |
+| [Capitaine Cursors r2] | Mouse için karanlık tema                     |
+| Light Key              | Metin tamamlama (Ctrl + TIklama ile) 🤔      |
 
 ## Uygulama Verileri
 
@@ -104,3 +107,6 @@ Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde ça
 [sharex]: https://www.microsoft.com/en-us/p/sharex/9nblggh4z1sp?rtc=1&activetab=pivot:overviewtab
 [pichon - free icons]: https://www.microsoft.com/en-us/p/icons8-pichon/9nk8t1kshffr?rtc=1&activetab=pivot:overviewtab
 [pdf conversion suite]: https://www.microsoft.com/en-us/p/pdf-conversion-suite/9nblggh0c572?cid=msft_web_chart&activetab=pivot:overviewtab
+[paint.net]: https://www.getpaint.net/
+[whatsapp desktop]: https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh?activetab=pivot:overviewtab
+[capitaine cursors r2]: https://drive.google.com/uc?id=1lnR48aQI9nq4NJlEHyHLO7RoKx46Wl3X

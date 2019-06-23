@@ -107,6 +107,7 @@ public class Main extends Application {
 
 ## Harici Bağlantılar
 
+- [JavaFX ImageView'i Dosya İle Değiştirme](https://stackoverflow.com/questions/7830951/how-can-i-load-computer-directory-images-in-javafx)
 - [JavaFX Executable File](https://www.youtube.com/watch?v=_KHCHiH2RZ0)
 - [JavaFX Drag and Drop for Internal and External Communication](https://www.youtube.com/watch?v=f7KGXUrAH0g)
 - [JavaFX Settings UI Design - Scene builder and Netbeans](https://youtu.be/gJYXctDSIl8?list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w)

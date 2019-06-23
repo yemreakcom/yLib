@@ -31,6 +31,7 @@
 - `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
   - Arama yerine `%appdata%` yazarak erişebilirsin
 - `C:\Users\%username%\AppData\Local`
+- `C:\ProgramData`
 
 ## Hata Notları
 

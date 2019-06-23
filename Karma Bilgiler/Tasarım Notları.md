@@ -6,6 +6,7 @@
 - [Windows için İkon Seti](#Windows-i%C3%A7in-%C4%B0kon-Seti)
 - [Adobe XD](#Adobe-XD)
 - [Renk Kodları](#Renk-Kodlar%C4%B1)
+- [Kaynaklar](#Kaynaklar)
 
 ## CV Notları
 
@@ -36,6 +37,13 @@ Windows için ikon paketini [buradan][windows icon pack] indirebilirsin
 Hazır renk kodlarının olduğu xml dosyasını (color.xml) [buraya][colors.rar] basarak indirebilirsin.
 
 > Daha detaylı bir renk araştırması içerisindeysen, sana faydalı olabilecek bağlantıya ulaşman için [buraya][colors] tıklayabilirsin. Sol kenardaki linklerden renklerin özel olarak sıralanmış hallerini kullanman daha faydalı olacaktır.
+
+## Kaynaklar
+
+- [Loading Gif](https://loading.io/)
+  - Kullanıcı hesabı:
+  - patif@eyeemail.com
+  - patif@eyeemail.com
 
 [best and worst resume fonts]: https://www.canva.com/learn/resume-fonts/
 [windows icon pack]: https://icons8.com/app

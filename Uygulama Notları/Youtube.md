@@ -57,6 +57,7 @@ Youtube üzerindeki beğendiğim videolar
 youtube-dl <url> # Video'yu indirme
 youtube-dl -F <url> # İndirlir formatları gösterir
 youtube-dl -f <format> <url> # Verilen formatı indirme
+youtube-dl --write-thumbnail --skip-download <url> # Thumbnail indirme
 
 youtube-dl --get-filename -o '%(title)s.%(ext)s' BaW_jenozKc
 youtube-dl test video ''_ä↭𝕐.mp4    # All kinds of weird characters

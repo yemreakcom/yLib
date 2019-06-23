@@ -4,6 +4,7 @@
 
 - [İndirme](#%C4%B0ndirme)
 - [Faydalı Programlar](#Faydal%C4%B1-Programlar)
+- [Uygulama Verileri](#Uygulama-Verileri)
 - [Kısayollar](#K%C4%B1sayollar)
   - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
   - [Gezimti](#Gezimti)
@@ -37,15 +38,23 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - Yavaşlatma
   - Efekt ekleme
 
-| Program                | Açıklama                       |
-| ---------------------- | ------------------------------ |
-| [Sharex]               | Ekran görüntüsü ve video kaydı |
-| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri     |
-| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi       |
+| Program                | Açıklama                                |
+| ---------------------- | --------------------------------------- |
+| [Sharex]               | Ekran görüntüsü ve video kaydı          |
+| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri              |
+| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi                |
+| Light Key              | Metin tamamlama (Ctrl + TIklama ile) 🤔 |
+
+## Uygulama Verileri
+
+- `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
+  - Arama yerine `%appdata%` yazarak erişebilirsin
+- `C:\Users\%username%\AppData\Local`
+- `C:\ProgramData`
 
 ## Kısayollar
 
-Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde çalışır.
+Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde çalı şır.
 
 > Kısayollarını kendin düzenlemek istersen [AutoHotkey](https://www.autohotkey.com) adlı uygulamayı kullanabilirsin.
 

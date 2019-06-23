@@ -2,6 +2,7 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Çok Faydalı](#%C3%87ok-Faydal%C4%B1)
 - [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
 - [Koşul Yapıları](#Ko%C5%9Ful-Yap%C4%B1lar%C4%B1)
   - [Yeni Switch Case](#Yeni-Switch-Case)
@@ -9,9 +10,18 @@
 - [Regex](#Regex)
 - [WhiteSpaces](#WhiteSpaces)
 - [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
+- [Döngüler](#D%C3%B6ng%C3%BCler)
+- [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
+  - [Silme İşlemleri](#Silme-%C4%B0%C5%9Flemleri)
+  - [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
+  - [Seçilini Olanı Kopyalama](#Se%C3%A7ilini-Olan%C4%B1-Kopyalama)
 - [Terminal Komutları Çalıştırma](#Terminal-Komutlar%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
 - [Terminal Komutlarını Çalıştırma ve Çıktısını Görme](#Terminal-Komutlar%C4%B1n%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma-ve-%C3%87%C4%B1kt%C4%B1s%C4%B1n%C4%B1-G%C3%B6rme)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+
+## Çok Faydalı
+
+- [AI ile Java Snippets](https://www.codota.com/?utm_source=search-web)
 
 ## String İşlemleri
 
@@ -21,6 +31,8 @@
 | `contains(<char>)`        | Metinde kelime arama         |
 | `strip()`                 | Boşlukları kaldırma          |
 | `split(<string | regex>)` | String ayrıştırma            |
+
+> Split örnekleri için [buraya](https://www.javatpoint.com/java-string-split) bakabilirsin.
 
 ## Koşul Yapıları
 
@@ -65,10 +77,11 @@ Collections.addAll(<arrlist>, <arr>);
 
 Split işlemlerinde sıklıkla kullanılan ayırıcı özelliklerdir.
 
-| İşlem              | Açıklama   |
-| ------------------ | ---------- |
-| `(<regex><regex>)` | And işlemi |
-| `[<regex><regex>]` | Or işlemi  |
+| İşlem              | Açıklama           |
+| ------------------ | ------------------ |
+| `(<regex><regex>)` | And işlemi         |
+| `[<regex><regex>]` | Or işlemi          |
+| `": \\s+"`         | `": "` göre ayırma |
 
 | Greedy   | Reluctant | Possessive | Meaning                                 |
 | -------- | --------- | ---------- | --------------------------------------- |
@@ -98,6 +111,54 @@ Split işlemlerinde sıklıkla kullanılan ayırıcı özelliklerdir.
 
 - Final, değiştirilemez (const) anlamına gelir
 - Final olursa constructer'da tanımlanması gerekir
+- [Hashmap](https://www.geeksforgeeks.org/java-util-hashmap-in-java/)
+  - Key ve değer'e göre veri oluşturur
+  - `<hashmap>.get("A");`
+  - Örn: `"A"` için `1`, `"B"` için `2` değeri verir.
+
+## Döngüler
+
+```java
+// For each
+for (<type> num : <iterable>) {}
+<arr>.foreach(<eleman> -> {<işlemler>});
+```
+
+- `<iterable>` İçerisinde çok veri barındıran obje
+  - Array, Arraylist vs..
+
+## Dosya İşlemleri
+
+### Silme İşlemleri
+
+```java
+File file = new File(<dosyaYolu>); // Dosyayı tanımlama
+file.delete(); // Silinirse true döndürür
+```
+
+> Tüm işlemler için [buraya](https://www.journaldev.com/830/java-delete-file-directory) bakabilirsin.
+
+### Clipboard (Pano) İşlemleri
+
+```java
+Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard(); // Panoyu alma
+clipboard.getAvailableDataFlavors(); // Panodakileri liste olarak alma
+```
+
+### Seçilini Olanı Kopyalama
+
+```java
+private void pasteSelectionContent() {
+  try {
+    Clipboard systemSelection = Toolkit.getDefaultToolkit().getSystemSelection();
+    if(systemSelection != null) {
+      injectStringAsKeyStrokes((String) systemSelection.getData(DataFlavor.stringFlavor));
+    }
+  }
+  catch(Exception ignore) {
+  }
+}
+```
 
 ## Terminal Komutları Çalıştırma
 

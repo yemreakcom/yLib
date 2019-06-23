@@ -18,6 +18,8 @@
 
 JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))
 
+- Çalışmaları gruplandırmak için `com/yemreak/myproject` yapısı kullanılmakta
+  - Maven veya gradle ile indirme yapısından dolayı olabilir
 - `controllers`, FXML dosyalarını kontrol eden kodlar
 - `services`, Harici hizmetler (veya tüm hizmetler)
   - Eğer çok fazla hizmet varsa, yerel hizmetleri farklı dizine alabilirsin
@@ -27,7 +29,7 @@ JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://st
 
 ```
 src/main
-  ├──java/com/yemreak
+  ├──java/com/yemreak/myproject
      ├── controllers
         ├──Screen1controller.java
         ├──Screen2controller.java

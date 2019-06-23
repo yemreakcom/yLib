@@ -1,14 +1,15 @@
-# Jetbrains IDEs <!-- omit in toc -->
+s# Jetbrains IDEs <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
+- [Proje Dizinlerini yapılandırma](#Proje-Dizinlerini-yap%C4%B1land%C4%B1rma)
+  - [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)
 - [Kısayolar](#K%C4%B1sayolar)
   - [Kod Kısayolları](#Kod-K%C4%B1sayollar%C4%B1)
   - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
   - [Debug Kısayolları](#Debug-K%C4%B1sayollar%C4%B1)
   - [Git Kısayolları](#Git-K%C4%B1sayollar%C4%B1)
   - [VsCode KeyMap](#VsCode-KeyMap)
-- [Proje Dizinlerini yapılandırma](#Proje-Dizinlerini-yap%C4%B1land%C4%B1rma)
 - [Git Yönetimi](#Git-Y%C3%B6netimi)
 - [Pluginler (Eklenti gibi)](#Pluginler-Eklenti-gibi)
 - [Proje Yapılandırma](#Proje-Yap%C4%B1land%C4%B1rma)
@@ -25,6 +26,57 @@
 - [Karma Notlar](#Karma-Notlar)
 - [Yapılacaklar](#Yap%C4%B1lacaklar)
 - [Keymap (Kısayollar)](#Keymap-K%C4%B1sayollar)
+- [IDE Ortam Değişkenleri](#IDE-Ortam-De%C4%9Fi%C5%9Fkenleri)
+
+## Proje Dizinlerini yapılandırma
+
+Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
+
+- `Project Structure` - `Project Settings` - `Modules`
+- `Source` sekmesinden dizinleri yapılandırabilirsin
+  - `Sources` Modül ya da paketlerin dizinlerinin tanımlandığı yerdir
+    - `src/java/com/yemreak` dizini kaynak kod dizini olsun:
+    - `package controllers` yazıldığın `src/java/com/yemreak/controllers` dizinine bakılır
+  - `Resources` kaynak dosyaları (resim vs.)
+    - `src/resources` kaynak dizini olsun:
+    - `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
+- `Excluded` dışlanan, bağımsız dosyalar
+
+![jetbrains_project_structures](../res/jetbrains_project_structures.png)
+
+### Proje Dizin Yapısı
+
+JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))
+
+- Çalışmaları gruplandırmak için `com/yemreak/myproject` yapısı kullanılmakta
+  - Maven veya gradle ile indirme yapısından dolayı olabilir
+- `controllers`, FXML dosyalarını kontrol eden kodlar
+- `services`, Harici hizmetler (veya tüm hizmetler)
+  - Eğer çok fazla hizmet varsa, yerel hizmetleri farklı dizine alabilirsin
+- `utility`, Dahili hizmetler
+- `resources`, Tüm kod dışı kaynaklar (images, css, html vs.)
+- `views`, Görsel tasarımları
+
+```
+src/main
+  ├──java/com/yemreak/myproject
+     ├── controllers
+        ├──Screen1controller.java
+        ├──Screen2controller.java
+     ├── services
+        ├──Service1.java
+     ├── applications
+        ├── SaveProducts.java
+  ├──resources
+     ├──views
+        ├──screen1.fxml
+        ├──screen2.fxml
+     ├──css
+        ├──style.css
+     ├──images
+        ├──img1.jpg
+        ├──img2.jpg
+```
 
 ## Kısayolar
 
@@ -74,22 +126,6 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 - <kbd>CTRL</kbd> + <kbd>P</kbd>, Dosyalarda arama
   - <kbd>CTRL</kbd> + <kbd>TAB</kbd>, Arama ekranındaki sekmeyi değiştirme
 - <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>, Seçilen alanı yorum satırına alma
-
-## Proje Dizinlerini yapılandırma
-
-Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
-
-- `Project Structure` - `Project Settings` - `Modules`
-- `Source` sekmesinden dizinleri yapılandırabilirsin
-  - `Sources` Modül ya da paketlerin dizinlerinin tanımlandığı yerdir
-    - `src/java/com/yemreak` dizini kaynak kod dizini olsun:
-    - `package controllers` yazıldığın `src/java/com/yemreak/controllers` dizinine bakılır
-  - `Resources` kaynak dosyaları (resim vs.)
-    - `src/resources` kaynak dizini olsun:
-    - `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
-- `Excluded` dışlanan, bağımsız dosyalar
-
-![jetbrains_project_structures](../res/jetbrains_project_structures.png)
 
 ## Git Yönetimi
 
@@ -189,3 +225,8 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 - Extend Selection, <kbd>CTRL</kbd> + <kbd>D</kbd> (Kelime ve daha fazlasını seçme)
 - Editör Tab - Close, <kbd>CTRL</kbd> + <kbd>W</kbd>
 - Toggle Distraction Free mode, <kbd>CLTR</kbd> + <kbd>K</kbd>, <kbd>Z</kbd>
+
+## IDE Ortam Değişkenleri
+
+- `$MODULE_DIR$`, projenin dizini
+  - src, out vs.. içeren dizin

@@ -1,7 +1,5 @@
 # JavaFX 12 Hızlı Notlar <!-- omit in toc -->
 
-<!-- TODO: Gdirect link creator -->
-
 ## İçerikler <!-- omit in toc -->
 
 - [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)

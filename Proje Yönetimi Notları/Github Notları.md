@@ -52,11 +52,11 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yapılanlar, yapıldı vs..) yapısı kullanılmaktadır.
 
 - Repo sayfasında `Project` sekmesine girin ve `New Project` butonuna tıklayın
-- Proje ismini ve açıklamasını yazdıktan sonra `Project Template` alanından `Automated Canvan` seçeniğini işaretleyin
-- `Automated Canvan` yapısı oluşturulan sorunları, yapılacak planları ve yapılanları otomatik olarak ekler
+- Proje ismini ve açıklamasını yazdıktan sonra `Project Template` alanından `Automated Kanban` seçeniğini işaretleyin
+- `Automated Kanban` yapısı oluşturulan sorunları, yapılacak planları ve yapılanları otomatik olarak ekler
 - Repo sayfasında `Issue` alanında sorunları, yapılacak planları ve yapılanları oluşturun
 - Oluşturduğun her `Issue` için `label`, `proje` ve kim ile alakalı ise onu `assign` alanında belirtin
-- Oluşturulan `Issue`'ler, `Automated Canvan` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
+- Oluşturulan `Issue`'ler, `Automated Kanban` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
 - `Milestones` ile yapılacak işlere süre sınırı (deadline) tanımlayabilirsin
 
 ## Github Eklentileri

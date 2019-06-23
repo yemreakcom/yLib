@@ -56,6 +56,8 @@ Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yap
 - `Automated Kanban` yapısı oluşturulan sorunları, yapılacak planları ve yapılanları otomatik olarak ekler
 - Repo sayfasında `Issue` alanında sorunları, yapılacak planları ve yapılanları oluşturun
 - Oluşturduğun her `Issue` için `label`, `proje` ve kim ile alakalı ise onu `assign` alanında belirtin
+  - `Issue`'lerde markdown formatı geçerlidir
+  - `[ ]` yapısı ile ypaılacakları eklerseniz süreç analizi özelliği gelir
 - Oluşturulan `Issue`'ler, `Automated Kanban` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
 - `Milestones` ile yapılacak işlere süre sınırı (deadline) tanımlayabilirsin
 

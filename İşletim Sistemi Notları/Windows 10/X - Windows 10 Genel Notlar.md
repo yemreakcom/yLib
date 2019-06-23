@@ -26,13 +26,6 @@
 | ---------------------------------------------------------------------------------------------- | ------------------- |
 | [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma |
 
-## Uygulama Verileri
-
-- `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
-  - Arama yerine `%appdata%` yazarak erişebilirsin
-- `C:\Users\%username%\AppData\Local`
-- `C:\ProgramData`
-
 ## Hata Notları
 
 ### Email Hesabı Kaydetme Sorunu

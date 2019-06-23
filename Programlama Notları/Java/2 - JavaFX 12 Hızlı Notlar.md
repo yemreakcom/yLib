@@ -4,6 +4,68 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)
+  - [Dosyaları Yapılandırma](#Dosyalar%C4%B1-Yap%C4%B1land%C4%B1rma)
+- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
+- [Kod Notları](#Kod-Notlar%C4%B1)
+  - [Çerçeveleri Kaldırma](#%C3%87er%C3%A7eveleri-Kald%C4%B1rma)
+  - [Arkaplanı Transparant Yapma](#Arkaplan%C4%B1-Transparant-Yapma)
+  - [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
+- [Dosya Sürükle Bırak İşlemleri](#Dosya-S%C3%BCr%C3%BCkle-B%C4%B1rak-%C4%B0%C5%9Flemleri)
+- [Listeners (Eylem Yönetimi)](#Listeners-Eylem-Y%C3%B6netimi)
+  - [Ekranı Taşıma İşlemi](#Ekran%C4%B1-Ta%C5%9F%C4%B1ma-%C4%B0%C5%9Flemi)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+
+## Proje Dizin Yapısı
+
+JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))
+
+- `controllers`, FXML dosyalarını kontrol eden kodlar
+- `services`, Harici hizmetler (veya tüm hizmetler)
+  - Eğer çok fazla hizmet varsa, yerel hizmetleri farklı dizine alabilirsin
+- `utility`, Dahili hizmetler
+- `resources`, Tüm kod dışı kaynaklar (images, css, html vs.)
+- `views`, FXML tasarımları
+
+```
+src/main
+  ├──java/com/yemreak
+     ├── controllers
+        ├──Screen1controller.java
+        ├──Screen2controller.java
+     ├── services
+        ├──Service1.java
+     ├── applications
+        ├── SaveProducts.java
+  ├──resources
+     ├──views
+        ├──screen1.fxml
+        ├──screen2.fxml
+     ├──css
+        ├──style.css
+     ├──images
+        ├──img1.jpg
+        ├──img2.jpg
+```
+
+<!-- TODO: Sonradan kendi projemi ekleyebilirim -->
+
+> Örnek olacak [proje](https://github.com/badarshahzad/JFX-Browser) için buraya bakabilirsin
+
+### Dosyaları Yapılandırma
+
+- `Project Structure` - `Project Settings` - `Modules`
+- `Source` sekmesinden `src/res` dizinini `Resources` olarak tanıt
+- `out`, `lib` ve `res` dosyalarını `Excluded` olarak tanıt
+
+![jetbrains_project_structures](../../res/jetbrains_project_structures.png)
+
+The above implementation can be considered for a `Maven` project.
+
+For a simple project, you can view a [structure here](https://github.com/TheItachiUchiha/MediaPlayerFX). It is a maven project!
+
+> [Kaynak](https://stackoverflow.com/a/24948550)
+
 ## Hızlı Notlar
 
 - İlk önce `Controller` clasına ekle sonra `Scene Builder` tarafında `fx:id`'ye eşle

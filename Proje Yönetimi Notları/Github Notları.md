@@ -57,6 +57,7 @@ Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yap
 - Repo sayfasında `Issue` alanında sorunları, yapılacak planları ve yapılanları oluşturun
 - Oluşturduğun her `Issue` için `label`, `proje` ve kim ile alakalı ise onu `assign` alanında belirtin
 - Oluşturulan `Issue`'ler, `Automated Canvan` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
+- `Milestones` ile yapılacak işlere süre sınırı (deadline) tanımlayabilirsin
 
 ## Github Eklentileri
 

@@ -89,6 +89,8 @@ Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
     - `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
 - `Excluded` dışlanan, bağımsız dosyalar
 
+![jetbrains_project_structures](../res/jetbrains_project_structures.png)
+
 ## Git Yönetimi
 
 - `JetBrain IDE` - `Check out from Version Control` - `Git`

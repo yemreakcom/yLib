@@ -8,6 +8,7 @@
   - [Debug Kısayolları](#Debug-K%C4%B1sayollar%C4%B1)
   - [Git Kısayolları](#Git-K%C4%B1sayollar%C4%B1)
   - [VsCode KeyMap](#VsCode-KeyMap)
+- [Proje Dizinlerini yapılandırma](#Proje-Dizinlerini-yap%C4%B1land%C4%B1rma)
 - [Git Yönetimi](#Git-Y%C3%B6netimi)
 - [Pluginler (Eklenti gibi)](#Pluginler-Eklenti-gibi)
 - [Proje Yapılandırma](#Proje-Yap%C4%B1land%C4%B1rma)
@@ -61,6 +62,7 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 ### Debug Kısayolları
 
 - `ALT` + `F8` Dobug modunda iken kod derleme arayüzü
+- <kbd>CTRL</kbd> + <kbd>ENTER</kbd>, Sonucu derleme
 
 ### Git Kısayolları
 
@@ -72,6 +74,20 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 - <kbd>CTRL</kbd> + <kbd>P</kbd>, Dosyalarda arama
   - <kbd>CTRL</kbd> + <kbd>TAB</kbd>, Arama ekranındaki sekmeyi değiştirme
 - <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>, Seçilen alanı yorum satırına alma
+
+## Proje Dizinlerini yapılandırma
+
+Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
+
+- `Project Structure` - `Project Settings` - `Modules`
+- `Source` sekmesinden dizinleri yapılandırabilirsin
+  - `Sources` Modül ya da paketlerin dizinlerinin tanımlandığı yerdir
+    - `src/java/com/yemreak` dizini kaynak kod dizini olsun:
+    - `package controllers` yazıldığın `src/java/com/yemreak/controllers` dizinine bakılır
+  - `Resources` kaynak dosyaları (resim vs.)
+    - `src/resources` kaynak dizini olsun:
+    - `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
+- `Excluded` dışlanan, bağımsız dosyalar
 
 ## Git Yönetimi
 

@@ -6,10 +6,15 @@
   - [Dosyaları Yapılandırma](#Dosyalar%C4%B1-Yap%C4%B1land%C4%B1rma)
 - [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
 - [Kod Notları](#Kod-Notlar%C4%B1)
+  - [Thread ile Kodlama](#Thread-ile-Kodlama)
+  - [CSS ile Stil Oluşturma](#CSS-ile-Stil-Olu%C5%9Fturma)
+  - [FXML'de Kod Yapısı](#FXMLde-Kod-Yap%C4%B1s%C4%B1)
+  - [Slider Listener (Kaydırmalı çubuğun değişikliğine göre tepki verme)](#Slider-Listener-Kayd%C4%B1rmal%C4%B1-%C3%A7ubu%C4%9Fun-de%C4%9Fi%C5%9Fikli%C4%9Fine-g%C3%B6re-tepki-verme)
   - [Çerçeveleri Kaldırma](#%C3%87er%C3%A7eveleri-Kald%C4%B1rma)
   - [Arkaplanı Transparant Yapma](#Arkaplan%C4%B1-Transparant-Yapma)
   - [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
-- [Dosya Sürükle Bırak İşlemleri](#Dosya-S%C3%BCr%C3%BCkle-B%C4%B1rak-%C4%B0%C5%9Flemleri)
+  - [ImageView Resmi Değiştirme](#ImageView-Resmi-De%C4%9Fi%C5%9Ftirme)
+  - [Dosya Sürükle Bırak İşlemleri](#Dosya-S%C3%BCr%C3%BCkle-B%C4%B1rak-%C4%B0%C5%9Flemleri)
 - [Listeners (Eylem Yönetimi)](#Listeners-Eylem-Y%C3%B6netimi)
   - [Ekranı Taşıma İşlemi](#Ekran%C4%B1-Ta%C5%9F%C4%B1ma-%C4%B0%C5%9Flemi)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
@@ -79,6 +84,59 @@ For a simple project, you can view a [structure here](https://github.com/TheItac
 
 ## Kod Notları
 
+### Thread ile Kodlama
+
+JavaFX'de oluşturulan Thread, FX'in threadına uyumsuz olarak ilerleyebilmekte, bu durumda `Not on FX application thread; currentThread = JavaFX Application Thread error?` hatası gelemektedir.
+
+- FX (arayüzden) bağımsız Thread'lerdee sorun oluşmaz.
+- Arayüzü bağımlı Thread'lerde `Platform.runAfter{() -> {}}` yapısı kullanılır
+- Thread'i platformdan sonra başlat anlamına gelmektedir
+
+```java
+new Thread(() -> {
+    Image resim = uzunSürenBirİşlem();
+    imageView.setImage(resim); // Bu udurmda thread ile FX yapısı kesişir ve hata verir
+}).start();
+
+new Thread(() -> {
+    Image resim = uzunSürenBirİşlem();
+    Platform.runAfter(() -> imageView.setImage(resim)); // Yapısı ile FX hazır olduktan sonra işlem yapılır
+}).start();
+```
+
+### CSS ile Stil Oluşturma
+
+- Buton gibi alt öğrelere `.buton` css class'ı ile özellik tanımlayabilirsin
+- Her eleman içinde bulunduğu panelin css özelliğini taşır
+
+> - [CSS ile arkaplana resim ekleme]
+> - [CSS ile özel buton ayarlama]
+> - [How to refer to an anchor pane in css?]
+> - [JavaFX Button with transparent background]
+
+### FXML'de Kod Yapısı
+
+```xml
+<TextField prefWidth="50" text="${speedSlider.value}"/> <!-- Inline code -->
+<Slider fx:id="speedSlider" orientation="HORIZONTAL" prefWidth="300"
+        min="60" max="100000" blockIncrement="100"/>
+```
+
+> [Slider'a göre Label'ı güncelleme]
+
+### Slider Listener (Kaydırmalı çubuğun değişikliğine göre tepki verme)
+
+Silder objesinden herhangi bir özelliği (`...Property`) alıp ona uygun listener ekleyebiliriz.
+
+```java
+// Listener örneği
+sliderQuality.valueProperty().addListener((observableValue, number, t1) -> {
+    updateFileSize();
+});
+```
+
+> [Slider'a göre Label'ı güncelleme]
+
 ### Çerçeveleri Kaldırma
 
 ```java
@@ -110,7 +168,37 @@ String getClipboard() throws IOException, UnsupportedFlavorException {
 }
 ```
 
-## Dosya Sürükle Bırak İşlemleri
+### ImageView Resmi Değiştirme
+
+Bu işlem için `resource` dizini **IntelliJ**'de işaretlemeniz gerekmektedir.
+
+```java
+import javafx.scene.image.Image;
+
+// load an image in background, displaying a placeholder while it's loading
+// (assuming there's an ImageView node somewhere displaying this image)
+// The image is located in default package of the classpath
+Image image1 = new Image("/flower.png", true);
+
+// load an image and resize it to 100x150 without preserving its original
+// aspect ratio
+// The image is located in my.res package of the classpath
+Image image2 = new Image("my/res/flower.png", 100, 150, false, false);
+
+// load an image and resize it to width of 100 while preserving its
+// original aspect ratio, using faster filtering method
+// The image is downloaded from the supplied URL through http protocol
+Image image3 = new Image("http://sample.com/res/flower.png", 100, 0, false, false);
+
+// load an image and resize it only in one dimension, to the height of 100 and
+// the original width, without preserving original aspect ratio
+// The image is located in the current working directory
+Image image4 = new Image("file:flower.png", 0, 100, false, false);
+```
+
+> Oracle'ın [resmi sitesinden](https://docs.oracle.com/javafx/2/api/javafx/scene/image/Image.html) alınmıştır.
+
+### Dosya Sürükle Bırak İşlemleri
 
 ```java
 @FXML
@@ -174,3 +262,10 @@ public class Main extends Application {
 - [JavaFX Drag and Drop for Internal and External Communication](https://www.youtube.com/watch?v=f7KGXUrAH0g)
 - [JavaFX Settings UI Design - Scene builder and Netbeans](https://youtu.be/gJYXctDSIl8?list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w)
 - [JPackage Tools](http://jdk.java.net/jpackage/)
+- [Listener Yönetimi](https://www.javacodegeeks.com/2015/01/dont-remove-listeners-use-listenerhandles.html)
+
+[slider'a göre label'ı güncelleme]: https://stackoverflow.com/a/40053895/9770490
+[how to refer to an anchor pane in css?]: https://stackoverflow.com/a/28751561/9770490
+[javafx button with transparent background]: https://stackoverflow.com/a/36566444/9770490
+[css ile arkaplana resim ekleme]: https://stackoverflow.com/questions/9738146/javafx-how-to-set-scene-background-image
+[css ile özel buton ayarlama]: https://stackoverflow.com/questions/10518458/javafx-create-custom-button-with-image

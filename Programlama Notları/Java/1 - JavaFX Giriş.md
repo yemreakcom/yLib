@@ -4,9 +4,12 @@
 
 - [IntelliJ için JavaFx Kurulumu](#IntelliJ-i%C3%A7in-JavaFx-Kurulumu)
 - [JavaFX Scene Builder](#JavaFX-Scene-Builder)
+  - [Scene Builder Yapılandırması](#Scene-Builder-Yap%C4%B1land%C4%B1rmas%C4%B1)
 - [JavaFX RunTime Images](#JavaFX-RunTime-Images)
 - [Hata Notları](#Hata-Notlar%C4%B1)
 - [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
+
+<!-- TOOO: Burayı düzenle YToolsJava'deki gibi olsun-->
 
 ## IntelliJ için JavaFx Kurulumu
 
@@ -39,6 +42,17 @@ JavaFX ve JFhoenix Material UI'ı kurulumunu anlatan videom için [buraya][video
 - Her importta `javafx.scene` olması lazımdır
   - Image vs..
 - Sağ taraftaki `code` alanındaki `fx:id` kısmında ismi yazacak (Controller'dan erişmek için)
+
+### Scene Builder Yapılandırması
+
+[JFoenix] framework'ü kullanıldığından [Scene Builder]'ın library'lerine dahil edilmesi lazımdır.
+
+- Sol üst kısımda **Library** sekmesinin en sağındaki <kbd>⚙</kbd> tıklayın
+- <kbd>JAR/FXML Management</kbd> - <kbd>Add Library/FXML from file system</kbd> linkine tıklayın
+- İndirdiğiniz [JFoenix] dosyasının `jar`'ını bulup, seçin.
+- <kbd>Check All</kbd> ve <kbd>Built in</kbd> ayarları ile dahil edin.
+
+> FXML dosyası ile Controller vs Resimlerin aynı package içerisinde olmaması durumunda **Scene Builder** öneri yapamaz 😢
 
 ## JavaFX RunTime Images
 

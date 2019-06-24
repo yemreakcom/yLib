@@ -259,8 +259,12 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ## Çalışma Notları
 
 - Her şey **dinamik** olmalı
-- Önce sabit değerli yaz, sonrasında `CTRL`+ `F` ile sabitleri değişken haline dönüştür
-- Terimler _italik_, önemli notlar **bold**, komutlar `code`, matematikler (latex) $latex$ ve butonlar <kbd>button</kbd> şekilde olmalı.
+- Önce sabit değerli yaz, sonrasında <kbd>CTRL</kbd> + <kbd>F</kbd> ile sabitleri değişken haline dönüştür
+- Terimler _italik_
+- önemli notlar ve başlıklar **bold**
+- komutlar `code`
+- matematikler (latex) $latex$
+- butonlar ve tıklanabilir öğeler <kbd>button</kbd>
 
 ### İçerik Yapısı
 

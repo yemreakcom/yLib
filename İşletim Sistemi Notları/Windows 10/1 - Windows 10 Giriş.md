@@ -107,6 +107,6 @@ Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde ça
 [sharex]: https://www.microsoft.com/en-us/p/sharex/9nblggh4z1sp?rtc=1&activetab=pivot:overviewtab
 [pichon - free icons]: https://www.microsoft.com/en-us/p/icons8-pichon/9nk8t1kshffr?rtc=1&activetab=pivot:overviewtab
 [pdf conversion suite]: https://www.microsoft.com/en-us/p/pdf-conversion-suite/9nblggh0c572?cid=msft_web_chart&activetab=pivot:overviewtab
-[paint.net]: https://www.getpaint.net/
+[paint.net]: https://www.dotpdn.com/downloads/pdn.html
 [whatsapp desktop]: https://www.microsoft.com/en-us/p/whatsapp-desktop/9nksqgp7f2nh?activetab=pivot:overviewtab
 [capitaine cursors r2]: https://drive.google.com/uc?id=1lnR48aQI9nq4NJlEHyHLO7RoKx46Wl3X

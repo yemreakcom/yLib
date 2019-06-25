@@ -2,38 +2,39 @@
 
 <!-- TODO: Immutabble mutable kavramını açıkla -->
 
-- Ek başlangıç yazısı için [buraya][Python türkçe başlangıç] bakabilirsin
-- Kod yeteneklerini test etmek için [buraya][Python hackerrank] bakabilirsin
+- Ek başlangıç yazısı için [buraya][python türkçe başlangıç] bakabilirsin
+- Kod yeteneklerini test etmek için [buraya][python hackerrank] bakabilirsin
 
 ## İçerikler <!-- omit in toc -->
 
-- [Python ile Programlamaya Hazırlanma](#python-ile-programlamaya-haz%C4%B1rlanma)
-  - [Yazım Kuralları](#yaz%C4%B1m-kurallar%C4%B1)
-  - [Çok Satırlı Kod Yazma](#%C3%A7ok-sat%C4%B1rl%C4%B1-kod-yazma)
-  - [Dökümantasyon PyDoc](#d%C3%B6k%C3%BCmantasyon-pydoc)
-- [Anahtar Kelimeler (Keywords)](#anahtar-kelimeler-keywords)
-  - [Fonksyion Oluşturma Anahtar Kelimeleri](#fonksyion-olu%C5%9Fturma-anahtar-kelimeleri)
-    - [Fonksiyon Anahtar Kelimeleri](#fonksiyon-anahtar-kelimeleri)
-- [Değişkenler](#de%C4%9Fi%C5%9Fkenler)
-  - [Değişkenlere Hızlı Bakış](#de%C4%9Fi%C5%9Fkenlere-h%C4%B1zl%C4%B1-bak%C4%B1%C5%9F)
-  - [List](#list)
-  - [Set](#set)
-  - [Dictionary](#dictionary)
-  - [Değersiz Değişken Tanımlama](#de%C4%9Fersiz-de%C4%9Fi%C5%9Fken-tan%C4%B1mlama)
-  - [Sabit Değerler (Constants)](#sabit-de%C4%9Ferler-constants)
-  - [Değişkenler Arası Dönüşüm (Casting)](#de%C4%9Fi%C5%9Fkenler-aras%C4%B1-d%C3%B6n%C3%BC%C5%9F%C3%BCm-casting)
-    - [Eval Fonksiyonu ile Dönüştürme](#eval-fonksiyonu-ile-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
-    - [İleri Seviye Değişken Dönüştürme](#i%CC%87leri-seviye-de%C4%9Fi%C5%9Fken-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
-  - [Değişken Tipleri için Ek Kaynak](#de%C4%9Fi%C5%9Fken-tipleri-i%C3%A7in-ek-kaynak)
-  - [Değişken ve Sabitlerde Gizlilik](#de%C4%9Fi%C5%9Fken-ve-sabitlerde-gizlilik)
-  - [Değişkenin Tanımlı Olduğunu Kontrol Etme](#de%C4%9Fi%C5%9Fkenin-tan%C4%B1ml%C4%B1-oldu%C4%9Funu-kontrol-etme)
-- [Programı Sonlandırma](#program%C4%B1-sonland%C4%B1rma)
+- [Python ile Programlamaya Hazırlanma](#Python-ile-Programlamaya-Haz%C4%B1rlanma)
+  - [Yazım Kuralları](#Yaz%C4%B1m-Kurallar%C4%B1)
+  - [Modül Dökümantasyon Örneği](#Mod%C3%BCl-D%C3%B6k%C3%BCmantasyon-%C3%96rne%C4%9Fi)
+  - [Çok Satırlı Kod Yazma](#%C3%87ok-Sat%C4%B1rl%C4%B1-Kod-Yazma)
+  - [Dökümantasyon PyDoc](#D%C3%B6k%C3%BCmantasyon-PyDoc)
+- [Anahtar Kelimeler (Keywords)](#Anahtar-Kelimeler-Keywords)
+  - [Fonksyion Oluşturma Anahtar Kelimeleri](#Fonksyion-Olu%C5%9Fturma-Anahtar-Kelimeleri)
+    - [Fonksiyon Anahtar Kelimeleri](#Fonksiyon-Anahtar-Kelimeleri)
+- [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
+  - [Değişkenlere Hızlı Bakış](#De%C4%9Fi%C5%9Fkenlere-H%C4%B1zl%C4%B1-Bak%C4%B1%C5%9F)
+  - [List](#List)
+  - [Set](#Set)
+  - [Dictionary](#Dictionary)
+  - [Değersiz Değişken Tanımlama](#De%C4%9Fersiz-De%C4%9Fi%C5%9Fken-Tan%C4%B1mlama)
+  - [Sabit Değerler (Constants)](#Sabit-De%C4%9Ferler-Constants)
+  - [Değişkenler Arası Dönüşüm (Casting)](#De%C4%9Fi%C5%9Fkenler-Aras%C4%B1-D%C3%B6n%C3%BC%C5%9F%C3%BCm-Casting)
+    - [Eval Fonksiyonu ile Dönüştürme](#Eval-Fonksiyonu-ile-D%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
+    - [İleri Seviye Değişken Dönüştürme](#%C4%B0leri-Seviye-De%C4%9Fi%C5%9Fken-D%C3%B6n%C3%BC%C5%9Ft%C3%BCrme)
+  - [Değişken Tipleri için Ek Kaynak](#De%C4%9Fi%C5%9Fken-Tipleri-i%C3%A7in-Ek-Kaynak)
+  - [Değişken ve Sabitlerde Gizlilik](#De%C4%9Fi%C5%9Fken-ve-Sabitlerde-Gizlilik)
+  - [Değişkenin Tanımlı Olduğunu Kontrol Etme](#De%C4%9Fi%C5%9Fkenin-Tan%C4%B1ml%C4%B1-Oldu%C4%9Funu-Kontrol-Etme)
+- [Programı Sonlandırma](#Program%C4%B1-Sonland%C4%B1rma)
 
 ## Python ile Programlamaya Hazırlanma
 
 Python ve Javascript en popüler diller arasındadır.
 
-> Aralarındaki kıyaslama için [buraya][Python vs Javascript] bakabilirisin.
+> Aralarındaki kıyaslama için [buraya][python vs javascript] bakabilirisin.
 
 ### Yazım Kuralları
 
@@ -56,6 +57,35 @@ Orjinal dökümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/
 - Kodun en son satırı boş olmalıdır (End of File)
 
 > Daha fazla bilgi için harici linklerdeki [Should I use underscores or camel case for Python?](https://www.quora.com/Should-I-use-underscores-or-camel-case-for-Python) bağlantısına tıklayabilirsin.
+
+### Modül Dökümantasyon Örneği
+
+```py
+'''
+Xenotix Python Keylogger for Windows
+====================================
+Coded By: Ajin Abraham <ajin25@gmail.com>
+Website: http://opensecurity.in/xenotix-python-keylogger-for-windows/
+GitHub: https://github.com/ajinabraham/Xenotix-Python-Keylogger
+
+FEATURES
+========
+1.STORE LOGS LOCALLY
+2.SEND LOGS TO GOOGLE FORMS
+3.SEND LOGS TO EMAIL
+4.SEND LOGS TO FTP
+
+MINIMUM REQUIREMENTS
+===================
+Python 2.7: http://www.python.org/getit/
+pyHook Module: http://sourceforge.net/projects/pyhook/
+pyrhoncom Module: http://sourceforge.net/projects/pywin32/
+pyHook Module -
+Unofficial Windows Binaries for Python Extension Packages: http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+NOTE: YOU ARE FREE TO COPY,MODIFY,REUSE THE SOURCE CODE FOR EDUCATIONAL PURPOSE ONLY.
+'''
+```
 
 ### Çok Satırlı Kod Yazma
 
@@ -97,7 +127,7 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 | `None`  | Tanımsız (null)                 |
 | `with`  | Açık olduğu sürece anlamı taşır |
 
-> Döngü veya metotların *içleri doldurulana* kadar yer kaplayıcı olarak `pass` kullanılır.
+> Döngü veya metotların _içleri doldurulana_ kadar yer kaplayıcı olarak `pass` kullanılır.
 
 ### Fonksyion Oluşturma Anahtar Kelimeleri
 
@@ -129,7 +159,7 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 | [Dictionary] | `site = {"adi":"yemreak"}`         | `site['adi']`         |
 | [Tuple]      | `konum = (1, 2)`                   | `x, y = konum`        |
 
-> Değişkenin daha önceden tanımlandığını kontorl etme için [buraya][Değişkenin daha önceden tanımlandığını kontrol etme] bakabilirsin.
+> Değişkenin daha önceden tanımlandığını kontorl etme için [buraya][değişkenin daha önceden tanımlandığını kontrol etme] bakabilirsin.
 
 ### List
 
@@ -137,7 +167,7 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
 - Birbirinden farklı değişkenleri tutabilir
 - Aynı değişken birden fazla tekrar edebilir
-- Hızlıca göz atmak için [buraya][List] buraya bakabilirsin
+- Hızlıca göz atmak için [buraya][list] buraya bakabilirsin
 
 | List Metodları               | Açıklama                                                    |
 | ---------------------------- | ----------------------------------------------------------- |
@@ -156,15 +186,15 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
 Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 
-- Set'in kendine özgü bir yerleştirme yapısı (*hash*) vardır.
+- Set'in kendine özgü bir yerleştirme yapısı (_hash_) vardır.
   - Bu yapı sayesinde veriler, en hızlı olacak şekilde, **karmaşık** olarak dizilir
   - List'ten daha **hızlıdır**
-  - Kaynak için [buraya][Set mi yoksa list mi daha hızlı] bakabilirsin
+  - Kaynak için [buraya][set mi yoksa list mi daha hızlı] bakabilirsin
 - Birbirinden farklı değişkenleri tutabilir
 - Aynı değişken birden fazla **yazılamaz** (küme özelliği)
-- Tüm değerlerin *inmutable* (değiştirilemez) olması gerekmektedir
-  - `myset = {[1, 2, 3]}` komutunda `[1, 2, 3]` list öğesi *mutable* olduğundan değiştirilebilir (ekleme çıkarma olabilir)
-- *Indexing* (indekslenme) ve *slicing, subscription* (kesme, parçalama) işlemlerini desteklemez
+- Tüm değerlerin _inmutable_ (değiştirilemez) olması gerekmektedir
+  - `myset = {[1, 2, 3]}` komutunda `[1, 2, 3]` list öğesi _mutable_ olduğundan değiştirilebilir (ekleme çıkarma olabilir)
+- _Indexing_ (indekslenme) ve _slicing, subscription_ (kesme, parçalama) işlemlerini desteklemez
   - `myset[0]` çalışmaz
 
 | Set Metodları                | Açıklama                  |
@@ -180,8 +210,8 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 
 > **Ek bağlantılar:**
 >
-> - [Hızlıca set açıklaması][Set]
-> - [Detaylı set açıklaması][Set Detaylı]
+> - [Hızlıca set açıklaması][set]
+> - [Detaylı set açıklaması][set detaylı]
 
 ### Dictionary
 
@@ -194,8 +224,8 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 | `<key> in dict`              | Anahtar `dict`'e var mı kontrolü                |
 | `json.dumps(dict)`           | `dict`'i `str`'a çevirme                        |
 
-- [`Dict`'i `str`'a çevirme][Dict'i str'a çevirme]
-- [`Dict`'ten hızlı bir yöntem var mı][Dict'ten hızlı var mı]
+- [`Dict`'i `str`'a çevirme][dict'i str'a çevirme]
+- [`Dict`'ten hızlı bir yöntem var mı][dict'ten hızlı var mı]
 
 ### Değersiz Değişken Tanımlama
 
@@ -205,7 +235,7 @@ degersiz = None
 
 ### Sabit Değerler (Constants)
 
-Python'da *constant*'lar yoktur. Sabit değerler büyük harfler ile belirtilir.
+Python'da _constant_'lar yoktur. Sabit değerler büyük harfler ile belirtilir.
 
 > Aynı dosya içerisinde büyük harflerle yazılsa bile değiştirilebilir.
 
@@ -304,17 +334,15 @@ Alttaki metodlarla programı sonlandırabilirsin.
 
 <!-- ## Harici Bağlantılar -->
 
-[Python vs Javascript]: https://www.educba.com/python-vs-javascript/
-
-[List]: https://www.programiz.com/python-programming/list
-[Set]: https://www.programiz.com/python-programming/set
-[Set Detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
-[Tuple]: https://www.programiz.com/python-programming/tuple
-[Dictionary]: https://www.programiz.com/python-programming/dictionary
-[Dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
-[Dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
-[Set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490
-[Değişkenin daha önceden tanımlandığını kontrol etme]: https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
-
-[Python türkçe başlangıç]: https://github.com/fuatbeser/python-notlarim/blob/master/python_turkce_baslangic.ipynb
-[Python hackerrank]: https://www.hackerrank.com/domains/python
+[python vs javascript]: https://www.educba.com/python-vs-javascript/
+[list]: https://www.programiz.com/python-programming/list
+[set]: https://www.programiz.com/python-programming/set
+[set detaylı]: https://www.datacamp.com/community/tutorials/sets-in-python
+[tuple]: https://www.programiz.com/python-programming/tuple
+[dictionary]: https://www.programiz.com/python-programming/dictionary
+[dict'ten hızlı var mı]: https://stackoverflow.com/a/40694623/9770490
+[dict'i str'a çevirme]: https://stackoverflow.com/a/4547331/9770490
+[set mi yoksa list mi daha hızlı]: https://stackoverflow.com/a/7717046/9770490
+[değişkenin daha önceden tanımlandığını kontrol etme]: https://stackoverflow.com/questions/843277/how-do-i-check-if-a-variable-exists
+[python türkçe başlangıç]: https://github.com/fuatbeser/python-notlarim/blob/master/python_turkce_baslangic.ipynb
+[python hackerrank]: https://www.hackerrank.com/domains/python

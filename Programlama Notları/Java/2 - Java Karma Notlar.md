@@ -273,7 +273,8 @@ Process pb = new ProcessBuilder("myCommand", "myArg1", "myArg2").start();
 Process pb = new ProcessBuilder(<string[]>).start();
 ```
 
-> [Oracle ProcessBuilder][process işlemleri]
+> - [Process İşlemleri][process işlemleri]
+> - [Oracle ProcessBuilder][process işlemleri oracle]
 
 ### Terminal Komutlarını Çalıştırma ve Çıktısını Görme
 
@@ -308,7 +309,8 @@ while ((s = stdError.readLine()) != null) {
 - [Jdk12 yeni özellikleri][39 new features (and apis) in jdk 12]
 - [Process işlemleri]
 
-[process işlemleri]: https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/ProcessBuilder.html
+[process işlemleri]: https://www.mkyong.com/java/how-to-execute-shell-command-from-java/
+[process işlemleri oracle]: https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/ProcessBuilder.html
 [java generics]: https://www.tutorialspoint.com/java/java_generics.htm
 [simplify this generic method to concatenate java arrays]: https://stackoverflow.com/a/9481298/9770490
 [39 new features (and apis) in jdk 12]: https://www.azul.com/39-new-features-and-apis-in-jdk-12/

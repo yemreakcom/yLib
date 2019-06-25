@@ -4,23 +4,23 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 
 ## İçerikler <!-- omit in toc -->
 
-- [Python Eklentileri](#python-eklentileri)
-- [Python Kodlarını Formatlama](#python-kodlar%C4%B1n%C4%B1-formatlama)
-- [Debug Yapılandırması](#debug-yap%C4%B1land%C4%B1rmas%C4%B1)
-- [Jupyter Desteği](#jupyter-deste%C4%9Fi)
-- [Python Derleyicisi Ayarlama](#python-derleyicisi-ayarlama)
-- [PYTHONPATH Oluşturma](#pythonpath-olu%C5%9Fturma)
-- [PYTHONPATH Örneği](#pythonpath-%C3%B6rne%C4%9Fi)
-- [Ek Python Ayarları](#ek-python-ayarlar%C4%B1)
-- [Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler](#anaconda-%C3%BCzerindeki-python%C4%B1-desteklemeyen-eklentiler)
-- [Python Kısayolları](#python-k%C4%B1sayollar%C4%B1)
+- [Python Eklentileri](#Python-Eklentileri)
+- [Python Kodlarını Formatlama](#Python-Kodlar%C4%B1n%C4%B1-Formatlama)
+- [Debug Yapılandırması](#Debug-Yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Jupyter Desteği](#Jupyter-Deste%C4%9Fi)
+- [Python Derleyicisi Ayarlama](#Python-Derleyicisi-Ayarlama)
+- [PYTHONPATH Oluşturma](#PYTHONPATH-Olu%C5%9Fturma)
+- [PYTHONPATH Örneği](#PYTHONPATH-%C3%96rne%C4%9Fi)
+- [Ek Python Ayarları](#Ek-Python-Ayarlar%C4%B1)
+- [Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler](#Anaconda-%C3%BCzerindeki-Python%C4%B1-Desteklemeyen-Eklentiler)
+- [Python Kısayolları](#Python-K%C4%B1sayollar%C4%B1)
 
 ## Python Eklentileri
 
 | Eklenti                                                  | Açıklama                                                   |
 | -------------------------------------------------------- | ---------------------------------------------------------- |
-| [Python][Python ext]                                     | Dil desteği                                                |
-| [Kite][Kite]                                             | AI destekli kod tamamlama                                  |
+| [Python][python ext]                                     | Dil desteği                                                |
+| [Kite][kite]                                             | AI destekli kod tamamlama                                  |
 | [Visual Studio IntelliCode - **Preview**][vsintellicode] | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
 | [autoDocstring][autdocstring]                            | Dökümantasyon parçaları sağlayan eklenti                   |
 | [Better Comment][bettercomment]                          | Yorum satırı renklediricisi                                |
@@ -33,7 +33,7 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
   - `pylint` aynı dizindeki modulleri bulamamakta, bu hatananın çözümü için `.pylintrc` dosyasını düzenlemek gerekmekte
   - <!-- TODO echolu koda çevir -->
   - `pylint --generate-rcfile .pylintrc` komutunu çalışma dizininde yazdıktan sonra, içini açıp `#init-hook` satırını `init-hook='import sys; system.path.append("${workspaceFolder}")'` ile değiştirin. (Yorum satırı olmaktan kaldırın)
-  - Eğer girintiyi <kbd>TAB</kbd> ile yapıyorsanız `pylint`'de *bug*'a sebebiyet vermekte, <kbd>SPACE</kbd> kullanın
+  - Eğer girintiyi <kbd>TAB</kbd> ile yapıyorsanız `pylint`'de _bug_'a sebebiyet vermekte, <kbd>SPACE</kbd> kullanın
 - Python derleyicinize `autopep8` paketini aşağıdaki komutlarla veya vscode arayüzü ile yükleyin
   - pip install autopep8
   - conda install autopep8
@@ -47,6 +47,8 @@ Detaylar için [buraya](https://code.visualstudio.com/docs/python/debugging) bak
 - `CTRL` + `SHIFT` + `D` ile debug ekranını açın
 - Sol üstte açılan ekrandan `ayarlar butonuna` tıklayın
 - `Python` kısmını seçin
+
+> Değişkenin objelerini ve değerlerini öğrenmek için debug çok faydalıdır 🌟
 
 ## Jupyter Desteği
 
@@ -144,8 +146,8 @@ Alttaki kısayollar `keybindings.json` dosyası içerisinde bulunmalıdır.
 
 <!-- ## Harici Bağlantılar -->
 
-[Python ext]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+[python ext]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [vsintellicode]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
 [autdocstring]: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
 [bettercomment]: https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comment
-[Kite]: https://marketplace.visualstudio.com/items?itemName=kiteco.kite
+[kite]: https://marketplace.visualstudio.com/items?itemName=kiteco.kite

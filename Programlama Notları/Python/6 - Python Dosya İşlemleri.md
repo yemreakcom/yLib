@@ -2,12 +2,14 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Dosya Açma](#dosya-a%C3%A7ma)
-  - [Dosya Erişim Modları](#dosya-eri%C5%9Fim-modlar%C4%B1)
-- [Dosya Okuma](#dosya-okuma)
-- [Dizin (Dir) İşlemleri](#dizin-dir-i%CC%87%C5%9Flemleri)
-  - [Dizin veya Dosya Yolları Listesi Döndürme](#dizin-veya-dosya-yollar%C4%B1-listesi-d%C3%B6nd%C3%BCrme)
-- [Dosya Yolu (Path) İşlemleri](#dosya-yolu-path-i%CC%87%C5%9Flemleri)
+- [Dosya Açma](#Dosya-A%C3%A7ma)
+  - [Dosya Erişim Modları](#Dosya-Eri%C5%9Fim-Modlar%C4%B1)
+- [Dosya Okuma](#Dosya-Okuma)
+- [Dizin (Dir) İşlemleri](#Dizin-Dir-%C4%B0%C5%9Flemleri)
+  - [Dizin veya Dosya Yolları Listesi Döndürme](#Dizin-veya-Dosya-Yollar%C4%B1-Listesi-D%C3%B6nd%C3%BCrme)
+- [Dosya Yolu (Path) İşlemleri](#Dosya-Yolu-Path-%C4%B0%C5%9Flemleri)
+- [Raporlama İşlemleri (Logging)](#Raporlama-%C4%B0%C5%9Flemleri-Logging)
+- [EXE'ye çevirme](#EXEye-%C3%A7evirme)
 
 ## Dosya Açma
 
@@ -20,11 +22,11 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 ```
 
 - `<dosya_ismi>` Dosya yolu veya ismi
-  - *Örn: "text.txt"*
+  - _Örn: "text.txt"_
 - `<erişim_modu>` Okuma, yazma veya ekleme
-  - *Örn: 'a', 'w', 'r', 'r+' ...*
+  - _Örn: 'a', 'w', 'r', 'r+' ..._
 - `<kodlama>` Dosya kodlama formatı
-  - *Örn: 'utf-8'*
+  - _Örn: 'utf-8'_
 
 ### Dosya Erişim Modları
 
@@ -34,7 +36,7 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 | `w` | Write (Yazma)   | Dosyayı sıfırdan yazmak için oluşturma (verileri siler) |
 | `a` | Append (Ekleme) | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
 
-> Ek bilgiler için [buraya][Dosya erişim modları] bakabilirsin.
+> Ek bilgiler için [buraya][dosya erişim modları] bakabilirsin.
 
 ## Dosya Okuma
 
@@ -78,7 +80,7 @@ Dizin işlemleri için `os` veya `glob` paketi kullanılır.
 | `glob` | `iglob(<yol_şablonu>)`         | Dosya ve dizinleri generator yapısı ile döndürür |
 
 - `<yol_şablonu>` Özel dizin sorguları
-  - *Örn: `*.txt`, `../help`*
+  - _Örn: `_.txt`,`../help`\*
 
 ### Dizin veya Dosya Yolları Listesi Döndürme
 
@@ -111,8 +113,32 @@ Dosya yolu işlemleri için `os.path` modülü kullanılır.
 | `splitext(<dosya_adı>)`     | Dosyanın yolunu ve uzantısını döndürür (path, ext) |
 
 - `<yol>` Path, dosya yolu
-  - *Örn: C:\Users\Username\help.txt*
+  - _Örn: C:\Users\Username\help.txt_
 - `<dosya_adı>` Dosyanın uzantısıyla birlikteki adı
-  - *Örn: help.txt*
+  - _Örn: help.txt_
 
-[Dosya erişim modları]: https://stackoverflow.com/a/1466036/9770490
+[dosya erişim modları]: https://stackoverflow.com/a/1466036/9770490
+
+## Raporlama İşlemleri (Logging)
+
+Raporlama işlemleri için `logging` modülü kullanılır
+
+```py
+import logging
+
+message = "Raporlanacak"
+LOG_DIR = "dosya/dizini"
+LOG_FILE = "dosya.log"
+FLAG = "w" # a+, r
+ENCODING = "utf-8"
+
+# Rapolamayı tanımlama
+logging.basicConfig(handlers=[logging.FileHandler(LOG_DIR + LOG_FILE, FLAG, ENCODING)], level=logging.DEBUG, format='%(asctime)s: %(message)s')
+
+logging.info("mesaj") # Raporu yazma
+
+```
+
+## EXE'ye çevirme
+
+> [Exe'ye çevirme işlemi](https://nitratine.net/blog/post/convert-py-to-exe/)

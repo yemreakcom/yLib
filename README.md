@@ -102,7 +102,9 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 
 - [1 - Java Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20Java%20Giri%C5%9F.md)
 - [1 - JavaFX Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20JavaFX%20Giri%C5%9F.md)
+- [2 - Java Karma Notlar](./Programlama%20Notlar%C4%B1/Java/2%20-%20Java%20Karma%20Notlar.md)
 - [2 - JavaFX 12 Hızlı Notlar](./Programlama%20Notlar%C4%B1/Java/2%20-%20JavaFX%2012%20H%C4%B1zl%C4%B1%20Notlar.md)
+- [X - Java Harici Bağlantılar](./Programlama%20Notlar%C4%B1/Java/X%20-%20Java%20Harici%20Ba%C4%9Flant%C4%B1lar.md)
 
 ### Oyun Programlama
 
@@ -120,7 +122,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [6 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
 - [7 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [8 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [9 - Pyton Verimli Kodlama](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Verimli%20Kodlama.md)
+- [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 
 ### Web Programlama Notları

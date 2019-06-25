@@ -4,6 +4,7 @@
 
 - [Otomatik Giriş Yapma](#Otomatik-Giri%C5%9F-Yapma)
 - [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
+- [Windows 10 Composer](#Windows-10-Composer)
 - [Windows10 Karanlık Tema Kurulumu](#Windows10-Karanl%C4%B1k-Tema-Kurulumu)
 - [Windows Saat Sorunu](#Windows-Saat-Sorunu)
   - [Yerel Saati Kullanma](#Yerel-Saati-Kullanma)
@@ -32,6 +33,10 @@ Alttaki işlem ile file explorer'a hem **tab** hem de **önizleme** fonksiyonu e
 
 ![win_qttabbar](../../res/win_qttabbar.png)
 ![win_qtabbar_autoplay](../../res/win_qtabbar_autoplay.png)
+
+## Windows 10 Composer
+
+> [Buradan](https://github.com/samhocevar/wincompose) detaylara erişebilirsin.
 
 ## Windows10 Karanlık Tema Kurulumu
 

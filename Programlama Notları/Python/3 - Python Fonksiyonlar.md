@@ -2,30 +2,30 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%C4%B1mlar%C4%B1)
-  - [Genel Fonksiyonlar](#genel-fonksiyonlar)
-    - [Enumerata (Numaralandırma, Sayma) İşlemi](#enumerata-numaraland%C4%B1rma-sayma-i%CC%87%C5%9Flemi)
-- [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%C4%B1mlar%C4%B1)
-- [Fonksiyon Oluşturma](#fonksiyon-olu%C5%9Fturma)
-  - [Fonksiyon İskeleti](#fonksiyon-i%CC%87skeleti)
-  - [Fonksiyon Örneği](#fonksiyon-%C3%B6rne%C4%9Fi)
-  - [Fonksyion Dökümantasyonu](#fonksyion-d%C3%B6k%C3%BCmantasyonu)
-  - [Fonksyion Varsayılan Parametreler](#fonksyion-varsay%C4%B1lan-parametreler)
-  - [Fonksiyonlarda Keyfi Parametreler](#fonksiyonlarda-keyfi-parametreler)
-- [Özyineleyen Fonksiyonlar](#%C3%B6zyineleyen-fonksiyonlar)
-  - [Özyineleyen Fonksiyonların Avantajları](#%C3%B6zyineleyen-fonksiyonlar%C4%B1n-avantajlar%C4%B1)
-  - [Özyineleyen Fonksiyonların Zararları](#%C3%B6zyineleyen-fonksiyonlar%C4%B1n-zararlar%C4%B1)
-- [Lambda Fonksiyonlar](#lambda-fonksiyonlar)
-  - [Filter ile Lambda Kullanımı](#filter-ile-lambda-kullan%C4%B1m%C4%B1)
-  - [Map ile Lambda Kullanımı](#map-ile-lambda-kullan%C4%B1m%C4%B1)
-- [İç İçe Fonksiyonlar](#i%CC%87%C3%A7-i%CC%87%C3%A7e-fonksiyonlar)
-  - [Karmaşık İç İçe Fonksiyon](#karma%C5%9F%C4%B1k-i%CC%87%C3%A7-i%CC%87%C3%A7e-fonksiyon)
-- [Global, Local ve Nonlocal Kavramları](#global-local-ve-nonlocal-kavramlar%C4%B1)
-  - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%C4%B1na-%C3%B6rnek-scopes-and-namespaces)
-  - [Global Kullanımına Örnek](#global-kullan%C4%B1m%C4%B1na-%C3%B6rnek)
-  - [Global Kullanımına Ek Örnek](#global-kullan%C4%B1m%C4%B1na-ek-%C3%B6rnek)
-- [Fonksiyonlarda Hız](#fonksiyonlarda-h%C4%B1z)
-  - [Fonksiyon Hızı Ölçme Scripti](#fonksiyon-h%C4%B1z%C4%B1-%C3%B6l%C3%A7me-scripti)
+- [Dahili Fonksiyon Kullanımları](#Dahili-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
+  - [Genel Fonksiyonlar](#Genel-Fonksiyonlar)
+    - [Enumerata (Numaralandırma, Sayma) İşlemi](#Enumerata-Numaraland%C4%B1rma-Sayma-%C4%B0%C5%9Flemi)
+- [Harici Fonksiyon Kullanımları](#Harici-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
+- [Fonksiyon Oluşturma](#Fonksiyon-Olu%C5%9Fturma)
+  - [Fonksiyon İskeleti](#Fonksiyon-%C4%B0skeleti)
+  - [Fonksiyon Örneği](#Fonksiyon-%C3%96rne%C4%9Fi)
+  - [Fonksyion Dökümantasyonu](#Fonksyion-D%C3%B6k%C3%BCmantasyonu)
+  - [Fonksyion Varsayılan Parametreler (Keyword Arguments)](#Fonksyion-Varsay%C4%B1lan-Parametreler-Keyword-Arguments)
+  - [Fonksiyonlarda Keyfi Parametreler](#Fonksiyonlarda-Keyfi-Parametreler)
+- [Özyineleyen Fonksiyonlar](#%C3%96zyineleyen-Fonksiyonlar)
+  - [Özyineleyen Fonksiyonların Avantajları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Avantajlar%C4%B1)
+  - [Özyineleyen Fonksiyonların Zararları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Zararlar%C4%B1)
+- [Lambda Fonksiyonlar](#Lambda-Fonksiyonlar)
+  - [Filter ile Lambda Kullanımı](#Filter-ile-Lambda-Kullan%C4%B1m%C4%B1)
+  - [Map ile Lambda Kullanımı](#Map-ile-Lambda-Kullan%C4%B1m%C4%B1)
+- [İç İçe Fonksiyonlar](#%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyonlar)
+  - [Karmaşık İç İçe Fonksiyon](#Karma%C5%9F%C4%B1k-%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyon)
+- [Global, Local ve Nonlocal Kavramları](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1)
+  - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1na-%C3%96rnek-Scopes-and-Namespaces)
+  - [Global Kullanımına Örnek](#Global-Kullan%C4%B1m%C4%B1na-%C3%96rnek)
+  - [Global Kullanımına Ek Örnek](#Global-Kullan%C4%B1m%C4%B1na-Ek-%C3%96rnek)
+- [Fonksiyonlarda Hız](#Fonksiyonlarda-H%C4%B1z)
+  - [Fonksiyon Hızı Ölçme Scripti](#Fonksiyon-H%C4%B1z%C4%B1-%C3%96l%C3%A7me-Scripti)
 
 ## Dahili Fonksiyon Kullanımları
 
@@ -101,7 +101,11 @@ This function greets to
   name paramete
 ```
 
-### Fonksyion Varsayılan Parametreler
+### Fonksyion Varsayılan Parametreler (Keyword Arguments)
+
+Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
+
+> Bu yüzden **zaman hesaplama** gibi işlemleri burada yapmanız **mantıklı olmayacak**, zaman farkı **0** olarak gelecektir.
 
 ```py
 def greet(name, msg = "Good morning!"):
@@ -260,7 +264,7 @@ x = 5 # Global değişken
 def func1(param):
 
     x = 4 # Nonlocal değişken
-  
+
     def func11():
       x = 1 # Local değişken
 
@@ -293,11 +297,11 @@ def func1(param):
 
 ```py
 x = 5
-  
+
   def xDegistir():
     x = 3 # Yerel x değişkenine 3 değeri atanır, evrensel x değişmez.
 
-  
+
   def globalXDegistir():
     global x
     x = 4 # Evrensel x değişir
@@ -351,7 +355,7 @@ Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapı
 
 ### Fonksiyon Hızı Ölçme Scripti
 
-> Google colabratory üzerinden çalıştırmak için [buraya][Fonksiyon testini colab üzerinde çalıştırma] tıklayabilirsin.
+> Google colabratory üzerinden çalıştırmak için [buraya][fonksiyon testini colab üzerinde çalıştırma] tıklayabilirsin.
 
 ```py
 from time import time
@@ -437,7 +441,7 @@ Fonksiyon işlemi normalden %46.50 daha hızlı, testlerde %2.39 ihtimalle yava�
 Fonksiyon işlemi normalden %52.01 daha hızlı, testlerde %2.49 ihtimalle yavaş kalmıştır.
 ```
 
-[Slice - Stackoverflow]: https://stackoverflow.com/a/509295/9770490
-[Fonksiyonların CPU ve Memory kullanımını ölçme]: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
-[Fonksiyonun CPU kullanımını bulma - StackOverflow]: https://stackoverflow.com/a/8957968/9770490
-[Fonksiyon testini colab üzerinde çalıştırma]: https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl_9ftDIytVGS
+[slice - stackoverflow]: https://stackoverflow.com/a/509295/9770490
+[fonksiyonların cpu ve memory kullanımını ölçme]: http://www.marinamele.com/7-tips-to-time-python-scripts-and-control-memory-and-cpu-usage
+[fonksiyonun cpu kullanımını bulma - stackoverflow]: https://stackoverflow.com/a/8957968/9770490
+[fonksiyon testini colab üzerinde çalıştırma]: https://colab.research.google.com/drive/1zD_AFxZSqhcY8MVp2nsCl_9ftDIytVGS

@@ -2,27 +2,25 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [İleri Seviye Python](#i%CC%87leri-seviye-python)
-  - [Assertion (Kural Koyma)](#assertion-kural-koyma)
-    - [Assertion Örnekleri](#assertion-%C3%B6rnekleri)
-  - [Try / Except Yapısı](#try--except-yap%C4%B1s%C4%B1)
-  - [Dosya İşlemleri](#dosya-i%CC%87%C5%9Flemleri)
-    - [Dosya Okuma](#dosya-okuma)
-  - [Thread](#thread)
-    - [Basit Thread Yapısı](#basit-thread-yap%C4%B1s%C4%B1)
-    - [Zamanlayıcı Yapısı (Timer)](#zamanlay%C4%B1c%C4%B1-yap%C4%B1s%C4%B1-timer)
-    - [Bir Plana göre Fonksiyon Çalıştırma](#bir-plana-g%C3%B6re-fonksiyon-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-  - [Paralel İşlemler (Multiprocessing)](#paralel-i%CC%87%C5%9Flemler-multiprocessing)
-    - [Multiprocessing Örneği](#multiprocessing-%C3%B6rne%C4%9Fi)
-  - [Kod Parçaları (Code Snippet)](#kod-par%C3%A7alar%C4%B1-code-snippet)
-    - [PYTHONPATH Ayarlama](#pythonpath-ayarlama)
-    - [Ekran Görünüsünü Alma ve Kaydetme](#ekran-g%C3%B6r%C3%BCn%C3%BCs%C3%BCn%C3%BC-alma-ve-kaydetme)
-    - [Kısayol ile Ekran Alanı Seçme](#k%C4%B1sayol-ile-ekran-alan%C4%B1-se%C3%A7me)
-    - [Url Encode İşlemi](#url-encode-i%CC%87%C5%9Flemi)
+- [Assertion (Kural Koyma)](#Assertion-Kural-Koyma)
+  - [Assertion Örnekleri](#Assertion-%C3%96rnekleri)
+- [Try / Except Yapısı](#Try--Except-Yap%C4%B1s%C4%B1)
+- [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
+  - [Dosya Okuma](#Dosya-Okuma)
+- [Program Kapandığında İşlem Yapma (on Exit)](#Program-Kapand%C4%B1%C4%9F%C4%B1nda-%C4%B0%C5%9Flem-Yapma-on-Exit)
+- [Thread](#Thread)
+  - [Basit Thread Yapısı](#Basit-Thread-Yap%C4%B1s%C4%B1)
+  - [Zamanlayıcı Yapısı (Timer)](#Zamanlay%C4%B1c%C4%B1-Yap%C4%B1s%C4%B1-Timer)
+  - [Bir Plana göre Fonksiyon Çalıştırma](#Bir-Plana-g%C3%B6re-Fonksiyon-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
+- [Paralel İşlemler (Multiprocessing)](#Paralel-%C4%B0%C5%9Flemler-Multiprocessing)
+  - [Multiprocessing Örneği](#Multiprocessing-%C3%96rne%C4%9Fi)
+- [Kod Parçaları (Code Snippet)](#Kod-Par%C3%A7alar%C4%B1-Code-Snippet)
+  - [PYTHONPATH Ayarlama](#PYTHONPATH-Ayarlama)
+  - [Ekran Görünüsünü Alma ve Kaydetme](#Ekran-G%C3%B6r%C3%BCn%C3%BCs%C3%BCn%C3%BC-Alma-ve-Kaydetme)
+  - [Kısayol ile Ekran Alanı Seçme](#K%C4%B1sayol-ile-Ekran-Alan%C4%B1-Se%C3%A7me)
+  - [Url Encode İşlemi](#Url-Encode-%C4%B0%C5%9Flemi)
 
-## İleri Seviye Python
-
-### Assertion (Kural Koyma)
+## Assertion (Kural Koyma)
 
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.
 
@@ -31,11 +29,11 @@ assertion(<bool>, <açıklama>)
 ```
 
 - `<bool>` Kontrol değişkeni
-  - *Örn: 0 > 5*
+  - _Örn: 0 > 5_
 - `<açıklama>` Hatanın neden verildiğine dair metin
-  - *Örn: Küçük bir değer girildi*
+  - _Örn: Küçük bir değer girildi_
 
-#### Assertion Örnekleri
+### Assertion Örnekleri
 
 ```py
 def KelvinToFahrenheit(Temperature):
@@ -56,7 +54,7 @@ Traceback (most recent call last):
 AssertionError: Colder than absolute zero!
 ```
 
-### Try / Except Yapısı
+## Try / Except Yapısı
 
 Olası hatalarda programın kapanmasını engelleyerek hata kontrolü sağlar.
 
@@ -67,7 +65,7 @@ except ValueError:
     print("Bu sayı değil")
 ```
 
-### Dosya İşlemleri
+## Dosya İşlemleri
 
 Python üzerinde dosya işlemleri oldukça kolaydır ve `context manager` ile halledilir.
 
@@ -78,13 +76,13 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 ```
 
 - `<dosya_ismi>` Dosya yolu veya ism
-  - *Örn: "text.txt"*
+  - _Örn: "text.txt"_
 - `<erişim_modu>` Okuma, yazma veya ekleme
-  - *Örn: 'a', 'w', 'r', 'r+' ...*
+  - _Örn: 'a', 'w', 'r', 'r+' ..._
 - `<kodlama>` Dosya kodlama formatı
-  - *Örn: 'utf-8'*
+  - _Örn: 'utf-8'_
 
-#### Dosya Okuma
+### Dosya Okuma
 
 ```py
 file_str = ""
@@ -114,7 +112,20 @@ with open("README.md", "r", encoding="utf-8") as file:
     lines = file.readlines() # Tüm satırları liste olarak döndürür
 ```
 
-### Thread
+## Program Kapandığında İşlem Yapma (on Exit)
+
+```py
+import atexit
+
+def exit_handler():
+    print 'My application is ending!'
+
+atexit.register(exit_handler)
+```
+
+> [Doing something before program exit](https://stackoverflow.com/a/3850271/9770490)
+
+## Thread
 
 Thread modülü ile satır satır ilerleyen kod yerine karma ilerleyen kodlar yazılabilir.
 
@@ -127,7 +138,7 @@ Thread modülü ile satır satır ilerleyen kod yerine karma ilerleyen kodlar ya
 | Timer     | Belirli saniyelerde fonksiyonu çalıştırma |
 | Scheduler | Bir plana göre fonksiyonu çalıştırma      |
 
-#### Basit Thread Yapısı
+### Basit Thread Yapısı
 
 ```py
 from time import sleep
@@ -164,7 +175,7 @@ ah
 tisdum
 ```
 
-#### Zamanlayıcı Yapısı (Timer)
+### Zamanlayıcı Yapısı (Timer)
 
 ```py
 import threading
@@ -178,7 +189,7 @@ def run_check():
 run_check()
 ```
 
-#### Bir Plana göre Fonksiyon Çalıştırma
+### Bir Plana göre Fonksiyon Çalıştırma
 
 ```py
 import sched, time
@@ -192,13 +203,13 @@ s.enter(60, 1, do_something, (s,))
 s.run()
 ```
 
-### Paralel İşlemler (Multiprocessing)
+## Paralel İşlemler (Multiprocessing)
 
 Python'da eş zamanlı işler `thread` ile yapılamaz
 
 > Kaynak için [buraya](https://stackoverflow.com/a/7207336/9770490) bakabilirsin.
 
-#### Multiprocessing Örneği
+### Multiprocessing Örneği
 
 ```py
 from multiprocessing import Process
@@ -232,9 +243,9 @@ if __name__ == '__main__':
 # func1: finishing
 ```
 
-### Kod Parçaları (Code Snippet)
+## Kod Parçaları (Code Snippet)
 
-#### PYTHONPATH Ayarlama
+### PYTHONPATH Ayarlama
 
 ```py
 # Tek başına çalışmak isterse
@@ -244,7 +255,7 @@ if __name__ == "__main__":
     sys.path.append(os.getcwd())
 ```
 
-#### Ekran Görünüsünü Alma ve Kaydetme
+### Ekran Görünüsünü Alma ve Kaydetme
 
 ```py
 from PIL import ImageGrab as ig
@@ -320,7 +331,7 @@ while True:
 
 ```
 
-#### Kısayol ile Ekran Alanı Seçme
+### Kısayol ile Ekran Alanı Seçme
 
 ```py
 def draw_dimension(hotkey="ctrl_l") -> tuple:
@@ -364,6 +375,6 @@ def draw_dimension(hotkey="ctrl_l") -> tuple:
 print(draw_dimension())
 ```
 
-#### Url Encode İşlemi
+### Url Encode İşlemi
 
 - TODO

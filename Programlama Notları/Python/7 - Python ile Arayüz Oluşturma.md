@@ -2,17 +2,17 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Komut İsteminden Python (CLI)](#komut-i%CC%87steminden-python-cli)
-  - [Argparse Modülü Detayları](#argparse-mod%C3%BCl%C3%BC-detaylar%C4%B1)
-  - [Argüman Ekleme](#arg%C3%BCman-ekleme)
-  - [Argüman Action Özelliği](#arg%C3%BCman-action-%C3%B6zelli%C4%9Fi)
-  - [Örnek CLI Kodu](#%C3%B6rnek-cli-kodu)
-- [Python Görsel Programlama (GUI)](#python-g%C3%B6rsel-programlama-gui)
-- [PyQT5](#pyqt5)
-  - [PyQt5 Kurulumu](#pyqt5-kurulumu)
-  - [Basit GUI Yapımı](#basit-gui-yap%C4%B1m%C4%B1)
-  - [PyQt Widgets](#pyqt-widgets)
-- [PyInstaller ile Executable Dosya Oluşturma](#pyinstaller-ile-executable-dosya-olu%C5%9Fturma)
+- [Komut İsteminden Python (CLI)](#Komut-%C4%B0steminden-Python-CLI)
+  - [Argparse Modülü Detayları](#Argparse-Mod%C3%BCl%C3%BC-Detaylar%C4%B1)
+  - [Argüman Ekleme](#Arg%C3%BCman-Ekleme)
+  - [Argüman Action Özelliği](#Arg%C3%BCman-Action-%C3%96zelli%C4%9Fi)
+  - [Örnek CLI Kodu](#%C3%96rnek-CLI-Kodu)
+- [Python Görsel Programlama (GUI)](#Python-G%C3%B6rsel-Programlama-GUI)
+- [PyQT5](#PyQT5)
+  - [PyQt5 Kurulumu](#PyQt5-Kurulumu)
+  - [Basit GUI Yapımı](#Basit-GUI-Yap%C4%B1m%C4%B1)
+  - [PyQt Widgets](#PyQt-Widgets)
+- [PyInstaller ile Executable Dosya Oluşturma](#PyInstaller-ile-Executable-Dosya-Olu%C5%9Fturma)
 
 ## Komut İsteminden Python (CLI)
 
@@ -44,10 +44,10 @@
 
 ### Argüman Action Özelliği
 
-| Parametre      | Açıklama                                                               |
-| -------------- | ---------------------------------------------------------------------- |
-| `'store_true'` | Flag* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
-| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                       |
+| Parametre      | Açıklama                                                                |
+| -------------- | ----------------------------------------------------------------------- |
+| `'store_true'` | Flag\* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
+| `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                        |
 
 ```py
 import argparse
@@ -80,36 +80,26 @@ optional arguments:
 ### Örnek CLI Kodu
 
 ```py
-import argparse
+parser = ArgumentParser(description='A simple CLI.')
+parser.add_argument(
+        '--log-file',
+        '-o',
+        default=os.path.join(os.getcwd(), 'output.log'),
+        help='Save the output in this file.',
+        type=str,
+        )
+parser.add_argument(
+        '--clean-file',
+        action='store_true',
+        default=False,
+        help='Clear the log file on startup.Default is No',
+        )
+parser.add_argument(
+        '--cancel-key',
+        help='A single key that use as the cancel key, Default is ` (backtick)',
+        )
 
-def main():
-    # Initiate argument parser
-    parser = argparse.ArgumentParser(
-        description="Sample TensorFlow XML-to-CSV converter")
-    parser.add_argument("-i",
-                        "--inputDir",
-                        help="Path to the folder where the input .xml files are stored",
-                        type=str)
-    parser.add_argument("-o",
-                        "--outputFile",
-                        help="Name of output .csv file (including path)", type=str)
-    args = parser.parse_args()
-
-    if args.inputDir is None:
-        args.inputDir = os.getcwd()
-
-    if args.outputFile is None:
-        args.outputFile = args.inputDir + "/labels.csv"
-
-    assert (os.path.isdir(args.inputDir))
-
-    xml_df = xml_to_csv(args.inputDir)
-    xml_df.to_csv(
-        args.outputFile, index=None)
-    print('Successfully converted xml to csv.')
-
-if __name__ == '__main__':
-    main()
+args = parser.parse_args()
 ```
 
 ## Python Görsel Programlama (GUI)
@@ -132,12 +122,12 @@ Python görsel programlama **PyQt API**'ı ile yapılmaktadır.
 
 ### PyQt5 Kurulumu
 
-GUI için *cross development* desteği olan **pyqt** kullanılmaktadır.
+GUI için _cross development_ desteği olan **pyqt** kullanılmaktadır.
 
 - `pip install pyqt5`
 - `conda install pyqt`
 
-> 💡 *Cross development*: Birden çok işletiim sisteminde çalışabilen yazılım geliştirmesi: PC, Mac, linux vs..
+> 💡 _Cross development_: Birden çok işletiim sisteminde çalışabilen yazılım geliştirmesi: PC, Mac, linux vs..
 
 ### Basit GUI Yapımı
 

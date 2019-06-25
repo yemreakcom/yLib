@@ -2,11 +2,11 @@
 
 ## İçeriklr <!-- omit in toc -->
 
-- [Python Harici Linkler](#python-harici-linkler)
-  - [PDF İşlemleri](#pdf-i%CC%87%C5%9Flemleri)
-  - [Veri Bilimi](#veri-bilimi)
-  - [Karma](#karma)
-  - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
+- [Python Harici Linkler](#Python-Harici-Linkler)
+  - [PDF İşlemleri](#PDF-%C4%B0%C5%9Flemleri)
+  - [Veri Bilimi](#Veri-Bilimi)
+  - [Karma](#Karma)
+  - [Lisans ve Teferruatlar](#Lisans-ve-Teferruatlar)
 
 ## PDF İşlemleri
 
@@ -18,7 +18,7 @@ PDF işlemleri için [pdfkit] modülü kullanılır.
   - İleride yapılandırma ayarı için kullanılacaktır
 - İşlemler sırasında python kodunun çalıştırıldığı yola dikkat edin
 
-> Farklı bir modül için [buraya][Python for PDF] bakabilirsin
+> Farklı bir modül için [buraya][python for pdf] bakabilirsin
 
 ```py
 import pdfkit
@@ -54,9 +54,12 @@ pdfkit.from_file('file.html', 'out.pdf', configuration=config)
 - [Computer Screen Recording using Python & OpenCV](https://www.youtube.com/watch?v=GWdrL8dt1xQ)
 - [How can I code OpenCV to use GPU using Python?](https://www.quora.com/How-can-I-code-OpenCV-to-use-GPU-using-Python)
 - [Google Keep to Text](https://github.com/HardFork/KeepToText)
-- [Python ile QuickDraw Projesi][Quick Draw]
-- [7 Top Python GUI Frameworks][7 Top Python GUI Frameworks]
-- [Python __init__.py Dosyası][Python __init__.py Dosyası]
+- [Python ile QuickDraw Projesi][quick draw]
+- [7 Top Python GUI Frameworks][7 top python gui frameworks]
+- [Python **init**.py Dosyası][python __init__.py dosyası]
+- [How to listen Key combination? - Pynput](https://github.com/moses-palmer/pynput/issues/20#issuecomment-290649632)
+- [Python keylogger](https://nitratine.net/blog/post/python-keylogger/)
+- [Exe'ye çevirme işlemi](https://nitratine.net/blog/post/convert-py-to-exe/)
 
 ## Lisans ve Teferruatlar
 
@@ -70,10 +73,9 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ~ Yunus Emre Ak
 
-[Quick Draw]: https://github.com/vietnguyen91/QuickDraw
-[7 Top Python GUI Frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
-[Python __init__.py Dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
-
-[Python for PDF]: https://towardsdatascience.com/python-for-pdf-ef0fac2808b0
+[quick draw]: https://github.com/vietnguyen91/QuickDraw
+[7 top python gui frameworks]: https://insights.dice.com/2017/08/07/7-top-python-gui-frameworks/
+[python __init__.py dosyası]: https://stackoverflow.com/questions/448271/what-is-init-py-for
+[python for pdf]: https://towardsdatascience.com/python-for-pdf-ef0fac2808b0
 [wkhtmltopdf]: https://github.com/wkhtmltopdf/wkhtmltopdf/releases
 [pdfkit]: https://pypi.org/project/pdfkit/

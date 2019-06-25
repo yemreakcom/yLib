@@ -45,6 +45,8 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 - Reponuzu güncellemek için sırasıyla;
   - `git add .`
   - `git commit -m "Açıklama"`
+    - Açıklamlara `#` karakteri ile **Issue**'yi hedef gösterebilirsin
+    - Genel yorum formatı: `<Açıklama> (#<IssueID>)` ve isteğe bağlı ek açıklamalar
   - `git push origin master`
 
 ### Repo Üzerinde Proje Yönetimi

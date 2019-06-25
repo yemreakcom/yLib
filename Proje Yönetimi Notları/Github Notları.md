@@ -7,6 +7,7 @@
 - [Proje Yönetimi](#Proje-Y%C3%B6netimi)
   - [Repository'nin Oluşturulması ve Dosyaların Aktarılması](#Repositorynin-Olu%C5%9Fturulmas%C4%B1-ve-Dosyalar%C4%B1n-Aktar%C4%B1lmas%C4%B1)
   - [Repo Üzerinde Proje Yönetimi](#Repo-%C3%9Czerinde-Proje-Y%C3%B6netimi)
+- [Github Üzerindeki Açılmayan Dosyalar](#Github-%C3%9Czerindeki-A%C3%A7%C4%B1lmayan-Dosyalar)
 - [Github Eklentileri](#Github-Eklentileri)
 - [Github Yardımcıları](#Github-Yard%C4%B1mc%C4%B1lar%C4%B1)
 - [Github Credential Değiştirme](#Github-Credential-De%C4%9Fi%C5%9Ftirme)
@@ -62,6 +63,10 @@ Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yap
   - `[ ]` yapısı ile ypaılacakları eklerseniz süreç analizi özelliği gelir
 - Oluşturulan `Issue`'ler, `Automated Kanban` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
 - `Milestones` ile yapılacak işlere süre sınırı (deadline) tanımlayabilirsin
+
+## Github Üzerindeki Açılmayan Dosyalar
+
+> [Stackoverflow açıklaması](https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean)
 
 ## Github Eklentileri
 

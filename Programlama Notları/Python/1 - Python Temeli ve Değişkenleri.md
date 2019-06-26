@@ -12,6 +12,7 @@
   - [Modül Dökümantasyon Örneği](#Mod%C3%BCl-D%C3%B6k%C3%BCmantasyon-%C3%96rne%C4%9Fi)
   - [Çok Satırlı Kod Yazma](#%C3%87ok-Sat%C4%B1rl%C4%B1-Kod-Yazma)
   - [Dökümantasyon PyDoc](#D%C3%B6k%C3%BCmantasyon-PyDoc)
+  - [UTF-8 ve Script Bildirimleri](#UTF-8-ve-Script-Bildirimleri)
 - [Anahtar Kelimeler (Keywords)](#Anahtar-Kelimeler-Keywords)
   - [Fonksyion Oluşturma Anahtar Kelimeleri](#Fonksyion-Olu%C5%9Fturma-Anahtar-Kelimeleri)
     - [Fonksiyon Anahtar Kelimeleri](#Fonksiyon-Anahtar-Kelimeleri)
@@ -122,6 +123,15 @@ def func(a):
 ```
 
 > [PyDoc videosu](https://www.youtube.com/watch?v=Y6TgbyfKCNM)
+
+### UTF-8 ve Script Bildirimleri
+
+Her python scriptinin en üstüne alttaki metni yazın
+
+```sh
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+```
 
 ## Anahtar Kelimeler (Keywords)
 

@@ -6,16 +6,16 @@
 
 > `Home` tuşu ile yukarı yönelebilirisin.
 
-- [Diller Arasındaki Bağlantı](#diller-aras%C4%B1ndaki-ba%C4%9Flant%C4%B1)
-- [Adlandırma Yapısı](#adland%C4%B1rma-yap%C4%B1s%C4%B1)
-  - [Adlandırma Örnekleri](#adland%C4%B1rma-%C3%B6rnekleri)
-- [Terimler](#terimler)
-  - [Kavramlar](#kavramlar)
-  - [Değişken Terimleri](#de%C4%9Fi%C5%9Fken-terimleri)
-- [Platformlar](#platformlar)
-  - [Google Summer of Code](#google-summer-of-code)
-- [Yazı Fontları](#yaz%C4%B1-fontlar%C4%B1)
-- [Faydalı Kaynaklar](#faydal%C4%B1-kaynaklar)
+- [Diller Arasındaki Bağlantı](#Diller-Aras%C4%B1ndaki-Ba%C4%9Flant%C4%B1)
+- [Adlandırma Yapısı](#Adland%C4%B1rma-Yap%C4%B1s%C4%B1)
+  - [Adlandırma Örnekleri](#Adland%C4%B1rma-%C3%96rnekleri)
+- [Terimler](#Terimler)
+  - [Değişken Terimleri](#De%C4%9Fi%C5%9Fken-Terimleri)
+  - [Raporlama (Logging) Seviyeleri](#Raporlama-Logging-Seviyeleri)
+- [Platformlar](#Platformlar)
+  - [Google Summer of Code](#Google-Summer-of-Code)
+- [Yazı Fontları](#Yaz%C4%B1-Fontlar%C4%B1)
+- [Faydalı Kaynaklar](#Faydal%C4%B1-Kaynaklar)
 
 ## Diller Arasındaki Bağlantı
 
@@ -38,8 +38,6 @@ veriler-resim # Verilerin resim özelliği alınır. Başka özelliği de vardı
 ## Terimler
 
 Yazılımda kullanılan terimler
-
-### Kavramlar
 
 | Kavram       | Türkçe Karşılığı | Ek Açıklama                                                                                       |
 | ------------ | ---------------- | ------------------------------------------------------------------------------------------------- |
@@ -64,6 +62,16 @@ Yazılımda kullanılan terimler
 | Kavram | Türkçe Karşılığı | Ek Açıklama                                             |
 | ------ | ---------------- | ------------------------------------------------------- |
 | Flag   | Bayrak           | Varlık (evet, hayır) değeri tutan değişkenler - Booelan |
+
+### Raporlama (Logging) Seviyeleri
+
+Aşağıya doğru inildikçe, ekrana basılan çıktı azalır.
+
+- DEBUG
+- INFO
+- WARNING
+- ERROR
+- CRITICAL
 
 ## Platformlar
 
@@ -96,6 +104,6 @@ Resmi sitesi için [buraya](https://summerofcode.withgoogle.com/) bakabilirsin.
 ## Faydalı Kaynaklar
 
 - [How to Select Your First Programming Language](https://www.youtube.com/watch?v=2EaopRDxNrw)
-- [Türkçe Yazılım Geliştirme Kaynakları][Türkçe Kaynaklar]
+- [Türkçe Yazılım Geliştirme Kaynakları][türkçe kaynaklar]
 
-[Türkçe Kaynaklar]: https://turkcekaynaklar.com/
+[türkçe kaynaklar]: https://turkcekaynaklar.com/

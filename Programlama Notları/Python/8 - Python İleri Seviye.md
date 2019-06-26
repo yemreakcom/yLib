@@ -4,9 +4,11 @@
 
 - [Assertion (Kural Koyma)](#Assertion-Kural-Koyma)
   - [Assertion Örnekleri](#Assertion-%C3%96rnekleri)
+- [Zaman İşlemlemleri (Time, Datetime)](#Zaman-%C4%B0%C5%9Flemlemleri-Time-Datetime)
 - [Try / Except Yapısı](#Try--Except-Yap%C4%B1s%C4%B1)
 - [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
   - [Dosya Okuma](#Dosya-Okuma)
+- [İşletim Sistemini Tespit Etme](#%C4%B0%C5%9Fletim-Sistemini-Tespit-Etme)
 - [Program Kapandığında İşlem Yapma (on Exit)](#Program-Kapand%C4%B1%C4%9F%C4%B1nda-%C4%B0%C5%9Flem-Yapma-on-Exit)
 - [Thread](#Thread)
   - [Basit Thread Yapısı](#Basit-Thread-Yap%C4%B1s%C4%B1)
@@ -52,6 +54,18 @@ Traceback (most recent call last):
   File "test.py", line 4, in KelvinToFahrenheit
     assert (Temperature >= 0),"Colder than absolute zero!"
 AssertionError: Colder than absolute zero!
+```
+
+## Zaman İşlemlemleri (Time, Datetime)
+
+```py
+import time
+from datetime import datetime
+
+time.time() # Anlık süreyi saniye cinsinden verir
+datetime.utcnow() # UTC formatında tarihi verir
+datetime.now() # Yerel formatta tarihi verir (Türkiye)
+datetime.now().strftime('%d-%b-%Y-%H:%M:%S') # Formatlı zaman bilgisi 26-Jun-2019-16:00:07
 ```
 
 ## Try / Except Yapısı
@@ -110,6 +124,20 @@ with open("README.md", "r", encoding="utf-8") as file:
     lines = list(file) # Tüm satırları liste olarak döndürür
     line = file.readline() # Tek bir satırı string olarak döndürür
     lines = file.readlines() # Tüm satırları liste olarak döndürür
+```
+
+## İşletim Sistemini Tespit Etme
+
+```py
+import platform as _platform
+if _platform.system() == 'Windows':
+    from. import _winmouse as _os_mouse
+elif _platform.system() == 'Linux':
+    from. import _nixmouse as _os_mouse
+elif _platform.system() == 'Darwin':
+    from. import _darwinmouse as _os_mouse
+else:
+    raise OSError("Unsupported platform '{}'".format(_platform.system()))
 ```
 
 ## Program Kapandığında İşlem Yapma (on Exit)

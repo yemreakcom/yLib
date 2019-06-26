@@ -3,10 +3,13 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Dosya Açma](#Dosya-A%C3%A7ma)
-  - [Dosya Erişim Modları](#Dosya-Eri%C5%9Fim-Modlar%C4%B1)
-- [Dosya Okuma](#Dosya-Okuma)
+- [Dosya Erişim Modları](#Dosya-Eri%C5%9Fim-Modlar%C4%B1)
+- [Context Manager ile Dosyayı Okuyup Kapatma](#Context-Manager-ile-Dosyay%C4%B1-Okuyup-Kapatma)
+- [Dosyayı Kapatmadan Yazma İşlemleri](#Dosyay%C4%B1-Kapatmadan-Yazma-%C4%B0%C5%9Flemleri)
 - [Dizin (Dir) İşlemleri](#Dizin-Dir-%C4%B0%C5%9Flemleri)
   - [Dizin veya Dosya Yolları Listesi Döndürme](#Dizin-veya-Dosya-Yollar%C4%B1-Listesi-D%C3%B6nd%C3%BCrme)
+  - [Python System Dizinlerine Erişme (System Enviroment)](#Python-System-Dizinlerine-Eri%C5%9Fme-System-Enviroment)
+  - [Python Kullanıcı Dizinlerine Erişme](#Python-Kullan%C4%B1c%C4%B1-Dizinlerine-Eri%C5%9Fme)
 - [Dosya Yolu (Path) İşlemleri](#Dosya-Yolu-Path-%C4%B0%C5%9Flemleri)
 - [Raporlama İşlemleri (Logging)](#Raporlama-%C4%B0%C5%9Flemleri-Logging)
 - [EXE'ye çevirme](#EXEye-%C3%A7evirme)
@@ -28,7 +31,7 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 - `<kodlama>` Dosya kodlama formatı
   - _Örn: 'utf-8'_
 
-### Dosya Erişim Modları
+## Dosya Erişim Modları
 
 | Mod | Anlamı          | Açıklama                                                |
 | --- | --------------- | ------------------------------------------------------- |
@@ -38,7 +41,7 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 
 > Ek bilgiler için [buraya][dosya erişim modları] bakabilirsin.
 
-## Dosya Okuma
+## Context Manager ile Dosyayı Okuyup Kapatma
 
 ```py
 file_str = ""
@@ -66,6 +69,24 @@ with open("README.md", "r", encoding="utf-8") as file:
     lines = list(file) # Tüm satırları liste olarak döndürür
     line = file.readline() # Tek bir satırı string olarak döndürür
     lines = file.readlines() # Tüm satırları liste olarak döndürür
+
+```
+
+## Dosyayı Kapatmadan Yazma İşlemleri
+
+Sürekli açık olan bir dosya için:
+
+- `flush()` metodu ile değişikliklerinizi kaydetmelisiniz
+- Dosyayı kapatmak için `close()` metodunu kullanın
+
+```py
+DOSYA_YOLU = "README.md"
+DOSYA_MODU = "w+" # w, a, r, w+ ...
+ENCODING = "utf-8" # Özel karakterleri aktif etmek için
+
+file = open(DOSYA_YOLU, DOSYA_MODU, encoding=ENCODING)
+file.flush() # Dosyaya yapılan işlemleri kaydetme
+file.close() # Dosyayı kapatır
 ```
 
 ## Dizin (Dir) İşlemleri
@@ -98,7 +119,34 @@ def listfolderpaths(path=os.getcwd()):
 
 def listfilepaths(path=os.getcwd()):
     return [os.path.join(path, name) for name in os.listdir(path) if (not is_private(name) and os.path.isfile(os.path.join(path, name)))]
+
 ```
+
+### Python System Dizinlerine Erişme (System Enviroment)
+
+```py
+import os, sys, site
+ENVIROMENT_VAR = "WINDIR" # Sistem değişkeni isimleri
+
+pythonpath = os.path.dirname(sys.executable) # Python.exe yolu
+pythondir = os.path.dirname(sys.exec_prefix) # python.exe dizini
+varname = os.environ[ENVIROMENT_VAR] # Sistem değişkenini değeri
+userpath = site.getuserbase() # Kullanıcı seviyesindeki python yolu
+modul_init_path = os.__file__ # Os modülünün init dosyasının yolu
+```
+
+### Python Kullanıcı Dizinlerine Erişme
+
+Herhangi bir kullanıcı modülü (_`pip install` ile indirilenler_) vasıtasıyla erişebiliriz.
+
+```py
+import module # Herhangi bir pip ile indirilen modülü temsil eder, örn: pynput
+
+path = module.__file__
+site_packages_path = os.path.join(path, "..", "..")
+```
+
+path = module
 
 ## Dosya Yolu (Path) İşlemleri
 

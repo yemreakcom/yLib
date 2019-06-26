@@ -60,6 +60,7 @@ pdfkit.from_file('file.html', 'out.pdf', configuration=config)
 - [How to listen Key combination? - Pynput](https://github.com/moses-palmer/pynput/issues/20#issuecomment-290649632)
 - [Python keylogger](https://nitratine.net/blog/post/python-keylogger/)
 - [Exe'ye çevirme işlemi](https://nitratine.net/blog/post/convert-py-to-exe/)
+- [Python setuptools'un Olayı](https://stackoverflow.com/a/41217568/9770490)
 
 ## Lisans ve Teferruatlar
 

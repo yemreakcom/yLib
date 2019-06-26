@@ -215,7 +215,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ### Windows 10
 
 - [1 - Windows 10 Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20Giri%C5%9F.md)
-- [2 - Windows 10 Komut İstemi Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20Komut%20%C4%B0stemi%20Notlar%C4%B1.md)
+- [2 - Windows 10 Komut İstemi (CMD) Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20Komut%20%C4%B0stemi%20%28CMD%29%20Notlar%C4%B1.md)
 - [3 - Windows 10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F.md)
 - [4 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%20Subsystem%20for%20Linux.md)
 - [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)

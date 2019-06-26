@@ -2,31 +2,31 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Class](#class)
-  - [Class Anahtar Kelimeleri](#class-anahtar-kelimeleri)
-  - [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)
-  - [Metodlu Class Örneği](#metodlu-class-%C3%B6rne%C4%9Fi)
-    - [Obje Özelliği Silme](#obje-%C3%B6zelli%C4%9Fi-silme)
-    - [Class Silme](#class-silme)
-  - [Enumeration](#enumeration)
-    - [Basit Kullanım](#basit-kullan%C4%B1m)
-    - [Fonksiyon API ile Kullanım](#fonksiyon-api-ile-kullan%C4%B1m)
-    - [Enum Özellikleri](#enum-%C3%B6zellikleri)
-      - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%C4%B1mlamas%C4%B1)
-- [Modüller](#mod%C3%BCller)
-  - [Modül Kullanım Örnekleri](#mod%C3%BCl-kullan%C4%B1m-%C3%B6rnekleri)
-  - [Sık Kullanılan Modüller](#s%C4%B1k-kullan%C4%B1lan-mod%C3%BCller)
-    - [Random Modülü](#random-mod%C3%BCl%C3%BC)
-  - [Python Modül Dosyaları](#python-mod%C3%BCl-dosyalar%C4%B1)
-    - [Sistemin Python Modüllerine Bakma](#sistemin-python-mod%C3%BCllerine-bakma)
-  - [Modül İçinde Tanımlanan İsimleri Alma](#mod%C3%BCl-i%CC%87%C3%A7inde-tan%C4%B1mlanan-i%CC%87simleri-alma)
-- [Paketler (Package)](#paketler-package)
-  - [Paketten ve Modül Örnekleri](#paketten-ve-mod%C3%BCl-%C3%B6rnekleri)
-  - [Sık Kullanılan Paketler](#s%C4%B1k-kullan%C4%B1lan-paketler)
-    - [Windows Paketleri](#windows-paketleri)
-    - [Görüntü İşleme Paketleri](#g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-paketleri)
-    - [Giriş Çıkış (I/O) Kontrol Paketleri](#giri%C5%9F-%C3%A7%C4%B1k%C4%B1%C5%9F-io-kontrol-paketleri)
-  - [Paketler için Harici Bağlantıları](#paketler-i%C3%A7in-harici-ba%C4%9Flant%C4%B1lar%C4%B1)
+- [Class](#Class)
+  - [Class Anahtar Kelimeleri](#Class-Anahtar-Kelimeleri)
+  - [Basit Class Örneği](#Basit-Class-%C3%96rne%C4%9Fi)
+  - [Metodlu Class Örneği](#Metodlu-Class-%C3%96rne%C4%9Fi)
+    - [Obje Özelliği Silme](#Obje-%C3%96zelli%C4%9Fi-Silme)
+    - [Class Silme](#Class-Silme)
+  - [Enumeration](#Enumeration)
+    - [Basit Kullanım](#Basit-Kullan%C4%B1m)
+    - [Fonksiyon API ile Kullanım](#Fonksiyon-API-ile-Kullan%C4%B1m)
+    - [Enum Özellikleri](#Enum-%C3%96zellikleri)
+      - [Benzersin Enum Tanımlaması](#Benzersin-Enum-Tan%C4%B1mlamas%C4%B1)
+- [Modüller](#Mod%C3%BCller)
+  - [Modül Kullanım Örnekleri](#Mod%C3%BCl-Kullan%C4%B1m-%C3%96rnekleri)
+  - [Sık Kullanılan Modüller](#S%C4%B1k-Kullan%C4%B1lan-Mod%C3%BCller)
+    - [Random Modülü](#Random-Mod%C3%BCl%C3%BC)
+  - [Python Modül Dosyaları](#Python-Mod%C3%BCl-Dosyalar%C4%B1)
+    - [Sistemin Python Modüllerine Bakma](#Sistemin-Python-Mod%C3%BCllerine-Bakma)
+  - [Modül İçinde Tanımlanan İsimleri Alma](#Mod%C3%BCl-%C4%B0%C3%A7inde-Tan%C4%B1mlanan-%C4%B0simleri-Alma)
+- [Paketler (Package)](#Paketler-Package)
+  - [Paketten ve Modül Örnekleri](#Paketten-ve-Mod%C3%BCl-%C3%96rnekleri)
+  - [Sık Kullanılan Paketler](#S%C4%B1k-Kullan%C4%B1lan-Paketler)
+    - [Windows Paketleri](#Windows-Paketleri)
+    - [Görüntü İşleme Paketleri](#G%C3%B6r%C3%BCnt%C3%BC-%C4%B0%C5%9Fleme-Paketleri)
+    - [Giriş Çıkış (I/O) Kontrol Paketleri](#Giri%C5%9F-%C3%87%C4%B1k%C4%B1%C5%9F-IO-Kontrol-Paketleri)
+  - [Paketler için Harici Bağlantıları](#Paketler-i%C3%A7in-Harici-Ba%C4%9Flant%C4%B1lar%C4%B1)
 
 ## Class
 
@@ -291,24 +291,26 @@ from Game.Level.start import select_difficulty
 
 ### Sık Kullanılan Paketler
 
-| Paket                                                                                          | Odaklantığı İşlemler |
-| ---------------------------------------------------------------------------------------------- | -------------------- |
-| [os](https://www.pythonforbeginners.com/os/pythons-os-module)                                  | İşletim sistemi      |
-| time                                                                                           | Zaman                |
-| [datetime](https://www.pythonforbeginners.com/basics/python-datetime-timedelta)                | Tarih                |
-| [numpy](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf) | Matematiksel         |
-| [openCV](https://docs.opencv.org/3.0-last-rst/opencv_cheatsheet.pdf)                           | Görüntü              |
-| [pillow](https://pillow.readthedocs.io/en/stable/)                                             | Resim                |
-| Tensorflow                                                                                     | Makine öğrenimi      |
+| Paket                                                                                          | Odaklantığı İşlemler                    |
+| ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| [os](https://www.pythonforbeginners.com/os/pythons-os-module)                                  | İşletim sistemi                         |
+| time                                                                                           | Zaman                                   |
+| [datetime](https://www.pythonforbeginners.com/basics/python-datetime-timedelta)                | Tarih                                   |
+| [numpy](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf) | Matematiksel                            |
+| [openCV](https://docs.opencv.org/3.0-last-rst/opencv_cheatsheet.pdf)                           | Görüntü                                 |
+| [pillow](https://pillow.readthedocs.io/en/stable/)                                             | Resim                                   |
+| [Tensorflow]                                                                                   | Makine öğrenimi                         |
+| [PyHook]                                                                                       | Klavye dinleme işlemleri                |
+| [PyGame]                                                                                       | Klavye dinlemek için pipeline oluşturma |
 
 #### Windows Paketleri
 
-| Modül       | Odaklandığı İşlemler                                                | Dökümanlar                                                                                                                                                                                       |
-| ----------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| pywinauto ☆ | Önplanda olmasalar dahi windows uygulamaları (pywin32'i barındırır) | [🌐](https://pywinauto.readthedocs.io/en/latest/index.html) [📺](https://www.youtube.com/watch?v=mhNIHgJPP3g) [📥](https://pywinauto.readthedocs.io/en/latest/#installation)                     |
-| pygetwindow | Windows pencereleri (basit)                                         | [🌐](https://github.com/asweigart/PyGetWindow)                                                                                                                                                   |
-| pywin32     | Resmi windows API (pencere dahil)                                   | [🌐](http://timgolden.me.uk/pywin32-docs/contents.html) [📺]([https://www.youtube.com/watch?v=o-k6l6ea3Lg](https://www.youtube.com/watch?v=o-k6l6ea3Lg)) [📥](https://pypi.org/project/pywin32/) |
-| pyautogui   | Arayüz, fare, klavye ...                                            | [📃](https://media.readthedocs.org/pdf/pyautogui/latest/pyautogui.pdf) [📺](https://www.youtube.com/watch?v=xOfBezEDZ24)                                                                         |
+| Modül       | Odaklandığı İşlemler                                                | Dökümanlar                                                                                                                                                                                         |
+| ----------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| pywinauto ☆ | Önplanda olmasalar dahi windows uygulamaları (pywin32'i barındırır) | [🌐](https://pywinauto.readthedocs.io/en/latest/index.html) [📺](https://www.youtube.com/watch?v=mhNIHgJPP3g) [📥](https://pywinauto.readthedocs.io/en/latest/#installation)                       |
+| pygetwindow | Windows pencereleri (basit)                                         | [🌐](https://github.com/asweigart/PyGetWindow)                                                                                                                                                     |
+| pywin32     | Resmi windows API (pencere dahil)                                   | [🌐](http://timgolden.me.uk/pywin32-docs/contents.html) [📺](<[https://www.youtube.com/watch?v=o-k6l6ea3Lg](https://www.youtube.com/watch?v=o-k6l6ea3Lg)>) [📥](https://pypi.org/project/pywin32/) |
+| pyautogui   | Arayüz, fare, klavye ...                                            | [📃](https://media.readthedocs.org/pdf/pyautogui/latest/pyautogui.pdf) [📺](https://www.youtube.com/watch?v=xOfBezEDZ24)                                                                           |
 
 #### Görüntü İşleme Paketleri
 
@@ -330,4 +332,7 @@ from Game.Level.start import select_difficulty
 - [Argparse Tutorial](https://docs.python.org/3/howto/argparse.html)
 - [PyAutoGUI vs Pywinauto](https://www.reddit.com/r/Python/comments/8bymeo/pyautogui_vs_pywinauto/)
 
-[Çıkarma işlemi]: https://stackoverflow.com/a/3428637/9770490
+[çıkarma işlemi]: https://stackoverflow.com/a/3428637/9770490
+[pygame]: https://pypi.org/project/pygame/
+[pyhook]: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyhook
+[tensorflow]: https://pypi.org/project/tensorflow/

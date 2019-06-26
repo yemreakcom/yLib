@@ -47,21 +47,22 @@ Buradan [clink] ile daha verimli kod tamamlayı cmd için aktif edebilirsin.
 
 Tabloda `< >` arasına yazılanlar sizin tarafınızdan girilecek değerlerdir.
 
-| Komut                                    | Açıklama                          |
-| ---------------------------------------- | --------------------------------- |
-| `cls`                                    | Konsolu temizleme                 |
-| `cd <yol>`                               | Dizin değiştirme                  |
-| `mkdir <dizin_adı>`                      | Klasör oluşturma                  |
-| `start <dosya | dizin>`                  | Dosya veya dizin açma             |
-| `start "" <dosya | dizin>`               | Dosya veya dizini başlıksız açma  |
-| `ren <eski_isim> <yeni_isim>`            | Dosyayı yeniden adlandırma        |
-| `move <dosya> <konum>`                   | Dosyayı belirli konuma taşıma     |
-| `del <bayrak> <file>`                    | Dosya silme                       |
-| `rd <switch> <folder>`                   | Dizin silme                       |
-| `set <ortam_değişkeni>`                  | Ortam değişkeni tanımlama         |
-| `<komut> > <dosya_ismi>.<uzantı>`        | Komutun çıktılarını dosyaya yazma |
-| `echo >> <dosya>`                        | Dosyaya yazma                     |
-| `%<değişken>:<çıkartılacak_karakterler>` | Değişkender karakter çıkartma     |
+| Komut                                    | Açıklama                                  |
+| ---------------------------------------- | ----------------------------------------- |
+| `cls`                                    | Konsolu temizleme                         |
+| `cd <yol>`                               | Dizin değiştirme                          |
+| `mkdir <dizin_adı>`                      | Klasör oluşturma                          |
+| `start <dosya | dizin>`                  | Dosya veya dizin açma                     |
+| `start "" <dosya | dizin | komut>`       | CMD ekranı olmadan açma                   |
+| `ren <eski_isim> <yeni_isim>`            | Dosyayı yeniden adlandırma                |
+| `move <dosya> <konum>`                   | Dosyayı belirli konuma taşıma             |
+| `del <bayrak> <file>`                    | Dosya silme                               |
+| `rd <switch> <folder>`                   | Dizin silme                               |
+| `set <ortam_değişkeni>`                  | Ortam değişkeni tanımlama                 |
+| `<komut> > <dosya_ismi>.<uzantı>`        | Komutun çıktılarını dosyaya yazma         |
+| `echo >> <dosya>`                        | Dosyaya yazma                             |
+| `%<değişken>:<çıkartılacak_karakterler>` | Değişkender karakter çıkartma             |
+| `start "" "cmd /k <komut> <parametre>"`  | Cmd'yi parametleri olarak sessiz başlatma |
 
 - `<bayrak>` **/?** yazdığınızda çıkan /'li karakterler.
 - `<değişken>` HOMEDRIVE, HOMVEPATH veya kullanıcı ortam değişkenleri

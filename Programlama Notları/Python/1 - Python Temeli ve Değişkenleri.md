@@ -34,6 +34,14 @@
 
 Python ve Javascript en popüler diller arasındadır.
 
+- Python kodlarının uzatıları `.py` şeklindedir.
+- Windows için `.pyw` uzantılı python dosyaları `start` (veya `pythonw`) komutu ile çalıştırılabilmekte
+- Python komutunu ve pip ile indiklerinizi terminal üzerinden görebilmek için aşağıdakileri ortam değişkenlerine kaydetmeniz gerekmekte
+  - `python.exe`'nin yolunu
+  - `pip` ile indirilen terminal üzerinden derlenebilir komutlar için de _Scripts_ yolunu
+  - `pip install` komutu ile indirilen script'ler scripts dizinine gider
+  - Python'ı `exe` yapmak için [auto-py-exe](https://github.com/brentvollebregt/auto-py-to-exe) aracını kullanabiilirsin
+
 > Aralarındaki kıyaslama için [buraya][python vs javascript] bakabilirisin.
 
 ### Yazım Kuralları

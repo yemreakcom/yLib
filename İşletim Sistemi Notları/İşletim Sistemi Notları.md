@@ -13,6 +13,5 @@
 - [Windows10 Gizlilik Uygulaması]
 
 [32 vs 64 bit]: https://www.youtube.com/watch?v=KgiMzKb8dD0
-
-[Apple Detaylı Açıklama]: https://www.quora.com/Why-cant-Windows-10-be-as-clean-and-organized-as-OSX-Yosemite
-[Windows10 Gizlilik Uygulaması]: https://www.makeuseof.com/tag/windows-10-manage-privacy/
+[apple detaylı açıklama]: https://www.quora.com/Why-cant-Windows-10-be-as-clean-and-organized-as-OSX-Yosemite
+[windows10 gizlilik uygulaması]: https://www.makeuseof.com/tag/windows-10-manage-privacy/

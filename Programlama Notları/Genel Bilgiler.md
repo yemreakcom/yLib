@@ -105,5 +105,7 @@ Resmi sitesi için [buraya](https://summerofcode.withgoogle.com/) bakabilirsin.
 
 - [How to Select Your First Programming Language](https://www.youtube.com/watch?v=2EaopRDxNrw)
 - [Türkçe Yazılım Geliştirme Kaynakları][türkçe kaynaklar]
+- [Görsel Programlama Dilleri](https://maker.pro/custom/tutorial/which-programming-language-should-i-choose-graphics-and-guis)
+- [Kodlama organizasyonu ve yapısı](https://medium.com/@msandin/strategies-for-organizing-code-2c9d690b6f33)
 
 [türkçe kaynaklar]: https://turkcekaynaklar.com/

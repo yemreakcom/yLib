@@ -25,7 +25,7 @@
 JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))
 
 - Çalışmaları gruplandırmak için `com/yemreak/myproject` yapısı kullanılmakta
-  - Maven veya gradle ile indirme yapısından dolayı olabilir
+  - Maven veya gradle yapısı olarak da geçmektedir
 - `controllers`, FXML dosyalarını kontrol eden kodlar
 - `services`, Harici hizmetler (veya tüm hizmetler)
   - Eğer çok fazla hizmet varsa, yerel hizmetleri farklı dizine alabilirsin
@@ -35,7 +35,7 @@ JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://st
 
 ```
 src/main
-  ├──java/com/yemreak/myproject
+  ├──java/com/yemreak/myproject (ya da sadece myproject)
      ├── controllers
         ├──Screen1controller.java
         ├──Screen2controller.java
@@ -60,15 +60,13 @@ src/main
 
 ### Dosyaları Yapılandırma
 
+Dizinleri IDE üzerinden yapılandırak daha verimli çalışabilirsin.
+
 - `Project Structure` - `Project Settings` - `Modules`
 - `Source` sekmesinden `src/res` dizinini `Resources` olarak tanıt
 - `out`, `lib` ve `res` dosyalarını `Excluded` olarak tanıt
 
 ![jetbrains_project_structures](../../res/jetbrains_project_structures.png)
-
-The above implementation can be considered for a `Maven` project.
-
-For a simple project, you can view a [structure here](https://github.com/TheItachiUchiha/MediaPlayerFX). It is a maven project!
 
 > [Kaynak](https://stackoverflow.com/a/24948550)
 
@@ -270,6 +268,7 @@ public class Main extends Application {
 - [JavaFX Settings UI Design - Scene builder and Netbeans](https://youtu.be/gJYXctDSIl8?list=PLniX3R2-dwS90WpmHq-hD7g_3xnkTwB6w)
 - [JPackage Tools](http://jdk.java.net/jpackage/)
 - [Listener Yönetimi](https://www.javacodegeeks.com/2015/01/dont-remove-listeners-use-listenerhandles.html)
+- [JavaFX Jar çıkarma - Intellij]()
 
 [slider'a göre label'ı güncelleme]: https://stackoverflow.com/a/40053895/9770490
 [how to refer to an anchor pane in css?]: https://stackoverflow.com/a/28751561/9770490

@@ -16,6 +16,7 @@
 - [Interface](#Interface)
 - [Kullanıcı Dizinleri](#Kullan%C4%B1c%C4%B1-Dizinleri)
   - [Functional Interface](#Functional-Interface)
+- [Modül Programlama](#Mod%C3%BCl-Programlama)
 - [Tüm Thread'leri Durdurma](#T%C3%BCm-Threadleri-Durdurma)
 - [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
   - [Silme İşlemleri](#Silme-%C4%B0%C5%9Flemleri)
@@ -213,6 +214,16 @@ public static void main(String[] args) {
     })
 }
 ```
+
+## Modül Programlama
+
+Modüller tek bir iş için yapılandırılmış projelerdir.
+
+- Büyük projeler birdenn fazla modülden oluşur
+- Her modül diğerlerinden bağımsız olarak işler
+- Java 9 ve sonrasında gelen bir sistemdir
+
+> Java modül yapısı olan `module-info.java` dosyasını kullandığımızda `src` dizini **sources** özelliğine sahip olmazsa `java.datatransfer` ile `java.desktop` modülleri içerisindeki `java.awt`'ler çakışmakta ve hata vermekte 😢 ([module yapısı](http://tutorials.jenkov.com/java/modules.html))
 
 ## Tüm Thread'leri Durdurma
 

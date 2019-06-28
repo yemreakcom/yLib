@@ -4,6 +4,7 @@ Java için harici bağlantıları içerir.
 
 > Dikkat **karmakarışıktır** 🌀
 
+- [Java modules](http://tutorials.jenkov.com/java/modules.html)
 - [Örnek JavaFX Projeleri](https://github.com/HouariZegai/JavaFxTutorial/tree/master/Youtube)
 - [Simple JAVA program to download Youtube vidoes](https://chillyfacts.com/simple-java-program-download-youtube-vidoes/)
 - [Youtubed-dl Java](https://github.com/sapher/youtubedl-java)
@@ -12,5 +13,6 @@ Java için harici bağlantıları içerir.
 - [26 Reasons Why Using Optional Correctly Is Not Optional](https://dzone.com/articles/using-optional-correctly-is-not-optional)
 - [Komutu ekrana senkronize olarak basma - SyncPipe](https://stackoverflow.com/a/26020354/9770490)
 - [JavaFX Button](http://tutorials.jenkov.com/javafx/button.html)
+- [JavaFX 11 için JavaPackager ile EXE olutşurma](https://medium.com/@adam_carroll/java-packager-with-jdk11-31b3d620f4a8)
 
 <!-- TODO: BUraya java notlarını ekle -->

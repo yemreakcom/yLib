@@ -112,6 +112,8 @@ Python görsel programlama araçları:
 - Kivy (opensource)
 - PyForms
 
+![python_gui](../../res/python_gui.jpg)
+
 ## PyQT5
 
 Python görsel programlama **PyQt API**'ı ile yapılmaktadır.

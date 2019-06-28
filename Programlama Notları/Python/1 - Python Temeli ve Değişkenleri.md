@@ -235,12 +235,13 @@ Küme işlemleri için kullanılır, temel küme özelliklerini taşır.
 
 > Alttaki işlemlerin her biri `dict` objesinin alt işlemidir.
 
-| İşlem                        | Açıklama                                        |
-| ---------------------------- | ----------------------------------------------- |
-| `dict[<key>]` & `get(<key>)` | Anahtar ile veri alma, veri yoksa hata fırlatır |
-| `dict[<key>] = <değer>`      | Belirli anahtara değer atama                    |
-| `<key> in dict`              | Anahtar `dict`'e var mı kontrolü                |
-| `json.dumps(dict)`           | `dict`'i `str`'a çevirme                        |
+| İşlem                          | Açıklama                                        |
+| ------------------------------ | ----------------------------------------------- |
+| `dict[<key>]` & `get(<key>)`   | Anahtar ile veri alma, veri yoksa hata fırlatır |
+| `dict[<key>] = <değer>`        | Belirli anahtara değer atama                    |
+| `<key> in dict`                | Anahtar `dict`'e var mı kontrolü                |
+| `json.dumps(dict)`             | `dict`'i `str`'a çevirme                        |
+| `dict( (a,1) for a in <list>)` | `<liste>`'nin her elamanı ile 1'i eşleyen dict  |
 
 - [`Dict`'i `str`'a çevirme][dict'i str'a çevirme]
 - [`Dict`'ten hızlı bir yöntem var mı][dict'ten hızlı var mı]

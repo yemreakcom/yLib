@@ -75,8 +75,8 @@ Olası hatalarda programın kapanmasını engelleyerek hata kontrolü sağlar.
 ```py
 try:
     a = float("Ben sayı değilim")
-except ValueError:
-    print("Bu sayı değil")
+except ValueError as err:
+    print("Bu sayı değil", err)
 ```
 
 ## Dosya İşlemleri

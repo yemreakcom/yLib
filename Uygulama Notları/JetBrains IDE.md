@@ -229,6 +229,6 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 ## IDE Ortam Değişkenleri
 
 - Oluşturmak için: `Preferences (File -> Settings) -> Appearance & Behavior -> Path Variables`
-
+- Kullanmak için: `${<değişken_ismi>}`
 - `$MODULE_DIR$`, projenin dizini
   - src, out vs.. içeren dizin

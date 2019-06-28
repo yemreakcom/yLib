@@ -6,6 +6,7 @@
   - [Dosyaları Yapılandırma](#Dosyalar%C4%B1-Yap%C4%B1land%C4%B1rma)
 - [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
 - [Kod Notları](#Kod-Notlar%C4%B1)
+  - [Kod Tarafında CSS Değiştirme](#Kod-Taraf%C4%B1nda-CSS-De%C4%9Fi%C5%9Ftirme)
   - [Thread ile Kodlama](#Thread-ile-Kodlama)
   - [CSS ile Stil Oluşturma](#CSS-ile-Stil-Olu%C5%9Fturma)
   - [FXML'de Kod Yapısı](#FXMLde-Kod-Yap%C4%B1s%C4%B1)
@@ -83,6 +84,12 @@ For a simple project, you can view a [structure here](https://github.com/TheItac
 - [Arkaplanı görünmez yapma](https://stackoverflow.com/a/48404925/9770490)
 
 ## Kod Notları
+
+### Kod Tarafında CSS Değiştirme
+
+```java
+buttonDownload.setStyle("-fx-background-image: url('/images/verified.png')");
+```
 
 ### Thread ile Kodlama
 

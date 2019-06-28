@@ -20,6 +20,11 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 - Proje yönetimi kolaylaştırır
 - ToDo yapılarıyla ekip işini destekler
 - Eklentileri ile verimlilik sağlar
+- Markdown, PDF ve `.ipynb` formatına ön izleme sağlar
+  - Markdown videolarını desteklemez
+  - Video eklemek için **gif** kullanın
+  - **Gif**'e tıklandığında video linki verin
+  - `[![app](res/app.gif)](res/app.mp4)`
 - Alternatifleri: Gitlab, Bitbucket, Sourceforge ...
 
 > Bu konuyla **birebir alakalı** olan [git notlarıma][git notlarım] bakmanda fayda var.

@@ -3,6 +3,8 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Çok Faydalı](#%C3%87ok-Faydal%C4%B1)
+- [Değişken Dönüşümleri](#De%C4%9Fi%C5%9Fken-D%C3%B6n%C3%BC%C5%9F%C3%BCmleri)
+- [Kesirli Sayıları Formatlama](#Kesirli-Say%C4%B1lar%C4%B1-Formatlama)
 - [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
 - [Koşul Yapıları](#Ko%C5%9Ful-Yap%C4%B1lar%C4%B1)
   - [Yeni Switch Case](#Yeni-Switch-Case)
@@ -11,6 +13,10 @@
 - [WhiteSpaces](#WhiteSpaces)
 - [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
 - [Döngüler](#D%C3%B6ng%C3%BCler)
+- [Interface](#Interface)
+- [Kullanıcı Dizinleri](#Kullan%C4%B1c%C4%B1-Dizinleri)
+  - [Functional Interface](#Functional-Interface)
+- [Tüm Thread'leri Durdurma](#T%C3%BCm-Threadleri-Durdurma)
 - [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
   - [Silme İşlemleri](#Silme-%C4%B0%C5%9Flemleri)
   - [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
@@ -29,14 +35,44 @@
 
 - [AI ile Java Snippets](https://www.codota.com/?utm_source=search-web)
 
+## Değişken Dönüşümleri
+
+```java
+double kesir = 0.0;
+int sayi = 1;
+String metin = "metin";
+
+sayi = (int) kesir;
+metin =
+```
+
+## Kesirli Sayıları Formatlama
+
+```java
+public static String formatDecimal(Double decimal, int digitNum) {
+    if (decimal == 0) return "0." + "0".repeat(digitNum - 1);
+
+    int lvl = (int) Math.log10(decimal);
+    String format = lvl >= 0 ? "#".repeat(lvl + 1) : "";
+    format += lvl - digitNum >= -1 ? "" : "." + "#".repeat(digitNum - lvl - 1);
+
+    return new DecimalFormat(format).format(decimal);
+}
+```
+
+> [How to round a number to n decimal places in Java]
+
 ## String İşlemleri
 
-| İşlem                     | Açıklama                     |
-| ------------------------- | ---------------------------- |
-| \` `<metin>` \`           | Formatsız (raw) string yazma |
-| `contains(<char>)`        | Metinde kelime arama         |
-| `strip()`                 | Boşlukları kaldırma          |
-| `split(<string | regex>)` | String ayrıştırma            |
+| İşlem                          | Açıklama                                               |
+| ------------------------------ | ------------------------------------------------------ |
+| `concat(<str>...)`             | `+` işlemleri yerine yapılır, daha hızlı ve güvenlidir |
+| \` `<metin>` \`                | Formatsız (raw) string yazma                           |
+| `contains(<char>)`             | Metinde kelime arama                                   |
+| `strip()`                      | Boşlukları kaldırma                                    |
+| `split(<string | regex>)`      | String ayrıştırma                                      |
+| `format(""%.5g%n", 0.912300")` | Formatlı string                                        |
+| `repeat(<int>)`                | Metni belli bir sayı kadar tekrarlama                  |
 
 > Split örnekleri için [buraya](https://www.javatpoint.com/java-string-split) bakabilirsin.
 
@@ -86,11 +122,12 @@ Collections.addAll(<arrlist>, <arr>);
 
 Split işlemlerinde sıklıkla kullanılan ayırıcı özelliklerdir.
 
-| İşlem              | Açıklama           |
-| ------------------ | ------------------ |
-| `(<regex><regex>)` | And işlemi         |
-| `[<regex><regex>]` | Or işlemi          |
-| `": \\s+"`         | `": "` göre ayırma |
+| İşlem              | Açıklama                           |
+| ------------------ | ---------------------------------- |
+| `(<regex><regex>)` | And işlemi                         |
+| `[<regex><regex>]` | Or işlemi                          |
+| `": \\s+"`         | `": "` göre ayırma                 |
+| `\\.`              | `.` ya göre ayırma (`"."` çalışmaz |
 
 | Greedy   | Reluctant | Possessive | Meaning                                 |
 | -------- | --------- | ---------- | --------------------------------------- |
@@ -135,6 +172,56 @@ for (<type> num : <iterable>) {}
 
 - `<iterable>` İçerisinde çok veri barındıran obje
   - Array, Arraylist vs..
+
+## Interface
+
+Interface'ler metodlardan oluşan classlardır.
+
+## Kullanıcı Dizinleri
+
+Tüm OS'larda çalışır.
+
+```java
+System.getProperty("user.home"); // Kullanıcı dizini
+System.getProperties() // Tüm sistem bilgileri
+System.getenv(); // Sistem değişkenleri
+```
+
+### Functional Interface
+
+Tek metodtan oluşan interface'lerdir.
+
+- Lambda expression `() -> {}` ile kullanılabilirler
+- Metodlara parametre olarak metod göndermek için çok kullanışlıdır
+
+```java
+@FunctionalInterface
+public interface ProcessEvent {
+
+    void onOutputChanged(String param);
+
+}
+
+public static void executeCommand(ProcessEvent pe) {
+    String param = "Selam";
+        pe.onOutputChanged(param); // Gönderilen lambda expression'a param değişkenini atar
+}
+
+public static void main(String[] args) {
+    executeCommand((param) -> { // Interface içerisinden gelen değişken () arasına yazılır
+        System.out.println(param); // Ekrana hello basar
+    })
+}
+```
+
+## Tüm Thread'leri Durdurma
+
+```java
+for (Thread t : Thread.getAllStackTraces().keySet()){
+    if (t.getState()==Thread.State.RUNNABLE)
+    t.interrupt();
+}
+```
 
 ## Dosya İşlemleri
 
@@ -315,3 +402,4 @@ while ((s = stdError.readLine()) != null) {
 [simplify this generic method to concatenate java arrays]: https://stackoverflow.com/a/9481298/9770490
 [39 new features (and apis) in jdk 12]: https://www.azul.com/39-new-features-and-apis-in-jdk-12/
 [how to open the default webbrowser using java]: https://stackoverflow.com/a/5226244/9770490
+[how to round a number to n decimal places in java]: https://stackoverflow.com/q/153724/9770490

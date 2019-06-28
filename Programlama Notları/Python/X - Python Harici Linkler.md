@@ -3,10 +3,55 @@
 ## İçeriklr <!-- omit in toc -->
 
 - [Python Harici Linkler](#Python-Harici-Linkler)
+  - [Örnek Kod Yapım](#%C3%96rnek-Kod-Yap%C4%B1m)
   - [PDF İşlemleri](#PDF-%C4%B0%C5%9Flemleri)
   - [Veri Bilimi](#Veri-Bilimi)
   - [Karma](#Karma)
   - [Lisans ve Teferruatlar](#Lisans-ve-Teferruatlar)
+
+## Örnek Kod Yapım
+
+```py
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+######################################################
+#      PAKETLERI KONTROL ETME VE ÖNERİDE BULUNMA
+######################################################
+
+import os, pyWinhook, pygame, atexit
+from datetime import datetime
+
+#############################################
+#               SABİT DEĞERLER
+#############################################
+
+LVL_DEBUG = 2 # Tuş basımı dahil her bilgiyi gösterir
+LVL_INFO = 1  # Ek bilgileri de gösterir
+LVL_NONE = 0  # Çıktı yok
+
+#############################################
+#            EVRENSEL DEĞİŞKENLER
+#############################################
+
+LOG_DIR = "keylogs"
+LOG_FILE = datetime.now().strftime('%d-%b-%Y-%H-%M-%S') + ".log"
+LOG_LVL = LVL_DEBUG
+KEY_LIMIT = 1
+
+#############################################
+#                FONKSİYONLAR
+#############################################
+
+def openFile():
+    pass
+
+#############################################
+#           PROGRAMIN ÇALIŞMA YERI
+#############################################
+
+CONTEXT_FILE = openFile()
+```
 
 ## PDF İşlemleri
 

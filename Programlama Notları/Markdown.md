@@ -59,49 +59,52 @@ Link işlemleri için bilgiler. Kaynak için [buraya](https://css-tricks.com/sni
 | Aynı dizinden    | `./<yol>`         |
 | Bir üst dizinden | `../<yol>`        |
 
-> Bağlantı verme işlemlerinde özel karakter kullanmak için kodlama yapmanız gerekmekte. Kodlama yapan online site için [buraya](https://www.urlencoder.org/) tıklaytabilirsin. Siteye yol verini kopyalayıp *encoded* demeniz yeterli
+> Bağlantı verme işlemlerinde özel karakter kullanmak için kodlama yapmanız gerekmekte. Kodlama yapan online site için [buraya](https://www.urlencoder.org/) tıklaytabilirsin. Siteye yol verini kopyalayıp _encoded_ demeniz yeterli
 
 - [Test](../Markdown#ba%C4%9Flant%C4%B1-verme) `[Test](../Markdown#ba%C4%9Flant%C4%B1-verme)`
 - `%20` Boşluk karakteri
 
 ### Satıriçi Bağlantı (Inline Link)
 
-`[metin](url)` yapısı ile metne *inline link* verebilirsin. [Test](https://yemreak.com)
+`[metin](url)` yapısı ile metne _inline link_ verebilirsin. [Test](https://yemreak.com)
 
-> *Dynamic link*'te `[]` kullanıldığına dikkat ediniz.
+> _Dynamic link_'te `[]` kullanıldığına dikkat ediniz.
 
 ### Dinamik Bağlantı (Dynamic Link)
 
-Alttaki yapı ile metne *dynamic link* verebilirsin. [Test][test]
+Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 
 ```md
 [Test][test]
+
 - [test]: https://www.yemreak.com
 ```
 
 [test]: https://www.yemreak.com
 
-> *Inline link*'te `()` kullanıldığına dikkat ediniz.
+> _Inline link_'te `()` kullanıldığına dikkat ediniz.
 
 ### Resim Bağlantısı
 
 `![resim_açıklaması][resim_urli]` yapısı ile yazına resim yerleştirebilirsin.
 
+> GIF'i de destekler
+
 ## Tablo Oluşturma
 
 ```markdown
-| Tables   |      Are      |  Cool |
-| -------- | :-----------: | ----: |
-| col 1 is | left-aligned  | $1600 |
-| col 2 is |   centered    |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Tables   |      Are      |   Cool |
+| -------- | :-----------: | -----: |
+| col 1 is | left-aligned  | \$1600 |
+| col 2 is |   centered    |   \$12 |
+| col 3 is | right-aligned |    \$1 |
 ```
 
-| Tables   |      Are      |  Cool |
-| -------- | :-----------: | ----: |
-| col 1 is | left-aligned  | $1600 |
-| col 2 is |   centered    |   $12 |
-| col 3 is | right-aligned |    $1 |
+| Tables   |      Are      |   Cool |
+| -------- | :-----------: | -----: |
+| col 1 is | left-aligned  | \$1600 |
+| col 2 is |   centered    |   \$12 |
+| col 3 is | right-aligned |    \$1 |
 
 ## Matematik Denklemleri
 
@@ -144,38 +147,36 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 ![status](https://img.shields.io/nodeping/status/jkiwn052-ntpp-4lbb-8d45-ihew6d9ucoei.svg)
 
-
 ## VsCode için Markdown
 
 ### VsCode için Markdown Snippets
 
 ```json
 {
-	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-	"Markdown için buton etiketi": {
-		"prefix": "kbd",
-		"body": "<kbd>$1</kbd>$0",
-		"description": "Buton tanımlama"
-	},
-	"Markdown omit in toc": {
-		"prefix": "omit",
-		"body": "<!-- omit in toc -->$0",
-		"description": "ToC dışında tutma metni"
-	}
+  // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "Markdown için buton etiketi": {
+    "prefix": "kbd",
+    "body": "<kbd>$1</kbd>$0",
+    "description": "Buton tanımlama"
+  },
+  "Markdown omit in toc": {
+    "prefix": "omit",
+    "body": "<!-- omit in toc -->$0",
+    "description": "ToC dışında tutma metni"
+  }
 }
-
 ```
 
 ### VsCode için Faydalı Eklentiler
@@ -193,13 +194,16 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 - PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
   - Yaklaşık **40** satırda bir yeni sayfaya geçmek mantıklı
   - Bu sayda metnini otomatik ekleyen script yazılabilir
-- Dökümanda *latex* varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
-  - Aksi halde *latex* yapısı derlenmez.
+- Dökümanda _latex_ varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
+  - Aksi halde _latex_ yapısı derlenmez.
 
 ```html
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script
+  type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+></script>
 <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
+  MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
 </script>
 ```
 
@@ -210,7 +214,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](https://choosealicense.com/licenses/) bakmanda fayda var.
 
-- Copyright © ~ *Yunus Emre AK*
+- Copyright © ~ _Yunus Emre AK_
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">
@@ -244,13 +248,11 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ```json
 {
-    // Markdown PDF ayarları
-    "markdown-pdf.outputDirectory": "Dökümanlar",
-    "markdown-pdf.styles": [
-        "http://tiny.cc/yek86y"
-    ],
-    "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; font: Risque; color: red;' href='https://gogetfunding.com/yemreak/'>Destek ❤</a></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>Yunus Emre Ak ©</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
-    "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>"
+  // Markdown PDF ayarları
+  "markdown-pdf.outputDirectory": "Dökümanlar",
+  "markdown-pdf.styles": ["http://tiny.cc/yek86y"],
+  "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; font: Risque; color: red;' href='https://gogetfunding.com/yemreak/'>Destek ❤</a></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>Yunus Emre Ak ©</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
+  "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>"
 }
 ```
 

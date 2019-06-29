@@ -2,6 +2,7 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Güncel Java Kurulumları](#G%C3%BCncel-Java-Kurulumlar%C4%B1)
 - [Çok Faydalı](#%C3%87ok-Faydal%C4%B1)
 - [Değişken Dönüşümleri](#De%C4%9Fi%C5%9Fken-D%C3%B6n%C3%BC%C5%9F%C3%BCmleri)
 - [Kesirli Sayıları Formatlama](#Kesirli-Say%C4%B1lar%C4%B1-Formatlama)
@@ -17,6 +18,7 @@
 - [Kullanıcı Dizinleri](#Kullan%C4%B1c%C4%B1-Dizinleri)
   - [Functional Interface](#Functional-Interface)
 - [Modül Programlama](#Mod%C3%BCl-Programlama)
+  - [`module-info.java` Yapısı](#module-infojava-Yap%C4%B1s%C4%B1)
 - [Tüm Thread'leri Durdurma](#T%C3%BCm-Threadleri-Durdurma)
 - [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
   - [Silme İşlemleri](#Silme-%C4%B0%C5%9Flemleri)
@@ -30,7 +32,14 @@
   - [Tarayıcı Üzerinden Açma](#Taray%C4%B1c%C4%B1-%C3%9Czerinden-A%C3%A7ma)
 - [Terminal Komutları Çalıştırma](#Terminal-Komutlar%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
   - [Terminal Komutlarını Çalıştırma ve Çıktısını Görme](#Terminal-Komutlar%C4%B1n%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma-ve-%C3%87%C4%B1kt%C4%B1s%C4%B1n%C4%B1-G%C3%B6rme)
+- [Hata Notları](#Hata-Notlar%C4%B1)
+  - [Error:(1, 1) java: modules are not supported in -source 8 (use -source 9 or higher to enable modules)](#Error1-1-java-modules-are-not-supported-in--source-8-use--source-9-or-higher-to-enable-modules)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+
+## Güncel Java Kurulumları
+
+- Java programlarını çalıştırmak için [Oracle JRE 8](https://www.oracle.com/technetwork/java/javase/jre8-downloads-2133155.html)
+- Java programları yazmak için [Oracle Java JDK 12](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html)
 
 ## Çok Faydalı
 
@@ -225,6 +234,26 @@ Modüller tek bir iş için yapılandırılmış projelerdir.
 
 > Java modül yapısı olan `module-info.java` dosyasını kullandığımızda `src` dizini **sources** özelliğine sahip olmazsa `java.datatransfer` ile `java.desktop` modülleri içerisindeki `java.awt`'ler çakışmakta ve hata vermekte 😢 ([module yapısı](http://tutorials.jenkov.com/java/modules.html))
 
+### `module-info.java` Yapısı
+
+```java
+module ModulIsmı {
+    // Projeye dahil edilenler
+    requires javafx.fxml;
+    requires javafx.controls;
+    requires java.datatransfer;
+    requires java.desktop;
+    requires com.jfoenix;
+    requires com.gluonhq.charm.glisten;
+
+    // API isteklerini yardımcı araç ile açma @FMXL vs gibi
+    opens com.yedhrab.controllers to javafx.fxml;
+
+    // Dışa aktarılacak erişebilir class'lar (genelde Main)
+    exports com.yedhrab.ytoolsfx.application.MainApp;
+}
+```
+
 ## Tüm Thread'leri Durdurma
 
 ```java
@@ -400,6 +429,16 @@ while ((s = stdError.readLine()) != null) {
     System.out.println(s);
 }
 ```
+
+## Hata Notları
+
+### Error:(1, 1) java: modules are not supported in -source 8 (use -source 9 or higher to enable modules)
+
+- **Settings**
+- **Build, Execution, Development**
+- **Compiler**
+- **Java Compiler**
+- **Project Byte Code Version** ve **Target Byte Code Version** alanlarını `12` yapın
 
 ## Harici Bağlantılar
 

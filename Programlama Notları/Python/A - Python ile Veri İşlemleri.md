@@ -21,7 +21,6 @@ df.to_csv(index=False)
 | `iloc[<i>] = <list>`                               | i. **satıra** değer atama (çok tercih etme)      |
 | `drop(DATA_FRAME.index, inplace=True)`             | Tüm verileri silme                               |
 | `df.to_csv(<file | filename>, header=f.tell()==0)` | CSV'ye ekleme (`tell` dosyanın başı ise 0 verir) |
-| `row_count = sum(1 for _ in <path_to_csv>)`        | **Verimli** olarak veri sayısını                 |
 | `len(pandas.read_csv(<path_to_csv>))`              | Veri sayısını bulma                              |
 
 > `df.iloc[0:0]` çalışmadı 🤔

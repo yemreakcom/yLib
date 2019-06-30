@@ -20,6 +20,8 @@
 - Otomatik kod tamamlaması için [buraya](https://stackoverflow.com/a/15289025/9770490) bakmanda fayda var.
 - Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
 
+> Terminali komumtları yazmak için `os.system('<komut>')`
+
 ### Argparse Modülü Detayları
 
 - Argüman ekleme işlemi `parser = argparse.ArgumentParser(...)` ile yapılmaktadır.

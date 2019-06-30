@@ -19,16 +19,20 @@ _String_'lere kabaca **metin** diyebiliriz 🤔
 
 String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 
-| İşlem           | Açıklama                                                                |
-| --------------- | ----------------------------------------------------------------------- |
-| `+`, `=-` ...   | Aritmatik operatörleri destekler                                        |
-| `len(string)`   | Karakter sayısı                                                         |
-| `string[i]`     | `i`. karakter                                                           |
-| `string[-i]`    | `len-i`. karakter (Sondan `i` kadar önceki)                             |
-| `string[i:]`    | `i`. eleman ve sonrasındakiler                                          |
-| `string[:i]`    | `i`. elemana kadar (`i` dahil değil) olanlar                            |
-| `string[i:j]`   | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar             |
-| `string[-j:-i]` | `len-j`. eleman ve `len-i`. elemana kadar (`len-i` dahil değil) olanlar |
+| İşlem                    | Açıklama                                                                |
+| ------------------------ | ----------------------------------------------------------------------- |
+| `+`, `=-` ...            | Aritmatik operatörleri destekler                                        |
+| `len(string)`            | Karakter sayısı                                                         |
+| `string[i]`              | `i`. karakter                                                           |
+| `string[-i]`             | `len-i`. karakter (Sondan `i` kadar önceki)                             |
+| `string[i:]`             | `i`. eleman ve sonrasındakiler                                          |
+| `string[:i]`             | `i`. elemana kadar (`i` dahil değil) olanlar                            |
+| `string[i:j]`            | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar             |
+| `string[-j:-i]`          | `len-j`. eleman ve `len-i`. elemana kadar (`len-i` dahil değil) olanlar |
+| `'{:>i}'.format('test')` | `i` karakter ayırır metni sağa yaslar                                   |
+| `'{:i}'.format('test')`  | `i` karakter ayırır metni sola sağlar                                   |
+
+> Detaylar için [string formatlama] sayfasına bakabilirsin.
 
 ## String Fonksiyonları
 
@@ -167,3 +171,4 @@ with open(FILE, "r") as file:
 
 [string değiştirme hızları]: https://stackoverflow.com/a/27086669/9770490
 [string içerisinde çoklu metin arama]: https://stackoverflow.com/a/3389611/9770490
+[string formatlama]: https://pyformat.info/

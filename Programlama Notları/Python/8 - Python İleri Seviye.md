@@ -27,7 +27,7 @@
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.
 
 ```py
-assertion(<bool>, <açıklama>)
+assert <bool>, <açıklama>
 ```
 
 - `<bool>` Kontrol değişkeni

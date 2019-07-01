@@ -16,6 +16,7 @@ Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirili
   - [AppImage Uzantılı Dosyaların Kurulumu](#AppImage-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
   - [Run Uzantılı Dosyaların Kurulumu](#Run-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
   - [Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)](#Se%C3%A7meli-veya-Ko%C5%9Ful-Kabul-Etmeli-Kurulumlar-OK-Butonu)
+- [Kaldırma Notları](#Kald%C4%B1rma-Notlar%C4%B1)
 - [Terminal Üzerinde Çalışan Faydalı Paketler](#Terminal-%C3%9Czerinde-%C3%87al%C4%B1%C5%9Fan-Faydal%C4%B1-Paketler)
   - [Terminal Üzerinden PDF işlemleri](#Terminal-%C3%9Czerinden-PDF-i%C5%9Flemleri)
 - [Kısayol oluşturma](#K%C4%B1sayol-olu%C5%9Fturma)
@@ -122,7 +123,7 @@ sudo apt autoremove # Artıkları temizleme
 - `sudo dpkq -i deb_uzantılı.deb` (kurulumu yeniden deneme)
 - `sudo apt-get autoremove` (gereksizleri kaldırma)
 
-> Kaynak için [buraya][Dpkg kurulumu] bakabilrisin.
+> Kaynak için [buraya][dpkg kurulumu] bakabilrisin.
 
 ### Tar dosyalarının kurulumları
 
@@ -175,6 +176,11 @@ chmod +x <run_dosyası>
 
 - <kbd>TAB</kbd> tuşuna basıp <kbd>ENTER</kbd>'a basın
 
+## Kaldırma Notları
+
+- `sudo apt remove` veya `sudo dpkg -r` komutu ile kaldırabilrsiniz
+- `sudo apt remove --purge` veya `sudo dpkg -P` komutu ile yapılandırma ayarları ile kaldırabilirsiniz
+
 ## Terminal Üzerinde Çalışan Faydalı Paketler
 
 ### Terminal Üzerinden PDF işlemleri
@@ -203,12 +209,12 @@ sudo ln -s /dosya/yolu/ dosyaAdi
 
 - `ln` İki dosya arasında link oluşturma
 - `-s` Statik link yerine sembolik link oluşturma
-- `/dosya/yolu` Örneğin /home/$USER
+- `/dosya/yolu` Örneğin /home/\$USER
 - `dosyaAdi` Oluşturulacak kısayolun ismi
 
 ## Shell (Bash) Scripting
 
-Shell script hakkında detaylı bilgi için [buraya][Shell Script] bakabilrisin.
+Shell script hakkında detaylı bilgi için [buraya][shell script] bakabilrisin.
 
 ### 100MB ve Üzeri Dosyaları Bulma
 
@@ -221,6 +227,6 @@ Copy
 
 - [Batch Script ile 'Yes/No' yapısı oluşturma]
 
-[Shell Script]: ../../Programlama%20Notlar%C4%B1%2FShell%20Script.md
-[Batch Script ile 'Yes/No' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490
-[Dpkg kurulumu]: https://unix.stackexchange.com/a/159114/344875
+[shell script]: ../../Programlama%20Notlar%C4%B1%2FShell%20Script.md
+[batch script ile 'yes/no' yapısı oluşturma]: https://stackoverflow.com/a/226724/9770490
+[dpkg kurulumu]: https://unix.stackexchange.com/a/159114/344875

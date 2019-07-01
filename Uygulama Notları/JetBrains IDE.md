@@ -3,7 +3,6 @@ s# Jetbrains IDEs <!-- omit in toc -->
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [Proje Dizinlerini yapılandırma](#Proje-Dizinlerini-yap%C4%B1land%C4%B1rma)
-  - [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)
 - [Kısayolar](#K%C4%B1sayolar)
   - [Kod Kısayolları](#Kod-K%C4%B1sayollar%C4%B1)
   - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
@@ -38,45 +37,12 @@ Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
     - `src/java/com/yemreak` dizini kaynak kod dizini olsun:
     - `package controllers` yazıldığın `src/java/com/yemreak/controllers` dizinine bakılır
   - `Resources` kaynak dosyaları (resim vs.)
+    - `Resources` dizinleri `Sources` dizinlerinin alt dizinleri olamaz
     - `src/resources` kaynak dizini olsun:
     - `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
 - `Excluded` dışlanan, bağımsız dosyalar
 
 ![jetbrains_project_structures](../res/jetbrains_project_structures.png)
-
-### Proje Dizin Yapısı
-
-JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))
-
-- Çalışmaları gruplandırmak için `com/yemreak/myproject` yapısı kullanılmakta
-  - Maven veya gradle ile indirme yapısından dolayı olabilir
-- `controllers`, FXML dosyalarını kontrol eden kodlar
-- `services`, Harici hizmetler (veya tüm hizmetler)
-  - Eğer çok fazla hizmet varsa, yerel hizmetleri farklı dizine alabilirsin
-- `utility`, Dahili hizmetler
-- `resources`, Tüm kod dışı kaynaklar (images, css, html vs.)
-- `views`, Görsel tasarımları
-
-```
-src/main
-  ├──java/com/yemreak/myproject
-     ├── controllers
-        ├──Screen1controller.java
-        ├──Screen2controller.java
-     ├── services
-        ├──Service1.java
-     ├── applications
-        ├── SaveProducts.java
-  ├──resources
-     ├──views
-        ├──screen1.fxml
-        ├──screen2.fxml
-     ├──css
-        ├──style.css
-     ├──images
-        ├──img1.jpg
-        ├──img2.jpg
-```
 
 ## Kısayolar
 

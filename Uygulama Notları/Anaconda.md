@@ -8,46 +8,44 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 ## İçerikler <!-- omit in toc -->
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Faydaları](#faydalar%C4%B1)
-- [Anaconda Kurulumu](#anaconda-kurulumu)
-- [Miniconda Kurulumu](#miniconda-kurulumu)
-- [Temel Condo Kullanımı](#temel-condo-kullan%C4%B1m%C4%B1)
-  - [Conda Yardımcısını Güncelleme](#conda-yard%C4%B1mc%C4%B1s%C4%B1n%C4%B1-g%C3%BCncelleme)
-  - [Conda ile Tüm Paketleri Güncelleme](#conda-ile-t%C3%BCm-paketleri-g%C3%BCncelleme)
-  - [Conda ile Paket Sürümlerini Gösterme](#conda-ile-paket-s%C3%BCr%C3%BCmlerini-g%C3%B6sterme)
-  - [Conda ile Yükleme İşlemleri](#conda-ile-y%C3%BCkleme-i%CC%87%C5%9Flemleri)
-    - [Conda ile Belli Bir Sürümü İndirme](#conda-ile-belli-bir-s%C3%BCr%C3%BCm%C3%BC-i%CC%87ndirme)
-  - [Conda ile Requirements Dosyası Oluşturma](#conda-ile-requirements-dosyas%C4%B1-olu%C5%9Fturma)
-- [Paket ve Kütüphane Kurulumları](#paket-ve-k%C3%BCt%C3%BCphane-kurulumlar%C4%B1)
-  - [Numpy Kurulumu](#numpy-kurulumu)
-  - [OpenCV Kurulumu](#opencv-kurulumu)
-    - [Linux için OpenCV](#linux-i%C3%A7in-opencv)
-  - [Tensorflow Kurulumu](#tensorflow-kurulumu)
-    - [Sanal Ortama Tensorflow Kurulumu](#sanal-ortama-tensorflow-kurulumu)
-  - [Tensorflow-GPU Kurulumu](#tensorflow-gpu-kurulumu)
-    - [Sanal Ortama Tensorflow-GPU Kurulumu](#sanal-ortama-tensorflow-gpu-kurulumu)
-  - [Keras Kurulumu](#keras-kurulumu)
-  - [Tesseract Kurulumu](#tesseract-kurulumu)
-  - [Selenium Kurulumu](#selenium-kurulumu)
-  - [Pillow (Python Image Library) Kurulumu](#pillow-python-image-library-kurulumu)
-- [Sanal Ortam İşlemleri](#sanal-ortam-i%CC%87%C5%9Flemleri)
-  - [Sanal Ortam Oluşturma](#sanal-ortam-olu%C5%9Fturma)
-    - [Requirements Dosyasına Uygun Sanal Ortam Oluşturma](#requirements-dosyas%C4%B1na-uygun-sanal-ortam-olu%C5%9Fturma)
-    - [Belirli Python Sürümünde Ortam Oluşturma](#belirli-python-s%C3%BCr%C3%BCm%C3%BCnde-ortam-olu%C5%9Fturma)
-  - [Sanal Ortamı Aktif Etme](#sanal-ortam%C4%B1-aktif-etme)
-  - [Sanal Ortamı Pasif Etme](#sanal-ortam%C4%B1-pasif-etme)
-  - [Sanal Ortamı Kaldırma](#sanal-ortam%C4%B1-kald%C4%B1rma)
-- [Hata Notları](#hata-notlar%C4%B1)
-  - [Conda SSL Hatası](#conda-ssl-hatas%C4%B1)
-    - [Windows Üzerinden Ağ Sıfırlama](#windows-%C3%BCzerinden-a%C4%9F-s%C4%B1f%C4%B1rlama)
-    - [Manuel OpenSSL Kurulumu](#manuel-openssl-kurulumu)
-    - [Conda ile Networkx İndirme](#conda-ile-networkx-i%CC%87ndirme)
-    - [SSL Ek Hata Linkleri](#ssl-ek-hata-linkleri)
-- [PyCharm Üzerinden Anaconda](#pycharm-%C3%BCzerinden-anaconda)
-  - [PyCharm Projeyi Derlemek için Yapılandırma Ayarlama](#pycharm-projeyi-derlemek-i%C3%A7in-yap%C4%B1land%C4%B1rma-ayarlama)
-  - [PyCharm Üzerinden Sanal Conda Ortam Oluşturma](#pycharm-%C3%BCzerinden-sanal-conda-ortam-olu%C5%9Fturma)
+- [Faydaları](#Faydalar%C4%B1)
+- [Anaconda Kurulumu](#Anaconda-Kurulumu)
+- [Miniconda Kurulumu](#Miniconda-Kurulumu)
+- [Temel Condo Kullanımı](#Temel-Condo-Kullan%C4%B1m%C4%B1)
+  - [Conda Yardımcısını Güncelleme](#Conda-Yard%C4%B1mc%C4%B1s%C4%B1n%C4%B1-G%C3%BCncelleme)
+  - [Conda ile Tüm Paketleri Güncelleme](#Conda-ile-T%C3%BCm-Paketleri-G%C3%BCncelleme)
+  - [Conda ile Paket Sürümlerini Gösterme](#Conda-ile-Paket-S%C3%BCr%C3%BCmlerini-G%C3%B6sterme)
+  - [Conda ile Yükleme İşlemleri](#Conda-ile-Y%C3%BCkleme-%C4%B0%C5%9Flemleri)
+    - [Conda ile Belli Bir Sürümü İndirme](#Conda-ile-Belli-Bir-S%C3%BCr%C3%BCm%C3%BC-%C4%B0ndirme)
+  - [Conda ile Requirements Dosyası Oluşturma](#Conda-ile-Requirements-Dosyas%C4%B1-Olu%C5%9Fturma)
+- [Paket ve Kütüphane Kurulumları](#Paket-ve-K%C3%BCt%C3%BCphane-Kurulumlar%C4%B1)
+  - [Numpy Kurulumu](#Numpy-Kurulumu)
+  - [OpenCV Kurulumu](#OpenCV-Kurulumu)
+    - [Linux için OpenCV](#Linux-i%C3%A7in-OpenCV)
+  - [Tensorflow Kurulumu](#Tensorflow-Kurulumu)
+    - [Sanal Ortama Tensorflow Kurulumu](#Sanal-Ortama-Tensorflow-Kurulumu)
+  - [Tensorflow-GPU Kurulumu](#Tensorflow-GPU-Kurulumu)
+    - [Sanal Ortama Tensorflow-GPU Kurulumu](#Sanal-Ortama-Tensorflow-GPU-Kurulumu)
+  - [Keras Kurulumu](#Keras-Kurulumu)
+  - [Tesseract Kurulumu](#Tesseract-Kurulumu)
+  - [Selenium Kurulumu](#Selenium-Kurulumu)
+  - [Pillow (Python Image Library) Kurulumu](#Pillow-Python-Image-Library-Kurulumu)
+- [Sanal Ortam İşlemleri](#Sanal-Ortam-%C4%B0%C5%9Flemleri)
+  - [Sanal Ortam Oluşturma](#Sanal-Ortam-Olu%C5%9Fturma)
+    - [Requirements Dosyasına Uygun Sanal Ortam Oluşturma](#Requirements-Dosyas%C4%B1na-Uygun-Sanal-Ortam-Olu%C5%9Fturma)
+    - [Belirli Python Sürümünde Ortam Oluşturma](#Belirli-Python-S%C3%BCr%C3%BCm%C3%BCnde-Ortam-Olu%C5%9Fturma)
+  - [Sanal Ortamı Aktif Etme](#Sanal-Ortam%C4%B1-Aktif-Etme)
+  - [Sanal Ortamı Pasif Etme](#Sanal-Ortam%C4%B1-Pasif-Etme)
+  - [Sanal Ortamı Kaldırma](#Sanal-Ortam%C4%B1-Kald%C4%B1rma)
+- [Hata Notları](#Hata-Notlar%C4%B1)
+  - [Conda SSL Hatası](#Conda-SSL-Hatas%C4%B1)
+    - [Windows Üzerinden Ağ Sıfırlama](#Windows-%C3%9Czerinden-A%C4%9F-S%C4%B1f%C4%B1rlama)
+    - [Manuel OpenSSL Kurulumu](#Manuel-OpenSSL-Kurulumu)
+    - [Conda ile Networkx İndirme](#Conda-ile-Networkx-%C4%B0ndirme)
+    - [SSL Ek Hata Linkleri](#SSL-Ek-Hata-Linkleri)
+- [PyCharm Üzerinden Anaconda](#PyCharm-%C3%9Czerinden-Anaconda)
+  - [PyCharm Projeyi Derlemek için Yapılandırma Ayarlama](#PyCharm-Projeyi-Derlemek-i%C3%A7in-Yap%C4%B1land%C4%B1rma-Ayarlama)
+  - [PyCharm Üzerinden Sanal Conda Ortam Oluşturma](#PyCharm-%C3%9Czerinden-Sanal-Conda-Ortam-Olu%C5%9Fturma)
 
 ## Faydaları
 
@@ -60,19 +58,19 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 Anaconda kurulurken beraberinde bir kaç modül daha kurmakta. Başlangıç aşamasındakiler için önerilir.
 
-> Ne yaptığımı biliyorum diyorsan *Anaconda* yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
+> Ne yaptığımı biliyorum diyorsan _Anaconda_ yerine **Miniconda** tavsiye edilir, minimalist bir yükleme sunar.
 
 - İndirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin.
-  - *Yükleme sırasında PATH'e eklemeyin* !
+  - _Yükleme sırasında PATH'e eklemeyin_ !
 - Docker üzerine indirmek için [buraya](https://hub.docker.com/r/continuumio/anaconda3/) tıklayabilirsin
 - Anaconda'yı windowsda kullanmak için **Anaconda Prompt**'u kullanman gerekmekte!
-  - *Aksi halde değişik sorunlarla karşılaşırsınız. (SSL error vs.)*
+  - _Aksi halde değişik sorunlarla karşılaşırsınız. (SSL error vs.)_
 - Dökümantasyonu için [buraya](https://docs.anaconda.com/) tıklayabilirsin.
 
 ## Miniconda Kurulumu
 
 - İndirmek için [buraya](https://docs.conda.io/en/latest/miniconda.html) tıklayabilirsin.
-- Linux için: `conda init` ile *conda*'yı *bash*'e dahil edebilir, `conda config --set auto_activate_base false` ile otomatik tanımlamayı kaldırabilirsin.
+- Linux için: `conda init` ile _conda_'yı _bash_'e dahil edebilir, `conda config --set auto_activate_base false` ile otomatik tanımlamayı kaldırabilirsin.
   - `~./bashrc` dosyasında değişiklikler yapılacaktır
   - Kaynak için [buraya](https://docs.anaconda.com/anaconda/install/silent-mode/#linux-macos) bakabilirsin.
 
@@ -125,7 +123,7 @@ conda list --export > requirements.txt
 conda create --name <envname> --file requirements.txt # Dosyadan ortam oluşturma
 ```
 
-> Kaynak için [buraya][Requirements Dosyası] bakabilirsin.
+> Kaynak için [buraya][requirements dosyası] bakabilirsin.
 
 ## Paket ve Kütüphane Kurulumları
 
@@ -184,7 +182,7 @@ Anaconda'nın resmi sitesindeki açıklama için [buraya](https://www.anaconda.c
 - Bu kurulum GPU kurulumu olarak geçmekte
 - GPU kurulumu CPU'ya nazaran oldukça hızlı eğitim seçeneği sağlar
 - GPU kurulumu için gereksinimleri sağlamıyorsanız CPU kurulumu (tensorflow) yapmanız tavsiye edilir
-  - Ekran kartınızın **NVIDIA olması ve desteklemesi** gerekmektedir  
+  - Ekran kartınızın **NVIDIA olması ve desteklemesi** gerekmektedir
   - Kontrol için [buraya](https://developer.nvidia.com/cuda-gpus) tıklayabilirsin
 
 > Daha yüksek verim için tensorflow-gpu için ortam oluşturun
@@ -264,7 +262,7 @@ conda create -n <ortam_ismi> anaconda python=<versiyon>
 conda create -n Tensorflow anaconda python=3.6 # Örnek
 ```
 
-> Ortam *Anaconda3/env* dizinine kaydedilir.
+> Ortam _Anaconda3/env_ dizinine kaydedilir.
 
 ### Sanal Ortamı Aktif Etme
 
@@ -296,13 +294,13 @@ conda env remove -n myenv # Örnek
 
 #### Windows Üzerinden Ağ Sıfırlama
 
-Windows 10'daki  `Ağı Sıfırla` ayarını deneyin
+Windows 10'daki `Ağı Sıfırla` ayarını deneyin
 
-- Ayarlar (*Options*)
-- Ağ ve İnternet (*Network & Internet*)
-- Durum sekmesi (*Status tab*)
-- Sayfanın en altına bakın (*Ağı Sıfırla / Network Reset*)
-- Şimdi Sıfırla (*Reset Now*)
+- Ayarlar (_Options_)
+- Ağ ve İnternet (_Network & Internet_)
+- Durum sekmesi (_Status tab_)
+- Sayfanın en altına bakın (_Ağı Sıfırla / Network Reset_)
+- Şimdi Sıfırla (_Reset Now_)
 
 > Bu işlem kaydedilmiş WI-FI şifrelerini de silecektir.
 
@@ -346,6 +344,6 @@ conda install -c anaconda networkx
   - `Add`
   - `Conda Enviroment`
   - `OK`
-- `+` butonu ile ek paket kurulumu yapabilirsiniz (*İsteğe Bağlı*)
+- `+` butonu ile ek paket kurulumu yapabilirsiniz (_İsteğe Bağlı_)
 
-[Requirements Dosyası]: https://stackoverflow.com/a/45491091/9770490
+[requirements dosyası]: https://stackoverflow.com/a/45491091/9770490

@@ -1,4 +1,4 @@
-s# Jetbrains IDEs <!-- omit in toc -->
+# Jetbrains IDEs <!-- omit in toc -->
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 

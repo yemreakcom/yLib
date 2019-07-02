@@ -11,6 +11,7 @@ Unix işletim sistemlerinin ortak programlama dilidir.
 - [Yazdırma İşlemleri (Echo)](#Yazd%C4%B1rma-%C4%B0%C5%9Flemleri-Echo)
 - [Cat ile Yazdırma İşlemi](#Cat-ile-Yazd%C4%B1rma-%C4%B0%C5%9Flemi)
 - [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
+- [Kullanıcıdan Girdi (Input) Alma](#Kullan%C4%B1c%C4%B1dan-Girdi-Input-Alma)
 - [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
 - [İf-Else Yapısı](#%C4%B0f-Else-Yap%C4%B1s%C4%B1)
 - [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
@@ -124,6 +125,20 @@ echo $file
 ```
 
 > Let komutu hakkında daha fazla bilgi için [buraya][let komutu] bakabilirsin.
+
+## Kullanıcıdan Girdi (Input) Alma
+
+```sh
+read varname
+echo $varname
+
+read -p 'Username: ' uservar # Girdide yorum gösterme
+read -sp 'Password: ' passvar # Gizli girdi
+echo
+echo Thankyou $uservar we now have your login details
+```
+
+> [Bash User Inputs](https://ryanstutorials.net/bash-scripting-tutorial/bash-input.php)
 
 ## String İşlemleri
 

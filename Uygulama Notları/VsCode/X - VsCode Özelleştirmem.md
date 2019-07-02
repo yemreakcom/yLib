@@ -62,7 +62,7 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "DarkCode Theme Adopted Python and Markdown",
   "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   // Terminal ayarları
   "terminal.integrated.cursorStyle": "line",
   // Gizlilik ayarları

@@ -205,10 +205,17 @@ print("Pi: ", pi) # Pi: 3.141592653589793
 
 ### Sık Kullanılan Modüller
 
-| Modül  | Odaklantığı İşlemler |
-| ------ | -------------------- |
-| math   | Matematiksel         |
-| random | Rastgele             |
+| Modül        | Odaklantığı İşlemler                     |
+| ------------ | ---------------------------------------- |
+| math         | Matematiksel                             |
+| random       | Rastgele                                 |
+| Numpy        | Vektör işlemleri ve üst seviye matematik |
+| Pandas       | Veri işlemleri                           |
+| Scipy        |                                          |
+| Scikit-Learn |                                          |
+| Matplotlib   | Grafik, çizim ve tablo işlemleri         |
+| Seaborn      |                                          |
+| TensorFlow   | Makine Öğrenimi ve Deep Learning         |
 
 #### Random Modülü
 

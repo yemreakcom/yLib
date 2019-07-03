@@ -101,10 +101,17 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ### Java
 
 - [1 - Java Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20Java%20Giri%C5%9F.md)
-- [1 - JavaFX Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20JavaFX%20Giri%C5%9F.md)
-- [2 - Java Karma Notlar](./Programlama%20Notlar%C4%B1/Java/2%20-%20Java%20Karma%20Notlar.md)
-- [2 - JavaFX 12 Hızlı Notlar](./Programlama%20Notlar%C4%B1/Java/2%20-%20JavaFX%2012%20H%C4%B1zl%C4%B1%20Notlar.md)
+- [2 - Java Değişkenler Koşullar ve Döngüler](./Programlama%20Notlar%C4%B1/Java/2%20-%20Java%20De%C4%9Fi%C5%9Fkenler%20Ko%C5%9Fullar%20ve%20D%C3%B6ng%C3%BCler.md)
+- [3 - Java String İşlemleri](./Programlama%20Notlar%C4%B1/Java/3%20-%20Java%20String%20%C4%B0%C5%9Flemleri.md)
+- [4 - Java Metod ve Classlar](./Programlama%20Notlar%C4%B1/Java/4%20-%20Java%20Metod%20ve%20Classlar.md)
+- [5 - Java Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Java/5%20-%20Java%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [6 - Java Gelişmiş](./Programlama%20Notlar%C4%B1/Java/6%20-%20Java%20Geli%C5%9Fmi%C5%9F.md)
 - [X - Java Harici Bağlantılar](./Programlama%20Notlar%C4%B1/Java/X%20-%20Java%20Harici%20Ba%C4%9Flant%C4%B1lar.md)
+
+### JavaFX
+
+- [1 - JavaFX Giriş](./Programlama%20Notlar%C4%B1/JavaFX/1%20-%20JavaFX%20Giri%C5%9F.md)
+- [2 - JavaFX 12 Hızlı Notlar](./Programlama%20Notlar%C4%B1/JavaFX/2%20-%20JavaFX%2012%20H%C4%B1zl%C4%B1%20Notlar.md)
 
 ### Oyun Programlama
 
@@ -123,6 +130,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [7 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [8 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20%C4%B0leri%20Seviye.md)
 - [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
+- [A - Python ile Veri İşlemleri](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20ile%20Veri%20%C4%B0%C5%9Flemleri.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 
 ### Web Programlama Notları

@@ -12,18 +12,18 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 - [PYTHONPATH Oluşturma](#PYTHONPATH-Olu%C5%9Fturma)
 - [PYTHONPATH Örneği](#PYTHONPATH-%C3%96rne%C4%9Fi)
 - [Ek Python Ayarları](#Ek-Python-Ayarlar%C4%B1)
-- [Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler](#Anaconda-%C3%BCzerindeki-Python%C4%B1-Desteklemeyen-Eklentiler)
 - [Python Kısayolları](#Python-K%C4%B1sayollar%C4%B1)
 
 ## Python Eklentileri
 
-| Eklenti                                                  | Açıklama                                                   |
-| -------------------------------------------------------- | ---------------------------------------------------------- |
-| [Python][python ext]                                     | Dil desteği                                                |
-| [Kite][kite]                                             | AI destekli kod tamamlama                                  |
-| [Visual Studio IntelliCode - **Preview**][vsintellicode] | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
-| [autoDocstring][autdocstring]                            | Dökümantasyon parçaları sağlayan eklenti                   |
-| [Better Comment][bettercomment]                          | Yorum satırı renklediricisi                                |
+| Eklenti                                                                               | Açıklama                                                   |
+| ------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| [Python][python ext]                                                                  | VsCode Dil desteği                                         |
+| [Kite][kite]                                                                          | AI destekli kod tamamlama                                  |
+| [Visual Studio IntelliCode - **Preview**][vsintellicode]                              | Sık kullanılan kod önerileri (**eksik öneriler olabilir**) |
+| [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) | Anlık çıktıları gösterme                                   |
+| [autoDocstring][autdocstring]                                                         | Dökümantasyon parçaları sağlayan eklenti                   |
+| [Better Comment][bettercomment]                                                       | Yorum satırı renklediricisi                                |
 
 ## Python Kodlarını Formatlama
 
@@ -54,7 +54,7 @@ Detaylar için [buraya](https://code.visualstudio.com/docs/python/debugging) bak
 
 Detaylar için [buraya](https://code.visualstudio.com/docs/python/jupyter-support) bakabilirsin.
 
-- Kod alanının üstüne `#%%` yazarak olutşurabilirsiniz.
+- Kod alanının üstüne `#%%` yazarak oluturabilirsiniz.
 
 ## Python Derleyicisi Ayarlama
 
@@ -107,13 +107,6 @@ PYTHONPATH=./src:${PYTHONPATH}
 ## Ek Python Ayarları
 
 Ek python ayarları için [buradaki](https://code.visualstudio.com/docs/python/settings-reference) resmi dökümana bakabilirsin.
-
-## Anaconda üzerindeki Python'ı Desteklemeyen Eklentiler
-
-| Eklenti                                                                                      | Açıklama                 |
-| -------------------------------------------------------------------------------------------- | ------------------------ |
-| [AREPL for python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl)        | Anlık çıktıları gösterme |
-| [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | Kod koşturucusu          |
 
 ## Python Kısayolları
 

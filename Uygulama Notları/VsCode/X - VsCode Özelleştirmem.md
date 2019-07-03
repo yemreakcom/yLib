@@ -183,36 +183,20 @@
     "command": "-workbench.action.togglePanel"
   },
   {
-    "key": "ctrl+meta+down",
-    "command": "workbench.action.moveActiveEditorGroupDown"
-  },
-  {
-    "key": "ctrl+k down",
-    "command": "-workbench.action.moveActiveEditorGroupDown"
-  },
-  {
     "key": "ctrl+meta+left",
-    "command": "workbench.action.moveActiveEditorGroupLeft"
-  },
-  {
-    "key": "ctrl+k left",
-    "command": "-workbench.action.moveActiveEditorGroupLeft"
+    "command": "workbench.action.moveEditorToLeftGroup"
   },
   {
     "key": "ctrl+meta+right",
-    "command": "workbench.action.moveActiveEditorGroupRight"
-  },
-  {
-    "key": "ctrl+k right",
-    "command": "-workbench.action.moveActiveEditorGroupRight"
+    "command": "workbench.action.moveEditorToRightGroup"
   },
   {
     "key": "ctrl+meta+up",
-    "command": "workbench.action.moveActiveEditorGroupUp"
+    "command": "workbench.action.moveEditorToAboveGroup"
   },
   {
-    "key": "ctrl+k up",
-    "command": "-workbench.action.moveActiveEditorGroupUp"
+    "key": "ctrl+meta+down",
+    "command": "workbench.action.moveEditorToBelowGroup"
   }
 ]
 ```

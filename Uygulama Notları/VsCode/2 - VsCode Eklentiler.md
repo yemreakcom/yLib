@@ -2,6 +2,15 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Önerilen Eklentiler](#%C3%96nerilen-Eklentiler)
+- [Verimlilik ve Görsellik Eklentileri](#Verimlilik-ve-G%C3%B6rsellik-Eklentileri)
+- [Proje Yönetimi](#Proje-Y%C3%B6netimi)
+- [Programlama Eklentileri](#Programlama-Eklentileri)
+  - [Markdown Eklentileri](#Markdown-Eklentileri)
+  - [Python Eklentileri](#Python-Eklentileri)
+  - [Javascript Eklentileri](#Javascript-Eklentileri)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+
 ## Önerilen Eklentiler
 
 Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/) tıklamanda fayda var.

@@ -6,13 +6,13 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Java Başlangıç](#Java-Ba%C5%9Flang%C4%B1%C3%A7)
-  - [Neden Java](#Neden-Java)
-  - [Java ile Örnek Yazılım Var mı](#Java-ile-%C3%96rnek-Yaz%C4%B1l%C4%B1m-Var-m%C4%B1)
-  - [Javada Nasıl Kodlama Yaparım](#Javada-Nas%C4%B1l-Kodlama-Yapar%C4%B1m)
-  - [Java Öğrenebileceğim Yerler Var mı](#Java-%C3%96%C4%9Frenebilece%C4%9Fim-Yerler-Var-m%C4%B1)
-  - [Java Programlama](#Java-Programlama)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Java Başlangıç](#java-ba%C5%9Flang%C4%B1%C3%A7)
+  - [Neden Java](#neden-java)
+  - [Java ile Örnek Yazılım Var mı](#java-ile-%C3%B6rnek-yaz%C4%B1l%C4%B1m-var-m%C4%B1)
+  - [Javada Nasıl Kodlama Yaparım](#javada-nas%C4%B1l-kodlama-yapar%C4%B1m)
+  - [Java Öğrenebileceğim Yerler Var mı](#java-%C3%B6%C4%9Frenebilece%C4%9Fim-yerler-var-m%C4%B1)
+  - [Java Programlama](#java-programlama)
+- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
 
 ## Java Başlangıç
 

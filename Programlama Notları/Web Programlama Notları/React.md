@@ -6,25 +6,25 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Neden React](#Neden-React)
-- [React Kullanımı](#React-Kullan%C4%B1m%C4%B1)
-- [Temel Kavramlar](#Temel-Kavramlar)
-  - [Component Kavramı](#Component-Kavram%C4%B1)
-  - [State Kavramı](#State-Kavram%C4%B1)
-  - [Props Kavramı](#Props-Kavram%C4%B1)
-  - [Function Components ve Function Kavramı](#Function-Components-ve-Function-Kavram%C4%B1)
-  - [State'lerde Immutable (Değişmezlik) Yapısı](#Statelerde-Immutable-De%C4%9Fi%C5%9Fmezlik-Yap%C4%B1s%C4%B1)
-  - [React ile Programlama Yapısı](#React-ile-Programlama-Yap%C4%B1s%C4%B1)
-  - [Faydalı Metodlar](#Faydal%C4%B1-Metodlar)
-  - [For veya Map Döngüsü İşlemleri](#For-veya-Map-D%C3%B6ng%C3%BCs%C3%BC-%C4%B0%C5%9Flemleri)
-  - [Hook Yapısı (useSatate)](#Hook-Yap%C4%B1s%C4%B1-useSatate)
-- [Github Üzerinde Yayınlama](#Github-%C3%9Czerinde-Yay%C4%B1nlama)
-- [React Bilgileri](#React-Bilgileri)
-  - [SVG alımı](#SVG-al%C4%B1m%C4%B1)
-- [Ücretsiz React Çalışma Yerleri](#%C3%9Ccretsiz-React-%C3%87al%C4%B1%C5%9Fma-Yerleri)
-- [Görsel Kaynaklar](#G%C3%B6rsel-Kaynaklar)
-  - [Admin Paneli (Dashboard)](#Admin-Paneli-Dashboard)
-- [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
+- [Neden React](#neden-react)
+- [React Kullanımı](#react-kullan%C4%B1m%C4%B1)
+- [Temel Kavramlar](#temel-kavramlar)
+  - [Component Kavramı](#component-kavram%C4%B1)
+  - [State Kavramı](#state-kavram%C4%B1)
+  - [Props Kavramı](#props-kavram%C4%B1)
+  - [Function Components ve Function Kavramı](#function-components-ve-function-kavram%C4%B1)
+  - [State'lerde Immutable (Değişmezlik) Yapısı](#statelerde-immutable-de%C4%9Fi%C5%9Fmezlik-yap%C4%B1s%C4%B1)
+  - [React ile Programlama Yapısı](#react-ile-programlama-yap%C4%B1s%C4%B1)
+  - [Faydalı Metodlar](#faydal%C4%B1-metodlar)
+  - [For veya Map Döngüsü İşlemleri](#for-veya-map-d%C3%B6ng%C3%BCs%C3%BC-i%CC%87%C5%9Flemleri)
+  - [Hook Yapısı (useSatate)](#hook-yap%C4%B1s%C4%B1-usesatate)
+- [Github Üzerinde Yayınlama](#github-%C3%BCzerinde-yay%C4%B1nlama)
+- [React Bilgileri](#react-bilgileri)
+  - [SVG alımı](#svg-al%C4%B1m%C4%B1)
+- [Ücretsiz React Çalışma Yerleri](#%C3%BCcretsiz-react-%C3%A7al%C4%B1%C5%9Fma-yerleri)
+- [Görsel Kaynaklar](#g%C3%B6rsel-kaynaklar)
+  - [Admin Paneli (Dashboard)](#admin-paneli-dashboard)
+- [Faydalı Bağlantılar](#faydal%C4%B1-ba%C4%9Flant%C4%B1lar)
 
 Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 
@@ -153,8 +153,8 @@ State'ler değişmeyen veriler barındırır ve fonksiyonlarda `slice()` işlemi
 ### React ile Programlama Yapısı
 
 - En alt birimden kodlamaya başlanır
-- Duruma göre *component*'in *state*'leri bir üst birime aktarılır
-- *component*'teki *state*'ler *props* ile yenilenir
+- Duruma göre _component_'in _state_'leri bir üst birime aktarılır
+- _component_'teki _state_'ler _props_ ile yenilenir
 - Bu işlem olabilidiğince devam eder
 
 ### Faydalı Metodlar
@@ -172,17 +172,17 @@ State'ler değişmeyen veriler barındırır ve fonksiyonlarda `slice()` işlemi
 
 - Döngüsel işlemlerde react hangi objenin değiştiğine karar veremez
 - Ayırt ediciliğin oluşması için `key` değeri verilir
-- `key` değerinin *global* olarak eşsiz olmasına gerek yoktur, *local* olarak olması kafi
+- `key` değerinin _global_ olarak eşsiz olmasına gerek yoktur, _local_ olarak olması kafi
 - `key` değerine `this.props.key` gibi işlemlerle erişilemez, rezerve edilmiş bir kelimedir
 - `key={i}` ataması sağlıklı değildir, indekslerdeki kayıp durumunda sorun çıkarır
 
 ```jsx
 const moves = history.map((step, move) => {
-  const desc = move ?
-    'Go to move #' + move :
-    'Go to game start';
+  const desc = move ? "Go to move #" + move : "Go to game start";
   return (
-    <li key={move}> {/* Key kullanımı gerekir */}
+    <li key={move}>
+      {" "}
+      {/* Key kullanımı gerekir */}
       <button onClick={() => this.jumpTo(move)}>{desc}</button>
     </li>
   );

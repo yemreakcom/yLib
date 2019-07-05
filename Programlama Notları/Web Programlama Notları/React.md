@@ -21,6 +21,7 @@
 - [Github Üzerinde Yayınlama](#github-%C3%BCzerinde-yay%C4%B1nlama)
 - [React Bilgileri](#react-bilgileri)
   - [SVG alımı](#svg-al%C4%B1m%C4%B1)
+  - [HTML Gösterme](#html-g%C3%B6sterme)
 - [Ücretsiz React Çalışma Yerleri](#%C3%BCcretsiz-react-%C3%A7al%C4%B1%C5%9Fma-yerleri)
 - [Görsel Kaynaklar](#g%C3%B6rsel-kaynaklar)
   - [Admin Paneli (Dashboard)](#admin-paneli-dashboard)
@@ -210,7 +211,10 @@ const moves = history.map((step, move) => {
 
 ## React Bilgileri
 
+- React'ta dom komutları çalışır
 - [React ile CSS Ayalarma Yolları](https://codeburst.io/4-four-ways-to-style-react-components-ac6f323da822)
+- [Markdown dosyasını ekrana basma]
+- [Upload İşlemleri]
 
 ### SVG alımı
 
@@ -218,6 +222,16 @@ const moves = history.map((step, move) => {
   - `<svg> <g> ...`
 - `jsx` dosyasından `import` edilir
 - `img src={svg}` şeklinde kullanılır
+
+### HTML Gösterme
+
+```jsx
+const html = "HTML verisi";
+
+<section>
+  <article dangerouslySetInnerHTML={{ __html: html }} />
+</section>;
+```
 
 ## Ücretsiz React Çalışma Yerleri
 
@@ -285,3 +299,5 @@ const moves = history.map((step, move) => {
 [react ui compenent framework]: https://www.codeinwp.com/blog/react-ui-component-libraries-frameworks/
 [mdb dasboard]: https://mdbootstrap.com/previews/free-templates/react-admin-dashboard/
 [frontend'de react backend'de nodejs kullanma]: https://www.freecodecamp.org/news/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0/
+[upload işlemleri]: https://medium.com/@ilonacodes/front-end-shorts-how-to-read-content-from-the-file-input-in-react-17f49b293909
+[markdown dosyasını ekrana basma]: https://stackoverflow.com/a/42928796/9770490

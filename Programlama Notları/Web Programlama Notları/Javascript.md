@@ -23,6 +23,8 @@
   - [HTML Elemanının Konumunu Alma](#html-eleman%C4%B1n%C4%B1n-konumunu-alma)
   - [ID'si Olan Elemanları Alma](#idsi-olan-elemanlar%C4%B1-alma)
   - [Tüm H Değerlerini Alma](#t%C3%BCm-h-de%C4%9Ferlerini-alma)
+  - [Dom Elemanını Temizleme](#dom-eleman%C4%B1n%C4%B1-temizleme)
+  - [Dom Elemanın Altındaki Tüm Elemanları Temizleme](#dom-eleman%C4%B1n-alt%C4%B1ndaki-t%C3%BCm-elemanlar%C4%B1-temizleme)
 - [Beklemeli İşlemler](#beklemeli-i%CC%87%C5%9Flemler)
   - [Senkronize Bekleme (Sync)](#senkronize-bekleme-sync)
     - [Zamanlayıcı (setTimeout)](#zamanlay%C4%B1c%C4%B1-settimeout)
@@ -286,6 +288,34 @@ for (let i = 0; i < elems.length; i++) {
 ```js
 document.querySelectorAll("h1, h2, h3, h4, h5, h6");
 ```
+
+### Dom Elemanını Temizleme
+
+```js
+var elem = document.querySelector("#some-element");
+elem.parentNode.removeChild(elem);
+```
+
+- [Removing an element from the DOM with vanilla JS]
+
+### Dom Elemanın Altındaki Tüm Elemanları Temizleme
+
+```js
+var list = document.getElementById("mList");
+   while (list.hasChildNodes()) {
+      list.removeChild(list.firstChild);
+   }
+}
+```
+
+```js
+var myNode = document.getElementById("foo");
+while (myNode.firstChild) {
+  myNode.removeChild(myNode.firstChild);
+}
+```
+
+- [Remove all child elements of a DOM node in JavaScript]
 
 ## Beklemeli İşlemler
 
@@ -656,7 +686,5 @@ function getKeyByValue(object, value) {
 [eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 [import cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
 [yscripts]: https://github.com/yedhrab/YScripts
-
-```
-
-```
+[remove all child elements of a dom node in javascript]: https://stackoverflow.com/a/3955238/9770490
+[removing an element from the dom with vanilla js]: https://gomakethings.com/removing-an-element-from-the-dom-with-vanilla-js/

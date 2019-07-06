@@ -2,8 +2,8 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Özelleştirmeler](#%C3%96zelle%C5%9Ftirmeler)
-- [Uygulama Verileri](#Uygulama-Verileri)
+- [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
+- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
 - [Hata Notları](#Hata-Notlar%C4%B1)
   - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
   - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
@@ -20,11 +20,21 @@
   - [Arka Plandaki Evolution Copy Logosunu Kaldırma](#Arka-Plandaki-Evolution-Copy-Logosunu-Kald%C4%B1rma)
 - [Harici Linkler](#Harici-Linkler)
 
-## Özelleştirmeler
+## Kısayol Oluşturma
 
-| Ayar                                                                                           | Açıklama            |
-| ---------------------------------------------------------------------------------------------- | ------------------- |
-| [Open command prompt here](https://drive.google.com/open?id=1EEIlewepCu8xCZsiWdFa_OeBq9VfYnE_) | CMD'yi dizinde açma |
+- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
+- İçerisine `shell:AppsFolder` yazıp <kbd>ENTER</kbd>'a basın
+- Çıkan dizinde kısayolunu oluşturmak istediğiniz uygulamaya tıklayın `Create Shortcut` deyin
+- Oluşturulamadı ekranı gelecek ve `Yes` deyin
+- Masaüstüne gelip oluşan kısayola sağ tıklayın
+- `Shortcut` alnına tıklayıp klavyenizden bir tuşa basın
+- <kbd>CTRL</kbd> + <kbd>ALT</kbd> kombinasyonları ile kısayol oluşturabilirsiniz
+
+## Otomatik Olarak Oturum Açma
+
+- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
+- Çıkan ekrana `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
+- Kutucuğun işaretini kaldırın ve gerekli alana şifrenizi girip `APPLY` butonuna basın
 
 ## Hata Notları
 

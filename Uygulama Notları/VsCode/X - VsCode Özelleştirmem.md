@@ -62,7 +62,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "DarkCode Theme Adopted Python and Markdown",
   "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "native",
   // Terminal ayarları
   "terminal.integrated.cursorStyle": "line",
   // Gizlilik ayarları
@@ -80,7 +79,8 @@
   "editor.fontSize": 13.1,
   // Terminal ayarlarım
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.fontFamily": "Consolas",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   // Satır uzunluğu ayarı
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 200,
@@ -109,7 +109,6 @@
 > <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu kaldırıldı, yerine <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu olan yerel kısayol kullanılacak.
 
 ```json
-// Place your key bindings in this file to override the defaults
 // Place your key bindings in this file to override the defaults
 [
   {

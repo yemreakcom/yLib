@@ -12,6 +12,7 @@
   - [Fonksyion Dökümantasyonu](#Fonksyion-D%C3%B6k%C3%BCmantasyonu)
   - [Fonksyion Varsayılan Parametreler (Keyword Arguments)](#Fonksyion-Varsay%C4%B1lan-Parametreler-Keyword-Arguments)
   - [Fonksiyonlarda Keyfi Parametreler](#Fonksiyonlarda-Keyfi-Parametreler)
+  - [Fonksiyonların veya Modüllerin Alt Metodlarını Listeleme](#Fonksiyonlar%C4%B1n-veya-Mod%C3%BCllerin-Alt-Metodlar%C4%B1n%C4%B1-Listeleme)
 - [Özyineleyen Fonksiyonlar](#%C3%96zyineleyen-Fonksiyonlar)
   - [Özyineleyen Fonksiyonların Avantajları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Avantajlar%C4%B1)
   - [Özyineleyen Fonksiyonların Zararları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Zararlar%C4%B1)
@@ -141,6 +142,16 @@ greet("Monica","Luke","Steve","John")
 ```
 
 > `*` ön eki ile ile kaç tane isim gelirse o kadar kullanıyoruz.
+
+### Fonksiyonların veya Modüllerin Alt Metodlarını Listeleme
+
+Alttaki komut, alt medoların listesini verir.
+
+> Alt metod `.` ile kullandığımız metodlar.
+
+```py
+dir(<func | modul>)
+```
 
 ## Özyineleyen Fonksiyonlar
 

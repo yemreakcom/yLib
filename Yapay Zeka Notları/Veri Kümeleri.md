@@ -4,12 +4,12 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Veri Kümeleri İndirme Araçları](#veri-k%C3%BCmeleri-i%CC%87ndirme-ara%C3%A7lar%C4%B1)
-- [Linkler](#linkler)
-  - [Resim Veri Kümeleri](#resim-veri-k%C3%BCmeleri)
-  - [Verilerdeki Etiketi Kaldırma](#verilerdeki-etiketi-kald%C4%B1rma)
-  - [Karma Veri Kümeleri](#karma-veri-k%C3%BCmeleri)
-- [Referanslar](#referanslar)
+- [Veri Kümeleri İndirme Araçları](#Veri-K%C3%BCmeleri-%C4%B0ndirme-Ara%C3%A7lar%C4%B1)
+- [Linkler](#Linkler)
+  - [Resim Veri Kümeleri](#Resim-Veri-K%C3%BCmeleri)
+  - [Verilerdeki Etiketi Kaldırma](#Verilerdeki-Etiketi-Kald%C4%B1rma)
+  - [Karma Veri Kümeleri](#Karma-Veri-K%C3%BCmeleri)
+- [Referanslar](#Referanslar)
 
 Yapay zeka için olmazsa olmaz olan veri kümeleri (dataset) hakkında bilgiler içermektedir.
 
@@ -30,6 +30,7 @@ Linux terminal indiricileri yazısına bakabilirsin.
 - [Berkeley](https://bdd-data.berkeley.edu/)
   - Email : yoif4@alexbox.online
   - Password: Temp1234
+- [Flicker](https://www.flickr.com/)
 - [Bosch Small Traffic Lights Dataset](https://hci.iwr.uni-heidelberg.de/node/6132/download/ce3ac63791d0a77612a4f8a857ec2a7b)
 - [Türkçe Kelimeler](https://drive.google.com/open?id=1TOEqrRNmwJOa08F1lYgLz_HNL3WOppoA)
 - [Deeplearning](http://deeplearning.net/datasets/)

@@ -41,6 +41,8 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 - [Octodex][github octodex]
 - Detaylı bilgiler ve sık sorulan sorular için de [buraya][details] bakabilirsin.
 
+> Diğer avantajlar için [github student pack](https://education.github.com/pack) sayfasına bakabilirsin.
+
 ## Proje Yönetimi
 
 ### Repository'nin Oluşturulması ve Dosyaların Aktarılması

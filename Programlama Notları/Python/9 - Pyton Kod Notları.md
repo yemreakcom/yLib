@@ -3,6 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Değişkenlerin Değerlerini Bulma](#De%C4%9Fi%C5%9Fkenlerin-De%C4%9Ferlerini-Bulma)
+- [Bağımlılıkları ve PythonPath'i Ayarlama](#Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1klar%C4%B1-ve-PythonPathi-Ayarlama)
 - [Zaman Hesaplama Sorunu](#Zaman-Hesaplama-Sorunu)
 - [Koşullu İç İçe For Döngüsü](#Ko%C5%9Fullu-%C4%B0%C3%A7-%C4%B0%C3%A7e-For-D%C3%B6ng%C3%BCs%C3%BC)
 
@@ -12,6 +13,29 @@ Değişkenin objelerini ve değerlerini öğrenmek için debug çok faydalıdır
 
 - Debug modunda alt değişkenlere bakıp
 - Kod içerisinde kullanabilirsin
+
+## Bağımlılıkları ve PythonPath'i Ayarlama
+
+Bu modülü ana projenizin başında `import` ederek pythonpath ayarlanmasını otomatize edebilirisiniz.
+
+```py
+import os.path as osp
+import sys
+
+def add_path(path):
+    if path not in sys.path:
+        sys.path.insert(0, path)
+
+this_dir = osp.dirname(__file__)
+
+# Add lib to PYTHONPATH
+PATH = "lib" # Bu kısma oath'e alınacak dizinleri yazın
+lib_path = osp.join(this_dir, PATH)
+root_path = osp.join(this_dir)
+
+add_path(lib_path)
+add_path(root_path)
+```
 
 ## Zaman Hesaplama Sorunu
 

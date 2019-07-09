@@ -6,18 +6,23 @@ Python ile derin öğrenme notlarım.
 
 ## İçerikler <!-- omit in toc -->
 
-- [Cloud Destekleri](#cloud-destekleri)
-- [Derin Öğrenme Notları](#derin-%C3%B6%C4%9Frenme-notlar%C4%B1)
-  - [Aktivasyon Fonksiyonları](#aktivasyon-fonksiyonlar%C4%B1)
-  - [Aktivasyon Fonksiyonlarının Özellikleri](#aktivasyon-fonksiyonlar%C4%B1n%C4%B1n-%C3%B6zellikleri)
-- [Yapay Zeka Kullanım Alanları](#yapay-zeka-kullan%C4%B1m-alanlar%C4%B1)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-  - [Araştırmacılar Web Siteleri](#ara%C5%9Ft%C4%B1rmac%C4%B1lar-web-siteleri)
-  - [GitHub Kaynakları](#github-kaynaklar%C4%B1)
-    - [Firmalar](#firmalar)
-    - [Karma](#karma)
-  - [Derin Öğrenme Kaynakları](#derin-%C3%B6%C4%9Frenme-kaynaklar%C4%B1)
-  - [Motivasyon](#motivasyon)
+- [Uygulamalar](#Uygulamalar)
+- [Cloud Destekleri](#Cloud-Destekleri)
+- [Derin Öğrenme Notları](#Derin-%C3%96%C4%9Frenme-Notlar%C4%B1)
+  - [Aktivasyon Fonksiyonları](#Aktivasyon-Fonksiyonlar%C4%B1)
+  - [Aktivasyon Fonksiyonlarının Özellikleri](#Aktivasyon-Fonksiyonlar%C4%B1n%C4%B1n-%C3%96zellikleri)
+- [Yapay Zeka Kullanım Alanları](#Yapay-Zeka-Kullan%C4%B1m-Alanlar%C4%B1)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+  - [Araştırmacılar Web Siteleri](#Ara%C5%9Ft%C4%B1rmac%C4%B1lar-Web-Siteleri)
+  - [GitHub Kaynakları](#GitHub-Kaynaklar%C4%B1)
+    - [Firmalar](#Firmalar)
+    - [Karma](#Karma)
+  - [Derin Öğrenme Kaynakları](#Derin-%C3%96%C4%9Frenme-Kaynaklar%C4%B1)
+  - [Motivasyon](#Motivasyon)
+
+## Uygulamalar
+
+- [Java Neural Network Framework](http://neuroph.sourceforge.net/)
 
 ## Cloud Destekleri
 
@@ -35,7 +40,7 @@ Python ile derin öğrenme notlarım.
 
 - Birden fazla dereceye sahip olan fonksiyonlara doğrusal olmayan fonksiyonlar deriz
 
-- Ağırlıklar ile ilgili hata değerlerini hesaplamak için yapay sinir ağında hatanın geriye yayılımı algoritması uygulanmaktadır.  (Backward Propagation)
+- Ağırlıklar ile ilgili hata değerlerini hesaplamak için yapay sinir ağında hatanın geriye yayılımı algoritması uygulanmaktadır. (Backward Propagation)
 
 ### Aktivasyon Fonksiyonları
 
@@ -56,7 +61,7 @@ Python ile derin öğrenme notlarım.
 
 ### Aktivasyon Fonksiyonlarının Özellikleri
 
-> (0, 1) arasıdan olan fonksyionlar **olasılıksal*- fonksiyonlardır.
+> (0, 1) arasıdan olan fonksyionlar \*_olasılıksal_- fonksiyonlardır.
 
 ![Aktivasyon Fonkisyonlarının Özellikleri](https://cdn-images-1.medium.com/max/800/1*lI22JpQMrlx777AOhzvjcw.png)
 
@@ -90,4 +95,4 @@ Python ile derin öğrenme notlarım.
 - [Yapay zeka GauGAN, çizimleri tabloya dönüştürmeyi öğrendi!](https://www.youtube.com/watch?v=1iMmenHFdCE)
 - [AYNA DÜNYALAR](https://www.youtube.com/watch?v=-3DvuLtuf1U)
 
-[El ile emoji oluşturma]: https://www.linkedin.com/feed/update/urn:li:ugcPost:6531200017103880192
+[el ile emoji oluşturma]: https://www.linkedin.com/feed/update/urn:li:ugcPost:6531200017103880192

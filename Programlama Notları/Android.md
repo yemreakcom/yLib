@@ -217,17 +217,17 @@ class SlideAdapter(context : Context) : PagerAdapter() {
 
 ### Veri Oluşturma ve Alma
 
-- `val veri= this.getSharedPreferences(this.packageName, android.content.Context.MODE_PRIVATE)     // Veri kaydını değişkene atama`
+- `val veri= this.getSharedPreferences(this.packageName, android.content.Context.MODE_PRIVATE) // Veri kaydını değişkene atama`
   - this.packageName : paket ismi (com.... en üst satırdaki)
   - MODE_PRIVATE : sadece benim uygulamamdan erişilebilirlik
 - `var age1 = 30`
-- `veri.edit().putInt("userAge", age1).apply()    // Veriyi kaydetme`
+- `veri.edit().putInt("userAge", age1).apply() // Veriyi kaydetme`
   - userAge : anahtar
   - age1 : değer / değişken
-- `val age2= veri.getInt("userAge", 0)     // Kayıtlı veriyi alma`  
+- `val age2= veri.getInt("userAge", 0) // Kayıtlı veriyi alma`
   - userAge : anahtar (put'takini almak için aynı olmalı)
   - 0 : Eğer anahtar yoksa, varsayılan değer ataması
-- `println("stored age : $storedAge")     // veriyi gösterme`
+- `println("stored age : $storedAge") // veriyi gösterme`
 
 ### Veri Güncelleme
 
@@ -402,17 +402,17 @@ startActivity(intent)
 
 ## Online Android Emulator
 
-APKOnline adlı sitenin *emulator*'ü için [buraya](https://www.apkonline.net/free-android-online-emulator/run-android-online-emulator) bakabilirsin.
+APKOnline adlı sitenin _emulator_'ü için [buraya](https://www.apkonline.net/free-android-online-emulator/run-android-online-emulator) bakabilirsin.
 
 ## Google Play Store
 
-Uygulamlarınızı **google play store**'a yüklemek için *develeport* hesabı açmanı gerekmektedir.
+Uygulamlarınızı **google play store**'a yüklemek için _develeport_ hesabı açmanı gerekmektedir.
 
-- Google tek seferlik **25$**'lık bir ücret almaktadır
+- Google tek seferlik **25\$**'lık bir ücret almaktadır
   - Hesabınızı kapatmanız durumunda bu ücret **iade** edilecektir
   - Hesabınızdaki uygulamaları başka hesaplara aktarmak için [buraya](https://play.google.com/apps/publish/?account=6847951054083969806#AppTransferPlace) bakabilirsin
   - Detaylı bilgi için [buraya](https://support.appmachine.com/hc/en-us/articles/218378068-Transfer-your-app-from-one-Google-Play-developer-account-to-another) bakabilirsin.
-- Uygulama satışlarının **%30**'u *Google*'a gitmektedir
+- Uygulama satışlarının **%30**'u _Google_'a gitmektedir
 
 ## Harici Bağlantılar
 
@@ -425,7 +425,7 @@ Uygulamlarınızı **google play store**'a yüklemek için *develeport* hesabı 
 
 ### Kotlin için Harici Bağlatılar
 
-- Java kodunu Kotlin'e çevirmek için  CTRL + SHIFT + ALT + K
+- Java kodunu Kotlin'e çevirmek için CTRL + SHIFT + ALT + K
 - [Kotlin Trick for Android](https://antonioleiva.com/kotlin-awesome-tricks-for-android/)
 - [Android Webview](https://www.mobapptuts.com/kotlin-on-android-webview-tutorial/)
 - [WebView'i appte kalarak kullanmak](https://stackoverflow.com/questions/47872078/how-to-load-an-url-inside-a-webview-using-android-kotlin)
@@ -436,3 +436,8 @@ Uygulamlarınızı **google play store**'a yüklemek için *develeport* hesabı 
 - [Material Drawer (Navigation Drawer gelişmişi)](https://github.com/zsmb13/MaterialDrawerKt)
 - [ViewPager (Kaydırmalı Görünüm) Tutarial](https://www.raywenderlich.com/169774/viewpager-tutorial-android-getting-started-kotlin)
 - [Alert Dialog](http://www.prandroid.com/2017/09/alert-dialog-box-in-android-using-kotlin.html)
+
+## Karma Notlar
+
+- Swap mode ile her değişiklik durumunda snap alınır, emulator hızlı çalışır
+- Visual Studio'nun emulatorü hızlı çalışıyor dendi (?)

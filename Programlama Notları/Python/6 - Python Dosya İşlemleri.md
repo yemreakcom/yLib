@@ -120,6 +120,10 @@ def listfolderpaths(path=os.getcwd()):
 def listfilepaths(path=os.getcwd()):
     return [os.path.join(path, name) for name in os.listdir(path) if (not is_private(name) and os.path.isfile(os.path.join(path, name)))]
 
+def list_files(image_dir, pattern):
+    return [image for image in glob.glob(osp.join(image_dir, pattern))]
+
+list_images(r"C\Users\Picture", ".jpg")
 ```
 
 ### Python System Dizinlerine Erişme (System Enviroment)

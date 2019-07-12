@@ -125,13 +125,21 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
 - [4 - Python'da String İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
-- [5 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
-- [6 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
-- [7 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
-- [8 - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20%C4%B0leri%20Seviye.md)
+- [5 - Python Veri Yapıları](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Veri%20Yap%C4%B1lar%C4%B1.md)
+- [6 - Python Koleksiyonlar](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Koleksiyonlar.md)
+- [7 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
+- [8 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [9 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
-- [A - Python ile Veri İşlemleri](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20ile%20Veri%20%C4%B0%C5%9Flemleri.md)
+- [A - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20%C4%B0leri%20Seviye.md)
+- [A1 - Python ile Veri İşlemleri](./Programlama%20Notlar%C4%B1/Python/A1%20-%20Python%20ile%20Veri%20%C4%B0%C5%9Flemleri.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
+- [X1 - Python ile Görüntü İşleme Notları](./Programlama%20Notlar%C4%B1/Python/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
+
+#### Notebooks
+
+- [1 - PY_ProgramFlow](./Programlama%20Notlar%C4%B1/Python/Notebooks/1%20-%20PY_ProgramFlow.ipynb)
+- [2- PY_DataStructures](./Programlama%20Notlar%C4%B1/Python/Notebooks/2-%20PY_DataStructures.ipynb)
 
 ### Web Programlama Notları
 
@@ -176,8 +184,11 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 
 ## Yapay Zeka Notları
 
+- [CNN notları](./Yapay%20Zeka%20Notlar%C4%B1/CNN%20notlar%C4%B1.md)
+- [Deep Neural Netwok](./Yapay%20Zeka%20Notlar%C4%B1/Deep%20Neural%20Netwok.md)
 - [Makine Öğrenimi](./Yapay%20Zeka%20Notlar%C4%B1/Makine%20%C3%96%C4%9Frenimi.md)
 - [Türkçe Yapay Zeka Kaynakları](./Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.md)
+- [Veri Bilimi](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20Bilimi.md)
 - [Veri Kümeleri](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmeleri.md)
 - [Yapay Zeka Notları](./Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)
 

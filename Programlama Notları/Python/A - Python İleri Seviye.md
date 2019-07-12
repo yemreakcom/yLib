@@ -11,7 +11,8 @@
 - [İşletim Sistemini Tespit Etme](#%C4%B0%C5%9Fletim-Sistemini-Tespit-Etme)
 - [Program Kapandığında İşlem Yapma (on Exit)](#Program-Kapand%C4%B1%C4%9F%C4%B1nda-%C4%B0%C5%9Flem-Yapma-on-Exit)
 - [Thread](#Thread)
-  - [Basit Thread Yapısı](#Basit-Thread-Yap%C4%B1s%C4%B1)
+  - [Thread Yapısı](#Thread-Yap%C4%B1s%C4%B1)
+  - [Tekrarlayıcı Yapısı](#Tekrarlay%C4%B1c%C4%B1-Yap%C4%B1s%C4%B1)
   - [Zamanlayıcı Yapısı (Timer)](#Zamanlay%C4%B1c%C4%B1-Yap%C4%B1s%C4%B1-Timer)
   - [Bir Plana göre Fonksiyon Çalıştırma](#Bir-Plana-g%C3%B6re-Fonksiyon-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
 - [Paralel İşlemler (Multiprocessing)](#Paralel-%C4%B0%C5%9Flemler-Multiprocessing)
@@ -166,7 +167,33 @@ Thread modülü ile satır satır ilerleyen kod yerine karma ilerleyen kodlar ya
 | Timer     | Belirli saniyelerde fonksiyonu çalıştırma |
 | Scheduler | Bir plana göre fonksiyonu çalıştırma      |
 
-### Basit Thread Yapısı
+### Thread Yapısı
+
+```py
+import threading
+
+def ela(fname, orig_dir, save_dir):
+    """
+    Paremetreli bir fonksiyon
+    """
+    pass
+
+dirc = "Dizin"
+for d in os.listdir(dirc):
+    if d.endswith(".jpg") or d.endswith(".jpeg"):
+        thread = threading.Thread(target=ela, args=[d, dirc, ela_dirc])
+        threads.append(thread)
+        thread.start()
+
+# Join edilmez ise, arka planda çalışır, print yazısından sonra bitebiebilir
+# Join edilirse threadlerin tamamlanmasını beklemiş oluruz.
+for t in threads:
+    t.join()
+
+print("Finished!")
+```
+
+### Tekrarlayıcı Yapısı
 
 ```py
 from time import sleep

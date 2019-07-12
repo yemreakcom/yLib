@@ -4,6 +4,7 @@
 
 - [Değişkenlerin Değerlerini Bulma](#De%C4%9Fi%C5%9Fkenlerin-De%C4%9Ferlerini-Bulma)
 - [Bağımlılıkları ve PythonPath'i Ayarlama](#Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1klar%C4%B1-ve-PythonPathi-Ayarlama)
+- [Medyan Alma](#Medyan-Alma)
 - [Zaman Hesaplama Sorunu](#Zaman-Hesaplama-Sorunu)
 - [Koşullu İç İçe For Döngüsü](#Ko%C5%9Fullu-%C4%B0%C3%A7-%C4%B0%C3%A7e-For-D%C3%B6ng%C3%BCs%C3%BC)
 
@@ -36,6 +37,23 @@ root_path = osp.join(this_dir)
 add_path(lib_path)
 add_path(root_path)
 ```
+
+## Medyan Alma
+
+```py
+// super slow
+[a, b, c].sort()[1]
+```
+
+```py
+// fast
+let max = Math.max(Math.max(a,b),c),
+    min = Math.min(Math.min(a,b),c),
+// the max and the min value cancel out because of the xor, the median remains
+median = a^b^c^max^min;
+```
+
+> Hız farkı için [buraya](https://jsperf.com/fast-median-of-three) bakabilirsin
 
 ## Zaman Hesaplama Sorunu
 

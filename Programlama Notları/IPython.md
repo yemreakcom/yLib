@@ -10,6 +10,7 @@
 - [Terminal İşlemleri](#Terminal-%C4%B0%C5%9Flemleri)
   - [Terminal İşlemleri Örneği](#Terminal-%C4%B0%C5%9Flemleri-%C3%96rne%C4%9Fi)
   - [İşletim Sistemi Bilgileri](#%C4%B0%C5%9Fletim-Sistemi-Bilgileri)
+- [Magic Function](#Magic-Function)
 - [Form Oluşturma İşlemleri (GUI)](#Form-Olu%C5%9Fturma-%C4%B0%C5%9Flemleri-GUI)
 - [Drive İşlemleri](#Drive-%C4%B0%C5%9Flemleri)
   - [Drive Dosyalarını Dosya Sistemine Bağlama](#Drive-Dosyalar%C4%B1n%C4%B1-Dosya-Sistemine-Ba%C4%9Flama)
@@ -99,6 +100,13 @@ VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
 (END)^C
 ```
+
+## Magic Function
+
+| Func                                | Açıklama                            |
+| ----------------------------------- | ----------------------------------- |
+| `%%timeit`                          | Blokta geçen süreyi hesaplar        |
+| `%%expect_exception AttributeError` | Hatayı fırlatır, run error engeller |
 
 ## Form Oluşturma İşlemleri (GUI)
 

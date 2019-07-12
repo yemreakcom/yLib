@@ -1,34 +1,34 @@
-# Python Orta Seviye <!-- omit in toc -->
+# Python Döngüler ve Koşullar <!-- omit in toc -->
 
 ## İçerikler <!-- omit in toc -->
 
-- [If / Else Koşul (Constraints) Yapısı](#if--else-ko%C5%9Ful-constraints-yap%C4%B1s%C4%B1)
-  - [Üçlü (Ternary) If / Else Yapısı](#%C3%BC%C3%A7l%C3%BC-ternary-if--else-yap%C4%B1s%C4%B1)
-- [Döngüler (Loop)](#d%C3%B6ng%C3%BCler-loop)
-  - [For Döngüsü](#for-d%C3%B6ng%C3%BCs%C3%BC)
-    - [Değişken içinde For Döngüsü](#de%C4%9Fi%C5%9Fken-i%C3%A7inde-for-d%C3%B6ng%C3%BCs%C3%BC)
-    - [İki Liste Üzerinde Paralel For Döngüsü](#i%CC%87ki-liste-%C3%BCzerinde-paralel-for-d%C3%B6ng%C3%BCs%C3%BC)
-  - [Range Fonksiyonu](#range-fonksiyonu)
-  - [While Döngüsü](#while-d%C3%B6ng%C3%BCs%C3%BC)
-- [Break / Continue](#break--continue)
-- [Operatörler](#operat%C3%B6rler)
-  - [Aritmatik Operatörler](#aritmatik-operat%C3%B6rler)
-    - [Ek Aritmatik Operatörler](#ek-aritmatik-operat%C3%B6rler)
-  - [Karşılaştırma Operatörleri](#kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-operat%C3%B6rleri)
-  - [Mantıksal Operatörler](#mant%C4%B1ksal-operat%C3%B6rler)
-  - [Bit Düzeyinde Operatörler](#bit-d%C3%BCzeyinde-operat%C3%B6rler)
-  - [Kimlik Belirleme Operatörleri](#kimlik-belirleme-operat%C3%B6rleri)
-    - [Kimlik Belirleme Operatörleri Örneği](#kimlik-belirleme-operat%C3%B6rleri-%C3%B6rne%C4%9Fi)
-  - [Üyelik Operatörleri](#%C3%BCyelik-operat%C3%B6rleri)
-    - [Üyelik Operatörleri Örneği](#%C3%BCyelik-operat%C3%B6rleri-%C3%B6rne%C4%9Fi)
-- [Sayılar, Sayılar Arası Dönüşüm ve Matematik](#say%C4%B1lar-say%C4%B1lar-aras%C4%B1-d%C3%B6n%C3%BC%C5%9F%C3%BCm-ve-matematik)
-  - [Tabanlı Sayılar](#tabanl%C4%B1-say%C4%B1lar)
-  - [Ondalıklı Sayılar (Decimals / Floats)](#ondal%C4%B1kl%C4%B1-say%C4%B1lar-decimals--floats)
-    - [Decimal Float Kullanımları ve Farkı](#decimal-float-kullan%C4%B1mlar%C4%B1-ve-fark%C4%B1)
-    - [Kesirli Sayılar (Fractions)](#kesirli-say%C4%B1lar-fractions)
-    - [Kesirli Sayılarla İşlemler](#kesirli-say%C4%B1larla-i%CC%87%C5%9Flemler)
-  - [Matematik İşlemleri](#matematik-i%CC%87%C5%9Flemleri)
-    - [Matematikte Rastgelelik](#matematikte-rastgelelik)
+- [If / Else Koşul (Constraints) Yapısı](#If--Else-Ko%C5%9Ful-Constraints-Yap%C4%B1s%C4%B1)
+  - [Üçlü (Ternary) If / Else Yapısı](#%C3%9C%C3%A7l%C3%BC-Ternary-If--Else-Yap%C4%B1s%C4%B1)
+- [Döngüler (Loop)](#D%C3%B6ng%C3%BCler-Loop)
+  - [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
+    - [Değişken içinde For Döngüsü](#De%C4%9Fi%C5%9Fken-i%C3%A7inde-For-D%C3%B6ng%C3%BCs%C3%BC)
+    - [İki Liste Üzerinde Paralel For Döngüsü](#%C4%B0ki-Liste-%C3%9Czerinde-Paralel-For-D%C3%B6ng%C3%BCs%C3%BC)
+  - [Range Fonksiyonu](#Range-Fonksiyonu)
+  - [While Döngüsü](#While-D%C3%B6ng%C3%BCs%C3%BC)
+- [Break / Continue](#Break--Continue)
+- [Operatörler](#Operat%C3%B6rler)
+  - [Aritmatik Operatörler](#Aritmatik-Operat%C3%B6rler)
+    - [Ek Aritmatik Operatörler](#Ek-Aritmatik-Operat%C3%B6rler)
+  - [Karşılaştırma Operatörleri](#Kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma-Operat%C3%B6rleri)
+  - [Mantıksal Operatörler](#Mant%C4%B1ksal-Operat%C3%B6rler)
+  - [Bit Düzeyinde Operatörler](#Bit-D%C3%BCzeyinde-Operat%C3%B6rler)
+  - [Kimlik Belirleme Operatörleri](#Kimlik-Belirleme-Operat%C3%B6rleri)
+    - [Kimlik Belirleme Operatörleri Örneği](#Kimlik-Belirleme-Operat%C3%B6rleri-%C3%96rne%C4%9Fi)
+  - [Üyelik Operatörleri](#%C3%9Cyelik-Operat%C3%B6rleri)
+    - [Üyelik Operatörleri Örneği](#%C3%9Cyelik-Operat%C3%B6rleri-%C3%96rne%C4%9Fi)
+- [Sayılar, Sayılar Arası Dönüşüm ve Matematik](#Say%C4%B1lar-Say%C4%B1lar-Aras%C4%B1-D%C3%B6n%C3%BC%C5%9F%C3%BCm-ve-Matematik)
+  - [Tabanlı Sayılar](#Tabanl%C4%B1-Say%C4%B1lar)
+  - [Ondalıklı Sayılar (Decimals / Floats)](#Ondal%C4%B1kl%C4%B1-Say%C4%B1lar-Decimals--Floats)
+    - [Decimal Float Kullanımları ve Farkı](#Decimal-Float-Kullan%C4%B1mlar%C4%B1-ve-Fark%C4%B1)
+    - [Kesirli Sayılar (Fractions)](#Kesirli-Say%C4%B1lar-Fractions)
+    - [Kesirli Sayılarla İşlemler](#Kesirli-Say%C4%B1larla-%C4%B0%C5%9Flemler)
+  - [Matematik İşlemleri](#Matematik-%C4%B0%C5%9Flemleri)
+    - [Matematikte Rastgelelik](#Matematikte-Rastgelelik)
 
 ## If / Else Koşul (Constraints) Yapısı
 
@@ -36,7 +36,7 @@ If içerisine yazılan koşul otomatik olarak `bool` değişkenine dönüştür�
 
 - `None`, `""`, `0` gibi değerler `False` değerine denktir
 - `:` ile if / else satırı sonlandırılır
-- `Tab` kadar boşluk atılırsa if scope*'u içerisinde olur
+- `Tab` kadar boşluk atılırsa if scope\*'u içerisinde olur
 
 ```py
 num = float(input("Sayı giriniz: "))
@@ -150,9 +150,9 @@ Son
 
 ## Operatörler
 
-| Operatör | Açıklama                       |
-| -------- | ------------------------------ |
-| `\`      | Satır atlatmayı geçersiz kılma |
+| Operatör                             | Açıklama |
+| ------------------------------------ | -------- |
+| `\` | Satır atlatmayı geçersiz kılma |
 
 ### Aritmatik Operatörler
 
@@ -210,7 +210,7 @@ Son
 | Operatör | Açıklama                  | Örnek                     | Çıktı   |
 | -------- | ------------------------- | ------------------------- | ------- |
 | `is`     | Aynı objeye işaret etme   | `[1, 2, 3] and [1, 2, 3]` | `False` |
-| `is not` | Farklı objeye işaret etme | `1  is not 1`             | `False` |
+| `is not` | Farklı objeye işaret etme | `1 is not 1`              | `False` |
 
 > Ek değişkenlerde objelerin adresleri farklı olduğunda ilk çıktı `False` olur.
 

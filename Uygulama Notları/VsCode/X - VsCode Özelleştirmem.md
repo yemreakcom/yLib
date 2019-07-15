@@ -5,13 +5,12 @@
 - [Code Snippets](#Code-Snippets)
 - [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
 - [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
-  - [Windows 10 Klavye Kısayolları Ayarı](#Windows-10-Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1)
-  - [Linux Klavye Kısayolları Ayarım](#Linux-Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Code Snippets
 
-**Markdown:**
+<details>
+<summary>Markdown</summary>
 
 ```json
 {
@@ -48,13 +47,21 @@
     "prefix": "k3",
     "body": ["<kbd>$1</kbd> + <kbd>$2</kbd> + <kbd>$3</kbd>$0"],
     "description": "3 Buton anahtarı oluşturur"
+  },
+  "Toggle menu": {
+    "prefix": "menu",
+    "body": ["<details>", "<summary>$1</summary>", "", "$0", "", "</details>"],
+    "description": "3 Buton anahtarı oluşturur"
   }
 }
 ```
 
+</details>
+
 ## Editör Ayarlarım
 
-> <kbd>ENTER</kbd> ile seçim yapılabilmekte.
+<details>
+<summary>Ayaları göster</summary>
 
 ```json
 {
@@ -102,11 +109,12 @@
 }
 ```
 
+</details>
+
 ## Klavye Kısayolları Ayarım
 
-### Windows 10 Klavye Kısayolları Ayarı
-
-> <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu kaldırıldı, yerine <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> kısayolu olan yerel kısayol kullanılacak.
+<details>
+<summary>Windows 10</summary>
 
 ```json
 // Place your key bindings in this file to override the defaults
@@ -153,7 +161,10 @@
 ]
 ```
 
-### Linux Klavye Kısayolları Ayarım
+</details>
+
+<details>
+<summary>Linux</summary>
 
 ```json
 [
@@ -199,5 +210,7 @@
   }
 ]
 ```
+
+</details>
 
 ## Harici Bağlantılar

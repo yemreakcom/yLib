@@ -13,6 +13,7 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
   - [Dinamik Bağlantı (Dynamic Link)](#Dinamik-Ba%C4%9Flant%C4%B1-Dynamic-Link)
   - [Resim Bağlantısı](#Resim-Ba%C4%9Flant%C4%B1s%C4%B1)
 - [Tablo Oluşturma](#Tablo-Olu%C5%9Fturma)
+- [Açılır Menü Oluşturma](#A%C3%A7%C4%B1l%C4%B1r-Men%C3%BC-Olu%C5%9Fturma)
 - [Matematik Denklemleri](#Matematik-Denklemleri)
   - [Formül Yapısı](#Form%C3%BCl-Yap%C4%B1s%C4%B1)
 - [Sık Kullanılan Rozetler (Badge)](#S%C4%B1k-Kullan%C4%B1lan-Rozetler-Badge)
@@ -105,6 +106,29 @@ Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 | col 1 is | left-aligned  | \$1600 |
 | col 2 is |   centered    |   \$12 |
 | col 3 is | right-aligned |    \$1 |
+
+## Açılır Menü Oluşturma
+
+- `details` etiketi ile açılır menü oluşturulur
+- `summary` kısmı görünen metindir
+
+> `summary` alanında sonra boş satır olmazsa içerisindeki markdown işlenmez, olduğu gibi gözükür
+
+```md
+<details>
+<summary>Görünen metin</summary>
+
+- Detaylar
+
+</details>
+```
+
+<details>
+<summary>Görünen metin</summary>
+
+- Detaylar
+
+</details>
 
 ## Matematik Denklemleri
 

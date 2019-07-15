@@ -5,6 +5,9 @@
 - [CV Notları](#CV-Notlar%C4%B1)
 - [Windows için İkon Seti](#Windows-i%C3%A7in-%C4%B0kon-Seti)
 - [Adobe XD](#Adobe-XD)
+- [CamTasia Studio](#CamTasia-Studio)
+  - [Ses İşlemleri](#Ses-%C4%B0%C5%9Flemleri)
+- [Arkaplan Müzikleri](#Arkaplan-M%C3%BCzikleri)
 - [Renk Kodları](#Renk-Kodlar%C4%B1)
 - [Kaynaklar](#Kaynaklar)
 
@@ -31,6 +34,24 @@ Windows için ikon paketini [buradan][windows icon pack] indirebilirsin
 
 - [Web Design UI](https://www.youtube.com/watch?v=aShSUqSbhss)
 - [Your developer license has expired. To continue to use this app, please renew your license.](https://forums.adobe.com/thread/2607910)
+- [Error P505 ve Adobe'u Komple Kaldırma](https://forums.adobe.com/thread/2313884)
+
+## CamTasia Studio
+
+Popüler ve sade arayüzlü video editleme programlarından birisidir.
+
+### Ses İşlemleri
+
+- Ses'i hızlnadırmak için: _Sağ tuş, Add Clip Speed_
+- Sesin seviyesini düşürmek için _Sağ Tıkla -> Show Properties_
+
+## Arkaplan Müzikleri
+
+Arkplan sesleri olmazsa olmazlardandır.
+
+- [Ses kırpma sitesi](https://audiotrimmer.com/#)
+- [Epidemic Sounds](https://www.epidemicsound.com)
+- [13 Arkaplan Sesi Sitesi](https://buffer.com/library/background-music-video)
 
 ## Renk Kodları
 

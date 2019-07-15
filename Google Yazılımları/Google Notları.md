@@ -8,9 +8,9 @@
 
 ## Google Uygulamaları
 
-- [Fotoğraflar][Photos]
-- [Depolama][Drive]
-- [Not Alma][Keep]
+- [Fotoğraflar][photos]
+- [Depolama][drive]
+- [Not Alma][keep]
 
 ## Google Verilerinin Yönetimi
 
@@ -19,13 +19,15 @@
 - [Activity](https://myactivity.google.com/myactivity)
 - [Uygulama Erişimleri](https://myaccount.google.com/permissions)
 - [Cihazların Temizlenmesi](https://myaccount.google.com/security-checkup)
+  - 3 nokta ile cihazlardan çıkış yapabilirsin
 - [Gizliik İşlemleri](https://myaccount.google.com/privacycheckup)
 - [Sync Verisi](https://chrome.google.com/sync)
+- [Cihaz verileri]
 
 ## Google Veri Kullanım Bilgileri
 
 - [Depolama](https://one.google.com/storage)
 
-[Photos]: https://photos.google.com/
-[Drive]: https://drive.google.com
-[Keep]: https://keep.google.com/
+[photos]: https://photos.google.com/
+[drive]: https://drive.google.com
+[keep]: https://keep.google.com/

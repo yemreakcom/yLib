@@ -4,6 +4,7 @@
 
 - [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
 - [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
+- [Temel Dizinler](#Temel-Dizinler)
 - [Hata Notları](#Hata-Notlar%C4%B1)
   - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
   - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
@@ -35,6 +36,13 @@
 - İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
 - Çıkan ekrana `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
 - Kutucuğun işaretini kaldırın ve gerekli alana şifrenizi girip `APPLY` butonuna basın
+
+## Temel Dizinler
+
+Alttaki komutları <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile açılan **run** pencerisine yazmanız gerekmekte.
+
+- `shell:startup` Başlangıçta çalışan uygulamalar
+- `shell:application` Tüm uygulamalar
 
 ## Hata Notları
 

@@ -11,6 +11,31 @@
 - [Ümit KÖSE](http://umiitkose.com/android/)
 - [AbhiAndroid Android App Development eBook](https://drive.google.com/file/d/1yZz8-MFs8WYb192ONy8M1KN9gVG988mg/view?usp=sharing)
 
+## Telefonu WiFi Üzerinden PC'ye Bağlama
+
+<details>
+<summary>ADB ile Telefonu PC'ye Bağlama</summary>
+
+```sh
+# Telefonu USB ile bağlayın
+adb usb # USB moduna alır
+adb devices # Cihazları listeler
+adb tcpip <port> # Port açar
+adb connect <IP>:<port> # IP'ye verilen açılan port ile bağlanma
+adb list devices # Bağlanıldığını kontrol etme
+
+# ADB deamon işlemleri https://stackoverflow.com/a/52458945
+which adb # Adb konumunu görme
+locate adb
+```
+
+> IP değerini öğrenmek için `Ayarları - WiFi - Gelişmiş` kısmına bakabilirsiniz (ya da `adb shell netcfg`).
+
+</details>
+
+- Açıklamalara [buradan](http://codetheory.in/android-debug-bridge-adb-wireless-debugging-over-wi-fi/) erişebilirsin.
+- Telefonu PC üzerinden yönetmek için [buraya](https://android.gadgethacks.com/how-to/fully-control-your-android-device-from-any-computer-0164097/) bakabilirsin
+
 ## Animasyonlar
 
 ### Aşağıdan Gelme Animasyonu

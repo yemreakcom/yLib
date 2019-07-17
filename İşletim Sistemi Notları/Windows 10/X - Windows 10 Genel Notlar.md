@@ -6,6 +6,7 @@
 - [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
 - [Temel Dizinler](#Temel-Dizinler)
 - [Hata Notları](#Hata-Notlar%C4%B1)
+  - [Görev Çubuğundan Uygulamanın Kaldırılamaması](#G%C3%B6rev-%C3%87ubu%C4%9Fundan-Uygulaman%C4%B1n-Kald%C4%B1r%C4%B1lamamas%C4%B1)
   - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
   - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
 - [Windows Özellikleri](#Windows-%C3%96zellikleri)
@@ -45,6 +46,19 @@ Alttaki komutları <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile açılan **run** pencer
 - `shell:application` Tüm uygulamalar
 
 ## Hata Notları
+
+### Görev Çubuğundan Uygulamanın Kaldırılamaması
+
+Altataki komutları `cmd` üzerinden yazın ve ardından PC'yi yeniden başlatın.
+
+```sh
+DEL /F /S /Q /A "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\*"
+REG DELETE HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband /F
+taskkill /f /im explorer.exe
+start explorer.exe
+```
+
+> [Can't unpin a program from the taskbar ](https://answers.microsoft.com/en-us/windows/forum/windows_7-desktop/cant-unpin-a-program-from-the-taskbar/76e9bbc7-8717-4156-ab72-c9ac975dd6e9)
 
 ### Email Hesabı Kaydetme Sorunu
 

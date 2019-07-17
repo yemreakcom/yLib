@@ -2,17 +2,19 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Code Snippets](#Code-Snippets)
+- [Snippets](#Snippets)
 - [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
 - [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
-## Code Snippets
+## Snippets
+
+Verimli çalışmak için kod parçaları
 
 <details>
-<summary>Markdown</summary>
+<summary>Markdown snippets</summary>
 
-```json
+````json
 {
   // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
   // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
@@ -28,33 +30,70 @@
   // 	"description": "Log output to console"
   // }
 
-  "Omit from ToC": {
+  "Insert '<!-- omit in toc --->": {
     "prefix": "om",
     "body": ["<!-- omit in toc -->"],
     "description": "Omit from ToC"
   },
-  "Make 1 button key": {
+  "Insert 1 button key": {
     "prefix": "k1",
     "body": ["<kbd>$1</kbd>$0"],
     "description": "1 Buton anahtarı oluşturur"
   },
-  "Make 2 button key": {
+  "Insert 2 button key": {
     "prefix": "k2",
     "body": ["<kbd>$1</kbd> + <kbd>$2</kbd>$0"],
     "description": "2 Buton anahtarı oluşturur"
   },
-  "Make 3 button key": {
+  "Insert 3 button key": {
     "prefix": "k3",
     "body": ["<kbd>$1</kbd> + <kbd>$2</kbd> + <kbd>$3</kbd>$0"],
     "description": "3 Buton anahtarı oluşturur"
   },
-  "Toggle menu": {
+  "Insert toggle menu": {
     "prefix": "menu",
     "body": ["<details>", "<summary>$1</summary>", "", "$0", "", "</details>"],
     "description": "3 Buton anahtarı oluşturur"
+  },
+  "Insert code": {
+    "prefix": "code",
+    "body": ["```$1", "$2", "```", "$0"],
+    "description": "Kod parçası ekler"
+  },
+  "Insert toggle code menu": {
+    "prefix": "code-menu",
+    "body": [
+      "<details>",
+      "<summary>$1</summary>",
+      "",
+      "```$2",
+      "$3",
+      "```",
+      "</details>",
+      "$0"
+    ],
+    "description": "Açılır kod menüsü ekler"
+  },
+  "Insert code block": {
+    "prefix": "code-block",
+    "body": [
+      "##$1",
+      "",
+      "$2",
+      "",
+      "<details>",
+      "<summary>$3</summary>",
+      "",
+      "```$4",
+      "$5",
+      "```",
+      "</details>",
+      "$0"
+    ],
+    "description": "Kod bloğu oluşturur"
   }
 }
-```
+````
 
 </details>
 

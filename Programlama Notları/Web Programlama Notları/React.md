@@ -6,6 +6,8 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
+- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
+  - [CSS Oluşturma](#CSS-Olu%C5%9Fturma)
 - [Neden React](#Neden-React)
 - [React Kullanımı](#React-Kullan%C4%B1m%C4%B1)
 - [Temel Kavramlar](#Temel-Kavramlar)
@@ -28,6 +30,21 @@
 - [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
 
 Facebook'un çıkarmış olduğu bir web programlama framework'udür.
+
+## Hızlı Notlar
+
+> Burası ileride kaldırılacak
+
+### CSS Oluşturma
+
+Oluşturulan stili `style = {myStyle}` şeklinde kullanabiliriz.
+
+```jsx
+const myStyle = StyleSheed.create({
+  fontSize: 19,
+  color: ...
+})
+```
 
 ## Neden React
 

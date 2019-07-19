@@ -5,6 +5,7 @@
 - [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)
   - [Dosyaları Yapılandırma](#Dosyalar%C4%B1-Yap%C4%B1land%C4%B1rma)
 - [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
+- [JPackage ile Çıkarma](#JPackage-ile-%C3%87%C4%B1karma)
 - [Kod Notları](#Kod-Notlar%C4%B1)
   - [Kod Tarafında CSS Değiştirme](#Kod-Taraf%C4%B1nda-CSS-De%C4%9Fi%C5%9Ftirme)
   - [Thread ile Kodlama](#Thread-ile-Kodlama)
@@ -80,6 +81,12 @@ Dizinleri IDE üzerinden yapılandırak daha verimli çalışabilirsin.
 - Ya da visible değerini `false` yaparsın
 - En alta alınan program çalıştığında ilk görülendir
 - [Arkaplanı görünmez yapma](https://stackoverflow.com/a/48404925/9770490)
+
+## JPackage ile Çıkarma
+
+- İlk olarak [buradan](https://jdk.java.net/jpackage/) JPackage'ı indirmen lazım.
+
+> [MSPaint](https://wiki.ms-paint-i.de/developing#prerequesits) adlı yazılım JPackage ile çıkarılmış (?)
 
 ## Kod Notları
 

@@ -4,8 +4,11 @@
 
 - [İndirme](#%C4%B0ndirme)
 - [Faydalı Programlar](#Faydal%C4%B1-Programlar)
+- [Temel Dizinler](#Temel-Dizinler)
 - [Uygulama Verileri](#Uygulama-Verileri)
+- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
 - [Kısayollar](#K%C4%B1sayollar)
+  - [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
   - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
   - [Gezimti](#Gezimti)
   - [Girdi İşlemleri](#Girdi-%C4%B0%C5%9Flemleri)
@@ -27,7 +30,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - _Safari – iPad iOS 9_
 - Sayfayı yenileyin
 
-> Detaaylı bilgi için [buraya](https://pureinfotech.com/download-windows-10-iso-without-media-creation-tool/) tıklayabilirsin.
+> Detaylı bilgi için [buraya](https://pureinfotech.com/download-windows-10-iso-without-media-creation-tool/) tıklayabilirsin.
 
 ## Faydalı Programlar
 
@@ -48,6 +51,13 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [Capitaine Cursors r2] | Mouse için karanlık tema                     |
 | Light Key              | Metin tamamlama (Ctrl + TIklama ile) 🤔      |
 
+## Temel Dizinler
+
+Alttaki komutları <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile açılan **run** pencerisine yazmanız gerekmekte.
+
+- `shell:startup` Başlangıçta çalışan uygulamalar
+- `shell:AppsFolder` Tüm uygulamalar
+
 ## Uygulama Verileri
 
 - `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
@@ -55,11 +65,27 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 - `C:\Users\%username%\AppData\Local`
 - `C:\ProgramData`
 
+## Otomatik Olarak Oturum Açma
+
+- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
+- Çıkan ekrana `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
+- Kutucuğun işaretini kaldırın ve gerekli alana şifrenizi girip `APPLY` butonuna basın
+
 ## Kısayollar
 
-Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde çalı şır.
+Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde çalışır.
 
 > Kısayollarını kendin düzenlemek istersen [AutoHotkey](https://www.autohotkey.com) adlı uygulamayı kullanabilirsin.
+
+### Kısayol Oluşturma
+
+- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
+- İçerisine `shell:AppsFolder` yazıp <kbd>ENTER</kbd>'a basın
+- Çıkan dizinde kısayolunu oluşturmak istediğiniz uygulamaya tıklayın `Create Shortcut` deyin
+- Oluşturulamadı ekranı gelecek ve `Yes` deyin
+- Masaüstüne gelip oluşan kısayola sağ tıklayın
+- `Shortcut` alnına tıklayıp klavyenizden bir tuşa basın
+- <kbd>CTRL</kbd> + <kbd>ALT</kbd> kombinasyonları ile kısayol oluşturabilirsiniz
 
 ### Uygulama İşlemleri
 

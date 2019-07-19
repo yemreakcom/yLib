@@ -2,13 +2,6 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
-- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
-- [Temel Dizinler](#Temel-Dizinler)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Görev Çubuğundan Uygulamanın Kaldırılamaması](#G%C3%B6rev-%C3%87ubu%C4%9Fundan-Uygulaman%C4%B1n-Kald%C4%B1r%C4%B1lamamas%C4%B1)
-  - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
-  - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
 - [Windows Özellikleri](#Windows-%C3%96zellikleri)
   - [Varsayılan Windows Özellikleri](#Varsay%C4%B1lan-Windows-%C3%96zellikleri)
   - [Alt İşletim Sistemleri](#Alt-%C4%B0%C5%9Fletim-Sistemleri)
@@ -17,61 +10,14 @@
 - [Terimler](#Terimler)
 - [Windows 10 Ön Belleğini Temizleme](#Windows-10-%C3%96n-Belle%C4%9Fini-Temizleme)
   - [CMD Üzerinden Önbelleği Elle Temizleme](#CMD-%C3%9Czerinden-%C3%96nbelle%C4%9Fi-Elle-Temizleme)
+- [Hata Notları](#Hata-Notlar%C4%B1)
+  - [Görev Çubuğundan Uygulamanın Kaldırılamaması](#G%C3%B6rev-%C3%87ubu%C4%9Fundan-Uygulaman%C4%B1n-Kald%C4%B1r%C4%B1lamamas%C4%B1)
+  - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
+  - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
 - [Windows10 Insider Programı](#Windows10-Insider-Program%C4%B1)
   - [Insider Kısayolları](#Insider-K%C4%B1sayollar%C4%B1)
   - [Arka Plandaki Evolution Copy Logosunu Kaldırma](#Arka-Plandaki-Evolution-Copy-Logosunu-Kald%C4%B1rma)
 - [Harici Linkler](#Harici-Linkler)
-
-## Kısayol Oluşturma
-
-- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
-- İçerisine `shell:AppsFolder` yazıp <kbd>ENTER</kbd>'a basın
-- Çıkan dizinde kısayolunu oluşturmak istediğiniz uygulamaya tıklayın `Create Shortcut` deyin
-- Oluşturulamadı ekranı gelecek ve `Yes` deyin
-- Masaüstüne gelip oluşan kısayola sağ tıklayın
-- `Shortcut` alnına tıklayıp klavyenizden bir tuşa basın
-- <kbd>CTRL</kbd> + <kbd>ALT</kbd> kombinasyonları ile kısayol oluşturabilirsiniz
-
-## Otomatik Olarak Oturum Açma
-
-- İlk olarak <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile `Run` alanını açın
-- Çıkan ekrana `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
-- Kutucuğun işaretini kaldırın ve gerekli alana şifrenizi girip `APPLY` butonuna basın
-
-## Temel Dizinler
-
-Alttaki komutları <kbd>WINDOWS</kbd> + <kbd>R</kbd> ile açılan **run** pencerisine yazmanız gerekmekte.
-
-- `shell:startup` Başlangıçta çalışan uygulamalar
-- `shell:application` Tüm uygulamalar
-
-## Hata Notları
-
-### Görev Çubuğundan Uygulamanın Kaldırılamaması
-
-Altataki komutları `cmd` üzerinden yazın ve ardından PC'yi yeniden başlatın.
-
-```sh
-DEL /F /S /Q /A "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\*"
-REG DELETE HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband /F
-taskkill /f /im explorer.exe
-start explorer.exe
-```
-
-> [Can't unpin a program from the taskbar ](https://answers.microsoft.com/en-us/windows/forum/windows_7-desktop/cant-unpin-a-program-from-the-taskbar/76e9bbc7-8717-4156-ab72-c9ac975dd6e9)
-
-### Email Hesabı Kaydetme Sorunu
-
-- `Setting` - `Privacy` başlığı altında alttaki izinleri mail uygulamasına tanıyın
-  - Email
-  - Account info
-  - Contact
-
-> Diğer izinleri kapatın gitsin, verilerinizi toplamasın 🧐
-
-### Altgr gibi Tuşlar ile Özel Karakter Oluşturamama
-
-![win_langbug](../../res/win_langbug.png)
 
 ## Windows Özellikleri
 
@@ -142,6 +88,34 @@ echo "Cikan Ekranda 'Yapilandir' butonuna bastiktan sonra 'Temizle' butonuna bas
 SystemPropertiesProtection.exe
 
 ```
+
+## Hata Notları
+
+### Görev Çubuğundan Uygulamanın Kaldırılamaması
+
+Altataki komutları `cmd` üzerinden yazın ve ardından PC'yi yeniden başlatın.
+
+```sh
+DEL /F /S /Q /A "%AppData%\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\*"
+REG DELETE HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband /F
+taskkill /f /im explorer.exe
+start explorer.exe
+```
+
+> [Can't unpin a program from the taskbar ](https://answers.microsoft.com/en-us/windows/forum/windows_7-desktop/cant-unpin-a-program-from-the-taskbar/76e9bbc7-8717-4156-ab72-c9ac975dd6e9)
+
+### Email Hesabı Kaydetme Sorunu
+
+- `Setting` - `Privacy` başlığı altında alttaki izinleri mail uygulamasına tanıyın
+  - Email
+  - Account info
+  - Contact
+
+> Diğer izinleri kapatın gitsin, verilerinizi toplamasın 🧐
+
+### Altgr gibi Tuşlar ile Özel Karakter Oluşturamama
+
+![win_langbug](../../res/win_langbug.png)
 
 ## Windows10 Insider Programı
 

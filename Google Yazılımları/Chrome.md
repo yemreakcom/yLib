@@ -72,10 +72,10 @@
 
 ### Programlama Eklentileri
 
-| Eklenti                                                   e                                                 | Açıklama                                                     |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Eklenti                                                      | Açıklama                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
-| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)     | Web işlemlerini tekrarlayan web testing yazılımı             |
+| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) | Web işlemlerini tekrarlayan web testing yazılımı             |
 
 ### Web Eklentileri
 

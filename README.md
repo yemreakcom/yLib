@@ -187,6 +187,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [CNN notları](./Yapay%20Zeka%20Notlar%C4%B1/CNN%20notlar%C4%B1.md)
 - [Deep Neural Netwok](./Yapay%20Zeka%20Notlar%C4%B1/Deep%20Neural%20Netwok.md)
 - [Makine Öğrenimi](./Yapay%20Zeka%20Notlar%C4%B1/Makine%20%C3%96%C4%9Frenimi.md)
+- [Tensorflow](./Yapay%20Zeka%20Notlar%C4%B1/Tensorflow.md)
 - [Türkçe Yapay Zeka Kaynakları](./Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.md)
 - [Veri Bilimi](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20Bilimi.md)
 - [Veri Kümeleri](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmeleri.md)

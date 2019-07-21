@@ -43,7 +43,7 @@
 
 Metin karakterlerini sayma
 
-```py
+```python
 string = "Yemreak"
 for i, char in enumerate(string):
   print(i, char)
@@ -56,7 +56,7 @@ for i, char in enumerate(string):
 
 Dosya satırlarını a'dan başlayarak sayma
 
-```py
+```python
 with open(FILE, "r") as file:
   for i, line in enumerate(file, a):
     print(f"{i}. {line}")
@@ -77,7 +77,7 @@ Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yuk
 
 ### Fonksiyon İskeleti
 
-```py
+```python
 def function_name(parameters):
   """docstring"""
   statement(s)
@@ -85,7 +85,7 @@ def function_name(parameters):
 
 ### Fonksiyon Örneği
 
-```py
+```python
 def greet(name):
   """This function greets to
   the person passed in as
@@ -108,7 +108,7 @@ Fonksiyonlar tanımlandığı vakit varsayılan atamalar yapılır.
 
 > Bu yüzden **zaman hesaplama** gibi işlemleri burada yapmanız **mantıklı olmayacak**, zaman farkı **0** olarak gelecektir.
 
-```py
+```python
 def greet(name, msg = "Good morning!"):
    """
    This function greets to
@@ -129,7 +129,7 @@ greet("Bruce", msg="Naber") # İşaretleyerek paremetre verme
 
 ### Fonksiyonlarda Keyfi Parametreler
 
-```py
+```python
 def greet(*names):
    """This function greets all
    the person in the names tuple."""
@@ -149,13 +149,13 @@ Alttaki komut, alt medoların listesini verir.
 
 > Alt metod `.` ile kullandığımız metodlar.
 
-```py
+```python
 dir(<func | modul>)
 ```
 
 ## Özyineleyen Fonksiyonlar
 
-```py
+```python
 def calc_factorial(x):
     """This is a recursive function
     to find the factorial of an integer"""
@@ -194,7 +194,7 @@ calc_factorial(4)              # 1st call with 4
 
 ## Lambda Fonksiyonlar
 
-```py
+```python
 double = lambda x: x * 2 # lambda fonksiyon
 
 
@@ -206,7 +206,7 @@ def double(x): # Fonksiyon
 
 Sadece koşulu sağlayan değerleri döndürür.
 
-```py
+```python
 listem = [1, 5, 4, 6, 8, 11, 3, 12]
 
 cift_listem = list(filter(lambda x: (x%2 == 0) , listem))
@@ -217,7 +217,7 @@ print(cift_listem) # [4, 6, 8, 12]
 
 Her eleman için işlem yapar.
 
-```py
+```python
 listem = [1, 5, 4, 6, 8, 11, 3, 12]
 
 katlanmis_listem = list(map(lambda x: x * 2 , listem))
@@ -232,7 +232,7 @@ Python ile fonksiyon içinde fonksiyon tanımalamak mümkündür.
 
 > Hatırlatma: Kodların derlenme yapısı yukarıdan aşağı olduğu için fonksiyonlar **yukarıda (önceden) tanımlanmadan** kullanılamaz.
 
-```py
+```python
 def func1(param):
 
     # func2() bu alanda kullanılamaz
@@ -249,7 +249,7 @@ func1("Selam")
 
 ### Karmaşık İç İçe Fonksiyon
 
-```py
+```python
 def foo():
     bar()
 
@@ -269,7 +269,7 @@ def bar():
 
 ### Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)
 
-```py
+```python
 x = 5 # Global değişken
 
 def func1(param):
@@ -306,7 +306,7 @@ def func1(param):
 
 ### Global Kullanımına Örnek
 
-```py
+```python
 x = 5
 
   def xDegistir():
@@ -320,7 +320,7 @@ x = 5
 
 ### Global Kullanımına Ek Örnek
 
-```py
+```python
 def scope_test():
     def do_local():
         spam = "local spam"
@@ -345,12 +345,26 @@ scope_test()
 print("In global scope:", spam)
 ```
 
-```txt
+```bash
 After local assignment: test spam
 After nonlocal assignment: nonlocal spam
 After global assignment: nonlocal spam
 In global scope: global spa
 ```
+
+## Alt Fonksiyonlar
+
+Objelerin ve classların alt fonksiyonlarını `dir(<obj>)` metodu ile görüntüleyebiliriz.
+
+
+
+```python
+dir("X") # String metodlarını listeler
+dir([]) # List metodlarını listeler
+dir(<class>) # Class metodlarını listeler
+```
+
+
 
 ## Fonksiyonlarda Hız
 
@@ -358,6 +372,7 @@ Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapı
 
 - ~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
 - Bu değer bilgisayar **donanımınıza göre değişiklik** gösterecektir
+- Hafızayı (*memorial*) kullanan fonksiyonlar tekrarlı (*recursive*) fonksiyonlardan daha **hızlıdır**.
 
 > **Ek kaynaklar:**
 >
@@ -368,7 +383,7 @@ Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapı
 
 > Google colabratory üzerinden çalıştırmak için [buraya][fonksiyon testini colab üzerinde çalıştırma] tıklayabilirsin.
 
-```py
+```python
 from time import time
 
 # Obje uzunluğu
@@ -432,7 +447,7 @@ print("Fonksiyon işlemi normalden %" + "%.2f daha hızlı, testlerde " % avg_fu
 
 ```
 
-```py
+```python
 # Colab çıktıları
 Fonksiyon işlemi normalden %47.32 daha hızlı, testlerde %0.09 ihtimalle yavaş kalmıştır.
 Fonksiyon işlemi normalden %46.86 daha hızlı, testlerde %0.21 ihtimalle yavaş kalmıştır.

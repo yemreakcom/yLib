@@ -4,14 +4,14 @@
 
 ## Median Alma
 
-```py
+```python
 import statistic
 
 ```
 
 ## Medyan Filtre
 
-```py
+```python
 final = cv2.medianBlur(source, 3)
 ```
 
@@ -19,7 +19,7 @@ final = cv2.medianBlur(source, 3)
 
 OpenCV ile alırsak resim numpy formatında olur.
 
-```py
+```python
 import cv2
 im = cv2.imread("abc.tiff",mode='RGB')
 print type(im)

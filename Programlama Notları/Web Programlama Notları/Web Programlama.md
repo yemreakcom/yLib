@@ -90,6 +90,12 @@ Web otomasyonu için selenium ide kullanılmaktadır.
 - Chrome için eklentisini [buraya](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) tıklayarak indirebilirsin.
 - Örnek video için [buraya](https://www.youtube.com/watch?v=4I7xay_NV8A) bakabilirsin.
 
+### Faydalı Bileşenler
+
+- WYSIWYG anında derlenmesine verilen isim
+- [HTML Editör](https://www.froala.com/wysiwyg-editor)
+- [Toast UI](https://ui.toast.com/tui-editor)
+
 ## Faydalı Araçlar
 
 - [CSS Animasyonu Oluşturucu](http://animista.net)

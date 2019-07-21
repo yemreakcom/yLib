@@ -38,7 +38,7 @@ If içerisine yazılan koşul otomatik olarak `bool` değişkenine dönüştür�
 - `:` ile if / else satırı sonlandırılır
 - `Tab` kadar boşluk atılırsa if scope\*'u içerisinde olur
 
-```py
+```python
 num = float(input("Sayı giriniz: "))
 if num >= 0:
     if num == 0:
@@ -53,7 +53,7 @@ else:
 
 ### Üçlü (Ternary) If / Else Yapısı
 
-```py
+```python
 fruit = 'Apple'
 isApple = True if fruit == 'Apple' else False
 ```
@@ -62,7 +62,7 @@ isApple = True if fruit == 'Apple' else False
 
 ### For Döngüsü
 
-```py
+```python
 sayilar = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 toplam = 0 # Toplam değeri tutacak değişken
 
@@ -74,14 +74,14 @@ print("Toplam değer:", sum) # Toplam Değer: 48
 
 #### Değişken içinde For Döngüsü
 
-```py
+```python
 values = [item.value for item in Fruit]  # [4, 5, 6]
 values = set(item.value for item in Fruit)  # {4, 5, 6}
 ```
 
 #### İki Liste Üzerinde Paralel For Döngüsü
 
-```py
+```python
 for num, cheese, color in zip([1,2,3], ['manchego', 'stilton', 'brie'],
                               ['red', 'blue', 'green']):
     print('{} {} {}'.format(num, color, cheese))
@@ -95,9 +95,11 @@ for num, cheese, color in zip([1,2,3], ['manchego', 'stilton', 'brie'],
 
 ### Range Fonksiyonu
 
-**Temel Kullanım:**
+- Python 2'deki `xrange` metoduna eş değerdir.
+- `generator` tipinde veri döndürür
+- Sadece döngüler ile verilerine erişilebilir
 
-```py
+```python
 # for i in <range>:
 for i in range(0,3):
     print(i)
@@ -112,7 +114,7 @@ for i in range(0,3):
 
 ### While Döngüsü
 
-```py
+```python
 sayac = 0
 
 while sayac < 3:
@@ -131,7 +133,7 @@ Döngü dışında
 
 ## Break / Continue
 
-```py
+```python
 for deger in "string":
     if deger == "i":
         break # Döngüyü sonlandırır
@@ -216,7 +218,7 @@ Son
 
 #### Kimlik Belirleme Operatörleri Örneği
 
-```py
+```python
 x1 = 5
 y1 = 5
 x2 = 'Hello'
@@ -245,7 +247,7 @@ print(x3 is y3)
 
 #### Üyelik Operatörleri Örneği
 
-```py
+```python
 x = 'Hello world'
 y = {1:'a',2:'b'}
 
@@ -267,21 +269,21 @@ print('a' in y) # False ('a' bir değerdir anahtar değildir)
 
 ### Ondalıklı Sayılar (Decimals / Floats)
 
-```py
+```python
 >>> (1.1 + 2.2) == 3.3
 False
 >>> 1.1 + 2.2
 3.3000000000000003
 ```
 
-```py
+```python
 import decimal
 
 print(0.1) # 0.1
 print(decimal.Decimal(0.1)) # Decimal('0.1000000000000000055511151231257827021181583404541015625')
 ```
 
-```py
+```python
 from decimal import Decimal as D
 
 print(D('1.1') + D('2.2')) #  Decimal('3.3')
@@ -295,7 +297,7 @@ print(D('1.2') * D('2.50')) # Decimal('3.000')
 
 #### Kesirli Sayılar (Fractions)
 
-```py
+```python
 import fractions
 
 print(fractions.Fraction(1.5)) # 3/2
@@ -303,7 +305,7 @@ print(fractions.Fraction(5)) # 5
 print(fractions.Fraction(1,3)) # 1/3
 ```
 
-```py
+```python
 import fractions
 
 # Floatlar virgülden sonra da sayı barındırdığından dolayı farklı sonuç verir
@@ -313,7 +315,7 @@ print(fractions.Fraction('1.1')) # 11/10
 
 #### Kesirli Sayılarla İşlemler
 
-```py
+```python
 from fractions import Fraction as F
 
 print(F(1,3) + F(1,3)) # 2/3
@@ -324,7 +326,7 @@ print(F(-3,10) < 0) # True
 
 ### Matematik İşlemleri
 
-```py
+```python
 import math
 
 print(math.pi) # 3.141592653589793
@@ -337,7 +339,7 @@ print(math.factorial(6)) # 720
 
 #### Matematikte Rastgelelik
 
-```py
+```python
 import random
 
 x = ['a', 'b', 'c', 'd', 'e']

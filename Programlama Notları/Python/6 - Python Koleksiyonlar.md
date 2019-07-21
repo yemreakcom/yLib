@@ -23,7 +23,7 @@ Python'da hazırlarnmış verimli veri yapılarıdır.
 
 > `namedtuple`, neredeyse hiç hafıza maliyeti olmadan kendi kendini belgeleyen kod oluşturmak için harika bir yoldur.
 
-```py
+```python
 from collections import namedtuple
 Vector3 = namedtuple('Vector', ['x', 'y', 'z'], verbose=True)
 
@@ -41,7 +41,7 @@ tfunc(*vec)
 
 ### NamedTuple ile Üretilen Kod
 
-```py
+```python
 from builtins import property as _property, tuple as _tuple
 from operator import itemgetter as _itemgetter
 from collections import OrderedDict
@@ -100,7 +100,7 @@ List objelerinin uç noktaları ile ilgilenen bir yapıdır.
   - List için $O(N)$ Dque için $O(1)$
   - ${Verim}_{O(1)} > {Verim}_{O(N)}$
 
-```py
+```python
 from collections import deque
 
 d = deque([2,3,4,5]) # deque([2, 3, 4, 5])
@@ -112,7 +112,7 @@ d.appendleft(20) # deque([20, 2, 3, 4, 5, 10])
 
 > Süreleri **IPython**'da `%%timeit` kodu ile hesaplayabilirsin
 
-```py
+```python
 # %%timeit
 d = deque()
 for i in range(40000):
@@ -121,7 +121,7 @@ for i in range(40000):
 # 3.76 ms ± 35.6 µs per loop (mean ± std. dev. of 7 runs, 100 loops each)
 ```
 
-```py
+```python
 # %%timeit
 l_ = list()
 for i in range(40000):
@@ -130,7 +130,7 @@ for i in range(40000):
 # 410 ms ± 5.94 ms per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
 
-```py
+```python
 list(d) == l_ # True
 ```
 
@@ -141,7 +141,7 @@ list(d) == l_ # True
 - Olmayan anahtarlar için `0` değeri döndürülür
 - En fazla tekrar eden anahtarlar için `most_common(<gösterilecek_anahtar_sayısı>)` fonksiyonu kullanılır
 
-```py
+```python
 from collections import Counter
 ele = ['a','b','a','c','b','b','d']
 c = Counter(ele)
@@ -168,7 +168,7 @@ Sıralanmış `dict` olarak geçmektedir
 
 ### DefaultDict Avantajı
 
-```py
+```python
 from collections import defaultdict
 def count_default(x):
     count_dict = defaultdict(int)
@@ -178,7 +178,7 @@ def count_default(x):
 count_default(ele)
 ```
 
-```py
+```python
 def count(x):
     count_dict = {}
     for ele in x:

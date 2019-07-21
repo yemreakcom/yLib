@@ -48,11 +48,12 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 | ----------------------- | ------------------------ | -------------------------------------- | --------------------- |
 | `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                   |
 | `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`        |
+| `lower`, `upper` | Küçük / büyük harf | `"As".lower()`, `"As".upper()` | `"as"`, `AS` |
 | `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`       |
 | `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`              |
 | `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`           |
-| `u`                     | Unicode string ön eki    |
-| `"""`                   | Çok satırlı string       |
+| `u`                     | Unicode string ön eki    |||
+| `"""`                   | Çok satırlı string       |||
 | `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']` |
 | `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`       |
 | `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`          |
@@ -76,7 +77,7 @@ Stringler `string[i] = char` yapısını desteklemez, alttaki yöntem gibi işle
 
 **Slice özelliği ile:**
 
-```py
+```python
 def change_char(string, i, char):
     if i != -1:
         return string[:i]+char+string[i+1:]
@@ -86,7 +87,7 @@ def change_char(string, i, char):
 
 ### String'in Karakterleri Ters Çevirme
 
-```py
+```python
 def reverse_char(sentence):
     rev = ""
     for i in range(1, len(sentence) + 1):
@@ -97,7 +98,7 @@ def reverse_char(sentence):
 
 ### String'in Kelimelerini Ters Çevirme
 
-```py
+```python
 def reverse_word(sentence):
     words = sentence.split(' ')
     for i in range(1, len(words) + 1):
@@ -110,7 +111,7 @@ def reverse_word(sentence):
 
 Alttaki yöntem ile tek bir karakteri string içerisinde bulabilirsiniz.
 
-```py
+```python
 string = "yemreak"
 tek_metin = "yemre"
 metinler = ['emre', 'ak']
@@ -133,7 +134,7 @@ if any(metin in string for metin in metinler):
 
 ### Metin karakterlerini sayma
 
-```py
+```python
 string = "Yemreak"
 for i, char in enumerate(string):
   print(i, char)
@@ -146,7 +147,7 @@ for i, char in enumerate(string):
 
 ### Dosya satırlarını a'dan başlayarak sayma
 
-```py
+```python
 with open(FILE, "r") as file:
   for i, line in enumerate(file, a):
     print(f"{i}. {line}")

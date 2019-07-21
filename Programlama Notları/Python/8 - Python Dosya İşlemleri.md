@@ -18,7 +18,7 @@
 
 Python üzerinde dosya işlemleri oldukça kolaydır ve `context manager` ile halledilir.
 
-```py
+```python
 with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
     # İşlemler
     pass
@@ -43,14 +43,14 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 
 ## Context Manager ile Dosyayı Okuyup Kapatma
 
-```py
+```python
 file_str = ""
 with open("README.md", "r", encoding="utf-8") as file:
     file_str = "".join(file.readlines())
 
 ```
 
-```py
+```python
 file_str = ""
 with open("README.md", "r", encoding="utf-8") as file:
     for line in file:
@@ -58,13 +58,13 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 ```
 
-```py
+```python
 with open(xml_path) as fp:
         for row, line in enumerate(fp):
             pass
 ```
 
-```py
+```python
 with open("README.md", "r", encoding="utf-8") as file:
     lines = list(file) # Tüm satırları liste olarak döndürür
     line = file.readline() # Tek bir satırı string olarak döndürür
@@ -79,7 +79,7 @@ Sürekli açık olan bir dosya için:
 - `flush()` metodu ile değişikliklerinizi kaydetmelisiniz
 - Dosyayı kapatmak için `close()` metodunu kullanın
 
-```py
+```python
 DOSYA_YOLU = "README.md"
 DOSYA_MODU = "w+" # w, a, r, w+ ...
 ENCODING = "utf-8" # Özel karakterleri aktif etmek için
@@ -105,7 +105,7 @@ Dizin işlemleri için `os` veya `glob` paketi kullanılır.
 
 ### Dizin veya Dosya Yolları Listesi Döndürme
 
-```py
+```python
 def listfolderpaths(path=os.getcwd()):
         folderlist = []
         for name in os.listdir(path):
@@ -128,7 +128,7 @@ list_images(r"C\Users\Picture", ".jpg")
 
 ### Python System Dizinlerine Erişme (System Enviroment)
 
-```py
+```python
 import os, sys, site
 ENVIROMENT_VAR = "WINDIR" # Sistem değişkeni isimleri
 
@@ -143,7 +143,7 @@ modul_init_path = os.__file__ # Os modülünün init dosyasının yolu
 
 Herhangi bir kullanıcı modülü (_`pip install` ile indirilenler_) vasıtasıyla erişebiliriz.
 
-```py
+```python
 import module # Herhangi bir pip ile indirilen modülü temsil eder, örn: pynput
 
 path = module.__file__
@@ -175,7 +175,7 @@ Dosya yolu işlemleri için `os.path` modülü kullanılır.
 
 Raporlama işlemleri için `logging` modülü kullanılır
 
-```py
+```python
 import logging
 
 message = "Raporlanacak"

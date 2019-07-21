@@ -5,6 +5,7 @@
 - [Snippets](#Snippets)
 - [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
 - [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
+- [Eklentirlerim](#Eklentirlerim)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Snippets
@@ -126,7 +127,7 @@ Verimli çalışmak için kod parçaları
   // Terminal ayarlarım
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.fontFamily": "Consolas",
-  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\usr\\bin\\bash.exe",
   // Satır uzunluğu ayarı
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 200,
@@ -136,6 +137,9 @@ Verimli çalışmak için kod parçaları
   // Git ayarları
   "git.confirmSync": false,
   "git.autofetch": false,
+  // Python ayarları
+  "python.pythonPath": "C:\\tools\\miniconda3\\python.exe",
+  "python.jediEnabled": false,
   // Javasciprt ayarları
   "javascript.updateImportsOnFileMove.enabled": "always",
   // Pano'dan resim kopyalam ayarı
@@ -252,4 +256,27 @@ Verimli çalışmak için kod parçaları
 
 </details>
 
+## Eklentirlerim
+
+<details>
+<summary>Eklenti indirme komutunu göster</summary>
+
+```code
+code \
+  --install-extension yedhrab.darkcode-theme-adopted-python-and-markdown \
+  --install-extension yzhang.markdown-all-in-one \
+  --install-extension yzane.markdown-pdf \
+  --install-extension bierner.markdown-preview-github-styles \
+  --install-extension pkief.material-icon-theme \
+  --install-extension mushan.vscode-paste-image \
+  --install-extension esbenp.prettier-vscode \
+  --install-extension wakatime.vscode-wakatime \
+```
+
+![ex_output](../../res/ex_output.png)
+
+</details>
+
 ## Harici Bağlantılar
+
+- [Faydalı eklentiler](https://nickjanetakis.com/blog/my-favorite-vscode-extensions-and-settings)

@@ -27,7 +27,7 @@
 
 Boolean değeri sağlanmazsa hata verir ve programı kapatır.
 
-```py
+```python
 assert <bool>, <açıklama>
 ```
 
@@ -38,7 +38,7 @@ assert <bool>, <açıklama>
 
 ### Assertion Örnekleri
 
-```py
+```python
 def KelvinToFahrenheit(Temperature):
    assert (Temperature >= 0),"Colder than absolute zero!"
    return ((Temperature-273)*1.8)+32
@@ -59,7 +59,7 @@ AssertionError: Colder than absolute zero!
 
 ## Zaman İşlemlemleri (Time, Datetime)
 
-```py
+```python
 import time
 from datetime import datetime
 
@@ -73,7 +73,7 @@ datetime.now().strftime('%d-%b-%Y-%H:%M:%S') # Formatlı zaman bilgisi 26-Jun-20
 
 Olası hatalarda programın kapanmasını engelleyerek hata kontrolü sağlar.
 
-```py
+```python
 try:
     a = float("Ben sayı değilim")
 except ValueError as err:
@@ -84,7 +84,7 @@ except ValueError as err:
 
 Python üzerinde dosya işlemleri oldukça kolaydır ve `context manager` ile halledilir.
 
-```py
+```python
 with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
     # İşlemler
     pass
@@ -99,14 +99,14 @@ with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
 
 ### Dosya Okuma
 
-```py
+```python
 file_str = ""
 with open("README.md", "r", encoding="utf-8") as file:
     file_str = "".join(file.readlines())
 
 ```
 
-```py
+```python
 file_str = ""
 with open("README.md", "r", encoding="utf-8") as file:
     for line in file:
@@ -114,13 +114,13 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 ```
 
-```py
+```python
 with open(xml_path) as fp:
         for row, line in enumerate(fp):
             pass
 ```
 
-```py
+```python
 with open("README.md", "r", encoding="utf-8") as file:
     lines = list(file) # Tüm satırları liste olarak döndürür
     line = file.readline() # Tek bir satırı string olarak döndürür
@@ -129,7 +129,7 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 ## İşletim Sistemini Tespit Etme
 
-```py
+```python
 import platform as _platform
 if _platform.system() == 'Windows':
     from. import _winmouse as _os_mouse
@@ -143,7 +143,7 @@ else:
 
 ## Program Kapandığında İşlem Yapma (on Exit)
 
-```py
+```python
 import atexit
 
 def exit_handler():
@@ -169,7 +169,7 @@ Thread modülü ile satır satır ilerleyen kod yerine karma ilerleyen kodlar ya
 
 ### Thread Yapısı
 
-```py
+```python
 import threading
 
 def ela(fname, orig_dir, save_dir):
@@ -195,7 +195,7 @@ print("Finished!")
 
 ### Tekrarlayıcı Yapısı
 
-```py
+```python
 from time import sleep
 from threading import Thread
 
@@ -232,7 +232,7 @@ tisdum
 
 ### Zamanlayıcı Yapısı (Timer)
 
-```py
+```python
 import threading
 
 
@@ -246,7 +246,7 @@ run_check()
 
 ### Bir Plana göre Fonksiyon Çalıştırma
 
-```py
+```python
 import sched, time
 s = sched.scheduler(time.time, time.sleep)
 def do_something(sc):
@@ -266,7 +266,7 @@ Python'da eş zamanlı işler `thread` ile yapılamaz
 
 ### Multiprocessing Örneği
 
-```py
+```python
 from multiprocessing import Process
 
 
@@ -302,7 +302,7 @@ if __name__ == '__main__':
 
 ### PYTHONPATH Ayarlama
 
-```py
+```python
 # Tek başına çalışmak isterse
 if __name__ == "__main__":
     import os
@@ -312,7 +312,7 @@ if __name__ == "__main__":
 
 ### Ekran Görünüsünü Alma ve Kaydetme
 
-```py
+```python
 from PIL import ImageGrab as ig
 
 import numpy as np
@@ -388,7 +388,7 @@ while True:
 
 ### Kısayol ile Ekran Alanı Seçme
 
-```py
+```python
 def draw_dimension(hotkey="ctrl_l") -> tuple:
     """Ekrandan seçilen alanın koordinatlarını verir
 

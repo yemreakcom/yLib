@@ -2,11 +2,21 @@
 
 ## İçerikler <!-- omit in toc -->
 
+- [Fonksiyonun Aldığı Vakti Hesaplama](#Fonksiyonun-Ald%C4%B1%C4%9F%C4%B1-Vakti-Hesaplama)
 - [Değişkenlerin Değerlerini Bulma](#De%C4%9Fi%C5%9Fkenlerin-De%C4%9Ferlerini-Bulma)
 - [Bağımlılıkları ve PythonPath'i Ayarlama](#Ba%C4%9F%C4%B1ml%C4%B1l%C4%B1klar%C4%B1-ve-PythonPathi-Ayarlama)
 - [Medyan Alma](#Medyan-Alma)
 - [Zaman Hesaplama Sorunu](#Zaman-Hesaplama-Sorunu)
 - [Koşullu İç İçe For Döngüsü](#Ko%C5%9Fullu-%C4%B0%C3%A7-%C4%B0%C3%A7e-For-D%C3%B6ng%C3%BCs%C3%BC)
+
+## Fonksiyonun Aldığı Vakti Hesaplama
+
+```python
+def time_func(func, *args):
+    ts = time.time()
+    func(*args)
+    return time.time() - ts
+```
 
 ## Değişkenlerin Değerlerini Bulma
 
@@ -19,7 +29,7 @@ Değişkenin objelerini ve değerlerini öğrenmek için debug çok faydalıdır
 
 Bu modülü ana projenizin başında `import` ederek pythonpath ayarlanmasını otomatize edebilirisiniz.
 
-```py
+```python
 import os.path as osp
 import sys
 
@@ -40,12 +50,12 @@ add_path(root_path)
 
 ## Medyan Alma
 
-```py
+```python
 // super slow
 [a, b, c].sort()[1]
 ```
 
-```py
+```python
 // fast
 let max = Math.max(Math.max(a,b),c),
     min = Math.min(Math.min(a,b),c),
@@ -62,7 +72,7 @@ median = a^b^c^max^min;
 
 > [Stackoverflow'daki sorum](https://stackoverflow.com/q/56759000/9770490)
 
-```py
+```python
 from pynput import keyboard
 import atexit
 from time import time as get_time
@@ -139,7 +149,7 @@ Alttaki yapı yerine, bir sonraki yapıyı kullanarak daha **verimli ve anlaşı
 - Döngüde fazladan kontrolü engelleriz
 - Her seferin tüm değişkenlere bakmak yerine, ihtiyacımız olanlara bakarız
 
-```py
+```python
 KOSUL1 = 1
 KOSUL2 = 1
 KOSUL3 = 0
@@ -156,7 +166,7 @@ elif KOSUL3 != 0 and "kosul3" in line:
 
 ```
 
-```py
+```python
 conditions = []
 conditions.add(('kosul1:', KOSUL1)) if KOSUL1 != 0
 conditions.add(('kosul2:', KOSUL2)) if KOSUL2 != 0

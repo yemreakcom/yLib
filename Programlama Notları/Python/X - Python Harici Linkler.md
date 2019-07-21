@@ -11,7 +11,7 @@
 
 ## Örnek Kod Yapım
 
-```py
+```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
@@ -65,7 +65,7 @@ PDF işlemleri için [pdfkit] modülü kullanılır.
 
 > Farklı bir modül için [buraya][python for pdf] bakabilirsin
 
-```py
+```python
 import pdfkit
 
 path_wkthmltopdf = r'C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe'

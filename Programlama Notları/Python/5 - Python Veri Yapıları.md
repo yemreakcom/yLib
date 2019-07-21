@@ -35,9 +35,10 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 | `list[i:]`                   | `i`. eleman ve sonrasındakiler                              |
 | `list[:i]`                   | `i`. elemana kadar (`i` dahil değil) olanlar                |
 | `list[i:j]`                  | `i`. eleman ve `j`. elemana kadar (`j` dahil değil) olanlar |
+| `[5] * i`                    | `i` tane 5 sayısı (`i=3` için `[5, 5, 5]`)                  |
 
-- `[<değişken> for <değişken> in <dizi_veya_liste> if <koşul>` İstenen koşullardaki elemanların listesini verir
-  - Örn: `[x for x in a if x != 20]`
+- `[<değişken> for <değişken> in <dizi | liste | menzil> if <koşul>` İstenen koşullardaki elemanların listesini verir
+  - Örn: `[x for x in range(0, 5) if x != 20]`
 
 ## Tuple
 
@@ -108,7 +109,7 @@ Verilerin anahtarlara (_key_) göre saklandığı `list` yapısıdır.
 
 Birden fazla list yada benzeri yapıları birleştirmek için kullanlır.
 
-```py
+```python
 key = ['name', 'age', 'height', 'weight', 'hair', 'eyes', 'has dog']
 value = ['Dylan', 28, 167.5, 56.5, 'brown', 'brown', True]
 
@@ -128,7 +129,7 @@ dict(zip(key_list, value_list)) # {'name': 'Dylan', 'age': 28, 'height': 167.5, 
 
 ## Veri Yapıları Arasında Dönüşüm
 
-```py
+```python
 example_list = ['a', 'b', 23, 10, True, 'a', 10]
 example_tuple = tuple(example_list)
 example_set = set(example_tuple)
@@ -150,7 +151,7 @@ print(example_list) # Set yapısından dolay tekrarlı verileri kaybederiz
 
 > Arama işlemi `KeyError` (_tanımsız değişkenler ile işlem yapma_) sorunuu ortadan kaldırır.
 
-```py
+```python
 if 'has dog' in me_dict:
     pass
 ```
@@ -162,11 +163,13 @@ Sırala işlemleri `sorted` metodu ile yapılmaktadır.
 - Eğer yapıda farklı elemanlar var ise `map(<type>, <yapı>)` ile `sorted` fonksiyonu kullanılır
 - Eğer `dict` verilerinde anahtar-veri (_key-value_) olarak sıralamk istersek `dict.items()` yapısı kullanılır
 
-```py
+```python
 print(sorted(map(str, example_tuple)))
 print(sorted(map(str, example_set)))
 print(sorted(me_dict.items())) # Key-Value değerlerini
 print(sorted(me_dict)) # Sadece değerleri sıralar
+
+sort(list) # sadece sıralar veri döndürmez
 ```
 
 ## Comprehensions
@@ -178,14 +181,14 @@ Tek satır ile yapı oluşturmadır.
 
 **Verimli Yapı:**
 
-```py
+```python
 squares = [x**2 for x in range(10)] # Liste tanımlama
 square_lut = {x: x**2 for x in range(10)} # Dict tanımlama
 ```
 
 **Eski yapı:**
 
-```py
+```python
 squares = []
 square_lut = {}
 for x in range(10):
@@ -195,7 +198,7 @@ for x in range(10):
 
 **Çoklu anahtar ile tekrarlama**
 
-```py
+```python
 me_dict_dtypes = {k: type(v) for k, v in me_dict.items()}
 print(me_dict_dtypes)
 

@@ -70,7 +70,7 @@ Orjinal dökümantasyon için [buraya](https://www.python.org/dev/peps/pep-0008/
 
 ### Modül Dökümantasyon Örneği
 
-```py
+```python
 '''
 Xenotix Python Keylogger for Windows
 ====================================
@@ -103,7 +103,7 @@ NOTE: YOU ARE FREE TO COPY,MODIFY,REUSE THE SOURCE CODE FOR EDUCATIONAL PURPOSE 
 
 - Alttaki iki komut birbirine eşdeğerdir
 
-```py
+```python
 python 'train.py' \
       --train_dir="/{MODELIN_CIKTI_DIZINI_YOLU}" \
       --pipeline_config_path="/{YAPILANDIRMA_DOSYASI_YOLU}" \
@@ -117,7 +117,7 @@ python 'train.py' --train_dir="/{MODELIN_CIKTI_DIZINI_YOLU}" --pipeline_config_p
 - `'''` ile fonksiyonların üstüne dökümantasyon (açıklama) eklenir
 - `#` ile koda yorum eklenir
 
-```py
+```python
 def func(a):
   """ 1 Değeri döndürür """
   return 1 # Döndürme keywordu
@@ -164,13 +164,14 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 
 ## Temel Değişkenler
 
-| Tip     | Açıklama         | Örnek                 |
-| ------- | ---------------- | --------------------- |
-| bool    | 2'li değer, bit  | `True`                |
-| int     | Sayı             | `1`                   |
-| float   | Virgüllü sayı    | `1.2`                 |
-| complex | Karmaşık sayılar | `2+3j`                |
-| str     | String, metin    | `"Hello"` / `'Hello'` |
+| Tip     | Açıklama         | Örnek                                           |
+| ------- | ---------------- | ----------------------------------------------- |
+| bool    | 2'li değer, bit  | `True`                                          |
+| int     | Sayı             | `1`                                             |
+|         |                  |                                                 |
+| float   | Virgüllü sayı    | `1.2`                                           |
+| complex | Karmaşık sayılar | `2+3j`, `x = complex(5, 3)`, `x.real`, `x.imag` |
+| str     | String, metin    | `"Hello"` / `'Hello'`                           |
 
 > Değişkenin daha önceden tanımlandığını kontorl etme için [buraya][değişkenin daha önceden tanımlandığını kontrol etme] bakabilirsin.
 
@@ -185,7 +186,7 @@ Harici link için [buraya](https://www.programiz.com/python-programming/keyword-
 
 ### Değersiz Değişken Tanımlama
 
-```py
+```python
 degersiz = None
 ```
 
@@ -197,14 +198,14 @@ Python'da _constant_'lar yoktur. Sabit değerler büyük harfler ile belirtilir.
 
 **`sabitler.py` dosyası**
 
-```py
+```python
 PI = 3.14
 YER_CEKIMI = 9.8
 ```
 
 **`main.py` dosyası**
 
-```py
+```python
 import sabitler
 
 print(sabitler.PI) # 3.14
@@ -215,7 +216,7 @@ print(sabitler.GRAVITY) # 9.8
 
 Değişkenin tipi öğrenmek için `type(<değişken>)` komutu kullanılır.
 
-```py
+```python
 ondalikli = 5.8
 type(ondalikli) #  <class 'float'>
 tam = int(5.8) # 5 atanır
@@ -233,7 +234,7 @@ print(bool("")) # False
 
 ### Taban ve Tavan İşlemleri
 
-```py
+```python
 import math
 
 tam = math.ceil(5.8) # 6 atanır
@@ -242,7 +243,7 @@ tam = math.floor(5.8) # 5 atanır
 
 #### Eval Fonksiyonu ile Dönüştürme
 
-```py
+```python
 value = "5"
 print(type(value)) # <class 'str'>
 print(type(eval(value))) # <class 'int'>
@@ -251,7 +252,7 @@ print(type(value)) # <class 'str'>
 
 #### İleri Seviye Değişken Dönüştürme
 
-```py
+```python
 value1 = "5"
 value2 = 3
 
@@ -277,7 +278,7 @@ print(type(value3)) # <class 'int'>
 
 ### Değişkenin Tanımlı Olduğunu Kontrol Etme
 
-```py
+```python
 if 'myVar' in locals():
   # myVar exists.
 if 'myVar' in globals():

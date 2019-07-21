@@ -43,6 +43,7 @@
 | `action`     | Davranışı belirler                          |
 | `type`       | Tip bilgisini içerir (int, string ...)      |
 | `default`    | Varsayılan değer                            |
+| `dest`       | Verinin aktarılacağı değişken ismi          |
 
 ### Argüman Action Özelliği
 
@@ -51,7 +52,7 @@
 | `'store_true'` | Flag\* değeri olur ve komutta içerilirse `True` değeri alır (`-h` gibi) |
 | `count`        | Kaç kere yazıldığı bilgisini tutar (-vvv için 3)                        |
 
-```py
+```python
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument("--verbose", help="increase output verbosity",
@@ -81,12 +82,13 @@ optional arguments:
 
 ### Örnek CLI Kodu
 
-```py
+```python
 parser = ArgumentParser(description='A simple CLI.')
 parser.add_argument(
         '--log-file',
         '-o',
         default=os.path.join(os.getcwd(), 'output.log'),
+        dest="logFile",
         help='Save the output in this file.',
         type=str,
         )
@@ -102,6 +104,7 @@ parser.add_argument(
         )
 
 args = parser.parse_args()
+args.logFile
 ```
 
 ## Python Görsel Programlama (GUI)
@@ -137,7 +140,7 @@ GUI için _cross development_ desteği olan **pyqt** kullanılmaktadır.
 
 GUI oluşturma yardımcı olan **QTDesigner** oldukça faydalı olacaktır. (💡 Çek-bırak mantığında çalışır. )
 
-```py
+```python
 from PyQt5.QtWidgets import QApplication, QLabel
 
 # Uygulamayı tanımlama

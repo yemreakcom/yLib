@@ -4,10 +4,7 @@
 
 - [Class](#Class)
   - [Class Anahtar Kelimeleri](#Class-Anahtar-Kelimeleri)
-  - [Basit Class Örneği](#Basit-Class-%C3%96rne%C4%9Fi)
-  - [Metodlu Class Örneği](#Metodlu-Class-%C3%96rne%C4%9Fi)
-    - [Obje Özelliği Silme](#Obje-%C3%96zelli%C4%9Fi-Silme)
-    - [Class Silme](#Class-Silme)
+  - [Basit Class Örnekleri](#Basit-Class-%C3%96rnekleri)
   - [Enumeration](#Enumeration)
     - [Basit Kullanım](#Basit-Kullan%C4%B1m)
     - [Fonksiyon API ile Kullanım](#Fonksiyon-API-ile-Kullan%C4%B1m)
@@ -32,19 +29,43 @@
 
 ### Class Anahtar Kelimeleri
 
-<!-- TODO: Operator overloading ekle __sub__ vs. -->
+- Tip işlemleri yapmak için `print(dir(<tip>))` yazıp çıkan metodalardan kullanacaklarımızı tanımlamamız gerekir
+  - Örn: `int` işlemlerini yapmak için `print(dir(int))`
+  - `__add__`, `__sub__` ...
+- Çoklu işlemler için `if isinstance(number, int):` yapısı kullanılır
 
-| Anhatar                | Açıklama                                  | Örnek                                                   |
-| ---------------------- | ----------------------------------------- | ------------------------------------------------------- |
-| `self`                 | Diğer dillerdeki `this` anlamına gelir    | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
-| `__init__`             | Constructer fonksiyonudur                 | [Basit Class Örneği](#basit-class-%C3%B6rne%C4%9Fi)     |
-| `__sub__`              | Çıkarma işlemi yapıldığında çalışan metod | [Çıkarma işlemi]                                        |
-| `__contains__`         | Dahiliyet işlemi                          |
-| `def function(param):` | Fonksiyon tanımalama                      | [Metodlu Class Örneği](#metodlu-class-%C3%B6rne%C4%9Fi) |
+> [Python Operator Overloading](https://www.programiz.com/python-programming/operator-overloading)
 
-### Basit Class Örneği
+| Anahtar                | Açıklama                               | Örnek                                                 |
+| ---------------------- | -------------------------------------- | ----------------------------------------------------- |
+| `self`                 | Diğer dillerdeki `this` anlamına gelir | Basit Class Örneği                                    |
+| `__init__`             | Constructer fonksiyonudur              | Basit Class Örneği                                    |
+| `__repr__`             | Ekrana ne yazılacağı (`print`)         | `return "a"`                                          |
+| `__rmul__`             | Ters `*` işlemi                        | [Ters işlemler](https://stackoverflow.com/a/39029175) |
+| `__contains__`         | Dahiliyet işlemi                       |
+| `def function(param):` | Fonksiyon tanımalama                   | Metodlu Class Örneği                                  |
+| `del p1.age`, `del p1` | Obje ya da class silme                 |
 
-```py
+<details>
+<summary>Tüm operatör işlemleri</summary>
+
+![](../../res/op_overload.png)
+
+</details>
+
+<details>
+<summary>Kıyaslama operatörleri</summary>
+
+![](../../res/compare_class.png)
+
+</details>
+
+### Basit Class Örnekleri
+
+<details>
+<summary>Basit Class Örneği</summary>
+
+```python
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -52,18 +73,109 @@ class Person:
 
 p1 = Person("John", 36)
 
-print(p1.name)
-print(p1.age)
+print(p1.name) # John
+print(p1.age) # 36
 ```
 
-```cmd
-John
-36
+</details>
+
+<details>
+<summary>Yazdırılabilir class örneği</summary>
+
+```python
+class Rational(object):
+
+    def __init__(self, numerator, denominator):
+        self.numerator = numerator
+        self.denominator = denominator
+
+    def __repr__(self):
+        return '%d/%d' % (self.numerator, self.denominator)
+
+fraction = Rational(4, 3)
+print(fraction) # 4/3
 ```
 
-### Metodlu Class Örneği
+```python
+def dist_result(points):
+    points = [Point(*point) for point in points]
+    return [points[0].distance(point) for point in points]
+```
 
-```py
+</details>
+
+<details>
+<summary>Toplama / Çıkarma destekli class örneği</summary>
+
+```python
+class Point(object):
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __repr__(self):
+        return "Point(%d, %d)" % (self.x, self.y)
+
+    def __add__(self, point):
+        return Point(self.x + point.x, self.y + point.y)
+
+    def __sub__(self, point):
+        return Point(self.x - point.x, self.y - point.y)
+```
+
+```python
+from functools import reduce
+def add_sub_results(points):
+    points = [Point(*point) for point in points]
+    return [str(reduce(lambda x, y: x + y, points)),
+            str(reduce(lambda x, y: x - y, points))]
+
+```
+
+</details>
+
+<details>
+<summary>Çok tipli işlemleri destekleyen class örneği</summary>
+
+```python
+class Rational(object):
+
+    def __init__(self, numerator, denominator):
+        self.numerator = numerator
+        self.denominator = denominator
+
+    def __repr__(self):
+        return '%d/%d' % (self.numerator, self.denominator)
+
+    def __mul__(self, number):
+        if isinstance(number, int): # Int destekler
+            return Rational(self.numerator * number, self.denominator)
+        elif isinstance(number, Rational): # Rational destekler
+            return Rational(self.numerator * number.numerator, self.denominator * number.denominator)
+        else:
+            raise TypeError('Expected number to be int or Rational. Got %s' % type(number))
+
+    def _gcd(self):
+        smaller = min(self.numerator, self.denominator)
+        small_divisors = {i for i in range(1, smaller + 1) if smaller % i == 0}
+        larger = max(self.numerator, self.denominator)
+        common_divisors = {i for i in small_divisors if larger % i == 0}
+        return max(common_divisors)
+
+    def reduce(self):
+        gcd = self._gcd()
+        self.numerator = self.numerator / gcd
+        self.denominator = self.denominator / gcd
+        return self
+```
+
+</details>
+
+<details>
+<summary>Metodlu class örneği</summary>
+
+```python
 class Person:
   def __init__(self, name, age):
     self.name = name
@@ -73,24 +185,37 @@ class Person:
     print("Hello my name is " + self.name)
 
 p1 = Person("John", 36)
-p1.myfunc()
+p1.myfunc() # Hello my name is John
 ```
 
-```cmd
-Hello my name is John
+</details>
+
+<details>
+<summary>Metotlu operatörlü class örneği</summary>
+
+```python
+from math import sqrt
+
+class Point(object):
+
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __repr__(self):
+        return "Point(%d, %d)" % (self.x, self.y)
+
+    def __add__(self, point):
+        return Point(self.x + point.x, self.y + point.y)
+
+    def __sub__(self, point):
+        return Point(self.x - point.x, self.y - point.y)
+
+    def distance(self, point):
+        return sqrt((self.x - point.x) ** 2 + (self.y - point.y) ** 2)
 ```
 
-#### Obje Özelliği Silme
-
-```py
-del p1.age
-```
-
-#### Class Silme
-
-```py
-del p1
-```
+</details>
 
 ### Enumeration
 
@@ -101,7 +226,7 @@ Resmi dökümantasyon için [buraya](https://docs.python.org/3/library/enum.html
 
 #### Basit Kullanım
 
-```py
+```python
 from enum import Enum
 
 class Color(Enum):
@@ -126,7 +251,7 @@ color.name # RED
 
 #### Fonksiyon API ile Kullanım
 
-```py
+```python
 ornek = Enum('Color', 'ANT BEE CAT DOG')
 print(ornek) # <enum 'Color'>
 ```
@@ -135,7 +260,7 @@ print(ornek) # <enum 'Color'>
 
 Aynı özelliklere sahip objeler oluşturulamaz
 
-```py
+```python
 # Oluşturulmaz!
 class Shape(Enum):
     SQUARE = 2
@@ -157,7 +282,7 @@ Shape(2) # <Shape.SQUARE: 2>
 
 `@unique` etiketi ile tanımlama yapılır
 
-```py
+```python
 from enum import Enum, unique
 @unique
 class Mistake(Enum):
@@ -183,22 +308,22 @@ Her python dosyasına modül denir.
   - Kullanıcı birden fazla `import` işlemi yaparsa tepki vermez
 - Baştan `import` edilmek istenirse `imp.reload(modül)` şeklinde kullanılır
 
-```py
+```python
 import math # Doğrudan öodülü alma
 print("Pi: ", math.pi) # Pi: 3.141592653589793
 ```
 
-```py
+```python
 import math as m # Modülü özel isimlendirme
 print("Pi: ", m.pi) # Pi: 3.141592653589793
 ```
 
-```py
+```python
 from math import pi # Modül içinden özel değeri alma
 print("Pi: ", pi) # Pi: 3.141592653589793
 ```
 
-```py
+```python
 from math import * # Modül içindeki her şeyi alma
 print("Pi: ", pi) # Pi: 3.141592653589793
 ```
@@ -235,7 +360,7 @@ Modül dosyalarının aranma yerleri:
 
 #### Sistemin Python Modüllerine Bakma
 
-```py
+```python
 >>> import sys
 >>> sys.path
 ['',
@@ -249,7 +374,7 @@ Modül dosyalarının aranma yerleri:
 
 ### Modül İçinde Tanımlanan İsimleri Alma
 
-```py
+```python
 >>> dir(example)
 ['__builtins__',
 '__cached__',
@@ -262,13 +387,13 @@ Modül dosyalarının aranma yerleri:
 'add']
 ```
 
-```py
+```python
 >>> import example
 >>> example.__name__
 'example'
 ```
 
-```py
+```python
 >>> a = 1 # Modül değişkenlerine ekleniyor
 >>> b = "hello" # Modül değişkenlerine ekleniyor
 >>> import math # Modül değişkenlerine ekleniyor
@@ -284,15 +409,15 @@ Modül dosyalarının aranma yerleri:
 
 ### Paketten ve Modül Örnekleri
 
-```py
+```python
 import Game.Level.start
 ```
 
-```py
+```python
 from Game.Level import start
 ```
 
-```py
+```python
 from Game.Level.start import select_difficulty
 ```
 

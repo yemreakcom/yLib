@@ -16,3 +16,7 @@ Welcome! We will be taking a deep dive into Data Science over the next few month
 The second component is a series of miniprojects which will test your mastery of the lecture subjects. Data Science is not a spectator sport, so its important to practice, the miniprojects are a great way to do that. There will be a series of five miniprojects which will need to be completed by the end of the course.
 
 There is an online discussion board where we can help each other learn, share code snippets, and ask questions. The instructor will be monitoring the board and watching for questions, but it is also important that you interact with your peers. Remember the best learning often happens when you need to explain something to someone else.
+
+## Harici Bağlantılar
+
+- [Example of K-Means Clustering in Python](https://datatofish.com/k-means-clustering-python/)

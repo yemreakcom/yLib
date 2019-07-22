@@ -2,28 +2,30 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Class](#Class)
-  - [Class Anahtar Kelimeleri](#Class-Anahtar-Kelimeleri)
-  - [Basit Class Örnekleri](#Basit-Class-%C3%96rnekleri)
-  - [Enumeration](#Enumeration)
-    - [Basit Kullanım](#Basit-Kullan%C4%B1m)
-    - [Fonksiyon API ile Kullanım](#Fonksiyon-API-ile-Kullan%C4%B1m)
-    - [Enum Özellikleri](#Enum-%C3%96zellikleri)
-      - [Benzersin Enum Tanımlaması](#Benzersin-Enum-Tan%C4%B1mlamas%C4%B1)
-- [Modüller](#Mod%C3%BCller)
-  - [Modül Kullanım Örnekleri](#Mod%C3%BCl-Kullan%C4%B1m-%C3%96rnekleri)
-  - [Sık Kullanılan Modüller](#S%C4%B1k-Kullan%C4%B1lan-Mod%C3%BCller)
-    - [Random Modülü](#Random-Mod%C3%BCl%C3%BC)
-  - [Python Modül Dosyaları](#Python-Mod%C3%BCl-Dosyalar%C4%B1)
-    - [Sistemin Python Modüllerine Bakma](#Sistemin-Python-Mod%C3%BCllerine-Bakma)
-  - [Modül İçinde Tanımlanan İsimleri Alma](#Mod%C3%BCl-%C4%B0%C3%A7inde-Tan%C4%B1mlanan-%C4%B0simleri-Alma)
-- [Paketler (Package)](#Paketler-Package)
-  - [Paketten ve Modül Örnekleri](#Paketten-ve-Mod%C3%BCl-%C3%96rnekleri)
-  - [Sık Kullanılan Paketler](#S%C4%B1k-Kullan%C4%B1lan-Paketler)
-    - [Windows Paketleri](#Windows-Paketleri)
-    - [Görüntü İşleme Paketleri](#G%C3%B6r%C3%BCnt%C3%BC-%C4%B0%C5%9Fleme-Paketleri)
-    - [Giriş Çıkış (I/O) Kontrol Paketleri](#Giri%C5%9F-%C3%87%C4%B1k%C4%B1%C5%9F-IO-Kontrol-Paketleri)
-  - [Paketler için Harici Bağlantıları](#Paketler-i%C3%A7in-Harici-Ba%C4%9Flant%C4%B1lar%C4%B1)
+- [Python Class, Modül ve Paketler](#python-class-mod%c3%bcl-ve-paketler)
+  - [Class](#class)
+    - [Class Anahtar Kelimeleri](#class-anahtar-kelimeleri)
+    - [Inheritence (Miras)](#inheritence-miras)
+    - [Class Örnekleri](#class-%c3%96rnekleri)
+    - [Enumeration](#enumeration)
+      - [Basit Kullanım](#basit-kullan%c4%b1m)
+      - [Fonksiyon API ile Kullanım](#fonksiyon-api-ile-kullan%c4%b1m)
+      - [Enum Özellikleri](#enum-%c3%96zellikleri)
+        - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%c4%b1mlamas%c4%b1)
+  - [Modüller](#mod%c3%bcller)
+    - [Modül Kullanım Örnekleri](#mod%c3%bcl-kullan%c4%b1m-%c3%96rnekleri)
+    - [Sık Kullanılan Modüller](#s%c4%b1k-kullan%c4%b1lan-mod%c3%bcller)
+      - [Random Modülü](#random-mod%c3%bcl%c3%bc)
+    - [Python Modül Dosyaları](#python-mod%c3%bcl-dosyalar%c4%b1)
+      - [Sistemin Python Modüllerine Bakma](#sistemin-python-mod%c3%bcllerine-bakma)
+    - [Modül İçinde Tanımlanan İsimleri Alma](#mod%c3%bcl-%c4%b0%c3%a7inde-tan%c4%b1mlanan-%c4%b0simleri-alma)
+  - [Paketler (Package)](#paketler-package)
+    - [Paketten ve Modül Örnekleri](#paketten-ve-mod%c3%bcl-%c3%96rnekleri)
+    - [Sık Kullanılan Paketler](#s%c4%b1k-kullan%c4%b1lan-paketler)
+      - [Windows Paketleri](#windows-paketleri)
+      - [Görüntü İşleme Paketleri](#g%c3%b6r%c3%bcnt%c3%bc-%c4%b0%c5%9fleme-paketleri)
+      - [Giriş Çıkış (I/O) Kontrol Paketleri](#giri%c5%9f-%c3%87%c4%b1k%c4%b1%c5%9f-io-kontrol-paketleri)
+    - [Paketler için Harici Bağlantıları](#paketler-i%c3%a7in-harici-ba%c4%9flant%c4%b1lar%c4%b1)
 
 ## Class
 
@@ -60,7 +62,43 @@
 
 </details>
 
-### Basit Class Örnekleri
+### Inheritence (Miras)
+
+Miras işlemlerinde `object` yerine miras alınacak **class**'ın adı yazılır.
+
+- Üst sınıfın metodlarını ve değişkenlerini barındırır (_yani özelliklerine sahip_)
+- Karmaşık programlama mimarilerinde oldukça faydalıdır, düzenli olmalayı sağlar
+
+<details>
+<summary>Kodu göster</summary>
+
+```python
+class Rectangle(object):
+    def __init__(self, height, length):
+        self.height = height
+        self.length = length
+
+    def area(self): # Alan
+        return self.height * self.length
+
+    def perimeter(self): # Çevre
+        return 2 * (self.height + self.length)
+
+class Square(Rectangle):
+    def __init__(self, length):
+        super(Square, self).__init__(length, length)
+
+s = Square(5)
+s.area(), s.perimeter() # (25, 20)
+
+type(s) == Square # False
+type(s) == Rectangle # True
+isinstance(s, Rectangle) # True
+```
+
+</details>
+
+### Class Örnekleri
 
 <details>
 <summary>Basit Class Örneği</summary>
@@ -213,6 +251,107 @@ class Point(object):
 
     def distance(self, point):
         return sqrt((self.x - point.x) ** 2 + (self.y - point.y) ** 2)
+```
+
+</details>
+
+<details>
+<summary>Karmaşık class örneği</summary>
+
+```python
+class DataFrame(NDFrame):
+
+    def __init__(self, data=None, index=None, columns=None, dtype=None,
+                 copy=False):
+        if data is None:
+            data = {}
+        if dtype is not None:
+            dtype = self._validate_dtype(dtype)
+
+        if isinstance(data, DataFrame):
+            data = data._data
+
+        if isinstance(data, BlockManager):
+            mgr = self._init_mgr(data, axes=dict(index=index, columns=columns),
+                                 dtype=dtype, copy=copy)
+        elif isinstance(data, dict):
+            mgr = self._init_dict(data, index, columns, dtype=dtype)
+        elif isinstance(data, ma.MaskedArray):
+            import numpy.ma.mrecords as mrecords
+            # masked recarray
+            if isinstance(data, mrecords.MaskedRecords):
+                mgr = _masked_rec_array_to_mgr(data, index, columns, dtype,
+                                               copy)
+
+            # a masked array
+            else:
+                mask = ma.getmaskarray(data)
+                if mask.any():
+                    data, fill_value = maybe_upcast(data, copy=True)
+                    data[mask] = fill_value
+                else:
+                    data = data.copy()
+                mgr = self._init_ndarray(data, index, columns, dtype=dtype,
+                                         copy=copy)
+
+        elif isinstance(data, (np.ndarray, Series, Index)):
+            if data.dtype.names:
+                data_columns = list(data.dtype.names)
+                data = dict((k, data[k]) for k in data_columns)
+                if columns is None:
+                    columns = data_columns
+                mgr = self._init_dict(data, index, columns, dtype=dtype)
+            elif getattr(data, 'name', None) is not None:
+                mgr = self._init_dict({data.name: data}, index, columns,
+                                      dtype=dtype)
+            else:
+                mgr = self._init_ndarray(data, index, columns, dtype=dtype,
+                                         copy=copy)
+        elif isinstance(data, (list, types.GeneratorType)):
+            if isinstance(data, types.GeneratorType):
+                data = list(data)
+            if len(data) > 0:
+                if is_list_like(data[0]) and getattr(data[0], 'ndim', 1) == 1:
+                    if is_named_tuple(data[0]) and columns is None:
+                        columns = data[0]._fields
+                    arrays, columns = _to_arrays(data, columns, dtype=dtype)
+                    columns = _ensure_index(columns)
+
+                    # set the index
+                    if index is None:
+                        if isinstance(data[0], Series):
+                            index = _get_names_from_index(data)
+                        elif isinstance(data[0], Categorical):
+                            index = _default_index(len(data[0]))
+                        else:
+                            index = _default_index(len(data))
+
+                    mgr = _arrays_to_mgr(arrays, columns, index, columns,
+                                         dtype=dtype)
+                else:
+                    mgr = self._init_ndarray(data, index, columns, dtype=dtype,
+                                             copy=copy)
+            else:
+                mgr = self._init_dict({}, index, columns, dtype=dtype)
+        elif isinstance(data, collections.Iterator):
+            raise TypeError("data argument can't be an iterator")
+        else:
+            try:
+                arr = np.array(data, dtype=dtype, copy=copy)
+            except (ValueError, TypeError) as e:
+                exc = TypeError('DataFrame constructor called with '
+                                'incompatible data and dtype: %s' % e)
+                raise_with_traceback(exc)
+
+            if arr.ndim == 0 and index is not None and columns is not None:
+                values = cast_scalar_to_array((len(index), len(columns)),
+                                              data, dtype=dtype)
+                mgr = self._init_ndarray(values, index, columns,
+                                         dtype=values.dtype, copy=False)
+            else:
+                raise ValueError('DataFrame constructor not properly called!')
+
+        NDFrame.__init__(self, mgr, fastpath=True)
 ```
 
 </details>

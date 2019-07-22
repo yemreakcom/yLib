@@ -11,33 +11,37 @@ Karma konular hakkında aldığım notlar.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ayrılan Notlarım](#Ayr%C4%B1lan-Notlar%C4%B1m)
-  - [IstanbulUniversity - CE](#IstanbulUniversity---CE)
-  - [Scipts](#Scipts)
-- [Google Yazılımları](#Google-Yaz%C4%B1l%C4%B1mlar%C4%B1)
-- [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
-- [Karma Bilgiler](#Karma-Bilgiler)
-- [Programlama Notları](#Programlama-Notlar%C4%B1)
-  - [Java](#Java)
-  - [Oyun Programlama](#Oyun-Programlama)
-  - [Python](#Python)
-  - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
-- [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
-- [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
-- [Uygulama Notları](#Uygulama-Notlar%C4%B1)
-  - [VsCode](#VsCode)
-- [Yapay Zeka Notları](#Yapay-Zeka-Notlar%C4%B1)
-- [Yazılım Notları](#Yaz%C4%B1l%C4%B1m-Notlar%C4%B1)
+- [Ayrılan Notlarım](#ayr%c4%b1lan-notlar%c4%b1m)
+  - [IstanbulUniversity - CE](#istanbuluniversity---ce)
+  - [Scipts](#scipts)
+- [Google Yazılımları](#google-yaz%c4%b1l%c4%b1mlar%c4%b1)
+- [Günlük Hayat Notları](#g%c3%bcnl%c3%bck-hayat-notlar%c4%b1)
+- [Karma Bilgiler](#karma-bilgiler)
+- [Programlama Notları](#programlama-notlar%c4%b1)
+  - [Java](#java)
+  - [JavaFX](#javafx)
+  - [Oyun Programlama](#oyun-programlama)
+  - [Python](#python)
+    - [Data Science](#data-science)
+    - [Notebooks](#notebooks)
+      - [miniprojects](#miniprojects)
+  - [Web Programlama Notları](#web-programlama-notlar%c4%b1)
+- [Proje Yönetimi Notları](#proje-y%c3%b6netimi-notlar%c4%b1)
+- [Teknoloji Notları](#teknoloji-notlar%c4%b1)
+- [Uygulama Notları](#uygulama-notlar%c4%b1)
+  - [VsCode](#vscode)
+- [Yapay Zeka Notları](#yapay-zeka-notlar%c4%b1)
+- [Yazılım Notları](#yaz%c4%b1l%c4%b1m-notlar%c4%b1)
 - [pdfs](#pdfs)
-- [İşletim Sistemi Notları](#%C4%B0%C5%9Fletim-Sistemi-Notlar%C4%B1)
-  - [Linux Notları](#Linux-Notlar%C4%B1)
-  - [Windows 10](#Windows-10)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-- [Yapılacaklar](#Yap%C4%B1lacaklar)
-  - [İleride Yapılacaklar](#%C4%B0leride-Yap%C4%B1lacaklar)
-- [Çalışma Notları](#%C3%87al%C4%B1%C5%9Fma-Notlar%C4%B1)
-  - [İçerik Yapısı](#%C4%B0%C3%A7erik-Yap%C4%B1s%C4%B1)
-- [Destek ve İletişim](#Destek-ve-%C4%B0leti%C5%9Fim)
+- [İşletim Sistemi Notları](#%c4%b0%c5%9fletim-sistemi-notlar%c4%b1)
+  - [Linux Notları](#linux-notlar%c4%b1)
+  - [Windows 10](#windows-10)
+- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
+- [Yapılacaklar](#yap%c4%b1lacaklar)
+  - [İleride Yapılacaklar](#%c4%b0leride-yap%c4%b1lacaklar)
+- [Çalışma Notları](#%c3%87al%c4%b1%c5%9fma-notlar%c4%b1)
+  - [İçerik Yapısı](#%c4%b0%c3%a7erik-yap%c4%b1s%c4%b1)
+- [Destek ve İletişim](#destek-ve-%c4%b0leti%c5%9fim)
 
 ## Ayrılan Notlarım
 
@@ -97,6 +101,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
 - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
+- [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)
 
 ### Java
 
@@ -121,7 +126,9 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ### Python
 
 - [0 - Vscode Üzerinden Python](./Programlama%20Notlar%C4%B1/Python/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
-- [1 - Python Temeli ve Değişkenleri](./Programlama%20Notlar%C4%B1/Python/1%20-%20Python%20Temeli%20ve%20De%C4%9Fi%C5%9Fkenleri.md)
+- [1.1 - Python Giriş](./Programlama%20Notlar%C4%B1/Python/1.1%20-%20Python%20Giri%C5%9F.md)
+- [1.2 - Python Anahtar Kelimeler](./Programlama%20Notlar%C4%B1/Python/1.2%20-%20Python%20Anahtar%20Kelimeler.md)
+- [1.3 - Python Değişkenleri](./Programlama%20Notlar%C4%B1/Python/1.3%20-%20Python%20De%C4%9Fi%C5%9Fkenleri.md)
 - [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
 - [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
 - [4 - Python'da String İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
@@ -135,11 +142,29 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [A1 - Python ile Veri İşlemleri](./Programlama%20Notlar%C4%B1/Python/A1%20-%20Python%20ile%20Veri%20%C4%B0%C5%9Flemleri.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 - [X1 - Python ile Görüntü İşleme Notları](./Programlama%20Notlar%C4%B1/Python/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
+- [XX - Python Algoritma Örnekleri](./Programlama%20Notlar%C4%B1/Python/XX%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
+
+#### Data Science
+
+- [README](./Programlama%20Notlar%C4%B1/Python/Data%20Science/README.md)
 
 #### Notebooks
 
-- [1 - PY_ProgramFlow](./Programlama%20Notlar%C4%B1/Python/Notebooks/1%20-%20PY_ProgramFlow.ipynb)
-- [2- PY_DataStructures](./Programlama%20Notlar%C4%B1/Python/Notebooks/2-%20PY_DataStructures.ipynb)
+- [0 - PY_Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/0%20-%20PY_Intro.ipynb)
+- [1 -PY_ProgramFlow](./Programlama%20Notlar%C4%B1/Python/Notebooks/1%20-PY_ProgramFlow.ipynb)
+- [2 - PY_DataStructures](./Programlama%20Notlar%C4%B1/Python/Notebooks/2%20-%20PY_DataStructures.ipynb)
+- [3 - PY_Algorithms](./Programlama%20Notlar%C4%B1/Python/Notebooks/3%20-%20PY_Algorithms.ipynb)
+- [4 - PY_OOP](./Programlama%20Notlar%C4%B1/Python/Notebooks/4%20-%20PY_OOP.ipynb)
+- [5 -PY_Pythonic](./Programlama%20Notlar%C4%B1/Python/Notebooks/5%20-PY_Pythonic.ipynb)
+
+##### miniprojects
+
+- [0 - Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/0%20-%20Intro.ipynb)
+- [0 - Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/0%20-%20Intro.pdf)
+- [1 - Program Flow](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/1%20-%20Program%20Flow.ipynb)
+- [1 - Program Flow](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/1%20-%20Program%20Flow.pdf)
+- [2 - Object-oriented exercises](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/2%20-%20Object-oriented%20exercises.ipynb)
+- [2 - Object-oriented exercises](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/2%20-%20Object-oriented%20exercises.pdf)
 
 ### Web Programlama Notları
 

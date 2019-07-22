@@ -2,16 +2,18 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Veri Yapıları Nedir?](#Veri-Yap%C4%B1lar%C4%B1-Nedir)
-- [List](#List)
-- [Tuple](#Tuple)
-- [Set](#Set)
-- [Dict](#Dict)
-- [Zip](#Zip)
-- [Veri Yapıları Arasında Dönüşüm](#Veri-Yap%C4%B1lar%C4%B1-Aras%C4%B1nda-D%C3%B6n%C3%BC%C5%9F%C3%BCm)
-- [Arama İşlemleri (Searcing)](#Arama-%C4%B0%C5%9Flemleri-Searcing)
-- [Sıralama İşlemleri (Sorting)](#S%C4%B1ralama-%C4%B0%C5%9Flemleri-Sorting)
-- [Comprehensions](#Comprehensions)
+- [Python'da Veri Yapıları](#pythonda-veri-yap%c4%b1lar%c4%b1)
+  - [Veri Yapıları Nedir?](#veri-yap%c4%b1lar%c4%b1-nedir)
+  - [List](#list)
+  - [Array](#array)
+  - [Tuple](#tuple)
+  - [Set](#set)
+  - [Dict](#dict)
+  - [Zip](#zip)
+  - [Veri Yapıları Arasında Dönüşüm](#veri-yap%c4%b1lar%c4%b1-aras%c4%b1nda-d%c3%b6n%c3%bc%c5%9f%c3%bcm)
+  - [Arama İşlemleri (Searcing)](#arama-%c4%b0%c5%9flemleri-searcing)
+  - [Sıralama İşlemleri (Sorting)](#s%c4%b1ralama-%c4%b0%c5%9flemleri-sorting)
+  - [Comprehensions](#comprehensions)
 
 ## Veri Yapıları Nedir?
 
@@ -39,6 +41,19 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 
 - `[<değişken> for <değişken> in <dizi | liste | menzil> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in range(0, 5) if x != 20]`
+
+## Array
+
+Matematiksel işlemler ve _Data Science_ için tercih edilen modüldür.
+
+- İlk olarak `numpy` _package_ indirilmelidir
+  - `pip install numpy`
+  - `conda install numpy`
+- `from numpy import array` şeklinde dahil edilir
+- `list` gibidir ama sadece **aynı** tür objeyi barındırır
+  - `["a", 1]` olmaz, ikisi de `string` ya da `int` olmalıdır
+
+> [List vs Array](https://medium.com/backticks-tildes/list-vs-array-python-data-type-40ac4f294551)
 
 ## Tuple
 

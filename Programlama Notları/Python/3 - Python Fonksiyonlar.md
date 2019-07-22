@@ -2,42 +2,45 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Dahili Fonksiyon Kullanımları](#Dahili-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
-  - [Genel Fonksiyonlar](#Genel-Fonksiyonlar)
-    - [Enumerata (Numaralandırma, Sayma) İşlemi](#Enumerata-Numaraland%C4%B1rma-Sayma-%C4%B0%C5%9Flemi)
-- [Harici Fonksiyon Kullanımları](#Harici-Fonksiyon-Kullan%C4%B1mlar%C4%B1)
-- [Fonksiyon Oluşturma](#Fonksiyon-Olu%C5%9Fturma)
-  - [Fonksiyon İskeleti](#Fonksiyon-%C4%B0skeleti)
-  - [Fonksiyon Örneği](#Fonksiyon-%C3%96rne%C4%9Fi)
-  - [Fonksyion Dökümantasyonu](#Fonksyion-D%C3%B6k%C3%BCmantasyonu)
-  - [Fonksyion Varsayılan Parametreler (Keyword Arguments)](#Fonksyion-Varsay%C4%B1lan-Parametreler-Keyword-Arguments)
-  - [Fonksiyonlarda Keyfi Parametreler](#Fonksiyonlarda-Keyfi-Parametreler)
-  - [Fonksiyonların veya Modüllerin Alt Metodlarını Listeleme](#Fonksiyonlar%C4%B1n-veya-Mod%C3%BCllerin-Alt-Metodlar%C4%B1n%C4%B1-Listeleme)
-- [Özyineleyen Fonksiyonlar](#%C3%96zyineleyen-Fonksiyonlar)
-  - [Özyineleyen Fonksiyonların Avantajları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Avantajlar%C4%B1)
-  - [Özyineleyen Fonksiyonların Zararları](#%C3%96zyineleyen-Fonksiyonlar%C4%B1n-Zararlar%C4%B1)
-- [Lambda Fonksiyonlar](#Lambda-Fonksiyonlar)
-  - [Filter ile Lambda Kullanımı](#Filter-ile-Lambda-Kullan%C4%B1m%C4%B1)
-  - [Map ile Lambda Kullanımı](#Map-ile-Lambda-Kullan%C4%B1m%C4%B1)
-- [İç İçe Fonksiyonlar](#%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyonlar)
-  - [Karmaşık İç İçe Fonksiyon](#Karma%C5%9F%C4%B1k-%C4%B0%C3%A7-%C4%B0%C3%A7e-Fonksiyon)
-- [Global, Local ve Nonlocal Kavramları](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1)
-  - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#Global-Local-ve-Nonlocal-Kavramlar%C4%B1na-%C3%96rnek-Scopes-and-Namespaces)
-  - [Global Kullanımına Örnek](#Global-Kullan%C4%B1m%C4%B1na-%C3%96rnek)
-  - [Global Kullanımına Ek Örnek](#Global-Kullan%C4%B1m%C4%B1na-Ek-%C3%96rnek)
-- [Fonksiyonlarda Hız](#Fonksiyonlarda-H%C4%B1z)
-  - [Fonksiyon Hızı Ölçme Scripti](#Fonksiyon-H%C4%B1z%C4%B1-%C3%96l%C3%A7me-Scripti)
+- [Python Fonksiyonlar](#python-fonksiyonlar)
+  - [Dahili Fonksiyon Kullanımları](#dahili-fonksiyon-kullan%c4%b1mlar%c4%b1)
+    - [Genel Fonksiyonlar](#genel-fonksiyonlar)
+      - [Enumerata (Numaralandırma, Sayma) İşlemi](#enumerata-numaraland%c4%b1rma-sayma-%c4%b0%c5%9flemi)
+  - [Harici Fonksiyon Kullanımları](#harici-fonksiyon-kullan%c4%b1mlar%c4%b1)
+  - [Fonksiyon Oluşturma](#fonksiyon-olu%c5%9fturma)
+    - [Fonksiyon İskeleti](#fonksiyon-%c4%b0skeleti)
+    - [Fonksiyon Örneği](#fonksiyon-%c3%96rne%c4%9fi)
+    - [Fonksyion Dökümantasyonu](#fonksyion-d%c3%b6k%c3%bcmantasyonu)
+    - [Fonksyion Varsayılan Parametreler (Keyword Arguments)](#fonksyion-varsay%c4%b1lan-parametreler-keyword-arguments)
+    - [Fonksiyonlarda Keyfi Parametreler](#fonksiyonlarda-keyfi-parametreler)
+    - [Fonksiyonların veya Modüllerin Alt Metodlarını Listeleme](#fonksiyonlar%c4%b1n-veya-mod%c3%bcllerin-alt-metodlar%c4%b1n%c4%b1-listeleme)
+  - [Özyineleyen Fonksiyonlar](#%c3%96zyineleyen-fonksiyonlar)
+    - [Özyineleyen Fonksiyonların Avantajları](#%c3%96zyineleyen-fonksiyonlar%c4%b1n-avantajlar%c4%b1)
+    - [Özyineleyen Fonksiyonların Zararları](#%c3%96zyineleyen-fonksiyonlar%c4%b1n-zararlar%c4%b1)
+  - [Lambda Fonksiyonlar](#lambda-fonksiyonlar)
+    - [Filter ile Lambda Kullanımı](#filter-ile-lambda-kullan%c4%b1m%c4%b1)
+    - [Map ile Lambda Kullanımı](#map-ile-lambda-kullan%c4%b1m%c4%b1)
+  - [İç İçe Fonksiyonlar](#%c4%b0%c3%a7-%c4%b0%c3%a7e-fonksiyonlar)
+    - [Karmaşık İç İçe Fonksiyon](#karma%c5%9f%c4%b1k-%c4%b0%c3%a7-%c4%b0%c3%a7e-fonksiyon)
+  - [Global, Local ve Nonlocal Kavramları](#global-local-ve-nonlocal-kavramlar%c4%b1)
+    - [Global, Local ve Nonlocal Kavramlarına Örnek (Scopes and Namespaces)](#global-local-ve-nonlocal-kavramlar%c4%b1na-%c3%96rnek-scopes-and-namespaces)
+    - [Global Kullanımına Örnek](#global-kullan%c4%b1m%c4%b1na-%c3%96rnek)
+    - [Global Kullanımına Ek Örnek](#global-kullan%c4%b1m%c4%b1na-ek-%c3%96rnek)
+  - [Alt Fonksiyonlar](#alt-fonksiyonlar)
+  - [Fonksiyonlarda Hız](#fonksiyonlarda-h%c4%b1z)
+    - [Fonksiyon Hızı Ölçme Scripti](#fonksiyon-h%c4%b1z%c4%b1-%c3%96l%c3%a7me-scripti)
 
 ## Dahili Fonksiyon Kullanımları
 
 ### Genel Fonksiyonlar
 
-| Fonksiyon                 | Açıklama                  | Örnek                           | Çıktı              |
-| ------------------------- | ------------------------- | ------------------------------- | ------------------ |
-| `print(<string>)`         | Ekrana yazma              | `print("X: {1}, Y: {2}")`       | `X: {1}, Y: {2}`   |
-| `eval(<string>)`          | Verilen stringi hesaplama | `eval("x + 5")`                 | `6`                |
-| `type(<obje>)`            | Objenin türünü bulma      | `type(x)`                       | `<class 'number'>` |
-| `enumerate(<obje>, <si>)` | Numaralandırma            | `i, line in enumerate(file, 0)` |
+| Fonksiyon                 | Açıklama                   | Örnek                           | Çıktı              |
+| ------------------------- | -------------------------- | ------------------------------- | ------------------ |
+| `print(<string>)`         | Ekrana yazma               | `print("X: {1}, Y: {2}")`       | `X: {1}, Y: {2}`   |
+| `sum, len`                | Toplama, uzunluk, ortalama | `sum([1, 2, 3])`                | `5`                |
+| `eval(<string>)`          | Verilen stringi hesaplama  | `eval("x + 5")`                 | `6`                |
+| `type(<obje>)`            | Objenin türünü bulma       | `type(x)`                       | `<class 'number'>` |
+| `enumerate(<obje>, <si>)` | Numaralandırma             | `i, line in enumerate(file, 0)` |
 
 #### Enumerata (Numaralandırma, Sayma) İşlemi
 
@@ -356,15 +359,11 @@ In global scope: global spa
 
 Objelerin ve classların alt fonksiyonlarını `dir(<obj>)` metodu ile görüntüleyebiliriz.
 
-
-
 ```python
 dir("X") # String metodlarını listeler
 dir([]) # List metodlarını listeler
 dir(<class>) # Class metodlarını listeler
 ```
-
-
 
 ## Fonksiyonlarda Hız
 
@@ -372,7 +371,7 @@ Fonksiyonlarda işlem yapılma hızı, manuel (kod satırı olarak) işlem yapı
 
 - ~%80 daha hızlı çalıştığını script üzerinden görebilirsiniz
 - Bu değer bilgisayar **donanımınıza göre değişiklik** gösterecektir
-- Hafızayı (*memorial*) kullanan fonksiyonlar tekrarlı (*recursive*) fonksiyonlardan daha **hızlıdır**.
+- Hafızayı (_memorial_) kullanan fonksiyonlar tekrarlı (_recursive_) fonksiyonlardan daha **hızlıdır**.
 
 > **Ek kaynaklar:**
 >

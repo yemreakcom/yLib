@@ -14,16 +14,16 @@
 
 ![img](..\res\prog_search_speed.png)
 
-![img](C:\Users\Yedhrab\Documents\GitHub\YBilgiler\res\binary_sorted.png)
+![img](..\res\binary_sorted.png)
 
 ## Tekrarlı ya da Hafıza ile Fonksiyon İşlemleri
 
-Hafıza (*memory*), tekrarlı işlemler (*recursive*) ile çalışan fonksiyonlara nazaran daha **hızlıdır**.
+Hafıza (_memory_), tekrarlı işlemler (_recursive_) ile çalışan fonksiyonlara nazaran daha **hızlıdır**.
 
 ### Recursion
 
-![1563709223590](C:\Users\Yedhrab\Documents\GitHub\YBilgiler\res\recursive_mem.png)
+![1563709223590](..\res\recursive_mem.png)
 
-###  While  / For Döngüsü
+### While / For Döngüsü
 
-![1563711892513](C:\Users\Yedhrab\Documents\GitHub\YBilgiler\res\while_mem.png)
+![1563711892513](..\res\while_mem.png)

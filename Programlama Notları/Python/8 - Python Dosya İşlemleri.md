@@ -2,46 +2,106 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Dosya Açma](#Dosya-A%C3%A7ma)
-- [Dosya Erişim Modları](#Dosya-Eri%C5%9Fim-Modlar%C4%B1)
-- [Context Manager ile Dosyayı Okuyup Kapatma](#Context-Manager-ile-Dosyay%C4%B1-Okuyup-Kapatma)
-- [Dosyayı Kapatmadan Yazma İşlemleri](#Dosyay%C4%B1-Kapatmadan-Yazma-%C4%B0%C5%9Flemleri)
-- [Dizin (Dir) İşlemleri](#Dizin-Dir-%C4%B0%C5%9Flemleri)
-  - [Dizin veya Dosya Yolları Listesi Döndürme](#Dizin-veya-Dosya-Yollar%C4%B1-Listesi-D%C3%B6nd%C3%BCrme)
-  - [Python System Dizinlerine Erişme (System Enviroment)](#Python-System-Dizinlerine-Eri%C5%9Fme-System-Enviroment)
-  - [Python Kullanıcı Dizinlerine Erişme](#Python-Kullan%C4%B1c%C4%B1-Dizinlerine-Eri%C5%9Fme)
-- [Dosya Yolu (Path) İşlemleri](#Dosya-Yolu-Path-%C4%B0%C5%9Flemleri)
-- [Raporlama İşlemleri (Logging)](#Raporlama-%C4%B0%C5%9Flemleri-Logging)
-- [EXE'ye çevirme](#EXEye-%C3%A7evirme)
+- [Dosyaya Erişim](#dosyaya-eri%c5%9fim)
+- [Dosya İşlemi Örnekleri](#dosya-%c4%b0%c5%9flemi-%c3%96rnekleri)
+- [Dosya Erişim Modları](#dosya-eri%c5%9fim-modlar%c4%b1)
+- [Dosyada İşlem Metodları](#dosyada-%c4%b0%c5%9flem-metodlar%c4%b1)
+- [Dosyayı Kapatmadan Yazma İşlemleri](#dosyay%c4%b1-kapatmadan-yazma-%c4%b0%c5%9flemleri)
+- [Dizin (Dir) İşlemleri](#dizin-dir-%c4%b0%c5%9flemleri)
+  - [Dizin veya Dosya Yolları Listesi Döndürme](#dizin-veya-dosya-yollar%c4%b1-listesi-d%c3%b6nd%c3%bcrme)
+  - [Python System Dizinlerine Erişme (System Enviroment)](#python-system-dizinlerine-eri%c5%9fme-system-enviroment)
+  - [Python Kullanıcı Dizinlerine Erişme](#python-kullan%c4%b1c%c4%b1-dizinlerine-eri%c5%9fme)
+- [Dosya Yolu (Path) İşlemleri](#dosya-yolu-path-%c4%b0%c5%9flemleri)
+- [Raporlama İşlemleri (Logging)](#raporlama-%c4%b0%c5%9flemleri-logging)
+- [EXE'ye çevirme](#exeye-%c3%a7evirme)
 
-## Dosya Açma
+## Dosyaya Erişim
 
-Python üzerinde dosya işlemleri oldukça kolaydır ve `context manager` ile halledilir.
+Python üzerinde dosya işlemleri oldukça kolaydır.
+
+- Temel okuma metodu `open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>)` şeklindedir
+  - `<dosya_ismi>` Dosya yolu veya ismi
+    - _Örn: "text.txt"_
+  - `<erişim_modu>` Okuma, yazma veya ekleme
+    - _Örn: 'a', 'w', 'r', 'r+' ..._
+  - `<kodlama>` Dosya kodlama formatı
+    - _Örn: 'utf-8'_
+- Dosya bulunamazsa `IOError` hatası verir
+
+<details>
+<summary>Obje ile dosya okuma</summary>
 
 ```python
-with open(<dosya_ismi>, <erişim_modu>, encoding=<kodlama>) as file:
-    # İşlemler
-    pass
+f = open('./data/sample.txt', 'r')
+data = f.read()
+f.close()
+
+print(data)
+print(f)
 ```
 
-- `<dosya_ismi>` Dosya yolu veya ismi
-  - _Örn: "text.txt"_
-- `<erişim_modu>` Okuma, yazma veya ekleme
-  - _Örn: 'a', 'w', 'r', 'r+' ..._
-- `<kodlama>` Dosya kodlama formatı
-  - _Örn: 'utf-8'_
+```bash
+Hello!
+Congratulations!
+You've read in data from a file.
+<_io.TextIOWrapper name='./data/sample.txt' mode='r' encoding='UTF-8'>
+```
 
-## Dosya Erişim Modları
+</details>
 
-| Mod | Anlamı          | Açıklama                                                |
-| --- | --------------- | ------------------------------------------------------- |
-| `r` | Read (Okuma)    | Dosya varsa okumak için açar yoksa hata verir           |
-| `w` | Write (Yazma)   | Dosyayı sıfırdan yazmak için oluşturma (verileri siler) |
-| `a` | Append (Ekleme) | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
+<details>
+<summary>Context manager ile dosya okume</summary>
 
-> Ek bilgiler için [buraya][dosya erişim modları] bakabilirsin.
+Döngüden çıkıldığından dosya otomatik olarak kapatılır (`f.close`)
 
-## Context Manager ile Dosyayı Okuyup Kapatma
+```python
+with open('./data/sample.txt', 'r') as f:
+    print(f.read())
+
+print(f)
+```
+
+```bash
+Hello!
+Congratulations!
+You've read in data from a file.
+<_io.TextIOWrapper name='./data/sample.txt' mode='r' encoding='UTF-8'>
+```
+
+</details>
+
+## Dosya İşlemi Örnekleri
+
+<details>
+<summary>Tek satır okuma</summary>
+
+```python
+with open('./data/sample.txt', 'r') as f:
+    print(f.readline())
+```
+
+```bash
+Hello!
+```
+
+</details>
+
+<details>
+<summary>Tüm satırları okuma</summary>
+
+```python
+with open('./data/sample.txt', 'r') as f:
+    print(f.readlines())
+```
+
+```bash
+['Hello!\n', 'Congratulations!\n', "You've read in data from a file."]
+```
+
+</details>
+
+<details>
+<summary>Diğer erişim örnekleri</summary>
 
 ```python
 file_str = ""
@@ -71,6 +131,28 @@ with open("README.md", "r", encoding="utf-8") as file:
     lines = file.readlines() # Tüm satırları liste olarak döndürür
 
 ```
+
+</details>
+
+## Dosya Erişim Modları
+
+| Mod          | Anlamı           | Açıklama                                                |
+| ------------ | ---------------- | ------------------------------------------------------- |
+| `r`          | Read (Okuma)     | Dosya varsa okumak için açar yoksa hata verir           |
+| `w`          | Write (Yazma)    | Dosyayı sıfırdan yazmak için oluşturma (verileri siler) |
+| `a`          | Append (Ekleme)  | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
+| `wb, rb, ab` | Binary işlemleri | Sıkıştırılmış dosyada işlemler                          |
+
+> Ek bilgiler için [buraya][dosya erişim modları] bakabilirsin.
+
+## Dosyada İşlem Metodları
+
+| Mod              | Açıklama                                     |
+| ---------------- | -------------------------------------------- |
+| `read()`         | Dosyayı komple okuma                         |
+| `readline()`     | Dosyadaki 1 satırı okuma                     |
+| `readlines()`    | Dosyadaki tüm satırları `list` objesine alma |
+| `write(<metin>)` | Dosyaya metin yazma                          |
 
 ## Dosyayı Kapatmadan Yazma İşlemleri
 

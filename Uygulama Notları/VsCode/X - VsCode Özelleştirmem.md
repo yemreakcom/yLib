@@ -2,11 +2,11 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Snippets](#Snippets)
-- [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
-- [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
-- [Eklentirlerim](#Eklentirlerim)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Snippets](#snippets)
+- [Editör Ayarlarım](#edit%c3%b6r-ayarlar%c4%b1m)
+- [Klavye Kısayolları Ayarım](#klavye-k%c4%b1sayollar%c4%b1-ayar%c4%b1m)
+- [Eklentirlerim](#eklentirlerim)
+- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
 
 ## Snippets
 
@@ -30,7 +30,6 @@ Verimli çalışmak için kod parçaları
   // 	],
   // 	"description": "Log output to console"
   // }
-
   "Insert '<!-- omit in toc --->": {
     "prefix": "om",
     "body": ["<!-- omit in toc -->"],
@@ -53,7 +52,16 @@ Verimli çalışmak için kod parçaları
   },
   "Insert toggle menu": {
     "prefix": "menu",
-    "body": ["<details>", "<summary>$1</summary>", "", "$0", "", "</details>"],
+    "body": [
+      "<details>",
+      "<summary>$1</summary>",
+      "",
+      "$1",
+      "",
+      "</details>",
+      "",
+      "$0"
+    ],
     "description": "3 Buton anahtarı oluşturur"
   },
   "Insert code": {
@@ -70,7 +78,9 @@ Verimli çalışmak için kod parçaları
       "```$2",
       "$3",
       "```",
+      "",
       "</details>",
+      "",
       "$0"
     ],
     "description": "Açılır kod menüsü ekler"
@@ -88,7 +98,9 @@ Verimli çalışmak için kod parçaları
       "```$4",
       "$5",
       "```",
+      "",
       "</details>",
+      "",
       "$0"
     ],
     "description": "Kod bloğu oluşturur"
@@ -163,25 +175,8 @@ Verimli çalışmak için kod parçaları
 // Place your key bindings in this file to override the defaults
 [
   {
-    "key": "ctrl+[KeyI] ctrl+[KeyI]",
+    "key": "ctrl+oem_7 ctrl+oem_7",
     "command": "git.sync"
-  },
-  {
-    "key": "ctrl+[KeyI] ctrl+p",
-    "command": "git.pull"
-  },
-  {
-    "key": "ctrl+shift+[KeyI] ctrl+shift+p",
-    "command": "git.pullFrom"
-  },
-  {
-    "key": "ctrl+[KeyI] ctrl+o",
-    "command": "git.checkout"
-  },
-  {
-    "key": "ctrl+oem_7",
-    "command": "markdown.extension.editing.toggleItalic",
-    "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
   },
   {
     "key": "ctrl+j",
@@ -280,3 +275,7 @@ code \
 ## Harici Bağlantılar
 
 - [Faydalı eklentiler](https://nickjanetakis.com/blog/my-favorite-vscode-extensions-and-settings)
+
+```
+
+```

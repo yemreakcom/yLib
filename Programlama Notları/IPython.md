@@ -4,25 +4,25 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Temel Bilgiler](#Temel-Bilgiler)
-- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
-  - [Google Colab için Çalışma Ortamını Yapılandırma](#Google-Colab-i%C3%A7in-%C3%87al%C4%B1%C5%9Fma-Ortam%C4%B1n%C4%B1-Yap%C4%B1land%C4%B1rma)
-- [Terminal İşlemleri](#Terminal-%C4%B0%C5%9Flemleri)
-  - [Terminal İşlemleri Örneği](#Terminal-%C4%B0%C5%9Flemleri-%C3%96rne%C4%9Fi)
-  - [İşletim Sistemi Bilgileri](#%C4%B0%C5%9Fletim-Sistemi-Bilgileri)
-- [Magic Function](#Magic-Function)
-- [Form Oluşturma İşlemleri (GUI)](#Form-Olu%C5%9Fturma-%C4%B0%C5%9Flemleri-GUI)
-- [Drive İşlemleri](#Drive-%C4%B0%C5%9Flemleri)
-  - [Drive Dosyalarını Dosya Sistemine Bağlama](#Drive-Dosyalar%C4%B1n%C4%B1-Dosya-Sistemine-Ba%C4%9Flama)
-  - [Drive Dosyalarına Erişme](#Drive-Dosyalar%C4%B1na-Eri%C5%9Fme)
-- [I / O (Giriş / Çıkış) İşlemleri](#I--O-Giri%C5%9F--%C3%87%C4%B1k%C4%B1%C5%9F-%C4%B0%C5%9Flemleri)
-  - [Dosya Upload Etme](#Dosya-Upload-Etme)
-  - [Dosya İndirme](#Dosya-%C4%B0ndirme)
-  - [Dizin İndirme](#Dizin-%C4%B0ndirme)
-    - [Dizin İndirme Arayüzü](#Dizin-%C4%B0ndirme-Aray%C3%BCz%C3%BC)
-  - [Bilgisayar Kamerasına Erişme](#Bilgisayar-Kameras%C4%B1na-Eri%C5%9Fme)
-- [Progress Bar](#Progress-Bar)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Temel Bilgiler](#temel-bilgiler)
+- [Hızlı Notlar](#h%c4%b1zl%c4%b1-notlar)
+  - [Google Colab için Çalışma Ortamını Yapılandırma](#google-colab-i%c3%a7in-%c3%87al%c4%b1%c5%9fma-ortam%c4%b1n%c4%b1-yap%c4%b1land%c4%b1rma)
+- [Terminal İşlemleri](#terminal-%c4%b0%c5%9flemleri)
+  - [Terminal İşlemleri Örneği](#terminal-%c4%b0%c5%9flemleri-%c3%96rne%c4%9fi)
+  - [İşletim Sistemi Bilgileri](#%c4%b0%c5%9fletim-sistemi-bilgileri)
+- [Magic Function](#magic-function)
+- [Form Oluşturma İşlemleri (GUI)](#form-olu%c5%9fturma-%c4%b0%c5%9flemleri-gui)
+- [Drive İşlemleri](#drive-%c4%b0%c5%9flemleri)
+  - [Drive Dosyalarını Dosya Sistemine Bağlama](#drive-dosyalar%c4%b1n%c4%b1-dosya-sistemine-ba%c4%9flama)
+  - [Drive Dosyalarına Erişme](#drive-dosyalar%c4%b1na-eri%c5%9fme)
+- [I / O (Giriş / Çıkış) İşlemleri](#i--o-giri%c5%9f--%c3%87%c4%b1k%c4%b1%c5%9f-%c4%b0%c5%9flemleri)
+  - [Dosya Upload Etme](#dosya-upload-etme)
+  - [Dosya İndirme](#dosya-%c4%b0ndirme)
+  - [Dizin İndirme](#dizin-%c4%b0ndirme)
+    - [Dizin İndirme Arayüzü](#dizin-%c4%b0ndirme-aray%c3%bcz%c3%bc)
+  - [Bilgisayar Kamerasına Erişme](#bilgisayar-kameras%c4%b1na-eri%c5%9fme)
+- [Progress Bar](#progress-bar)
+- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
 
 ## Temel Bilgiler
 
@@ -103,10 +103,11 @@ UBUNTU_CODENAME=bionic
 
 ## Magic Function
 
-| Func                                | Açıklama                            |
-| ----------------------------------- | ----------------------------------- |
-| `%%timeit`                          | Blokta geçen süreyi hesaplar        |
-| `%%expect_exception AttributeError` | Hatayı fırlatır, run error engeller |
+| Func                                | Açıklama                                        |
+| ----------------------------------- | ----------------------------------------------- |
+| `%%bash`                            | Kod bloğunun `bash` türünden olacağını belirtir |
+| `%%timeit`                          | Blokta geçen süreyi hesaplar                    |
+| `%%expect_exception AttributeError` | Hatayı fırlatır, run error engeller             |
 
 ## Form Oluşturma İşlemleri (GUI)
 

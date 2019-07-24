@@ -2,12 +2,12 @@
 
 ## İçeriklr <!-- omit in toc -->
 
-- [Python Harici Linkler](#Python-Harici-Linkler)
-  - [Örnek Kod Yapım](#%C3%96rnek-Kod-Yap%C4%B1m)
-  - [PDF İşlemleri](#PDF-%C4%B0%C5%9Flemleri)
-  - [Veri Bilimi](#Veri-Bilimi)
-  - [Karma](#Karma)
-  - [Lisans ve Teferruatlar](#Lisans-ve-Teferruatlar)
+- [Python Harici Linkler](#python-harici-linkler)
+  - [Örnek Kod Yapım](#%c3%96rnek-kod-yap%c4%b1m)
+  - [PDF İşlemleri](#pdf-%c4%b0%c5%9flemleri)
+  - [Veri Bilimi](#veri-bilimi)
+  - [Karma](#karma)
+  - [Lisans ve Teferruatlar](#lisans-ve-teferruatlar)
 
 ## Örnek Kod Yapım
 

@@ -4,12 +4,13 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Veri Kümeleri İndirme Araçları](#Veri-K%C3%BCmeleri-%C4%B0ndirme-Ara%C3%A7lar%C4%B1)
-- [Linkler](#Linkler)
-  - [Resim Veri Kümeleri](#Resim-Veri-K%C3%BCmeleri)
-  - [Verilerdeki Etiketi Kaldırma](#Verilerdeki-Etiketi-Kald%C4%B1rma)
-  - [Karma Veri Kümeleri](#Karma-Veri-K%C3%BCmeleri)
-- [Referanslar](#Referanslar)
+- [Veri Kümeleri İndirme Araçları](#veri-k%c3%bcmeleri-%c4%b0ndirme-ara%c3%a7lar%c4%b1)
+- [Tensorflow Modelleri İçin Veriler](#tensorflow-modelleri-%c4%b0%c3%a7in-veriler)
+- [Linkler](#linkler)
+  - [Resim Veri Kümeleri](#resim-veri-k%c3%bcmeleri)
+  - [Verilerdeki Etiketi Kaldırma](#verilerdeki-etiketi-kald%c4%b1rma)
+  - [Karma Veri Kümeleri](#karma-veri-k%c3%bcmeleri)
+- [Referanslar](#referanslar)
 
 Yapay zeka için olmazsa olmaz olan veri kümeleri (dataset) hakkında bilgiler içermektedir.
 
@@ -20,6 +21,17 @@ Linux terminal indiricileri yazısına bakabilirsin.
 - İşletim Sistemi Notları
 - Linux
 - ...
+
+## Tensorflow Modelleri İçin Veriler
+
+We provide a collection of detection models pre-trained on the [COCO
+dataset](http://mscoco.org), the [Kitti dataset](http://www.cvlibs.net/datasets/kitti/),
+the [Open Images dataset](https://github.com/openimages/dataset), the
+[AVA v2.1 dataset](https://research.google.com/ava/) and the
+[iNaturalist Species Detection Dataset](https://github.com/visipedia/inat_comp/blob/master/2017/README.md#bounding-boxes).
+These models can be useful for out-of-the-box inference if you are interested in
+categories already in those datasets. They are also useful for initializing your
+models when training on novel datasets.
 
 ## Linkler
 

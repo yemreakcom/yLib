@@ -149,6 +149,8 @@ Verimli çalışmak için kod parçaları
   // Git ayarları
   "git.confirmSync": false,
   "git.autofetch": false,
+  // Github ayarları
+  "github.username": "yedhrab",
   // Python ayarları
   "python.pythonPath": "C:\\tools\\miniconda3\\python.exe",
   "python.jediEnabled": false,
@@ -266,6 +268,7 @@ code \
   --install-extension mushan.vscode-paste-image \
   --install-extension esbenp.prettier-vscode \
   --install-extension wakatime.vscode-wakatime \
+  --install-extension ms-vscode.github-issues-prs \
 ```
 
 ![ex_output](../../res/ex_output.png)

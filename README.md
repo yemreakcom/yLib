@@ -103,6 +103,27 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)
 
+### Cheat Sheets
+
+- [Bokeh](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Bokeh.pdf)
+- [Data table](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Data%20table.pdf)
+- [Importing data](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Importing%20data.pdf)
+- [Jupyter Notebook](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Jupyter%20Notebook.pdf)
+- [Keras](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Keras.pdf)
+- [Matplotlib](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Matplotlib.pdf)
+- [Numpy Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Numpy%20Basics.pdf)
+- [Pandas Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Pandas%20Basics.pdf)
+- [Pandas](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Pandas.pdf)
+- [PySpark - RDD Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/PySpark%20-%20RDD%20Basics.pdf)
+- [PySpark - SQL Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/PySpark%20-%20SQL%20Basics.pdf)
+- [Python Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Python%20Basics.pdf)
+- [SciPy - Linear Algebra](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/SciPy%20-%20Linear%20Algebra.pdf)
+- [Scikit - Learn](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Scikit%20-%20Learn.pdf)
+- [Seaborn](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Seaborn.pdf)
+- [Tidyverse for Beginners](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Tidyverse%20for%20Beginners.pdf)
+- [spaCy](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/spaCy.pdf)
+- [xts](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/xts.pdf)
+
 ### Java
 
 - [1 - Java Giriş](./Programlama%20Notlar%C4%B1/Java/1%20-%20Java%20Giri%C5%9F.md)
@@ -136,6 +157,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [6 - Python Koleksiyonlar](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Koleksiyonlar.md)
 - [7 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
 - [8 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
+- [8.1 - Python ile İleri Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8.1%20-%20Python%20ile%20%C4%B0leri%20Dosya%20%C4%B0%C5%9Flemleri.md)
 - [9 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
 - [A - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20%C4%B0leri%20Seviye.md)
@@ -143,9 +165,13 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 - [X1 - Python ile Görüntü İşleme Notları](./Programlama%20Notlar%C4%B1/Python/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
 - [XX - Python Algoritma Örnekleri](./Programlama%20Notlar%C4%B1/Python/XX%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
+- [XXX - Python CodeSnippets](./Programlama%20Notlar%C4%B1/Python/XXX%20-%20Python%20CodeSnippets.md)
 
 #### Data Science
 
+- [1 - Dosya işlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20i%C5%9Flemleri.md)
+- [1 - Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20%C4%B0%C5%9Flemleri.ipynb)
+- [1 - Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20%C4%B0%C5%9Flemleri.pdf)
 - [README](./Programlama%20Notlar%C4%B1/Python/Data%20Science/README.md)
 
 #### Notebooks

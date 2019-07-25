@@ -2,16 +2,16 @@
 
 ## içerikler <!-- omit in toc -->
 
-- [VsCode için Önemli Notlar](#VsCode-i%C3%A7in-%C3%96nemli-Notlar)
-- [VsCode kısayolları](#VsCode-k%C4%B1sayollar%C4%B1)
-  - [Verimlilik Kısayolları](#Verimlilik-K%C4%B1sayollar%C4%B1)
-  - [Aksiyon Penceresi](#Aksiyon-Penceresi)
-  - [İmleç Kısayolalrı](#%C4%B0mle%C3%A7-K%C4%B1sayolalr%C4%B1)
-  - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
-  - [Editör Kısayolları](#Edit%C3%B6r-K%C4%B1sayollar%C4%B1)
-  - [Görünüm Kısayolları](#G%C3%B6r%C3%BCn%C3%BCm-K%C4%B1sayollar%C4%B1)
-- [Debug Ayarları](#Debug-Ayarlar%C4%B1)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [VsCode için Önemli Notlar](#vscode-i%c3%a7in-%c3%96nemli-notlar)
+- [VsCode kısayolları](#vscode-k%c4%b1sayollar%c4%b1)
+  - [Verimlilik Kısayolları](#verimlilik-k%c4%b1sayollar%c4%b1)
+  - [Aksiyon Penceresi](#aksiyon-penceresi)
+  - [İmleç Kısayolalrı](#%c4%b0mle%c3%a7-k%c4%b1sayolalr%c4%b1)
+  - [Metin Kısayolları](#metin-k%c4%b1sayollar%c4%b1)
+  - [Editör Kısayolları](#edit%c3%b6r-k%c4%b1sayollar%c4%b1)
+  - [Görünüm Kısayolları](#g%c3%b6r%c3%bcn%c3%bcm-k%c4%b1sayollar%c4%b1)
+- [Debug Ayarları](#debug-ayarlar%c4%b1)
+- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
 
 ## VsCode için Önemli Notlar
 
@@ -37,11 +37,11 @@ PDF dökümanı için [buraya](..%5C..%5Cpdfs%5CVisual%20Studio%20Code%20Shortcu
 
 `CTRL` + `P` ile aksiyon penceresiini erişebilirsiniz.
 
-| Kısayol    | Açıklama                                             |
-| ---------- | ---------------------------------------------------- |
+| Kısayol    | Açıklama                                             | Kısayol                                                 |
+| ---------- | ---------------------------------------------------- | ------------------------------------------------------- |
 | `#`        | Çalışma dizininde arama                              |
 | `@` & `@:` | Dosya içerisnde sembole özgü arama (gruplu gösterme) | <kbd> CTRL </kbd> + <kbd> SHIFT </kbd> + <kbd> O </kbd> |
-| `>`        | Komutlarda arama                                     |
+| `>`        | Komutlarda arama                                     | <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>       |
 | `:`        | Satıra yönelme                                       |
 | `?`        | Yardım                                               |
 

@@ -5,9 +5,9 @@ MySQL workbench üzerinden SQL editörünü kullanabilirsin.
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [Veri tipleri](#veri-tipleri)
-- [Where Operatörleri](#where-operat%C3%B6rleri)
-- [Tablo İşlemleri](#tablo-i%CC%87%C5%9Flemleri)
-  - [Tablo işlemleri karma Notlar](#tablo-i%C5%9Flemleri-karma-notlar)
+- [Where Operatörleri](#where-operat%c3%b6rleri)
+- [Tablo İşlemleri](#tablo-%c4%b0%c5%9flemleri)
+  - [Tablo işlemleri karma Notlar](#tablo-i%c5%9flemleri-karma-notlar)
 - [Temel Fonksiyonlar](#temel-fonksiyonlar)
 - [Gruplama](#gruplama)
 - [Stored Function](#stored-function)
@@ -16,26 +16,27 @@ MySQL workbench üzerinden SQL editörünü kullanabilirsin.
   - [Explain](#explain)
 - [Optimizasyon](#optimizasyon)
   - [Ek Kaynaklar](#ek-kaynaklar)
-- [MySQL Yapılandırması](#mysql-yap%C4%B1land%C4%B1rmas%C4%B1)
-  - [MySQL yapılandırma dosyası](#mysql-yap%C4%B1land%C4%B1rma-dosyas%C4%B1)
-  - [MySQL workbench üzerinden yapılandırma](#mysql-workbench-%C3%BCzerinden-yap%C4%B1land%C4%B1rma)
-  - [Karma yapılandırma notları](#karma-yap%C4%B1land%C4%B1rma-notlar%C4%B1)
+- [MySQL Yapılandırması](#mysql-yap%c4%b1land%c4%b1rmas%c4%b1)
+  - [MySQL yapılandırma dosyası](#mysql-yap%c4%b1land%c4%b1rma-dosyas%c4%b1)
+  - [MySQL workbench üzerinden yapılandırma](#mysql-workbench-%c3%bczerinden-yap%c4%b1land%c4%b1rma)
+  - [Karma yapılandırma notları](#karma-yap%c4%b1land%c4%b1rma-notlar%c4%b1)
 - [Karma Notlar](#karma-notlar)
-- [Örnekler](#%C3%B6rnekler)
-  - [Temel örnekler](#temel-%C3%B6rnekler)
-  - [Tablo işlemleri](#tablo-i%C5%9Flemleri)
-    - [Tablo Oluşturma](#tablo-olu%C5%9Fturma)
-    - [Tablo değiştirme](#tablo-de%C4%9Fi%C5%9Ftirme)
-  - [Temel Fonksiyon Örnekleri](#temel-fonksiyon-%C3%B6rnekleri)
-  - [Karma MySQL sorgusu örnekleri](#karma-mysql-sorgusu-%C3%B6rnekleri)
+- [Örnekler](#%c3%96rnekler)
+  - [Temel örnekler](#temel-%c3%b6rnekler)
+  - [Tablo işlemleri](#tablo-i%c5%9flemleri)
+    - [Tablo Oluşturma](#tablo-olu%c5%9fturma)
+    - [Tablo değiştirme](#tablo-de%c4%9fi%c5%9ftirme)
+  - [Temel Fonksiyon Örnekleri](#temel-fonksiyon-%c3%96rnekleri)
+  - [Karma MySQL sorgusu örnekleri](#karma-mysql-sorgusu-%c3%b6rnekleri)
+- [Faydalı Kaynaklar](#faydal%c4%b1-kaynaklar)
 
 ## Veri tipleri
 
-| Değişken Tipi | Açıklama | Not |
-|---------------|----------|-----|
-| `BIT` |  0-1 (True - False) verilerini tutar. | Değer atanırken tırnaksız atanır |
-| `INT` | Tam sayı değeri tutar | Basmak sayısı 1 için 0-9 arası |
-| `ENUM` | Özel değişken oluşturma | Değerler tırnaklı olarak atanır |
+| Değişken Tipi | Açıklama                             | Not                              |
+| ------------- | ------------------------------------ | -------------------------------- |
+| `BIT`         | 0-1 (True - False) verilerini tutar. | Değer atanırken tırnaksız atanır |
+| `INT`         | Tam sayı değeri tutar                | Basmak sayısı 1 için 0-9 arası   |
+| `ENUM`        | Özel değişken oluşturma              | Değerler tırnaklı olarak atanır  |
 
 > Örnekler için [değişkenler](#De%C4%9Fi%C5%9Fkenler) kısmına bakabilirsin.
 
@@ -53,14 +54,14 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 
 ## Temel Fonksiyonlar
 
-| Fonksiyon | Özelliği |
-|:---------:|----------|
-| `MAX` | En yüksek değeri bulur |
-| `MİN` | En düşük değeri bulur |
-| `AVG` | Ortalama değeri bulur |
-| `COUNT` | Adet saysını hesaplar |
-| `SUM` | Toplam değeri hesaplar |
-| `CONCAT` | Verilen metinleri birleştirir |
+| Fonksiyon | Özelliği                      |
+| :-------: | ----------------------------- |
+|   `MAX`   | En yüksek değeri bulur        |
+|   `MİN`   | En düşük değeri bulur         |
+|   `AVG`   | Ortalama değeri bulur         |
+|  `COUNT`  | Adet saysını hesaplar         |
+|   `SUM`   | Toplam değeri hesaplar        |
+| `CONCAT`  | Verilen metinleri birleştirir |
 
 > Örnekler için [temel fonksiyon örnekleri](#Temel%20Fonksiyon%20%C3%96rnekleri) kısmına bakabilirsin.
 
@@ -111,13 +112,7 @@ FROM
 
 ---
 
--**[FunctionName]**: *Fonksiyonun ismi, örn: GetProductName*
--**[ParamName]**: *Parametre ismi, örn: name*
--**[ParamType]**: *Int, Varchar, Float ...*
--**[ReturnType]**: *Fonksiyonun döndüreceği sütunun özelliği, Örn: Varchar(64), int(11), double*
--**Deterministic**: *Aynı girdiler için her zaman aynı değeri üretir.*
--**[select_query]**: *Örn: SELECT * from table;*
-  -***[ReturnType]** ile aynı olmak zorundadır.*
+-**[FunctionName]**: _Fonksiyonun ismi, örn: GetProductName_ -**[ParamName]**: _Parametre ismi, örn: name_ -**[ParamType]**: _Int, Varchar, Float ..._ -**[ReturnType]**: _Fonksiyonun döndüreceği sütunun özelliği, Örn: Varchar(64), int(11), double_ -**Deterministic**: _Aynı girdiler için her zaman aynı değeri üretir._ -**[select_query]**: _Örn: SELECT _ from table;\* -**\*[ReturnType]** ile aynı olmak zorundadır.\*
 
 ## Debug Bilgileri
 
@@ -147,8 +142,7 @@ Optimizasyon sorgunun hızlı sonuç vermesi için gereklidir. Optimizasyon işl
 
 -Indexleme
 -Key ile birleştirme (inner join)
--Ek fonksiyonları kaldırma
--`explain` anahtar kelimesi ile sorgu detaylarına bakma
+-Ek fonksiyonları kaldırma -`explain` anahtar kelimesi ile sorgu detaylarına bakma
 
 gibi işlemlere başvurulur.
 
@@ -158,8 +152,7 @@ gibi işlemlere başvurulur.
 
 Optimizasyon hakkında detaylı bilgi için [buraya](https://www.sitepoint.com/optimize-mysql-indexes-slow-queries-configuration/) tıklayabilirsiniz.
 
--[MySQL'de sorguların hızlı çalışması için ne yapılmalıdır?](https://uzmanim.net/soru/mysql-de-sorgularin-hizli-calismasi-icin-ne-yapilabilir/790)
--[Indexleme neden yapılır?](https://www.sinanbozkus.com/veritabanlarinda-indexleme-mantigi/#more-78)
+-[MySQL'de sorguların hızlı çalışması için ne yapılmalıdır?](https://uzmanim.net/soru/mysql-de-sorgularin-hizli-calismasi-icin-ne-yapilabilir/790) -[Indexleme neden yapılır?](https://www.sinanbozkus.com/veritabanlarinda-indexleme-mantigi/#more-78)
 
 ## MySQL Yapılandırması
 
@@ -173,7 +166,7 @@ Yapılandırma dosyası olan `my.ini` dosyasını bulmak için:
 - `services.msc` yazıp `ENTER`'a basın
 - Servis ekranında MySQL servisini bulup çift tıklayın
 - `Genel` sekmesi altında `Path to Executable` kısmında `ini` ile biten yol
-- Örnek Yol: *C:\ProgramData\MySQL\MySQL Server 8.0\my.ini*
+- Örnek Yol: _C:\ProgramData\MySQL\MySQL Server 8.0\my.ini_
 
 ### MySQL workbench üzerinden yapılandırma
 
@@ -250,3 +243,7 @@ SELECT COUNT(if(`crr`.`return_reason_id` = 14, `crr`.`return_reason_id`, null)) 
 > Koşul sağlanırsa sayar.
 
 ![mysql-ex1](/images/mysql-ex-1.jpg)
+
+## Faydalı Kaynaklar
+
+- [MySQL Tutorial](https://www.w3schools.com/sql/default.asp)

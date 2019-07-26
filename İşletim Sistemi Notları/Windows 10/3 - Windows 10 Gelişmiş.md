@@ -2,15 +2,15 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Otomatik Giriş Yapma](#Otomatik-Giri%C5%9F-Yapma)
-- [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
-- [Windows 10 Composer](#Windows-10-Composer)
-- [Windows10 Karanlık Tema Kurulumu](#Windows10-Karanl%C4%B1k-Tema-Kurulumu)
-- [Windows Saat Sorunu](#Windows-Saat-Sorunu)
-  - [Yerel Saati Kullanma](#Yerel-Saati-Kullanma)
-  - [Evrensel (UTC) Saati Kullanma](#Evrensel-UTC-Saati-Kullanma)
-  - [Windows Boot Kurtarma](#Windows-Boot-Kurtarma)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Otomatik Giriş Yapma](#otomatik-giri%c5%9f-yapma)
+- [File Explorer'ı Geliştirme](#file-explorer%c4%b1-geli%c5%9ftirme)
+- [Windows 10 Composer](#windows-10-composer)
+- [Windows10 Karanlık Tema Kurulumu](#windows10-karanl%c4%b1k-tema-kurulumu)
+- [Windows Saat Sorunu](#windows-saat-sorunu)
+  - [Yerel Saati Kullanma](#yerel-saati-kullanma)
+  - [Evrensel (UTC) Saati Kullanma](#evrensel-utc-saati-kullanma)
+  - [Windows Boot Kurtarma](#windows-boot-kurtarma)
+- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
 
 ## Otomatik Giriş Yapma
 

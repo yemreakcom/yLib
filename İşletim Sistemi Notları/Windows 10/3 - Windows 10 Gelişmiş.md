@@ -3,6 +3,8 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Otomatik Giriş Yapma](#otomatik-giri%c5%9f-yapma)
+- [Dosya Resmini Değiştirme](#dosya-resmini-de%c4%9fi%c5%9ftirme)
+- [Resim Düzenleyicisini Değiştirme](#resim-d%c3%bczenleyicisini-de%c4%9fi%c5%9ftirme)
 - [File Explorer'ı Geliştirme](#file-explorer%c4%b1-geli%c5%9ftirme)
 - [Windows 10 Composer](#windows-10-composer)
 - [Windows10 Karanlık Tema Kurulumu](#windows10-karanl%c4%b1k-tema-kurulumu)
@@ -19,6 +21,31 @@ Her defasında şifre girişi yapmaz istemezseniz, otomatik şifre girmek sizin 
 - Arama yerine `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
 - Çıkan alandaki kutucuğun işaretini kaldırın
 - Şifrenizi girin ve onlayın
+
+## Dizin Resmini Değiştirme
+
+Dizin resimleri içerisindeki `desktop.ini` dosyası ile değiştirilmekte
+
+- IconResource alanına `*.ico` resminizin yolunu verin
+- `0` değeri ilk resim anlamına gelmektedir, **değiştirmeyiniz**
+
+```ini
+[.ShellClassInfo]
+IconResource=.\instabot.ico,0
+[ViewState]
+Mode=
+Vid=
+FolderType=Documents
+
+```
+
+## Resim Düzenleyicisini Değiştirme
+
+- Arama alanına `regedit` yazıp <kbd>ENTER</kbd>'a basın
+- Çıkan ekranda `Computer\HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit\command` dizinine gelin
+- Default adlı anahtarın değerini `"C:\Program Files\paint.net\PaintDotNet.exe" "%1"` olarak değiştirin
+
+> Program yolunu istediğiniz gibi ayarlayabilirsiniz
 
 ## File Explorer'ı Geliştirme
 

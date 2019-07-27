@@ -6,6 +6,7 @@
 
 - [Temel Bilgiler](#temel-bilgiler)
 - [Hızlı Notlar](#h%c4%b1zl%c4%b1-notlar)
+  - [Kısayollar](#k%c4%b1sayollar)
   - [Google Colab için Çalışma Ortamını Yapılandırma](#google-colab-i%c3%a7in-%c3%87al%c4%b1%c5%9fma-ortam%c4%b1n%c4%b1-yap%c4%b1land%c4%b1rma)
 - [Terminal İşlemleri](#terminal-%c4%b0%c5%9flemleri)
   - [Terminal İşlemleri Örneği](#terminal-%c4%b0%c5%9flemleri-%c3%96rne%c4%9fi)
@@ -41,6 +42,13 @@
 | `#@`               | Form komutları                                   |
 | `\<satir_atlatma>` | Satır atlatmak için kullanılır                   |
 | `<func>??`         | Fonksiyonun kodlarını gösterir                   |
+
+### Kısayollar
+
+| Kısayol                           | Açıklama                            |
+| --------------------------------- | ----------------------------------- |
+| <kbd>TAB</kbd>                    | Kod tamamlama                       |
+| <kbd>SHIFT</kbd> + <kbd>TAB</kbd> | Seçili objenin ne olduğunu gösterme |
 
 ### Google Colab için Çalışma Ortamını Yapılandırma
 

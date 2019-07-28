@@ -2,30 +2,29 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Python Class, Modül ve Paketler](#python-class-mod%c3%bcl-ve-paketler)
-  - [Class](#class)
-    - [Class Anahtar Kelimeleri](#class-anahtar-kelimeleri)
-    - [Inheritence (Miras)](#inheritence-miras)
-    - [Class Örnekleri](#class-%c3%96rnekleri)
-    - [Enumeration](#enumeration)
-      - [Basit Kullanım](#basit-kullan%c4%b1m)
-      - [Fonksiyon API ile Kullanım](#fonksiyon-api-ile-kullan%c4%b1m)
-      - [Enum Özellikleri](#enum-%c3%96zellikleri)
-        - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%c4%b1mlamas%c4%b1)
-  - [Modüller](#mod%c3%bcller)
-    - [Modül Kullanım Örnekleri](#mod%c3%bcl-kullan%c4%b1m-%c3%96rnekleri)
-    - [Sık Kullanılan Modüller](#s%c4%b1k-kullan%c4%b1lan-mod%c3%bcller)
-      - [Random Modülü](#random-mod%c3%bcl%c3%bc)
-    - [Python Modül Dosyaları](#python-mod%c3%bcl-dosyalar%c4%b1)
-      - [Sistemin Python Modüllerine Bakma](#sistemin-python-mod%c3%bcllerine-bakma)
-    - [Modül İçinde Tanımlanan İsimleri Alma](#mod%c3%bcl-%c4%b0%c3%a7inde-tan%c4%b1mlanan-%c4%b0simleri-alma)
-  - [Paketler (Package)](#paketler-package)
-    - [Paketten ve Modül Örnekleri](#paketten-ve-mod%c3%bcl-%c3%96rnekleri)
-    - [Sık Kullanılan Paketler](#s%c4%b1k-kullan%c4%b1lan-paketler)
-      - [Windows Paketleri](#windows-paketleri)
-      - [Görüntü İşleme Paketleri](#g%c3%b6r%c3%bcnt%c3%bc-%c4%b0%c5%9fleme-paketleri)
-      - [Giriş Çıkış (I/O) Kontrol Paketleri](#giri%c5%9f-%c3%87%c4%b1k%c4%b1%c5%9f-io-kontrol-paketleri)
-    - [Paketler için Harici Bağlantıları](#paketler-i%c3%a7in-harici-ba%c4%9flant%c4%b1lar%c4%b1)
+- [Class](#class)
+  - [Class Anahtar Kelimeleri](#class-anahtar-kelimeleri)
+  - [Inheritence (Miras)](#inheritence-miras)
+  - [Class Örnekleri](#class-%c3%96rnekleri)
+  - [Enumeration](#enumeration)
+    - [Basit Kullanım](#basit-kullan%c4%b1m)
+    - [Fonksiyon API ile Kullanım](#fonksiyon-api-ile-kullan%c4%b1m)
+    - [Enum Özellikleri](#enum-%c3%96zellikleri)
+      - [Benzersin Enum Tanımlaması](#benzersin-enum-tan%c4%b1mlamas%c4%b1)
+- [Modüller](#mod%c3%bcller)
+  - [Modül Kullanım Örnekleri](#mod%c3%bcl-kullan%c4%b1m-%c3%96rnekleri)
+  - [Sık Kullanılan Modüller](#s%c4%b1k-kullan%c4%b1lan-mod%c3%bcller)
+    - [Random Modülü](#random-mod%c3%bcl%c3%bc)
+  - [Python Modül Dosyaları](#python-mod%c3%bcl-dosyalar%c4%b1)
+    - [Sistemin Python Modüllerine Bakma](#sistemin-python-mod%c3%bcllerine-bakma)
+  - [Modül İçinde Tanımlanan İsimleri Alma](#mod%c3%bcl-%c4%b0%c3%a7inde-tan%c4%b1mlanan-%c4%b0simleri-alma)
+- [Paketler (Package)](#paketler-package)
+  - [Paketten ve Modül Örnekleri](#paketten-ve-mod%c3%bcl-%c3%96rnekleri)
+  - [Sık Kullanılan Paketler](#s%c4%b1k-kullan%c4%b1lan-paketler)
+    - [Windows Paketleri](#windows-paketleri)
+    - [Görüntü İşleme Paketleri](#g%c3%b6r%c3%bcnt%c3%bc-%c4%b0%c5%9fleme-paketleri)
+    - [Giriş Çıkış (I/O) Kontrol Paketleri](#giri%c5%9f-%c3%87%c4%b1k%c4%b1%c5%9f-io-kontrol-paketleri)
+  - [Paketler için Harici Bağlantıları](#paketler-i%c3%a7in-harici-ba%c4%9flant%c4%b1lar%c4%b1)
 
 ## Class
 
@@ -573,6 +572,7 @@ from Game.Level.start import select_difficulty
 | [Tensorflow]                                                                                   | Makine öğrenimi                         |
 | [PyHook]                                                                                       | Klavye dinleme işlemleri                |
 | [PyGame]                                                                                       | Klavye dinlemek için pipeline oluşturma |
+| [Colorama](https://pypi.org/project/colorama/)                                                 | Ekrana renkli yazı bastırma             |
 
 #### Windows Paketleri
 

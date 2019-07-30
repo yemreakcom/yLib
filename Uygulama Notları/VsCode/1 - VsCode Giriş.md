@@ -4,6 +4,7 @@
 
 - [VsCode için Önemli Notlar](#vscode-i%c3%a7in-%c3%96nemli-notlar)
 - [VsCode kısayolları](#vscode-k%c4%b1sayollar%c4%b1)
+  - [Sık Kullanılan Kısayollar](#s%c4%b1k-kullan%c4%b1lan-k%c4%b1sayollar)
   - [Verimlilik Kısayolları](#verimlilik-k%c4%b1sayollar%c4%b1)
   - [Aksiyon Penceresi](#aksiyon-penceresi)
   - [İmleç Kısayolalrı](#%c4%b0mle%c3%a7-k%c4%b1sayolalr%c4%b1)
@@ -28,6 +29,15 @@ PDF dökümanı için [buraya](..%5C..%5Cpdfs%5CVisual%20Studio%20Code%20Shortcu
 
 - [Vscode ipuçları](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_files-and-folders)
 - [Snipped](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_snippets)
+
+### Sık Kullanılan Kısayollar
+
+| Kısayol                                           | Açıklama                               |
+| ------------------------------------------------- | -------------------------------------- |
+| <kbd>CTRK</kbd> + <kbd>F</kbd>                    | Dosyada kelime arama                   |
+| <kbd>CTRL</kbd> + <kbd>H</kbd>                    | Dosyada kelime arama ve değiştirme     |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd> | Tüm projede kelime arama               |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>H</kbd> | Tüm projede kelime arama ve değiştirme |
 
 ### Verimlilik Kısayolları
 

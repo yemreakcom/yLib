@@ -178,8 +178,31 @@ Windows için popüler olan **Chocolatey** paket yöneticisi, powershell üzerin
 
 ```sh
 choco install -y googlechrome winrar # Genel kullanım için
-choco install -y vscode git minicoda3 # Programlama için
+choco install -y vscode git # Programlama için
 ```
+
+<details>
+<summary>Kendi kullandıklarım</summary>
+
+<details>
+<summary>Tablet</summary>
+
+```sh
+choco install -y googlechrome wget firacode winrar youtube-dl vscode git --params "/GitAndUnixToolsOnPath /NoShellIntegration /WindowsTerminal"
+```
+
+</details>
+
+<details>
+<summary>PC</summary>
+
+```sh
+choco install -y googlechrome wget firacode winrar youtube-dl vscode tusk miniconda3 python github-desktop git --params "/GitAndUnixToolsOnPath /NoShellIntegration /WindowsTerminal"
+```
+
+</details>
+
+</details>
 
 ## PowerShell Kullanımı
 

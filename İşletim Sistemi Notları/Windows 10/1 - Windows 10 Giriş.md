@@ -2,17 +2,18 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [İndirme](#%C4%B0ndirme)
-- [Faydalı Programlar](#Faydal%C4%B1-Programlar)
-- [Temel Dizinler](#Temel-Dizinler)
-- [Uygulama Verileri](#Uygulama-Verileri)
-- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
-- [Kısayollar](#K%C4%B1sayollar)
-  - [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
-  - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
-  - [Gezimti](#Gezimti)
-  - [Girdi İşlemleri](#Girdi-%C4%B0%C5%9Flemleri)
-  - [Menü Kısayolları](#Men%C3%BC-K%C4%B1sayollar%C4%B1)
+- [İndirme](#%c4%b0ndirme)
+- [Faydalı Programlar](#faydal%c4%b1-programlar)
+- [Temel Dizinler](#temel-dizinler)
+- [Uygulama Verileri](#uygulama-verileri)
+- [Otomatik Olarak Oturum Açma](#otomatik-olarak-oturum-a%c3%a7ma)
+- [Kısayollar](#k%c4%b1sayollar)
+  - [Kısayol Oluşturma](#k%c4%b1sayol-olu%c5%9fturma)
+  - [Faydalı Kısayollar](#faydal%c4%b1-k%c4%b1sayollar)
+  - [Uygulama İşlemleri](#uygulama-%c4%b0%c5%9flemleri)
+  - [Gezinti](#gezinti)
+  - [Girdi İşlemleri](#girdi-%c4%b0%c5%9flemleri)
+  - [Menü Kısayolları](#men%c3%bc-k%c4%b1sayollar%c4%b1)
 
 ## İndirme
 
@@ -87,6 +88,14 @@ Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde ça
 - `Shortcut` alnına tıklayıp klavyenizden bir tuşa basın
 - <kbd>CTRL</kbd> + <kbd>ALT</kbd> kombinasyonları ile kısayol oluşturabilirsiniz
 
+### Faydalı Kısayollar
+
+| Kısayolalr                                                   | Açıklama                                   |
+| ------------------------------------------------------------ | ------------------------------------------ |
+| <kbd>WINDOWS</kbd> + <kbd>G</kbd>                            | **Game bar** ile video veya ses kayda alma |
+| <kbd>WINDOWS</kbd> + <kbd>Ş</kbd>                            | Emoji klavyesi                             |
+| <kbd>CTRL</kbd> + <kbd>WINDOWS</kbd> + <kbd>-> veya <-</kbd> | Desktop değiştirme                         |
+
 ### Uygulama İşlemleri
 
 | Kısayol                                     | Açıklama                                                                                           |
@@ -103,7 +112,7 @@ Windowsun bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde ça
 | `WİNDOWS TUŞU (SUPER)` + `YUKARI YONU`      | Uygulamayı tam ekran yapma                                                                         |
 | `WİNDOWS TUŞU (SUPER)` + `AŞAĞI YONU`       | Uygulamayı küçük ekran yapma                                                                       |
 
-### Gezimti
+### Gezinti
 
 - `ALT` + `TAB` Uygulamalar arası gezinti
 - `CTRL` + `WİNDOWS TUŞU (SUPER)` + `<YON TUŞLARI>` Masaüstleri arası gezinti

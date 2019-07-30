@@ -3,7 +3,7 @@
 ## İçerikler <!-- omit in toc -->
 
 - [Otomatik Giriş Yapma](#otomatik-giri%c5%9f-yapma)
-- [Dosya Resmini Değiştirme](#dosya-resmini-de%c4%9fi%c5%9ftirme)
+- [Dizin Resmini Değiştirme](#dizin-resmini-de%c4%9fi%c5%9ftirme)
 - [Resim Düzenleyicisini Değiştirme](#resim-d%c3%bczenleyicisini-de%c4%9fi%c5%9ftirme)
 - [File Explorer'ı Geliştirme](#file-explorer%c4%b1-geli%c5%9ftirme)
 - [Windows 10 Composer](#windows-10-composer)
@@ -44,6 +44,7 @@ FolderType=Documents
 - Arama alanına `regedit` yazıp <kbd>ENTER</kbd>'a basın
 - Çıkan ekranda `Computer\HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit\command` dizinine gelin
 - Default adlı anahtarın değerini `"C:\Program Files\paint.net\PaintDotNet.exe" "%1"` olarak değiştirin
+  - Orjinal veri: `"C:\Windows\system32\mspaint.exe" "%1"`
 
 > Program yolunu istediğiniz gibi ayarlayabilirsiniz
 

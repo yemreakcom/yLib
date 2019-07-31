@@ -2,11 +2,11 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Snippets](#snippets)
-- [Editör Ayarlarım](#edit%c3%b6r-ayarlar%c4%b1m)
-- [Klavye Kısayolları Ayarım](#klavye-k%c4%b1sayollar%c4%b1-ayar%c4%b1m)
-- [Eklentirlerim](#eklentirlerim)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
+- [Snippets](#Snippets)
+- [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
+- [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
+- [Eklentirlerim](#Eklentirlerim)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Snippets
 
@@ -152,13 +152,13 @@ Verimli çalışmak için kod parçaları
   // Github ayarları
   "github.username": "yedhrab",
   // Python ayarları
-  "python.pythonPath": "C:\\tools\\miniconda3\\python.exe",
   "python.jediEnabled": false,
   // Javasciprt ayarları
   "javascript.updateImportsOnFileMove.enabled": "always",
   // Pano'dan resim kopyalam ayarı
   "pasteImage.path": "${projectRoot}/res",
   // Markdown PDF ayarları
+  "markdown.extension.toc.downcaseLink": false,
   "markdown-pdf.outputDirectory": "Dökümanlar",
   "markdown-pdf.styles": ["http://tiny.cc/yek86y"],
   "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; font: Risque; color: red;' href='https://gogetfunding.com/yemreak/'>Destek ❤</a></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>The MIT License Copyright &copy; Yunus Emre Ak</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
@@ -278,7 +278,3 @@ code \
 ## Harici Bağlantılar
 
 - [Faydalı eklentiler](https://nickjanetakis.com/blog/my-favorite-vscode-extensions-and-settings)
-
-```
-
-```

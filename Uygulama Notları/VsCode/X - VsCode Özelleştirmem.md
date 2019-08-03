@@ -30,7 +30,19 @@ Verimli çalışmak için kod parçaları
   // 	],
   // 	"description": "Log output to console"
   // }
-  "Insert '<!-- omit in toc --->": {
+  "Insert head": {
+    "prefix": "head",
+    "body": [
+      "# $1 <!-- omit in toc -->",
+      "",
+      "$2",
+      "## İçerikler <!-- omit in toc -->",
+      "",
+      "$0"
+    ],
+    "description": "Markdown üst bilgisi ekleme"
+  },
+  "Omit": {
     "prefix": "om",
     "body": ["<!-- omit in toc -->"],
     "description": "Omit from ToC"

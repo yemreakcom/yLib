@@ -4,15 +4,15 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 
 ## İçerikler <!-- omit in toc -->
 
-- [Python Eklentileri](#python-eklentileri)
-- [Python Kodlarını Formatlama](#python-kodlar%C4%B1n%C4%B1-formatlama)
-- [Debug Yapılandırması](#debug-yap%C4%B1land%C4%B1rmas%C4%B1)
-- [Jupyter Desteği](#jupyter-deste%C4%9Fi)
-- [Python Derleyicisi Ayarlama](#python-derleyicisi-ayarlama)
-- [PYTHONPATH Oluşturma](#pythonpath-olu%C5%9Fturma)
-- [PYTHONPATH Örneği](#pythonpath-%C3%B6rne%C4%9Fi)
-- [Ek Python Ayarları](#ek-python-ayarlar%C4%B1)
-- [Python Kısayolları](#python-k%C4%B1sayollar%C4%B1)
+- [Python Eklentileri](#Python-Eklentileri)
+- [Python Kodlarını Formatlama](#Python-Kodlar%C4%B1n%C4%B1-Formatlama)
+- [Debug Yapılandırması](#Debug-Yap%C4%B1land%C4%B1rmas%C4%B1)
+- [Jupyter Desteği](#Jupyter-Deste%C4%9Fi)
+- [Python Derleyicisi Ayarlama](#Python-Derleyicisi-Ayarlama)
+- [PYTHONPATH Oluşturma](#PYTHONPATH-Olu%C5%9Fturma)
+- [PYTHONPATH Örneği](#PYTHONPATH-%C3%96rne%C4%9Fi)
+- [Ek Python Ayarları](#Ek-Python-Ayarlar%C4%B1)
+- [Python Kısayolları](#Python-K%C4%B1sayollar%C4%B1)
 
 ## Python Eklentileri
 

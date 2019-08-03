@@ -48,12 +48,12 @@ String'ler karakter listesi olarak geçtiğinden `list` özelliklerini taşır.
 | ----------------------- | ------------------------ | -------------------------------------- | --------------------- |
 | `len`                   | Uzunluk                  | `len("yemreak")`                       | `7`                   |
 | `format`                | Formatlama               | `"X: {}, Y: {}".format(1, 2)`          | `'X: 1, Y: 2'`        |
-| `lower`, `upper` | Küçük / büyük harf | `"As".lower()`, `"As".upper()` | `"as"`, `AS` |
+| `lower`, `upper`        | Küçük / büyük harf       | `"As".lower()`, `"As".upper()`         | `"as"`, `AS`          |
 | `%`                     | Operatör ile formatlama  | `'new(%s %d)' % ('help', 5)`           | `'new(help 5)'`       |
 | `f`                     | Format string ön eki     | `f'X: {a}'`                            | `'X: 2'`              |
 | `r`                     | Raw String ön eki        | `r"C:\Users"`                          | `C:\\Users`           |
-| `u`                     | Unicode string ön eki    |||
-| `"""`                   | Çok satırlı string       |||
+| `u`                     | Unicode string ön eki    |                                        |                       |
+| `"""`                   | Çok satırlı string       |                                        |                       |
 | `split`                 | Parçalama                | `"ye mre ak".split(" ")`               | `['ye', 'mre', 'ak']` |
 | `[<başlangıç>:<bitiş>]` | Kesme                    | `"yemreak".[2:5]`, `"yemreak".[-3:-1]` | `"mre"`, `"ea"`       |
 | `join`                  | Birleştirme              | `','.join(['do', 're', 'mi'])`         | `'do,re,mi'`          |

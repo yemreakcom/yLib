@@ -2,18 +2,18 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Dosyaya Erişim](#dosyaya-eri%c5%9fim)
-- [Dosya İşlemi Örnekleri](#dosya-%c4%b0%c5%9flemi-%c3%96rnekleri)
-- [Dosya Erişim Modları](#dosya-eri%c5%9fim-modlar%c4%b1)
-- [Dosyada İşlem Metodları](#dosyada-%c4%b0%c5%9flem-metodlar%c4%b1)
-- [Dosyayı Kapatmadan Yazma İşlemleri](#dosyay%c4%b1-kapatmadan-yazma-%c4%b0%c5%9flemleri)
-- [Dizin (Dir) İşlemleri](#dizin-dir-%c4%b0%c5%9flemleri)
-  - [Dizin veya Dosya Yolları Listesi Döndürme](#dizin-veya-dosya-yollar%c4%b1-listesi-d%c3%b6nd%c3%bcrme)
-  - [Python System Dizinlerine Erişme (System Enviroment)](#python-system-dizinlerine-eri%c5%9fme-system-enviroment)
-  - [Python Kullanıcı Dizinlerine Erişme](#python-kullan%c4%b1c%c4%b1-dizinlerine-eri%c5%9fme)
-- [Dosya Yolu (Path) İşlemleri](#dosya-yolu-path-%c4%b0%c5%9flemleri)
-- [Raporlama İşlemleri (Logging)](#raporlama-%c4%b0%c5%9flemleri-logging)
-- [EXE'ye çevirme](#exeye-%c3%a7evirme)
+- [Dosyaya Erişim](#Dosyaya-Eri%C5%9Fim)
+- [Dosya İşlemi Örnekleri](#Dosya-%C4%B0%C5%9Flemi-%C3%96rnekleri)
+- [Dosya Erişim Modları](#Dosya-Eri%C5%9Fim-Modlar%C4%B1)
+- [Dosyada İşlem Metodları](#Dosyada-%C4%B0%C5%9Flem-Metodlar%C4%B1)
+- [Dosyayı Kapatmadan Yazma İşlemleri](#Dosyay%C4%B1-Kapatmadan-Yazma-%C4%B0%C5%9Flemleri)
+- [Dizin (Dir) İşlemleri](#Dizin-Dir-%C4%B0%C5%9Flemleri)
+  - [Dizin veya Dosya Yolları Listesi Döndürme](#Dizin-veya-Dosya-Yollar%C4%B1-Listesi-D%C3%B6nd%C3%BCrme)
+  - [Python System Dizinlerine Erişme (System Enviroment)](#Python-System-Dizinlerine-Eri%C5%9Fme-System-Enviroment)
+  - [Python Kullanıcı Dizinlerine Erişme](#Python-Kullan%C4%B1c%C4%B1-Dizinlerine-Eri%C5%9Fme)
+- [Dosya Yolu (Path) İşlemleri](#Dosya-Yolu-Path-%C4%B0%C5%9Flemleri)
+- [Raporlama İşlemleri (Logging)](#Raporlama-%C4%B0%C5%9Flemleri-Logging)
+- [EXE'ye çevirme](#EXEye-%C3%A7evirme)
 
 ## Dosyaya Erişim
 

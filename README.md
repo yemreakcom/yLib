@@ -11,37 +11,36 @@ Karma konular hakkında aldığım notlar.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ayrılan Notlarım](#ayr%c4%b1lan-notlar%c4%b1m)
-  - [IstanbulUniversity - CE](#istanbuluniversity---ce)
-  - [Scipts](#scipts)
-- [Google Yazılımları](#google-yaz%c4%b1l%c4%b1mlar%c4%b1)
-- [Günlük Hayat Notları](#g%c3%bcnl%c3%bck-hayat-notlar%c4%b1)
-- [Karma Bilgiler](#karma-bilgiler)
-- [Programlama Notları](#programlama-notlar%c4%b1)
-  - [Java](#java)
-  - [JavaFX](#javafx)
-  - [Oyun Programlama](#oyun-programlama)
-  - [Python](#python)
-    - [Data Science](#data-science)
-    - [Notebooks](#notebooks)
-      - [miniprojects](#miniprojects)
-  - [Web Programlama Notları](#web-programlama-notlar%c4%b1)
-- [Proje Yönetimi Notları](#proje-y%c3%b6netimi-notlar%c4%b1)
-- [Teknoloji Notları](#teknoloji-notlar%c4%b1)
-- [Uygulama Notları](#uygulama-notlar%c4%b1)
-  - [VsCode](#vscode)
-- [Yapay Zeka Notları](#yapay-zeka-notlar%c4%b1)
-- [Yazılım Notları](#yaz%c4%b1l%c4%b1m-notlar%c4%b1)
+- [Ayrılan Notlarım](#Ayr%C4%B1lan-Notlar%C4%B1m)
+  - [IstanbulUniversity - CE](#IstanbulUniversity---CE)
+  - [Scipts](#Scipts)
+- [Google Yazılımları](#Google-Yaz%C4%B1l%C4%B1mlar%C4%B1)
+- [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
+- [Karma Bilgiler](#Karma-Bilgiler)
+- [Programlama Notları](#Programlama-Notlar%C4%B1)
+  - [Cheat Sheets](#Cheat-Sheets)
+  - [Java](#Java)
+  - [JavaFX](#JavaFX)
+  - [Oyun Programlama](#Oyun-Programlama)
+  - [Python](#Python)
+    - [Data Science](#Data-Science)
+  - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
+- [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
+- [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
+- [Uygulama Notları](#Uygulama-Notlar%C4%B1)
+  - [VsCode](#VsCode)
+- [Yapay Zeka Notları](#Yapay-Zeka-Notlar%C4%B1)
+- [Yazılım Notları](#Yaz%C4%B1l%C4%B1m-Notlar%C4%B1)
 - [pdfs](#pdfs)
-- [İşletim Sistemi Notları](#%c4%b0%c5%9fletim-sistemi-notlar%c4%b1)
-  - [Linux Notları](#linux-notlar%c4%b1)
-  - [Windows 10](#windows-10)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
-- [Yapılacaklar](#yap%c4%b1lacaklar)
-  - [İleride Yapılacaklar](#%c4%b0leride-yap%c4%b1lacaklar)
-- [Çalışma Notları](#%c3%87al%c4%b1%c5%9fma-notlar%c4%b1)
-  - [İçerik Yapısı](#%c4%b0%c3%a7erik-yap%c4%b1s%c4%b1)
-- [Destek ve İletişim](#destek-ve-%c4%b0leti%c5%9fim)
+- [İşletim Sistemi Notları](#%C4%B0%C5%9Fletim-Sistemi-Notlar%C4%B1)
+  - [Linux Notları](#Linux-Notlar%C4%B1)
+  - [Windows 10](#Windows-10)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
+- [Yapılacaklar](#Yap%C4%B1lacaklar)
+  - [İleride Yapılacaklar](#%C4%B0leride-Yap%C4%B1lacaklar)
+- [Çalışma Notları](#%C3%87al%C4%B1%C5%9Fma-Notlar%C4%B1)
+  - [İçerik Yapısı](#%C4%B0%C3%A7erik-Yap%C4%B1s%C4%B1)
+- [Destek ve İletişim](#Destek-ve-%C4%B0leti%C5%9Fim)
 
 ## Ayrılan Notlarım
 
@@ -106,6 +105,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ### Cheat Sheets
 
 - [Bokeh](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Bokeh.pdf)
+- [Compleate Python Cheat Sheets](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Compleate%20Python%20Cheat%20Sheets.pdf)
 - [Data table](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Data%20table.pdf)
 - [Importing data](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Importing%20data.pdf)
 - [Jupyter Notebook](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Jupyter%20Notebook.pdf)
@@ -157,11 +157,9 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [6 - Python Koleksiyonlar](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Koleksiyonlar.md)
 - [7 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
 - [8 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
-- [8.1 - Python ile İleri Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8.1%20-%20Python%20ile%20%C4%B0leri%20Dosya%20%C4%B0%C5%9Flemleri.md)
 - [9 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
 - [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
 - [A - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [A1 - Python ile Veri İşlemleri](./Programlama%20Notlar%C4%B1/Python/A1%20-%20Python%20ile%20Veri%20%C4%B0%C5%9Flemleri.md)
 - [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
 - [X1 - Python ile Görüntü İşleme Notları](./Programlama%20Notlar%C4%B1/Python/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
 - [XX - Python Algoritma Örnekleri](./Programlama%20Notlar%C4%B1/Python/XX%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
@@ -169,28 +167,10 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 
 #### Data Science
 
-- [1 - Dosya işlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20i%C5%9Flemleri.md)
-- [1 - Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20%C4%B0%C5%9Flemleri.ipynb)
-- [1 - Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Dosya%20%C4%B0%C5%9Flemleri.pdf)
-- [README](./Programlama%20Notlar%C4%B1/Python/Data%20Science/README.md)
-
-#### Notebooks
-
-- [0 - PY_Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/0%20-%20PY_Intro.ipynb)
-- [1 -PY_ProgramFlow](./Programlama%20Notlar%C4%B1/Python/Notebooks/1%20-PY_ProgramFlow.ipynb)
-- [2 - PY_DataStructures](./Programlama%20Notlar%C4%B1/Python/Notebooks/2%20-%20PY_DataStructures.ipynb)
-- [3 - PY_Algorithms](./Programlama%20Notlar%C4%B1/Python/Notebooks/3%20-%20PY_Algorithms.ipynb)
-- [4 - PY_OOP](./Programlama%20Notlar%C4%B1/Python/Notebooks/4%20-%20PY_OOP.ipynb)
-- [5 -PY_Pythonic](./Programlama%20Notlar%C4%B1/Python/Notebooks/5%20-PY_Pythonic.ipynb)
-
-##### miniprojects
-
-- [0 - Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/0%20-%20Intro.ipynb)
-- [0 - Intro](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/0%20-%20Intro.pdf)
-- [1 - Program Flow](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/1%20-%20Program%20Flow.ipynb)
-- [1 - Program Flow](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/1%20-%20Program%20Flow.pdf)
-- [2 - Object-oriented exercises](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/2%20-%20Object-oriented%20exercises.ipynb)
-- [2 - Object-oriented exercises](./Programlama%20Notlar%C4%B1/Python/Notebooks/miniprojects/2%20-%20Object-oriented%20exercises.pdf)
+- [1 - Veri Bilmine Giriş](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Veri%20Bilmine%20Giri%C5%9F.md)
+- [1.1 - Numpy](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.1%20-%20Numpy.md)
+- [1.2 - Pandas](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.2%20-%20Pandas.md)
+- [1.3 - Matplotlib](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.3%20-%20Matplotlib.md)
 
 ### Web Programlama Notları
 
@@ -281,6 +261,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [2 - Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
 - [3 - Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
 - [4 - Linux Terminal İndiricileri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4%20-%20Linux%20Terminal%20%C4%B0ndiricileri.md)
+- [4.1 - Linux Terminali Sık Kullanılan Komutlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4.1%20-%20Linux%20Terminali%20S%C4%B1k%20Kullan%C4%B1lan%20Komutlar.md)
 - [X - Linux Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Genel%20Notlar.md)
 
 ### Windows 10

@@ -2,15 +2,15 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Koleksiyonlar Nedir ? (Collection)](#koleksiyonlar-nedir--collection)
-- [Namedtuple](#namedtuple)
-  - [NamedTuple ile Üretilen Kod](#namedtuple-ile-%c3%9cretilen-kod)
-- [Deque](#deque)
-  - [Deque için Verimlilik Hesapbı](#deque-i%c3%a7in-verimlilik-hesapb%c4%b1)
-- [Counter](#counter)
-- [OrderedDict](#ordereddict)
-- [DefaultDict](#defaultdict)
-  - [DefaultDict Avantajı](#defaultdict-avantaj%c4%b1)
+- [Koleksiyonlar Nedir ? (Collection)](#Koleksiyonlar-Nedir--Collection)
+- [Namedtuple](#Namedtuple)
+  - [NamedTuple ile Üretilen Kod](#NamedTuple-ile-%C3%9Cretilen-Kod)
+- [Deque](#Deque)
+  - [Deque için Verimlilik Hesapbı](#Deque-i%C3%A7in-Verimlilik-Hesapb%C4%B1)
+- [Counter](#Counter)
+- [OrderedDict](#OrderedDict)
+- [DefaultDict](#DefaultDict)
+  - [DefaultDict Avantajı](#DefaultDict-Avantaj%C4%B1)
 
 ## Koleksiyonlar Nedir ? (Collection)
 

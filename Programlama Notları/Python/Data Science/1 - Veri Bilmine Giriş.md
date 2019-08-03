@@ -1,40 +1,57 @@
-# Python ile İleri Dosya İşlemleri <!-- omit in toc -->
+# Veri Bilimine Giriş <!-- omit in toc -->
 
 ## İçerikler <!-- omit in toc -->
 
-- [Önemli Bilgiler](#%c3%96nemli-bilgiler)
-- [DataFrame Metodları](#dataframe-metodlar%c4%b1)
-- [CSV İşlemlerine Giriş](#csv-%c4%b0%c5%9flemlerine-giri%c5%9f)
-- [Pandas ile CSV Oluşturma](#pandas-ile-csv-olu%c5%9fturma)
-- [Webteki JavaScript Verileri (`json`)](#webteki-javascript-verileri-json)
-  - [JSON Yapısı](#json-yap%c4%b1s%c4%b1)
-  - [JSON Okuma](#json-okuma)
-- [Sıkıştırılmış Veriler (`gzip`)](#s%c4%b1k%c4%b1%c5%9ft%c4%b1r%c4%b1lm%c4%b1%c5%9f-veriler-gzip)
-  - [Gzip Metodları](#gzip-metodlar%c4%b1)
-  - [Gzip Örnekleri](#gzip-%c3%96rnekleri)
-- [Serileştirme (`pickle`)](#serile%c5%9ftirme-pickle)
-  - [Pickle Metodları](#pickle-metodlar%c4%b1)
-  - [Pickle Örnekleri](#pickle-%c3%96rnekleri)
-- [NumPy Dosya Formatı](#numpy-dosya-format%c4%b1)
-  - [NumPy Metodları](#numpy-metodlar%c4%b1)
-  - [Numpy Örnekleri](#numpy-%c3%96rnekleri)
+- [Hızlı Giriş](#H%C4%B1zl%C4%B1-Giri%C5%9F)
+  - [CSV ve JSON](#CSV-ve-JSON)
+  - [Dosya Tipleri](#Dosya-Tipleri)
+  - [Sık Kullanılan Kütüphaneler](#S%C4%B1k-Kullan%C4%B1lan-K%C3%BCt%C3%BCphaneler)
+- [Tablo İşlemlerine Giriş (`csv`)](#Tablo-%C4%B0%C5%9Flemlerine-Giri%C5%9F-csv)
+  - [Pandas ile CSV Oluşturma](#Pandas-ile-CSV-Olu%C5%9Fturma)
+- [Webteki JavaScript Verileri (`json`)](#Webteki-JavaScript-Verileri-json)
+  - [JSON Yapısı](#JSON-Yap%C4%B1s%C4%B1)
+  - [JSON Okuma](#JSON-Okuma)
+- [DataFrame Metodları](#DataFrame-Metodlar%C4%B1)
+- [Sıkıştırılmış Veriler (`gzip`)](#S%C4%B1k%C4%B1%C5%9Ft%C4%B1r%C4%B1lm%C4%B1%C5%9F-Veriler-gzip)
+  - [Gzip Metodları](#Gzip-Metodlar%C4%B1)
+  - [Gzip Örnekleri](#Gzip-%C3%96rnekleri)
+- [Serileştirme (`pickle`)](#Serile%C5%9Ftirme-pickle)
+  - [Pickle Metodları](#Pickle-Metodlar%C4%B1)
+  - [Pickle Örnekleri](#Pickle-%C3%96rnekleri)
+- [NumPy Dosya Formatı (`numpy`)](#NumPy-Dosya-Format%C4%B1-numpy)
+  - [NumPy Metodları](#NumPy-Metodlar%C4%B1)
+  - [Numpy Örnekleri](#Numpy-%C3%96rnekleri)
 
-## Önemli Bilgiler
+## Hızlı Giriş
 
 - CSV, JSON işlemleri için `pandas` _package_'ı kullanılır
 - `DataFrame`, `pandas` paketinin bir objesidir
 
-## DataFrame Metodları
+### CSV ve JSON
 
-| Metod                            | Açıklama                                        |
-| -------------------------------- | ----------------------------------------------- |
-| `df.head()`                      | Verilerin başlangıç kısmından birazını gösterme |
-| `df.read_csv(<dosya yolu>)`      | CSV dosyasını okuma                             |
-| `df.to_csv(<dosya yolu>)`        | CSV dosyası oluşturma                           |
-| `df.read_json(<dosya yolu>)`     | JSON dosyasını okuma                            |
-| `df.to_json(<dosya yolu | url>)` | JSON dosyası oluşturma                          |
+| CSV                                     | JSON                                            |
+| --------------------------------------- | ----------------------------------------------- |
+| Csv en sade tablo verisi formatıdır     | `dict` ve `list`'in harmanlanmış hali denebilir |
+| `<val>, <val>, ...` formatında saklanır | `{<key>: <value> ...}` formatında saklanır      |
+| `pandas` paketi ile ele alınır          | `pandas` paketi ile ele alınır                  |
 
-## CSV İşlemlerine Giriş
+### Dosya Tipleri
+
+| Gzip                                   | NumPy                                           | Pickle                             |
+| -------------------------------------- | ----------------------------------------------- | ---------------------------------- |
+| Sıkıştırılmış dosyalardır (daha az MB) | Matematik ve matrix işlemlerini ele alır        | Objeleri dosyaya kaydetmeyi sağlar |
+| Dosya uzantısı `.gz`                   | Dosya uzantısı `npy`                            | Dosya uzantısı `pkl`               |
+| Binary formattadır (`wb`)              | Text formatında da kayıt edilebilir (`w`, `wb`) | Binary formatındadır (`wb`)        |
+
+### Sık Kullanılan Kütüphaneler
+
+| Kütüphane  | Açıklama               |
+| ---------- | ---------------------- |
+| NumPy      | Matermatiksel işlemler |
+| Matplotlib | Grafik çizim işlemleri |
+| Pandas     | Çoklu verileri işleme  |
+
+## Tablo İşlemlerine Giriş (`csv`)
 
 - Csv en sade tablo verisi formatıdır
 - `,` karakteri ile veriler ayrılır
@@ -75,7 +92,7 @@ df
 
 </details>
 
-## Pandas ile CSV Oluşturma
+### Pandas ile CSV Oluşturma
 
 - CSV dosyalarında veriler `,` karaterine göre sütunlara yerleşir
 - Tanımlanmayan alanlara `NaN` yazılır
@@ -242,6 +259,16 @@ pd.read_json('https://api.github.com/repos/pydata/pandas/issues?per_page=5')
 
 </details>
 
+## DataFrame Metodları
+
+| Metod                            | Açıklama                                        |
+| -------------------------------- | ----------------------------------------------- |
+| `df.head()`                      | Verilerin başlangıç kısmından birazını gösterme |
+| `df.read_csv(<dosya yolu>)`      | CSV dosyasını okuma                             |
+| `df.to_csv(<dosya yolu>)`        | CSV dosyası oluşturma                           |
+| `df.read_json(<dosya yolu>)`     | JSON dosyasını okuma                            |
+| `df.to_json(<dosya yolu | url>)` | JSON dosyası oluşturma                          |
+
 ## Sıkıştırılmış Veriler (`gzip`)
 
 - Çok sık kullanılan sıkıştırma tipidir
@@ -297,6 +324,7 @@ with gzip.open('./data/short_text.txt.gz', 'wb') as f:
 - Kaydetme işlemi text formatında değil , **binary** formatında olur
   - `w` yerine `wb` kullanılır
 - Sıklıkla `pickle` paketi kullanılır
+- Dosya uzantısı `pkl`
 
 ### Pickle Metodları
 
@@ -348,10 +376,11 @@ reloaded_example == pickle_example # True
 
 </details>
 
-## NumPy Dosya Formatı
+## NumPy Dosya Formatı (`numpy`)
 
 - Makine öğrenimin oldukça kullanılan bir pakettir
 - Kendisine özel basit kullanımlı dosya işlemleri vardır
+- Dosya uzantısı `npy` şeklindedir
 
 ### NumPy Metodları
 

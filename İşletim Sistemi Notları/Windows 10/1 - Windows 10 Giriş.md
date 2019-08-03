@@ -2,18 +2,18 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [İndirme](#%c4%b0ndirme)
-- [Faydalı Programlar](#faydal%c4%b1-programlar)
-- [Temel Dizinler](#temel-dizinler)
-- [Uygulama Verileri](#uygulama-verileri)
-- [Otomatik Olarak Oturum Açma](#otomatik-olarak-oturum-a%c3%a7ma)
-- [Kısayollar](#k%c4%b1sayollar)
-  - [Kısayol Oluşturma](#k%c4%b1sayol-olu%c5%9fturma)
-  - [Faydalı Kısayollar](#faydal%c4%b1-k%c4%b1sayollar)
-  - [Uygulama İşlemleri](#uygulama-%c4%b0%c5%9flemleri)
-  - [Gezinti](#gezinti)
-  - [Girdi İşlemleri](#girdi-%c4%b0%c5%9flemleri)
-  - [Menü Kısayolları](#men%c3%bc-k%c4%b1sayollar%c4%b1)
+- [İndirme](#%C4%B0ndirme)
+- [Faydalı Programlar](#Faydal%C4%B1-Programlar)
+- [Temel Dizinler](#Temel-Dizinler)
+- [Uygulama Verileri](#Uygulama-Verileri)
+- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
+- [Kısayollar](#K%C4%B1sayollar)
+  - [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
+  - [Faydalı Kısayollar](#Faydal%C4%B1-K%C4%B1sayollar)
+  - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
+  - [Gezinti](#Gezinti)
+  - [Girdi İşlemleri](#Girdi-%C4%B0%C5%9Flemleri)
+  - [Menü Kısayolları](#Men%C3%BC-K%C4%B1sayollar%C4%B1)
 
 ## İndirme
 
@@ -42,15 +42,19 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - Yavaşlatma
   - Efekt ekleme
 
-| Program                | Açıklama                                     |
-| ---------------------- | -------------------------------------------- |
-| [Sharex]               | Ekran görüntüsü ve video kaydı               |
-| [PDF Conversion Suite] | PDF'e dönüştürme işlemleri                   |
-| [Pichon - Free Icons]  | Ücresiz icon kütüphanesi                     |
-| [Paint.NET]            | Paint'in gelişmiş hali, transparant destekli |
-| [Whatsapp Desktop]     | Whatsapp masajlaşma uygulaması               |
-| [Capitaine Cursors r2] | Mouse için karanlık tema                     |
-| Light Key              | Metin tamamlama (Ctrl + TIklama ile) 🤔      |
+| Program                                                                                                                                             | Açıklama                                        |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| [Sharex]                                                                                                                                            | Ekran görüntüsü ve video kaydı                  |
+| [QuickLook](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                                                   | Dosyaları ön izleme (<kbd>SPACE</kbd> tuşu ile) |
+| [Microsoft To-Do](https://www.microsoft.com/tr-tr/p/microsoft-to-do-list-task-reminder/9nblggh5r558?cid=msft_web_chart&activetab=pivot:overviewtab) | Yapılacaklar yönetimi                           |
+| [Notepads - Beta](https://www.microsoft.com/tr-tr/p/notepads-beta/9nhl4nsc67wm?activetab=pivot:overviewtab)                                         | Hafif ve şık notepad alternatifi                |
+| [PDF Conversion Suite]                                                                                                                              | PDF'e dönüştürme işlemleri                      |
+| [Pichon - Free Icons]                                                                                                                               | Ücresiz icon kütüphanesi                        |
+| [Paint.NET]                                                                                                                                         | Paint'in gelişmiş hali, transparant destekli    |
+| [Whatsapp Desktop]                                                                                                                                  | Whatsapp masajlaşma uygulaması                  |
+| [Numix Cursors](https://www.deviantart.com/alexgal23/art/Numix-Cursors-631491782)                                                                   | Hafif ve ufak mouse teması                      |
+| [Capitaine Cursors r2]                                                                                                                              | Mouse için karanlık tema                        |
+| Light Key                                                                                                                                           | Metin tamamlama (Ctrl + TIklama ile) 🤔         |
 
 ## Temel Dizinler
 

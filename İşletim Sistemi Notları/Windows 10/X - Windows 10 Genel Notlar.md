@@ -141,3 +141,4 @@ Logoyu kaldırmak için harici uygulamayı [buraya](https://drive.google.com/ope
 - [Move Komutu](https://www.windows-commandline.com/move-files-directories/)
 - [How to copy a list of file names to text file?](https://superuser.com/questions/395836/how-to-copy-a-list-of-file-names-to-text-file)
 - [Windows 10 Cache Temizleme](https://www.itechtics.com/clear-types-windows-10-cache/)
+- [En faydalı mağaza uygulamaları](https://www.makeuseof.com/tag/microsoft-mac-book-sell-surface-laptop/)

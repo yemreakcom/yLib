@@ -2,14 +2,14 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Güvenli Modda Açma](#g%c3%bcvenli-modda-a%c3%a7ma)
-- [Telefonun Ekranının Kendiliğinden Kapanması](#telefonun-ekran%c4%b1n%c4%b1n-kendili%c4%9finden-kapanmas%c4%b1)
-- [Stock Rom Yükleme](#stock-rom-y%c3%bckleme)
-  - [ADB & Flashboot Kurulumu](#adb--flashboot-kurulumu)
-  - [Bootloader Klidini Açma](#bootloader-klidini-a%c3%a7ma)
-  - [Stock Rom Kurulumu](#stock-rom-kurulumu)
-  - [Stock Rom'un Aktarılması](#stock-romun-aktar%c4%b1lmas%c4%b1)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
+- [Güvenli Modda Açma](#G%C3%BCvenli-Modda-A%C3%A7ma)
+- [Telefonun Ekranının Kendiliğinden Kapanması](#Telefonun-Ekran%C4%B1n%C4%B1n-Kendili%C4%9Finden-Kapanmas%C4%B1)
+- [Stock Rom Yükleme](#Stock-Rom-Y%C3%BCkleme)
+  - [ADB & Flashboot Kurulumu](#ADB--Flashboot-Kurulumu)
+  - [Bootloader Klidini Açma](#Bootloader-Klidini-A%C3%A7ma)
+  - [Stock Rom Kurulumu](#Stock-Rom-Kurulumu)
+  - [Stock Rom'un Aktarılması](#Stock-Romun-Aktar%C4%B1lmas%C4%B1)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Güvenli Modda Açma
 
@@ -39,9 +39,9 @@ Linux için kurulumuna [buradan](../%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1%2
 
 ### Stock Rom Kurulumu
 
-Buradaki [linke](https://en.miui.com/download-354.html) tıklayarak _stock rom_'u indirme sayfasına yönelebilirsin.
+Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u indirme sayfasına yönelebilirsin.
 
-- Link çalışmazsa [buradan](https://drive.google.com/open?id=1_1wuJdhp8VJDl-Ho6ChG_YlU6pGWUaQv) yedeklememe erişebilirsin
+- Link çalışmazsa [buradan (June 2019)](https://bigota.d.miui.com/V10.0.10.0.PDLMIXM/miui_DAISYGlobal_V10.0.10.0.PDLMIXM_e3710856b5_9.0.zip) direkt olarak indirebilirsin
 - Gerekirse USB driverı da yedeklememden indirebilirsin
 
 ### Stock Rom'un Aktarılması

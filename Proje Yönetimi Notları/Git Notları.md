@@ -34,7 +34,7 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 - [Faydalı git komutları](#Faydal%C4%B1-git-komutlar%C4%B1)
   - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#Git-%C3%9Czerinde-Kullan%C4%B1c%C4%B1-Bilgilerini-Saklama)
   - [Remote Kaldırma & Gösterme](#Remote-Kald%C4%B1rma--G%C3%B6sterme)
-  - [Son hatalı yüklemeyi kaldırma](#Son-hatal%C4%B1-y%C3%BCklemeyi-kald%C4%B1rma)
+  - [Son Commiti Kaldırma](#Son-Commiti-Kald%C4%B1rma)
   - [Pull From işlemini Geri Alma](#Pull-From-i%C5%9Flemini-Geri-Alma)
 - [Uygulamalar Üzerinde Git](#Uygulamalar-%C3%9Czerinde-Git)
   - [JetBrains IDEs](#JetBrains-IDEs)
@@ -278,13 +278,15 @@ git remote rm [branch]
 
 > Detaylı açıklama için [buraya](https://help.github.com/articles/removing-a-remote/) tıklayabilirsin.
 
-### Son hatalı yüklemeyi kaldırma
+### Son Commiti Kaldırma
 
 ```bash
-git reset HEAD~
+git reset HEAD^ # remove commit locally
+git push origin +HEAD # force-push the new HEAD commit
+# git push origin +HEAD^:<name of your branch, most likely 'master'> sadece uzaktakini kaldırır
 ```
 
-> Son yüklemeyi kaldırır. Bu işlemden sonra tekrar commit etmeniz gerekmekte. Detay için [link](https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git)
+> Son yüklemeyi kaldırır. Bu işlemden sonra tekrar commit etmeniz gerekmekte. Detay için [link](https://stackoverflow.com/a/8225166)
 
 ### Pull From işlemini Geri Alma
 

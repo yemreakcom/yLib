@@ -83,6 +83,8 @@ optional arguments:
 ### Örnek CLI Kodu
 
 ```python
+from argparse import ArgumentParser
+
 parser = ArgumentParser(description='A simple CLI.')
 parser.add_argument(
         '--log-file',

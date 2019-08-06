@@ -2,17 +2,19 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Otomatik Giriş Yapma](#otomatik-giri%c5%9f-yapma)
-- [Dizin Resmini Değiştirme](#dizin-resmini-de%c4%9fi%c5%9ftirme)
-- [Resim Düzenleyicisini Değiştirme](#resim-d%c3%bczenleyicisini-de%c4%9fi%c5%9ftirme)
-- [File Explorer'ı Geliştirme](#file-explorer%c4%b1-geli%c5%9ftirme)
-- [Windows 10 Composer](#windows-10-composer)
-- [Windows10 Karanlık Tema Kurulumu](#windows10-karanl%c4%b1k-tema-kurulumu)
-- [Windows Saat Sorunu](#windows-saat-sorunu)
-  - [Yerel Saati Kullanma](#yerel-saati-kullanma)
-  - [Evrensel (UTC) Saati Kullanma](#evrensel-utc-saati-kullanma)
-  - [Windows Boot Kurtarma](#windows-boot-kurtarma)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
+- [Otomatik Giriş Yapma](#Otomatik-Giri%C5%9F-Yapma)
+- [Dizin Resmini Değiştirme](#Dizin-Resmini-De%C4%9Fi%C5%9Ftirme)
+- [Resim Düzenleyicisini Değiştirme](#Resim-D%C3%BCzenleyicisini-De%C4%9Fi%C5%9Ftirme)
+- [Bat Düzenleyiciyi Değiştirme](#Bat-D%C3%BCzenleyiciyi-De%C4%9Fi%C5%9Ftirme)
+- [Windows Store Uygulama Dizini](#Windows-Store-Uygulama-Dizini)
+- [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
+- [Windows 10 Composer](#Windows-10-Composer)
+- [Windows10 Karanlık Tema Kurulumu](#Windows10-Karanl%C4%B1k-Tema-Kurulumu)
+- [Windows Saat Sorunu](#Windows-Saat-Sorunu)
+  - [Yerel Saati Kullanma](#Yerel-Saati-Kullanma)
+  - [Evrensel (UTC) Saati Kullanma](#Evrensel-UTC-Saati-Kullanma)
+  - [Windows Boot Kurtarma](#Windows-Boot-Kurtarma)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Otomatik Giriş Yapma
 
@@ -47,6 +49,26 @@ FolderType=Documents
   - Orjinal veri: `"C:\Windows\system32\mspaint.exe" "%1"`
 
 > Program yolunu istediğiniz gibi ayarlayabilirsiniz
+
+## Bat Düzenleyiciyi Değiştirme
+
+- `HKEY_CLASSES_ROOT\batfile\shell\edit\command`
+
+> [Stackoverflow kaynağı](https://superuser.com/a/728159/1046035)
+
+## Windows Store Uygulama Dizini
+
+- Here is the path you should follow: C:Program Files.
+- Go to View and check the box next to Hidden items.
+- Locate the Windows Apps folder and right-click on it.
+- Select Properties from the drop-down menu.
+- Select Security. Then select Advanced.
+- Go to Owner. There click Change.
+- Enter Microsoft account email address.
+- Check the box next to ‘Replace owner on subcontainers and objects’.
+- Apply your changes.
+- Locate and click your account in the list. Click Edit.
+- Check the box next to Full Control.
 
 ## File Explorer'ı Geliştirme
 

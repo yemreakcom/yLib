@@ -2,24 +2,24 @@
 
 ## İçerikler <!-- omit in toc -->
 
-- [Command Promp (CMD)](#command-promp-cmd)
-  - [Tab ile Kod Tamamlama](#tab-ile-kod-tamamlama)
-  - [Cmder Komut İstemi Alternatifi](#cmder-komut-%c4%b0stemi-alternatifi)
-    - [CmDer Yapılandırma Ayarları](#cmder-yap%c4%b1land%c4%b1rma-ayarlar%c4%b1)
-  - [CMD Komutları](#cmd-komutlar%c4%b1)
-    - [CMD Ek Komutlar](#cmd-ek-komutlar)
-  - [CMD Değişkenleri](#cmd-de%c4%9fi%c5%9fkenleri)
-    - [Temel Kullanım](#temel-kullan%c4%b1m)
-    - [Sık Kullanılanlar](#s%c4%b1k-kullan%c4%b1lanlar)
-  - [CMD Operatörleri](#cmd-operat%c3%b6rleri)
-  - [CMD Kod Parçaları](#cmd-kod-par%c3%a7alar%c4%b1)
-    - [CMD Döngü Kullanımı](#cmd-d%c3%b6ng%c3%bc-kullan%c4%b1m%c4%b1)
-    - [CMD Dosyaları Ardışık olarak adlandırma](#cmd-dosyalar%c4%b1-ard%c4%b1%c5%9f%c4%b1k-olarak-adland%c4%b1rma)
-  - [CMD'yi Arkaplanda Çalıştırma](#cmdyi-arkaplanda-%c3%87al%c4%b1%c5%9ft%c4%b1rma)
-- [Windows için Paket Yöneticisi](#windows-i%c3%a7in-paket-y%c3%b6neticisi)
-  - [Hızlı Komut Bilgisi](#h%c4%b1zl%c4%b1-komut-bilgisi)
-  - [Sık Kullanılan Paketler](#s%c4%b1k-kullan%c4%b1lan-paketler)
-- [PowerShell Kullanımı](#powershell-kullan%c4%b1m%c4%b1)
+- [Command Promp (CMD)](#Command-Promp-CMD)
+  - [Tab ile Kod Tamamlama](#Tab-ile-Kod-Tamamlama)
+  - [Cmder Komut İstemi Alternatifi](#Cmder-Komut-%C4%B0stemi-Alternatifi)
+    - [CmDer Yapılandırma Ayarları](#CmDer-Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1)
+  - [CMD Komutları](#CMD-Komutlar%C4%B1)
+    - [CMD Ek Komutlar](#CMD-Ek-Komutlar)
+  - [CMD Değişkenleri](#CMD-De%C4%9Fi%C5%9Fkenleri)
+    - [Temel Kullanım](#Temel-Kullan%C4%B1m)
+    - [Sık Kullanılanlar](#S%C4%B1k-Kullan%C4%B1lanlar)
+  - [CMD Operatörleri](#CMD-Operat%C3%B6rleri)
+  - [CMD Kod Parçaları](#CMD-Kod-Par%C3%A7alar%C4%B1)
+    - [CMD Döngü Kullanımı](#CMD-D%C3%B6ng%C3%BC-Kullan%C4%B1m%C4%B1)
+    - [CMD Dosyaları Ardışık olarak adlandırma](#CMD-Dosyalar%C4%B1-Ard%C4%B1%C5%9F%C4%B1k-olarak-adland%C4%B1rma)
+  - [CMD'yi Arkaplanda Çalıştırma](#CMDyi-Arkaplanda-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
+- [Windows için Paket Yöneticisi](#Windows-i%C3%A7in-Paket-Y%C3%B6neticisi)
+  - [Hızlı Komut Bilgisi](#H%C4%B1zl%C4%B1-Komut-Bilgisi)
+  - [Sık Kullanılan Paketler](#S%C4%B1k-Kullan%C4%B1lan-Paketler)
+- [PowerShell Kullanımı](#PowerShell-Kullan%C4%B1m%C4%B1)
 
 ## Command Promp (CMD)
 
@@ -104,6 +104,7 @@ Ayrıntılı bilgi için [buraya](https://ss64.com/nt/syntax-variables.html) tı
 | `%HOMEDRIVE%`   | Kullanıcı diski                            |
 | `%homepath%`    | Kullanıcı Yolu                             |
 | `%userprofile%` | Kullanıcı diskiyle yolu                    |
+| `%SystemRoot%`  | System dizini (Örn: `C:\Windows`)          |
 
 ### CMD Operatörleri
 

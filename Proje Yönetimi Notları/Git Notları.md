@@ -53,6 +53,8 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
   - Bu sayede master pull edildiğinde dosya kaybı söz konusu olmayacaktır
   - Bu yeni branch'lar master'a pull edilmez (edilirse branch'a özgü dosyalar da aktarılır)
 
+> Github'ın oluşturduğu "[hello world](https://guides.github.com/activities/hello-world/)" sayfasına da bakabilirsin 👶
+
 ## Git'in Kullanıldığı Siteler
 
 - [Github](https://www.github.com)

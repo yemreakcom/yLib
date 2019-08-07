@@ -1,6 +1,8 @@
-# React <!-- omit in toc -->
+# React ⚛ <!-- omit in toc -->
 
-<!-- TODO: Ract için özel yapı -->
+<!-- !TODO: Ract için özel dizin ve yapı lazım -->
+
+React üzerine çalışmalarım ve bilgilerim.
 
 ## İçerikler <!-- omit in toc -->
 
@@ -15,6 +17,7 @@
   - [State Kavramı](#State-Kavram%C4%B1)
   - [Props Kavramı](#Props-Kavram%C4%B1)
   - [Function Components ve Function Kavramı](#Function-Components-ve-Function-Kavram%C4%B1)
+    - [Function Component Örnekleri](#Function-Component-%C3%96rnekleri)
   - [State'lerde Immutable (Değişmezlik) Yapısı](#Statelerde-Immutable-De%C4%9Fi%C5%9Fmezlik-Yap%C4%B1s%C4%B1)
   - [React ile Programlama Yapısı](#React-ile-Programlama-Yap%C4%B1s%C4%B1)
   - [Faydalı Metodlar](#Faydal%C4%B1-Metodlar)
@@ -158,6 +161,19 @@ renderSquare(i) {
         />
     );
 }
+```
+
+#### Function Component Örnekleri
+
+- Eğer js işlemi yoksa `{}` yerine `()` kullanılır
+  - Bu sayede `return` işlemine gerek kalmaz
+  - İçerisine yazılan direkt olarak return edilir
+
+```jsx
+// Buradaki authUser props'dan gelen anlamına gelir.
+const Navigation = ({ authUser }) => (
+  <div>{authUser ? <NavigationAuth /> : <NavigationNonAuth />}</div>
+);
 ```
 
 ### State'lerde Immutable (Değişmezlik) Yapısı

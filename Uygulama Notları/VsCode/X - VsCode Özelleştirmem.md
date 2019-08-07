@@ -5,7 +5,7 @@
 - [Snippets](#Snippets)
 - [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
 - [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
-- [Eklentirlerim](#Eklentirlerim)
+- [Eklentilerim](#Eklentilerim)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Snippets
@@ -68,7 +68,7 @@ Verimli çalışmak için kod parçaları
       "<details>",
       "<summary>$1</summary>",
       "",
-      "$1",
+      "$2",
       "",
       "</details>",
       "",
@@ -139,7 +139,7 @@ Verimli çalışmak için kod parçaları
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   // Editör ayarları
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.defaultFormatter": "esbenp.prettier-vscode", // Python için sorunlu
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase", // İmleç yanıp sönmesi
@@ -163,12 +163,75 @@ Verimli çalışmak için kod parçaları
   "git.autofetch": false,
   // Github ayarları
   "github.username": "yedhrab",
+  // Format ayarları
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
   // Python ayarları
   "python.jediEnabled": false,
-  // Javasciprt ayarları
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.formatting.provider": "autopep8",
   // Pano'dan resim kopyalam ayarı
   "pasteImage.path": "${projectRoot}/res",
+  // Todo-Tree ayarları
+  "todo-tree.tags": ["TODO", "BUG", "UP", "DEV", "OLD", "WARN"],
+  "todo-tree.customHighlight": {
+    // TODO: Yapılacak
+    "TODO": {
+      "icon": "checklist",
+      "type": "text",
+      "fontStyle": "normal",
+      "foreground": "#6FA5FF",
+      "background": "#6FA5FF",
+      "opacity": 7,
+      "iconColour": "#6FA5FF"
+    },
+    // BUG: Hatalar
+    "BUG": {
+      "icon": "bug",
+      "type": "text",
+      "foreground": "#FF2C2C",
+      "background": "#FF2C2C",
+      "opacity": 7,
+      "iconColour": "#FF2C2C"
+    },
+    // UP: Geliştirme
+    "UP": {
+      "icon": "telescope",
+      "type": "text",
+      "foreground": "#72CB6A",
+      "background": "#72CB6A",
+      "opacity": 7,
+      "iconColour": "#72CB6A"
+    },
+    // DEV: Gelecek planları
+    "DEV": {
+      "icon": "beaker",
+      "type": "text",
+      "foreground": "#9CF7FF",
+      "background": "#9CF7FF",
+      "opacity": 7,
+      "iconColour": "#9CF7FF"
+    },
+    // OLD: Eskimiş, kaldırılacak (deprecated)
+    "OLD": {
+      "icon": "trashcan",
+      "type": "text",
+      "foreground": "#959595",
+      "background": "#959595",
+      "opacity": 7,
+      "iconColour": "#959595"
+    },
+    // WARN: Uyarılar
+    "WARN": {
+      "icon": "megaphone",
+      "type": "text",
+      "foreground": "#CFCC35",
+      "background": "#CFCC35",
+      "opacity": 7,
+      "iconColour": "#CFCC35"
+    }
+  },
   // Markdown PDF ayarları
   "markdown.extension.toc.downcaseLink": false,
   "markdown-pdf.outputDirectory": "Dökümanlar",
@@ -265,7 +328,7 @@ Verimli çalışmak için kod parçaları
 
 </details>
 
-## Eklentirlerim
+## Eklentilerim
 
 <details>
 <summary>Eklenti indirme komutunu göster</summary>
@@ -281,6 +344,8 @@ code \
   --install-extension esbenp.prettier-vscode \
   --install-extension wakatime.vscode-wakatime \
   --install-extension ms-vscode.github-issues-prs \
+  --install-extension mikestead.dotenv \
+  --install-extension Gruntfuggly.todo-tree
 ```
 
 ![ex_output](../../res/ex_output.png)

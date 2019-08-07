@@ -1,5 +1,7 @@
 # Xiaomi Mi A2 Lite <!-- omit in toc -->
 
+Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
+
 ## İçerikler <!-- omit in toc -->
 
 - [Güvenli Modda Açma](#G%C3%BCvenli-Modda-A%C3%A7ma)

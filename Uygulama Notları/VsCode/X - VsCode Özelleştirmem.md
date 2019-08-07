@@ -174,11 +174,18 @@ Verimli çalışmak için kod parçaları
   // Pano'dan resim kopyalam ayarı
   "pasteImage.path": "${projectRoot}/res",
   // Todo-Tree ayarları
-  "todo-tree.tags": ["TODO", "BUG", "UP", "DEV", "OLD", "WARN"],
+  "todo-tree.tags": ["!TODO", "!BUG", "!DEV", "!RES", "!OLD", "!WARN"],
   "todo-tree.labelFormat": "${after}", // (${line})
+  "todo-tree.defaultHighlight": {
+    "icon": "tasklist",
+    "type": "text",
+    "background": "#6FA5FF",
+    "opacity": 17,
+    "iconColour": "#6FA5FF"
+  },
   "todo-tree.customHighlight": {
-    // TODO: Yapılacak
-    "TODO": {
+    // !TODO: Yapılacak (todo)
+    "!TODO": {
       "icon": "checklist",
       "type": "text",
       "fontStyle": "normal",
@@ -187,8 +194,8 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#6FA5FF"
     },
-    // BUG: Hatalar
-    "BUG": {
+    // !BUG: Hatalar (bug)
+    "!BUG": {
       "icon": "bug",
       "type": "text",
       "foreground": "#FF2C2C",
@@ -196,8 +203,8 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#FF2C2C"
     },
-    // UP: Geliştirme
-    "UP": {
+    // !DEV: İyileştirme, geliştirme (dev)
+    "!DEV": {
       "icon": "telescope",
       "type": "text",
       "foreground": "#72CB6A",
@@ -205,8 +212,8 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#72CB6A"
     },
-    // DEV: Gelecek planları
-    "DEV": {
+    // !RES: Gelecek planları, araştırmalar (res)
+    "!RES": {
       "icon": "beaker",
       "type": "text",
       "foreground": "#9CF7FF",
@@ -214,8 +221,8 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#9CF7FF"
     },
-    // OLD: Eskimiş, kaldırılacak (deprecated)
-    "OLD": {
+    // !OLD: Eskimiş, kaldırılacak (deprecated)
+    "!OLD": {
       "icon": "trashcan",
       "type": "text",
       "foreground": "#959595",
@@ -223,8 +230,8 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#959595"
     },
-    // WARN: Uyarılar
-    "WARN": {
+    // !WARN: Uyarılar (warn)
+    "!WARN": {
       "icon": "megaphone",
       "type": "text",
       "foreground": "#CFCC35",

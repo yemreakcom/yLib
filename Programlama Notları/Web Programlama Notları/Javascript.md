@@ -4,46 +4,48 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Ön Bilgilendirme](#%C3%B6n-bilgilendirme)
-- [Değişken Tipleri](#de%C4%9Fi%C5%9Fken-tipleri)
-- [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
-- [Koşul İşlemleri](#ko%C5%9Ful-i%CC%87%C5%9Flemleri)
-  - [Tek Satırlı Koşul İşlemleri (Ternary If)](#tek-sat%C4%B1rl%C4%B1-ko%C5%9Ful-i%CC%87%C5%9Flemleri-ternary-if)
-  - [Dizilerde Koşul İşlemleri](#dizilerde-ko%C5%9Ful-i%CC%87%C5%9Flemleri)
-- [Tarih İşlemleri](#tarih-i%CC%87%C5%9Flemleri)
-  - [Türkçe Tarih Alma](#t%C3%BCrk%C3%A7e-tarih-alma)
-- [HTML Elemanları](#html-elemanlar%C4%B1)
-  - [HTML Elemanlarını Alma](#html-elemanlar%C4%B1n%C4%B1-alma)
-    - [Query Selector ile HTML Elemanı Alma](#query-selector-ile-html-eleman%C4%B1-alma)
-    - [ID ile HTML Elemanı Alma](#id-ile-html-eleman%C4%B1-alma)
-    - [Class, Tag veya Name ile HTML Elemanları Alma](#class-tag-veya-name-ile-html-elemanlar%C4%B1-alma)
-  - [HTML elemanının alt elemanlarını alma](#html-eleman%C4%B1n%C4%B1n-alt-elemanlar%C4%B1n%C4%B1-alma)
-  - [HTMLCollection'u array'e dönüştürmek](#htmlcollectionu-arraye-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmek)
-  - [HTML Attribute Alma](#html-attribute-alma)
-  - [HTML Elemanının Konumunu Alma](#html-eleman%C4%B1n%C4%B1n-konumunu-alma)
-  - [ID'si Olan Elemanları Alma](#idsi-olan-elemanlar%C4%B1-alma)
-  - [Tüm H Değerlerini Alma](#t%C3%BCm-h-de%C4%9Ferlerini-alma)
-  - [Dom Elemanını Temizleme](#dom-eleman%C4%B1n%C4%B1-temizleme)
-  - [Dom Elemanın Altındaki Tüm Elemanları Temizleme](#dom-eleman%C4%B1n-alt%C4%B1ndaki-t%C3%BCm-elemanlar%C4%B1-temizleme)
-- [Beklemeli İşlemler](#beklemeli-i%CC%87%C5%9Flemler)
-  - [Senkronize Bekleme (Sync)](#senkronize-bekleme-sync)
-    - [Zamanlayıcı (setTimeout)](#zamanlay%C4%B1c%C4%B1-settimeout)
-  - [Asenktron Bekleme (Async)](#asenktron-bekleme-async)
-    - [Promise Yapısı ile Bekletme](#promise-yap%C4%B1s%C4%B1-ile-bekletme)
-    - [Promise ile Beklemeli Metod İşleme](#promise-ile-beklemeli-metod-i%CC%87%C5%9Fleme)
-  - [Sayfa İşlemleri](#sayfa-i%CC%87%C5%9Flemleri)
-  - [Input İşlemleri](#input-i%CC%87%C5%9Flemleri)
-- [Dosya İndirme](#dosya-i%CC%87ndirme)
-  - [Çoklu Dosya İndirme](#%C3%A7oklu-dosya-i%CC%87ndirme)
-  - [`console.save` Metodu Oluşturma](#consolesave-metodu-olu%C5%9Fturma)
-  - [MIME - Internet Media Types](#mime---internet-media-types)
-- [HTTP İstekleri](#http-i%CC%87stekleri)
-- [Harici Javascript Dosyası Ekleme](#harici-javascript-dosyas%C4%B1-ekleme)
-- [Objedeki Değer ile Anahtarını Bulma](#objedeki-de%C4%9Fer-ile-anahtar%C4%B1n%C4%B1-bulma)
-- [Latex Ayrıştırma](#latex-ayr%C4%B1%C5%9Ft%C4%B1rma)
-- [VsCode Eklentileri](#vscode-eklentileri)
-  - [VsCode Nodejs için Debug Ayarı](#vscode-nodejs-i%C3%A7in-debug-ayar%C4%B1)
-- [Harici Kaynaklar](#harici-kaynaklar)
+- [Ön Bilgilendirme](#%C3%96n-Bilgilendirme)
+- [Değişken Tipleri](#De%C4%9Fi%C5%9Fken-Tipleri)
+- [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
+- [Koşul İşlemleri](#Ko%C5%9Ful-%C4%B0%C5%9Flemleri)
+  - [Tek Satırlı Koşul İşlemleri (Ternary If)](#Tek-Sat%C4%B1rl%C4%B1-Ko%C5%9Ful-%C4%B0%C5%9Flemleri-Ternary-If)
+  - [Dizilerde Koşul İşlemleri](#Dizilerde-Ko%C5%9Ful-%C4%B0%C5%9Flemleri)
+- [Tarih İşlemleri](#Tarih-%C4%B0%C5%9Flemleri)
+  - [Türkçe Tarih Alma](#T%C3%BCrk%C3%A7e-Tarih-Alma)
+- [HTML Elemanları](#HTML-Elemanlar%C4%B1)
+  - [HTML Elemanlarını Alma](#HTML-Elemanlar%C4%B1n%C4%B1-Alma)
+    - [Query Selector ile HTML Elemanı Alma](#Query-Selector-ile-HTML-Eleman%C4%B1-Alma)
+    - [ID ile HTML Elemanı Alma](#ID-ile-HTML-Eleman%C4%B1-Alma)
+    - [Class, Tag veya Name ile HTML Elemanları Alma](#Class-Tag-veya-Name-ile-HTML-Elemanlar%C4%B1-Alma)
+  - [HTML elemanının alt elemanlarını alma](#HTML-eleman%C4%B1n%C4%B1n-alt-elemanlar%C4%B1n%C4%B1-alma)
+  - [HTMLCollection'u array'e dönüştürmek](#HTMLCollectionu-arraye-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmek)
+  - [HTML Attribute Alma](#HTML-Attribute-Alma)
+  - [HTML Elemanının Konumunu Alma](#HTML-Eleman%C4%B1n%C4%B1n-Konumunu-Alma)
+  - [ID'si Olan Elemanları Alma](#IDsi-Olan-Elemanlar%C4%B1-Alma)
+  - [Tüm H Değerlerini Alma](#T%C3%BCm-H-De%C4%9Ferlerini-Alma)
+  - [Dom Elemanını Temizleme](#Dom-Eleman%C4%B1n%C4%B1-Temizleme)
+  - [Dom Elemanın Altındaki Tüm Elemanları Temizleme](#Dom-Eleman%C4%B1n-Alt%C4%B1ndaki-T%C3%BCm-Elemanlar%C4%B1-Temizleme)
+- [Sayfadaki URL'leri Alma](#Sayfadaki-URLleri-Alma)
+  - [Code for URL Extraction](#Code-for-URL-Extraction)
+- [Beklemeli İşlemler](#Beklemeli-%C4%B0%C5%9Flemler)
+  - [Senkronize Bekleme (Sync)](#Senkronize-Bekleme-Sync)
+    - [Zamanlayıcı (setTimeout)](#Zamanlay%C4%B1c%C4%B1-setTimeout)
+  - [Asenktron Bekleme (Async)](#Asenktron-Bekleme-Async)
+    - [Promise Yapısı ile Bekletme](#Promise-Yap%C4%B1s%C4%B1-ile-Bekletme)
+    - [Promise ile Beklemeli Metod İşleme](#Promise-ile-Beklemeli-Metod-%C4%B0%C5%9Fleme)
+  - [Sayfa İşlemleri](#Sayfa-%C4%B0%C5%9Flemleri)
+  - [Input İşlemleri](#Input-%C4%B0%C5%9Flemleri)
+- [Dosya İndirme](#Dosya-%C4%B0ndirme)
+  - [Çoklu Dosya İndirme](#%C3%87oklu-Dosya-%C4%B0ndirme)
+  - [`console.save` Metodu Oluşturma](#consolesave-Metodu-Olu%C5%9Fturma)
+  - [MIME - Internet Media Types](#MIME---Internet-Media-Types)
+- [HTTP İstekleri](#HTTP-%C4%B0stekleri)
+- [Harici Javascript Dosyası Ekleme](#Harici-Javascript-Dosyas%C4%B1-Ekleme)
+- [Objedeki Değer ile Anahtarını Bulma](#Objedeki-De%C4%9Fer-ile-Anahtar%C4%B1n%C4%B1-Bulma)
+- [Latex Ayrıştırma](#Latex-Ayr%C4%B1%C5%9Ft%C4%B1rma)
+- [VsCode Eklentileri](#VsCode-Eklentileri)
+  - [VsCode Nodejs için Debug Ayarı](#VsCode-Nodejs-i%C3%A7in-Debug-Ayar%C4%B1)
+- [Harici Kaynaklar](#Harici-Kaynaklar)
 
 ## Ön Bilgilendirme
 
@@ -316,6 +318,37 @@ while (myNode.firstChild) {
 ```
 
 - [Remove all child elements of a DOM node in JavaScript]
+
+## Sayfadaki URL'leri Alma
+
+### Code for URL Extraction
+
+```js
+// URL'leri ekrana bastırma
+urls = $$("a");
+for (url in urls) console.log(urls[url].href);
+
+// URL ve Anchor text'i renkli alma  (Chrome / Firefox)
+var urls = $$("a");
+for (url in urls) {
+  console.log(
+    "%c#" + url + " - %c" + urls[url].innerHTML + " -- %c" + urls[url].href,
+    "color:red;",
+    "color:green;",
+    "color:blue;"
+  );
+}
+
+// URL ve Anchor text'i alma (IE / EDGE)
+var urls = $$("a");
+for (url in urls) {
+  console.log(
+    "#" + url + " - " + urls[url].innerHTML + " -- " + urls[url].href
+  );
+}
+```
+
+> [How To Extract URLs From A Website In Chrome? (No Downloads Required)](https://www.youtube.com/watch?v=85GqVYeyn18)
 
 ## Beklemeli İşlemler
 

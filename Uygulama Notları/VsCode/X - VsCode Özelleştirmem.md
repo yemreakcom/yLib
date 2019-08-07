@@ -177,6 +177,7 @@ Verimli çalışmak için kod parçaları
   "todo-tree.tags": ["!TODO", "!BUG", "!DEV", "!RES", "!OLD", "!WARN", "!TIP"],
   "todo-tree.labelFormat": "${after}", // (${line})
   "todo-tree.tagsOnly": true,
+  "todo-tree.excludeGlobs": ["**/*.json"],
   "todo-tree.defaultHighlight": {
     "icon": "tasklist",
     "type": "text",

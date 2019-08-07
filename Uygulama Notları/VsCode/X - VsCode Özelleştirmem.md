@@ -175,6 +175,7 @@ Verimli çalışmak için kod parçaları
   "pasteImage.path": "${projectRoot}/res",
   // Todo-Tree ayarları
   "todo-tree.tags": ["TODO", "BUG", "UP", "DEV", "OLD", "WARN"],
+  "todo-tree.labelFormat": "${after}", // (${line})
   "todo-tree.customHighlight": {
     // TODO: Yapılacak
     "TODO": {

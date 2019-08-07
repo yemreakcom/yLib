@@ -174,8 +174,9 @@ Verimli çalışmak için kod parçaları
   // Pano'dan resim kopyalam ayarı
   "pasteImage.path": "${projectRoot}/res",
   // Todo-Tree ayarları
-  "todo-tree.tags": ["!TODO", "!BUG", "!DEV", "!RES", "!OLD", "!WARN"],
+  "todo-tree.tags": ["!TODO", "!BUG", "!DEV", "!RES", "!OLD", "!WARN", "!TIP"],
   "todo-tree.labelFormat": "${after}", // (${line})
+  "todo-tree.tagsOnly": true,
   "todo-tree.defaultHighlight": {
     "icon": "tasklist",
     "type": "text",
@@ -184,6 +185,15 @@ Verimli çalışmak için kod parçaları
     "iconColour": "#6FA5FF"
   },
   "todo-tree.customHighlight": {
+    // !TIP: Bilgiler (tip)
+    "!TIP": {
+      "icon": "book",
+      "type": "text",
+      "foreground": "#f5f2a9",
+      "background": "#f5f2a9",
+      "opacity": 7,
+      "iconColour": "#f5f2a9"
+    },
     // !TODO: Yapılacak (todo)
     "!TODO": {
       "icon": "checklist",
@@ -221,15 +231,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#9CF7FF"
     },
-    // !OLD: Eskimiş, kaldırılacak (deprecated)
-    "!OLD": {
-      "icon": "trashcan",
-      "type": "text",
-      "foreground": "#959595",
-      "background": "#959595",
-      "opacity": 7,
-      "iconColour": "#959595"
-    },
     // !WARN: Uyarılar (warn)
     "!WARN": {
       "icon": "megaphone",
@@ -238,6 +239,15 @@ Verimli çalışmak için kod parçaları
       "background": "#CFCC35",
       "opacity": 7,
       "iconColour": "#CFCC35"
+    },
+    // !OLD: Eskimiş, kaldırılacak (deprecated)
+    "!OLD": {
+      "icon": "trashcan",
+      "type": "text",
+      "foreground": "#959595",
+      "background": "#959595",
+      "opacity": 7,
+      "iconColour": "#959595"
     }
   },
   // Markdown PDF ayarları

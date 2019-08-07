@@ -10,6 +10,8 @@
 - [Adlandırma Yapısı](#Adland%C4%B1rma-Yap%C4%B1s%C4%B1)
   - [Adlandırma Örnekleri](#Adland%C4%B1rma-%C3%96rnekleri)
 - [Terimler](#Terimler)
+  - [Ana Terimler](#Ana-Terimler)
+  - [Tüm Terimler](#T%C3%BCm-Terimler)
   - [Değişken Terimleri](#De%C4%9Fi%C5%9Fken-Terimleri)
   - [Raporlama (Logging) Seviyeleri](#Raporlama-Logging-Seviyeleri)
 - [Platformlar](#Platformlar)
@@ -36,6 +38,17 @@ veriler-resim # Verilerin resim özelliği alınır. Başka özelliği de vardı
 ```
 
 ## Terimler
+
+### Ana Terimler
+
+| Terim     | Açıklama                                                                |
+| --------- | ----------------------------------------------------------------------- |
+| library   | Özel bir iş için toplanmış metodlar fonksiyonlar (ev için alet çantası) |
+| framework | Kapsamlı işler için toplanmış metodlar (önceden yapılmış ev)            |
+| API       | Uygulama ile karşılıkla haberleşme (istek gönderip, karşılık alma)      |
+| Singleton | Tek seferlik tanımlanabilen uygulama türü                               |
+
+### Tüm Terimler
 
 Yazılımda kullanılan terimler
 

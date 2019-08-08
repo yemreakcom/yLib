@@ -139,7 +139,6 @@ Verimli çalışmak için kod parçaları
   "telemetry.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
   // Editör ayarları
-  // "editor.defaultFormatter": "esbenp.prettier-vscode", // Python için sorunlu
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "phase", // İmleç yanıp sönmesi
@@ -155,6 +154,13 @@ Verimli çalışmak için kod parçaları
   // Satır uzunluğu ayarı
   "editor.wordWrap": "bounded",
   "editor.wordWrapColumn": 200,
+  // Formatlama ayarları
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // Dosya işlemleri ayarları
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -163,11 +169,6 @@ Verimli çalışmak için kod parçaları
   "git.autofetch": false,
   // Github ayarları
   "github.username": "yedhrab",
-  // Format ayarları
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
   // Python ayarları
   "python.jediEnabled": false,
   "python.formatting.provider": "autopep8",
@@ -369,6 +370,7 @@ code \
   --install-extension ms-vscode.github-issues-prs \
   --install-extension mikestead.dotenv \
   --install-extension Gruntfuggly.todo-tree \
+  --install-extension foxundermoon.shell-format \
   --install-extension ms-python.python
 ```
 

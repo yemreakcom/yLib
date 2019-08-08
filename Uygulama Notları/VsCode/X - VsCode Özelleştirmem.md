@@ -291,6 +291,10 @@ Verimli çalışmak için kod parçaları
     "key": "ctrl+alt+v",
     "command": "-extension.pasteImage",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+oem_7",
+    "command": "workbench.view.extension.todo-tree-container"
   }
 ]
 ```

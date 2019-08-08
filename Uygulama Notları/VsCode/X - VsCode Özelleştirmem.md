@@ -368,7 +368,8 @@ code \
   --install-extension wakatime.vscode-wakatime \
   --install-extension ms-vscode.github-issues-prs \
   --install-extension mikestead.dotenv \
-  --install-extension Gruntfuggly.todo-tree
+  --install-extension Gruntfuggly.todo-tree \
+  --install-extension ms-python.python
 ```
 
 ![ex_output](../../res/ex_output.png)

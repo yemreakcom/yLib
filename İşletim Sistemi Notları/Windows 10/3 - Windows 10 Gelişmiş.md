@@ -6,6 +6,7 @@
 - [Dizin Resmini Değiştirme](#Dizin-Resmini-De%C4%9Fi%C5%9Ftirme)
 - [Resim Düzenleyicisini Değiştirme](#Resim-D%C3%BCzenleyicisini-De%C4%9Fi%C5%9Ftirme)
 - [Bat Düzenleyiciyi Değiştirme](#Bat-D%C3%BCzenleyiciyi-De%C4%9Fi%C5%9Ftirme)
+- [Telemetry'i Kapatma](#Telemetryi-Kapatma)
 - [Windows Store Uygulama Dizini](#Windows-Store-Uygulama-Dizini)
 - [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
 - [Windows 10 Composer](#Windows-10-Composer)
@@ -55,6 +56,25 @@ FolderType=Documents
 - `HKEY_CLASSES_ROOT\batfile\shell\edit\command`
 
 > [Stackoverflow kaynağı](https://superuser.com/a/728159/1046035)
+
+## Telemetry'i Kapatma
+
+> Telemetry windows'a geribildirim yapan bir servistir.
+
+- Kapatmak için [bu siteye](https://blogs.systweak.com/how-to-disable-telemetry-and-data-collection-in-windows-10/) bakabilirsin
+- İstersen regedit değişimini; alttaki metni `txt`'te kaydedip, uzantısı `reg` yapıp çalıştırarak uygulayabilirsin
+
+<details>
+<summary>*.reg dosyası</summary>
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"AllowTelemetry"=dword:00000000
+```
+
+</details>
 
 ## Windows Store Uygulama Dizini
 

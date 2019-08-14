@@ -43,6 +43,7 @@ Karma konular hakkında aldığım notlar.
 Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı *repository*'lere aktarıldı.
 
 - [Python 🐍 notlarım][ypython]
+- [Data Science 📊 notlarım][ydatascience]
 - [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
 - [Kişisel scriptlerim 📜][yscripts]
 
@@ -329,3 +330,4 @@ Giriş cümlesi veya alakalı cümle.
 [istanbuluniversity-ce]: https://github.com/yedhrab/IstanbulUniversity-CE
 [yscripts]: https://github.com/yedhrab/YScripts
 [ypython]: https://github.com/yedhrab/YPython
+[ydatascience]: https://github.com/yedhrab/YDataScience

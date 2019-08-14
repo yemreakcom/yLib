@@ -326,7 +326,7 @@ conda install -c anaconda networkx
 
 ### PyCharm Projeyi Derlemek için Yapılandırma Ayarlama
 
-Çalıştırma butonu üzerinden (`SHIFT` + `F9`) projeyi çalıştırmak için:
+Çalıştırma butonu üzerinden (<kbd>⇧ Shift</kbd> + `F9`) projeyi çalıştırmak için:
 
 - Derleme butonu yanındaki `seçme kutusuna` tıklayın
 - `Edit Configuration`
@@ -337,7 +337,7 @@ conda install -c anaconda networkx
 
 ### PyCharm Üzerinden Sanal Conda Ortam Oluşturma
 
-- `CTRL` + `ALT` + `S` ile ayarlara girin
+- <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> + `S` ile ayarlara girin
 - `Project: imgtotext`
   - `Project: Interpeter`
 - Sağ üstteki `ayarlar butonu`na tıklayın

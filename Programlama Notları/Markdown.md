@@ -6,29 +6,28 @@ Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-C
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Markdowns](#markdowns)
-  - [Kullanım Örnekleri](#kullan%c4%b1m-%c3%96rnekleri)
-  - [Temel Formatlar](#temel-formatlar)
-  - [Bağlantı Verme](#ba%c4%9flant%c4%b1-verme)
-    - [Satıriçi Bağlantı (Inline Link)](#sat%c4%b1ri%c3%a7i-ba%c4%9flant%c4%b1-inline-link)
-    - [Dinamik Bağlantı (Dynamic Link)](#dinamik-ba%c4%9flant%c4%b1-dynamic-link)
-    - [Resim Bağlantısı](#resim-ba%c4%9flant%c4%b1s%c4%b1)
-  - [Tablo Oluşturma](#tablo-olu%c5%9fturma)
-  - [Açılır Menü Oluşturma](#a%c3%a7%c4%b1l%c4%b1r-men%c3%bc-olu%c5%9fturma)
-  - [Matematik Denklemleri](#matematik-denklemleri)
-    - [Formül Yapısı](#form%c3%bcl-yap%c4%b1s%c4%b1)
-  - [Sık Kullanılan Rozetler (Badge)](#s%c4%b1k-kullan%c4%b1lan-rozetler-badge)
-  - [VsCode için Markdown](#vscode-i%c3%a7in-markdown)
-    - [VsCode için Markdown Snippets](#vscode-i%c3%a7in-markdown-snippets)
-    - [VsCode için Faydalı Eklentiler](#vscode-i%c3%a7in-faydal%c4%b1-eklentiler)
-    - [Markdown PDF](#markdown-pdf)
-      - [PDF için Markdown Imzam](#pdf-i%c3%a7in-markdown-imzam)
-      - [PDF için Özelleştirmem](#pdf-i%c3%a7in-%c3%96zelle%c5%9ftirmem)
-      - [PDF için VsCode Ayarları](#pdf-i%c3%a7in-vscode-ayarlar%c4%b1)
-      - [PDF'te Emoji Fontlarının Gözükmemesi](#pdfte-emoji-fontlar%c4%b1n%c4%b1n-g%c3%b6z%c3%bckmemesi)
-      - [PDF Dosya Boyutu Sorunu](#pdf-dosya-boyutu-sorunu)
-  - [Faydalı Siteler](#faydal%c4%b1-siteler)
-  - [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
+- [Kullanım Örnekleri](#Kullan%C4%B1m-%C3%96rnekleri)
+- [Temel Formatlar](#Temel-Formatlar)
+- [Bağlantı Verme](#Ba%C4%9Flant%C4%B1-Verme)
+  - [Satıriçi Bağlantı (Inline Link)](#Sat%C4%B1ri%C3%A7i-Ba%C4%9Flant%C4%B1-Inline-Link)
+  - [Dinamik Bağlantı (Dynamic Link)](#Dinamik-Ba%C4%9Flant%C4%B1-Dynamic-Link)
+  - [Resim Bağlantısı](#Resim-Ba%C4%9Flant%C4%B1s%C4%B1)
+- [Tablo Oluşturma](#Tablo-Olu%C5%9Fturma)
+- [Açılır Menü Oluşturma](#A%C3%A7%C4%B1l%C4%B1r-Men%C3%BC-Olu%C5%9Fturma)
+- [Matematik Denklemleri](#Matematik-Denklemleri)
+  - [Formül Yapısı](#Form%C3%BCl-Yap%C4%B1s%C4%B1)
+- [Sık Kullanılan Rozetler (Badge)](#S%C4%B1k-Kullan%C4%B1lan-Rozetler-Badge)
+- [VsCode için Markdown](#VsCode-i%C3%A7in-Markdown)
+  - [VsCode için Markdown Snippets](#VsCode-i%C3%A7in-Markdown-Snippets)
+  - [VsCode için Faydalı Eklentiler](#VsCode-i%C3%A7in-Faydal%C4%B1-Eklentiler)
+  - [Markdown PDF](#Markdown-PDF)
+    - [PDF için Markdown Imzam](#PDF-i%C3%A7in-Markdown-Imzam)
+    - [PDF için Özelleştirmem](#PDF-i%C3%A7in-%C3%96zelle%C5%9Ftirmem)
+    - [PDF için VsCode Ayarları](#PDF-i%C3%A7in-VsCode-Ayarlar%C4%B1)
+    - [PDF'te Emoji Fontlarının Gözükmemesi](#PDFte-Emoji-Fontlar%C4%B1n%C4%B1n-G%C3%B6z%C3%BCkmemesi)
+    - [PDF Dosya Boyutu Sorunu](#PDF-Dosya-Boyutu-Sorunu)
+- [Faydalı Siteler](#Faydal%C4%B1-Siteler)
+- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
 
 ## Kullanım Örnekleri
 
@@ -47,6 +46,9 @@ Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) 
 - `-` ile maddesel yapı oluşturabilirsin.
 - `$ $` karakterleri arasına **latex** (matematiksel formül) yazabilirsin
   - `$$` ile çok satırlı matematiksel formül yazabilirsin
+- `<kbd>Buton</kbd>` ile <kbd>Buton</kbd> oluşturabilirsiniz
+  - Özel butonlar: <kbd>Tab ⭾</kbd> <kbd>❖ Win</kbd> <kbd>⇧ Shift</kbd> <kbd>⇪ Caps Lock</kbd> <kbd>⇭ NumLock</kbd> <kbd>↩ Enter</kbd> <kbd>▤ Menu</kbd> <kbd>⎋ Esc</kbd> <kbd>⌫ Backspace</kbd> <kbd>⌦ Del</kbd> <kbd>⎀ Insert</kbd> <kbd>↑ ↓ ← → Arrow</kbd> <kbd>✲ Ctrl</kbd> <kbd>⎇ Alt</kbd>
+  - Daha fazlası için [buraya](http://xahlee.info/comp/unicode_computing_symbols.html) bakabilirsin
 
 ## Bağlantı Verme
 

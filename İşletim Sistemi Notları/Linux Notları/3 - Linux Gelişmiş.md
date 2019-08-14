@@ -134,7 +134,7 @@ Son olarak dosyanın bulunduğu dizinde terminali açıp, dosyayı güvenilir ol
 chmod +x dosyadi.desktop
 ```
 
-> Detaylı bilgi için [buraya][Linux desktop entry oluşturma] bakabilirsin.
+> Detaylı bilgi için [buraya][linux desktop entry oluşturma] bakabilirsin.
 
 ### Whatsapp Kısayolu
 
@@ -168,7 +168,7 @@ StartupWMClass=web.whatsapp.com
 
 #### Whatsapp İkonu Ekleme
 
-İlk olarak [buradaki][Whatsapp Svg] ikonu indirin.
+İlk olarak [buradaki][whatsapp svg] ikonu indirin.
 
 - İndirdiğiniz dosyanın yolunu kopyalayın
 - `gedit /usr/share/applications/whatsapp-webapp.desktop` komutu ile dosyayı tekrar açın
@@ -201,7 +201,7 @@ ntfsfix <adres>
 - `<adres>` Takılan USB'nin bağlanmaya çalıştığı adres
   - Örn: `/dev/sbd1`
 
-> Detaylar için [buraya][USB NTFS onarımı] bakabilirsin.
+> Detaylar için [buraya][usb ntfs onarımı] bakabilirsin.
 
 ## Gnome Geliştmiş Ayarlar
 
@@ -297,7 +297,7 @@ echo 'xrandr --output HDMI-1 --set "Broadcast RGB" "Full"' >> ~/.xprofile
 To do this, you need to make desktop app.
 
 - Terminale `sudo -H gedit /usr/share/applications/<appname>.desktop` komutunu yazın
-- Açılan dosyada gerekli bilgileri, [buradaki][Linux desktop entry oluşturma] bilgiden de yararlanarak doldurun
+- Açılan dosyada gerekli bilgileri, [buradaki][linux desktop entry oluşturma] bilgiden de yararlanarak doldurun
 - Örnek dosya içeriği aşağıdaki gibi olacaktır
 
 ```ini
@@ -324,7 +324,7 @@ StartupWMClass=web.whatsapp.com
 - Terminal üzerinde `xprop | grep WM_CLASS` komutu ile `WM_CLASS` metnini alabiliriz
 - Komutu yazıp <kbd>ENTER</kbd>'a bastıktan sonra kısayolunu oluşturmak istediğimiz uygulamaya tıklıyoruz
 - Yandaki gibi bir çıktı gelecektir `WM_CLASS(STRING) = "gnome-terminal-server", "Gnome-terminal`
-- `gnome-terminal-server` olan metni <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> ile kopyalıyoruz
+- `gnome-terminal-server` olan metni <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>C</kbd> ile kopyalıyoruz
 
 ### Kısayolu oluşturma
 
@@ -338,7 +338,7 @@ StartupWMClass=web.whatsapp.com
 
 - `sudo nano /etc/default/grub` ile grub yapılandırma dosyasını açın
 - En alt kısmına `GRUB_HIDDEN_TIMEOUT=0` yazın ve `GRUB_TIMEOUT=0` yapın
-- <kbd>CTRL</kbd> + <kbd>S</kbd> e basarak kaytıt edin, <kbd>CTRL</kbd> + <kbd>X</kbd> ile çıkış yapın
+- <kbd>✲ Ctrl</kbd> + <kbd>S</kbd> e basarak kaytıt edin, <kbd>✲ Ctrl</kbd> + <kbd>X</kbd> ile çıkış yapın
 - `sudo update-grub` ile yine grub ayarlarını aktifleştirin
 
 ## Donanım Komutları
@@ -391,13 +391,13 @@ pgrep [option] <pattern>
 
 ## Bashrc Dosyası Yedeği
 
-Dosyaya [buradan][Bashrc Dosyası] erişebilirsin, ek olarak:
+Dosyaya [buradan][bashrc dosyası] erişebilirsin, ek olarak:
 
 - Sudo ile yeni komutların kullanılmasını sağlar
 
 ## Kernel Güncelleme
 
-Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
+Kernel güncelleme yazım için [buraya][kernel güncelleme] bakabilirsin.
 
 ## Harici Bağlantılar
 
@@ -408,14 +408,12 @@ Kernel güncelleme yazım için [buraya][Kernel Güncelleme] bakabilirsin.
 - [Ubuntu 19.04 yenilikleri]
 - [Linux bilgisayarlarını birbirine bağlama](https://www.maketecheasier.com/netcat-transfer-files-between-linux-computers/)
 
-[Kernel Güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
-[Windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
-[Linux desktop entry oluşturma]: https://askubuntu.com/a/282187
-[Whatsapp Svg]: ../../res/whatsapp-webapp.svg
-[Uygulamalar için neden sudo -h kullanılmalı]: https://askubuntu.com/questions/270006/why-should-users-never-use-normal-sudo-to-start-graphical-applications
-
-[Ubuntu soluk renk]: https://askubuntu.com/questions/621964/colors-on-display-are-washed-out#
-[Ubuntu 19.04 yenilikleri]: https://itsfoss.com/ubuntu-19-04-release-features/
-
-[Bashrc Dosyası]: ../../res/.bashrc
-[USB NTFS onarımı]: https://askubuntu.com/a/47711/898692
+[kernel güncelleme]: https://medium.com/@yyunussemree/linux-kernel-g%C3%BCncelleme-4ce3ce55de36
+[windows yanına linux kurulduğunda windows saatinin bozulması]: https://www.howtogeek.com/323390/how-to-fix-windows-and-linux-showing-different-times-when-dual-booting/
+[linux desktop entry oluşturma]: https://askubuntu.com/a/282187
+[whatsapp svg]: ../../res/whatsapp-webapp.svg
+[uygulamalar için neden sudo -h kullanılmalı]: https://askubuntu.com/questions/270006/why-should-users-never-use-normal-sudo-to-start-graphical-applications
+[ubuntu soluk renk]: https://askubuntu.com/questions/621964/colors-on-display-are-washed-out#
+[ubuntu 19.04 yenilikleri]: https://itsfoss.com/ubuntu-19-04-release-features/
+[bashrc dosyası]: ../../res/.bashrc
+[usb ntfs onarımı]: https://askubuntu.com/a/47711/898692

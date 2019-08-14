@@ -45,10 +45,10 @@
 
 ### Kısayollar
 
-| Kısayol                           | Açıklama                            |
-| --------------------------------- | ----------------------------------- |
-| <kbd>TAB</kbd>                    | Kod tamamlama                       |
-| <kbd>SHIFT</kbd> + <kbd>TAB</kbd> | Seçili objenin ne olduğunu gösterme |
+| Kısayol                               | Açıklama                            |
+| ------------------------------------- | ----------------------------------- |
+| <kbd>⭾ Tab</kbd>                      | Kod tamamlama                       |
+| <kbd>⇧ Shift</kbd> + <kbd>⭾ Tab</kbd> | Seçili objenin ne olduğunu gösterme |
 
 ### Google Colab için Çalışma Ortamını Yapılandırma
 

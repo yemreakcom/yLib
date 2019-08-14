@@ -28,7 +28,7 @@ If içerisine yazılan koşul otomatik olarak `bool` değişkenine dönüştür�
 
 - `None`, `""`, `0` gibi değerler `False` değerine denktir
 - `:` ile if / else satırı sonlandırılır
-- `Tab` kadar boşluk atılırsa if scope\*'u içerisinde olur
+- <kbd>Tab ⭾</kbd> kadar boşluk atılırsa if scope\*'u içerisinde olur
 
 ```python
 num = float(input("Sayı giriniz: "))

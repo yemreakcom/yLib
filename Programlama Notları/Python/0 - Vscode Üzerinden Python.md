@@ -27,24 +27,24 @@ Başlangıç dökümanı için [buraya](https://code.visualstudio.com/docs/pytho
 
 ## Python Kodlarını Formatlama
 
-- `CTRL` + `SHIFT` + `P` yapın
+- <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + `P` yapın
 - Çıkan alana `Python: Select Linter` yazın
 - `pylint` düzenleyicisini seçin
   - `pylint` aynı dizindeki modulleri bulamamakta, bu hatananın çözümü için `.pylintrc` dosyasını düzenlemek gerekmekte
   - <!-- TODO echolu koda çevir -->
   - `pylint --generate-rcfile .pylintrc` komutunu çalışma dizininde yazdıktan sonra, içini açıp `#init-hook` satırını `init-hook='import sys; system.path.append("${workspaceFolder}")'` ile değiştirin. (Yorum satırı olmaktan kaldırın)
-  - Eğer girintiyi <kbd>TAB</kbd> ile yapıyorsanız `pylint`'de _bug_'a sebebiyet vermekte, <kbd>SPACE</kbd> kullanın
+  - Eğer girintiyi <kbd>⭾ Tab</kbd> ile yapıyorsanız `pylint`'de _bug_'a sebebiyet vermekte, <kbd>SPACE</kbd> kullanın
 - Python derleyicinize `autopep8` paketini aşağıdaki komutlarla veya vscode arayüzü ile yükleyin
   - pip install autopep8
   - conda install autopep8
-- Artık `SHIFT` + `ALT` + `F` ile kodları düzenleyebilirsiniz.
+- Artık <kbd>⇧ Shift</kbd> + <kbd>⎇ Alt</kbd> + `F` ile kodları düzenleyebilirsiniz.
 - Dosyaya sağ tıklayarak derleyebilirsiniz.
 
 ## Debug Yapılandırması
 
 Detaylar için [buraya](https://code.visualstudio.com/docs/python/debugging) bakabilirsin.
 
-- `CTRL` + `SHIFT` + `D` ile debug ekranını açın
+- <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + `D` ile debug ekranını açın
 - Sol üstte açılan ekrandan `ayarlar butonuna` tıklayın
 - `Python` kısmını seçin
 
@@ -60,7 +60,7 @@ Detaylar için [buraya](https://code.visualstudio.com/docs/python/jupyter-suppor
 
 Aktif olan derleyici ortamı, en altta bulunan durum çubuğunun solunda gösterilmektedir. Değiştirmek için:
 
-- `CTRL` + `SHIFT` + `P` tuş kombinasyonuna basın
+- <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + `P` tuş kombinasyonuna basın
 - Çıkan alana `Python: Select Interpreter` yazınız
 - Çıkan ekrandan istediğiniz derleyiciyi seçiniz
 

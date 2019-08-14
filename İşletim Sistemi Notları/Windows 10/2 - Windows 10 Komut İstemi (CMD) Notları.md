@@ -38,7 +38,7 @@ Buradan [clink] ile daha verimli kod tamamlayı cmd için aktif edebilirsin.
 
 #### CmDer Yapılandırma Ayarları
 
-- `WİNDOWS TUŞU (SUPER)` + `ALT` + `P` ile ayarları açın
+- <kbd>❖ Win</kbd> + <kbd>⎇ Alt</kbd> + `P` ile ayarları açın
 - `General`kısmından `{cmd::Cmder as Admin}`'i seçin
 - Color scheme: `Tomorrow Night`
 - `Font` kısmından `Size` 14 `Font Charset` Turkish

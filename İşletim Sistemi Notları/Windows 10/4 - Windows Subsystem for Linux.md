@@ -10,8 +10,8 @@
 
 - `sudo nano /etc/inputrc` ile girdi dosyasını yetki ile açın
 - `set bell-style none` satırını yorum satırı olmaktan kaldırın
-- <kbd>CTRL</kbd> + <kbd>O</kbd> ile düzenlemeyi kaydedin
-- <kbd>CTRL</kbd> + <kbd>X</kbd> ile çıkın
+- <kbd>✲ Ctrl</kbd> + <kbd>O</kbd> ile düzenlemeyi kaydedin
+- <kbd>✲ Ctrl</kbd> + <kbd>X</kbd> ile çıkın
 
 ## Linux Uygulamalarını WSL Üzerinde Çalıştırma
 

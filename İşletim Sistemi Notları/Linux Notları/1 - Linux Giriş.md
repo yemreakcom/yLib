@@ -57,8 +57,8 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 
 ## Linux Genel Kullanım Notları
 
-- Dosya gezgini `nautilus` içerisin <kbd>CTRL</kbd> + <kbd>H</kbd> yapıldığında gizli dosyaları gösterir / gizler
-- <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>T</kbd> terminali açar
+- Dosya gezgini `nautilus` içerisin <kbd>✲ Ctrl</kbd> + <kbd>H</kbd> yapıldığında gizli dosyaları gösterir / gizler
+- <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> + <kbd>T</kbd> terminali açar
 
 ### Linux Temel Dosyaları
 
@@ -87,30 +87,30 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 
 <!-- ↑←↓→ -->
 
-| Kısayol                                                             | Açıklama                          |
-| ------------------------------------------------------------------- | --------------------------------- |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>↑↓</kbd>                    | Çalışma alanları arasında geçiş   |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>↑↓</kbd> | Uygulamayı çalışma alanına taşıma |
+| Kısayol                                                                   | Açıklama                          |
+| ------------------------------------------------------------------------- | --------------------------------- |
+| <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> + <kbd>↑↓</kbd>                      | Çalışma alanları arasında geçiş   |
+| <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> + <kbd>⇧ Shift</kbd> + <kbd>↑↓</kbd> | Uygulamayı çalışma alanına taşıma |
 
 ### Uygulama Kısayolları
 
-| Kısayol                         | Açıklama                                     |
-| ------------------------------- | -------------------------------------------- |
-| <kbd>ALT</kbd> + <kbd>F2</kbd>  | Komut girme alanı                            |
-| <kbd>ALT</kbd> + <kbd>TAB</kbd> | Farklı uygulama türleri arasında hızlı geçiş |
-| <kbd>ALT</kbd>+ <kbd>"</kbd>    | Aynı uygulama türleri arasında hızlı geçiş   |
-| <kbd>ALT</kbd>+ <kbd>ESC</kbd>  | Son uygulamaya hızlı geçiş                   |
+| Kısayol                             | Açıklama                                     |
+| ----------------------------------- | -------------------------------------------- |
+| <kbd>⎇ Alt</kbd> + <kbd>F2</kbd>    | Komut girme alanı                            |
+| <kbd>⎇ Alt</kbd> + <kbd>⭾ Tab</kbd> | Farklı uygulama türleri arasında hızlı geçiş |
+| <kbd>⎇ Alt</kbd>+ <kbd>"</kbd>      | Aynı uygulama türleri arasında hızlı geçiş   |
+| <kbd>⎇ Alt</kbd>+ <kbd>ESC</kbd>    | Son uygulamaya hızlı geçiş                   |
 
-- <kbd>TAB</kbd>, <kbd>CAPS LOCK</kbd> tuşu üstündeki iki yönlü oku ifade eder.
-- <kbd>"</kbd>, <kbd>TAB</kbd> üstündeki tuşu temsil eder.
+- <kbd>⭾ Tab</kbd>, <kbd>CAPS LOCK</kbd> tuşu üstündeki iki yönlü oku ifade eder.
+- <kbd>"</kbd>, <kbd>⭾ Tab</kbd> üstündeki tuşu temsil eder.
 
 ### Panel Kısayolları
 
-| Kısayol                                                   | Açıklama                |
-| --------------------------------------------------------- | ----------------------- |
-| <kbd>SUPER</kbd> + <kbd>`<sayı>`</kbd>                    | Uygulamarı çalıştırma   |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı yeniden açma |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>`<sayı>`</kbd>  | Uygulamayı yeniden açma |
+| Kısayol                                                     | Açıklama                |
+| ----------------------------------------------------------- | ----------------------- |
+| <kbd>SUPER</kbd> + <kbd>`<sayı>`</kbd>                      | Uygulamarı çalıştırma   |
+| <kbd>SUPER</kbd> + <kbd>⇧ Shift</kbd> + <kbd>`<sayı>`</kbd> | Uygulamayı yeniden açma |
+| <kbd>SUPER</kbd> + <kbd>✲ Ctrl</kbd> + <kbd>`<sayı>`</kbd>  | Uygulamayı yeniden açma |
 
 - <kbd>`<sayı>`</kbd> Sayı tuşları
 
@@ -118,14 +118,14 @@ Açık kaynak olan **Unix** tabanlı işletim sistemidir.
 
 Orjinal sayfayı görmek istiyorsan [buraya](https://help.ubuntu.com/stable/ubuntu-help/screen-shot-record.html) tıklayabilirsin.
 
-| Kısayol                                                            | Açıklama                                          |
-| ------------------------------------------------------------------ | ------------------------------------------------- |
-| <kbd>PRINT SCREEN</kbd>                                            | Ekran görüntüsü alma                              |
-| <kbd>ALT</kbd> + <kbd>PRINT SCREEN</kbd>                           | Üzerinde bulunduğumuz pencerenin görüntüsünü alma |
-| <kbd>SHIFT</kbd>+ <kbd>PRINT SCREN</kbd>                           | Seçilecek alnın görüntüsünü alma                  |
-| <kbd>CTRL</kbd> + <kbd>ALT</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Ekranı komple kayıt eder                          |
+| Kısayol                                                                  | Açıklama                                          |
+| ------------------------------------------------------------------------ | ------------------------------------------------- |
+| <kbd>PRINT SCREEN</kbd>                                                  | Ekran görüntüsü alma                              |
+| <kbd>⎇ Alt</kbd> + <kbd>PRINT SCREEN</kbd>                               | Üzerinde bulunduğumuz pencerenin görüntüsünü alma |
+| <kbd>⇧ Shift</kbd>+ <kbd>PRINT SCREN</kbd>                               | Seçilecek alnın görüntüsünü alma                  |
+| <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> + <kbd>⇧ Shift</kbd> + <kbd>R</kbd> | Ekranı komple kayıt eder                          |
 
-- <kbd>CTRL</kbd> tuşuna da basılırsa `$HOME/Pictures` ya da `HOME/Videos` dizinleri yerine panoya kayıt edilir.
+- <kbd>✲ Ctrl</kbd> tuşuna da basılırsa `$HOME/Pictures` ya da `HOME/Videos` dizinleri yerine panoya kayıt edilir.
 
 > Ekran görüntüsü olarak [flameshot][flameshot], ekran kayıt edicisi olarak [simplescreenrecorder][simplescreenrecorder] uygulamları önerilir.
 
@@ -256,7 +256,7 @@ Windows 10 görev çubuğu izlenimi verir, [buraya](https://extensions.gnome.org
 
 Emoji klavyesi ile emojiyi panoya kopyalar, [buradan](https://extensions.gnome.org/extension/1162/emoji-selector/) indirebilirsiniz.
 
-- <kbd>CTRL</kbd> + <kbd>V</kbd> ile yapıştırarak kullanabilirsiniz
+- <kbd>✲ Ctrl</kbd> + <kbd>V</kbd> ile yapıştırarak kullanabilirsiniz
 - <kbd>SUPER</kbd> + <kbd>E</kbd> Emoji klavyesini açar
 
 ### Clipboard Indicator

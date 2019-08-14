@@ -162,7 +162,7 @@ Optimizasyon hakkında detaylı bilgi için [buraya](https://www.sitepoint.com/o
 
 Yapılandırma dosyası olan `my.ini` dosyasını bulmak için:
 
-- `CTRL` + `R` ile çalıştır uygulamasını açın
+- <kbd>✲ Ctrl</kbd> + `R` ile çalıştır uygulamasını açın
 - `services.msc` yazıp `ENTER`'a basın
 - Servis ekranında MySQL servisini bulup çift tıklayın
 - `Genel` sekmesi altında `Path to Executable` kısmında `ini` ile biten yol

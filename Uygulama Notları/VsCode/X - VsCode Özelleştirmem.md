@@ -47,6 +47,30 @@ Verimli çalışmak için kod parçaları
     "body": ["<!-- omit in toc -->"],
     "description": "Omit from ToC"
   },
+  "Insert win key button": {
+    "prefix": "kWin",
+    "body": ["<kbd>❖ Win</kbd>$0"]
+  },
+  "Insert tab key button": {
+    "prefix": "kTab",
+    "body": ["<kbd>⭾ Tab</kbd>$0"]
+  },
+  "Insert shift key button": {
+    "prefix": "kShift",
+    "body": ["<kbd>⇧ Shift</kbd>$0"]
+  },
+  "Insert enter key button": {
+    "prefix": "kEnter",
+    "body": ["<kbd>↩ Enter</kbd>$0"]
+  },
+  "Insert arrow key button": {
+    "prefix": "kArrow",
+    "body": ["<kbd>↑ ↓ ← → Arrow</kbd>$0"]
+  },
+  "Insert esc key button": {
+    "prefix": "kEsc",
+    "body": ["<kbd>⎋ Esc</kbd>$0"]
+  },
   "Insert 1 button key": {
     "prefix": "k1",
     "body": ["<kbd>$1</kbd>$0"],
@@ -54,12 +78,12 @@ Verimli çalışmak için kod parçaları
   },
   "Insert 2 button key": {
     "prefix": "k2",
-    "body": ["<kbd>$1</kbd> + <kbd>$2</kbd>$0"],
+    "body": ["<kbd>$1</kbd> <kbd>$2</kbd>$0"],
     "description": "2 Buton anahtarı oluşturur"
   },
   "Insert 3 button key": {
     "prefix": "k3",
-    "body": ["<kbd>$1</kbd> + <kbd>$2</kbd> + <kbd>$3</kbd>$0"],
+    "body": ["<kbd>$1</kbd> <kbd>$2</kbd> <kbd>$3</kbd>$0"],
     "description": "3 Buton anahtarı oluşturur"
   },
   "Insert toggle menu": {

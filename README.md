@@ -313,7 +313,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 ## Çalışma Notları
 
 - Her şey **dinamik** olmalı
-- Önce sabit değerli yaz, sonrasında <kbd>CTRL</kbd> + <kbd>F</kbd> ile sabitleri değişken haline dönüştür
+- Önce sabit değerli yaz, sonrasında <kbd>✲ Ctrl</kbd> + <kbd>F</kbd> ile sabitleri değişken haline dönüştür
 - Terimler _italik_
 - önemli notlar ve başlıklar **bold**
 - komutlar `code`

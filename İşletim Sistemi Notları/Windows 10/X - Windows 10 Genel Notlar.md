@@ -126,7 +126,7 @@ Tanıtım videosu 📺 için [buraya](https://www.youtube.com/watch?v=wH_lKkzHHR
 
 ### Insider Kısayolları
 
-- `WİNDOWS TUŞU (SUPER)` + `SHIFT` + `V` Ekranda belli bir alanı panoya kaydetme
+- <kbd>❖ Win</kbd> + <kbd>⇧ Shift</kbd> + `V` Ekranda belli bir alanı panoya kaydetme
   - Lightshot gibi
 
 ### Arka Plandaki Evolution Copy Logosunu Kaldırma

@@ -2,59 +2,60 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Chrome kısayolları](#chrome-k%C4%B1sayollar%C4%B1)
-  - [Chrome sekme işlemleri](#chrome-sekme-i%C5%9Flemleri)
-  - [Sayfa işlemleri](#sayfa-i%C5%9Flemleri)
-  - [Geliştirici kısayolları](#geli%C5%9Ftirici-k%C4%B1sayollar%C4%B1)
-- [Eklenti Önerileri](#eklenti-%C3%B6nerileri)
-  - [Verimlilik Eklentileri](#verimlilik-eklentileri)
-  - [Görsellik Eklentileri](#g%C3%B6rsellik-eklentileri)
-  - [Sosyal Medya Eklentileri](#sosyal-medya-eklentileri)
-  - [Programlama Eklentileri](#programlama-eklentileri)
-  - [Web Eklentileri](#web-eklentileri)
-- [Adress Çubuğu Anahtarları](#adress-%C3%A7ubu%C4%9Fu-anahtarlar%C4%B1)
-- [Harici Linkler](#harici-linkler)
+- [Chrome kısayolları](#Chrome-k%C4%B1sayollar%C4%B1)
+  - [Chrome sekme işlemleri](#Chrome-sekme-i%C5%9Flemleri)
+  - [Sayfa işlemleri](#Sayfa-i%C5%9Flemleri)
+  - [Geliştirici kısayolları](#Geli%C5%9Ftirici-k%C4%B1sayollar%C4%B1)
+- [Eklenti Önerileri](#Eklenti-%C3%96nerileri)
+  - [Verimlilik Eklentileri](#Verimlilik-Eklentileri)
+  - [Görsellik Eklentileri](#G%C3%B6rsellik-Eklentileri)
+  - [Sosyal Medya Eklentileri](#Sosyal-Medya-Eklentileri)
+  - [Programlama Eklentileri](#Programlama-Eklentileri)
+  - [Web Eklentileri](#Web-Eklentileri)
+- [Adress Çubuğu Anahtarları](#Adress-%C3%87ubu%C4%9Fu-Anahtarlar%C4%B1)
+- [Harici Linkler](#Harici-Linkler)
 
 ## Chrome kısayolları
 
 ### Chrome sekme işlemleri
 
-| Kısayol                                           | Açıklama                   |
-| ------------------------------------------------- | -------------------------- |
-| <kbd>CTRL</kbd> + <kbd>T</kbd>                    | Yeni sekme açma            |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd> | Son kapatılan sekmeyi açma |
-| <kbd>CTRL</kbd> + <kbd>W</kbd>                    | Sekmeyi kapatma            |
+| Kısayol                                             | Açıklama                   |
+| --------------------------------------------------- | -------------------------- |
+| <kbd>✲ Ctrl</kbd> + <kbd>T</kbd>                      | Yeni sekme açma            |
+| <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>T</kbd> | Son kapatılan sekmeyi açma |
+| <kbd>✲ Ctrl</kbd> + <kbd>W</kbd>                      | Sekmeyi kapatma            |
 
 ### Sayfa işlemleri
 
-| Kısayol                                           | Açıklama                                     |
-| ------------------------------------------------- | -------------------------------------------- |
-| <kbd>CTRL</kbd> + <kbd>R</kbd>                    | Sayfayı yenileme                             |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd> | Sayfayı komple yenileme (önbelleği temizler) |
-| <kbd>CTRL</kbd> + `S`                             | Sayfayı kaydetme                             |
+| Kısayol                                             | Açıklama                                     |
+| --------------------------------------------------- | -------------------------------------------- |
+| <kbd>✲ Ctrl</kbd> + <kbd>R</kbd>                      | Sayfayı yenileme                             |
+| <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>R</kbd> | Sayfayı komple yenileme (önbelleği temizler) |
+| <kbd>✲ Ctrl</kbd> + `S`                               | Sayfayı kaydetme                             |
 
 ### Geliştirici kısayolları
 
-| Kısayol                                           | Açıklama                        |
-| ------------------------------------------------- | ------------------------------- |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> | Dom konsolunu açma              |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>C</kbd> | HTML eleman seçiciyi aktif etme |
+| Kısayol                                             | Açıklama                        |
+| --------------------------------------------------- | ------------------------------- |
+| <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>I</kbd> | Dom konsolunu açma              |
+| <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>C</kbd> | HTML eleman seçiciyi aktif etme |
 
 ## Eklenti Önerileri
 
 ### Verimlilik Eklentileri
 
-| Eklenti                     | Özelliği                                             |
-| --------------------------- | ---------------------------------------------------- |
-| [Adblock Plus]              | Reklam engelleme                                     |
-| [Pop up Blocker for Chrome] | Popup (Açılır pencere) engelleme                     |
-| [Nightlight]                | Karanlık tema                                        |
-| [One Click Translate]       | Çeviri                                               |
-| [Google Çeviri]             | Çeviri                                               |
-| [No Script]                 | Javascript engelleyici                               |
-| [OneTab]                    | Sekme karışıklığını ve fazla ram kullanımı engelleme |
-| [Temp Mail]                 | Geçici mail oluşturma eklentisi.                     |
-| [Selenium IDE]              | Web eylemlerini tekrarlama                           |
+| Eklenti                                                                                                                                   | Özelliği                                             |
+| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Adblock Plus]                                                                                                                            | Reklam engelleme                                     |
+| [Pop up Blocker for Chrome]                                                                                                               | Popup (Açılır pencere) engelleme                     |
+| [Nightlight]                                                                                                                              | Karanlık tema                                        |
+| [One Click Translate]                                                                                                                     | Çeviri                                               |
+| [Google Çeviri]                                                                                                                           | Çeviri                                               |
+| [No Script]                                                                                                                               | Javascript engelleyici                               |
+| [OneTab]                                                                                                                                  | Sekme karışıklığını ve fazla ram kullanımı engelleme |
+| [Temp Mail]                                                                                                                               | Geçici mail oluşturma eklentisi.                     |
+| [Selenium IDE]                                                                                                                            | Web eylemlerini tekrarlama                           |
+| [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
 
 ### Görsellik Eklentileri
 
@@ -72,10 +73,10 @@
 
 ### Programlama Eklentileri
 
-| Eklenti                                                      | Açıklama                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Eklenti                                                                                                     | Açıklama                                                     |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
-| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) | Web işlemlerini tekrarlayan web testing yazılımı             |
+| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)     | Web işlemlerini tekrarlayan web testing yazılımı             |
 
 ### Web Eklentileri
 
@@ -93,17 +94,17 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 
 **Çıkan Menüde:**
 
-- `Arama motoru ismi` *Kendi verdiğimiz isim*
-- `Anahtar` *Adres çubuğuna yazınca alttaki sorguyu çalıştıracak*
+- `Arama motoru ismi` _Kendi verdiğimiz isim_
+- `Anahtar` _Adres çubuğuna yazınca alttaki sorguyu çalıştıracak_
 - `Sorgu` URL veya sorgu URL olabilir size kalmış.
 
-*Örnek Kullanım:*
+_Örnek Kullanım:_
 
 - Tureng
 - -t
 - `http://tureng.com/tr/turkce-ingilizce/%s`
 
-> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (*Help `%s` olan yere yazılır.*)"
+> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (_Help `%s` olan yere yazılır._)"
 
 ## Harici Linkler
 
@@ -113,20 +114,20 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 - [Add Custom Keyboard Shortcuts to Chrome Extensions for Quick Launching](https://lifehacker.com/add-custom-keyboard-shortcuts-to-chrome-extensions-for-1595322121)
 - [Chrome app yazma]
 
-[Adblock Plus]: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
-[Pop up Blocker for Chrome]: https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche
-[Google Çeviri]: https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
-[OneTab]: https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=tr
-[Temp Mail]: https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj
-[Selenium IDE]: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
-[No Script]: https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/related?hl=en
-[Privacy Badger]: https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en
+[adblock plus]: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
+[pop up blocker for chrome]: https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche
+[google çeviri]: https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+[onetab]: https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=tr
+[temp mail]: https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj
+[selenium ide]: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
+[no script]: https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/related?hl=en
+[privacy badger]: https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en
 
 <!-- Web programlama -->
-[SimilarWeb]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
-[SEOquake]: https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en
-[VStat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma
-[Nightlight]: https://chrome.google.com/webstore/detail/night-light/aionebabdognkieabomemdegmjedkked
-[One Click Translate]: https://chrome.google.com/webstore/detail/one-click-translate/anhjddeakbabimdgmonfbnpbainknbfa/related
 
-[Chrome app yazma]: https://developers.chrome.com/apps/first_app
+[similarweb]: https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en
+[seoquake]: https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en
+[vstat]: https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma
+[nightlight]: https://chrome.google.com/webstore/detail/night-light/aionebabdognkieabomemdegmjedkked
+[one click translate]: https://chrome.google.com/webstore/detail/one-click-translate/anhjddeakbabimdgmonfbnpbainknbfa/related
+[chrome app yazma]: https://developers.chrome.com/apps/first_app

@@ -123,7 +123,7 @@ Maven xml verilerini, `pom.xml` dosyasında geösterilen alana yapıştırın.
 
 ### Maven ile Başlangıç Yapılandırması
 
-<kbd>SHIFT</kbd> + <kbd>F10</kbd> ile projeyi çalıştırmanızı sağlar
+<kbd>⇧ Shift</kbd> + <kbd>F10</kbd> ile projeyi çalıştırmanızı sağlar
 
 - <kbd>Edit Configuration</kbd> + <kbd>+</kbd> + <kbd>maven</kbd>
 - **Command Line** alanına `javafx:run` yazın

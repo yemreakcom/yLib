@@ -12,8 +12,6 @@ Karma konular hakkında aldığım notlar.
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
 - [Ayrılan Notlarım](#Ayr%C4%B1lan-Notlar%C4%B1m)
-  - [IstanbulUniversity - CE](#IstanbulUniversity---CE)
-  - [Scipts](#Scipts)
 - [Google Yazılımları](#Google-Yaz%C4%B1l%C4%B1mlar%C4%B1)
 - [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
 - [Karma Bilgiler](#Karma-Bilgiler)
@@ -22,8 +20,6 @@ Karma konular hakkında aldığım notlar.
   - [Java](#Java)
   - [JavaFX](#JavaFX)
   - [Oyun Programlama](#Oyun-Programlama)
-  - [Python](#Python)
-    - [Data Science](#Data-Science)
   - [Web Programlama Notları](#Web-Programlama-Notlar%C4%B1)
 - [Proje Yönetimi Notları](#Proje-Y%C3%B6netimi-Notlar%C4%B1)
 - [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
@@ -44,21 +40,11 @@ Karma konular hakkında aldığım notlar.
 
 ## Ayrılan Notlarım
 
-### IstanbulUniversity - CE
+Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı *repository*'lere aktarıldı.
 
-Ders notları için ayrı bir [repository][istanbuluniversity-ce] hazırlandı. Yeni _repositoy_ açılma amacı:
-
-- Katkıda bulunmayı kolaylaştırma 🙏
-- Bilgilerin daha net olabilmesi 🗽
-- Vs vs. 😒
-
-### Scipts
-
-Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _repositoy_ açılma amacı:
-
-- Katkıda bulunmayı kolaylaştırma 🙏
-- Bilgilerin daha net olabilmesi 🗽
-- Vs vs. 😒
+- [Python 🐍 notlarım][ypython]
+- [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
+- [Kişisel scriptlerim 📜][yscripts]
 
 <!--Index-->
 
@@ -99,6 +85,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
 - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
+- [README](./Programlama%20Notlar%C4%B1/README.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)
 
@@ -144,34 +131,6 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [Unity](./Programlama%20Notlar%C4%B1/Oyun%20Programlama/Unity.md)
 - [Unreal Engine](./Programlama%20Notlar%C4%B1/Oyun%20Programlama/Unreal%20Engine.md)
 
-### Python
-
-- [0 - Vscode Üzerinden Python](./Programlama%20Notlar%C4%B1/Python/0%20-%20Vscode%20%C3%9Czerinden%20Python.md)
-- [1.1 - Python Giriş](./Programlama%20Notlar%C4%B1/Python/1.1%20-%20Python%20Giri%C5%9F.md)
-- [1.2 - Python Anahtar Kelimeler](./Programlama%20Notlar%C4%B1/Python/1.2%20-%20Python%20Anahtar%20Kelimeler.md)
-- [1.3 - Python Değişkenleri](./Programlama%20Notlar%C4%B1/Python/1.3%20-%20Python%20De%C4%9Fi%C5%9Fkenleri.md)
-- [2 - Python Döngüler ve Koşullar](./Programlama%20Notlar%C4%B1/Python/2%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar.md)
-- [3 - Python Fonksiyonlar](./Programlama%20Notlar%C4%B1/Python/3%20-%20Python%20Fonksiyonlar.md)
-- [4 - Python'da String İşlemleri](./Programlama%20Notlar%C4%B1/Python/4%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri.md)
-- [5 - Python Veri Yapıları](./Programlama%20Notlar%C4%B1/Python/5%20-%20Python%20Veri%20Yap%C4%B1lar%C4%B1.md)
-- [6 - Python Koleksiyonlar](./Programlama%20Notlar%C4%B1/Python/6%20-%20Python%20Koleksiyonlar.md)
-- [7 - Python Class, Modül ve Paketler](./Programlama%20Notlar%C4%B1/Python/7%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler.md)
-- [8 - Python Dosya İşlemleri](./Programlama%20Notlar%C4%B1/Python/8%20-%20Python%20Dosya%20%C4%B0%C5%9Flemleri.md)
-- [9 - Python ile Arayüz Oluşturma](./Programlama%20Notlar%C4%B1/Python/9%20-%20Python%20ile%20Aray%C3%BCz%20Olu%C5%9Fturma.md)
-- [9 - Pyton Kod Notları](./Programlama%20Notlar%C4%B1/Python/9%20-%20Pyton%20Kod%20Notlar%C4%B1.md)
-- [A - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/A%20-%20Python%20%C4%B0leri%20Seviye.md)
-- [X - Python Harici Linkler](./Programlama%20Notlar%C4%B1/Python/X%20-%20Python%20Harici%20Linkler.md)
-- [X1 - Python ile Görüntü İşleme Notları](./Programlama%20Notlar%C4%B1/Python/X1%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1.md)
-- [XX - Python Algoritma Örnekleri](./Programlama%20Notlar%C4%B1/Python/XX%20-%20Python%20Algoritma%20%C3%96rnekleri.md)
-- [XXX - Python CodeSnippets](./Programlama%20Notlar%C4%B1/Python/XXX%20-%20Python%20CodeSnippets.md)
-
-#### Data Science
-
-- [1 - Veri Bilmine Giriş](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1%20-%20Veri%20Bilmine%20Giri%C5%9F.md)
-- [1.1 - Numpy](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.1%20-%20Numpy.md)
-- [1.2 - Pandas](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.2%20-%20Pandas.md)
-- [1.3 - Matplotlib](./Programlama%20Notlar%C4%B1/Python/Data%20Science/1.3%20-%20Matplotlib.md)
-
 ### Web Programlama Notları
 
 - [Heroku Notları](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Heroku%20Notlar%C4%B1.md)
@@ -202,6 +161,7 @@ Kod parçalarının olduğu ayrı bir [repository][scripts] hazırlandı.Yeni _r
 - [JetBrains IDE](./Uygulama%20Notlar%C4%B1/JetBrains%20IDE.md)
 - [LGSV Simulator](./Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
 - [Nodepad++](./Uygulama%20Notlar%C4%B1/Nodepad%2B%2B.md)
+- [Telegram](./Uygulama%20Notlar%C4%B1/Telegram.md)
 - [Uygulamalar](./Uygulama%20Notlar%C4%B1/Uygulamalar.md)
 - [Youtube](./Uygulama%20Notlar%C4%B1/Youtube.md)
 
@@ -367,4 +327,5 @@ Giriş cümlesi veya alakalı cümle.
 
 [geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
 [istanbuluniversity-ce]: https://github.com/yedhrab/IstanbulUniversity-CE
-[scripts]: https://github.com/yedhrab/YScripts
+[yscripts]: https://github.com/yedhrab/YScripts
+[ypython]: https://github.com/yedhrab/YPython

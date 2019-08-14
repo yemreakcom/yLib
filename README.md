@@ -16,7 +16,6 @@ Karma konular hakkında aldığım notlar.
 - [Günlük Hayat Notları](#G%C3%BCnl%C3%BCk-Hayat-Notlar%C4%B1)
 - [Karma Bilgiler](#Karma-Bilgiler)
 - [Programlama Notları](#Programlama-Notlar%C4%B1)
-  - [Cheat Sheets](#Cheat-Sheets)
   - [Java](#Java)
   - [JavaFX](#JavaFX)
   - [Oyun Programlama](#Oyun-Programlama)
@@ -25,7 +24,6 @@ Karma konular hakkında aldığım notlar.
 - [Teknoloji Notları](#Teknoloji-Notlar%C4%B1)
 - [Uygulama Notları](#Uygulama-Notlar%C4%B1)
   - [VsCode](#VsCode)
-- [Yapay Zeka Notları](#Yapay-Zeka-Notlar%C4%B1)
 - [Yazılım Notları](#Yaz%C4%B1l%C4%B1m-Notlar%C4%B1)
 - [pdfs](#pdfs)
 - [İşletim Sistemi Notları](#%C4%B0%C5%9Fletim-Sistemi-Notlar%C4%B1)
@@ -40,12 +38,15 @@ Karma konular hakkında aldığım notlar.
 
 ## Ayrılan Notlarım
 
-Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı *repository*'lere aktarıldı.
+Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
 - [Python 🐍 notlarım][ypython]
 - [Data Science 📊 notlarım][ydatascience]
 - [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
 - [Kişisel scriptlerim 📜][yscripts]
+- [Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım][yartificalintelligent]
+
+> Bir başka DeepLearning kaynağı için [buraya](https://github.com/asmaamirkhan/DeepLearningNotes) bakabilirsin
 
 <!--Index-->
 
@@ -86,31 +87,8 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)
 - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
 - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
-- [README](./Programlama%20Notlar%C4%B1/README.md)
 - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
 - [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)
-
-### Cheat Sheets
-
-- [Bokeh](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Bokeh.pdf)
-- [Compleate Python Cheat Sheets](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Compleate%20Python%20Cheat%20Sheets.pdf)
-- [Data table](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Data%20table.pdf)
-- [Importing data](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Importing%20data.pdf)
-- [Jupyter Notebook](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Jupyter%20Notebook.pdf)
-- [Keras](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Keras.pdf)
-- [Matplotlib](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Matplotlib.pdf)
-- [Numpy Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Numpy%20Basics.pdf)
-- [Pandas Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Pandas%20Basics.pdf)
-- [Pandas](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Pandas.pdf)
-- [PySpark - RDD Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/PySpark%20-%20RDD%20Basics.pdf)
-- [PySpark - SQL Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/PySpark%20-%20SQL%20Basics.pdf)
-- [Python Basics](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Python%20Basics.pdf)
-- [SciPy - Linear Algebra](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/SciPy%20-%20Linear%20Algebra.pdf)
-- [Scikit - Learn](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Scikit%20-%20Learn.pdf)
-- [Seaborn](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Seaborn.pdf)
-- [Tidyverse for Beginners](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/Tidyverse%20for%20Beginners.pdf)
-- [spaCy](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/spaCy.pdf)
-- [xts](./Programlama%20Notlar%C4%B1/Cheat%20Sheets/xts.pdf)
 
 ### Java
 
@@ -173,17 +151,6 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - [3 - VsCode Editör Ayarları](./Uygulama%20Notlar%C4%B1/VsCode/3%20-%20VsCode%20Edit%C3%B6r%20Ayarlar%C4%B1.md)
 - [4 - Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
 - [X - VsCode Özelleştirmem](./Uygulama%20Notlar%C4%B1/VsCode/X%20-%20VsCode%20%C3%96zelle%C5%9Ftirmem.md)
-
-## Yapay Zeka Notları
-
-- [CNN notları](./Yapay%20Zeka%20Notlar%C4%B1/CNN%20notlar%C4%B1.md)
-- [Deep Neural Netwok](./Yapay%20Zeka%20Notlar%C4%B1/Deep%20Neural%20Netwok.md)
-- [Makine Öğrenimi](./Yapay%20Zeka%20Notlar%C4%B1/Makine%20%C3%96%C4%9Frenimi.md)
-- [Tensorflow](./Yapay%20Zeka%20Notlar%C4%B1/Tensorflow.md)
-- [Türkçe Yapay Zeka Kaynakları](./Yapay%20Zeka%20Notlar%C4%B1/T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.md)
-- [Veri Bilimi](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20Bilimi.md)
-- [Veri Kümeleri](./Yapay%20Zeka%20Notlar%C4%B1/Veri%20K%C3%BCmeleri.md)
-- [Yapay Zeka Notları](./Yapay%20Zeka%20Notlar%C4%B1/Yapay%20Zeka%20Notlar%C4%B1.md)
 
 ## Yazılım Notları
 
@@ -331,3 +298,4 @@ Giriş cümlesi veya alakalı cümle.
 [yscripts]: https://github.com/yedhrab/YScripts
 [ypython]: https://github.com/yedhrab/YPython
 [ydatascience]: https://github.com/yedhrab/YDataScience
+[yartificalintelligent]: https://github.com/yedhrab/YArtificalIntelligent

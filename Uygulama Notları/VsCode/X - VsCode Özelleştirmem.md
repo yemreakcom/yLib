@@ -199,20 +199,11 @@ Verimli çalışmak için kod parçaları
   // Pano'dan resim kopyalam ayarı
   "pasteImage.path": "${projectRoot}/res",
   // Todo-Tree ayarları
-  "todo-tree.tags": [
-    "TODO:",
-    "BUG:",
-    "DEV:",
-    "RES:",
-    "OLD:",
-    "WARN:",
-    "TIP:"
-  ],
+  "todo-tree.tags": ["TODO:", "BUG:", "DEV:", "RES:", "OLD:", "WARN:", "TIP:"],
   "todo-tree.labelFormat": "${after}", // (${line})
+  "todo-tree.grouped": true,
   "todo-tree.tagsOnly": true,
-  "todo-tree.excludeGlobs": [
-    "**/*.json"
-  ],
+  "todo-tree.excludeGlobs": ["**/*.json"],
   "todo-tree.defaultHighlight": {
     "icon": "tasklist",
     "type": "text",
@@ -230,7 +221,7 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#f5f2a9"
     },
-    // TODO: Yapılacak (todo)
+    // TODO:: Yapılacak (todo)
     "TODO:": {
       "icon": "checklist",
       "type": "text",
@@ -289,9 +280,7 @@ Verimli çalışmak için kod parçaları
   // Markdown PDF ayarları
   "markdown.extension.toc.downcaseLink": false,
   "markdown-pdf.outputDirectory": "Dökümanlar",
-  "markdown-pdf.styles": [
-    "http://tiny.cc/yek86y"
-  ],
+  "markdown-pdf.styles": ["http://tiny.cc/yek86y"],
   "markdown-pdf.headerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light; text-align: center;\"><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; font: Risque; color: red;' href='https://gogetfunding.com/yemreak/'>Destek ❤</a></div><div style=\"float: left; width: 33.33%;\"><a style='text-decoration: none; color: navy;' href='https://www.yemreak.com'>The MIT License Copyright &copy; Yunus Emre Ak</a></div><div style=\"float: left; font-size: 7px; width: 33.33%; color: gainsboro;\"><span class='date'></span></div></div>",
   "markdown-pdf.footerTemplate": "<div style=\"width: 100%; font-size: 7px; margin: 0 auto; font: Segoe UI Light\"> <div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://yemreak.com\">Website</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://github.com/yedhrab \">Github</a></div><div style=\"float: left; width: 20%; text-align: center\"><span class=\"pageNumber \">3 </span> / <span class=\"totalPages \"> 5</span></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"https://www.linkedin.com/in/yemreak/\">LinkedIn</a></div><div style=\"float: left; width: 20%; text-align: center\"><a style=\"text-decoration: none; display: inline-block; color: dodgerblue;\" href=\"mailto::yedhrab@gmail.com?subject=YPDF%20%7C%20Github\">İletişim</a></div></div>"
 }

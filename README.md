@@ -5,7 +5,18 @@
 ![made_with_Markdown](https://img.shields.io/badge/%C4%B0%C3%A7erik-Markdown-blue.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/yedhrab/YBilgiler.svg?label=Boyut&style=popout)
 
-Karma konular hakkında aldığım notlar.
+Karma konular hakkında notlarım 📚
+
+## Ayrılan Notlarım
+
+Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
+
+- [Python 🐍 notlarım][ypython]
+- [Data Science 📊 notlarım][ydatascience]
+- [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
+- [Kişisel scriptlerim 📜][yscripts]
+- [Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım][yartificalintelligent]
+- [React ⚛️ ve Firebase 🔥 projem][yreact-firebase]
 
 ## İçerikler <!-- omit in toc -->
 
@@ -35,18 +46,6 @@ Karma konular hakkında aldığım notlar.
 - [Çalışma Notları](#%C3%87al%C4%B1%C5%9Fma-Notlar%C4%B1)
   - [İçerik Yapısı](#%C4%B0%C3%A7erik-Yap%C4%B1s%C4%B1)
 - [Destek ve İletişim](#Destek-ve-%C4%B0leti%C5%9Fim)
-
-## Ayrılan Notlarım
-
-Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
-
-- [Python 🐍 notlarım][ypython]
-- [Data Science 📊 notlarım][ydatascience]
-- [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
-- [Kişisel scriptlerim 📜][yscripts]
-- [Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım][yartificalintelligent]
-
-> Bir başka DeepLearning kaynağı için [buraya](https://github.com/asmaamirkhan/DeepLearningNotes) bakabilirsin
 
 <!--Index-->
 
@@ -212,6 +211,8 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 
 ## Yapılacaklar
 
+> Yapılmayacak 😢
+
 - [ ] İçerikleri kullanabilitesine göre sırala (Tıklamaları sayıp, çok tıklananı yukarı al vs.)
 - [ ] **Yapılacaklar notu, github proje yönetim sayfasına taşınacak**
 - [ ] Çöp gibi bilgi var kategorize edilecek
@@ -299,3 +300,4 @@ Giriş cümlesi veya alakalı cümle.
 [ypython]: https://github.com/yedhrab/YPython
 [ydatascience]: https://github.com/yedhrab/YDataScience
 [yartificalintelligent]: https://github.com/yedhrab/YArtificalIntelligent
+[yreact-firebase]: https://github.com/yedhrab/YReact-Firebase

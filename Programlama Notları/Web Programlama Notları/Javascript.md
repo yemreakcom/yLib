@@ -40,6 +40,7 @@
   - [`console.save` Metodu Oluşturma](#consolesave-Metodu-Olu%C5%9Fturma)
   - [MIME - Internet Media Types](#MIME---Internet-Media-Types)
 - [HTTP İstekleri](#HTTP-%C4%B0stekleri)
+- [Ses İşlemleri](#Ses-%C4%B0%C5%9Flemleri)
 - [Harici Javascript Dosyası Ekleme](#Harici-Javascript-Dosyas%C4%B1-Ekleme)
 - [Objedeki Değer ile Anahtarını Bulma](#Objedeki-De%C4%9Fer-ile-Anahtar%C4%B1n%C4%B1-Bulma)
 - [Latex Ayrıştırma](#Latex-Ayr%C4%B1%C5%9Ft%C4%B1rma)
@@ -621,6 +622,107 @@ function httpGet(theUrl) {
   return xmlHttp.responseText;
 }
 ```
+
+## Ses İşlemleri
+
+<details>
+<summary>Tuşa basıldığında ses çalma</summary>
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+
+    <script>
+      function removeTransitionEventListener(e) {
+        if (e.propertyName !== "transform") return;
+        this.classList.remove("playing");
+      }
+
+      function keyDownEventListener(e) {
+        const audioElement = document.querySelector(
+          `audio[data-key="${e.keyCode}"]`
+        );
+
+        const div = document.querySelector(`div[data-key="${e.keyCode}"]`);
+
+        if (!audioElement || !div) return;
+
+        // Oynama efekti ekleme
+        div.classList.add("playing");
+
+        // Playing always from start
+        audioElement.currentTime = 0;
+        audioElement.play();
+      }
+
+      // Tuşalara basıldığında listenerı aktif etme
+      window.addEventListener("keydown", keyDownEventListener);
+
+      // Efektleri kaldırma
+      const keys = document.querySelectorAll(".key");
+      keys.forEach(key =>
+        key.addEventListener("transitionend", removeTransitionEventListener)
+      );
+    </script>
+  </body>
+</html>
+```
+
+</details>
 
 ## Harici Javascript Dosyası Ekleme
 

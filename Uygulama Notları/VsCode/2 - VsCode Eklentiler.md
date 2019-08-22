@@ -17,22 +17,22 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 ## Verimlilik ve Görsellik Eklentileri
 
-| Eklenti               | Açıklama                                   |
-| --------------------- | ------------------------------------------ |
-| [WakaTime]            | Kodlama başında geçen vakti raporlar ⏱     |
-| [DarkCode Theme]      | Python ve Markdown odaklı karanlık tema ✨ |
-| [Material Icon Theme] | Dosya ikon teması 📂                       |
-| [Prettier]            | Kod formatlama ve güzelleştirme 🎇         |
-| [Todo Tree]           | Yapılacakları gösteren arayüz ✔            |
-| [vscode-spotify]      | Spotify ile müzik desteği 🎶               |
+| Eklenti                                       | Açıklama                                |
+| --------------------------------------------- | --------------------------------------- |
+| [WakaTime ⏱][wakatime]                        | Kodlama başında geçen vakti raporlar    |
+| [DarkCode Theme ✨][darkcode theme]            | Python ve Markdown odaklı karanlık tema |
+| [Material Icon Theme 📂][material icon theme] | Dosya ikon teması                       |
+| [Prettier 🎇][prettier - code formatter]      | Kod formatlama ve güzelleştirme         |
+| [Todo Tree ✔][todo tree]                      | Yapılacakları gösteren arayüz           |
+| [vscode-spotify 🎶][vscode-spotify]           | Spotify ile müzik desteği               |
 
 ## Proje Yönetimi
 
-| Eklenti              | Açıklama                                      |
-| -------------------- | --------------------------------------------- |
-| [Live Share]         | Anlık olarak kod paylaşma 🎥                  |
-| [Live Share Audio]   | Anlık olarak ses paylaşma 🔊                  |
-| [Remote Development] | Uzak bilgisayarlarda metni VsCode ile açma 👨‍💻 |
+| Eklenti                                        | Açıklama                                   |
+| ---------------------------------------------- | ------------------------------------------ |
+| [Live Share 🎥][live share]                    | Anlık olarak kod paylaşma                  |
+| [Live Share Audio 🔊][live share audio]        | Anlık olarak ses paylaşma                  |
+| [Remote Development 👨‍💻][remote development] | Uzak bilgisayarlarda metni VsCode ile açma |
 
 ## Programlama Eklentileri
 
@@ -51,7 +51,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | --------------------- | -------------------------------------- |
 | [Markdown All in One] | Faydalı kısayollar, formatlama vs.. 🌟 |
 | [Markdown PDF]        | Markdown'u PDF'e çevirme 📃            |
-| [Paste Image]         | Panodan resim kopyalama 🖼              |
+| [Paste Image]         | Panodan resim kopyalama 🖼             |
 
 ### Python Eklentileri
 

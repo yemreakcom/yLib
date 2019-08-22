@@ -19,24 +19,24 @@
 
 ### Chrome sekme işlemleri
 
-| Kısayol                                             | Açıklama                   |
-| --------------------------------------------------- | -------------------------- |
+| Kısayol                                               | Açıklama                   |
+| ----------------------------------------------------- | -------------------------- |
 | <kbd>✲ Ctrl</kbd> + <kbd>T</kbd>                      | Yeni sekme açma            |
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>T</kbd> | Son kapatılan sekmeyi açma |
 | <kbd>✲ Ctrl</kbd> + <kbd>W</kbd>                      | Sekmeyi kapatma            |
 
 ### Sayfa işlemleri
 
-| Kısayol                                             | Açıklama                                     |
-| --------------------------------------------------- | -------------------------------------------- |
+| Kısayol                                               | Açıklama                                     |
+| ----------------------------------------------------- | -------------------------------------------- |
 | <kbd>✲ Ctrl</kbd> + <kbd>R</kbd>                      | Sayfayı yenileme                             |
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>R</kbd> | Sayfayı komple yenileme (önbelleği temizler) |
 | <kbd>✲ Ctrl</kbd> + `S`                               | Sayfayı kaydetme                             |
 
 ### Geliştirici kısayolları
 
-| Kısayol                                             | Açıklama                        |
-| --------------------------------------------------- | ------------------------------- |
+| Kısayol                                               | Açıklama                        |
+| ----------------------------------------------------- | ------------------------------- |
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>I</kbd> | Dom konsolunu açma              |
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>C</kbd> | HTML eleman seçiciyi aktif etme |
 
@@ -46,10 +46,10 @@
 
 | Eklenti                                                                                                                                   | Özelliği                                             |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Adblock Plus]                                                                                                                            | Reklam engelleme                                     |
-| [Pop up Blocker for Chrome]                                                                                                               | Popup (Açılır pencere) engelleme                     |
-| [Nightlight]                                                                                                                              | Karanlık tema                                        |
-| [One Click Translate]                                                                                                                     | Çeviri                                               |
+| [Adblock Plus ⛔][adblock plus]                                                                                                            | Reklam engelleme                                     |
+| [Pop up Blocker for Chrome 🛑][pop up blocker for chrome]                                                                                 | Popup (Açılır pencere) engelleme                     |
+| [LastPass 🔐](https://www.lastpass.com/)                                                                                                  | Şifreleri saklama  uygulaması                        |
+| [Tick Tick](https://ticktick.com/) ✔                                                                                                      | Todo Yönetimi (Kanban vs)                            |
 | [Google Çeviri]                                                                                                                           | Çeviri                                               |
 | [No Script]                                                                                                                               | Javascript engelleyici                               |
 | [OneTab]                                                                                                                                  | Sekme karışıklığını ve fazla ram kullanımı engelleme |
@@ -59,9 +59,10 @@
 
 ### Görsellik Eklentileri
 
-| Eklenti                                                                                           | Açıklama       |
-| ------------------------------------------------------------------------------------------------- | -------------- |
-| [Lone Tree](https://chrome.google.com/webstore/detail/lone-tree/gdcbilggakcddojcadnfeckbpoomdmii) | Güzel bir tema |
+| Eklenti                                                                                              | Açıklama       |
+| ---------------------------------------------------------------------------------------------------- | -------------- |
+| [Lone Tree 🎄](https://chrome.google.com/webstore/detail/lone-tree/gdcbilggakcddojcadnfeckbpoomdmii) | Güzel bir tema |
+| [Nightlight 🌙][nightlight]                                                                          | Karanlık tema  |
 
 ### Sosyal Medya Eklentileri
 
@@ -73,10 +74,12 @@
 
 ### Programlama Eklentileri
 
-| Eklenti                                                                                                     | Açıklama                                                     |
-| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
-| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)     | Web işlemlerini tekrarlayan web testing yazılımı             |
+| Eklenti                                                                                                                     | Açıklama                                                     |
+| --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao)                 | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
+| [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)                     | Web işlemlerini tekrarlayan web testing yazılımı             |
+| [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)                       | JSON'ları formatlı gösterme                                  |
+| [ResNet Client](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm?hl=en) | API istekleri atma                                           |
 
 ### Web Eklentileri
 

@@ -1,5 +1,9 @@
 # VsCode Özelleştirmem <!-- omit in toc -->
 
+Özelleştirmelerin artık [Github Gist ☁](https://gist.github.com/yedhrab/4b13743a36cece5c3c22a5042897a83d) üzerine taşındı.
+
+> [Settings Sync 🔄](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) eklentisi ile online olarak yönetilebilmekte.
+
 ## İçerikler <!-- omit in toc -->
 
 - [Snippets](#Snippets)

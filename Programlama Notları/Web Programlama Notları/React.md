@@ -36,6 +36,8 @@ Facebook'un çıkarmış olduğu bir web programlama framework'udür.
 
 ## Hızlı Notlar
 
+- [React IDE](https://github.com/reactide/reactide)
+
 > Burası ileride kaldırılacak
 
 ### CSS Oluşturma

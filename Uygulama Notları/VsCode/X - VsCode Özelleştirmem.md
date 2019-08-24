@@ -216,7 +216,6 @@ Verimli çalışmak için kod parçaları
     "iconColour": "#6FA5FF"
   },
   "todo-tree.customHighlight": {
-    // TIP: Bilgiler (tip)
     "TIP:": {
       "icon": "book",
       "type": "text",
@@ -225,7 +224,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#f5f2a9"
     },
-    // TODO:: Yapılacak (todo)
     "TODO:": {
       "icon": "checklist",
       "type": "text",
@@ -235,7 +233,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#6FA5FF"
     },
-    // BUG: Hatalar (bug)
     "BUG:": {
       "icon": "bug",
       "type": "text",
@@ -244,7 +241,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#FF2C2C"
     },
-    // DEV: İyileştirme, geliştirme (dev)
     "DEV:": {
       "icon": "telescope",
       "type": "text",
@@ -253,7 +249,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#72CB6A"
     },
-    // RES: Gelecek planları, araştırmalar (res)
     "RES:": {
       "icon": "beaker",
       "type": "text",
@@ -262,7 +257,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#9CF7FF"
     },
-    // WARN: Uyarılar (warn)
     "WARN:": {
       "icon": "megaphone",
       "type": "text",
@@ -271,7 +265,6 @@ Verimli çalışmak için kod parçaları
       "opacity": 7,
       "iconColour": "#CFCC35"
     },
-    // OLD: Eskimiş, kaldırılacak (deprecated)
     "OLD:": {
       "icon": "trashcan",
       "type": "text",

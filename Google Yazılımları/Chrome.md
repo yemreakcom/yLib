@@ -44,18 +44,19 @@
 
 ### Verimlilik Eklentileri
 
-| Eklenti                                                                                                                                   | Özelliği                                             |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Adblock Plus ⛔][adblock plus]                                                                                                            | Reklam engelleme                                     |
-| [Pop up Blocker for Chrome 🛑][pop up blocker for chrome]                                                                                 | Popup (Açılır pencere) engelleme                     |
-| [LastPass 🔐](https://www.lastpass.com/)                                                                                                  | Şifreleri saklama  uygulaması                        |
-| [Tick Tick](https://ticktick.com/) ✔                                                                                                      | Todo Yönetimi (Kanban vs)                            |
-| [Google Çeviri]                                                                                                                           | Çeviri                                               |
-| [No Script]                                                                                                                               | Javascript engelleyici                               |
-| [OneTab]                                                                                                                                  | Sekme karışıklığını ve fazla ram kullanımı engelleme |
-| [Temp Mail]                                                                                                                               | Geçici mail oluşturma eklentisi.                     |
-| [Selenium IDE]                                                                                                                            | Web eylemlerini tekrarlama                           |
-| [Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
+| Eklenti                                                                                                                                      | Özelliği                                             |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| [Adblock Plus ⛔][adblock plus]                                                                                                               | Reklam engelleme                                     |
+| [Pop up Blocker for Chrome 🚫][pop up blocker for chrome]                                                                                    | Popup (Açılır pencere) engelleme                     |
+| [Google Çeviri 🔣][google çeviri]                                                                                                            | Çeviri                                               |
+| [OneTab 🚀][onetab]                                                                                                                          | Sekme karışıklığını ve fazla ram kullanımı engelleme |
+| [LastPass 🔐](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |
+| [Temp Mail 💌][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
+| [Enchanced Github ➕](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)                             | Github'a ek özellikler ekleme                        |
+| [Fatkun Batch Download Image 🌟](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
+| [Tick Tick](https://ticktick.com/) ✔                                                                                                         | Todo Yönetimi (Kanban vs)                            |
+| [No Script 🛑][no script]                                                                                                                    | Javascript engelleyici                               |
+| [Selenium IDE ⚙][selenium ide]                                                                                                               | Web eylemlerini tekrarlama                           |
 
 ### Görsellik Eklentileri
 

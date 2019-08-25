@@ -5,6 +5,7 @@ Telegram ile ilgili notlarım.
 ## İçerikler <!-- omit in toc -->
 
 - [Telegram Nedir?](#Telegram-Nedir)
+- [Faydalı Ayarlar](#Faydal%C4%B1-Ayarlar)
 - [Telegram Bot Oluşturma](#Telegram-Bot-Olu%C5%9Fturma)
   - [Telegram bot için `chat_id` alma](#Telegram-bot-i%C3%A7in-chatid-alma)
 - [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
@@ -19,6 +20,15 @@ Whatapp alternatifi mesajlaşma uygulamasıdır.
 gibi avantajları vardir.
 
 > Özetle, scriptçi (yazılımcı) isen tam senlik 🤓
+
+## Faydalı Ayarlar
+
+| Kısayol                          | Açıklama |
+| -------------------------------- | -------- |
+| <kbd>✲ Ctrl</kbd> + <kbd>Q</kbd> | Çıkış    |
+| <kbd>✲ Ctrl</kbd> + <kbd>W</kbd> | Kapatma  |
+
+> `Settings` -> `Show tray icon` seçeneğini kaldırdığınzıda, <kbd>X</kbd> butonuna basıldığında kapanır, arkaplanda çalışmaz.
 
 ## Telegram Bot Oluşturma
 

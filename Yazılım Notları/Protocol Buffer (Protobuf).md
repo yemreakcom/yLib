@@ -4,11 +4,11 @@
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Nedir](#nedir)
-- [JSON Hangi Durumlarda Kullanılmalı](#json-hangi-durumlarda-kullan%C4%B1lmal%C4%B1)
-- [XML yerine neden protobuf kullanılmalı](#xml-yerine-neden-protobuf-kullan%C4%B1lmal%C4%B1)
-- [Terimler](#terimler)
-- [Kaynaklar](#kaynaklar)
+- [Nedir](#Nedir)
+- [JSON Hangi Durumlarda Kullanılmalı](#JSON-Hangi-Durumlarda-Kullan%C4%B1lmal%C4%B1)
+- [XML yerine neden protobuf kullanılmalı](#XML-yerine-neden-protobuf-kullan%C4%B1lmal%C4%B1)
+- [Terimler](#Terimler)
+- [Kaynaklar](#Kaynaklar)
 
 ## Nedir
 

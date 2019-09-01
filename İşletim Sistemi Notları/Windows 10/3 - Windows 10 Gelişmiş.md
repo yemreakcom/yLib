@@ -47,7 +47,7 @@ FolderType=Documents
 - Arama alanına `regedit` yazıp <kbd>ENTER</kbd>'a basın
 - Çıkan ekranda `Computer\HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit\command` dizinine gelin
 - Default adlı anahtarın değerini `"C:\Program Files\paint.net\PaintDotNet.exe" "%1"` olarak değiştirin
-  - Orjinal veri: `"C:\Windows\system32\mspaint.exe" "%1"`
+  - Orjinal veri: `"%systemroot%\system32\mspaint.exe" "%1"`
 
 > Program yolunu istediğiniz gibi ayarlayabilirsiniz
 
@@ -63,6 +63,7 @@ FolderType=Documents
 
 - Kapatmak için [bu siteye](https://blogs.systweak.com/how-to-disable-telemetry-and-data-collection-in-windows-10/) bakabilirsin
 - İstersen regedit değişimini; alttaki metni `txt`'te kaydedip, uzantısı `reg` yapıp çalıştırarak uygulayabilirsin
+- Ya da bu [dosyayı](https://drive.google.com/open?id=1L0-VaRT7FrXauzV49DcQb5jywErS6D36) kullanabilirsiniz. (Audio gibi algılıyor ama değil, indirip çalıştırın)
 
 <details>
 <summary>*.reg dosyası</summary>

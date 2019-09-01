@@ -11,12 +11,13 @@ Karma konular hakkında notlarım 📚
 
 Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
-- [Python 🐍 notlarım][ypython]
-- [Data Science 📊 notlarım][ydatascience]
-- [İstanbul Üniversitesi - Bilgisayar Mühendisliği 🏫 Notları][istanbuluniversity-ce]
-- [Kişisel scriptlerim 📜][yscripts]
-- [Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım][yartificalintelligent]
-- [React ⚛️ ve Firebase 🔥 projem][yreact-firebase]
+- [🐍 Python notlarım][ypython]
+- [📊 Data Science notlarım][ydatascience]
+- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları][istanbuluniversity-ce]
+- [📜 Kişisel scriptlerim][yscripts]
+- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım][yartificalintelligent]
+- [⚛️🔥 React ve Firebase projem][yreact-firebase]
+- [📱 Android notlarım][yandroid]
 
 ## İçerikler <!-- omit in toc -->
 
@@ -301,3 +302,4 @@ Giriş cümlesi veya alakalı cümle.
 [ydatascience]: https://github.com/yedhrab/YDataScience
 [yartificalintelligent]: https://github.com/yedhrab/YArtificalIntelligent
 [yreact-firebase]: https://github.com/yedhrab/YReact-Firebase
+[yandroid]: https://github.com/yedhrab/YAndroid

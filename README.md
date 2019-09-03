@@ -12,14 +12,14 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 
 > Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
-- [📈 Üretkenlik notlarım][yproductivity]
-- [🐍 Python notlarım][ypython]
-- [📊 Data Science notlarım][ydatascience]
-- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları][istanbuluniversity-ce]
-- [📜 Kişisel scriptlerim][yscripts]
-- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım][yartificalintelligent]
-- [⚛️🔥 React ve Firebase projem][yreact-firebase]
-- [📱 Android notlarım][yandroid]
+- [📈 Üretkenlik notlarım](https://plus.yemreak.com)
+- [🐍 Python notlarım](https://python.yemreak.com)
+- [📊 Data Science notlarım](https://ds.yemreak.com)
+- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
+- [📜 Kişisel scriptlerim](https://github.com/yedhrab/YScripts)
+- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
+- [⚛️🔥 React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
+- [📱 Android notlarım](https://android.yemreak.com)
 
 ## 🔗 Harici Bağlantılar
 
@@ -85,11 +85,3 @@ Giriş cümlesi veya alakalı cümle.
 <!-- İletişim Sonu -->
 
 [geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]: https://webrazzi.com/2017/07/17/uygulama-programlama-arayuzu-api/
-[istanbuluniversity-ce]: https://iuce.yemreak.com
-[yscripts]: https://github.com/yedhrab/YScripts
-[ypython]: https:/python.yemreak.com
-[ydatascience]: https://ds.yemreak.com
-[yartificalintelligent]: https://ai.yemreak.com
-[yreact-firebase]: https://github.com/yedhrab/YReact-Firebase
-[yandroid]: https://android.yemreak.com
-[yproductivity]: https://plus.yemreak.com

@@ -1,13 +1,8 @@
 # YBilgiler <!-- omit in toc -->
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yedhrab/YBilgiler.svg?label=Son%20G%C3%BCncelleme&style=popout)
-![GitHub](https://img.shields.io/github/license/yedhrab/YBilgiler.svg?label=Lisans&style=popout)
-![made_with_Markdown](https://img.shields.io/badge/%C4%B0%C3%A7erik-Markdown-blue.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/yedhrab/YBilgiler.svg?label=Boyut&style=popout)
+Karma konular hakkında notlarım 📚s
 
-Karma konular hakkında notlarım 📚
-
-## Ayrılan Notlarım
+## 🚙 Ayrılan Notlarım
 
 Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
@@ -20,7 +15,7 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - [⚛️🔥 React ve Firebase projem][yreact-firebase]
 - [📱 Android notlarım][yandroid]
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 - [Alibaba Cloud for Students](https://www.alibabacloud.com/campaign/education)
 - [The Best Font for Resume](https://www.businessnewsdaily.com/5331-best-resume-fonts.html)
@@ -28,7 +23,7 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - [Açık API listesi][geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]
 - [Türkçe Dökümanlar](https://turkcedokuman.com/)
 
-## Çalışma Notları
+## ✍ Çalışma Notları
 
 - Her şey **dinamik** olmalı
 - Önce sabit değerli yaz, sonrasında <kbd>✲ Ctrl</kbd> + <kbd>F</kbd> ile sabitleri değişken haline dönüştür
@@ -38,7 +33,7 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - matematikler (latex) $latex$
 - butonlar ve tıklanabilir öğeler <kbd>button</kbd>
 
-### İçerik Yapısı
+### ⚠ İçerik Yapısı
 
 Giriş cümlesi veya alakalı cümle.
 
@@ -60,7 +55,7 @@ Giriş cümlesi veya alakalı cümle.
 > - Link
 > - Link
 
-## Destek ve İletişim
+## 💖 Destek ve İletişim
 
 **The [MIT License](https://choosealicense.com/licenses/mit/) &copy; Yunus Emre Ak**
 

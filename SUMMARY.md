@@ -102,3 +102,23 @@
       - [3 - Windows 10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F.md)
       - [4 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%20Subsystem%20for%20Linux.md)
       - [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)
+
+## Ayrılan Notlarım
+
+- [📈 Üretkenlik notlarım][yproductivity]
+- [🐍 Python notlarım][ypython]
+- [📊 Data Science notlarım][ydatascience]
+- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları][istanbuluniversity-ce]
+- [📜 Kişisel scriptlerim][yscripts]
+- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım][yartificalintelligent]
+- [⚛️🔥 React ve Firebase projem][yreact-firebase]
+- [📱 Android notlarım][yandroid]
+
+[istanbuluniversity-ce]: https://github.com/yedhrab/IstanbulUniversity-CE
+[yscripts]: https://github.com/yedhrab/YScripts
+[ypython]: https://github.com/yedhrab/YPython
+[ydatascience]: https://github.com/yedhrab/YDataScience
+[yartificalintelligent]: https://github.com/yedhrab/YArtificalIntelligent
+[yreact-firebase]: https://github.com/yedhrab/YReact-Firebase
+[yandroid]: https://github.com/yedhrab/YAndroid
+[yproductivity]: https://github.com/yedhrab/YProductivity

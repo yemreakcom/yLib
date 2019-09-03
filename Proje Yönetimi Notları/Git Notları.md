@@ -35,6 +35,7 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
   - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#Git-%C3%9Czerinde-Kullan%C4%B1c%C4%B1-Bilgilerini-Saklama)
   - [Remote Kaldırma & Gösterme](#Remote-Kald%C4%B1rma--G%C3%B6sterme)
   - [Son Commiti Kaldırma](#Son-Commiti-Kald%C4%B1rma)
+  - [Son Değişiklikleri Geri Alma](#Son-De%C4%9Fi%C5%9Fiklikleri-Geri-Alma)
   - [Pull From işlemini Geri Alma](#Pull-From-i%C5%9Flemini-Geri-Alma)
 - [Uygulamalar Üzerinde Git](#Uygulamalar-%C3%9Czerinde-Git)
   - [JetBrains IDEs](#JetBrains-IDEs)
@@ -287,8 +288,15 @@ git reset HEAD^ # remove commit locally
 git push origin +HEAD # force-push the new HEAD commit
 # git push origin +HEAD^:<name of your branch, most likely 'master'> sadece uzaktakini kaldırır
 ```
-
 > Son yüklemeyi kaldırır. Bu işlemden sonra tekrar commit etmeniz gerekmekte. Detay için [link](https://stackoverflow.com/a/8225166)
+
+### Son Değişiklikleri Geri Alma
+
+```sh
+git revert --strategy resolve <commit>
+```
+
+> https://stackoverflow.com/a/3207170
 
 ### Pull From işlemini Geri Alma
 

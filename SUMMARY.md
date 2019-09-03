@@ -114,11 +114,11 @@
 - [⚛️🔥 React ve Firebase projem][yreact-firebase]
 - [📱 Android notlarım][yandroid]
 
-[istanbuluniversity-ce]: https://iuce.yemreak.com/
+[istanbuluniversity-ce]: https://iuce.yemreak.com
 [yscripts]: https://github.com/yedhrab/YScripts
-[ypython]: https:/python.yemreak.com/
-[ydatascience]: https://ds.yemreak.com/
-[yartificalintelligent]: https://ai.yemreak.com/
+[ypython]: https:/python.yemreak.com
+[ydatascience]: https://ds.yemreak.com
+[yartificalintelligent]: https://ai.yemreak.com
 [yreact-firebase]: https://github.com/yedhrab/YReact-Firebase
-[yandroid]: https://android.yemreak.com/
-[yproductivity]: https://pro.yemreak.com/
+[yandroid]: https://android.yemreak.com
+[yproductivity]: https://plus.yemreak.com

@@ -11,6 +11,7 @@ Karma konular hakkında notlarım 📚
 
 Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
+- [📈 Üretkenlik notlarım][yproductivity]
 - [🐍 Python notlarım][ypython]
 - [📊 Data Science notlarım][ydatascience]
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları][istanbuluniversity-ce]
@@ -303,3 +304,4 @@ Giriş cümlesi veya alakalı cümle.
 [yartificalintelligent]: https://github.com/yedhrab/YArtificalIntelligent
 [yreact-firebase]: https://github.com/yedhrab/YReact-Firebase
 [yandroid]: https://github.com/yedhrab/YAndroid
+[yproductivity]: https://github.com/yedhrab/YProductivity

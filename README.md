@@ -1,10 +1,16 @@
-# YBilgiler <!-- omit in toc -->
+# 📖 YWiki <!-- omit in toc -->
 
-Karma konular hakkında notlarım 📚
+Kişisel bilgilerimi derlediğim projem 📚
+
+- 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
+- ✨ Yani hep güncel kalacak denebilir
+- 👻 İyi okumalar
 
 ## 🚙 Ayrılan Notlarım
 
 Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
+
+> Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
 - [📈 Üretkenlik notlarım][yproductivity]
 - [🐍 Python notlarım][ypython]

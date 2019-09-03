@@ -2,49 +2,6 @@
 
 Android telefonları için komutları barındırır.
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Adb Server](#adb-server)
-- [Adb Reboot](#adb-reboot)
-- [Shell](#shell)
-- [Devices](#devices)
-- [Get device android version](#get-device-android-version)
-- [LogCat](#logcat)
-- [Files](#files)
-- [App install](#app-install)
-- [Uninstalling app from device](#uninstalling-app-from-device)
-- [Update app](#update-app)
-- [Home button](#home-button)
-- [Activity Manager](#activity-manager)
-- [Print text](#print-text)
-- [Screenshot](#screenshot)
-- [Key event](#key-event)
-- [ShPref](#shpref)
-- [replace org.example.app with your application id](#replace-orgexampleapp-with-your-application-id)
-- [Add a value to default shared preferences](#add-a-value-to-default-shared-preferences)
-- [Remove a value to default shared preferences](#remove-a-value-to-default-shared-preferences)
-- [Clear all default shared preferences](#clear-all-default-shared-preferences)
-- [It's also possible to specify shared preferences file](#its-also-possible-to-specify-shared-preferences-file)
-- [Data types](#data-types)
-- [Restart application process after making changes](#restart-application-process-after-making-changes)
-- [Monkey](#monkey)
-- [Other](#other)
-- [Shared Preferences](#shared-preferences)
-  - [Add a value to default broadcast shared preferences](#add-a-value-to-default-broadcast-shared-preferences)
-  - [Remove a value to default broadcast shared preferences](#remove-a-value-to-default-broadcast-shared-preferences)
-  - [Clear all default broadcast shared preferences](#clear-all-default-broadcast-shared-preferences)
-  - [It's also possible to specify shared broadcast preferences file](#its-also-possible-to-specify-shared-broadcast-preferences-file)
-  - [Broadcast Data types](#broadcast-data-types)
-  - [Restart broadcast application process after making changes](#restart-broadcast-application-process-after-making-changes)
-- [Few bash snippets](#few-bash-snippets)
-- [Using tail -n](#using-tail--n)
-- [Using cut -sf](#using-cut--sf)
-- [Using xargs -I](#using-xargs--i)
-- [Three options below together](#three-options-below-together)
-- [Using alias](#using-alias)
-
 ## Adb Server
 
 - adb kill-server

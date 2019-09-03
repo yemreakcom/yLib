@@ -1,22 +1,5 @@
 # Windows10 Gelişmiş <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Otomatik Giriş Yapma](#Otomatik-Giri%C5%9F-Yapma)
-- [Dizin Resmini Değiştirme](#Dizin-Resmini-De%C4%9Fi%C5%9Ftirme)
-- [Resim Düzenleyicisini Değiştirme](#Resim-D%C3%BCzenleyicisini-De%C4%9Fi%C5%9Ftirme)
-- [Bat Düzenleyiciyi Değiştirme](#Bat-D%C3%BCzenleyiciyi-De%C4%9Fi%C5%9Ftirme)
-- [Telemetry'i Kapatma](#Telemetryi-Kapatma)
-- [Windows Store Uygulama Dizini](#Windows-Store-Uygulama-Dizini)
-- [File Explorer'ı Geliştirme](#File-Explorer%C4%B1-Geli%C5%9Ftirme)
-- [Windows 10 Composer](#Windows-10-Composer)
-- [Windows10 Karanlık Tema Kurulumu](#Windows10-Karanl%C4%B1k-Tema-Kurulumu)
-- [Windows Saat Sorunu](#Windows-Saat-Sorunu)
-  - [Yerel Saati Kullanma](#Yerel-Saati-Kullanma)
-  - [Evrensel (UTC) Saati Kullanma](#Evrensel-UTC-Saati-Kullanma)
-  - [Windows Boot Kurtarma](#Windows-Boot-Kurtarma)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Otomatik Giriş Yapma
 
 Her defasında şifre girişi yapmaz istemezseniz, otomatik şifre girmek sizin için faydalı olacaktır.

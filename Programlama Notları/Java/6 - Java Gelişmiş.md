@@ -1,20 +1,5 @@
 # Java Gelişmiş <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Modül Programlama](#Mod%C3%BCl-Programlama)
-  - [`module-info.java` Yapısı](#module-infojava-Yap%C4%B1s%C4%B1)
-- [Tüm Thread'leri Durdurma](#T%C3%BCm-Threadleri-Durdurma)
-- [Generic (Çoklu tip desteği)](#Generic-%C3%87oklu-tip-deste%C4%9Fi)
-- [Kod Notları (Code Snippets)](#Kod-Notlar%C4%B1-Code-Snippets)
-  - [Generic Olarak Dizileri Birleştirme](#Generic-Olarak-Dizileri-Birle%C5%9Ftirme)
-  - [Tarayıcı Üzerinden Açma](#Taray%C4%B1c%C4%B1-%C3%9Czerinden-A%C3%A7ma)
-- [Terminal Komutları Çalıştırma](#Terminal-Komutlar%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
-  - [Terminal Komutlarını Çalıştırma ve Çıktısını Görme](#Terminal-Komutlar%C4%B1n%C4%B1-%C3%87al%C4%B1%C5%9Ft%C4%B1rma-ve-%C3%87%C4%B1kt%C4%B1s%C4%B1n%C4%B1-G%C3%B6rme)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Error:(1, 1) java: modules are not supported in -source 8 (use -source 9 or higher to enable modules)](#Error1-1-java-modules-are-not-supported-in--source-8-use--source-9-or-higher-to-enable-modules)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Modül Programlama
 
 Modüller tek bir iş için yapılandırılmış projelerdir.

@@ -2,13 +2,6 @@
 
 HTC Desire 820 için karma hata çözümleri
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Sim Kartını Okumama Sorunu](#sim-kart%C4%B1n%C4%B1-okumama-sorunu)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Sim Kartını Okumama Sorunu
 
 - Arama yerini açıp

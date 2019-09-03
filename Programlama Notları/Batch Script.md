@@ -2,18 +2,6 @@
 
 Windows işletim sistemlerinin ortak programlama dilidir.
 
-## İçerikler <!-- omit in toc -->
-
-- [Başlatma İşlemleri (Start)](#ba%C5%9Flatma-i%CC%87%C5%9Flemleri-start)
-- [Yazırma İşlemleri (Echo)](#yaz%C4%B1rma-i%CC%87%C5%9Flemleri-echo)
-- [Koşullu İşlemleri (IF / Else)](#ko%C5%9Fullu-i%CC%87%C5%9Flemleri-if--else)
-- [Sessiz Kurulumlar](#sessiz-kurulumlar)
-  - [Koşullu İndirme Scripti](#ko%C5%9Fullu-i%CC%87ndirme-scripti)
-  - [Java JRE Sessiz Kurulumu](#java-jre-sessiz-kurulumu)
-  - [Python Sessiz Kurulumu](#python-sessiz-kurulumu)
-- [Hata Notları](#hata-notlar%C4%B1)
-  - [`\Common was unexpected at this time` Hatası](#common-was-unexpected-at-this-time-hatas%C4%B1)
-
 ## Başlatma İşlemleri (Start)
 
 - `start .` Bulunduğumuz dizini açma

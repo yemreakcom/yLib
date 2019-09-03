@@ -1,11 +1,5 @@
 # Windows Subsystem for Linux (WSL) <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Terminel Sesini Kapatma](#Terminel-Sesini-Kapatma)
-- [Linux Uygulamalarını WSL Üzerinde Çalıştırma](#Linux-Uygulamalar%C4%B1n%C4%B1-WSL-%C3%9Czerinde-%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
-- [WSL'i Ubuntu'nun Son Sürümüne Güncelleme](#WSLi-Ubuntunun-Son-S%C3%BCr%C3%BCm%C3%BCne-G%C3%BCncelleme)
-
 ## Terminel Sesini Kapatma
 
 - `sudo nano /etc/inputrc` ile girdi dosyasını yetki ile açın

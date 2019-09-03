@@ -4,36 +4,6 @@
 
 React üzerine çalışmalarım ve bilgilerim.
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
-  - [CSS Oluşturma](#CSS-Olu%C5%9Fturma)
-- [Neden React](#Neden-React)
-- [React Kullanımı](#React-Kullan%C4%B1m%C4%B1)
-- [Temel Kavramlar](#Temel-Kavramlar)
-  - [Component Kavramı](#Component-Kavram%C4%B1)
-  - [State Kavramı](#State-Kavram%C4%B1)
-  - [Props Kavramı](#Props-Kavram%C4%B1)
-  - [Function Components ve Function Kavramı](#Function-Components-ve-Function-Kavram%C4%B1)
-    - [Function Component Örnekleri](#Function-Component-%C3%96rnekleri)
-  - [State'lerde Immutable (Değişmezlik) Yapısı](#Statelerde-Immutable-De%C4%9Fi%C5%9Fmezlik-Yap%C4%B1s%C4%B1)
-  - [React ile Programlama Yapısı](#React-ile-Programlama-Yap%C4%B1s%C4%B1)
-  - [Faydalı Metodlar](#Faydal%C4%B1-Metodlar)
-  - [For veya Map Döngüsü İşlemleri](#For-veya-Map-D%C3%B6ng%C3%BCs%C3%BC-%C4%B0%C5%9Flemleri)
-  - [Hook Yapısı (useSatate)](#Hook-Yap%C4%B1s%C4%B1-useSatate)
-- [Github Üzerinde Yayınlama](#Github-%C3%9Czerinde-Yay%C4%B1nlama)
-- [React Bilgileri](#React-Bilgileri)
-  - [SVG alımı](#SVG-al%C4%B1m%C4%B1)
-  - [HTML Gösterme](#HTML-G%C3%B6sterme)
-- [Ücretsiz React Çalışma Yerleri](#%C3%9Ccretsiz-React-%C3%87al%C4%B1%C5%9Fma-Yerleri)
-- [Görsel Kaynaklar](#G%C3%B6rsel-Kaynaklar)
-  - [Admin Paneli (Dashboard)](#Admin-Paneli-Dashboard)
-- [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
-
-Facebook'un çıkarmış olduğu bir web programlama framework'udür.
-
 ## Hızlı Notlar
 
 - [React IDE](https://github.com/reactide/reactide)

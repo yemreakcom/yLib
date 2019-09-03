@@ -1,12 +1,5 @@
 # Nodejs Çok Kullanılan Kütüphaneler <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Nodejs Kütüphanler](#nodejs-k%C3%BCt%C3%BCphanler)
-- [Sık kullanılanlar](#s%C4%B1k-kullan%C4%B1lanlar)
-  - [Tarih ve Bilgilendirme](#tarih-ve-bilgilendirme)
-  - [Top 1000 most depended-upon packages](#top-1000-most-depended-upon-packages)
-
 ## Nodejs Kütüphanler
 
 | Kütüphane                                         | Açıklama                                                                       |

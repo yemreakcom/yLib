@@ -1,12 +1,5 @@
 # Java Dosya İşlemleri <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Kullanıcı Dizinleri](#Kullan%C4%B1c%C4%B1-Dizinleri)
-- [Silme İşlemleri](#Silme-%C4%B0%C5%9Flemleri)
-- [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
-- [Seçilini Olanı Kopyalama](#Se%C3%A7ilini-Olan%C4%B1-Kopyalama)
-
 ## Kullanıcı Dizinleri
 
 Tüm OS'larda çalışır.

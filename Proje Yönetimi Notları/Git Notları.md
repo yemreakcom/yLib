@@ -4,45 +4,6 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 
 <!-- TODO: Yapıyı temizle -->
 
-## İçerik <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Git İşleme Yapısı](#Git-%C4%B0%C5%9Fleme-Yap%C4%B1s%C4%B1)
-- [Git'in Kullanıldığı Siteler](#Gitin-Kullan%C4%B1ld%C4%B1%C4%9F%C4%B1-Siteler)
-- [Git Kimlik Bilgileri](#Git-Kimlik-Bilgileri)
-  - [Git Kimlik Bilgilerini Ayarlama](#Git-Kimlik-Bilgilerini-Ayarlama)
-  - [Git Kimlik Bilgilerini Kaydetme](#Git-Kimlik-Bilgilerini-Kaydetme)
-  - [Git Kimlik Bilgilerini Sıfırlama](#Git-Kimlik-Bilgilerini-S%C4%B1f%C4%B1rlama)
-- [Git Deposunu Oluşturma & Güncelleme](#Git-Deposunu-Olu%C5%9Fturma--G%C3%BCncelleme)
-  - [Git Deposunu Güncelleme](#Git-Deposunu-G%C3%BCncelleme)
-  - [Yeni repository oluşturma](#Yeni-repository-olu%C5%9Fturma)
-  - [Yerel repo klonlama](#Yerel-repo-klonlama)
-  - [Belli branch'i klonlama](#Belli-branchi-klonlama)
-  - [Uzak repo klonlama](#Uzak-repo-klonlama)
-  - [Proje dosyalarımızın depoya eklenmesi](#Proje-dosyalar%C4%B1m%C4%B1z%C4%B1n-depoya-eklenmesi)
-  - [Teslim etme hazırlığı ve yorum ekleme](#Teslim-etme-haz%C4%B1rl%C4%B1%C4%9F%C4%B1-ve-yorum-ekleme)
-  - [Teslim edilecek URL'i belirleme](#Teslim-edilecek-URLi-belirleme)
-  - [Birden fazla teslim URL'i belirleme](#Birden-fazla-teslim-URLi-belirleme)
-    - [Teslim URL'i ekleme](#Teslim-URLi-ekleme)
-    - [Teslim URL'i kaldırma](#Teslim-URLi-kald%C4%B1rma)
-    - [Teslim URL'lerini kontrol etme](#Teslim-URLlerini-kontrol-etme)
-    - [Örnek Çıktı](#%C3%96rnek-%C3%87%C4%B1kt%C4%B1)
-  - [Teslim Etme](#Teslim-Etme)
-- [Branch İşlemleri](#Branch-%C4%B0%C5%9Flemleri)
-  - [Sık Kullanılan Branch İşlemleri](#S%C4%B1k-Kullan%C4%B1lan-Branch-%C4%B0%C5%9Flemleri)
-- [Faydalı git komutları](#Faydal%C4%B1-git-komutlar%C4%B1)
-  - [Git Üzerinde Kullanıcı Bilgilerini Saklama](#Git-%C3%9Czerinde-Kullan%C4%B1c%C4%B1-Bilgilerini-Saklama)
-  - [Remote Kaldırma & Gösterme](#Remote-Kald%C4%B1rma--G%C3%B6sterme)
-  - [Son Commiti Kaldırma](#Son-Commiti-Kald%C4%B1rma)
-  - [Son Değişiklikleri Geri Alma](#Son-De%C4%9Fi%C5%9Fiklikleri-Geri-Alma)
-  - [Pull From işlemini Geri Alma](#Pull-From-i%C5%9Flemini-Geri-Alma)
-- [Uygulamalar Üzerinde Git](#Uygulamalar-%C3%9Czerinde-Git)
-  - [JetBrains IDEs](#JetBrains-IDEs)
-- [Git Cheat Sheet](#Git-Cheat-Sheet)
-- [Kitaplar](#Kitaplar)
-- [Harici Linkler](#Harici-Linkler)
-
 ## Git İşleme Yapısı
 
 - İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](#git-deposunu-g%C3%BCncelleme) edilir.

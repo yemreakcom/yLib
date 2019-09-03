@@ -1,12 +1,5 @@
 # Vscode Eklentisi VSIX Programlama <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Temel Gereksinimler](#Temel-Gereksinimler)
-- [Giriş Kalıbını Oluşturma](#Giri%C5%9F-Kal%C4%B1b%C4%B1n%C4%B1-Olu%C5%9Fturma)
-- [Eklentiyi Paylaşma](#Eklentiyi-Payla%C5%9Fma)
-- [Package JSON Örneği](#Package-JSON-%C3%96rne%C4%9Fi)
-
 ## Temel Gereksinimler
 
 - Nodejs

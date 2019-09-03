@@ -2,28 +2,6 @@
 
 Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirilir.
 
-## İçerikler <!-- omit in toc -->
-
-- [Terminal Numaları](#Terminal-Numalar%C4%B1)
-- [Temel Terminal Komutları](#Temel-Terminal-Komutlar%C4%B1)
-  - [Sudo Komutları](#Sudo-Komutlar%C4%B1)
-- [Kurulum Notları](#Kurulum-Notlar%C4%B1)
-  - [Snapd Kurulum](#Snapd-Kurulum)
-  - [Dpkg - Debian Paket Kurma](#Dpkg---Debian-Paket-Kurma)
-    - [Apt ile kurulum](#Apt-ile-kurulum)
-    - [Dpkg ile Kurulum](#Dpkg-ile-Kurulum)
-  - [Tar dosyalarının kurulumları](#Tar-dosyalar%C4%B1n%C4%B1n-kurulumlar%C4%B1)
-  - [AppImage Uzantılı Dosyaların Kurulumu](#AppImage-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
-  - [Run Uzantılı Dosyaların Kurulumu](#Run-Uzant%C4%B1l%C4%B1-Dosyalar%C4%B1n-Kurulumu)
-  - [Seçmeli veya Koşul Kabul Etmeli Kurulumlar (<OK> Butonu)](#Se%C3%A7meli-veya-Ko%C5%9Ful-Kabul-Etmeli-Kurulumlar-OK-Butonu)
-- [Kaldırma Notları](#Kald%C4%B1rma-Notlar%C4%B1)
-- [Terminal Üzerinde Çalışan Faydalı Paketler](#Terminal-%C3%9Czerinde-%C3%87al%C4%B1%C5%9Fan-Faydal%C4%B1-Paketler)
-  - [Terminal Üzerinden PDF işlemleri](#Terminal-%C3%9Czerinden-PDF-i%C5%9Flemleri)
-- [Kısayol oluşturma](#K%C4%B1sayol-olu%C5%9Fturma)
-- [Shell (Bash) Scripting](#Shell-Bash-Scripting)
-  - [100MB ve Üzeri Dosyaları Bulma](#100MB-ve-%C3%9Czeri-Dosyalar%C4%B1-Bulma)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Terminal Numaları
 
 Çok sık kullanılan ve faydalı olacak olan bir kaç terminal yöntemleri:

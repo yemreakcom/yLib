@@ -6,47 +6,6 @@ Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan pa
 
 <!-- TODO İçerikleri kullanabilitesine göre sırala -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Faydaları](#Faydalar%C4%B1)
-- [Anaconda Kurulumu](#Anaconda-Kurulumu)
-- [Miniconda Kurulumu](#Miniconda-Kurulumu)
-- [Temel Condo Kullanımı](#Temel-Condo-Kullan%C4%B1m%C4%B1)
-  - [Conda Yardımcısını Güncelleme](#Conda-Yard%C4%B1mc%C4%B1s%C4%B1n%C4%B1-G%C3%BCncelleme)
-  - [Conda ile Tüm Paketleri Güncelleme](#Conda-ile-T%C3%BCm-Paketleri-G%C3%BCncelleme)
-  - [Conda ile Paket Sürümlerini Gösterme](#Conda-ile-Paket-S%C3%BCr%C3%BCmlerini-G%C3%B6sterme)
-  - [Conda ile Yükleme İşlemleri](#Conda-ile-Y%C3%BCkleme-%C4%B0%C5%9Flemleri)
-    - [Conda ile Belli Bir Sürümü İndirme](#Conda-ile-Belli-Bir-S%C3%BCr%C3%BCm%C3%BC-%C4%B0ndirme)
-  - [Conda ile Requirements Dosyası Oluşturma](#Conda-ile-Requirements-Dosyas%C4%B1-Olu%C5%9Fturma)
-- [Paket ve Kütüphane Kurulumları](#Paket-ve-K%C3%BCt%C3%BCphane-Kurulumlar%C4%B1)
-  - [Numpy Kurulumu](#Numpy-Kurulumu)
-  - [OpenCV Kurulumu](#OpenCV-Kurulumu)
-    - [Linux için OpenCV](#Linux-i%C3%A7in-OpenCV)
-  - [Tensorflow Kurulumu](#Tensorflow-Kurulumu)
-    - [Sanal Ortama Tensorflow Kurulumu](#Sanal-Ortama-Tensorflow-Kurulumu)
-  - [Tensorflow-GPU Kurulumu](#Tensorflow-GPU-Kurulumu)
-    - [Sanal Ortama Tensorflow-GPU Kurulumu](#Sanal-Ortama-Tensorflow-GPU-Kurulumu)
-  - [Keras Kurulumu](#Keras-Kurulumu)
-  - [Tesseract Kurulumu](#Tesseract-Kurulumu)
-  - [Selenium Kurulumu](#Selenium-Kurulumu)
-  - [Pillow (Python Image Library) Kurulumu](#Pillow-Python-Image-Library-Kurulumu)
-- [Sanal Ortam İşlemleri](#Sanal-Ortam-%C4%B0%C5%9Flemleri)
-  - [Sanal Ortam Oluşturma](#Sanal-Ortam-Olu%C5%9Fturma)
-    - [Requirements Dosyasına Uygun Sanal Ortam Oluşturma](#Requirements-Dosyas%C4%B1na-Uygun-Sanal-Ortam-Olu%C5%9Fturma)
-    - [Belirli Python Sürümünde Ortam Oluşturma](#Belirli-Python-S%C3%BCr%C3%BCm%C3%BCnde-Ortam-Olu%C5%9Fturma)
-  - [Sanal Ortamı Aktif Etme](#Sanal-Ortam%C4%B1-Aktif-Etme)
-  - [Sanal Ortamı Pasif Etme](#Sanal-Ortam%C4%B1-Pasif-Etme)
-  - [Sanal Ortamı Kaldırma](#Sanal-Ortam%C4%B1-Kald%C4%B1rma)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Conda SSL Hatası](#Conda-SSL-Hatas%C4%B1)
-    - [Windows Üzerinden Ağ Sıfırlama](#Windows-%C3%9Czerinden-A%C4%9F-S%C4%B1f%C4%B1rlama)
-    - [Manuel OpenSSL Kurulumu](#Manuel-OpenSSL-Kurulumu)
-    - [Conda ile Networkx İndirme](#Conda-ile-Networkx-%C4%B0ndirme)
-    - [SSL Ek Hata Linkleri](#SSL-Ek-Hata-Linkleri)
-- [PyCharm Üzerinden Anaconda](#PyCharm-%C3%9Czerinden-Anaconda)
-  - [PyCharm Projeyi Derlemek için Yapılandırma Ayarlama](#PyCharm-Projeyi-Derlemek-i%C3%A7in-Yap%C4%B1land%C4%B1rma-Ayarlama)
-  - [PyCharm Üzerinden Sanal Conda Ortam Oluşturma](#PyCharm-%C3%9Czerinden-Sanal-Conda-Ortam-Olu%C5%9Fturma)
-
 ## Faydaları
 
 - NPM (node package manager) gibi sanal bir ortam oluşturup python kütüphanelerinin yönetimini sağlar.

@@ -1,34 +1,5 @@
 # Nodejs <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-> `Home` tuşu ile yukarı yönlenebilirsin.
-
-- [Paket Yönetimi](#Paket-Y%C3%B6netimi)
-  - [Paketler ve Açıklamaları](#Paketler-ve-A%C3%A7%C4%B1klamalar%C4%B1)
-    - [Normal Paketler](#Normal-Paketler)
-    - [Geliştirici Paketleri](#Geli%C5%9Ftirici-Paketleri)
-  - [NPM Kullanım Yapısı](#NPM-Kullan%C4%B1m-Yap%C4%B1s%C4%B1)
-  - [Paket Kurulum Örnekleri](#Paket-Kurulum-%C3%96rnekleri)
-  - [Nodejs Dependency Prefixes](#Nodejs-Dependency-Prefixes)
-- [Ortam Değişkenleri](#Ortam-De%C4%9Fi%C5%9Fkenleri)
-  - [Ortam Değişkenleri Açıklamaları](#Ortam-De%C4%9Fi%C5%9Fkenleri-A%C3%A7%C4%B1klamalar%C4%B1)
-  - [Ortam Değişkenleri Kullanımı](#Ortam-De%C4%9Fi%C5%9Fkenleri-Kullan%C4%B1m%C4%B1)
-  - [Herokunun Kullandığı Ortam Değişkenleri](#Herokunun-Kulland%C4%B1%C4%9F%C4%B1-Ortam-De%C4%9Fi%C5%9Fkenleri)
-- [Nodejs ES6 Yapısını Kullanma](#Nodejs-ES6-Yap%C4%B1s%C4%B1n%C4%B1-Kullanma)
-  - [Babel Paketleri](#Babel-Paketleri)
-  - [Babel Paketlerinin Kurulumu](#Babel-Paketlerinin-Kurulumu)
-  - [Babel Yapılandırması](#Babel-Yap%C4%B1land%C4%B1rmas%C4%B1)
-    - [Babel Derleyici Yapılandırmasını Oluşturma](#Babel-Derleyici-Yap%C4%B1land%C4%B1rmas%C4%B1n%C4%B1-Olu%C5%9Fturma)
-    - [Babel Derleme Araçlarını Yapılandırma](#Babel-Derleme-Ara%C3%A7lar%C4%B1n%C4%B1-Yap%C4%B1land%C4%B1rma)
-  - [Packege.json Oluşturma](#Packegejson-Olu%C5%9Fturma)
-  - [Package.json Scriptlerini Oluşturma](#Packagejson-Scriptlerini-Olu%C5%9Fturma)
-    - [Build Script Yapısı](#Build-Script-Yap%C4%B1s%C4%B1)
-  - [Package.json için Script Açıklamaları](#Packagejson-i%C3%A7in-Script-A%C3%A7%C4%B1klamalar%C4%B1)
-  - [Programı Derleme İşlemi](#Program%C4%B1-Derleme-%C4%B0%C5%9Flemi)
-- [VsCode için Debug Ayarları](#VsCode-i%C3%A7in-Debug-Ayarlar%C4%B1)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Paket Yönetimi
 
 Paket kurulumları `npm` komutu yardımıyla yapılır.
@@ -43,11 +14,11 @@ Paketler NPM ile `npm install <paket>` komutu yardımıyla indirilir.
 
 #### Normal Paketler
 
-| Paket    | Açıklama                                      | Bağlantılar                                                                                                                                                      |
-| -------- | --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| nodemon  | Hata ve değişiklik durumunda otomatik derleme |                                                                                                                                                                  |
-| exporess | Sunucu işlemlerinnde kolaylık sağlar          |                                                                                                                                                                  |
-| colors   | Consola renkli çıktılar yazma                 |                                                                                                                                                                  |
+| Paket    | Açıklama                                      | Bağlantılar                                                                                                                                                       |
+| -------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| nodemon  | Hata ve değişiklik durumunda otomatik derleme |                                                                                                                                                                   |
+| exporess | Sunucu işlemlerinnde kolaylık sağlar          |                                                                                                                                                                   |
+| colors   | Consola renkli çıktılar yazma                 |                                                                                                                                                                   |
 | faker    | Rastgele veri oluşturmayı sağlar              | [🌐](https://cdn.rawgit.com/Marak/faker.js/master/examples/browser/index.html) [👁](https://github.com/marak/Faker.js/) [📥](https://www.npmjs.com/package/faker) |
 
 #### Geliştirici Paketleri

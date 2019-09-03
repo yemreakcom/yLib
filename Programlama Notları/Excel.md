@@ -1,15 +1,5 @@
 # Excel <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Temel Değişkenler](#temel-de%C4%9Fi%C5%9Fkenler)
-- [Excel Fonksiyonları](#excel-fonksiyonlar%C4%B1)
-  - [IF, Koşul Yapısı](#if-ko%C5%9Ful-yap%C4%B1s%C4%B1)
-  - [CONCAT, String Birleştirme](#concat-string-birle%C5%9Ftirme)
-- [String İşlemleri](#string-i%CC%87%C5%9Flemleri)
-  - [String Parçalama (MID)](#string-par%C3%A7alama-mid)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Temel Değişkenler
 
 | Değişken | Açıklama  |

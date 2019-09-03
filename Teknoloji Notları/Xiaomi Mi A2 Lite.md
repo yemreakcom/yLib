@@ -2,22 +2,6 @@
 
 Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
 
-## İçerikler <!-- omit in toc -->
-
-- [Güvenli Modda Açma](#G%C3%BCvenli-Modda-A%C3%A7ma)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Dokunmatikte Sorunlu Algılama](#Dokunmatikte-Sorunlu-Alg%C4%B1lama)
-  - [Telefonun Ekranının Kendiliğinden Kapanması](#Telefonun-Ekran%C4%B1n%C4%B1n-Kendili%C4%9Finden-Kapanmas%C4%B1)
-- [Stock Rom Yükleme](#Stock-Rom-Y%C3%BCkleme)
-  - [ADB Kurulumu](#ADB-Kurulumu)
-  - [Cihazı Geliştirici Moduna Alma ve Erişme](#Cihaz%C4%B1-Geli%C5%9Ftirici-Moduna-Alma-ve-Eri%C5%9Fme)
-  - [Bootloader Klidini Açma](#Bootloader-Klidini-A%C3%A7ma)
-  - [Stock Rom Kurulumu](#Stock-Rom-Kurulumu)
-  - [Stock Rom'un Aktarılması](#Stock-Romun-Aktar%C4%B1lmas%C4%B1)
-- [Özel Scriptler](#%C3%96zel-Scriptler)
-  - [Flash All](#Flash-All)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Güvenli Modda Açma
 
 - Güç tuşuna basın

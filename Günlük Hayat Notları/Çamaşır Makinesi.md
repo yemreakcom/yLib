@@ -4,17 +4,6 @@
 
 > Hotpoint Ariston baz alınmıştır.
 
-## İçerik <!-- omit in toc -->
-
-- [Yıkama Öncesi Notlar](#y%c4%b1kama-%c3%96ncesi-notlar)
-- [Yıkama Şekli](#y%c4%b1kama-%c5%9eekli)
-- [Programlar](#programlar)
-  - [Yıkama Programları](#y%c4%b1kama-programlar%c4%b1)
-  - [Kurutma Programları](#kurutma-programlar%c4%b1)
-  - [Diğer Programlar](#di%c4%9fer-programlar)
-- [Yıkama Sonrası Notlar](#y%c4%b1kama-sonras%c4%b1-notlar)
-- [Harici Linkler](#harici-linkler)
-
 ## Yıkama Öncesi Notlar
 
 - 1 çay bardağı deterjanı yıkama gözüne koyun

@@ -1,15 +1,5 @@
 # Protocol Buffer (Protobuf) <!-- omit in toc -->
 
-## İçerik <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Nedir](#Nedir)
-- [JSON Hangi Durumlarda Kullanılmalı](#JSON-Hangi-Durumlarda-Kullan%C4%B1lmal%C4%B1)
-- [XML yerine neden protobuf kullanılmalı](#XML-yerine-neden-protobuf-kullan%C4%B1lmal%C4%B1)
-- [Terimler](#Terimler)
-- [Kaynaklar](#Kaynaklar)
-
 ## Nedir
 
 - Sınıf[*](#Terimler) yapısı ile verileri tutmamızı sağlar

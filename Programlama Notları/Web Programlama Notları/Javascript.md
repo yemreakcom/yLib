@@ -1,53 +1,5 @@
 # Javascript <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Ön Bilgilendirme](#%C3%96n-Bilgilendirme)
-- [Değişken Tipleri](#De%C4%9Fi%C5%9Fken-Tipleri)
-- [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
-- [Koşul İşlemleri](#Ko%C5%9Ful-%C4%B0%C5%9Flemleri)
-  - [Tek Satırlı Koşul İşlemleri (Ternary If)](#Tek-Sat%C4%B1rl%C4%B1-Ko%C5%9Ful-%C4%B0%C5%9Flemleri-Ternary-If)
-  - [Dizilerde Koşul İşlemleri](#Dizilerde-Ko%C5%9Ful-%C4%B0%C5%9Flemleri)
-- [Tarih İşlemleri](#Tarih-%C4%B0%C5%9Flemleri)
-  - [Türkçe Tarih Alma](#T%C3%BCrk%C3%A7e-Tarih-Alma)
-- [HTML Elemanları](#HTML-Elemanlar%C4%B1)
-  - [HTML Elemanlarını Alma](#HTML-Elemanlar%C4%B1n%C4%B1-Alma)
-    - [Query Selector ile HTML Elemanı Alma](#Query-Selector-ile-HTML-Eleman%C4%B1-Alma)
-    - [ID ile HTML Elemanı Alma](#ID-ile-HTML-Eleman%C4%B1-Alma)
-    - [Class, Tag veya Name ile HTML Elemanları Alma](#Class-Tag-veya-Name-ile-HTML-Elemanlar%C4%B1-Alma)
-  - [HTML elemanının alt elemanlarını alma](#HTML-eleman%C4%B1n%C4%B1n-alt-elemanlar%C4%B1n%C4%B1-alma)
-  - [HTMLCollection'u array'e dönüştürmek](#HTMLCollectionu-arraye-d%C3%B6n%C3%BC%C5%9Ft%C3%BCrmek)
-  - [HTML Attribute Alma](#HTML-Attribute-Alma)
-  - [HTML Elemanının Konumunu Alma](#HTML-Eleman%C4%B1n%C4%B1n-Konumunu-Alma)
-  - [ID'si Olan Elemanları Alma](#IDsi-Olan-Elemanlar%C4%B1-Alma)
-  - [Tüm H Değerlerini Alma](#T%C3%BCm-H-De%C4%9Ferlerini-Alma)
-  - [Dom Elemanını Temizleme](#Dom-Eleman%C4%B1n%C4%B1-Temizleme)
-  - [Dom Elemanın Altındaki Tüm Elemanları Temizleme](#Dom-Eleman%C4%B1n-Alt%C4%B1ndaki-T%C3%BCm-Elemanlar%C4%B1-Temizleme)
-- [Sayfadaki URL'leri Alma](#Sayfadaki-URLleri-Alma)
-  - [Code for URL Extraction](#Code-for-URL-Extraction)
-- [Beklemeli İşlemler](#Beklemeli-%C4%B0%C5%9Flemler)
-  - [Senkronize Bekleme (Sync)](#Senkronize-Bekleme-Sync)
-    - [Zamanlayıcı (setTimeout)](#Zamanlay%C4%B1c%C4%B1-setTimeout)
-  - [Asenktron Bekleme (Async)](#Asenktron-Bekleme-Async)
-    - [Promise Yapısı ile Bekletme](#Promise-Yap%C4%B1s%C4%B1-ile-Bekletme)
-    - [Promise ile Beklemeli Metod İşleme](#Promise-ile-Beklemeli-Metod-%C4%B0%C5%9Fleme)
-  - [Sayfa İşlemleri](#Sayfa-%C4%B0%C5%9Flemleri)
-  - [Input İşlemleri](#Input-%C4%B0%C5%9Flemleri)
-- [Dosya İndirme](#Dosya-%C4%B0ndirme)
-  - [Çoklu Dosya İndirme](#%C3%87oklu-Dosya-%C4%B0ndirme)
-  - [`console.save` Metodu Oluşturma](#consolesave-Metodu-Olu%C5%9Fturma)
-  - [MIME - Internet Media Types](#MIME---Internet-Media-Types)
-- [HTTP İstekleri](#HTTP-%C4%B0stekleri)
-- [Ses İşlemleri](#Ses-%C4%B0%C5%9Flemleri)
-- [Harici Javascript Dosyası Ekleme](#Harici-Javascript-Dosyas%C4%B1-Ekleme)
-- [Objedeki Değer ile Anahtarını Bulma](#Objedeki-De%C4%9Fer-ile-Anahtar%C4%B1n%C4%B1-Bulma)
-- [Latex Ayrıştırma](#Latex-Ayr%C4%B1%C5%9Ft%C4%B1rma)
-- [VsCode Eklentileri](#VsCode-Eklentileri)
-  - [VsCode Nodejs için Debug Ayarı](#VsCode-Nodejs-i%C3%A7in-Debug-Ayar%C4%B1)
-- [Harici Kaynaklar](#Harici-Kaynaklar)
-
 ## Ön Bilgilendirme
 
 Python ve Javascript en popüler diller arasındadır.

@@ -1,18 +1,5 @@
 # Linux Genel Notlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Dosya Paylaşımı](#Dosya-Payla%C5%9F%C4%B1m%C4%B1)
-  - [Telefon ile PC Arasında Dosya Paylaşımı](#Telefon-ile-PC-Aras%C4%B1nda-Dosya-Payla%C5%9F%C4%B1m%C4%B1)
-- [Ekran Paylaşımı](#Ekran-Payla%C5%9F%C4%B1m%C4%B1)
-- [Uygulama Notları](#Uygulama-Notlar%C4%B1)
-  - [Gedit Metin Editörü](#Gedit-Metin-Edit%C3%B6r%C3%BC)
-  - [FFMPEG](#FFMPEG)
-    - [MP4'ü MP3'e çevirme](#MP4%C3%BC-MP3e-%C3%A7evirme)
-    - [MP3 Sıkıştırma](#MP3-S%C4%B1k%C4%B1%C5%9Ft%C4%B1rma)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Failed to load module “canberra-gtk-module”](#Failed-to-load-module-canberra-gtk-module)
-
 ## Dosya Paylaşımı
 
 ### Telefon ile PC Arasında Dosya Paylaşımı

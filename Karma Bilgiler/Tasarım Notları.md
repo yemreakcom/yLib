@@ -1,16 +1,5 @@
 # Tasarım Notları <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [CV Notları](#CV-Notlar%C4%B1)
-- [Windows için İkon Seti](#Windows-i%C3%A7in-%C4%B0kon-Seti)
-- [Adobe XD](#Adobe-XD)
-- [CamTasia Studio](#CamTasia-Studio)
-  - [Ses İşlemleri](#Ses-%C4%B0%C5%9Flemleri)
-- [Arkaplan Müzikleri](#Arkaplan-M%C3%BCzikleri)
-- [Renk Kodları](#Renk-Kodlar%C4%B1)
-- [Kaynaklar](#Kaynaklar)
-
 ## CV Notları
 
 CV'ler için en sık kullanılan fontlar için [buraya][best and worst resume fonts] bakabilirsin.

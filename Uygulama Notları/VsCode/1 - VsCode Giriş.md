@@ -1,19 +1,5 @@
 # Vscode Giriş <!-- omit in toc -->
 
-## içerikler <!-- omit in toc -->
-
-- [VsCode için Önemli Notlar](#vscode-i%c3%a7in-%c3%96nemli-notlar)
-- [VsCode kısayolları](#vscode-k%c4%b1sayollar%c4%b1)
-  - [Sık Kullanılan Kısayollar](#s%c4%b1k-kullan%c4%b1lan-k%c4%b1sayollar)
-  - [Verimlilik Kısayolları](#verimlilik-k%c4%b1sayollar%c4%b1)
-  - [Aksiyon Penceresi](#aksiyon-penceresi)
-  - [İmleç Kısayolalrı](#%c4%b0mle%c3%a7-k%c4%b1sayolalr%c4%b1)
-  - [Metin Kısayolları](#metin-k%c4%b1sayollar%c4%b1)
-  - [Editör Kısayolları](#edit%c3%b6r-k%c4%b1sayollar%c4%b1)
-  - [Görünüm Kısayolları](#g%c3%b6r%c3%bcn%c3%bcm-k%c4%b1sayollar%c4%b1)
-- [Debug Ayarları](#debug-ayarlar%c4%b1)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
-
 ## VsCode için Önemli Notlar
 
 VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.

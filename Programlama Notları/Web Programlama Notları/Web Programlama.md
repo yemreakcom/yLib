@@ -1,20 +1,5 @@
 # Web Programlama <!-- omit in toc -->
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [CSS Notları](#CSS-Notlar%C4%B1)
-  - [Faydalı Linkler](#Faydal%C4%B1-Linkler)
-  - [Arkaplaba Ortalanmış Resim Ekleme](#Arkaplaba-Ortalanm%C4%B1%C5%9F-Resim-Ekleme)
-  - [Ekranın Tam Ortasına Alma](#Ekran%C4%B1n-Tam-Ortas%C4%B1na-Alma)
-  - [İçeriklerini Merkeze konumlandırma](#%C4%B0%C3%A7eriklerini-Merkeze-konumland%C4%B1rma)
-  - [Animasyon (Transition)](#Animasyon-Transition)
-- [VsCode Eklentileri](#VsCode-Eklentileri)
-  - [Code runner ek ayarı](#Code-runner-ek-ayar%C4%B1)
-- [Web Automation (Web Otomasyaonu)](#Web-Automation-Web-Otomasyaonu)
-- [Faydalı Araçlar](#Faydal%C4%B1-Ara%C3%A7lar)
-- [İlham Verici Çalışmalar](#%C4%B0lham-Verici-%C3%87al%C4%B1%C5%9Fmalar)
-- [Karma Linkler](#Karma-Linkler)
-
 ## CSS Notları
 
 - `width: 1vw` Ekranın genişliğinin 100'de 1'ini temsil eder

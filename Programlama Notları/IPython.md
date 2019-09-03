@@ -2,29 +2,6 @@
 
 <!-- TODO: Google Colab notlarını buraya taşı -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Temel Bilgiler](#temel-bilgiler)
-- [Hızlı Notlar](#h%c4%b1zl%c4%b1-notlar)
-  - [Kısayollar](#k%c4%b1sayollar)
-  - [Google Colab için Çalışma Ortamını Yapılandırma](#google-colab-i%c3%a7in-%c3%87al%c4%b1%c5%9fma-ortam%c4%b1n%c4%b1-yap%c4%b1land%c4%b1rma)
-- [Terminal İşlemleri](#terminal-%c4%b0%c5%9flemleri)
-  - [Terminal İşlemleri Örneği](#terminal-%c4%b0%c5%9flemleri-%c3%96rne%c4%9fi)
-  - [İşletim Sistemi Bilgileri](#%c4%b0%c5%9fletim-sistemi-bilgileri)
-- [Magic Function](#magic-function)
-- [Form Oluşturma İşlemleri (GUI)](#form-olu%c5%9fturma-%c4%b0%c5%9flemleri-gui)
-- [Drive İşlemleri](#drive-%c4%b0%c5%9flemleri)
-  - [Drive Dosyalarını Dosya Sistemine Bağlama](#drive-dosyalar%c4%b1n%c4%b1-dosya-sistemine-ba%c4%9flama)
-  - [Drive Dosyalarına Erişme](#drive-dosyalar%c4%b1na-eri%c5%9fme)
-- [I / O (Giriş / Çıkış) İşlemleri](#i--o-giri%c5%9f--%c3%87%c4%b1k%c4%b1%c5%9f-%c4%b0%c5%9flemleri)
-  - [Dosya Upload Etme](#dosya-upload-etme)
-  - [Dosya İndirme](#dosya-%c4%b0ndirme)
-  - [Dizin İndirme](#dizin-%c4%b0ndirme)
-    - [Dizin İndirme Arayüzü](#dizin-%c4%b0ndirme-aray%c3%bcz%c3%bc)
-  - [Bilgisayar Kamerasına Erişme](#bilgisayar-kameras%c4%b1na-eri%c5%9fme)
-- [Progress Bar](#progress-bar)
-- [Harici Bağlantılar](#harici-ba%c4%9flant%c4%b1lar)
-
 ## Temel Bilgiler
 
 - Tüm python özelliklerini destekler, python'a ek özellikler barındırır.

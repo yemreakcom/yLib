@@ -1,7 +1,5 @@
 # Java Method ve Classlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
 ## Sayısı belirtilmemiş parametre kullanımı
 
 Değişken tipinin yanına `...` yazılması ile ifade edilir.

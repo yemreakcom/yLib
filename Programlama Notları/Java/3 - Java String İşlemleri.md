@@ -1,13 +1,5 @@
 # Java String İşlemleri <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
-- [WhiteSpaces](#WhiteSpaces)
-- [Regex](#Regex)
-- [Verimli String İşlemleri](#Verimli-String-%C4%B0%C5%9Flemleri)
-  - [String Ayrıştırma](#String-Ayr%C4%B1%C5%9Ft%C4%B1rma)
-
 ## String İşlemleri
 
 | İşlem                          | Açıklama                                               |

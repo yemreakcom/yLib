@@ -1,11 +1,5 @@
 # Google Notları <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Google Uygulamaları](#Google-Uygulamalar%C4%B1)
-- [Google Verilerinin Yönetimi](#Google-Verilerinin-Y%C3%B6netimi)
-- [Google Veri Kullanım Bilgileri](#Google-Veri-Kullan%C4%B1m-Bilgileri)
-
 ## Google Uygulamaları
 
 - [Fotoğraflar][photos]

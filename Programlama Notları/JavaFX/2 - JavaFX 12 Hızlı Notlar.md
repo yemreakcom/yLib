@@ -1,26 +1,5 @@
 # JavaFX 12 Hızlı Notlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Proje Dizin Yapısı](#Proje-Dizin-Yap%C4%B1s%C4%B1)
-  - [Dosyaları Yapılandırma](#Dosyalar%C4%B1-Yap%C4%B1land%C4%B1rma)
-- [Hızlı Notlar](#H%C4%B1zl%C4%B1-Notlar)
-- [JPackage ile Çıkarma](#JPackage-ile-%C3%87%C4%B1karma)
-- [Kod Notları](#Kod-Notlar%C4%B1)
-  - [Kod Tarafında CSS Değiştirme](#Kod-Taraf%C4%B1nda-CSS-De%C4%9Fi%C5%9Ftirme)
-  - [Thread ile Kodlama](#Thread-ile-Kodlama)
-  - [CSS ile Stil Oluşturma](#CSS-ile-Stil-Olu%C5%9Fturma)
-  - [FXML'de Kod Yapısı](#FXMLde-Kod-Yap%C4%B1s%C4%B1)
-  - [Slider Listener (Kaydırmalı çubuğun değişikliğine göre tepki verme)](#Slider-Listener-Kayd%C4%B1rmal%C4%B1-%C3%A7ubu%C4%9Fun-de%C4%9Fi%C5%9Fikli%C4%9Fine-g%C3%B6re-tepki-verme)
-  - [Çerçeveleri Kaldırma](#%C3%87er%C3%A7eveleri-Kald%C4%B1rma)
-  - [Arkaplanı Transparant Yapma](#Arkaplan%C4%B1-Transparant-Yapma)
-  - [Clipboard (Pano) İşlemleri](#Clipboard-Pano-%C4%B0%C5%9Flemleri)
-  - [ImageView Resmi Değiştirme](#ImageView-Resmi-De%C4%9Fi%C5%9Ftirme)
-  - [Dosya Sürükle Bırak İşlemleri](#Dosya-S%C3%BCr%C3%BCkle-B%C4%B1rak-%C4%B0%C5%9Flemleri)
-- [Listeners (Eylem Yönetimi)](#Listeners-Eylem-Y%C3%B6netimi)
-  - [Ekranı Taşıma İşlemi](#Ekran%C4%B1-Ta%C5%9F%C4%B1ma-%C4%B0%C5%9Flemi)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Proje Dizin Yapısı
 
 JavaFX için önerilen dizin yapısı aşağıdaki gibidir. ([kaynak](https://stackoverflow.com/a/24948550/9770490))

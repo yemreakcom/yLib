@@ -2,34 +2,6 @@
 
 MySQL workbench üzerinden SQL editörünü kullanabilirsin.
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Veri tipleri](#Veri-tipleri)
-- [Where Operatörleri](#Where-Operat%C3%B6rleri)
-- [Tablo İşlemleri](#Tablo-%C4%B0%C5%9Flemleri)
-  - [Tablo işlemleri karma Notlar](#Tablo-i%C5%9Flemleri-karma-Notlar)
-- [Temel Fonksiyonlar](#Temel-Fonksiyonlar)
-- [Gruplama](#Gruplama)
-- [Stored Function](#Stored-Function)
-- [Debug Bilgileri](#Debug-Bilgileri)
-  - [Join](#Join)
-  - [Explain](#Explain)
-- [Optimizasyon](#Optimizasyon)
-  - [Ek Kaynaklar](#Ek-Kaynaklar)
-- [MySQL Yapılandırması](#MySQL-Yap%C4%B1land%C4%B1rmas%C4%B1)
-  - [MySQL yapılandırma dosyası](#MySQL-yap%C4%B1land%C4%B1rma-dosyas%C4%B1)
-  - [MySQL workbench üzerinden yapılandırma](#MySQL-workbench-%C3%BCzerinden-yap%C4%B1land%C4%B1rma)
-  - [Karma yapılandırma notları](#Karma-yap%C4%B1land%C4%B1rma-notlar%C4%B1)
-- [Karma Notlar](#Karma-Notlar)
-- [Örnekler](#%C3%96rnekler)
-  - [Temel örnekler](#Temel-%C3%B6rnekler)
-  - [Tablo işlemleri](#Tablo-i%C5%9Flemleri)
-    - [Tablo Oluşturma](#Tablo-Olu%C5%9Fturma)
-    - [Tablo değiştirme](#Tablo-de%C4%9Fi%C5%9Ftirme)
-  - [Temel Fonksiyon Örnekleri](#Temel-Fonksiyon-%C3%96rnekleri)
-  - [Karma MySQL sorgusu örnekleri](#Karma-MySQL-sorgusu-%C3%B6rnekleri)
-- [Faydalı Kaynaklar](#Faydal%C4%B1-Kaynaklar)
-
 ## Veri tipleri
 
 | Değişken Tipi | Açıklama                             | Not                              |

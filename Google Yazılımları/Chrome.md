@@ -1,20 +1,5 @@
 # Chrome <!-- omit in toc -->
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Chrome kısayolları](#Chrome-k%C4%B1sayollar%C4%B1)
-  - [Chrome sekme işlemleri](#Chrome-sekme-i%C5%9Flemleri)
-  - [Sayfa işlemleri](#Sayfa-i%C5%9Flemleri)
-  - [Geliştirici kısayolları](#Geli%C5%9Ftirici-k%C4%B1sayollar%C4%B1)
-- [Eklenti Önerileri](#Eklenti-%C3%96nerileri)
-  - [Verimlilik Eklentileri](#Verimlilik-Eklentileri)
-  - [Görsellik Eklentileri](#G%C3%B6rsellik-Eklentileri)
-  - [Sosyal Medya Eklentileri](#Sosyal-Medya-Eklentileri)
-  - [Programlama Eklentileri](#Programlama-Eklentileri)
-  - [Web Eklentileri](#Web-Eklentileri)
-- [Adress Çubuğu Anahtarları](#Adress-%C3%87ubu%C4%9Fu-Anahtarlar%C4%B1)
-- [Harici Linkler](#Harici-Linkler)
-
 ## Chrome kısayolları
 
 ### Chrome sekme işlemleri

@@ -1,13 +1,5 @@
 # Aydınlatma <!-- omit in toc -->
 
-## İçerik <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz
-
-- [Genel Bilgi](#genel-bilgi)
-  - [Ledler](#ledler)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Genel Bilgi
 
 - LED Ampuller diğerlerine nazaran daha **verimli** ve **ömrü uzundur**

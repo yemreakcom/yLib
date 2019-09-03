@@ -1,14 +1,5 @@
 # Linux Terminal İndiricileri <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [axel](#axel)
-- [Aria2c, Dosyayı Parçalayarak İndirme (IDM gibi)](#aria2c-dosyay%C4%B1-par%C3%A7alayarak-i%CC%87ndirme-idm-gibi)
-  - [Örnekler](#%C3%B6rnekler)
-- [Wget, Linux Standart CLI İndiricisi](#wget-linux-standart-cli-i%CC%87ndiricisi)
-
-## axel
-
 ## Aria2c, Dosyayı Parçalayarak İndirme (IDM gibi)
 
 Toplu olarak dosya indirmeyi sağlayan CLI tabanlı bir araçtır.

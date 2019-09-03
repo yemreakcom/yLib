@@ -1,18 +1,5 @@
 # Github Notları <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Github Nedir, Ne için Kullanılır](#Github-Nedir-Ne-i%C3%A7in-Kullan%C4%B1l%C4%B1r)
-- [Github Pro](#Github-Pro)
-- [Proje Yönetimi](#Proje-Y%C3%B6netimi)
-  - [Repository'nin Oluşturulması ve Dosyaların Aktarılması](#Repositorynin-Olu%C5%9Fturulmas%C4%B1-ve-Dosyalar%C4%B1n-Aktar%C4%B1lmas%C4%B1)
-  - [Repo Üzerinde Proje Yönetimi](#Repo-%C3%9Czerinde-Proje-Y%C3%B6netimi)
-- [Github Üzerindeki Açılmayan Dosyalar](#Github-%C3%9Czerindeki-A%C3%A7%C4%B1lmayan-Dosyalar)
-- [Github Eklentileri](#Github-Eklentileri)
-- [Github Yardımcıları](#Github-Yard%C4%B1mc%C4%B1lar%C4%B1)
-- [Github Credential Değiştirme](#Github-Credential-De%C4%9Fi%C5%9Ftirme)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Github Nedir, Ne için Kullanılır
 
 Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨‍💻 paylaşım ve yönetim platformudur.
@@ -85,8 +72,8 @@ Eklentilerin sayfasına [buradan][marketplace] erişebilirsin.
 | ----------------------------------- | -------------------------------------------------------------------------------------------- |
 | [todo][todo - github]               | Kod içerisindeki `@todo` ve `TODO` alanlarını _Github_'a entegre eder.                       |
 | [Gitpod][gitpod - github]           | Online **vscode** temalı editör. (💡 chrome [eklentisini][gitpod - chrome] indirmeyi unutma) |
-| [Semaphor][semaphor - github]       | Bir bak 🙋‍♀️                                                                                   |
-| [GitLocalize][gitlocalize - github] | Bir bak 🙋‍♀️                                                                                   |
+| [Semaphor][semaphor - github]       | Bir bak 🙋‍♀️                                                                                |
+| [GitLocalize][gitlocalize - github] | Bir bak 🙋‍♀️                                                                                |
 | [Codetree][codetree - github]       | Çevik (agile) takımların için proje yönetim eklentisi (paralı 🧐)                            |
 
 ## Github Yardımcıları

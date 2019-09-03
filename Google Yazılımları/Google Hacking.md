@@ -8,15 +8,15 @@ Anahtarların kullanım şekli `<anahtar>:<değer>` şeklindedir.
 
 > `:` karakteri sonrasında `boşluk` atılmaz.
 
-| Anahtar   | Açıklama                      | Örnek                                | Örnek Açıklaması                                      |
-| --------- | ----------------------------- | ------------------------------------ | ----------------------------------------------------- |
-| filetype  | Dosya uzantısı                | `filetype:pdf Google hacking`        | Google hacking pdf'lerini listeler                    |
-| site      | Verilen site içerisinde arama | `site:yemreak.com Ders Notları`      | Sitemdeki ders notları sayfasını listeler             |
-| intitle   | Başlık içerisinde arama       | `intitle:index.of`                   | Sitelerin dizinlerini listeler                        |
+| Anahtar   | Açıklama                      | Örnek                              | Örnek Açıklaması                                      |
+| --------- | ----------------------------- | ---------------------------------- | ----------------------------------------------------- |
+| filetype  | Dosya uzantısı                | `filetype:pdf Google hacking`      | Google hacking pdf'lerini listeler                    |
+| site      | Verilen site içerisinde arama | `site:yemreak.com Ders Notları`    | Sitemdeki ders notları sayfasını listeler             |
+| intitle   | Başlık içerisinde arama       | `intitle:index.of`                 | Sitelerin dizinlerini listeler                        |
 | inurl     | Url'de arama                  | `intitle:index.of inurl:“/admin/”` | Admin dizini listelenmeye açık olan siteleri gösterir |
-| numrange  | Sayı aralığında arama         | `numrange:99999-100000`
+| numrange  | Sayı aralığında arama         | `numrange:99999-100000`            |
 | daterange | Tarih aralığında arama        |
-| cache     | Google önbelleğinde arama     | `cache:example.com`                  |
+| cache     | Google önbelleğinde arama     | `cache:example.com`                |
 
 ### Anahtar Kelime Kullanım Örnekleri
 

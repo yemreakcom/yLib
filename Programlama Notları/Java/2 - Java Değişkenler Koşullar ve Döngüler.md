@@ -1,17 +1,5 @@
 # Java Değişkenler Koşullar ve Döngüler <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Güncel Java Kurulumları](#G%C3%BCncel-Java-Kurulumlar%C4%B1)
-- [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
-  - [Değişken Dönüşümleri](#De%C4%9Fi%C5%9Fken-D%C3%B6n%C3%BC%C5%9F%C3%BCmleri)
-  - [Kesirli Sayıları Formatlama](#Kesirli-Say%C4%B1lar%C4%B1-Formatlama)
-  - [Değişkenin Tipi Hakkında Bilgi Alma](#De%C4%9Fi%C5%9Fkenin-Tipi-Hakk%C4%B1nda-Bilgi-Alma)
-- [Dizi İşlemleri](#Dizi-%C4%B0%C5%9Flemleri)
-- [Koşul Yapıları](#Ko%C5%9Ful-Yap%C4%B1lar%C4%B1)
-  - [Yeni Switch Case](#Yeni-Switch-Case)
-- [Döngüler](#D%C3%B6ng%C3%BCler)
-
 ## Güncel Java Kurulumları
 
 - Java programlarını çalıştırmak için [Oracle JRE 8](https://www.oracle.com/technetwork/java/javase/jre8-downloads-2133155.html)

@@ -1,22 +1,5 @@
 # Windows 10 Giriş <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [İndirme](#%C4%B0ndirme)
-- [Faydalı Programlar](#Faydal%C4%B1-Programlar)
-  - [Yerel Programlar](#Yerel-Programlar)
-  - [Harici Programlar](#Harici-Programlar)
-- [Temel Dizinlerü](#Temel-Dizinler%C3%BC)
-- [Uygulama Verileri](#Uygulama-Verileri)
-- [Otomatik Olarak Oturum Açma](#Otomatik-Olarak-Oturum-A%C3%A7ma)
-- [Kısayollar](#K%C4%B1sayollar)
-  - [Kısayol Oluşturma](#K%C4%B1sayol-Olu%C5%9Fturma)
-  - [Faydalı Kısayollar](#Faydal%C4%B1-K%C4%B1sayollar)
-  - [Uygulama İşlemleri](#Uygulama-%C4%B0%C5%9Flemleri)
-  - [Gezinti](#Gezinti)
-  - [Girdi İşlemleri](#Girdi-%C4%B0%C5%9Flemleri)
-  - [Menü Kısayolları](#Men%C3%BC-K%C4%B1sayollar%C4%B1)
-
 ## İndirme
 
 Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/tr-tr/software-download/windows10) tıklayabilirsin.

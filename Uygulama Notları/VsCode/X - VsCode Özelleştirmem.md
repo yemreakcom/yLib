@@ -4,14 +4,6 @@
 
 > [Settings Sync 🔄](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) eklentisi ile online olarak yönetilebilmekte.
 
-## İçerikler <!-- omit in toc -->
-
-- [Snippets](#Snippets)
-- [Editör Ayarlarım](#Edit%C3%B6r-Ayarlar%C4%B1m)
-- [Klavye Kısayolları Ayarım](#Klavye-K%C4%B1sayollar%C4%B1-Ayar%C4%B1m)
-- [Eklentilerim](#Eklentilerim)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Snippets
 
 Verimli çalışmak için kod parçaları

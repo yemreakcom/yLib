@@ -7,23 +7,6 @@ Tarayıcılar üzerinde otomatize işler yapmak için kullanılan bir araçtır.
 
 > **Python** dili ve **Chromedriver** baz alınmıştır.
 
-## İçerikler <!-- omit in toc -->
-
-- [Seleinium Kurulumu](#seleinium-kurulumu)
-	- [Conda Üzerinden Kurulum](#conda-%C3%BCzerinden-kurulum)
-- [Chromedriver'ı Yapılandırma](#chromedriver%C4%B1-yap%C4%B1land%C4%B1rma)
-	- [Arayüz Olmadan Chromedriver'ı Kullanma (İsteğe Bağlı)](#aray%C3%BCz-olmadan-chromedriver%C4%B1-kullanma-i%CC%87ste%C4%9Fe-ba%C4%9Fl%C4%B1)
-	- [Chromedriver'ı oluşturma](#chromedriver%C4%B1-olu%C5%9Fturma)
-	- [Websitesine Erişme](#websitesine-eri%C5%9Fme)
-	- [Websitesinde Eleman Bulma](#websitesinde-eleman-bulma)
-		- [Websitesinde Çoklu Eleman Bulma](#websitesinde-%C3%A7oklu-eleman-bulma)
-	- [Websitesine İçerik Bekleyerek Erişme](#websitesine-i%CC%87%C3%A7erik-bekleyerek-eri%C5%9Fme)
-		- [Eleman Oluşana Kadar Bekleme](#eleman-olu%C5%9Fana-kadar-bekleme)
-- [Websitesinde Javascript Derleme](#websitesinde-javascript-derleme)
-	- [Dosyadan Javascript Derleme](#dosyadan-javascript-derleme)
-	- [Javascript İşlemleri](#javascript-i%CC%87%C5%9Flemleri)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Seleinium Kurulumu
 
 Selenium tarayıcı driver'ı kullanarak çalışmaktadır

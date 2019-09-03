@@ -1,11 +1,5 @@
 # PHP <!-- omit in toc -->
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Debugger Setup](#debugger-setup)
-  - [Xdebug Remote Debug via Chrome](#xdebug-remote-debug-via-chrome)
-  - [Checking Php Version and Bit](#checking-php-version-and-bit)
-
 ## Debugger Setup
 
 Click [here](https://www.jetbrains.com/help/phpstorm/configuring-xdebug.html) from setup instructions.

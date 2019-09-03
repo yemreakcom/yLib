@@ -2,14 +2,6 @@
 
 Telegram ile ilgili notlarım.
 
-## İçerikler <!-- omit in toc -->
-
-- [Telegram Nedir?](#Telegram-Nedir)
-- [Faydalı Ayarlar](#Faydal%C4%B1-Ayarlar)
-- [Telegram Bot Oluşturma](#Telegram-Bot-Olu%C5%9Fturma)
-  - [Telegram bot için `chat_id` alma](#Telegram-bot-i%C3%A7in-chatid-alma)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Telegram Nedir?
 
 Whatapp alternatifi mesajlaşma uygulamasıdır.

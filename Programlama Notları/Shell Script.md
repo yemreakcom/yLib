@@ -2,38 +2,6 @@
 
 Unix işletim sistemlerinin ortak programlama dilidir.
 
-## İçerikler <!-- omit in toc -->
-
-- [Önemli Bilgiler](#%C3%96nemli-Bilgiler)
-- [VsCode Eklentileri](#VsCode-Eklentileri)
-- [Temel Operatörler](#Temel-Operat%C3%B6rler)
-- [Bash Komutu](#Bash-Komutu)
-- [Yazdırma İşlemleri (Echo)](#Yazd%C4%B1rma-%C4%B0%C5%9Flemleri-Echo)
-- [Cat ile Yazdırma İşlemi](#Cat-ile-Yazd%C4%B1rma-%C4%B0%C5%9Flemi)
-- [Değişkenler](#De%C4%9Fi%C5%9Fkenler)
-- [Kullanıcıdan Girdi (Input) Alma](#Kullan%C4%B1c%C4%B1dan-Girdi-Input-Alma)
-- [String İşlemleri](#String-%C4%B0%C5%9Flemleri)
-- [İf-Else Yapısı](#%C4%B0f-Else-Yap%C4%B1s%C4%B1)
-- [For Döngüsü](#For-D%C3%B6ng%C3%BCs%C3%BC)
-- [Terminalde Seçim Yaptırma](#Terminalde-Se%C3%A7im-Yapt%C4%B1rma)
-  - [Switch - Case Yapısı](#Switch---Case-Yap%C4%B1s%C4%B1)
-  - [Select Yapısı](#Select-Yap%C4%B1s%C4%B1)
-  - [İç İçe Seçim Yapısı](#%C4%B0%C3%A7-%C4%B0%C3%A7e-Se%C3%A7im-Yap%C4%B1s%C4%B1)
-- [Terminalde For Döngüsü (For Loop)](#Terminalde-For-D%C3%B6ng%C3%BCs%C3%BC-For-Loop)
-  - [Her Dizine For Döngüsü](#Her-Dizine-For-D%C3%B6ng%C3%BCs%C3%BC)
-    - [Alt Dizinler Dahil Değil](#Alt-Dizinler-Dahil-De%C4%9Fil)
-    - [Alt Dizinler Dahil](#Alt-Dizinler-Dahil)
-- [Fonksiyonlar](#Fonksiyonlar)
-  - [Fonksiyonların Kullanımı](#Fonksiyonlar%C4%B1n-Kullan%C4%B1m%C4%B1)
-  - [Parametreler](#Parametreler)
-  - [Parametreli Fonksiyonlar](#Parametreli-Fonksiyonlar)
-- [Dosya İşlemleri](#Dosya-%C4%B0%C5%9Flemleri)
-  - [Kontrol Bayrakları](#Kontrol-Bayraklar%C4%B1)
-  - [Dosya Okuma](#Dosya-Okuma)
-  - [Dosyadan URL ile İndirme](#Dosyadan-URL-ile-%C4%B0ndirme)
-  - [Sıkıştırma (Arşivleme) İşlemleri](#S%C4%B1k%C4%B1%C5%9Ft%C4%B1rma-Ar%C5%9Fivleme-%C4%B0%C5%9Flemleri)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Önemli Bilgiler
 
 - `sh` uzantılı dosyalara yazılırlar

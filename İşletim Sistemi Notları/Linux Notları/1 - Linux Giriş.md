@@ -1,37 +1,5 @@
 # 1 - Linux Giriş <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Linux Nedir](#Linux-Nedir)
-- [Birkaç Öneri Distro](#Birka%C3%A7-%C3%96neri-Distro)
-- [Linux Kurulumu](#Linux-Kurulumu)
-- [Linux Genel Kullanım Notları](#Linux-Genel-Kullan%C4%B1m-Notlar%C4%B1)
-  - [Linux Temel Dosyaları](#Linux-Temel-Dosyalar%C4%B1)
-  - [Linux Yapılandırma Ayarları](#Linux-Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1)
-- [Linux Kısayolları](#Linux-K%C4%B1sayollar%C4%B1)
-  - [Özel karakter Oluşturma (Compose Key)](#%C3%96zel-karakter-Olu%C5%9Fturma-Compose-Key)
-  - [Pencere Kısayolları](#Pencere-K%C4%B1sayollar%C4%B1)
-  - [Uygulama Kısayolları](#Uygulama-K%C4%B1sayollar%C4%B1)
-  - [Panel Kısayolları](#Panel-K%C4%B1sayollar%C4%B1)
-  - [Ubuntu için Ekran Görüntüsü ve Kaydı Kısayolları](#Ubuntu-i%C3%A7in-Ekran-G%C3%B6r%C3%BCnt%C3%BCs%C3%BC-ve-Kayd%C4%B1-K%C4%B1sayollar%C4%B1)
-    - [Yapılandırma Ayalarını Dosyaya Aktarma](#Yap%C4%B1land%C4%B1rma-Ayalar%C4%B1n%C4%B1-Dosyaya-Aktarma)
-    - [Yapılandırma Ayarlarını Dosyadan Alma](#Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1n%C4%B1-Dosyadan-Alma)
-- [Faydalı Uygulamalar](#Faydal%C4%B1-Uygulamalar)
-  - [Temel Araçların Kurulumu (Flameshot, Font, Gnome Tweaaks, Unrar)](#Temel-Ara%C3%A7lar%C4%B1n-Kurulumu-Flameshot-Font-Gnome-Tweaaks-Unrar)
-    - [Flameshot Hakkında Notlar](#Flameshot-Hakk%C4%B1nda-Notlar)
-  - [Sistem Bakım Aracı Kurulumu (Stacer)](#Sistem-Bak%C4%B1m-Arac%C4%B1-Kurulumu-Stacer)
-    - [Paket Yöneticisi Üzerinden Stacer Kurulumu](#Paket-Y%C3%B6neticisi-%C3%9Czerinden-Stacer-Kurulumu)
-  - [Tarayıcı Kurulumu (Chrome)](#Taray%C4%B1c%C4%B1-Kurulumu-Chrome)
-    - [Chrome Gnome Eklentisi](#Chrome-Gnome-Eklentisi)
-- [Gnome Eklentileri](#Gnome-Eklentileri)
-  - [Ubuntu Üstteki Çubuğu Gizleme](#Ubuntu-%C3%9Cstteki-%C3%87ubu%C4%9Fu-Gizleme)
-  - [Dash to Dock ile MacOS Durum Çubuğu Görünümü](#Dash-to-Dock-ile-MacOS-Durum-%C3%87ubu%C4%9Fu-G%C3%B6r%C3%BCn%C3%BCm%C3%BC)
-  - [Dast to Panel](#Dast-to-Panel)
-  - [Emoji Selector (Emoji Klavyesi)](#Emoji-Selector-Emoji-Klavyesi)
-  - [Clipboard Indicator](#Clipboard-Indicator)
-  - [EasyScreenCast](#EasyScreenCast)
-  - [GS Connect](#GS-Connect)
-
 ## Linux Nedir
 
 Açık kaynak olan **Unix** tabanlı işletim sistemidir.

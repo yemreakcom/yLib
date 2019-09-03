@@ -1,41 +1,5 @@
 # Linux Gelişmiş <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Dosya içeriğinden Türünü Bulma](#Dosya-i%C3%A7eri%C4%9Finden-T%C3%BCr%C3%BCn%C3%BC-Bulma)
-- [Başka İşletim Sistemlerinin Dosyalarına Erişme](#Ba%C5%9Fka-%C4%B0%C5%9Fletim-Sistemlerinin-Dosyalar%C4%B1na-Eri%C5%9Fme)
-- [Çalışma Alanlarını Bağımsızlaştırma (Isolate Workspace)](#%C3%87al%C4%B1%C5%9Fma-Alanlar%C4%B1n%C4%B1-Ba%C4%9F%C4%B1ms%C4%B1zla%C5%9Ft%C4%B1rma-Isolate-Workspace)
-- [Dosya İzinleri](#Dosya-%C4%B0zinleri)
-  - [İzin Kodu Hesaplama](#%C4%B0zin-Kodu-Hesaplama)
-  - [Dizine ve Alt Dizinlerine Okuma ve Yazma İzni Verme](#Dizine-ve-Alt-Dizinlerine-Okuma-ve-Yazma-%C4%B0zni-Verme)
-- [Desktop kısayolu oluşturma](#Desktop-k%C4%B1sayolu-olu%C5%9Fturma)
-  - [Whatsapp Kısayolu](#Whatsapp-K%C4%B1sayolu)
-    - [Whatsapp İkonu Ekleme](#Whatsapp-%C4%B0konu-Ekleme)
-    - [Wmctrl ile Kısayol Oluşturma](#Wmctrl-ile-K%C4%B1sayol-Olu%C5%9Fturma)
-- [Font Yükleme](#Font-Y%C3%BCkleme)
-- [USB Bağlanma Sorunlarını Düzeltme](#USB-Ba%C4%9Flanma-Sorunlar%C4%B1n%C4%B1-D%C3%BCzeltme)
-- [Gnome Geliştmiş Ayarlar](#Gnome-Geli%C5%9Ftmi%C5%9F-Ayarlar)
-  - [Gnome Alt Gelişmiş Ayarlar](#Gnome-Alt-Geli%C5%9Fmi%C5%9F-Ayarlar)
-- [Pencere İşlemleri](#Pencere-%C4%B0%C5%9Flemleri)
-  - [Ubuntu 19.04 için Pencere Kısayollarını Kaldırma (Super + Num)](#Ubuntu-1904-i%C3%A7in-Pencere-K%C4%B1sayollar%C4%B1n%C4%B1-Kald%C4%B1rma-Super--Num)
-  - [Window Manager Controls](#Window-Manager-Controls)
-  - [Window ID Alma](#Window-ID-Alma)
-  - [Xdotool ile Pencere Yönetimi](#Xdotool-ile-Pencere-Y%C3%B6netimi)
-- [Uygulamaların Terminal Komutlarını öğrenme](#Uygulamalar%C4%B1n-Terminal-Komutlar%C4%B1n%C4%B1-%C3%B6%C4%9Frenme)
-- [Ubuntu Soluk Renk Sorunu](#Ubuntu-Soluk-Renk-Sorunu)
-- [Herhangi bir Uygulama için Kısayol Oluşturma](#Herhangi-bir-Uygulama-i%C3%A7in-K%C4%B1sayol-Olu%C5%9Fturma)
-  - [Uygulama için `WM_CLASS` metnini tanımlama](#Uygulama-i%C3%A7in-WMCLASS-metnini-tan%C4%B1mlama)
-  - [Herhangi bir uygulamanın `WM_CLASS` metnini alma](#Herhangi-bir-uygulaman%C4%B1n-WMCLASS-metnini-alma)
-  - [Kısayolu oluşturma](#K%C4%B1sayolu-olu%C5%9Fturma)
-- [Grub Menüyü Atlama](#Grub-Men%C3%BCy%C3%BC-Atlama)
-- [Donanım Komutları](#Donan%C4%B1m-Komutlar%C4%B1)
-- [Silinen Yerel Dosyaları Kurtarma](#Silinen-Yerel-Dosyalar%C4%B1-Kurtarma)
-- [Process İşlemleri](#Process-%C4%B0%C5%9Flemleri)
-  - [Process Id (PID) Bulma](#Process-Id-PID-Bulma)
-- [Bashrc Dosyası Yedeği](#Bashrc-Dosyas%C4%B1-Yede%C4%9Fi)
-- [Kernel Güncelleme](#Kernel-G%C3%BCncelleme)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## Dosya içeriğinden Türünü Bulma
 
 | Satr Metni              | Açıklama                      |

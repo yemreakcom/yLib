@@ -2,25 +2,6 @@
 
 > As of JDK 11, the javafx.\* modules are no longer included as part of the JDK. They are now distributed separately as a standalone, unbundled release of OpenJFX. They are available either as maven artifacts for use with maven/gradle or as a standalone SDK that includes jmod files for use with jlink.
 
-## İçerikler <!-- omit in toc -->
-
-- [Önemli Bilgi](#%C3%96nemli-Bilgi)
-- [IntelliJ için JavaFx Kurulumu](#IntelliJ-i%C3%A7in-JavaFx-Kurulumu)
-  - [Maven ile Modüler JavaFX Kurulumu](#Maven-ile-Mod%C3%BCler-JavaFX-Kurulumu)
-  - [pom.xml içeriği](#pomxml-i%C3%A7eri%C4%9Fi)
-  - [Maven ile Başlangıç Yapılandırması](#Maven-ile-Ba%C5%9Flang%C4%B1%C3%A7-Yap%C4%B1land%C4%B1rmas%C4%B1)
-- [JavaFX Scene Builder](#JavaFX-Scene-Builder)
-  - [Scene Builder Yapılandırması](#Scene-Builder-Yap%C4%B1land%C4%B1rmas%C4%B1)
-- [JavaFX RunTime Images](#JavaFX-RunTime-Images)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [class com.sun.javafx.fxml.FXMLLoaderHelper (in unnamed module @0x24782c87) cannot access class com.sun.javafx.util.Utils (in module javafx.graphics) because module javafx.graphics:](#class-comsunjavafxfxmlFXMLLoaderHelper-in-unnamed-module-0x24782c87-cannot-access-class-comsunjavafxutilUtils-in-module-javafxgraphics-because-module-javafxgraphics)
-  - [Error: Java FX Packager: Can not build artifact - fx: deploy is not available in this JDK](#Error-Java-FX-Packager-Can-not-build-artifact---fx-deploy-is-not-available-in-this-JDK)
-  - [Error:Kotlin: The Kotlin standard library is not found in the module graph. Please ensure you have the 'requires kotlin.stdlib' clause in your module definition](#ErrorKotlin-The-Kotlin-standard-library-is-not-found-in-the-module-graph-Please-ensure-you-have-the-requires-kotlinstdlib-clause-in-your-module-definition)
-  - [\*\* has been compiled by a more recent version of Java Runtime(class file version 56.0), this version of Java Runtime only recognizes class file versions up to 52.0](#has-been-compiled-by-a-more-recent-version-of-Java-Runtimeclass-file-version-560-this-version-of-Java-Runtime-only-recognizes-class-file-versions-up-to-520)
-- [Faydalı Bağlantılar](#Faydal%C4%B1-Ba%C4%9Flant%C4%B1lar)
-
-<!-- TOOO: Burayı düzenle YToolsJava'deki gibi olsun-->
-
 ## Önemli Bilgi
 
 - JavaFX artık JDK 12'nın bir parçası değildir, [buradan](https://stackoverflow.com/a/53463455/9770490) gerekli bilgilere erişebilirsin.

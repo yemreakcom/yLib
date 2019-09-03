@@ -2,14 +2,6 @@
 
 Google Drive notları
 
-## İçerikler <!-- omit in toc -->
-
-> <kbd>HOME</kbd> tuşu ile yukarı yönelebilirsin.
-
-- [Drive Depolama Notları](#Drive-Depolama-Notlar%C4%B1)
-- [Drive Direct Link Oluşturma](#Drive-Direct-Link-Olu%C5%9Fturma)
-  - [El ile Oluşturmak İçin](#El-ile-Olu%C5%9Fturmak-%C4%B0%C3%A7in)
-
 ## Drive Depolama Notları
 
 Drive öğrenci hesaplarına sınırsız depolama hakkı sunmaktadır.

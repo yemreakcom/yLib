@@ -1,32 +1,5 @@
 # Jetbrains IDEs <!-- omit in toc -->
 
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Proje Dizinlerini yapılandırma](#Proje-Dizinlerini-yap%C4%B1land%C4%B1rma)
-- [Kısayolar](#K%C4%B1sayolar)
-  - [Kod Kısayolları](#Kod-K%C4%B1sayollar%C4%B1)
-  - [Metin Kısayolları](#Metin-K%C4%B1sayollar%C4%B1)
-  - [Debug Kısayolları](#Debug-K%C4%B1sayollar%C4%B1)
-  - [Git Kısayolları](#Git-K%C4%B1sayollar%C4%B1)
-  - [VsCode KeyMap](#VsCode-KeyMap)
-- [Git Yönetimi](#Git-Y%C3%B6netimi)
-- [Pluginler (Eklenti gibi)](#Pluginler-Eklenti-gibi)
-- [Proje Yapılandırma](#Proje-Yap%C4%B1land%C4%B1rma)
-  - [Interpreter (Derleyici) Değiştirme](#Interpreter-Derleyici-De%C4%9Fi%C5%9Ftirme)
-  - [Configuration (Yapılandırma) Ayarları](#Configuration-Yap%C4%B1land%C4%B1rma-Ayarlar%C4%B1)
-  - [Kaynak Kod Dosyalarını Belirtme](#Kaynak-Kod-Dosyalar%C4%B1n%C4%B1-Belirtme)
-    - [Ek Ortam Değşkenleri Tanımlama](#Ek-Ortam-De%C4%9F%C5%9Fkenleri-Tan%C4%B1mlama)
-    - [Ortam Değişkenleri Ayarlama Eklentisi](#Ortam-De%C4%9Fi%C5%9Fkenleri-Ayarlama-Eklentisi)
-- [Faydalı Ayarlar](#Faydal%C4%B1-Ayarlar)
-  - [Font Ayarları](#Font-Ayarlar%C4%B1)
-  - [Dökümantasyon Önizle](#D%C3%B6k%C3%BCmantasyon-%C3%96nizle)
-  - [Dictionaries](#Dictionaries)
-  - [Spellcheck Kaldırma](#Spellcheck-Kald%C4%B1rma)
-- [Karma Notlar](#Karma-Notlar)
-- [Yapılacaklar](#Yap%C4%B1lacaklar)
-- [Keymap (Kısayollar)](#Keymap-K%C4%B1sayollar)
-- [IDE Ortam Değişkenleri](#IDE-Ortam-De%C4%9Fi%C5%9Fkenleri)
-
 ## Proje Dizinlerini yapılandırma
 
 Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.

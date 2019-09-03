@@ -2,20 +2,6 @@
 
 > Bir başka similasyon uygulaması olan Udacity Sim için [buraya](https://github.com/udacity/self-driving-car-sim) bakabilirsin.
 
-## İçerikler <!-- omit in toc -->
-
-- [Simulasyonu Hakkında Bilgi](#simulasyonu-hakk%C4%B1nda-bilgi)
-- [Similasyonun Kurulumu](#similasyonun-kurulumu)
-  - [Sistem Gereksinimleri](#sistem-gereksinimleri)
-  - [Similasyonu Çalıştırma](#similasyonu-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-  - [Similasyonu Unity Düzenleyicinde Çalıştırma](#similasyonu-unity-d%C3%BCzenleyicinde-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma)
-- [Similasyonda Harita İşlemleri](#similasyonda-harita-i%CC%87%C5%9Flemleri)
-  - [Desteklenen Ortamlar ve Özellikler](#desteklenen-ortamlar-ve-%C3%B6zellikler)
-  - [Harita Oluşturma](#harita-olu%C5%9Fturma)
-- [Örnek Resimleri](#%C3%B6rnek-resimleri)
-- [Harici Kaynaklar](#harici-kaynaklar)
-- [Yazar](#yazar)
-
 ## Simulasyonu Hakkında Bilgi
 
 - Otonom araç eğitimleri için hazırlanmış bir similasyondur

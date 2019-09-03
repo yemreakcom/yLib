@@ -2,23 +2,6 @@
 
 > Faydalı Kaynaklara göz atmayı unutma
 
-## İçerikler <!-- omit in toc -->
-
-> `Home` tuşu ile yukarı yönelebilirisin.
-
-- [Diller Arasındaki Bağlantı](#Diller-Aras%C4%B1ndaki-Ba%C4%9Flant%C4%B1)
-- [Adlandırma Yapısı](#Adland%C4%B1rma-Yap%C4%B1s%C4%B1)
-  - [Adlandırma Örnekleri](#Adland%C4%B1rma-%C3%96rnekleri)
-- [Terimler](#Terimler)
-  - [Ana Terimler](#Ana-Terimler)
-  - [Tüm Terimler](#T%C3%BCm-Terimler)
-  - [Değişken Terimleri](#De%C4%9Fi%C5%9Fken-Terimleri)
-  - [Raporlama (Logging) Seviyeleri](#Raporlama-Logging-Seviyeleri)
-- [Platformlar](#Platformlar)
-  - [Google Summer of Code](#Google-Summer-of-Code)
-- [Yazı Fontları](#Yaz%C4%B1-Fontlar%C4%B1)
-- [Faydalı Kaynaklar](#Faydal%C4%B1-Kaynaklar)
-
 ## Diller Arasındaki Bağlantı
 
 ![lang_network](../res/lang_network.jpg)

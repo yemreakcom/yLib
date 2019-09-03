@@ -1,12 +1,5 @@
 # GittiGidiyor Entegrasyon <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [API İşlemleri](#api-i%CC%87%C5%9Flemleri)
-  - [Diller](#diller)
-
 ## API İşlemleri
 
 - [Dökümantasyon](https://dev.gittigidiyor.com/asset/doc/GittiGidiyorAPIReferansDokumantasyonuv2.3.9.pdf)

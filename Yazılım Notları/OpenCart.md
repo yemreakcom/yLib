@@ -2,32 +2,6 @@
 
 **PHP** dilini baz alan E-Ticaret uygulamasının sitesine erişmek için  [buraya](https://www.opencart.com/index.php?route=common/home) tıklayabilirsin.
 
-## İçerikler <!-- omit in toc -->
-
-> `HOME` tuşu ile yukarı yönlenebilrsiniz.
-
-- [Model View Controller Yapısı](#model-view-controller-yap%C4%B1s%C4%B1)
-  - [Modeli yükleme](#modeli-y%C3%BCkleme)
-  - [Veriyi modelden alma](#veriyi-modelden-alma)
-  - [Veriyi view'a gönderme](#veriyi-viewa-g%C3%B6nderme)
-- [CSS dosyaları](#css-dosyalar%C4%B1)
-- [Ana sayfaya satır ekleme](#ana-sayfaya-sat%C4%B1r-ekleme)
-- [Form / List Ekleme](#form--list-ekleme)
-  - [Form için entry ekleme](#form-i%C3%A7in-entry-ekleme)
-  - [Form verisi oluşturma](#form-verisi-olu%C5%9Fturma)
-- [Filtreleme](#filtreleme)
-  - [Filtre Alanı Ekleme](#filtre-alan%C4%B1-ekleme)
-  - [Filtreleme değişkeni oluşturma](#filtreleme-de%C4%9Fi%C5%9Fkeni-olu%C5%9Fturma)
-  - [Filtreleme verisini oluşturma](#filtreleme-verisini-olu%C5%9Fturma)
-  - [Filtreleme URL'i oluşturma](#filtreleme-urli-olu%C5%9Fturma)
-  - [Filtreleme Sorgusu](#filtreleme-sorgusu)
-  - [Filtreleme filter() metodu](#filtreleme-filter-metodu)
-- [Karma Kodlar](#karma-kodlar)
-  - [MySQL Kodları](#mysql-kodlar%C4%B1)
-  - [Checkbox kodu](#checkbox-kodu)
-  - [Controller'da view için değişken oluşturma kodu](#controllerda-view-i%C3%A7in-de%C4%9Fi%C5%9Fken-olu%C5%9Fturma-kodu)
-  - [Selection box kodu](#selection-box-kodu)
-
 ## Model View Controller Yapısı
 
 > MVC hakkında bilgi sahibi olmak istersen [buraya](../Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi#Model%20View%20Controller%20Yap%C4%B1s%C4%B1) tıklayabilirsin.

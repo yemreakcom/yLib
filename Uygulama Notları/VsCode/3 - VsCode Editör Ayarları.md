@@ -1,7 +1,5 @@
 # Vscode Editör Ayarları <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
 ## Editör Ayarlarına Erişim
 
 Sol alt köşedeki **ayarlar simgesi**'ne tıklayarak ayarlara erişebilirsin

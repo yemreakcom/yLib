@@ -1,12 +1,5 @@
 # Unreal Engine <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Ön Bilgileri](#%C3%B6n-bilgileri)
-- [Blueprint](#blueprint)
-- [Çalışma Kaynakları](#%C3%A7al%C4%B1%C5%9Fma-kaynaklar%C4%B1)
-- [Makaleler](#makaleler)
-
 ## Ön Bilgileri
 
 - **C++** dilini kullanmaktadır

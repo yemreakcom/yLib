@@ -2,25 +2,6 @@
 
 Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](https://ipython.readthedocs.io/en/stable/index.html) bakabilirsin.
 
-## İçerikler <!-- omit in toc -->
-
-- [İşletim Sistemi Bilgileri](#%C4%B0%C5%9Fletim-Sistemi-Bilgileri)
-- [Run Time Ayarları](#Run-Time-Ayarlar%C4%B1)
-  - [Kernel'ı Sıfırlama](#Kernel%C4%B1-S%C4%B1f%C4%B1rlama)
-- [Komut Parametreleri](#Komut-Parametreleri)
-  - [Shell Komutları Kullanımı](#Shell-Komutlar%C4%B1-Kullan%C4%B1m%C4%B1)
-- [Giriş / Çıkış İşlemleri](#Giri%C5%9F--%C3%87%C4%B1k%C4%B1%C5%9F-%C4%B0%C5%9Flemleri)
-  - [Colab'a Dosya Upload Etme](#Colaba-Dosya-Upload-Etme)
-  - [Colab'tan Dosya İndirme](#Colabtan-Dosya-%C4%B0ndirme)
-  - [Colab'tan Dizin İndirme](#Colabtan-Dizin-%C4%B0ndirme)
-    - [Dizin İndirme Arayüzü](#Dizin-%C4%B0ndirme-Aray%C3%BCz%C3%BC)
-- [Colab Üzerinde Google Drive](#Colab-%C3%9Czerinde-Google-Drive)
-  - [Drive Dosyalarını Dosya Sistemine Bağlama](#Drive-Dosyalar%C4%B1n%C4%B1-Dosya-Sistemine-Ba%C4%9Flama)
-  - [Drive Dosyalarına Erişme](#Drive-Dosyalar%C4%B1na-Eri%C5%9Fme)
-- [Colab Üzerinden Özel İşlemler](#Colab-%C3%9Czerinden-%C3%96zel-%C4%B0%C5%9Flemler)
-  - [Bilgisayar Kamerasına Erişme](#Bilgisayar-Kameras%C4%B1na-Eri%C5%9Fme)
-- [Harici Bağlantılar](#Harici-Ba%C4%9Flant%C4%B1lar)
-
 ## İşletim Sistemi Bilgileri
 
 ```ipynb

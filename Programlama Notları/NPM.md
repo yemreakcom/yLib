@@ -1,17 +1,5 @@
 # NPM <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [CLI Uygulaması Yapma](#CLI-Uygulamas%C4%B1-Yapma)
-  - [CLI Args (Komut Argümanları)](#CLI-Args-Komut-Arg%C3%BCmanlar%C4%B1)
-    - [Yargs ile Args Yönetme](#Yargs-ile-Args-Y%C3%B6netme)
-    - [Minimist ile Args Yönetme](#Minimist-ile-Args-Y%C3%B6netme)
-  - [Bin Klasörü](#Bin-Klas%C3%B6r%C3%BC)
-- [Paket Yapımı Örnekleri](#Paket-Yap%C4%B1m%C4%B1-%C3%96rnekleri)
-- [Paketleri Online Test Etme](#Paketleri-Online-Test-Etme)
-- [Paket Oluşturma ve Yayınlama](#Paket-Olu%C5%9Fturma-ve-Yay%C4%B1nlama)
-  - [Paket için Package.json Ayarları](#Paket-i%C3%A7in-Packagejson-Ayarlar%C4%B1)
-
 ## CLI Uygulaması Yapma
 
 ### CLI Args (Komut Argümanları)

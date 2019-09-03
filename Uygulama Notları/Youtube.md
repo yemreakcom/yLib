@@ -2,50 +2,6 @@
 
 Youtube üzerindeki beğendiğim videolar
 
-## İçerikler <!-- omit in toc -->
-
-- [Youtube Video İndirici](#Youtube-Video-%C4%B0ndirici)
-- [Kişisel Gelişim](#Ki%C5%9Fisel-Geli%C5%9Fim)
-  - [İnsan Piskolojisi](#%C4%B0nsan-Piskolojisi)
-  - [TEDX Videoları](#TEDX-Videolar%C4%B1)
-  - [Farkındalık & Zihin Açıcı](#Fark%C4%B1ndal%C4%B1k--Zihin-A%C3%A7%C4%B1c%C4%B1)
-  - [Algoritma & Matematik](#Algoritma--Matematik)
-  - [Öğrenme Teknikleri](#%C3%96%C4%9Frenme-Teknikleri)
-  - [Ahlak](#Ahlak)
-  - [Eğitim](#E%C4%9Fitim)
-  - [Motivasyon](#Motivasyon)
-- [Verimlilik](#Verimlilik)
-- [Teknoloji](#Teknoloji)
-- [Bilgisayar Bilimi](#Bilgisayar-Bilimi)
-  - [Programlama Dilleri](#Programlama-Dilleri)
-    - [Java](#Java)
-    - [Kotlin](#Kotlin)
-    - [Android](#Android)
-    - [Andorid Studio UI](#Andorid-Studio-UI)
-    - [Javascript](#Javascript)
-    - [Python](#Python)
-    - [Web](#Web)
-    - [C Sharp](#C-Sharp)
-    - [C++](#C)
-    - [Ardunio](#Ardunio)
-  - [Makine Öğrenimi](#Makine-%C3%96%C4%9Frenimi)
-  - [Ses & Müzik Editleme](#Ses--M%C3%BCzik-Editleme)
-  - [Blokchain](#Blokchain)
-  - [Cyber](#Cyber)
-  - [Dizayn](#Dizayn)
-- [Din](#Din)
-- [Sağlık & Kişisel Bakım](#Sa%C4%9Fl%C4%B1k--Ki%C5%9Fisel-Bak%C4%B1m)
-  - [Spor](#Spor)
-- [Müzikler](#M%C3%BCzikler)
-  - [Solo Piyano Müzikler](#Solo-Piyano-M%C3%BCzikler)
-  - [Sesli Müzikler](#Sesli-M%C3%BCzikler)
-  - [İlahiler](#%C4%B0lahiler)
-  - [Oyun Müzikleri](#Oyun-M%C3%BCzikleri)
-- [Şiir](#%C5%9Eiir)
-- [Ekonomi](#Ekonomi)
-- [Faydalı Kanallar](#Faydal%C4%B1-Kanallar)
-- [Youtube Listesini Markdown'a Çevirme](#Youtube-Listesini-Markdowna-%C3%87evirme)
-
 ## Youtube Video İndirici
 
 - Video indirici aracı olan [Youtube-dl]'i indirin

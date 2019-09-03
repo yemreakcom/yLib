@@ -1,24 +1,5 @@
 # Windows 10 Genel Notlar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Windows Özellikleri](#Windows-%C3%96zellikleri)
-  - [Varsayılan Windows Özellikleri](#Varsay%C4%B1lan-Windows-%C3%96zellikleri)
-  - [Alt İşletim Sistemleri](#Alt-%C4%B0%C5%9Fletim-Sistemleri)
-- [Uygulama Ayarları](#Uygulama-Ayarlar%C4%B1)
-  - [Video Ayarları](#Video-Ayarlar%C4%B1)
-- [Terimler](#Terimler)
-- [Windows 10 Ön Belleğini Temizleme](#Windows-10-%C3%96n-Belle%C4%9Fini-Temizleme)
-  - [CMD Üzerinden Önbelleği Elle Temizleme](#CMD-%C3%9Czerinden-%C3%96nbelle%C4%9Fi-Elle-Temizleme)
-- [Hata Notları](#Hata-Notlar%C4%B1)
-  - [Görev Çubuğundan Uygulamanın Kaldırılamaması](#G%C3%B6rev-%C3%87ubu%C4%9Fundan-Uygulaman%C4%B1n-Kald%C4%B1r%C4%B1lamamas%C4%B1)
-  - [Email Hesabı Kaydetme Sorunu](#Email-Hesab%C4%B1-Kaydetme-Sorunu)
-  - [Altgr gibi Tuşlar ile Özel Karakter Oluşturamama](#Altgr-gibi-Tu%C5%9Flar-ile-%C3%96zel-Karakter-Olu%C5%9Fturamama)
-- [Windows10 Insider Programı](#Windows10-Insider-Program%C4%B1)
-  - [Insider Kısayolları](#Insider-K%C4%B1sayollar%C4%B1)
-  - [Arka Plandaki Evolution Copy Logosunu Kaldırma](#Arka-Plandaki-Evolution-Copy-Logosunu-Kald%C4%B1rma)
-- [Harici Linkler](#Harici-Linkler)
-
 ## Windows Özellikleri
 
 > Aramaya alanına `Turn Windows Feature On or Off` veya `Windows Özelliklerini Aç veya Kapat` yazarak erişebilirsin.

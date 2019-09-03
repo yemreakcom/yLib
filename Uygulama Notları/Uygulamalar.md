@@ -1,13 +1,5 @@
 # Uygulamalar <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Sık Kullanılan Uygulamalar](#s%C4%B1k-kullan%C4%B1lan-uygulamalar)
-- [Tasarım Uygulamaları](#tasar%C4%B1m-uygulamalar%C4%B1)
-- [Yönetim Uygulamaları & Siteleri](#y%C3%B6netim-uygulamalar%C4%B1--siteleri)
-- [Web programlama](#web-programlama)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Sık Kullanılan Uygulamalar
 
 | Uygulama İsmi                         | Açıklama          |

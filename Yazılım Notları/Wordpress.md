@@ -2,20 +2,6 @@
 
 Açık kaynaklı php dilinde yazılmış web içerik yöneticisi yazılımıdır.
 
-## İçerikler <!-- omit in toc -->
-
-- [Localhost Üzerinde Wordpress](#localhost-%C3%BCzerinde-wordpress)
-  - [XAMPP Kurulumu](#xampp-kurulumu)
-  - [PHPMyAdmin Database Oluşturma](#phpmyadmin-database-olu%C5%9Fturma)
-  - [Wordpress Dosyalarının İndirilmesi ve Hazırlanması](#wordpress-dosyalar%C4%B1n%C4%B1n-i%CC%87ndirilmesi-ve-haz%C4%B1rlanmas%C4%B1)
-  - [Wordpress'in Aktarılması](#wordpressin-aktar%C4%B1lmas%C4%B1)
-- [Online Wordpress Sunucusu (Hosting)](#online-wordpress-sunucusu-hosting)
-- [Wordpress Hata Çözümleri](#wordpress-hata-%C3%A7%C3%B6z%C3%BCmleri)
-  - [Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server](#unable-to-create-directory-wp-contentuploads201904-is-its-parent-directory-writable-by-the-server)
-  - [You won’t be able to install new themes from here yet since your install requires SFTP credentials](#you-wont-be-able-to-install-new-themes-from-here-yet-since-your-install-requires-sftp-credentials)
-- [Markdown Wordpress](#markdown-wordpress)
-- [Harici Bağlantılar](#harici-ba%C4%9Flant%C4%B1lar)
-
 ## Localhost Üzerinde Wordpress
 
 ### XAMPP Kurulumu

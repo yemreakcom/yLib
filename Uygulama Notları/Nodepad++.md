@@ -1,10 +1,5 @@
 # Notepad++ <!-- omit in toc -->
 
-## İçerikler <!-- omit in toc -->
-
-- [Özelleştirme Ayarları](#%C3%B6zelle%C5%9Ftirme-ayarlar%C4%B1)
-- [Kısayollar](#k%C4%B1sayollar)
-
 ## Özelleştirme Ayarları
 
 - `Setting > Preference > General` kısmında objelerin görünürlüğünü değiştirebilirsin

@@ -8,7 +8,7 @@ Kişisel ansiklopedi 📚
 
 ## 🚙 Ayrılan Notlarım
 
-Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
+Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
 > Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 

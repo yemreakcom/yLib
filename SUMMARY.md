@@ -105,7 +105,7 @@
 
 ## Ayrılan Notlarım
 
-- [📈 Üretkenlik notlarım](https://plus.yemreak.com)
+- [📈 Üretkenlik notlarım](https://pro.yemreak.com)
 - [🐍 Python notlarım](https://python.yemreak.com)
 - [📊 Data Science notlarım](https://ds.yemreak.com)
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)

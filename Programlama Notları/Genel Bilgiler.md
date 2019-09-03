@@ -21,7 +21,7 @@
 
 ## Diller Arasındaki Bağlantı
 
-![lang_network](../images/lang_network.jpg)
+![lang_network](../res/lang_network.jpg)
 
 ## Adlandırma Yapısı
 

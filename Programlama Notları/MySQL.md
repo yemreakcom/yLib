@@ -4,31 +4,31 @@ MySQL workbench üzerinden SQL editörünü kullanabilirsin.
 
 > `HOME` tuşu ile yukarı yönlenebilrsiniz.
 
-- [Veri tipleri](#veri-tipleri)
-- [Where Operatörleri](#where-operat%c3%b6rleri)
-- [Tablo İşlemleri](#tablo-%c4%b0%c5%9flemleri)
-  - [Tablo işlemleri karma Notlar](#tablo-i%c5%9flemleri-karma-notlar)
-- [Temel Fonksiyonlar](#temel-fonksiyonlar)
-- [Gruplama](#gruplama)
-- [Stored Function](#stored-function)
-- [Debug Bilgileri](#debug-bilgileri)
-  - [Join](#join)
-  - [Explain](#explain)
-- [Optimizasyon](#optimizasyon)
-  - [Ek Kaynaklar](#ek-kaynaklar)
-- [MySQL Yapılandırması](#mysql-yap%c4%b1land%c4%b1rmas%c4%b1)
-  - [MySQL yapılandırma dosyası](#mysql-yap%c4%b1land%c4%b1rma-dosyas%c4%b1)
-  - [MySQL workbench üzerinden yapılandırma](#mysql-workbench-%c3%bczerinden-yap%c4%b1land%c4%b1rma)
-  - [Karma yapılandırma notları](#karma-yap%c4%b1land%c4%b1rma-notlar%c4%b1)
-- [Karma Notlar](#karma-notlar)
-- [Örnekler](#%c3%96rnekler)
-  - [Temel örnekler](#temel-%c3%b6rnekler)
-  - [Tablo işlemleri](#tablo-i%c5%9flemleri)
-    - [Tablo Oluşturma](#tablo-olu%c5%9fturma)
-    - [Tablo değiştirme](#tablo-de%c4%9fi%c5%9ftirme)
-  - [Temel Fonksiyon Örnekleri](#temel-fonksiyon-%c3%96rnekleri)
-  - [Karma MySQL sorgusu örnekleri](#karma-mysql-sorgusu-%c3%b6rnekleri)
-- [Faydalı Kaynaklar](#faydal%c4%b1-kaynaklar)
+- [Veri tipleri](#Veri-tipleri)
+- [Where Operatörleri](#Where-Operat%C3%B6rleri)
+- [Tablo İşlemleri](#Tablo-%C4%B0%C5%9Flemleri)
+  - [Tablo işlemleri karma Notlar](#Tablo-i%C5%9Flemleri-karma-Notlar)
+- [Temel Fonksiyonlar](#Temel-Fonksiyonlar)
+- [Gruplama](#Gruplama)
+- [Stored Function](#Stored-Function)
+- [Debug Bilgileri](#Debug-Bilgileri)
+  - [Join](#Join)
+  - [Explain](#Explain)
+- [Optimizasyon](#Optimizasyon)
+  - [Ek Kaynaklar](#Ek-Kaynaklar)
+- [MySQL Yapılandırması](#MySQL-Yap%C4%B1land%C4%B1rmas%C4%B1)
+  - [MySQL yapılandırma dosyası](#MySQL-yap%C4%B1land%C4%B1rma-dosyas%C4%B1)
+  - [MySQL workbench üzerinden yapılandırma](#MySQL-workbench-%C3%BCzerinden-yap%C4%B1land%C4%B1rma)
+  - [Karma yapılandırma notları](#Karma-yap%C4%B1land%C4%B1rma-notlar%C4%B1)
+- [Karma Notlar](#Karma-Notlar)
+- [Örnekler](#%C3%96rnekler)
+  - [Temel örnekler](#Temel-%C3%B6rnekler)
+  - [Tablo işlemleri](#Tablo-i%C5%9Flemleri)
+    - [Tablo Oluşturma](#Tablo-Olu%C5%9Fturma)
+    - [Tablo değiştirme](#Tablo-de%C4%9Fi%C5%9Ftirme)
+  - [Temel Fonksiyon Örnekleri](#Temel-Fonksiyon-%C3%96rnekleri)
+  - [Karma MySQL sorgusu örnekleri](#Karma-MySQL-sorgusu-%C3%B6rnekleri)
+- [Faydalı Kaynaklar](#Faydal%C4%B1-Kaynaklar)
 
 ## Veri tipleri
 
@@ -76,7 +76,7 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 
 > Gruplama yapılmazsa tek sorgu ekrana basılır.
 
-![gruplama](/images/group-by.jpg)
+![gruplama](/res/group-by.jpg)
 
 ## Stored Function
 
@@ -134,7 +134,7 @@ Sorgu ile ilgili detayları gösterir.
 explain SELECT * from table;
 ```
 
-![explain-select](/images/explain-select.jpg)
+![explain-select](/res/explain-select.jpg)
 
 ## Optimizasyon
 
@@ -242,7 +242,7 @@ SELECT COUNT(if(`crr`.`return_reason_id` = 14, `crr`.`return_reason_id`, null)) 
 
 > Koşul sağlanırsa sayar.
 
-![mysql-ex1](/images/mysql-ex-1.jpg)
+![mysql-ex1](/res/mysql-ex-1.jpg)
 
 ## Faydalı Kaynaklar
 

@@ -19,4 +19,4 @@ Csv dosyasını vcard uygulmasına dönüştürdek sonra `.vcf` uzantılı dosay
 
 > Yeni `.vcf` dosyası `.csv` dosyasının yanına oluşacaktır.
 
-![csv_to_vcf](../images/csv_to_vcf.jpg)
+![csv_to_vcf](../res/csv_to_vcf.jpg)

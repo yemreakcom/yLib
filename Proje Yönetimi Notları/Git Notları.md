@@ -322,7 +322,7 @@ git checkout <branch1>
 
 ## Git Cheat Sheet
 
-![git](../images/git-cheet-sheet.jpeg)
+![git](../res/git-cheet-sheet.jpeg)
 
 ## Kitaplar
 

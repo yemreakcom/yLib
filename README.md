@@ -1,6 +1,6 @@
 # 📖 YWiki <!-- omit in toc -->
 
-Kişisel bilgilerimi derlediğim projem 📚
+Kişisel ansiklopedi 📚
 
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - ✨ Yani hep güncel kalacak denebilir

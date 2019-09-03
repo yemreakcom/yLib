@@ -1,6 +1,6 @@
 # YBilgiler <!-- omit in toc -->
 
-Karma konular hakkında notlarım 📚s
+Karma konular hakkında notlarım 📚
 
 ## 🚙 Ayrılan Notlarım
 

@@ -149,6 +149,8 @@ Yapılandırma ayarlarını `dconf load <dizin> < <dosya_ismi>` komutu ile dosya
 
 ## Faydalı Uygulamalar
 
+> [📈 YProductivity](https://github.com/yedhrab/YProductivity) reposuna taşındı 🚙
+
 | Uygulama               | Açıklama                                             |
 | ---------------------- | ---------------------------------------------------- |
 | gnome-tweaks 🌟        | Gnome özelleştirme ayarları                          |

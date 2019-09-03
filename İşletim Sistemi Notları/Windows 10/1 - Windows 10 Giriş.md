@@ -36,6 +36,8 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 
 ## Faydalı Programlar
 
+> [📈 YProductivity](https://github.com/yedhrab/YProductivity) reposuna taşındı 🚙
+
 ### Yerel Programlar
 
 | Program                                                                                      | Açıklama                                                             |
@@ -45,7 +47,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | Quick Assist                                                                                 | PC'ler arası ekranı ve yönetimi paylaşma aracı (team viewer gibi)    |
 | XBox Game Bar <kbd>❖ Win</kbd> <kbd>G</kbd>                                                  | Ekran görüntüsü alma, kaydetme veya yayınlama işleri                 |
 | Snip & Sketch <kbd>❖ Win</kbd><kbd>⇧ Shift</kbd> <kbd>S</kbd>                                | Ekran görüntsü yakalayıcı                                            |
-| Math Input Panel ✍                                                                          | Matematiksel işlemler oluşturma ekranı                               |
+| Math Input Panel ✍                                                                           | Matematiksel işlemler oluşturma ekranı                               |
 
 ### Harici Programlar
 

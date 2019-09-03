@@ -33,7 +33,7 @@ Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler f
 - matematikler (latex) $latex$
 - butonlar ve tıklanabilir öğeler <kbd>button</kbd>
 
-### ⚠ İçerik Yapısı
+## 📑 İçerik Yapısı
 
 Giriş cümlesi veya alakalı cümle.
 

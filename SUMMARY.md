@@ -58,6 +58,7 @@
 - [Proje Yönetimi Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1)
   - [Git Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1.md)
   - [Github Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
+  - [GitBook](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/GitBook.md)
   - [Proje Yönetimi](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Proje%20Y%C3%B6netimi.md)
 - [Teknoloji Notları](./Teknoloji%20Notlar%C4%B1)
   - [Genel Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/Genel%20Teknoloji%20Notlar%C4%B1.md)

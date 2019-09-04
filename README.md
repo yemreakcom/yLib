@@ -1,6 +1,8 @@
-# 📖 YWiki <!-- omit in toc -->
+---
+description: Kişisel ansiklopedi 📚"
+---
 
-Kişisel ansiklopedi 📚
+# 📖 YWiki <!-- omit in toc -->
 
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - ✨ Yani hep güncel kalacak denebilir

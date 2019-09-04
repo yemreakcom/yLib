@@ -1,2 +1,0 @@
-## Issue
-Hata bildirimi

@@ -1,5 +1,5 @@
 ---
-description: Kişisel ansiklopedi 📚"
+description: Kişisel ansiklopedi 📚
 ---
 
 # 📖 YWiki <!-- omit in toc -->

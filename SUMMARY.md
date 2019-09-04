@@ -106,8 +106,9 @@
     - [4 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%20Subsystem%20for%20Linux.md)
     - [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)
 
-### ✨ Özenle Hazırladığım Diğer Dökümanlarım
+## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
+- [📖 Kişisel Ansiklopedim](https://wiki.yemreak.com)
 - [📈 Üretkenlik notlarım](https://pro.yemreak.com)
 - [🐍 Python notlarım](https://python.yemreak.com)
 - [📊 Data Science notlarım](https://ds.yemreak.com)

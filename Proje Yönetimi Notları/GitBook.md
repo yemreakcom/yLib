@@ -1,8 +1,8 @@
 # 📖 GitBook Notları
 
-## Entagrasyon Yönetimi
+## ⚙ Entagrasyon Yönetimi
 
-### Karşılama Ekranı
+### 🙋‍ Karşılama Ekranı
 
 Markdown dosyasının en tepesine `description` alanı oluşturulur.
 
@@ -15,11 +15,9 @@ description: İçeriği açıklayan kısa not
 ...
 ```
 
-### `Summary.md` Dosyası
+### 🗂 `Summary.md` Dosyası
 
-<details>
-<summary>Basit örnek</summary>
-
+**Basit Örnek:**
 ```md
 # Summary
 
@@ -31,12 +29,7 @@ description: İçeriği açıklayan kısa not
     * [Better tools for authors](part2/better_tools.md)
 ```
 
-</details>
-
-
-<details>
-<summary>Linkleri parçalara ayırma</summary>
-
+**Linkleri parçalara ayırma:**
 ```md
 # Summary
 
@@ -50,10 +43,7 @@ description: İçeriği açıklayan kısa not
     * [Better tools for authors](part2/README.md#tools)
 ```
 
-</details>
-
-<details>
-<summary>Çok fazla parçalı örnek</summary>
+**Çok fazla parçalı örnek:**
 
 ```md
 # Summary
@@ -72,8 +62,6 @@ description: İçeriği açıklayan kısa not
 
 * [Last part without title](part3/title.md)
 ```
-
-</details>
 
 ## 🔗 Harici Bağlantılar
 

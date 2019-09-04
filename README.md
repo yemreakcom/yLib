@@ -15,7 +15,7 @@ Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler f
 > Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
 - [📈 Üretkenlik notlarım](https://pro.yemreak.com)
-- [🐍 Python notlarım](https://python.yemreak.com)
+- [🐍 Python ve IPython notlarım](https://python.yemreak.com)
 - [📊 Data Science notlarım](https://ds.yemreak.com)
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
 - [📜 Kişisel scriptlerim](https://github.com/yedhrab/YScripts)

@@ -272,6 +272,20 @@ git checkout <branch1>
 - `<branch1>` Düzeltilmek istenen branch
 - `<branch2>` Farkı herhangi bir branch
 
+### Tüm Commitlerden Dizini Kaldırma
+
+Alttaki script'te `<dizin>` yazan kısmı kaldırmak istediğiniz dizinin ismi ile değiştirin.
+
+```sh
+git filter-branch --tree-filter "rm -rf <dizin>" --prune-empty -f HEAD
+git for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d
+echo <dizin>/ >> .gitignore
+git add .gitignore
+git commit -m 'Removing sessions from git history'
+git gc
+git push origin master --force
+```
+
 ## Uygulamalar Üzerinde Git
 
 ### JetBrains IDEs

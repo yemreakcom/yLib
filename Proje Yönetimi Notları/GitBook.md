@@ -6,7 +6,8 @@ GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
 
 ### 💔 Desteklemedikleri
 
-- GitBook `<detail>` yapısı olan açılır menü özelliğini
+- Açılır menü yapısı olan `<detail>` formatı
+- Buton yapısı olan `<kdb>` formatı
 
 ### 💞 Ek Olarak Destekledikleri
 

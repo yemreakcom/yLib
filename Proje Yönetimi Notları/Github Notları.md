@@ -30,6 +30,13 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 
 > Diğer avantajlar için [github student pack](https://education.github.com/pack) sayfasına bakabilirsin.
 
+## Github Desktop
+
+Kodlarla uğraşmak yerine arayüzden işini halletmek isteyenler için.
+
+- <kbd>✲ Ctrl</kbd> <kbd>↩ Enter</kbd> ile **commit** yapılır
+- <kbd>✲ Ctrl</kbd> <kbd>P</kbd> ile **push** edilir
+
 ## Proje Yönetimi
 
 ### Repository'nin Oluşturulması ve Dosyaların Aktarılması

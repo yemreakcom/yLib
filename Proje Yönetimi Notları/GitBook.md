@@ -1,5 +1,19 @@
 # 📖 GitBook Notları
 
+## 📌 Önemli Notlar
+
+GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
+
+### 💔 Desteklemedikleri
+
+- GitBook `<detail>` yapısı olan açılır menü özelliğini
+
+### 💞 Ek Olarak Destekledikleri
+
+- `SUMMARY.md` ile sol kenarda gösterilen dizin yapısını düzenleme
+- `README.md`'yi otomatik olarak algılama
+- Matematiksel formül formatı olarak bilinen `latex` formatını
+
 ## ⚙ Entagrasyon Yönetimi
 
 ### 🙋‍ Karşılama Ekranı

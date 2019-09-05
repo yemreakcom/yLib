@@ -26,7 +26,6 @@
   - [C, C++ Notları](./Programlama%20Notlar%C4%B1/C%2C%20C%2B%2B%20Notlar%C4%B1.md)
   - [Excel](./Programlama%20Notlar%C4%B1/Excel.md)
   - [Genel Bilgiler](./Programlama%20Notlar%C4%B1/Genel%20Bilgiler.md)
-  - [IPython](./Programlama%20Notlar%C4%B1/IPython.md)
   - [JQuery](./Programlama%20Notlar%C4%B1/JQuery.md)
   - [Kotlin](./Programlama%20Notlar%C4%B1/Kotlin.md)
   - [Markdown](./Programlama%20Notlar%C4%B1/Markdown.md)

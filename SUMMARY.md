@@ -19,6 +19,7 @@
   - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
   - [Tasarım Notları](./Karma%20Bilgiler/Tasar%C4%B1m%20Notlar%C4%B1.md)
   - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
+  - [Yazılımlar](./Karma%20Bilgiler/Yaz%C4%B1l%C4%B1mlar.md)
 - [PDF'ler](./PDF%27ler/README.md)
 - [Programlama Notları](./Programlama%20Notlar%C4%B1)
   - [Batch Script](./Programlama%20Notlar%C4%B1/Batch%20Script.md)

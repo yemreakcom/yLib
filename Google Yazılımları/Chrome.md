@@ -1,4 +1,4 @@
-# Chrome <!-- omit in toc -->
+# 🌐 Chrome 
 
 ## Chrome kısayolları
 
@@ -31,24 +31,23 @@
 
 | Eklenti                                                                                                                                      | Özelliği                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Adblock Plus ⛔][adblock plus]                                                                                                               | Reklam engelleme                                     |
-| [Pop up Blocker for Chrome 🚫][pop up blocker for chrome]                                                                                    | Popup (Açılır pencere) engelleme                     |
-| [Google Çeviri 🔣][google çeviri]                                                                                                            | Çeviri                                               |
-| [OneTab 🚀][onetab]                                                                                                                          | Sekme karışıklığını ve fazla ram kullanımı engelleme |
-| [LastPass 🔐](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |
-| [Temp Mail 💌][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
-| [Enchanced Github ➕](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)                             | Github'a ek özellikler ekleme                        |
-| [Fatkun Batch Download Image 🌟](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
-| [Tick Tick](https://ticktick.com/) ✔                                                                                                         | Todo Yönetimi (Kanban vs)                            |
-| [No Script 🛑][no script]                                                                                                                    | Javascript engelleyici                               |
-| [Selenium IDE ⚙][selenium ide]                                                                                                               | Web eylemlerini tekrarlama                           |
+| [⛔ Adblock Plus][adblock plus]                                                                                                               | Reklam engelleme                                     |
+| [🚫 Pop up Blocker for Chrome][pop up blocker for chrome]                                                                                    | Popup (Açılır pencere) engelleme                     |
+| [🔣 Google Çeviri][google çeviri]                                                                                                            | Çeviri                                               |
+| [🚀 OneTab][onetab]                                                                                                                          | Sekme karışıklığını ve fazla ram kullanımı engelleme |
+| [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)                     | Kullanılmayan sekmeleri uyku moduna alır             |
+| [👁‍🗨 Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)                           | İngilizce imla kuralları kontrolü                    |
+| [💌 Temp Mail][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
+| [🔐 LastPass](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |
+| [🖼 Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
+| [✔ Tick Tick](https://ticktick.com/)                                                                                                         | Todo Yönetimi (Kanban vs)                            |
 
 ### Görsellik Eklentileri
 
 | Eklenti                                                                                              | Açıklama       |
 | ---------------------------------------------------------------------------------------------------- | -------------- |
-| [Lone Tree 🎄](https://chrome.google.com/webstore/detail/lone-tree/gdcbilggakcddojcadnfeckbpoomdmii) | Güzel bir tema |
-| [Nightlight 🌙][nightlight]                                                                          | Karanlık tema  |
+| [🎄 Lone Tree](https://chrome.google.com/webstore/detail/lone-tree/gdcbilggakcddojcadnfeckbpoomdmii) | Güzel bir tema |
+| [🌙 Nightlight][nightlight]                                                                          | Karanlık tema  |
 
 ### Sosyal Medya Eklentileri
 
@@ -62,6 +61,9 @@
 
 | Eklenti                                                                                                                     | Açıklama                                                     |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| [✨ Enchanced Github](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd)            | Github'a ek özellikler ekleme                                |
+| [⚙ Selenium IDE][selenium ide]                                                                                              | Web eylemlerini tekrarlama                                   |
+| [🛑 No Script][no script]                                                                                                   | Javascript engelleyici                                       |
 | [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao)                 | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
 | [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd)                     | Web işlemlerini tekrarlayan web testing yazılımı             |
 | [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)                       | JSON'ları formatlı gösterme                                  |

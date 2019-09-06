@@ -1,4 +1,8 @@
-# Google Notları <!-- omit in toc -->
+---
+description: Google'ın sahip olduğu uygulamalar hakkındaki bilgilerim 📚
+---
+
+# 📍 Google Notları 
 
 ## Google Uygulamaları
 

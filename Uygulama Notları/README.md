@@ -1,4 +1,4 @@
-# Uygulamalar <!-- omit in toc -->
+# 📦 Uygulamalar
 
 ## Sık Kullanılan Uygulamalar
 

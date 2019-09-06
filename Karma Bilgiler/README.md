@@ -1,4 +1,9 @@
-# Karma Bilgiler
+---
+description: Burada ne olacağı hakkında benim bile fikrim yok 😅
+---
+
+
+# 💫 Karma Bilgiler
 
 
 <!--HariciDosyalar-->

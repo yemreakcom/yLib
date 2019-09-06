@@ -1,4 +1,4 @@
-# İşletim Sistemi Notları
+# 💻 İşletim Sistemi Notları
 
 ## 32 vs 64 Bit
 

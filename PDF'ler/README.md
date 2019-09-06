@@ -1,4 +1,8 @@
-# PDF'ler
+---
+description: Karışık kuruşuk PDF'ler 🙄
+---
+
+# 🧾 PDF'ler
 
 
 <!--HariciDosyalar-->

@@ -1,6 +1,6 @@
 # Summary
 
-- [📖 YWiki](./README.md)
+- [YWiki](./README.md)
   - [Cheet Sheets](./Cheet%20Sheets/README.md)
   - [Google Yazılımları](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1)
     - [Chrome](./Google%20Yaz%C4%B1l%C4%B1mlar%C4%B1/Chrome.md)

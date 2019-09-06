@@ -8,20 +8,21 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 | Eklenti                                       | Açıklama                                |
 | --------------------------------------------- | --------------------------------------- |
-| [WakaTime ⏱][wakatime]                        | Kodlama başında geçen vakti raporlar    |
-| [DarkCode Theme ✨][darkcode theme]            | Python ve Markdown odaklı karanlık tema |
-| [Material Icon Theme 📂][material icon theme] | Dosya ikon teması                       |
-| [Prettier 🎇][prettier - code formatter]      | Kod formatlama ve güzelleştirme         |
-| [Todo Tree ✔][todo tree]                      | Yapılacakları gösteren arayüz           |
-| [vscode-spotify 🎶][vscode-spotify]           | Spotify ile müzik desteği               |
+| [⏱ WakaTime][wakatime]                        | Kodlama başında geçen vakti raporlar    |
+| [🌙 DarkCode Theme][darkcode theme]           | Python ve Markdown odaklı karanlık tema |
+| [📂 Material Icon Theme][material icon theme] | Dosya ikon teması                       |
+| [✨ Prettier][prettier - code formatter]       | Kod formatlama ve güzelleştirme         |
+| [✅ Todo Tree][todo tree]                      | Yapılacakları gösteren arayüz           |
+| [🎶 vscode-spotify][vscode-spotify]           | Spotify ile müzik desteği               |
 
 ## Proje Yönetimi
 
-| Eklenti                                        | Açıklama                                   |
-| ---------------------------------------------- | ------------------------------------------ |
-| [Live Share 🎥][live share]                    | Anlık olarak kod paylaşma                  |
-| [Live Share Audio 🔊][live share audio]        | Anlık olarak ses paylaşma                  |
-| [Remote Development 👨‍💻][remote development] | Uzak bilgisayarlarda metni VsCode ile açma |
+| Eklenti                                                                                  | Açıklama                                   |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------ |
+| [📊 Kanban](https://marketplace.visualstudio.com/items?itemName=mkloubert.vscode-kanban) | Kanban board for Visual Studio Code        |
+| [🎥 Live Share][live share]                                                              | Anlık olarak kod paylaşma                  |
+| [🔊 Live Share Audio][live share audio]                                                  | Anlık olarak ses paylaşma                  |
+| [👨‍💻 Remote Development][remote development]                                           | Uzak bilgisayarlarda metni VsCode ile açma |
 
 ## Programlama Eklentileri
 

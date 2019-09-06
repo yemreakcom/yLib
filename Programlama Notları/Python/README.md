@@ -2,7 +2,7 @@
 description: Python 🐍 notlarım
 ---
 
-# 🐍 YPython
+# 🐍 Python
 
 ## 🗽 Açıklama
 

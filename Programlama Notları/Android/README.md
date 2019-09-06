@@ -1,6 +1,8 @@
-# 📱 YAndroid
- 
-Mobil 📱 programlama notları
+---
+description: Mobil 📱 programlama notları
+---
+
+# 📱 Android
 
 ## 🗽 Açıklama
 

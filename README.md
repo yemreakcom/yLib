@@ -2,11 +2,16 @@
 description: Kişisel ansiklopedi 📚
 ---
 
-# YWiki <!-- omit in toc -->
+# YWiki
 
+## 🗽 Hoş Geldik, Öncelikle Yapıyı Tanıyayım
+
+- Sağ üstteki 🔍 **Arama Buton**'nu kullanmayı asla asla ihmal etme
+- En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
-- ✨ Yani hep güncel kalacak denebilir
-- 👻 İyi okumalar
+- Yani hep güncel kalacak denebilir 🚀
+- İyi okumalar 👻
+
 
 ## 🚙 Diğer Özenle Hazırladığım Notlar
 

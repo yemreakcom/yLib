@@ -4,7 +4,7 @@ description: Kişisel ansiklopedi 📚
 
 # YWiki
 
-## 🗽 Hoş Geldik, Öncelikle Yapıyı Tanıyayım
+## 🗽 Hoş Geldin
 
 - Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
 - En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin
@@ -13,7 +13,7 @@ description: Kişisel ansiklopedi 📚
 - İyi okumalar 👻
 
 
-## 🚙 Diğer Özenle Hazırladığım Notlar
+## 🌈 Diğer Özenle Hazırladığım Notlarım
 
 Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 

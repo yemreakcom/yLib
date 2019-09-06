@@ -1,4 +1,4 @@
-# 🤸‍♂️ Cheet Sheets
+# 🤸‍ Cheet Sheets
 
 
 <!--HariciDosyalar-->

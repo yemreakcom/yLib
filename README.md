@@ -2,7 +2,7 @@
 description: Kişisel ansiklopedi 📚
 ---
 
-# YWiki
+# 📖 YWiki
 
 ## 🗽 Hoş Geldik, Öncelikle Yapıyı Tanıyayım
 

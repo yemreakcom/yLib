@@ -2,23 +2,19 @@
 description: Kişisel ansiklopedi 📚
 ---
 
-# 📖 YWiki <!-- omit in toc -->
+# YWiki <!-- omit in toc -->
 
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - ✨ Yani hep güncel kalacak denebilir
 - 👻 İyi okumalar
 
-## 🚙 Ayrılan Notlarım
+## 🚙 Diğer Özenle Hazırladığım Notlar
 
 Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
 > Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
-- [📈 Üretkenlik notlarım](https://pro.yemreak.com)
-- [🐍 Python ve IPython notlarım](https://python.yemreak.com)
-- [📊 Data Science notlarım](https://ds.yemreak.com)
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [📜 Kişisel scriptlerim](https://github.com/yedhrab/YScripts)
 - [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
 - [⚛️🔥 React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
 - [📱 Android notlarım](https://android.yemreak.com)

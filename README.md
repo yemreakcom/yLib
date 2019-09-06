@@ -6,7 +6,7 @@ description: Kişisel ansiklopedi 📚
 
 ## 🗽 Hoş Geldik, Öncelikle Yapıyı Tanıyayım
 
-- Sağ üstteki [🔍 Arama Buton](./?q=)'nu kullanmayı asla asla ihmal etme
+- Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
 - En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - Yani hep güncel kalacak denebilir 🚀

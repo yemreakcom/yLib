@@ -237,7 +237,7 @@
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
-- [📖 Kişisel Ansiklopedim](https://wiki.yemreak.com)
-- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
-- [⚛️🔥 React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
+- [Kişisel Ansiklopedim](https://wiki.yemreak.com)
+- [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
+- [Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
+- [React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)

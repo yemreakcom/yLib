@@ -198,7 +198,7 @@
       - [2 - Veri Kümeleri](./Yapay%20Zeka/Ki%C5%9Fisel%20Notlar/2%20-%20Veri%20K%C3%BCmeleri.md)
       - [X - Türkçe Yapay Zeka Kaynakları](./Yapay%20Zeka/Ki%C5%9Fisel%20Notlar/X%20-%20T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.md)
       - [X1 - Yapay Zeka Notları](./Yapay%20Zeka/Ki%C5%9Fisel%20Notlar/X1%20-%20Yapay%20Zeka%20Notlar%C4%B1.md)
-  - [Yazılım Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1)
+  - [☕ Yazılım Notları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/README.md)
     - [Adb Komutları](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Adb%20Komutlar%C4%B1.md)
     - [Discord](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/Discord.md)
     - [GittiGidiyor Entegrasyon](./Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/GittiGidiyor%20Entegrasyon.md)

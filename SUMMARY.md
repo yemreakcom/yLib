@@ -1,7 +1,7 @@
 # Summary
 
 - [📖 YWiki](./README.md)
-  - [🕶 Awesome](./Awesome/README.md)
+  - [🚀 Awesome](./Awesome/README.md)
   - [🤸‍ Cheet Sheets](./Cheet%20Sheets/README.md)
   - [📍 Google Notları](./Google%20Notlar%C4%B1/README.md)
     - [Chrome](./Google%20Notlar%C4%B1/Chrome.md)
@@ -234,7 +234,5 @@
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
-- [Kişisel Ansiklopedim](https://wiki.yemreak.com)
 - [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
 - [React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)

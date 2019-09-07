@@ -22,9 +22,7 @@ Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler f
 > Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [👨‍🏫💻🕸🧠 Makine öğrenimi, Sinir Ağları ve Deep Learning üzerine çalışmalarım](https://ai.yemreak.com)
 - [⚛️🔥 React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
-- [📱 Android notlarım](https://android.yemreak.com)
 
 ## 🔗 Harici Bağlantılar
 

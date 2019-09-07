@@ -148,6 +148,7 @@
       - [3 - Data Munging](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/3%20-%20Data%20Munging.md)
       - [Pandas Hızlı Notlar](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/Pandas%20H%C4%B1zl%C4%B1%20Notlar.md)
       - [Pandas Sık Kullanılacaklar](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/Pandas%20S%C4%B1k%20Kullan%C4%B1lacaklar.md)
+      - [Veri Bilimi Egzersizleri](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/Veri%20Bilimi%20Egzersizleri.md)
       - [X - Türkçe Çeviriler](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/X%20-%20T%C3%BCrk%C3%A7e%20%C3%87eviriler.md)
   - [🧠 Yapay Zeka](./Yapay%20Zeka/README.md)
     - [Araştırmalarım](./Yapay%20Zeka/Ara%C5%9Ft%C4%B1rmalar%C4%B1m)

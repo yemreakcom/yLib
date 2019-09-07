@@ -12,6 +12,8 @@ description: Kişisel ansiklopedi 📚
 - Yani hep güncel kalacak denebilir 🚀
 - İyi okumalar 👻
 
+> [🕶 Awesome](./Awesome) olarak adlandırılan detaylı açıklamalar ile aradığın konuyu öğrenebilirsin.
+
 
 ## 🚙 Diğer Özenle Hazırladığım Notlar
 

@@ -54,10 +54,10 @@ Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 ```md
 [Test][test]
 
-- [test]: https://www.yemreak.com
+- [test]: https://www.yemreak.com "Açıklama Metni"
 ```
 
-[test]: https://www.yemreak.com
+[test]: https://www.yemreak.com "Açıklama Metni"
 
 > _Inline link_'te `()` kullanıldığına dikkat ediniz.
 

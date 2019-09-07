@@ -12,7 +12,7 @@ description: Kişisel ansiklopedi 📚
 - Yani hep güncel kalacak denebilir 🚀
 - İyi okumalar 👻
 
-> [🕶 Awesome](./Awesome) etiketi ile adlandırılan, bir konu veya yazılım üzerine detaylı açıklamaların yapıldığı projelere bakmana fayda var
+> [🚀 Awesome](./Awesome) etiketi ile adlandırılan, bir konu veya yazılım üzerine detaylı açıklamaların yapıldığı projelere bakmana fayda var
 
 
 ## 🚙 Diğer Özenle Hazırladığım Notlar

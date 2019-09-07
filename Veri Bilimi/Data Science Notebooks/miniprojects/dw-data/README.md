@@ -1,7 +1,7 @@
 # dw-data
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -11,5 +11,4 @@
 - [practices.csv.gz](./practices.csv.gz)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

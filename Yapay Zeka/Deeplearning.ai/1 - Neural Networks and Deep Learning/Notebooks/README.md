@@ -1,7 +1,7 @@
 # Notebooks
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -12,5 +12,4 @@
 - [4 - Deep Neural Network - Application.ipynb](./4%20-%20Deep%20Neural%20Network%20-%20Application.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

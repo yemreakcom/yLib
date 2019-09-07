@@ -1,7 +1,7 @@
 # miniprojects
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -10,5 +10,4 @@
 - [2 - Object-oriented exercises.ipynb](./2%20-%20Object-oriented%20exercises.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

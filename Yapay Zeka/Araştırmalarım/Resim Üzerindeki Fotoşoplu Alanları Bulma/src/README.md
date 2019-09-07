@@ -1,6 +1,6 @@
 # src
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -11,4 +11,4 @@
 - [exif.py](./exif.py)
 
 
-<!--HariciDosyalar-->
+<!--Index-->

@@ -1,7 +1,7 @@
 # Notebooks
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -10,5 +10,4 @@
 - [X - Davranışsal Klonlama.ipynb](./X%20-%20Davran%C4%B1%C5%9Fsal%20Klonlama.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

@@ -1,7 +1,7 @@
 # Quizes
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -10,5 +10,4 @@
 - [3 - Hyperparameter tuning, Batch Normalization, Programming Frameworks.pdf](./3%20-%20Hyperparameter%20tuning%2C%20Batch%20Normalization%2C%20Programming%20Frameworks.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

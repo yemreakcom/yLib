@@ -1,7 +1,7 @@
 # PDFs
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -13,5 +13,4 @@
 - [X - Sinir Ağları ve Derin Öğrenme.pdf](./X%20-%20Sinir%20A%C4%9Flar%C4%B1%20ve%20Derin%20%C3%96%C4%9Frenme.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

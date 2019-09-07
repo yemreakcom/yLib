@@ -1,7 +1,7 @@
 # data
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -35,5 +35,4 @@
 - [yelp.json.gz](./yelp.json.gz)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

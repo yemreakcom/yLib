@@ -1,7 +1,7 @@
 # PDFs
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -12,5 +12,4 @@
 - [5 - Tensorflow Tutorial.pdf](./5%20-%20Tensorflow%20Tutorial.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

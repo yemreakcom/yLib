@@ -1,7 +1,7 @@
 # Notebook
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -12,5 +12,4 @@
 - [5 - Tensorflow Tutorial.ipynb](./5%20-%20Tensorflow%20Tutorial.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

@@ -1,7 +1,7 @@
 # Cheat Sheets
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -25,5 +25,4 @@
 - [spaCy.pdf](./spaCy.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

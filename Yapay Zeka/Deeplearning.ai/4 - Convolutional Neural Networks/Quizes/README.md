@@ -1,7 +1,7 @@
 # Quizes
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -10,5 +10,4 @@
 - [Quiz 3 - Detection Algorithms.pdf](./Quiz%203%20-%20Detection%20Algorithms.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

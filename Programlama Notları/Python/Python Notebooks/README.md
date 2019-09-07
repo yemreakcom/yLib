@@ -1,7 +1,7 @@
 # Python Notebooks
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -13,5 +13,4 @@
 - [5 - PY_Pythonic.ipynb](./5%20-%20PY_Pythonic.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

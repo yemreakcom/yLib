@@ -1,7 +1,7 @@
 # Data Science Notebooks
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -14,5 +14,4 @@
 - [7 - DS_Classes_and_ORM.ipynb](./7%20-%20DS_Classes_and_ORM.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

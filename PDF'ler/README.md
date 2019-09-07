@@ -5,7 +5,7 @@ description: Karışık kuruşuk PDF'ler 🙄
 # 🧾 PDF'ler
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -22,5 +22,4 @@ description: Karışık kuruşuk PDF'ler 🙄
 - [Windows PowerShell Tutorial for Beginners.pdf](./Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

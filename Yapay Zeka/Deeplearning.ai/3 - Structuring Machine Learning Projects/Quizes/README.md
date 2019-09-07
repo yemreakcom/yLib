@@ -1,7 +1,7 @@
 # Quizes
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -9,5 +9,4 @@
 - [2 - Autonomous driving (case study).pdf](./2%20-%20Autonomous%20driving%20%28case%20study%29.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

@@ -1,7 +1,7 @@
 # pw-data
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -9,5 +9,4 @@
 - [practices.json.gz](./practices.json.gz)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

@@ -1,7 +1,7 @@
 # El Yazılarım
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -9,5 +9,4 @@
 - [1 - Sinir Ağları ve Derin Öğrenme - Coursera.pdf](./1%20-%20Sinir%20A%C4%9Flar%C4%B1%20ve%20Derin%20%C3%96%C4%9Frenme%20-%20Coursera.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

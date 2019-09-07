@@ -1,7 +1,7 @@
 # images
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -12,5 +12,4 @@
 - [set_operations.png](./set_operations.png)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

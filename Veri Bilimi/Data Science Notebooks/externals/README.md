@@ -1,7 +1,7 @@
 # externals
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -9,5 +9,4 @@
 - [2019-08-29_text-mining.ipynb](./2019-08-29_text-mining.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

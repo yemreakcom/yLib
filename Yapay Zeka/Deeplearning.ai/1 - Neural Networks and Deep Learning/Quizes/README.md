@@ -1,7 +1,7 @@
 # Quizes
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -11,5 +11,4 @@
 - [4 - Key concepts on Deep Neural Networks.pdf](./4%20-%20Key%20concepts%20on%20Deep%20Neural%20Networks.pdf)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

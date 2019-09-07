@@ -1,7 +1,7 @@
 # miniprojects
 
 
-<!--HariciDosyalar-->
+<!--Index-->
 
 ## Harici Dosyalar
 
@@ -10,5 +10,4 @@
 - [2 - dw.ipynb](./2%20-%20dw.ipynb)
 
 
-<!--HariciDosyalar-->
-
+<!--Index-->

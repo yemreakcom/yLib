@@ -1,4 +1,4 @@
-# Faydalı Kaynaklar <!-- omit in toc -->
+# Android için Faydalı Kaynaklar <!-- omit in toc -->
 
 Android için faydalı olan tüm bağlantıları 🔗 içerir.
 

@@ -40,7 +40,7 @@
         - [X - Google Play Store](./Programlama%20Notlar%C4%B1/Android/Ek%20bilgiler/X%20-%20Google%20Play%20Store.md)
         - [Y - Proje İşlemleri](./Programlama%20Notlar%C4%B1/Android/Ek%20bilgiler/Y%20-%20Proje%20%C4%B0%C5%9Flemleri.md)
         - [Z - Karma Notlar](./Programlama%20Notlar%C4%B1/Android/Ek%20bilgiler/Z%20-%20Karma%20Notlar.md)
-      - [Kişisel Notlar](./Programlama%20Notlar%C4%B1/Android/Ki%C5%9Fisel%20Notlar)
+      - [Kişisel Notlar](./Programlama%20Notlar%C4%B1/Android/Ki%C5%9Fisel%20Notlar/README.md)
         - [0 - Faydalı Kaynaklar](./Programlama%20Notlar%C4%B1/Android/Ki%C5%9Fisel%20Notlar/0%20-%20Faydal%C4%B1%20Kaynaklar.md)
         - [1 - Bileşenlerin İsimleri](./Programlama%20Notlar%C4%B1/Android/Ki%C5%9Fisel%20Notlar/1%20-%20Bile%C5%9Fenlerin%20%C4%B0simleri.md)
         - [Z - Hata Notları](./Programlama%20Notlar%C4%B1/Android/Ki%C5%9Fisel%20Notlar/Z%20-%20Hata%20Notlar%C4%B1.md)

@@ -2,7 +2,7 @@
 description: Bir konuyu tüm detaylarına kadar anlatan dökümanların toplandığı projeyi referans alır 🚀
 ---
 
-# 🕶 Awesome
+# 🚀 Awesome
 
 
 ## 🗽 Açıklama

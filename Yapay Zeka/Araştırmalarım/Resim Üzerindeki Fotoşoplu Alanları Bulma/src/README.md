@@ -2,7 +2,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [adobe_ai.ipynb](./adobe_ai.ipynb)
 - [adobe_ai.py](./adobe_ai.py)

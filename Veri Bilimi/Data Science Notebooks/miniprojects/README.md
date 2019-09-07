@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [0 - in.ipynb](./0%20-%20in.ipynb)
 - [1 - pw.ipynb](./1%20-%20pw.ipynb)

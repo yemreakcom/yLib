@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [bad_csv.csv](./bad_csv.csv)
 - [csv_sample.txt](./csv_sample.txt)

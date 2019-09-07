@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [hash_illustration.png](./hash_illustration.png)
 - [high_score_flowchart.png](./high_score_flowchart.png)

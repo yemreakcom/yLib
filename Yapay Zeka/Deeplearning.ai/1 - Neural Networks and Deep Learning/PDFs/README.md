@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [0 - Python Basics with Numpy (optional assignment).pdf](./0%20-%20Python%20Basics%20with%20Numpy%20%28optional%20assignment%29.pdf)
 - [1 - Logistic Regression with a Neural Network.pdf](./1%20-%20Logistic%20Regression%20with%20a%20Neural%20Network.pdf)

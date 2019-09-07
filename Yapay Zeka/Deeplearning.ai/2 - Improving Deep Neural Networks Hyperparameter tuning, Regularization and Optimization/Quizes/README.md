@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [1 - Practical aspects of deep learning.pdf](./1%20-%20Practical%20aspects%20of%20deep%20learning.pdf)
 - [2 - Optimization algorithms.pdf](./2%20-%20Optimization%20algorithms.pdf)

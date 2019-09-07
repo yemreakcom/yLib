@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [1 - DS_IO.ipynb](./1%20-%20DS_IO.ipynb)
 - [2 - DS_Basic_DS_Modules.ipynb](./2%20-%20DS_Basic_DS_Modules.ipynb)

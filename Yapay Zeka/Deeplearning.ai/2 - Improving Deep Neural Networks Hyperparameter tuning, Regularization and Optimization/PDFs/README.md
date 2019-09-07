@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [1 - Initialization.pdf](./1%20-%20Initialization.pdf)
 - [2 - Regularization.pdf](./2%20-%20Regularization.pdf)

@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [1. Introduction to deep learning.pdf](./1.%20Introduction%20to%20deep%20learning.pdf)
 - [2 - Neural Network Basics.pdf](./2%20-%20Neural%20Network%20Basics.pdf)

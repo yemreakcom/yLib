@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [0 - PY_Intro.ipynb](./0%20-%20PY_Intro.ipynb)
 - [1 - PY_ProgramFlow.ipynb](./1%20-%20PY_ProgramFlow.ipynb)

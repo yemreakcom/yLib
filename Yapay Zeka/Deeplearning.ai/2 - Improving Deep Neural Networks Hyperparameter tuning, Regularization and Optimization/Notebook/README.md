@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [1 - Initialization.ipynb](./1%20-%20Initialization.ipynb)
 - [2 - Regularization.ipynb](./2%20-%20Regularization.ipynb)

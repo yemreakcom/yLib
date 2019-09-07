@@ -3,7 +3,7 @@
 
 <!--Index-->
 
-## Harici Dosyalar
+## 🔗 Harici Dosyalar
 
 - [201606scripts_sample.csv.gz](./201606scripts_sample.csv.gz)
 - [201701scripts_sample.csv.gz](./201701scripts_sample.csv.gz)

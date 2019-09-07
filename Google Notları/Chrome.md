@@ -34,8 +34,9 @@
 | [⛔ Adblock Plus][adblock plus]                                                                                                               | Reklam engelleme                                     |
 | [🚫 Pop up Blocker for Chrome][pop up blocker for chrome]                                                                                    | Popup (Açılır pencere) engelleme                     |
 | [🔣 Google Çeviri][google çeviri]                                                                                                            | Çeviri                                               |
-| [🚀 OneTab][onetab]                                                                                                                          | Sekme karışıklığını ve fazla ram kullanımı engelleme |
+| [🚀 OneTab Plus][Onetab plus]                                                                                                                | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)                     | Kullanılmayan sekmeleri uyku moduna alır             |
+| [❤ Booky.io](https://booky.io/)                                                                                                              | Bookmark yönetim aracı                               |
 | [⌨ Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)                               | İngilizce imla kuralları kontrolü                    |
 | [💌 Temp Mail][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
 | [🔐 LastPass](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |
@@ -108,7 +109,7 @@ _Örnek Kullanım:_
 [adblock plus]: https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb
 [pop up blocker for chrome]: https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche
 [google çeviri]: https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
-[onetab]: https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=tr
+[Onetab plus]: https://chrome.google.com/webstore/detail/onetab-plustab-manage-pro/lepdjbhbkpfenckechpdfohdmkhogojf
 [temp mail]: https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj
 [selenium ide]: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
 [no script]: https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/related?hl=en

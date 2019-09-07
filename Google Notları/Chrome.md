@@ -36,7 +36,7 @@
 | [🔣 Google Çeviri][google çeviri]                                                                                                            | Çeviri                                               |
 | [🚀 OneTab][onetab]                                                                                                                          | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)                     | Kullanılmayan sekmeleri uyku moduna alır             |
-| [👁‍🗨 Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)                           | İngilizce imla kuralları kontrolü                    |
+| [⌨ Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)                               | İngilizce imla kuralları kontrolü                    |
 | [💌 Temp Mail][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
 | [🔐 LastPass](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |
 | [🖼 Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |

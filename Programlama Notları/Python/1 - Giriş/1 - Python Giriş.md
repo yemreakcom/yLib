@@ -114,3 +114,29 @@ Her python scriptinin en üstüne alttaki metni yazın
 [python türkçe başlangıç]: https://github.com/fuatbeser/python-notlarim/blob/master/python_turkce_baslangic.ipynb
 [python hackerrank]: https://www.hackerrank.com/domains/python
 [python vs javascript]: https://www.educba.com/python-vs-javascript/
+
+## 🧪 Python Terminalinde Kod Tamamlama
+
+Pyreadline modülünü kurarak `pip install pyreadline` bu işlemi yapabilirsin.
+
+### 🐞 AttributeError: module 'readline' has no attribute 'redisplay' Hatası
+
+- 📋 Hata metninde en sonda verilen dosya yolunu kopyala 
+  - Örnek dosya yolu: `...\Python\3.6.1\Lib\rlcompleter.py`
+- Dosyayı herhangi bir metin düzenleyicisi ile aç 📑
+  - VsCode kullanıyorsan alttaki komutu (**kendi dosya yolunla**) cmd'ye kopyalayabilirisin 👇 
+  - `code ...\Python\3.6.1\Lib\rlcompleter.py`
+- 👀 Açılan dosyada hata notunda yer alan `line 80`'e, yani 80. satıra bak 
+- Oradaki satırları (`79`'dan başlıyor) alttaki gibi değiştirdikten sonra sorunsuz çalışacak 🚀
+
+```py
+...
+if _readline_available:                     ## Eski kodlar ##
+    if hasattr(readline, 'redisplay'):      # if _readline_available:
+        readline.insert_text('\t')          #     readline.insert_text('\t')
+        readline.redisplay()                #     readline.redisplay()
+    return ''                               # return ''
+...
+```
+
+> ⚠ Bu işlemden sonra python terminalini baştan açmayı unutma

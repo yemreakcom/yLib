@@ -1,12 +1,8 @@
 ---
-description: Kendi çıkardığım notları barındırır.
+description: "Üniversite notlarını derlediğim site için [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)'na bakabilirsin."
 ---
 
-# ✍ Kişisel Dökümanlarım
-
-Üniversite notlarını derlediğim site için [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)'na bakabilirsin.
-
-> 👇👈 Sol alttaki alanda da mevcuttur.
+# ✍ Üniversitedeki Notlarım
 
 <!-- TODO: Üniversite notlarım olabilir -->
 <!-- 

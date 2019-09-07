@@ -23,7 +23,7 @@
     - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
     - [Yazılımlar](./Karma%20Bilgiler/Yaz%C4%B1l%C4%B1mlar.md)
     - [Üretkenlik Notları](./Karma%20Bilgiler/%C3%9Cretkenlik%20Notlar%C4%B1.md)
-  - [✍ Kişisel Dökümanlarım](./Ki%C5%9Fisel%20D%C3%B6k%C3%BCmanlar%C4%B1m/README.md)
+  - [✍ Üniversitedeki Notlarım](./Ki%C5%9Fisel%20D%C3%B6k%C3%BCmanlar%C4%B1m/README.md)
     - [Bilgisayar Mimarisi Final Notları](./Ki%C5%9Fisel%20D%C3%B6k%C3%BCmanlar%C4%B1m/Bilgisayar%20Mimarisi%20Final%20Notlar%C4%B1.md)
     - [Computer Networks and Technologies Final Notları](./Ki%C5%9Fisel%20D%C3%B6k%C3%BCmanlar%C4%B1m/Computer%20Networks%20and%20Technologies%20Final%20Notlar%C4%B1.md)
     - [Computer Networks and Technologies Vize Notları](./Ki%C5%9Fisel%20D%C3%B6k%C3%BCmanlar%C4%B1m/Computer%20Networks%20and%20Technologies%20Vize%20Notlar%C4%B1.md)

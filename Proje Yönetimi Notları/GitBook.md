@@ -18,6 +18,7 @@ GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
 - `SUMMARY.md` ile sol kenarda gösterilen dizin yapısını düzenleme
 - `README.md`'yi otomatik olarak algılama
 - Matematiksel formül formatı olarak bilinen `latex` formatını
+- `.bookignore` ile GitHub'dan aktarılmayacak dosyaları belirleme
 
 ## ⚙ Entagrasyon Yönetimi
 

@@ -82,6 +82,23 @@ description: İçeriği açıklayan kısa not
 * [Last part without title](part3/title.md)
 ```
 
+## 🐞 Hata Çözümleri
+
+### Github Export Sorunları
+
+Aşağıdakı durumlarda bu tarz hatalar gelmektedir:
+
+- `SUMMARY.md` yapısının düzgün olmaması
+- Markdown formatında sorun oluşması
+
+### Linklerin Güncel Olmama Sorunu
+
+Sayfalardaki linkler veya içerikler, o sayfada değişiklik olmadığı sürece değişmez
+
+- Sayfa linkleri eski commit'lere bağlı kalır
+- Bunu engellemek için o sayfada bir değişiklik yapılması gerekir
+- Değişiklik sonunda güncel commit'e bağlı linkler oluşacaktır
+
 ## 🔗 Harici Bağlantılar
 
 - [Proje Dizin Yapısı](https://github.com/GitbookIO/gitbook/blob/master/docs/structure.md)

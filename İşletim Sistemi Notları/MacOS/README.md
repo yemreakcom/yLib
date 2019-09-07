@@ -15,7 +15,7 @@ description: MacOS için faydalı uygulamaların hepsi 🤩
 
 Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-mac/issues). We love PRs :) Please take a look at the Contributing guidelines before opening one. Follow the [awesome](https://github.com/sindresorhus/awesome) list.
 
-### 📦 Kurulum
+## 📦 Kurulum
 
 **Awesome Mac App for macOS**. Installers for the latest stable build for Mac can be [downloaded here](https://github.com/jaywcjlove/amac/releases).
 

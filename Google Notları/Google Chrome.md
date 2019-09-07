@@ -1,4 +1,8 @@
-# 🌐 Chrome 
+---
+description: Google'un sunduğu gelişmiş web araçları ve eklentileri olan tarayıcı 🌟
+---
+
+# 🌐 Google Chrome 
 
 ## ⌨ Chrome kısayolları
 

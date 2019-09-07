@@ -1,6 +1,6 @@
 # 🌐 Chrome 
 
-## Chrome kısayolları
+## ⌨ Chrome kısayolları
 
 ### Chrome sekme işlemleri
 
@@ -25,9 +25,9 @@
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>I</kbd> | Dom konsolunu açma              |
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>C</kbd> | HTML eleman seçiciyi aktif etme |
 
-## Eklenti Önerileri
+## 🔌 Eklenti Önerileri
 
-### Verimlilik Eklentileri
+### 📈 Verimlilik Eklentileri
 
 | Eklenti                                                                                                                                      | Özelliği                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
@@ -43,14 +43,14 @@
 | [🖼 Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi             |
 | [✔ Tick Tick](https://ticktick.com/)                                                                                                         | Todo Yönetimi (Kanban vs)                            |
 
-### Görsellik Eklentileri
+### ✨ Görsellik Eklentileri
 
 | Eklenti                                                                                              | Açıklama       |
 | ---------------------------------------------------------------------------------------------------- | -------------- |
 | [🎄 Lone Tree](https://chrome.google.com/webstore/detail/lone-tree/gdcbilggakcddojcadnfeckbpoomdmii) | Güzel bir tema |
 | [🌙 Nightlight][nightlight]                                                                          | Karanlık tema  |
 
-### Sosyal Medya Eklentileri
+### 🙆‍ Sosyal Medya Eklentileri
 
 | Eklenti                                                                                                                         | Açıklama                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
@@ -58,7 +58,7 @@
 | [God Mode for Whatsapp](https://chrome.google.com/webstore/detail/god-mode-for-whatsapp/cgdfebhnckdgckcjhidjnochmahdohad)       | Whatsapp wep yerine oldukça kullanışlı ve ek özelliklere sahip popup |
 | [Instagram Veri İndirici](https://chrome.google.com/webstore/detail/batch-media-saver-from-in/plmnmnpijgncjompjiccojbccinacefh) | Instagramdaki verilerini indiren eklenti                             |
 
-### Programlama Eklentileri
+### 👨‍💻 Programlama Eklentileri
 
 | Eklenti                                                                                                                     | Açıklama                                                     |
 | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
@@ -70,7 +70,7 @@
 | [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en)                       | JSON'ları formatlı gösterme                                  |
 | [ResNet Client](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm?hl=en) | API istekleri atma                                           |
 
-### Web Eklentileri
+### 🌐 Web Eklentileri
 
 | Eklenti      | Açıklama               |
 | ------------ | ---------------------- |
@@ -78,27 +78,38 @@
 | [SEOquake]   | Seo analizi            |
 | [SimilarWeb] | Websitesi analizi      |
 
-## Adress Çubuğu Anahtarları
+## 🔍 Adress Çubuğu ile Aramayı Özelleştirme
 
 Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların olduğu kısma girin.
 
-> Çıkan ekranda diğer arama motorları kısmında `Ekle` butonuna basın.
-
-**Çıkan Menüde:**
-
+- Çıkan ekranda diğer arama motorları kısmında `Ekle` butonuna basın.
 - `Arama motoru ismi` _Kendi verdiğimiz isim_
 - `Anahtar` _Adres çubuğuna yazınca alttaki sorguyu çalıştıracak_
 - `Sorgu` URL veya sorgu URL olabilir size kalmış.
 
-_Örnek Kullanım:_
+### Arama Motoru için Sorgu Tanımlama
 
-- Tureng
-- -t
-- `http://tureng.com/tr/turkce-ingilizce/%s`
+Arama metninin aktarılacağı yere `%s` yazın
 
-> %s sonrasındaki metin anlamına gelmekte. Örn; -t Help (_Help `%s` olan yere yazılır._)"
+- Örn; `http://tureng.com/tr/turkce-ingilizce/help` için `http://tureng.com/tr/turkce-ingilizce/%s` yapılacak
+- `help` metni yerine `%s` yazılacaktır
 
-## Harici Linkler
+### Arama Motoru Örnekleri
+
+```sh
+# Tureng arama motoru
+Tureng
+-t
+http://tureng.com/tr/turkce-ingilizce/%s
+
+# Arama yapmadan, direkt olarak drive'a erişim
+Drive
+-drive
+https://drive.google.com/drive/my-drive
+```
+
+
+## 🔗 Harici Linkler
 
 - [Make Google Chrome 1000% Faster | Fix Memory](https://www.youtube.com/watch?v=6pjDn3m4rsU&list=PL1m1AtfGwsxmeK4bsX9IvcVS8jRvj0cly&index=2&t=0s)
 - [Make Chrome Run Faster](https://www.techspot.com/article/1193-chrome-performance-memory-tweaks/)

@@ -21,9 +21,13 @@ Kategorilenmiş notlarım hakkında:
 | [Kişisel Notlar 👨‍🏫](Ki%C5%9Fisel%20Notlar) | Kişisel Notlar                                         |
 | [Deeplearning.ai 🧠](DeepLearning.ai)         | Coursera Deeplearning.ai kursu hakkında aldığım notlar |
 
-## 🚶‍ Yapay Zeka için Giriş
+## 🚀 Motivasyon 
 
-Motive edici ve bilgilendirici belgeseli [buradan][Yapay zeka belgeseli] izleyebilirsin.
+- [📺 Yapay Zeka: Nasıl bir gelecek?](https://www.youtube.com/watch?v=qh2ESbatq68)
+- [📺 NVIDIA Ganguan](https://www.youtube.com/watch?v=1iMmenHFdCE)
+- [📺 Böyle bir insan yok](https://youtu.be/N4m_xt4vFwY)
+
+## 🚶‍ Yapay Zeka için Giriş
 
 - Bilgilerini test edebileceğin siteye [buradan][Hackerrank] erişebilirsin.
 - Deep Learning Türkiye'nin 2019 yılı için paylaşmış olduğu kaynaklara [buraya][Deeplearning yapay zeka uygulması 2019] tıklayarak ulaşabilirsin

@@ -9,7 +9,7 @@ description: Veri bilimi 📊 çalışmalarım
 - Hızlı notlar 🏃‍♂️ için [Cheat Sheets](Cheat%20Sheets) alanına bakabilirsin.
 - Kişisel notlarım 👨‍🏫 [Kişisel Notlar](Ki%C5%9Fisel%20Notlar) içerisindedir.
 - Data Science 📊 bilgileri [Data Science Notebooks](Data%20Science%20Notebooks) altındadır.
-- Temel python 🐍 bilgisi [Python Notebooks](Python%20Notebooks) adı altında toplanmıştır.
+- Temel python 🐍 bilgisi [Python Notebooks](../Programlama%20Notlar%C4%B1%5CPython%5CPython%20Notebooks) adı altında toplanmıştır.
 - Video kursları 🎦için [Drive](https://drive.google.com/open?id=1IhifsrBR4besfTnOIw-iSbsOTTsUgy7A)'a bakabilirsin.
 
 > Tüm python 🐍 notlarım için [YPython](https://github.com/yedhrab/YPython) _repository_'isine bakabilirsin.

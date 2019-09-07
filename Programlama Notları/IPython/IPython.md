@@ -1,13 +1,12 @@
 # IPython <!-- omit in toc -->
 
-<!-- TODO: Google Colab notlarını buraya taşı -->
-
 ## Temel Bilgiler
 
 - Tüm python özelliklerini destekler, python'a ek özellikler barındırır.
-- _Jupyter Notebook_ ve _Google Colab_ gibi platformlarda kulanılır
+  - Bash, SQL, hız ölçümleri vs ...
+- _Jupyter Notebook_ ve [Google Colabratory][Google Colabratory] gibi platformlarda kulanılır
 
-> Bu yazı _Google Colab_'ı temel almıştır.
+> Bu yazı [Google Colabratory][Google Colabratory]'i temel almıştır.
 
 ## Hızlı Notlar
 
@@ -26,14 +25,6 @@
 | ------------------------------------- | ----------------------------------- |
 | <kbd>⭾ Tab</kbd>                      | Kod tamamlama                       |
 | <kbd>⇧ Shift</kbd> + <kbd>⭾ Tab</kbd> | Seçili objenin ne olduğunu gösterme |
-
-### Google Colab için Çalışma Ortamını Yapılandırma
-
-**Ekran Kartını Aktif Etme:**
-
-- Change Run Time
-  - TPU
-  - GPU
 
 ## Terminal İşlemleri
 
@@ -113,7 +104,7 @@ slider = 20000 #@param {type:"slider", min:100, max:20000, step:100}
 bool_obj = False #@param {type:"boolean"}
 ```
 
-![colab_form_ex](../res/colab_form_ex.png)
+![colab_form_ex](../../res/colab_form_ex.png)
 
 ## Drive İşlemleri
 
@@ -305,3 +296,5 @@ for ii in range(101):
 - [Interacting with Shell](http://mmcdan.github.io/posts/interacting-with-the-shell-via-jupyter-notebook/)
 
 [i/0 ipython]: https://colab.research.google.com/notebooks/io.ipynb
+
+[Google Colabratory]: ../../Google%20Notlar%C4%B1%5CGoogle%20Colabrotory.md "Google'ın sunduğu bulut bilgisayarlar"

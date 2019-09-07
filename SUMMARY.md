@@ -220,7 +220,7 @@
       - [4 - Linux Terminal İndiricileri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4%20-%20Linux%20Terminal%20%C4%B0ndiricileri.md)
       - [4.1 - Linux Terminali Sık Kullanılan Komutlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4.1%20-%20Linux%20Terminali%20S%C4%B1k%20Kullan%C4%B1lan%20Komutlar.md)
       - [X - Linux Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Genel%20Notlar.md)
-    - [Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010)
+    - [Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/README.md)
       - [0 - Sıfırdan Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/0%20-%20S%C4%B1f%C4%B1rdan%20Windows%2010.md)
       - [1 - Windows 10 Kısayolları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20K%C4%B1sayollar%C4%B1.md)
       - [2 - Windows 10 için Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)

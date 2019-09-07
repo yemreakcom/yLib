@@ -2,7 +2,7 @@
 
 ## ⌨ Chrome kısayolları
 
-### Chrome sekme işlemleri
+### 🍢 Chrome sekme işlemleri
 
 | Kısayol                                               | Açıklama                   |
 | ----------------------------------------------------- | -------------------------- |
@@ -10,7 +10,7 @@
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>T</kbd> | Son kapatılan sekmeyi açma |
 | <kbd>✲ Ctrl</kbd> + <kbd>W</kbd>                      | Sekmeyi kapatma            |
 
-### Sayfa işlemleri
+### 📃 Sayfa işlemleri
 
 | Kısayol                                               | Açıklama                                     |
 | ----------------------------------------------------- | -------------------------------------------- |
@@ -18,7 +18,7 @@
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>R</kbd> | Sayfayı komple yenileme (önbelleği temizler) |
 | <kbd>✲ Ctrl</kbd> + `S`                               | Sayfayı kaydetme                             |
 
-### Geliştirici kısayolları
+### 🧐 Geliştirici kısayolları
 
 | Kısayol                                               | Açıklama                        |
 | ----------------------------------------------------- | ------------------------------- |
@@ -87,21 +87,23 @@ Adres çubuğuna `chrome://settings/searchEngines` yazaeak gerekli ayarların ol
 - `Anahtar` _Adres çubuğuna yazınca alttaki sorguyu çalıştıracak_
 - `Sorgu` URL veya sorgu URL olabilir size kalmış.
 
-### Arama Motoru için Sorgu Tanımlama
+### 🏗 Arama Motoru için Sorgu Tanımlama
 
 Arama metninin aktarılacağı yere `%s` yazın
 
 - Örn; `http://tureng.com/tr/turkce-ingilizce/help` için `http://tureng.com/tr/turkce-ingilizce/%s` yapılacak
 - `help` metni yerine `%s` yazılacaktır
 
-### Arama Motoru Örnekleri
+### ✍ Arama Motoru Örnekleri
 
 ```sh
 # Tureng arama motoru
 Tureng
 -t
 http://tureng.com/tr/turkce-ingilizce/%s
+```
 
+```sh
 # Arama yapmadan, direkt olarak drive'a erişim
 Drive
 -drive

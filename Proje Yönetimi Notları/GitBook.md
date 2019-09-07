@@ -4,10 +4,14 @@
 
 GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
 
+- Kaynakları (resim, PDF vs) GitHub üzerinden çeker, kendi sitesinde barındırmaz
+- GitHub ile 💫 senkronize çalışır 
+
 ### 💔 Desteklemedikleri
 
 - Açılır menü yapısı olan `<detail>` formatı
 - Buton yapısı olan `<kdb>` formatı
+- Github submodule'leri
 
 ### 💞 Ek Olarak Destekledikleri
 

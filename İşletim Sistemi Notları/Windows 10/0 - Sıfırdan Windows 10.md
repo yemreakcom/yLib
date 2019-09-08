@@ -1,6 +1,6 @@
 # 🚀 Sıfırdan Windows 10
 
-## Windows 10 Kurulumu
+## 👷‍ Windows 10 Kurulumu
 
 Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/tr-tr/software-download/windows10) tıklayabilirsin.
 
@@ -71,9 +71,9 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - Sağ alttaki ☁ ikonuna sağ tık
   - **Üç nokta ikonu** - **Pereferences** - **Settings** - **Open Backup when system starts** işarteni kaldır
 
-## Windows 10 Sistem Ayarları
+## ⚙ Windows 10 Sistem Ayarları
 
-### ⚙ Temel Sistem Ayarları
+###  Temel Sistem Ayarları
 
 - Sağ alttaki ☁ ikonundan **Ayarlar** - **Ayarlar** sekmesi - **Bİlgisayar başlatıldığında OneDrive'ı başlat** seçeneğini iptal etme
 - **Ayarlar** - **Sistem** - **Hakkında** - **Yeniden adlandır** ile PC'yi yeniden adlandırma
@@ -83,7 +83,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - Birden fazla klavye varsa varsayılanı seçmek
 - <kbd>❖ Win</kbd> tuşuna basıp, ayarlar resmine sağ tıklayıp **Bu listeyi özelleştir** üzerinden gözükecek klasörleri ayarlama
 
-### Otomatik Olarak Oturum Açma
+### 🔑 Otomatik Olarak Oturum Açma
 
 - İlk olarak <kbd>❖ Win</kbd> + <kbd>R</kbd> ile `Run` alanını açın
 - Çıkan ekrana `netplwiz` yazın ve <kbd>ENTER</kbd>'a basın
@@ -99,14 +99,14 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 - File Explorer
 - Notepad
 
-## Temel Dizinler
+## 📂 Temel Dizinler
 
 Alttaki komutları <kbd>❖ Win</kbd> + <kbd>R</kbd> ile açılan **run** pencerisine yazmanız gerekmekte.
 
 - `shell:startup` Başlangıçta çalışan uygulamalar
 - `shell:AppsFolder` Tüm uygulamalar
 
-## Uygulama Verileri
+## 🗄 Uygulama Verileri
 
 - `C:\Users\%username%\AppData\Roaming` yani `%appdata%` dizininde yer alır.
   - Arama yerine `%appdata%` yazarak erişebilirsin

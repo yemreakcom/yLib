@@ -8,6 +8,7 @@ description: Kişisel ansiklopedi 📚
 
 - Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
 - En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin
+- Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YBilgiler/issues) açabilirsin
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - Yani hep güncel kalacak denebilir 🚀
 - İyi okumalar 👻

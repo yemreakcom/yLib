@@ -27,6 +27,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [🔍 Quick Look](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                      | Dosyaları açamadan <kbd>SPACE</kbd> ile önizleme |
 | [🖤 Windows Terminal](https://www.microsoft.com/tr-tr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab) | Windows'un yeni şık terminali                    |
 | [📝 Notepad](https://www.microsoft.com/tr-tr/p/notepad/9n7lrq8p8pd5?activetab=pivot:overviewtab)                           | Sade tasarımlı not defteri                       |
+| 📔 OneNote                                                                                                                 | Not alma uygulaması (Gömülü olarak gelir)        |
 
 > Store üzerinden indirilen Python, Git Bash üzerinden kullanılamıyor (`Permission denied`). Bu yüzden store'dan değil web sitesinden indirilmeli. 
 
@@ -46,9 +47,9 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [📨 Rambox](https://rambox.pro/#pricing)                                                  | Mesajlaşma uygulamalarının yönetimi            |
 | [🛠 Git](https://git-scm.com/downloads)                                                   | Proje versiyon yönetim uygulaması              |
 | [🐙 Github Desktop](https://desktop.github.com/)                                          | GitHub için yönetim uygulaması                 |
-| [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                   |
 | [🏢 Office](https://bit.ly/2kjVZe9)                                                       | MS Office                                      |
 | [📂 Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)              | Drive backup                                   |
+| [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                   |
 
 ### 🤸‍ İnternet Uygulamları için Kişiselleştirmelerim
 
@@ -57,6 +58,8 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
   - [Google Translate](https://chrome.google.com/webstore/search/translate?hl=en)
   - [OneTab Plus:Tab Manage & Productivity](https://chrome.google.com/webstore/detail/onetab-plustab-manage-pro/lepdjbhbkpfenckechpdfohdmkhogojf?hl=en)
   - [Grammarly for Chrome](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen?hl=en)
+  - [Ad Block Plus](https://chrome.google.com/webstore/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb)
+  - [Popup Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
 - ⚒ Git kurulumu kişiselleştirmem:
   - **Windows explorer entegration** kapalı
   - **Use Visual Studio Code as Git's default editor**

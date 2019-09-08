@@ -22,7 +22,7 @@ Python üzerinde dosya işlemleri oldukça kolaydır.
 | `a`          | Append (Ekleme)  | Dosyayı üzerine eklemek için açar, yoksa oluşturur      |
 | `wb, rb, ab` | Binary işlemleri | Sıkıştırılmış dosyada işlemler                          |
 
-> Ek bilgiler için [buraya][dosya erişim modları] bakabilirsin.
+> Ek bilgiler için [buraya](https://stackoverflow.com/a/1466036/9770490) bakabilirsin.
 
 ## Dosyada İşlem Metodları
 

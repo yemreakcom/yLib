@@ -23,6 +23,7 @@ CNAME kayıtları ile halledilen bir işlemdir
   - `Key` alanını boş bırakın
   - `Value` alanına google'ın size verdiği metni kopyalayın. 
     - (örn: `google-site-verification=********************************`)
+- Çıkan arayüzde arama alanına URL'lerinizi yazın, indekslenmeyen URL için talepte bulunun
 
 ## 📊 Google Analytic ile Sitenize Gelenleri Analiz Etme
 

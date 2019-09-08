@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit\command]
+@="\"%systemroot%\system32\mspaint.exe\" \"%1\""
+
+

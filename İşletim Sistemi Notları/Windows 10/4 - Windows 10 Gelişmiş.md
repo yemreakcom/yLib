@@ -29,6 +29,8 @@ FolderType=Documents
 
 Dosyanın uzantısını `.reg` olarak ayarlarsanız register düzenleme dosyası olarak açılır.
 
+- `"`, `\` işareti gibi özel karakterleri kullanmak için `\"`,`\\` yapısını tercih etmelisin
+
 ### RegEdit'e Anahtar ve Değer Ekleme
 
 ```reg
@@ -39,6 +41,16 @@ Windows Registry Editor Version 5.00
 
 "Testval1"="Test 1"
 "Testval2"="Test 2"
+```
+
+### RegEdit Varsayılan Anahtar Değerini Güncelleme
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\image\shell\edit\command]
+@="Test val"
+
 ```
 
 ### RegEdit Anahtar Değeri Silme

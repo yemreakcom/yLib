@@ -50,6 +50,9 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [🏢 Office](https://bit.ly/2kjVZe9)                                                       | MS Office                                      |
 | [📂 Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)              | Drive backup                                   |
 | [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                   |
+| [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                     |
+
+> 🔧 PaintNet'i varsayılan resim editörü yapmak için [Registery Scriptlerim](./Registery%20Scriptlerim) alanındanki [PaintNet'i varsayılan resim editörü yapma](./Registery%20Scriptlerim/PaintNet%27i%20varsay%C4%B1lan%20resim%20edit%C3%B6r%C3%BC%20yapma.reg) aracını kullanabilrisin.
 
 ### 🤸‍ İnternet Uygulamları için Kişiselleştirmelerim
 

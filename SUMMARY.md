@@ -249,11 +249,13 @@
       - [5 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/5%20-%20Windows%20Subsystem%20for%20Linux.md)
       - [6 - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/6%20-%20Windows%2010%20Genel%20Notlar.md)
       - [X - Windows 10 Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
+      - [Registery Scriptlerim](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Registery%20Scriptlerim/README.md)
 
 
 <!--Index-->
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım
 
+- [Yapay Zeka Notlarım](https://ai.yemreak.com/)
 - [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
 - [React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)

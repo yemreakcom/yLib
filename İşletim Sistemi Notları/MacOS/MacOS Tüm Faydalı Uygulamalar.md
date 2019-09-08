@@ -2,7 +2,7 @@
 description: MacOS için faydalı uygulamaların hepsi 🤩
 ---
 
-# MacOS
+# MacOS Tüm Faydalı Uygulamalar
 
 ## 🗽 Açıklama
 

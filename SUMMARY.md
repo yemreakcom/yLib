@@ -233,15 +233,17 @@
       - [4 - Linux Terminal İndiricileri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4%20-%20Linux%20Terminal%20%C4%B0ndiricileri.md)
       - [4.1 - Linux Terminali Sık Kullanılan Komutlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4.1%20-%20Linux%20Terminali%20S%C4%B1k%20Kullan%C4%B1lan%20Komutlar.md)
       - [X - Linux Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/X%20-%20Linux%20Genel%20Notlar.md)
-    - [MacOS](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/MacOS/README.md)
-    - [Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/README.md)
+    - [MacOS](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/MacOS)
+      - [MacOS Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/MacOS/MacOS%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
+    - [Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010)
       - [0 - Sıfırdan Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/0%20-%20S%C4%B1f%C4%B1rdan%20Windows%2010.md)
       - [1 - Windows 10 Kısayolları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20K%C4%B1sayollar%C4%B1.md)
       - [2 - Windows 10 için Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Windows%2010%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)
       - [3 - Windows 10 Komut İstemi (CMD) Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20Komut%20%C4%B0stemi%20%28CMD%29%20Notlar%C4%B1.md)
       - [4 - Windows 10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F.md)
       - [5 - Windows Subsystem for Linux](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/5%20-%20Windows%20Subsystem%20for%20Linux.md)
-      - [X - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20Genel%20Notlar.md)
+      - [6 - Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/6%20-%20Windows%2010%20Genel%20Notlar.md)
+      - [X - Windows 10 Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
 
 
 <!--Index-->

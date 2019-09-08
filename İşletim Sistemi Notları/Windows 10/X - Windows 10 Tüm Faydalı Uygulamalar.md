@@ -2,7 +2,7 @@
 description: Windows 10 için faydalı uygulamaların hepsi 🤩
 ---
 
-# Windows 10
+# Windows 10 Tüm Faydalı Uygulamalar
 
 ## 🗽 Açıklama
 

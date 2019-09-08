@@ -20,10 +20,11 @@ description: Kişisel ansiklopedi 📚
 
 Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.
 
-> Sol alt köşedeki alandan da bunlara erişebilirsin ✨
+- [Yapay Zeka Notlarım](https://ai.yemreak.com/)
+- [İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
+- [React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
 
-- [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
-- [⚛️🔥 React ve Firebase projem](https://github.com/yedhrab/YReact-Firebase)
+> Sol alt köşedeki alandan da bunlara erişebilirsin ✨
 
 ## 🔗 Harici Bağlantılar
 

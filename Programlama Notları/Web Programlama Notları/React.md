@@ -280,6 +280,7 @@ const html = "HTML verisi";
 - [Frontend'de React Backend'de Nodejs Kullanma]
 - [Nodejs React ve Redux ile Medium Klonu][medium clone]
 - [React ile yapılan uygulama örnekleri]
+- [React Hotket Hook](https://github.com/JohannesKlauss/react-hotkeys-hook)
 
 [react instagram clone]: https://github.com/yedehrab/React-Instagram-Clone-2.0
 [react instagram clone 2]: https://github.com/hibiken/hackafy

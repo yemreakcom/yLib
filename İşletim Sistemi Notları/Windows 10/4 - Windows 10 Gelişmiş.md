@@ -25,6 +25,40 @@ FolderType=Documents
 
 ```
 
+## ⏹ RegEdit Düzenleme Dosyası
+
+Dosyanın uzantısını `.reg` olarak ayarlarsanız register düzenleme dosyası olarak açılır.
+
+### RegEdit'e Anahtar ve Değer Ekleme
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\ZEDA]
+[HKEY_CURRENT_USER\Software\ZEDA\TestKey]
+
+"Testval1"="Test 1"
+"Testval2"="Test 2"
+```
+
+### RegEdit Anahtar Değeri Silme
+
+```reg
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\ZEDA\TestKey]
+
+"Testval1"=-
+```
+
+### RegEdit Anahtar Silme
+
+```reg
+Windows Registry Editor Version 5.00
+
+[-HKEY_CURRENT_USER\Software\ZEDA\TestKey]
+```
+
 ## Resim Düzenleyicisini Değiştirme
 
 - Arama alanına `regedit` yazıp <kbd>ENTER</kbd>'a basın

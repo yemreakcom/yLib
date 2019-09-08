@@ -1,4 +1,4 @@
-# Protocol Buffer (Protobuf) <!-- omit in toc -->
+# Protocol Buffer (Protobuf) 
 
 ## Nedir
 

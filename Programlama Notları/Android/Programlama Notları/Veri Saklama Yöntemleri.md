@@ -1,4 +1,4 @@
-# Veri Saklama Yöntemleri <!-- omit in toc -->
+# Veri Saklama Yöntemleri 
 
 ## SharedPreference ile Veri Saklama
 

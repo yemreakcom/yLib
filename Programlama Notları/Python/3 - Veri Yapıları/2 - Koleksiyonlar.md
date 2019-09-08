@@ -1,4 +1,4 @@
-# Python Koleksiyonlar <!-- omit in toc -->
+# Python Koleksiyonlar 
 
 ## Koleksiyonlar Nedir ? (Collection)
 

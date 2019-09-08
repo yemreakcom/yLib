@@ -1,4 +1,4 @@
-# Anaconda <!-- omit in toc -->
+# Anaconda 
 
 Yapay zeka, veri analizi, makine öğrenimi gibi işlemler için gerekli olan paketleri hazır halde sunan ve onları yöneten bir uygulamadır.
 

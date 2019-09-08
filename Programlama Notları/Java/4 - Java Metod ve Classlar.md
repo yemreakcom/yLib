@@ -1,4 +1,4 @@
-# Java Method ve Classlar <!-- omit in toc -->
+# Java Method ve Classlar 
 
 ## Sayısı belirtilmemiş parametre kullanımı
 

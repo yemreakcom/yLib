@@ -1,4 +1,4 @@
-# Python Fonksiyonlar <!-- omit in toc -->
+# Python Fonksiyonlar 
 
 ## Fonksiyonlar Hakkında
 

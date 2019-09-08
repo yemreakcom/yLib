@@ -1,4 +1,4 @@
-# Windows 10 Genel Notlar <!-- omit in toc -->
+# Windows 10 Genel Notlar 
 
 ## Windows Özellikleri
 

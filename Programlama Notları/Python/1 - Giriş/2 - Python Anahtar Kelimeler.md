@@ -1,4 +1,4 @@
-# Python Anahtar Kelimeler (Keywords) <!-- omit in toc -->
+# Python Anahtar Kelimeler (Keywords) 
 
 Harici link için [buraya](https://www.programiz.com/python-programming/keyword-list) tıklayabilirsin.
 

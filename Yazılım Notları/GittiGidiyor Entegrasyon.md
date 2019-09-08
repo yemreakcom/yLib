@@ -1,4 +1,4 @@
-# GittiGidiyor Entegrasyon <!-- omit in toc -->
+# GittiGidiyor Entegrasyon 
 
 ## API İşlemleri
 

@@ -1,4 +1,4 @@
-# Telegram <!-- omit in toc -->
+# Telegram 
 
 Telegram ile ilgili notlarım.
 

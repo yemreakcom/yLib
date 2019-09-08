@@ -1,4 +1,4 @@
-# 2 - Linux Terminali <!-- omit in toc -->
+# 2 - Linux Terminali 
 
 Linux işletim sistemindeki komutlardır. Terminal üzerinden kernel'a bildirilir.
 

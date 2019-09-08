@@ -1,4 +1,4 @@
-# Python Giriş <!-- omit in toc -->
+# Python Giriş 
 
 ## Python ile Programlamaya Hazırlanma
 

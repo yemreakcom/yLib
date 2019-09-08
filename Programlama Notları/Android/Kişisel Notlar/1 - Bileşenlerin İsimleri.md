@@ -1,4 +1,4 @@
-# Bileşenlerin İsimleri <!-- omit in toc -->
+# Bileşenlerin İsimleri 
 
 Component olarak adlandırılan Android bileşenlerinin isimleri yer alır.
 

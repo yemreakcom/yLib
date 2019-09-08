@@ -1,4 +1,4 @@
-# JavaFX ile GUI <!-- omit in toc -->
+# JavaFX ile GUI 
 
 > As of JDK 11, the javafx.\* modules are no longer included as part of the JDK. They are now distributed separately as a standalone, unbundled release of OpenJFX. They are available either as maven artifacts for use with maven/gradle or as a standalone SDK that includes jmod files for use with jlink.
 

@@ -176,3 +176,10 @@ $ python arg.py --nargs-int-type -1234 2345 -3456 4567
 $ python arg.py --append-action 1234 --append-action 2345 --append-action 3456 --append-action 4567
 ['1234', '2345', '3456', '4567']
 ```
+
+## Komut İsteminde Görsel Bileşenler
+
+| Modül                                          | Açıklama                    |
+| ---------------------------------------------- | --------------------------- |
+| [tqdm](https://github.com/tqdm/tqdm)           | İşlem çubuğu (progress bar) |
+| [coloroma](https://pypi.org/project/colorama/) | Renkli konsol çıktıları     |

@@ -1,4 +1,4 @@
-# Java <!-- omit in toc -->
+# Java 
 
 **Head First Java** kitabına buradan erişebilirsin.
 

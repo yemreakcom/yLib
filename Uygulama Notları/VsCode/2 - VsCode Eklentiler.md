@@ -1,4 +1,4 @@
-# VsCode Eklentiler <!-- omit in toc -->
+# VsCode Eklentiler 
 
 ## Önerilen Eklentiler
 

@@ -1,4 +1,4 @@
-# Heroku <!-- omit in toc -->
+# Heroku 
 
 Detaylı bilgiler için [buraya](https://devcenter.heroku.com/articles/getting-started-with-nodejs) tıklayabilirsin.
 

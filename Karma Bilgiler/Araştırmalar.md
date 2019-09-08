@@ -1,4 +1,4 @@
-# Araştırmalar <!-- omit in toc -->
+# Araştırmalar 
 
 ## Akademik Yazı ve Makale Siteleri
 

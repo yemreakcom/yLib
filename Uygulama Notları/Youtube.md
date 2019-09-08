@@ -1,4 +1,4 @@
-# Youtube <!-- omit in toc -->
+# Youtube 
 
 Youtube üzerindeki beğendiğim videolar
 

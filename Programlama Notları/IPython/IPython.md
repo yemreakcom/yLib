@@ -1,4 +1,4 @@
-# IPython <!-- omit in toc -->
+# IPython 
 
 ## Temel Bilgiler
 

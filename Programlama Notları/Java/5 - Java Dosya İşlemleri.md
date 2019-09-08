@@ -1,4 +1,4 @@
-# Java Dosya İşlemleri <!-- omit in toc -->
+# Java Dosya İşlemleri 
 
 ## Kullanıcı Dizinleri
 

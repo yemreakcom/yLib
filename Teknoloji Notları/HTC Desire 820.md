@@ -1,4 +1,4 @@
-# HTC Desire 820 <!-- omit in toc -->
+# HTC Desire 820 
 
 HTC Desire 820 için karma hata çözümleri
 

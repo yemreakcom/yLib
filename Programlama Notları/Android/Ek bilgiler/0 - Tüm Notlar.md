@@ -1,4 +1,4 @@
-# Android <!-- omit in toc -->
+# Android 
 
 ## Faydalı Eğitim Setleri
 

@@ -1,4 +1,4 @@
-# PHP <!-- omit in toc -->
+# PHP 
 
 ## Debugger Setup
 

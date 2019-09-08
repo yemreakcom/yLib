@@ -1,4 +1,4 @@
-# Xiaomi Mi A2 Lite <!-- omit in toc -->
+# Xiaomi Mi A2 Lite 
 
 Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
 

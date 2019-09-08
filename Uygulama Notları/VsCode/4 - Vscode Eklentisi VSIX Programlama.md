@@ -1,4 +1,4 @@
-# Vscode Eklentisi VSIX Programlama <!-- omit in toc -->
+# Vscode Eklentisi VSIX Programlama 
 
 ## Temel Gereksinimler
 

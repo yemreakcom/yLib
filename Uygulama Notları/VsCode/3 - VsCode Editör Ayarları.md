@@ -1,4 +1,4 @@
-# Vscode Editör Ayarları <!-- omit in toc -->
+# Vscode Editör Ayarları 
 
 ## Editör Ayarlarına Erişim
 

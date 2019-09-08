@@ -1,4 +1,4 @@
-# VsCode Özelleştirmem <!-- omit in toc -->
+# VsCode Özelleştirmem 
 
 Özelleştirmelerin artık [Github Gist ☁](https://gist.github.com/yedhrab/4b13743a36cece5c3c22a5042897a83d) üzerine taşındı.
 
@@ -29,10 +29,10 @@ Verimli çalışmak için kod parçaları
   "Insert head": {
     "prefix": "head",
     "body": [
-      "# $1 <!-- omit in toc -->",
+      "# $1 ",
       "",
       "$2",
-      "## İçerikler <!-- omit in toc -->",
+      "## İçerikler ",
       "",
       "$0"
     ],
@@ -40,7 +40,7 @@ Verimli çalışmak için kod parçaları
   },
   "Omit": {
     "prefix": "om",
-    "body": ["<!-- omit in toc -->"],
+    "body": [""],
     "description": "Omit from ToC"
   },
   "Insert win key button": {

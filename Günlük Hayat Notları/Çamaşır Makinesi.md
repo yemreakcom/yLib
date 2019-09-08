@@ -1,4 +1,4 @@
-# Çamaşır Makinesi <!-- omit in toc -->
+# Çamaşır Makinesi 
 
 Çamaşır makinesi ile alakası olmayanlar için 😄
 

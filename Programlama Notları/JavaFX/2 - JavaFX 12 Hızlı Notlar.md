@@ -1,4 +1,4 @@
-# JavaFX 12 Hızlı Notlar <!-- omit in toc -->
+# JavaFX 12 Hızlı Notlar 
 
 ## Proje Dizin Yapısı
 

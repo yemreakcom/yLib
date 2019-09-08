@@ -1,4 +1,4 @@
-# Google Colabrotory <!-- omit in toc -->
+# Google Colabrotory 
 
 - Kodlama dili [🐍 IPython](../Programlama%20Notlar%C4%B1%5CIPython) olarak geçmektedir, bağlantıya tıklarak detaylara erişebilirsin
 - Colab üzerinde kullanılan komutların (IPython) dökümanı için [buraya](https://ipython.readthedocs.io/en/stable/index.html) bakabilirsin.

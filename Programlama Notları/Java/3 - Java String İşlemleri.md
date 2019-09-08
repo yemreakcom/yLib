@@ -1,4 +1,4 @@
-# Java String İşlemleri <!-- omit in toc -->
+# Java String İşlemleri 
 
 ## String İşlemleri
 

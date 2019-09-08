@@ -1,4 +1,4 @@
-# Python CodeSnippets <!-- omit in toc -->
+# Python CodeSnippets 
 
 <!-- TODO: Sonradan bunlara başlık ekle -->
 

@@ -1,4 +1,4 @@
-# Linux Genel Notlar <!-- omit in toc -->
+# Linux Genel Notlar 
 
 ## Dosya Paylaşımı
 

@@ -1,4 +1,4 @@
-# Linux Gelişmiş <!-- omit in toc -->
+# Linux Gelişmiş 
 
 ## Dosya içeriğinden Türünü Bulma
 

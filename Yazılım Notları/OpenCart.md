@@ -1,4 +1,4 @@
-# OpenCart <!-- omit in toc -->
+# OpenCart 
 
 **PHP** dilini baz alan E-Ticaret uygulamasının sitesine erişmek için  [buraya](https://www.opencart.com/index.php?route=common/home) tıklayabilirsin.
 

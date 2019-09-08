@@ -1,4 +1,4 @@
-# Tasarım Notları <!-- omit in toc -->
+# Tasarım Notları 
 
 ## CV Notları
 

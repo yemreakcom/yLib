@@ -1,4 +1,4 @@
-# 1 - Linux Giriş <!-- omit in toc -->
+# 1 - Linux Giriş 
 
 ## Linux Nedir
 

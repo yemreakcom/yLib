@@ -1,4 +1,4 @@
-# Java Değişkenler Koşullar ve Döngüler <!-- omit in toc -->
+# Java Değişkenler Koşullar ve Döngüler 
 
 ## Güncel Java Kurulumları
 

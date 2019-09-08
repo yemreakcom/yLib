@@ -1,4 +1,4 @@
-# MySQL <!-- omit in toc -->
+# MySQL 
 
 MySQL workbench üzerinden SQL editörünü kullanabilirsin.
 

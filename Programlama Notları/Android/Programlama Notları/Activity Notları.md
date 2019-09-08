@@ -1,4 +1,4 @@
-# Activity Notları <!-- omit in toc -->
+# Activity Notları 
 
 Android üzerinde her sayfa activity olarak adlandırılır, burada da onlar hakkında bilgilere yer verilecektir.
 

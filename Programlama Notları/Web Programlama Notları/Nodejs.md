@@ -1,4 +1,4 @@
-# Nodejs <!-- omit in toc -->
+# Nodejs 
 
 ## Paket Yönetimi
 

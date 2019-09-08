@@ -1,4 +1,4 @@
-# ADB Komutları <!-- omit in toc -->
+# ADB Komutları 
 
 Android telefonları için komutları barındırır.
 

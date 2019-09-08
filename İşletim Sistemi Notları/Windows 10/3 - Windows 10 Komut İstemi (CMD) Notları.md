@@ -1,4 +1,4 @@
-# Windows 10 Komut İstem (CMD) Notları <!-- omit in toc -->
+# Windows 10 Komut İstem (CMD) Notları 
 
 ## Command Promp (CMD)
 

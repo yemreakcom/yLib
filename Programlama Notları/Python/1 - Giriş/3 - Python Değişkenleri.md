@@ -1,4 +1,4 @@
-# Python Değişkenleri <!-- omit in toc -->
+# Python Değişkenleri 
 
 <!-- TODO: Immutabble mutable kavramını açıkla -->
 

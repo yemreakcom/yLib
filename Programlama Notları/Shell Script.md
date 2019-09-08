@@ -1,4 +1,4 @@
-# Shell Script <!-- omit in toc -->
+# Shell Script 
 
 Unix işletim sistemlerinin ortak programlama dilidir.
 

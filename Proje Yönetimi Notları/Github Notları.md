@@ -1,4 +1,4 @@
-# Github Notları <!-- omit in toc -->
+# Github Notları 
 
 ## Github Nedir, Ne için Kullanılır
 

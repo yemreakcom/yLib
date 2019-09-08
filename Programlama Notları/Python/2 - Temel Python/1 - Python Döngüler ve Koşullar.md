@@ -1,4 +1,4 @@
-# Python Döngüler ve Koşullar <!-- omit in toc -->
+# Python Döngüler ve Koşullar 
 
 ## If / Else Koşul (Constraints) Yapısı
 

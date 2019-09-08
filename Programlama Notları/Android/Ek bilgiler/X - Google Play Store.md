@@ -1,4 +1,4 @@
-# Google Play Store <!-- omit in toc -->
+# Google Play Store 
 
 Google Play Store ile alakalı notları içeriri
 

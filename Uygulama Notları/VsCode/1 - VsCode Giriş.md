@@ -1,4 +1,4 @@
-# Vscode Giriş <!-- omit in toc -->
+# Vscode Giriş 
 
 ## VsCode için Önemli Notlar
 

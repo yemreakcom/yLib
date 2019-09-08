@@ -1,4 +1,4 @@
-# Java Gelişmiş <!-- omit in toc -->
+# Java Gelişmiş 
 
 ## Modül Programlama
 

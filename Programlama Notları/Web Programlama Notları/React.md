@@ -1,4 +1,4 @@
-# React ⚛ <!-- omit in toc -->
+# React ⚛ 
 
 <!-- !TODO: Ract için özel dizin ve yapı lazım -->
 

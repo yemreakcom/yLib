@@ -1,4 +1,4 @@
-# Aydınlatma <!-- omit in toc -->
+# Aydınlatma 
 
 ## Genel Bilgi
 

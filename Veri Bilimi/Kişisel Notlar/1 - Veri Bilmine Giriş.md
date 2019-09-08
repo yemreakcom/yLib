@@ -1,4 +1,4 @@
-# Veri Bilimine Giriş <!-- omit in toc -->
+# Veri Bilimine Giriş 
 
 ## Hızlı Giriş
 

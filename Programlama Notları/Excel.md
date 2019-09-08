@@ -1,4 +1,4 @@
-# Excel <!-- omit in toc -->
+# Excel 
 
 ## Temel Değişkenler
 

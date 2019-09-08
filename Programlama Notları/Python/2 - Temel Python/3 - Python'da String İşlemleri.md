@@ -1,4 +1,4 @@
-# Python'da String İşlemleri <!-- omit in toc -->
+# Python'da String İşlemleri 
 
 _String_'lere kabaca **metin** diyebiliriz 🤔
 

@@ -1,4 +1,4 @@
-# Windows10 Gelişmiş <!-- omit in toc -->
+# Windows10 Gelişmiş 
 
 ## Otomatik Giriş Yapma
 

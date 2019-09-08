@@ -1,4 +1,4 @@
-# Jetbrains IDEs <!-- omit in toc -->
+# Jetbrains IDEs 
 
 ## Proje Dizinlerini yapılandırma
 

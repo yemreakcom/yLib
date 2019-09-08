@@ -1,4 +1,4 @@
-# Python Algoritma Örnekleri <!-- omit in toc -->
+# Python Algoritma Örnekleri 
 
 ## Prime (Asal Sayı)
 

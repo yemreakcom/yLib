@@ -1,4 +1,4 @@
-# Selenium <!-- omit in toc -->
+# Selenium 
 
 Tarayıcılar üzerinde otomatize işler yapmak için kullanılan bir araçtır.
 

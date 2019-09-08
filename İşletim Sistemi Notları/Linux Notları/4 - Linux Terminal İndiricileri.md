@@ -1,4 +1,4 @@
-# Linux Terminal İndiricileri <!-- omit in toc -->
+# Linux Terminal İndiricileri 
 
 ## Aria2c, Dosyayı Parçalayarak İndirme (IDM gibi)
 

@@ -1,4 +1,4 @@
-# Wordpress <!-- omit in toc -->
+# Wordpress 
 
 Açık kaynaklı php dilinde yazılmış web içerik yöneticisi yazılımıdır.
 

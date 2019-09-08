@@ -1,4 +1,4 @@
-# Python İleri Seviye <!-- omit in toc -->
+# Python İleri Seviye 
 
 ## Assertion (Kural Koyma)
 

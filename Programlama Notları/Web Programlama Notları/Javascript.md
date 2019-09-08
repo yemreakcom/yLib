@@ -1,4 +1,4 @@
-# Javascript <!-- omit in toc -->
+# Javascript 
 
 ## Ön Bilgilendirme
 

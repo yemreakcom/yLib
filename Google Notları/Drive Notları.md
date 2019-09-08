@@ -1,4 +1,4 @@
-# Drive Notları <!-- omit in toc -->
+# Drive Notları 
 
 Google Drive notları
 

@@ -1,4 +1,4 @@
-# Notepad++ <!-- omit in toc -->
+# Notepad++ 
 
 ## Özelleştirme Ayarları
 

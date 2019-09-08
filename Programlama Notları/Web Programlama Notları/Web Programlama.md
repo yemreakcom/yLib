@@ -1,4 +1,4 @@
-# Web Programlama <!-- omit in toc -->
+# Web Programlama 
 
 ## CSS Notları
 

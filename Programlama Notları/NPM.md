@@ -1,4 +1,4 @@
-# NPM <!-- omit in toc -->
+# NPM 
 
 ## CLI Uygulaması Yapma
 

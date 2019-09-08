@@ -1,4 +1,4 @@
-# Markdowns <!-- omit in toc -->
+# Markdowns 
 
 Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) tıklayabilirsin.
 
@@ -173,7 +173,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
   },
   "Markdown omit in toc": {
     "prefix": "omit",
-    "body": "<!-- omit in toc -->$0",
+    "body": "$0",
     "description": "ToC dışında tutma metni"
   }
 }

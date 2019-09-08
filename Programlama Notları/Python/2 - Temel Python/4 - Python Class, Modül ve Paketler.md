@@ -1,4 +1,4 @@
-# Python Class, Modül ve Paketler <!-- omit in toc -->
+# Python Class, Modül ve Paketler 
 
 ## Class
 

@@ -1,4 +1,4 @@
-# Batch Script <!-- omit in toc -->
+# Batch Script 
 
 Windows işletim sistemlerinin ortak programlama dilidir.
 

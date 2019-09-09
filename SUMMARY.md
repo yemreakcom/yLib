@@ -126,6 +126,7 @@
   - [📦 Uygulamalar](./Uygulama%20Notlar%C4%B1/README.md)
     - [0 - Faydalı Uygulamalar](./Uygulama%20Notlar%C4%B1/0%20-%20Faydal%C4%B1%20Uygulamalar.md)
     - [Anaconda](./Uygulama%20Notlar%C4%B1/Anaconda.md)
+    - [CClenaer](./Uygulama%20Notlar%C4%B1/CClenaer.md)
     - [JetBrains IDE](./Uygulama%20Notlar%C4%B1/JetBrains%20IDE.md)
     - [LGSV Simulator](./Uygulama%20Notlar%C4%B1/LGSV%20Simulator.md)
     - [Nodepad++](./Uygulama%20Notlar%C4%B1/Nodepad%2B%2B.md)

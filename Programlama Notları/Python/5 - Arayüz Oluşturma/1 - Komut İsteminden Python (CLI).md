@@ -1,10 +1,23 @@
 # Komut İsteminden Python (CLI)
 
-- Komut isteminden gelen argümanları **argparse** adlı modül ile yönetmekteyiz
-- Otomatik kod tamamlaması için [buraya](https://stackoverflow.com/a/15289025/9770490) bakmanda fayda var.
-- Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
+Kullanıcı cmd üzerinden `python <dosya_adı> <argümanlar>` gibi komutlarla programımızı kullanabilir
 
-> Terminali komumtları yazmak için `os.system('<komut>')`
+> Terminal (komut istemi) komutları yazmak için `os.system('<komut>')`
+
+## 🕹 Komut İstemi Paremetre Yönetimi
+
+| Modül                                               | Açıklama                                        |
+| --------------------------------------------------- | ----------------------------------------------- |
+| argparse                                            | Komut isteminden parametre alma                 |
+| [argcomplate](https://stackoverflow.com/a/15289025) | Komut istemi tamamlaması (**linux shell** için) |
+
+## ✨ Komut İsteminde Görsel Bileşenler
+
+| Modül                                                      | Açıklama                    |
+| ---------------------------------------------------------- | --------------------------- |
+| [string-color](https://gitlab.com/shindagger/string-color) | Rekli consol çıktırları     |
+| [tqdm](https://github.com/tqdm/tqdm)                       | İşlem çubuğu (progress bar) |
+
 
 ## Argparse Modülü Detayları
 
@@ -182,10 +195,3 @@ $ python arg.py --nargs-int-type -1234 2345 -3456 4567
 $ python arg.py --append-action 1234 --append-action 2345 --append-action 3456 --append-action 4567
 ['1234', '2345', '3456', '4567']
 ```
-
-## Komut İsteminde Görsel Bileşenler
-
-| Modül                                          | Açıklama                    |
-| ---------------------------------------------- | --------------------------- |
-| [tqdm](https://github.com/tqdm/tqdm)           | İşlem çubuğu (progress bar) |
-| [coloroma](https://pypi.org/project/colorama/) | Renkli konsol çıktıları     |

@@ -4,6 +4,8 @@ description: Kişisel windows ayarlarım ile 📈 üretkenliğini arttırmaya ne
 
 # 🚀 Sıfırdan Windows 10
 
+![](../../res/windows_10_pic.png)
+
 ## 👷‍ Windows 10 Kurulumu
 
 Wİndows 10 son sürümünü indirmek için [buraya](https://www.microsoft.com/tr-tr/software-download/windows10) tıklayabilirsin.

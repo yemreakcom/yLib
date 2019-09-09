@@ -1,3 +1,7 @@
+---
+description: Kişisel windows ayarlarım ile 📈 üretkenliğini arttırmaya ne dersin?
+---
+
 # 🚀 Sıfırdan Windows 10
 
 ## 👷‍ Windows 10 Kurulumu

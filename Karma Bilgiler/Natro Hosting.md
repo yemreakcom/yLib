@@ -1,4 +1,4 @@
-# Natro
+# Natro Hosting
 
 Bu hizmeti kullandığımdan dolayı, buradaki sistemi özetleyen paylaşımlarda bulunmak istedim.
 

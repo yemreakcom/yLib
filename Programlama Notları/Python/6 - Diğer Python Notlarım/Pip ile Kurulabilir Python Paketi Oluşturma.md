@@ -2,7 +2,7 @@
 description: Python paket yöneticisi olan pip ile projenizin indirilebilir olmasını sağlamak isterseniz okumaya devam edin.
 ---
 
-# Pip ile Kurulabilir Python Paketi Oluşturma
+# 📦 Pip ile Kurulabilir Python Paketi Oluşturma
 
 Nasıl bir şey mi yapmış olacaksınız 👇
 

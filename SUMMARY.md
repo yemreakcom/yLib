@@ -96,6 +96,7 @@
         - [1 - Komut İsteminden Python (CLI)](./Programlama%20Notlar%C4%B1/Python/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/1%20-%20Komut%20%C4%B0steminden%20Python%20%28CLI%29.md)
         - [2 - Python Görsel Programlama (GUI)](./Programlama%20Notlar%C4%B1/Python/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/2%20-%20Python%20G%C3%B6rsel%20Programlama%20%28GUI%29.md)
       - [6 - Diğer Python Notlarım](./Programlama%20Notlar%C4%B1/Python/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m)
+        - [Pip Üzerine Python Paketi Aktarma](./Programlama%20Notlar%C4%B1/Python/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Pip%20%C3%9Czerine%20Python%20Paketi%20Aktarma.md)
         - [X - Python İleri Seviye](./Programlama%20Notlar%C4%B1/Python/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/X%20-%20Python%20%C4%B0leri%20Seviye.md)
       - [Python Notebooks](./Programlama%20Notlar%C4%B1/Python/Python%20Notebooks/README.md)
         - [images](./Programlama%20Notlar%C4%B1/Python/Python%20Notebooks/images/README.md)

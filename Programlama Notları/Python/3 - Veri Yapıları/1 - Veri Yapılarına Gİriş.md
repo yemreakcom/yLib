@@ -27,6 +27,26 @@ Birden fazla veriyi saklamak için kullanılan değişkendir. (array)
 - `[<değişken> for <değişken> in <dizi | liste | menzil> if <koşul>` İstenen koşullardaki elemanların listesini verir
   - Örn: `[x for x in range(0, 5) if x != 20]`
 
+### İki Listenin Farkı (Sırası Önemli ve Güvenli Yöntem)
+
+```py
+a = [1, 2, 20, 6, 210]
+b = set([6, 20, 1])
+[x for x in a if x not in b]
+```
+
+> [Converting a list to a set changes element order](https://stackoverflow.com/a/9792680)
+
+### İki Listenin Farkı (Sırası Önemsiz ve Eşsiz Veriler)
+
+```py
+a = [1, 2, 20, 6, 210]
+b = [1, 2, 210]
+list3 = list(set(list1) - set(list2))
+```
+
+> [Remove all values within one list from another list?](https://stackoverflow.com/a/30353802)
+
 ## Array
 
 Matematiksel işlemler ve _Data Science_ için tercih edilen modüldür.

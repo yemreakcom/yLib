@@ -4,6 +4,10 @@ description: Python paket yöneticisi olan pip ile projenizin indirilebilir olma
 
 # Pip ile Kurulabilir Python Paketi Oluşturma
 
+Nasıl bir şey mi yapmış olacaksınız 👇
+
+![](../../../res/pip_package_ex.png)
+
 ## 🎟 PyPI'ya Kayıt olma
 
 - [PyPI Register](https://pypi.org/account/register/)

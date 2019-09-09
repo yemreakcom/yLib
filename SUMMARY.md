@@ -21,6 +21,7 @@
     - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
     - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
     - [Natro Hosting](./Karma%20Bilgiler/Natro%20Hosting.md)
+    - [Scripting Languages](./Karma%20Bilgiler/Scripting%20Languages.md)
     - [Tasarım Notları](./Karma%20Bilgiler/Tasar%C4%B1m%20Notlar%C4%B1.md)
     - [Udemy Ücresiz Kurslar](./Karma%20Bilgiler/Udemy%20%C3%9Ccresiz%20Kurslar.md)
     - [Web Sitesi Yönetimi](./Karma%20Bilgiler/Web%20Sitesi%20Y%C3%B6netimi.md)

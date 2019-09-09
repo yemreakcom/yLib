@@ -41,6 +41,7 @@ description: Google'un sunduğu gelişmiş web araçları ve eklentileri olan ta
 | [🚀 OneTab Plus][Onetab plus]                                                                                                                | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)                     | Kullanılmayan sekmeleri uyku moduna alır             |
 | [❤ Booky.io](https://booky.io/)                                                                                                              | Bookmark yönetim aracı                               |
+| [⏪ Youtube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik)     | Youtube hız kontrolü                                 |
 | [⌨ Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen)                               | İngilizce imla kuralları kontrolü                    |
 | [💌 Temp Mail][temp mail]                                                                                                                    | Geçici mail oluşturma eklentisi.                     |
 | [🔐 LastPass](https://www.lastpass.com/)                                                                                                     | Şifreleri saklama  uygulaması                        |

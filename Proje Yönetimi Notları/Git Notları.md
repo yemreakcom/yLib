@@ -311,6 +311,18 @@ git gc
 git push origin master --force
 ```
 
+### Git Tag'ları Kaldırma (Release Aşamasındakiler)
+
+```sh
+# Localde kaldırma
+git tag -d `git tag | grep -E '.'`
+
+# Remote'da kaldırma
+git ls-remote --tags origin | awk '/^(.*)(s+)(.*[a-zA-Z0-9])$/ {print ":" $2}' | xargs git push origin
+```
+
+> [Deleting Git Tags Locally and on Github](https://www.alwaystwisted.com/articles/deleting-git-tags-locally-and-on-github)
+
 ## Uygulamalar Üzerinde Git
 
 ### JetBrains IDEs

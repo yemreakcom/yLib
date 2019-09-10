@@ -4,7 +4,7 @@
 
 İlk olarak bilgisayarımızda *Java JDK*'nin yüklü olması gerektiğinden [buraya][Java JDK 8] tıklayarak indirme bağlantısına gitmelisin ve uygun *JDK*'yı indirmelisin.
 
-![jdk8](../../res/java_jdk8.jpg)
+![jdk8](../../../res/java_jdk8.jpg)
 
 ## NetBeans İndirilmesi
 
@@ -23,12 +23,12 @@ Aydınlık temalar benlik değil diye düşünüyorsan, hiç merak etme *NetBean
 
 #### Resimlerle Tema ve Font Ayarlama
 
-![tema1](../../res/netbeans_tema1.jpg)
-![tema2](../../res/netbeans_tema2.jpg)
-![tema3](../../res/netbeans_tema3.jpg)
-![tema4](../../res/netbeans_tema4.jpg)
-![tema5](../../res/netbeans_tema5.jpg)
-![font1](../../res/netbeans_font.jpg)
+![tema1](../../../res/netbeans_tema1.jpg)
+![tema2](../../../res/netbeans_tema2.jpg)
+![tema3](../../../res/netbeans_tema3.jpg)
+![tema4](../../../res/netbeans_tema4.jpg)
+![tema5](../../../res/netbeans_tema5.jpg)
+![font1](../../../res/netbeans_font.jpg)
 
 ## İlk Projeyi Oluşturma
 
@@ -36,9 +36,9 @@ Sırasıyla: `File` -> `New Project` -> `Java Application` -> `Next` -> `"Proje 
 
 ### Resimler ile Proje Oluşturma Anlatımı
 
-![proje1](../../res/netbeans_project.jpg)
-![proje2](../../res/netbeans_project2.jpg)
-![proje3](../../res/netbeans_project3.jpg)
+![proje1](../../../res/netbeans_project.jpg)
+![proje2](../../../res/netbeans_project2.jpg)
+![proje3](../../../res/netbeans_project3.jpg)
 
 <!-- Links -->
 

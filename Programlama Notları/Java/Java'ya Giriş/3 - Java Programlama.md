@@ -8,7 +8,7 @@ Programlamaya başlamanın olmazsa olmazlarından biri de *consola* `"Merhaba D�
 
 `"İlk Program"` adında bir proje oluşturalım.
 
-![first](../../res/netbeans_first.jpg)
+![first](../../../res/netbeans_first.jpg)
 
 ## Birkaç Faydalı Terim
 
@@ -25,7 +25,7 @@ Kesinlikle Bilmeliyiz ki, Java'da kodlar **main** methodu üzerinden okunmaya ba
 
 > Soldan sağa ilerler.
 
-![class](../../res/java_class.jpg) ![method](../../res/java_method.jpg)
+![class](../../../res/java_class.jpg) ![method](../../../res/java_method.jpg)
 
 ## Ekrana Yazı Basma
 
@@ -34,18 +34,18 @@ Kesinlikle Bilmeliyiz ki, Java'da kodlar **main** methodu üzerinden okunmaya ba
 - Ekrandaki yeşil **play** butona ya da <kbd>F6</kbd> 'ya basarak derleyin
 - Çıktı *java console*unda (alttaki ekran) oluşacaktır
 
-![Console Out](../../res/java_console_out.png)
+![Console Out](../../../res/java_console_out.png)
 
 > `sout` yazıp <kbd>CTRL</kbd> + <kbd>SPACE</kbd> yaparsan <kbd>ENTER</kbd>'a absarak derleyici sana tam halini gösterecektir. (İmleç olması gereken yerde olacaktır)
 
-![Sout](../../res/java_sout.png)
+![Sout](../../../res/java_sout.png)
 
 ## Ekrana Çoklu Yazı Basma
 
 - `System.out.println("");` Tırnak işareti içindeki veriyi ekrana yazdırıp, **yeni bir satır** atlatır.
 - `System.out.print("");` Tırnak işareti içindeki veriyi ekrana yazdırıp, **satır atlatmaz**
 
-![Sout1](../../res/java_sout_ex.png) ![Sout2](../../res/java_sout_ex2.png)
+![Sout1](../../../res/java_sout_ex.png) ![Sout2](../../../res/java_sout_ex2.png)
 
 <!--- Links -->
 

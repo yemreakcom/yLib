@@ -1,4 +1,4 @@
-# Faydalı Component Metodları
+# Java GUI Component Metodları
 
 Faydalı olabilecek *component* (frame, panel, label) Metot'ları
 

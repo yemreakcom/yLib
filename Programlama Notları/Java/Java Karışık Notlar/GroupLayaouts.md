@@ -26,13 +26,13 @@
 - Dikey İnceleme için hayali yatay çizgiler çiziyoruz
 - Aynı çizgide olanlar paralel, farklı çizgilerde olanlar seridir.
 
-![java_gl_temel](../../res/java_gl_temel.png)
+![java_gl_temel](../../../res/java_gl_temel.png)
 
 ## Basit Bir Örnek
 
 Alt taraftaki gibi bir çıktı almak istediğimiz zaman, adım adım yatay ve dikey olarak inceleme yapmamız gerekmekte; (gl = GroupLayout, b1 = buton1, b2 = buton2)
 
-![java gl örnek](../../res/java_gl_ex1.png)
+![java gl örnek](../../../res/java_gl_ex1.png)
 
 ### Yatay Olarak İncelersek
 
@@ -62,7 +62,7 @@ gl.setVerticalGroup(
 
 ### Detaylı Resim İle Açıklama
 
-![inceleme1](../../res/java_gl1.png)
+![inceleme1](../../../res/java_gl1.png)
 
 > Kaynak kodlarını YScript içerisinde.
 
@@ -70,7 +70,7 @@ gl.setVerticalGroup(
 
 Alt taraftaki gibi bir çıktı almak istediğimiz zaman, adım adım yatay ve dikey olarak inceleme yapmamız gerekmekte; (gl = GroupLayout, b1 = buton1, b2 = buton2)
 
-![java gl örnek2](../../res/java_gl_ex2.png)
+![java gl örnek2](../../../res/java_gl_ex2.png)
 
 ### Örneği Yatay Olarak İncelersek
 
@@ -93,7 +93,7 @@ gl.setHorizontalGroup(
 
 Dikeyde boşluk bulunmamakta.
 
-![pic1](../../res/java_gl_pic1.png)
+![pic1](../../../res/java_gl_pic1.png)
 
 ```java
 gl.setVerticalGroup(
@@ -106,11 +106,11 @@ gl.setVerticalGroup(
 
 ### Ek Örnek Daha
 
-![ex3](../../res/java_gl_ex3.png)
+![ex3](../../../res/java_gl_ex3.png)
 
 ## Karmaşık Bir Örnek
 
-![karma1](../../res/java_gl_karma1.png)
+![karma1](../../../res/java_gl_karma1.png)
 
 ### Yatay Olarak İncelersek (Kırmızı Çizgiler)
 
@@ -140,11 +140,11 @@ gl.setVerticalGroup(
 
 ### Sonuç Resmi
 
-![result](../../res/java_gl_result1.png)
+![result](../../../res/java_gl_result1.png)
 
 ### Hızlı Örnekler
 
-![hard1](../../res/java_gl_hard1.png)
+![hard1](../../../res/java_gl_hard1.png)
 
 **Yatay Olarak İncelersek:**
 
@@ -158,7 +158,7 @@ gl.setVerticalGroup(
 
 ---
 
-![hard2](../../res/java_gl_hard2.png)
+![hard2](../../../res/java_gl_hard2.png)
 
 **Yatay Olarak İncelersek (Kırmızılar):**
 
@@ -173,4 +173,4 @@ gl.setVerticalGroup(
 
 ---
 
-![hard3](../../res/java_gl_hard3.png)
+![hard3](../../../res/java_gl_hard3.png)

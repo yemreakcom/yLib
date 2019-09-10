@@ -26,13 +26,13 @@
 
 Klavyeden alınan girdileri, ilk **whitespace** girdisine kadar almakta ve bu girdiyi **string** türünde döndürmekte.
 
-![next](../res/scanner_next.png)
+![next](../../../res/scanner_next.png)
 
 ### `nextLine` Metodu
 
 Klavyeden alınan girdileri, ilk <kbd>ENTER</kbd> (`"\n"`) girdisine kadar almakta ve bu girdiyi **string** türünde döndürmekte.
 
-![nextline](../res/scanner_nextline;.png)
+![nextline](../../../res/scanner_nextline;.png)
 
 ### `nextByte` `nextShort` `nextInt` `nextLong` `nextFloat` `nextDouble` Metodları
 
@@ -40,7 +40,7 @@ Klavyeden alınan girdileri `byte` / `short`/ `int` / `long` / `float` / `double
 
 > Farklı bir aralıkta sayı değeri girilirse, hata (`exception`) verir.
 
-![nextvar](../res/scanner_nextvar.jpg)
+![nextvar](../../../res/scanner_nextvar.jpg)
 
 ### `hasNext` Metodu
 
@@ -48,7 +48,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 
 > Şekillendirilebilir. `hasNextInt()` bir sonraki satırda `int` olup olmadığını kontrol eder ve sonuca göre `true` / `false` döndürür.
 
-![hasnext](../res/scanner_hasnext.png)
+![hasnext](../../../res/scanner_hasnext.png)
 
 ### `useDelimeter` Metodu
 
@@ -58,7 +58,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 - Normalde `next` metodu whitespace karakterine geldiğinde veri almayı kesmektedir.
 - Bu metotdan sonra `next` metodu **parametreye** denk geldiğinde veri almayı kesmiş olacak.
 
-![usedelim](../res/scanner_usedelim.png)
+![usedelim](../../../res/scanner_usedelim.png)
 
 ### `delimeter` Metodu
 
@@ -69,7 +69,7 @@ Scanner tipinde tanımlanmış olan değişkenin sınırlayıcısını döndür�
 
 > `"\p{javaWhitespace}+"` deyimi Java whitespace olarak aşağıda tanımlanmıştır.
 
-![delim](../res/scanner_delim.png)
+![delim](../../../res/scanner_delim.png)
 
 ### `close` Metodu
 

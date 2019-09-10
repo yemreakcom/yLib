@@ -1,6 +1,4 @@
-# C, C++ Notları
-
-## Harici Bağlantılar
+# C, C++ için Harici Bağlantılar
 
 - [C biliyor musunuz?]
 

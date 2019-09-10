@@ -39,7 +39,7 @@ Yazdırılacak olan **string** değeri için **20 karakterlik** bir alan ayırı
 
 ![scanf_negative_s][Scanf Negative]
 
-[Scanf Example]: ../res/blogger_scanf.png
-[Scanf Out]: ../res/blogger_scanf_out.png
-[Scanf Fix]: ../res/blogger_scanf_fix.png
-[Scanf Negative]: ../res/scanf_negative_s.png
+[Scanf Example]: ../../res/blogger_scanf.png
+[Scanf Out]: ../../res/blogger_scanf_out.png
+[Scanf Fix]: ../../res/blogger_scanf_fix.png
+[Scanf Negative]: ../../res/scanf_negative_s.png

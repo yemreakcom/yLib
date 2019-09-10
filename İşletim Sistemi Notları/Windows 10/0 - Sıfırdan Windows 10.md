@@ -27,13 +27,15 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 
 ### 👜 Windows Store Üzerinden Uygulamarın Kurulumu
 
-| Uygulama                                                                                                                   | Açıklama                                         |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [🖼 Sharex](https://www.microsoft.com/tr-tr/p/sharex/9nblggh4z1sp?activetab=pivot%3Aoverviewtab)                           | Ekran görüntüsü alma                             |
-| [🔍 Quick Look](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                      | Dosyaları açamadan <kbd>SPACE</kbd> ile önizleme |
-| [🖤 Windows Terminal](https://www.microsoft.com/tr-tr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab) | Windows'un yeni şık terminali                    |
-| [📝 Notepad](https://www.microsoft.com/tr-tr/p/notepad/9n7lrq8p8pd5?activetab=pivot:overviewtab)                           | Sade tasarımlı not defteri                       |
-| 📔 OneNote                                                                                                                 | Not alma uygulaması (Gömülü olarak gelir)        |
+| Uygulama                                                                                                                                                                       | Açıklama                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| [🖼 Sharex](https://www.microsoft.com/tr-tr/p/sharex/9nblggh4z1sp?activetab=pivot%3Aoverviewtab)                                                                               | Ekran görüntüsü alma                             |
+| [🔍 Quick Look](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                                                                          | Dosyaları açamadan <kbd>SPACE</kbd> ile önizleme |
+| [🆗 Tureng Sözlük](https://www.microsoft.com/tr-tr/p/tureng-sozluk/9wzdncrfjb1g?utm_source=AppAgg.com&utm_medium=AppAgg&utm_campaign=AppAgg&rtc=1&activetab=pivot:overviewtab) | İngilizce - Türkçe Sözlük                        |
+| [✅ SpellBoy - Spell & Grammar Check](https://www.microsoft.com/tr-tr/p/spellboy-spell-grammar-check/9nc12crwc360?activetab=pivot:overviewtab)                                  | Yabancı diller için imla kontorlü                |
+| [🖤 Windows Terminal](https://www.microsoft.com/tr-tr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)                                                     | Windows'un yeni şık terminali                    |
+| [📝 Notepad](https://www.microsoft.com/tr-tr/p/notepad/9n7lrq8p8pd5?activetab=pivot:overviewtab)                                                                               | Sade tasarımlı not defteri                       |
+| 📔 OneNote                                                                                                                                                                     | Not alma uygulaması (Gömülü olarak gelir)        |
 
 > Store üzerinden indirilen Python, Git Bash üzerinden kullanılamıyor (`Permission denied`). Bu yüzden store'dan değil web sitesinden indirilmeli. 
 

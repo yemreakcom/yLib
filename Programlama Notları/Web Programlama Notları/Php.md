@@ -20,3 +20,7 @@ Install extension from [this](https://chrome.google.com/webstore/detail/xdebug-h
 ```cmd
 php -r "echo PHP_INT_SIZE";
 ```
+
+## 🔗 Harici Bağlantılar
+
+- [Tip: Show the last git commit in the site footer](https://www.lullabot.com/articles/tip-show-the-last-git-commit-in-the-site-footer)

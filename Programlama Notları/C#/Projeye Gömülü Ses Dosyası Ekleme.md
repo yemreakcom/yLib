@@ -1,4 +1,4 @@
-# Projeye Gömülü Ses Dosyaı Ekleme
+# C# Projeye Gömülü Ses Dosyası Ekleme
 
 Öncelikle bu yazıda, Windows Form App.'da (C#'da) ses dosyasını `.exe` dosyası içine **gömülü** olarak yerleştirmesi ve kullanılması ele alınacaktır. Yani ses dosyalarını, programın yanında **ek dosyalar olarak değil de programın içine yerleşik olmasının** nasıl sağlanacağına değinilecektir.
 

@@ -407,6 +407,21 @@ def draw_dimension(hotkey="ctrl_l") -> tuple:
 print(draw_dimension())
 ```
 
+## Python ile System Komutları Çalıştırma
+
+```py
+import subprocess, os
+
+# İstenilen dizine girme
+os.chdir(os.path.dirname(__file__))
+
+# Orjinal komut: git descript --always
+print(subprocess.check_output(["git", "describe", "--always"]).strip().decode())
+```
+
+> [Get the current git hash in a Python script](https://stackoverflow.com/a/57683700/9770490)
+
+
 ### 🔗 Haric Bağlantılar
 
 - [How to Run a Shell Command from Python and Get The Output?](https://cmdlinetips.com/2014/03/how-to-run-a-shell-command-from-python-and-get-the-output/)

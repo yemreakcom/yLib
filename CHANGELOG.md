@@ -1,9 +1,15 @@
+---
+description: Sitede neler olup bittiğinin ([🏗 commitlerin](https://github.com/yedhrab/YBilgiler/commits/master)) raporudur.
+---
+
 # Changelog
 
 
 ## ✨ Güncel
 
 ### 🚀 Yenilikler
+
+* 🖤 Python ile System Komutları Çalıştırma notu eklendi. [Yunus Emre]
 
 * 🌟 Değişklikleri takip etme alanı eklendi. [Yunus Emre]
 
@@ -21,7 +27,13 @@
 
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
+### 🌌 Değişikler
+
+* Update CHANGELOG.md. [Yunus Emre]
+
 ### 🗽 Düzeltmeler
+
+* 👀 Değişiklikler sayfası olarak düzeltildi. [Yunus Emre]
 
 * 🐞 `|` sorunu giderildi. [Yunus Emre]
 

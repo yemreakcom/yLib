@@ -3,7 +3,7 @@
 # Summary
 
 - [📖 YWiki](./README.md)
-  - [🌟 Yenilikler](./CHANGELOG.md)
+  - [👀 Neler değişti](./CHANGELOG.md)
   - [🚀 Awesome](./Awesome/README.md)
   - [🤸‍ Cheet Sheets](./Cheet%20Sheets/README.md)
   - [🤺 Eski Blog Notlarım](./Eski%20Blog%20Notlar%C4%B1m/README.md)

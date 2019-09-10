@@ -39,6 +39,7 @@ Tüm seçme işlemleri `$(<işlem>)` ve `$$(<işlem>)` komutu ile yapılır.
 | `"#yemreak"`           | ID'si yemreak olan eleman                          |
 | `".yemre"`             | `yemre` *class*'ına sahip olan elemanlar           |
 | `"[href]"`             | `href` özelliği olan elemanlar                     |
+| `"[attribute=value]"`  | Özelliğe göre eleman alma                          |
 | `"a[target='_blank']"` | `target`'i `_blank` olan linkler                   |
 | `"p.active"`           | `active` *class*'ına sahip olan tüm *p* elemanları |
 | `"*"`                  | Her eleman                                         |

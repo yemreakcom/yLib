@@ -50,7 +50,7 @@ setup(
     # Provide either the link to your github or to your website
     url='https://github.com/github_hesabı/PAKET_İSMİ',
     # I explain this later on
-    download_url=f'https://github.com/github_hesabı/PAKET_İSMİ/archive/v{VERSION}.tar.gz',
+    download_url=f'https://github.com/github_hesabı/PAKET_İSMİ/archive/{VERSION}.tar.gz',
     # Keywords that define your package best
     keywords=['Alakalı', 'kelimeler'],
     install_requires=[            # Bağımlılıklar
@@ -92,9 +92,9 @@ GitHub üzeinden repository oluşturun ve projenizi oraya upload edin.
 - GitHub projenizin urline girin
 - **Release** alanına tıklayın
 - Daha önceden varsa <kbd>Edit</kbd> yoksa <kbd>Create</kbd> butonuna tıklayın ve yeni bir sürüm oluşturun
-- `Tags` alanına `setup.py` dosyamızdaki `VERSION` değerinin başına `v` ekleyerek yazın
-  - Download url kısmındaki `...v{VERSION}.tar.gz'` yapısından dolayı başına `v` ekledik
-  - Örn: `v1.0.0`
+- `Tags` alanına `setup.py` dosyamızdaki `VERSION` değerini yazın
+  - Download url kısmındaki `...{VERSION}.tar.gz'` yapısından dolayı
+  - Örn: `1.0.0`
 - Açıklamalarınızı yapıp <kbd>Update Relesae</kbd> butonuna basın
   - Ek olarak dosya eklemenize gerek yoktur
 

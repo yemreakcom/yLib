@@ -36,6 +36,7 @@
     - [Kotlin](./Programlama%20Notlar%C4%B1/Kotlin.md)
     - [Markdowns](./Programlama%20Notlar%C4%B1/Markdown.md)
     - [MySQL](./Programlama%20Notlar%C4%B1/MySQL.md)
+    - [Nodejs](./Programlama%20Notlar%C4%B1/Nodejs.md)
     - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
     - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
     - [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)

@@ -31,6 +31,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Update CHANGELOG.md. [Yunus Emre]
 
+* Update CHANGELOG.md. [Yunus Emre]
+
 ### 🗽 Düzeltmeler
 
 * 👀 Değişiklikler sayfası olarak düzeltildi. [Yunus Emre]

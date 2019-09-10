@@ -6,6 +6,8 @@ description: Python paket yöneticisi olan pip ile projenizin indirilebilir olma
 
 Nasıl bir şey mi yapmış olacaksınız 👇
 
+> Eski adı: Pip Üzerinde Paket Yayınlama
+
 ![](../../../res/pip_package_ex.png)
 
 ## 🎟 PyPI'ya Kayıt olma

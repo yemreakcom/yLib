@@ -1,5 +1,5 @@
 ---
-description: Sitede neler olup bittiğinin ([🏗 commitlerin](https://github.com/yedhrab/YBilgiler/commits/master)) raporudur.
+description: Sitede neler olup bittiğinin raporudur.
 ---
 
 # Changelog

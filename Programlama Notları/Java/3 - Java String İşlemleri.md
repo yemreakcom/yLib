@@ -29,25 +29,9 @@
 
 ## Regex
 
-Split işlemlerinde sıklıkla kullanılan ayırıcı özelliklerdir.
+Fazla miktardaki metinleri veya büyük boyutlu string metinlerini ayrıştam için kullanılan dil formatı 🕵️‍
 
-| İşlem              | Açıklama                           |
-| ------------------ | ---------------------------------- |
-| `(<regex><regex>)` | And işlemi                         |
-| `[<regex><regex>]` | Or işlemi                          |
-| `": \\s+"`         | `": "` göre ayırma                 |
-| `\\.`              | `.` ya göre ayırma (`"."` çalışmaz |
-
-| Greedy   | Reluctant | Possessive | Meaning                                 |
-| -------- | --------- | ---------- | --------------------------------------- |
-| `X?`     | `X??`     | `X?+`      | X, once or not at all                   |
-| `X\*`    | `X\*?`    | `X\*+`     | X, zero or more times                   |
-| `X+`     | `X+?`     | `X++`      | X, one or more times                    |
-| `X{n}`   | `X{n}?`   | `X{n}+`    | X, exactly n times                      |
-| `X{n,}`  | `X{n,}?`  | `X{n,}+`   | X, at least n times                     |
-| `X{n,m}` | `X{n,m}?` | `X{n,m}+`  | X, at least n but not more than m times |
-
-> Kaynak için [buraya](https://docs.oracle.com/javase/tutorial/essential/regex/quant.html) bakabilirsin.
+> Siteden **Regex** araması yaparak, ilgili alana bakmanı tavsiye ederim.
 
 ## Verimli String İşlemleri
 

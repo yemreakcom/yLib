@@ -120,6 +120,7 @@
     - [📖 GitBook Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/GitBook.md)
     - [Github Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
   - [🔮 Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/README.md)
+    - [Blockchain](./Teknoloji%20Notlar%C4%B1/Blockchain.md)
     - [HP Bilgisayar Notları](./Teknoloji%20Notlar%C4%B1/HP%20Bilgisayar%20Notlar%C4%B1.md)
     - [HTC Desire 820](./Teknoloji%20Notlar%C4%B1/HTC%20Desire%20820.md)
     - [Telefon Rehberini Taşıma](./Teknoloji%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1ma.md)

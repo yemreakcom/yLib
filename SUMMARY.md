@@ -7,7 +7,6 @@
   - [🤸‍ Cheet Sheets](./Cheet%20Sheets/README.md)
   - [🤺 Eski Blog Notlarım](./Eski%20Blog%20Notlar%C4%B1m/README.md)
     - [MIT gibi Yurt Dışı Eğitimleri Hakkında](./Eski%20Blog%20Notlar%C4%B1m/MIT%20gibi%20Yurt%20D%C4%B1%C5%9F%C4%B1%20E%C4%9Fitimleri%20Hakk%C4%B1nda.md)
-    - [Windows](./Eski%20Blog%20Notlar%C4%B1m/Windows)
   - [📍 Google Notları](./Google%20Notlar%C4%B1/README.md)
     - [Google Hızlı Bakış](./Google%20Notlar%C4%B1/0%20-%20Google%20H%C4%B1zl%C4%B1%20Bak%C4%B1%C5%9F.md)
     - [Drive Notları](./Google%20Notlar%C4%B1/Drive%20Notlar%C4%B1.md)

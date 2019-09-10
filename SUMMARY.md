@@ -38,6 +38,7 @@
     - [Markdowns](./Programlama%20Notlar%C4%B1/Markdown.md)
     - [Nodejs](./Programlama%20Notlar%C4%B1/Nodejs.md)
     - [NPM](./Programlama%20Notlar%C4%B1/NPM.md)
+    - [Regex](./Programlama%20Notlar%C4%B1/Regex.md)
     - [Shell Script](./Programlama%20Notlar%C4%B1/Shell%20Script.md)
     - [Verimli Programlama](./Programlama%20Notlar%C4%B1/Verimli%20Programlama.md)
     - [📱 Android](./Programlama%20Notlar%C4%B1/Android/README.md)

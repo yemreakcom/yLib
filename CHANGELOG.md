@@ -21,6 +21,12 @@
 
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
+### 🗽 Düzeltmeler
+
+* 🐞 `|` sorunu giderildi. [Yunus Emre]
+
+  `|` yerine `<or>` kullanıldı,
+
 
 ## 1.0 (2019-09-10)
 

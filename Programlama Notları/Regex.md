@@ -12,14 +12,16 @@ Kullanım formatı `r""` (python) veya `/ /` (javascript) şeklindedir.
 
 ## 🦥 Temel İşlemler
 
-| RegEx       | Açıklama                                    |
-| ----------- | ------------------------------------------- |
-| `|`         | Or işlemi veya anlamına gelir               |
-| `[ab]`      | `a` veya `b` demektir                       |
-| `(ab)`      | `ab` demektir                               |
-| `(ab )`     | `ab ` anlamına gelir (⚠ ` ` boşluğa dikkat) |
-| `[ab]|(ab)` | `a` veya `ab`, `b` veya `ab` demektir       |
-| `[aA]nkara` | `Ankara` veya `ankara` metinlerini bulur    |
+Şu 👉 `|` operatörün gösteriminde sorun olduğundan `<or>` olarak ifade edilecek.
+
+| RegEx          | Açıklama                                    |
+| -------------- | ------------------------------------------- |
+| `<or>`         | Or işlemi veya anlamına gelir               |
+| `[ab]`         | `a` veya `b` demektir                       |
+| `(ab)`         | `ab` demektir                               |
+| `(ab )`        | `ab ` anlamına gelir (⚠ ` ` boşluğa dikkat) |
+| `[ab]<or>(ab)` | `a` veya `ab`, `b` veya `ab` demektir       |
+| `[aA]nkara`    | `Ankara` veya `ankara` metinlerini bulur    |
 
 ## 💯 Sayısal İşlemler
 
@@ -36,12 +38,12 @@ Kullanım formatı `r""` (python) veya `/ /` (javascript) şeklindedir.
 
 ## 🔍 Kelime Arama
 
-| Regex            | Açıklama                                                                  | Link                                  |
-| ---------------- | ------------------------------------------------------------------------- | ------------------------------------- |
-| `\wab\w`         | `ab` geçen **4 harfli** kelimeleri bulur (özel karakterleri desteklemez)  | [🔗](https://regex101.com/r/TxuXuH/2) |
-| `\baş`           | Metin içerisinde `aş` olanları bulur (özel karakterleri (`ş`) destekler ) | [🔗](https://regex101.com/r/TxuXuH/3) |
-| `(\baş )`        | İçerisinde `aş ` geçen cümleleri bulur                                    | [🔗](https://regex101.com/r/TxuXuH/5) |
-| `\byunus|\bemre` | `yunus` veya `emre` olan kelimeleri bulur                                 | [🔗](https://regex101.com/r/TxuXuH/6) |
+| Regex               | Açıklama                                                                  | Link                                  |
+| ------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
+| `\wab\w`            | `ab` geçen **4 harfli** kelimeleri bulur (özel karakterleri desteklemez)  | [🔗](https://regex101.com/r/TxuXuH/2) |
+| `\baş`              | Metin içerisinde `aş` olanları bulur (özel karakterleri (`ş`) destekler ) | [🔗](https://regex101.com/r/TxuXuH/3) |
+| `(\baş )`           | İçerisinde `aş ` geçen cümleleri bulur                                    | [🔗](https://regex101.com/r/TxuXuH/5) |
+| `\byunus<or>\bemre` | `yunus` veya `emre` olan kelimeleri bulur                                 | [🔗](https://regex101.com/r/TxuXuH/6) |
 
 ## 🎡 Karışık İşlemler
 

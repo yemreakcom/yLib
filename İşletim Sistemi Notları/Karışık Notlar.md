@@ -4,6 +4,12 @@ description: İçerisinde ne olabileceği hakkında hiçbir fikrim yok ama en az
 
 # Karışık Notlar
 
+## Dosya Kodlanmasını (Encoding) Değiştirme
+
+```sh
+iconv -f WINDOWS-1252 -t UTF-8 infile.txt > outfile.txt
+```
+
 ## 32 vs 64 Bit
 
 - 32 bit $2 ^ {34}$ bit yani **4 GB**'lık çıktı verebilir

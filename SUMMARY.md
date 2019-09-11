@@ -171,6 +171,8 @@
       - [miniprojects](./Veri%20Bilimi/Data%20Science%20Notebooks/miniprojects/README.md)
         - [dw-data](./Veri%20Bilimi/Data%20Science%20Notebooks/miniprojects/dw-data/README.md)
         - [pw-data](./Veri%20Bilimi/Data%20Science%20Notebooks/miniprojects/pw-data/README.md)
+    - [Düzeltilmiş Notlar](./Veri%20Bilimi/D%C3%BCzeltilmi%C5%9F%20Notlar)
+      - [🕵️‍ İnternetten Veri Çekme İşlemi](./Veri%20Bilimi/D%C3%BCzeltilmi%C5%9F%20Notlar/%C4%B0nternetten%20Veri%20%C3%87ekme%20%C4%B0%C5%9Flemi.md)
     - [Kişisel Notlar](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/README.md)
       - [Veri Bilimine Giriş](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/1%20-%20Veri%20Bilmine%20Giri%C5%9F.md)
       - [NumPy](./Veri%20Bilimi/Ki%C5%9Fisel%20Notlar/1.1%20-%20Numpy.md)

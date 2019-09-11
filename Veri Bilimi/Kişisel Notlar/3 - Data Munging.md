@@ -15,6 +15,23 @@ Günlük hayatta veriler istediğimiz kadar basit olmaz, bunlar üzerinde işlem
 
 Web siteleri üzerindeki tabloları çekmek için `pd.read_html` kullan.
 
+### Veri Çekme Sorunları Engellemek için `UserAgent` Ayarlama
+
+Bazı websiteleri, isteklerin nereden geldiğini bilmeden hareket edemezler. Bu sebeple isteği detaylandırmamız gerekmektedir.
+
+> `HTML` alanına bağlantıyı yazın, `pd.read_html(html)` şeklinde kullanın
+
+```py
+from urllib.request import urlopen, Request
+
+HTML = "" # Örn: https://en.wikipedia.org/
+
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.3'}
+reg_url = HTML
+req = Request(url=reg_url, headers=headers) 
+html = urlopen(req).read() # Pandas içinullanılacak html objesi
+```
+
 <details>
 <summary>Wikipedia'dan tablo çekme</summary>
 

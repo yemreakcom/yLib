@@ -35,6 +35,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🖋 Başlıklar düzeltildi. [Yunus Emre]
+
+  İnternetten Veri Çekme İşlemi sayfasındaki
+
 * 👀 Değişiklikler sayfası olarak düzeltildi. [Yunus Emre]
 
 * 🐞 `|` sorunu giderildi. [Yunus Emre]

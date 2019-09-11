@@ -38,7 +38,7 @@ html = urlopen(req).read() # Pandas için kullanılacak html objesi
 
 > ["[Python][Crawler]“HTTP Error 403: Forbidden”](https://medium.com/@speedforcerun/python-crawler-http-error-403-forbidden-1623ae9ba0f)
 
-## 🌍 Wikipedia'dan tablo çekme
+## 🌍 Internetten Tablo Çekme Örneği
 
 Tüm tablo verileri arasında `0`, `1` ... değerleri ile gezinebiliriz.
 
@@ -67,7 +67,7 @@ car_by_man = json.loads(df_list[3].to_json(orient='records'))
 - Kategorize işlemleri için birebir aynı metin aranmaz
 - `Fuzzy Match` olan yöntem ile çok benzeyen metinler aynı gruba alınır
 
-### Fuzzy Match
+### 🥴 Fuzzy Match
 
 Kelimelerin birbirine çok yakın olanlarını bulur.
 

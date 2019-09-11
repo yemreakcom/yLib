@@ -38,6 +38,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
+### 🌌 Değişikler
+
+* ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
+
 ### 🗽 Düzeltmeler
 
 * 🖋 Başlıklar düzeltildi. [Yunus Emre]

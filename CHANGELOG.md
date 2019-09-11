@@ -107,6 +107,14 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * README dosyaları oluşturuldu 🚀 [Yunus Emre]
 
+* 📖 Wiki yapısına geçildi. [Yunus Emre]
+
+  🏠  İÜ-CE hariç diğer tüm notlar tek çatı altında toplandı.
+
+  - 🔍 Arama özelliğinden faydalanma arttırıldı
+  - 🎤 Google arama motoru gibi arama sistemi ayarlandı
+  - Umarım patlamaz 🚀
+
 * SubModule notları eklendi. [Yunus Emre]
 
 * Create 0 - Windows 10 Hızlı Kurulumum.md.md. [Yunus Emre]
@@ -167,6 +175,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * URL çekme kodu eklendi 🔗 [Yunus Emre]
 
+* Tablo işlemleri arttırıldı 🆕 [Yunus Emre]
+
+* Terimler arttırıldı. [Yunus Emre]
+
 * TODO Eklentisi ayarlarım eklendi 🌳 [Yunus Emre]
 
 * SystemRoot değişkeni eklendi. [Yunus Emre]
@@ -180,6 +192,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Process bar modülü eklendi. [Yunus Emre]
 
 * Telegram bot oluşturma 🤖 [Yunus Emre]
+
+* Faydalı programlar arttırıldı ✨ [Yunus Emre]
 
 * Head snippet eklendi. [Yunus Emre]
 
@@ -243,6 +257,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Temel kod bilgirimleri eklendi ⚠ [Yunus Emre]
 
+* Tavsiye class'lar arttırıldı. [Yunus Emre]
+
 * Cmd sessiz çalıştırma eklendi 💻 [Yunus Emre]
 
 * Unicode string eklendi. [Yunus Emre]
@@ -271,6 +287,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Çok önemli ⚠ Dizin ve proje yapısı notları eklendi. [yedhrab]
 
+* Notlar arttırıldı 📚 [yedhrab]
+
 * Ek bilgiler eklendi. [yedhrab]
 
 * Kısayol ayalarım eklendi. [yedhrab]
@@ -285,6 +303,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Ek kaynaklar eklendi 🗂 [yedhrab]
 
+* Java için GUI notları arttırıldı 🖼 [yedhrab]
+
 * VsCode için debug ayarı eklendi. [yedhrab]
 
 * Yeni kısayol eklendi. [yedhrab]
@@ -292,6 +312,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * File Explorer'ı geliştirme bilgisi eklendi 🌟 - Tab desteği - Otomatik ön izleme. [yedhrab]
 
 * Java kitapları eklendi 📕 [yedhrab]
+
+* GUI notları arttırıldı. [yedhrab]
 
 * Vscode eklentisi oluşturma yenilendi. [yedhrab]
 
@@ -351,6 +373,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Direct link oluşturma yenilendi. [Yunus Emre]
 
+* Bilgiler arttırıldı. [Yunus Emre]
+
 * Yeni pdf eklendi. [Yunus Emre]
 
 * Tasarım notları eklendi. [Yunus Emre]
@@ -394,6 +418,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Wapp kısayolu oluşturma eklendi. [Yunus Emre]
 
 * Saat sorunu eklendi. [YEmreAk]
+
+* PDF'ler arttırıldı. [Yunus Emre]
 
 * Yeni script eklendi 🚀 [Yunus Emre]
 
@@ -446,6 +472,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Ek kaynak eklendi ✨ Pythonpath `.env` için kaynak eklendi. [Yunus Emre]
 
 * Web için eklentiler geldi ✨ [Yunus Emre]
+
+* Colab notları arttırılıyor 🌈 [Yunus Emre]
 
 * Vscode pythonpath notları eklendi 🌠 [Yunus Emre]
 
@@ -612,14 +640,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Merge pull request #12 from yedhrab/wiki. [Yunus Emre]
 
   📖 Wiki yapısına geçildi
-
-* 📖 Wiki yapısına geçildi. [Yunus Emre]
-
-  🏠  İÜ-CE hariç diğer tüm notlar tek çatı altında toplandı.
-
-  - 🔍 Arama özelliğinden faydalanma arttırıldı
-  - 🎤 Google arama motoru gibi arama sistemi ayarlandı
-  - Umarım patlamaz 🚀
 
 * Update Git Notları.md. [Yunus Emre]
 
@@ -1097,13 +1117,7 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * JSON'lar todo için görmezden geliniyor. [Yunus Emre]
 
-* Tablo işlemleri arttırıldı 🆕 [Yunus Emre]
-
-* Terimler arttırıldı. [Yunus Emre]
-
 * Merge branch 'master' of https://github.com/yedhrab/YBilgiler. [Yunus Emre]
-
-* Faydalı programlar arttırıldı ✨ [Yunus Emre]
 
 * Issue template test. [Yunus Emre]
 
@@ -1137,8 +1151,6 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Bir sürü not 📚 [Yunus Emre]
 
-* Tavsiye class'lar arttırıldı. [Yunus Emre]
-
 * Exe'ye çevirme bilgisi. [Yunus Emre]
 
 * Tonla bilgi 📚 [Yunus Emre]
@@ -1151,19 +1163,13 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Çok fazla not 📚 [Yunus Emre]
 
-* Notlar arttırıldı 📚 [yedhrab]
-
 * Yeni notlar 📚 [yedhrab]
 
 * Yeni bilgiler 🚀 [yedhrab]
 
-* Java için GUI notları arttırıldı 🖼 [yedhrab]
-
 * VsCode notları artık daha anlaşılır 🌟 [yedhrab]
 
 * Karışık notlar 🌀 [yedhrab]
-
-* GUI notları arttırıldı. [yedhrab]
 
 * Java GUI notları. [yedhrab]
 
@@ -1202,8 +1208,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Yeni bilgiler 🚀 [Yunus Emre]
 
 * Yeni python bilgileri 🎈 [Yunus Emre]
-
-* Bilgiler arttırıldı. [Yunus Emre]
 
 * Top 50 Machine Learning Interview. [Yunus Emre]
 
@@ -1255,8 +1259,6 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Merge branch 'master' of https://github.com/yedhrab/YBilgiler. [Yunus Emre]
 
-* PDF'ler arttırıldı. [Yunus Emre]
-
 * Yeni notlar ✏ [Yunus Emre]
 
 * Son çalışan ve test edilmiş sürüm 🚀 [Yunus Emre]
@@ -1274,8 +1276,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Merge branch 'master' of https://github.com/yedhrab/Bilgiler into gh-pages. [Yunus Emre]
 
 * Yeni bilgiler 🚀 [Yunus Emre]
-
-* Colab notları arttırılıyor 🌈 [Yunus Emre]
 
 * Merge branch 'master' of https://github.com/yedhrab/Bilgiler into gh-pages. [Yunus Emre]
 

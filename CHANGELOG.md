@@ -9,6 +9,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Veri bilimi ile ilgili notlar eklendi. [Yunus Emre]
+
+* Eski adı: Pip Üzerinde Paket Yayınlama eklendi. [Yunus Emre]
+
 * 🖤 Python ile System Komutları Çalıştırma notu eklendi. [Yunus Emre]
 
 * 🌟 Değişklikleri takip etme alanı eklendi. [Yunus Emre]

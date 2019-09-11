@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Kaynak eklendi. [Yunus Emre]
+
 * Veri bilimi ile ilgili notlar eklendi. [Yunus Emre]
 
 * Eski adı: Pip Üzerinde Paket Yayınlama eklendi. [Yunus Emre]
@@ -30,12 +32,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Regex yazısı oluşturuldu ⛩ [Yunus Emre]
 
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
-
-### 🌌 Değişikler
-
-* Update CHANGELOG.md. [Yunus Emre]
-
-* Update CHANGELOG.md. [Yunus Emre]
 
 ### 🗽 Düzeltmeler
 

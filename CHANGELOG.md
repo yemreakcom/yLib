@@ -9,6 +9,11 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🔗 Python ve android notlarımın linki eklendi. [Yunus Emre]
+
+  https://python.yemreak.com/
+  https://android.yemreak.com/
+
 * Kaynak eklendi. [Yunus Emre]
 
 * Veri bilimi ile ilgili notlar eklendi. [Yunus Emre]

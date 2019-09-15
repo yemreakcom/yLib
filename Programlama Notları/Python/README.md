@@ -1,8 +1,8 @@
 ---
-description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte
+description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte, alttaki 🔗 bağlantılardan içeriklere erişebilirsin
 ---
 
-# 🚙 Python Notları Taşındı
+# 🐍 Python
 
 - [🐍 Python](https://python.yemreak.com/)
   - [👀 Neler değişti](https://python.yemreak.com/CHANGELOG)

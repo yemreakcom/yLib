@@ -1,11 +1,50 @@
 ---
-description: Python 🐍 notlarım
+description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte
 ---
 
-# 🐍 Python
+# 🚙 Python Notları Taşındı
 
-## 🗽 Açıklama
-
-- Hızlı notlar için [🏃‍ Cheat Sheets](0%20-%20Cheat%20Sheets) alanına bakabilirsin
-- Farklı bir dökümantasyon için [📕 Programmiz](https://www.programiz.com/python-programming/first-program) sitesine bakabilirsin
-- Ücretsiz python sunucusu için  [⛅ PythonAnyWhere](https://www.pythonanywhere.com) sitesine bakabilirsin
+- [🐍 Python](https://python.yemreak.com/)
+  - [👀 Neler değişti](https://python.yemreak.com/CHANGELOG)
+  - [🚀 Awesome Python](https://python.yemreak.com/0%20-%20Awesome/)
+  - [🤸‍ Cheat Sheets](https://python.yemreak.com/0%20-%20Cheat%20Sheets/)
+  - [📗 Python Notebooks](https://python.yemreak.com/0%20-%20Python%20Notebooks/)
+    - [images](https://python.yemreak.com/0%20-%20Python%20Notebooks/images/)
+    - [miniprojects](https://python.yemreak.com/0%20-%20Python%20Notebooks/miniprojects/)
+  - [🚪 Giriş](https://python.yemreak.com/1%20-%20Giri%C5%9F/)
+    - [VsCode Üzerinde Python](https://python.yemreak.com/1%20-%20Giri%C5%9F/0%20-%20Vscode%20%C3%9Czerinden%20Python)
+    - [Python Giriş](https://python.yemreak.com/1%20-%20Giri%C5%9F/1%20-%20Python%20Giri%C5%9F)
+    - [Python Anahtar Kelimeler (Keywords)](https://python.yemreak.com/1%20-%20Giri%C5%9F/2%20-%20Python%20Anahtar%20Kelimeler)
+    - [Python Değişkenleri](https://python.yemreak.com/1%20-%20Giri%C5%9F/3%20-%20Python%20De%C4%9Fi%C5%9Fkenleri)
+  - [🏗 Temel Python](https://python.yemreak.com/2%20-%20Temel%20Python/)
+    - [Python Döngüler ve Koşullar](https://python.yemreak.com/2%20-%20Temel%20Python/1%20-%20Python%20D%C3%B6ng%C3%BCler%20ve%20Ko%C5%9Fullar)
+    - [Python Fonksiyonlar](https://python.yemreak.com/2%20-%20Temel%20Python/2%20-%20Python%20Fonksiyonlar)
+    - [Python'da String İşlemleri](https://python.yemreak.com/2%20-%20Temel%20Python/3%20-%20Python%27da%20String%20%C4%B0%C5%9Flemleri)
+    - [Python Class, Modül ve Paketler](https://python.yemreak.com/2%20-%20Temel%20Python/4%20-%20Python%20Class%2C%20Mod%C3%BCl%20ve%20Paketler)
+  - [🗃 Veri Yapıları](https://python.yemreak.com/3%20-%20Veri%20Yap%C4%B1lar%C4%B1/)
+    - [🚪 Veri Yapılarına Giriş](https://python.yemreak.com/3%20-%20Veri%20Yap%C4%B1lar%C4%B1/1%20-%20Veri%20Yap%C4%B1lar%C4%B1na%20G%C4%B0ri%C5%9F)
+    - [🗄 Python Koleksiyonlar](https://python.yemreak.com/3%20-%20Veri%20Yap%C4%B1lar%C4%B1/2%20-%20Koleksiyonlar)
+  - [📂 Dosya İşlemleri](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/)
+    - [📂 Dosya İşlemleri (File)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/1%20-%20Dosya%20%C4%B0%C5%9Flemleri)
+    - [🗂 Dizin İşlemleri (Dir)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/2%20-%20Dizin%20%C4%B0%C5%9Flemleri)
+    - [🚩 Yol İşlemleri (Path)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/3%20-%20Yol%20%C4%B0%C5%9Flemleri)
+    - [🗃 Raporlama İşlemleri (Logging)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/4%20-%20Raporlama%20%C4%B0%C5%9Flemleri)
+  - [🔆 Arayüz Oluşturma](https://python.yemreak.com/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/)
+    - [🖤 Komut İsteminden Python (CLI)](https://python.yemreak.com/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/1%20-%20Komut%20%C4%B0steminden%20Python%20%28CLI%29)
+    - [🚀 Python Görsel Programlama (GUI)](https://python.yemreak.com/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/2%20-%20Python%20G%C3%B6rsel%20Programlama%20%28GUI%29)
+  - [✨ Diğer Python Notlarım](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/)
+    - [🐍 Anaconda](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Anaconda)
+    - [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Pip%20ile%20Kurulabilir%20Python%20Paketi%20Olu%C5%9Fturma)
+    - [🙄 Python İleri Seviye](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/Python%20%C4%B0leri%20Seviye)
+  - [🥴 Karışık Python Notları](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/)
+    - [Python Harici Linkler](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/1%20-%20Python%20Harici%20Linkler)
+    - [Python ile Görüntü İşleme Notları](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/2%20-%20Python%20ile%20G%C3%B6r%C3%BCnt%C3%BC%20%C4%B0%C5%9Fleme%20Notlar%C4%B1)
+    - [Python Algoritma Örnekleri](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/3%20-%20Python%20Algoritma%20%C3%96rnekleri)
+    - [Python CodeSnippets](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/4%20-%20Python%20CodeSnippets)
+    - [Python Verimli Kodlama Notlarım](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/5%20-%20Pyton%20Kod%20Notlar%C4%B1)
+  - [🐍 IPython](https://python.yemreak.com/X%20-%20IPython/)
+    - [🚪 IPython Giriş](https://python.yemreak.com/X%20-%20IPython/1%20-%20IPython%20Giri%C5%9F)
+    - [🗂 IPython Drive İşlemleri](https://python.yemreak.com/X%20-%20IPython/2%20-%20IPython%20Drive%20%C4%B0%C5%9Flemleri)
+    - [🔃 IPython I/O İşlemleri](https://python.yemreak.com/X%20-%20IPython/3%20-%20IPython%20IO%20%C4%B0%C5%9Flemleri)
+    - [🔆 IPython Görsel Programlama (GUI)](https://python.yemreak.com/X%20-%20IPython/4%20-%20IPython%20G%C3%B6rsel%20Programlama%20%28GUI%29)
+    - [🔗 IPython Harici Bağlantılar](https://python.yemreak.com/X%20-%20IPython/X%20-%20IPython%20Harici%20Ba%C4%9Flant%C4%B1lar)

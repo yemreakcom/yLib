@@ -48,6 +48,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update Google Chrome'da Verimlilik.md. [Yunus Emre]
+
 * ✨ Chrome notları yenilendi. [Yunus Emre]
 
 * ✨ Chrome notları yenilendi. [Yunus Emre]

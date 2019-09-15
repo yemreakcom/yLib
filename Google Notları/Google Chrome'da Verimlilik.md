@@ -36,7 +36,7 @@ description: Google'ın sunduğu gelişmiş web araçları ve eklentileri olan t
 
 ## 🔌 Eklenti Önerileri
 
-Adres çubuğundan bu sayfaya erişebilrsin.
+Adres çubuğundan bu sayfaya erişebilirsin.
 
 - Eklentilere `chrome://extensions`
 - Eklentilerin kısayollarına `chrome://extensions/shortcuts`

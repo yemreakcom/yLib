@@ -9,6 +9,13 @@ description: Üretkenliği arttıracak notlar 📈
 - Bir konu hakkında detaylıca bilgi almak için Github'da **Awesome** kelimesi ile araştırmalısın
   - Örneğin: Awesome Python, Awesome Windows
 
+## 🧰 Faydalı Siteler
+
+| Websitesi                                                        | Açıklama                                         |
+| ---------------------------------------------------------------- | ------------------------------------------------ |
+| [🔗 Direct Link Generator](https://www.directlinkgenerator.com/) | Google Drive için indirebilir bağlantı oluşturma |
+| [⤵ Downloader.la](https://downloader.la/)                        | Shutter stock resim indirici                     |
+
 ## 🆚 Uygulama Kıyaslama Siteleri
 
 | Websitesi                                   | Açıklama                                        |

@@ -64,6 +64,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
   Artık daha belirgin bir şekilde sitede ifade edilmekte
 
+* 🚙 Python Notları Taşındı. [Yunus Emre]
+
+  Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte
+
 * Update Google Chrome'da Verimlilik.md. [Yunus Emre]
 
 * ✨ Chrome notları yenilendi. [Yunus Emre]
@@ -87,12 +91,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * 🐞 `|` sorunu giderildi. [Yunus Emre]
 
   `|` yerine `<or>` kullanıldı,
-
-### 📡 Diğerler
-
-* 🚙 Python Notları Taşındı. [Yunus Emre]
-
-  Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte
 
 
 ## 1.0 (2019-09-10)

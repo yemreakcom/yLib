@@ -68,6 +68,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
   `|` yerine `<or>` kullanıldı,
 
+### 📡 Diğerler
+
+* 🚙 Python Notları Taşındı. [Yunus Emre]
+
+  Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte
+
 
 ## 1.0 (2019-09-10)
 

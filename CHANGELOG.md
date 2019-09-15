@@ -48,6 +48,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚙 Veri Bilimi notları taşındı. [Yunus Emre]
+
+  Artık daha belirgin bir şekilde sitede ifade edilmekte
+
 * 🚙 Yapay Zeka notları taşındı. [Yunus Emre]
 
   Artık daha belirgin bir şekilde sitede ifade edilmekte

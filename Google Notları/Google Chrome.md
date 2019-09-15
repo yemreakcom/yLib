@@ -8,11 +8,12 @@ description: Google'un sunduğu gelişmiş web araçları ve eklentileri olan ta
 
 ### 🍢 Chrome sekme işlemleri
 
-| Kısayol                                               | Açıklama                   |
-| ----------------------------------------------------- | -------------------------- |
-| <kbd>✲ Ctrl</kbd> + <kbd>T</kbd>                      | Yeni sekme açma            |
-| <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>T</kbd> | Son kapatılan sekmeyi açma |
-| <kbd>✲ Ctrl</kbd> + <kbd>W</kbd>                      | Sekmeyi kapatma            |
+| Kısayol                                           | Açıklama                   |
+| ------------------------------------------------- | -------------------------- |
+| <kbd>✲ Ctrl</kbd> <kbd>T</kbd>                    | Yeni sekme açma            |
+| <kbd>✲ Ctrl</kbd> <kbd>⇧ Shift</kbd> <kbd>T</kbd> | Son kapatılan sekmeyi açma |
+| <kbd>✲ Ctrl</kbd> <kbd>W</kbd>                    | Sekmeyi kapatma            |
+| <kbd>✲ Ctrl</kbd> <kbd>L</kbd> veya <kbd>F6</kbd> | Arama çubuğuna geçme       |
 
 ### 📃 Sayfa işlemleri
 
@@ -30,6 +31,11 @@ description: Google'un sunduğu gelişmiş web araçları ve eklentileri olan ta
 | <kbd>✲ Ctrl</kbd> + <kbd>⇧ Shift</kbd> + <kbd>C</kbd> | HTML eleman seçiciyi aktif etme |
 
 ## 🔌 Eklenti Önerileri
+
+Adres çubuğundan bu sayfaya erişebilrsin.
+
+- Eklentilere `chrome://extensions`
+- Eklentilerin kısayollarına `chrome://extensions/shortcuts`
 
 ### 📈 Verimlilik Eklentileri
 

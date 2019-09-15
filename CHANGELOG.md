@@ -50,6 +50,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * ✨ Chrome notları yenilendi. [Yunus Emre]
 
+* ✨ Chrome notları yenilendi. [Yunus Emre]
+
 * ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
 
 ### 🗽 Düzeltmeler

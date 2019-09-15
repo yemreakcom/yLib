@@ -48,6 +48,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚙 Yapay Zeka notları taşındı. [Yunus Emre]
+
+  Artık daha belirgin bir şekilde sitede ifade edilmekte
+
 * Update Google Chrome'da Verimlilik.md. [Yunus Emre]
 
 * ✨ Chrome notları yenilendi. [Yunus Emre]
@@ -57,6 +61,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
 
 ### 🗽 Düzeltmeler
+
+* Python sayfası düzenlendi. [Yunus Emre]
 
 * 🖋 Başlıklar düzeltildi. [Yunus Emre]
 

@@ -34,3 +34,12 @@ CNAME kayıtları ile halledilen bir işlemdir
   - **Tracking Id**'yi kopyalayın
   - Eğer sitenizin desteği yoksa **Website Tracking** adı altındaki **HTML** kodlarını kopyalayın.
 - Sitenizin **HTML** kodlarına girin ve en üste `<scripts>`'lerinizin olduğu alana yapıştırın
+
+### 💠 Google Analytic Üzerinden Filtre Uygulama 
+
+Admin - Property - Filter - Add Filter alanından aşağıdaki özelliklere sahip filtre ekleyin
+
+- Filter Type: Custom
+- Include
+- Pattern `\.domain\.com` (örn: `\.yemreak\.com`) yazın
+- Filter Verification alannından kontrol edip kaydedin.

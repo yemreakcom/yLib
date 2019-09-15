@@ -4,23 +4,6 @@
 
 React üzerine çalışmalarım ve bilgilerim.
 
-## Hızlı Notlar
-
-- [React IDE](https://github.com/reactide/reactide)
-
-> Burası ileride kaldırılacak
-
-### CSS Oluşturma
-
-Oluşturulan stili `style = {myStyle}` şeklinde kullanabiliriz.
-
-```jsx
-const myStyle = StyleSheed.create({
-  fontSize: 19,
-  color: ...
-})
-```
-
 ## Neden React
 
 - Sanal bir DOM oluşturarak DOM üzerinden değişiklik olduğunda tüm kod sanal DOM'a aktarılır ardından sadece değişen kısımları DOM'a aktarır.

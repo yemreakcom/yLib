@@ -135,6 +135,7 @@
       - [Nodejs Çok Kullanılan Kütüphaneler](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Nodejs%20%C3%87ok%20Kullan%C4%B1lan%20K%C3%BCt%C3%BCphaneler.md)
       - [Nodejs](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Nodejs.md)
       - [PHP](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Php.md)
+      - [React Hızlı Notlar](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/React%20H%C4%B1zl%C4%B1%20Notlar.md)
       - [React ⚛](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/React.md)
       - [Web Programlama](./Programlama%20Notlar%C4%B1/Web%20Programlama%20Notlar%C4%B1/Web%20Programlama.md)
   - [🏰 Proje Yönetimi Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/README.md)

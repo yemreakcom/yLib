@@ -9,6 +9,14 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🚀 React Hızlı Notlar sayfası oluşturuldu. [Yunus Emre]
+
+* 🧰 Faydalı siteler eklendi. [Yunus Emre]
+
+  Üretkenlik notları adı altına.
+
+* ✨ Ufak react notları eklendi. [Yunus Emre]
+
 * 🔗 Python ve android notlarımın linki eklendi. [Yunus Emre]
 
   https://python.yemreak.com/
@@ -39,6 +47,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* ✨ Chrome notları yenilendi. [Yunus Emre]
 
 * ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
 
@@ -106,14 +116,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Create README.md. [Yunus Emre]
 
 * README dosyaları oluşturuldu 🚀 [Yunus Emre]
-
-* 📖 Wiki yapısına geçildi. [Yunus Emre]
-
-  🏠  İÜ-CE hariç diğer tüm notlar tek çatı altında toplandı.
-
-  - 🔍 Arama özelliğinden faydalanma arttırıldı
-  - 🎤 Google arama motoru gibi arama sistemi ayarlandı
-  - Umarım patlamaz 🚀
 
 * SubModule notları eklendi. [Yunus Emre]
 
@@ -637,9 +639,13 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Update SUMMARY.md. [Yunus Emre]
 
-* Merge pull request #12 from yedhrab/wiki. [Yunus Emre]
+* 📖 Wiki yapısına geçildi. [Yunus Emre]
 
-  📖 Wiki yapısına geçildi
+  🏠  İÜ-CE hariç diğer tüm notlar tek çatı altında toplandı.
+
+  - 🔍 Arama özelliğinden faydalanma arttırıldı
+  - 🎤 Google arama motoru gibi arama sistemi ayarlandı
+  - Umarım patlamaz 🚀
 
 * Update Git Notları.md. [Yunus Emre]
 
@@ -681,15 +687,7 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Eklentiler yenilendi ✨ ~ Afozbek 🙏 [Yunus Emre]
 
-* Gereksiz notlar temizlendi 🧹 [Yunus Emre]
-
-  Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım başka repoya aktarıldır 🚌
-
 * Veri bilimi çalışma notlarım 📊 aktarıldı. [Yunus Emre]
-
-* Temizlik 🧹 [Yunus Emre]
-
-  Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı *repository*'lere aktarıldı.
 
 * Butonlar yenilendi. [Yunus Emre]
 
@@ -883,10 +881,6 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * İndeksleme yenilendi 🗽 [YEmreAk]
 
-* Gereksizler Kaldırıldı 🗑 [YEmreAk]
-
-  Ders notları https://github.com/yedhrab/IU-CE-DersNotlari sayfasına alındı
-
 * Genel güncelleme 🌀 [YEmreAk]
 
 * Xampp kurulumu güncellendi. [YEmreAk]
@@ -1055,6 +1049,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * ToC hatası giderildi 🐛 [YEmreAk]
 
+* Gereksizler Kaldırıldı 🗑 [YEmreAk]
+
+  Ders notları https://github.com/yedhrab/IU-CE-DersNotlari sayfasına alındı
+
 * Markdown düzeltmesi 😒 [YEmreAk]
 
 * FTP sorunu düzeltildi. [YEmreAk]
@@ -1101,6 +1099,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * 🤔 Sanki emojiler çok sırıttı. [Yunus Emre]
 
+* Merge pull request #12 from yedhrab/wiki. [Yunus Emre]
+
+  📖 Wiki yapısına geçildi
+
 * 🥃 Github Desktop için fyadalı notlar. [Yunus Emre]
 
 * 🚀 GitBook detaylandırıldı. [Yunus Emre]
@@ -1114,6 +1116,14 @@ description: Sitede neler olup bittiğinin raporudur.
 * 🧹 Buraların temizlenme vakti geldi. [Yunus Emre]
 
 * Github 🐙 için ek ayarlar. [Yunus Emre]
+
+* Gereksiz notlar temizlendi 🧹 [Yunus Emre]
+
+  Makine öğrenimi 👨‍🏫💻, Sinir Ağları 🕸 ve Deep Learning 🧠 üzerine çalışmalarım başka repoya aktarıldır 🚌
+
+* Temizlik 🧹 [Yunus Emre]
+
+  Veri yığılmasını 🗑 engellemek için içeriği fazla olan 📈 bilgiler farklı *repository*'lere aktarıldı.
 
 * JSON'lar todo için görmezden geliniyor. [Yunus Emre]
 

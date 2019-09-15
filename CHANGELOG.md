@@ -66,6 +66,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 👨‍🔧 Veri bilimi alanındaki bozuk linkler düzeltildi. [Yunus Emre]
+
 * Python sayfası düzenlendi. [Yunus Emre]
 
 * 🖋 Başlıklar düzeltildi. [Yunus Emre]

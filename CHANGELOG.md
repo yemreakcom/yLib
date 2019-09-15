@@ -48,6 +48,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚙 İstanbul Üniversitesi Bilgisayar Mühendisliği notları taşındı. [Yunus Emre]
+
+  Artık daha belirgin bir şekilde sitede ifade edilmekte
+
 * 🚙 Android notları taşındı. [Yunus Emre]
 
   Artık daha belirgin bir şekilde sitede ifade edilmekte

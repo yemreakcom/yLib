@@ -11,7 +11,7 @@
   - [📍 Google Notları](./Google%20Notlar%C4%B1/README.md)
     - [Google Hızlı Bakış](./Google%20Notlar%C4%B1/0%20-%20Google%20H%C4%B1zl%C4%B1%20Bak%C4%B1%C5%9F.md)
     - [Drive Notları](./Google%20Notlar%C4%B1/Drive%20Notlar%C4%B1.md)
-    - [🌐 Google Chrome](./Google%20Notlar%C4%B1/Google%20Chrome.md)
+    - [🌐 Google Chrome'da Verimlilik](./Google%20Notlar%C4%B1/Google%20Chrome%27da%20Verimlilik.md)
     - [Google Colabrotory](./Google%20Notlar%C4%B1/Google%20Colabrotory.md)
     - [Google Hacking](./Google%20Notlar%C4%B1/Google%20Hacking.md)
   - [🌞 Günlük Hayat Notları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/README.md)

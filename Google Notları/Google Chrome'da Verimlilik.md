@@ -1,8 +1,12 @@
 ---
-description: Google'un sunduğu gelişmiş web araçları ve eklentileri olan tarayıcı 🌟
+description: Google'ın sunduğu gelişmiş web araçları ve eklentileri olan tarayıcı 🌟
 ---
 
-# 🌐 Google Chrome 
+# 🌐 Google Chrome'da Verimlilik
+
+> Buradaki ayarların her biri [Brave](https://brave.com/) gibi **chromium tabanlı** tarayıcılarda da geçerlidir.
+
+![](../res/google_chrome_chromium.png)
 
 ## ⌨ Chrome kısayolları
 

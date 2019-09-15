@@ -20,6 +20,7 @@
     - [Staj İlanları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1.md)
     - [Çamaşır Makinesi](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi.md)
     - [İŞKUR](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C4%B0%C5%9EKUR.md)
+  - [🏫 Istanbul University - CE](./IUCE/README.md)
   - [💫 Karma Bilgiler](./Karma%20Bilgiler/README.md)
     - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
     - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)

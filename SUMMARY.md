@@ -4,7 +4,9 @@
 
 - [📖 YWiki](./README.md)
   - [👀 Neler değişti](./CHANGELOG.md)
-  - [🚀 Awesome](./Awesome/README.md)
+  - [🔗 Faydalı Bağlantılar](./0%20-%20Faydal%C4%B1%20Kaynaklar/README.md)
+    - [🚀 Awesome](./0%20-%20Faydal%C4%B1%20Kaynaklar/Awesome.md)
+    - [☪ Türkçe Kaynaklar](./0%20-%20Faydal%C4%B1%20Kaynaklar/T%C3%BCrk%C3%A7e%20Kaynaklar.md)
   - [🤸‍ Cheet Sheets](./Cheet%20Sheets/README.md)
   - [🤺 Eski Blog Notlarım](./Eski%20Blog%20Notlar%C4%B1m/README.md)
     - [MIT gibi Yurt Dışı Eğitimleri Hakkında](./Eski%20Blog%20Notlar%C4%B1m/MIT%20gibi%20Yurt%20D%C4%B1%C5%9F%C4%B1%20E%C4%9Fitimleri%20Hakk%C4%B1nda.md)

@@ -94,6 +94,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
   `|` yerine `<or>` kullanıldı,
 
+### 📡 Diğerler
+
+* 💠 Google Analytic Üzerinden Filtre Uygulama. [Yunus Emre]
+
 
 ## 1.0 (2019-09-10)
 

@@ -48,6 +48,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update README.md. [Yunus Emre]
+
 * 🚀 Faydalı kaynaklar yenilendi. [Yunus Emre]
 
 * 🚙 İstanbul Üniversitesi Bilgisayar Mühendisliği notları taşındı. [Yunus Emre]
@@ -79,6 +81,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
 
 ### 🗽 Düzeltmeler
+
+* 👷‍♂️ Ufak düzenlemeler yapıldı. [Yunus Emre]
 
 * Hatalı link düzeltildi. [Yunus Emre]
 

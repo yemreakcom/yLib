@@ -169,7 +169,6 @@
         - [Windows Subsystem for Linux (WSL)](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Subsystem%20for%20Linux.md)
         - [Windows'da Gizlenmiş GodMode](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%27da%20Gizlenmi%C5%9F%20GodMode.md)
 
-
 <!--Index-->
 
 ## ✨ Özenle Hazırladığım Diğer Dökümanlarım

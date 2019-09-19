@@ -3,9 +3,8 @@
 
 <!--Index-->
 
-## 🔗 Harici Dosyalar
+## 📂 Harici Dosyalar
 
 - [ms-excel-cheet-sheets.jfif](./ms-excel-cheet-sheets.jfif)
-
 
 <!--Index-->

@@ -320,7 +320,8 @@ _Senkronize_ bekleme işlemleri, yani sırayla çalışan bekleme işlemleri alt
 
 ```js
 setTimeout(metod, ms_gecikme, varsa_parametreler); // Gecikmeli olarak metodu başlatır
-setInterval(metod, ms_gecikme, varsa_parametreler); // Gecikmeli olarak metodu tekrarlar
+intervalID = setInterval(metod, ms_gecikme, varsa_parametreler); // Gecikmeli olarak metodu tekrarlar
+clearInterval(intervalID); // Interval'ı sonlandırma
 ```
 
 - `metod` Fonksiyon

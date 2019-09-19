@@ -80,6 +80,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* Hatalı link düzeltildi. [Yunus Emre]
+
 * 👨‍🔧 Hatalı linkler düzeltildi. [Yunus Emre]
 
 * 👨‍🔧 Veri bilimi alanındaki bozuk linkler düzeltildi. [Yunus Emre]

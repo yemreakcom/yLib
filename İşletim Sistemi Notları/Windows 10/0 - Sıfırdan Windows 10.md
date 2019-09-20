@@ -46,19 +46,21 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 
 ### 🌤 İnternet Üzerinden Uygulamaların Kurulumu
 
-| Uygulama                                                                                  | Açıklama                                       |
-| ----------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| [🌍 Chrome](https://www.google.com/chrome/)                                               | Tarayıcı                                       |
-| [👨‍💻 VsCode](https://code.visualstudio.com/download)                                    | Kodlama için editör                            |
-| [㊙ FiraCode](https://github.com/tonsky/FiraCode)                                         | Kodlama fontu (`ttf` dizinindekiler kurulacak) |
-| [🗃 Winrar](https://www.win-rar.com/download.html?&L=0)                                   | Sıkıştırılmış dosyaları açma                   |
-| [📨 Rambox](https://rambox.pro/#pricing)                                                  | Mesajlaşma uygulamalarının yönetimi            |
-| [🛠 Git](https://git-scm.com/downloads)                                                   | Proje versiyon yönetim uygulaması              |
-| [🐙 Github Desktop](https://desktop.github.com/)                                          | GitHub için yönetim uygulaması                 |
-| [🏢 Office](https://bit.ly/2kjVZe9)                                                       | MS Office                                      |
-| [📂 Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)              | Drive backup                                   |
-| [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                   |
-| [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                     |
+| Uygulama                                                                                  | Açıklama                                                         |
+| ----------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [🔁 Easy Windows Switcher](https://neosmart.net/EasySwitch/)                              | <kbd>⎇ Alt</kbd> <kbd>"</kbd> ile aynı pencereler arasında geçiş |
+| [🌍 Chrome](https://www.google.com/chrome/)                                               | Tarayıcı                                                         |
+| [🌍 Brave](https://brave.com/)                                                            | Reklamsız Chromium tabanlı tarayıcı                              |
+| [👨‍💻 VsCode](https://code.visualstudio.com/download)                                    | Kodlama için editör                                              |
+| [㊙ FiraCode](https://github.com/tonsky/FiraCode)                                         | Kodlama fontu (`ttf` dizinindekiler kurulacak)                   |
+| [🗃 Winrar](https://www.win-rar.com/download.html?&L=0)                                   | Sıkıştırılmış dosyaları açma                                     |
+| [📨 Rambox](https://rambox.pro/#pricing)                                                  | Mesajlaşma uygulamalarının yönetimi                              |
+| [🛠 Git](https://git-scm.com/downloads)                                                   | Proje versiyon yönetim uygulaması                                |
+| [🐙 Github Desktop](https://desktop.github.com/)                                          | GitHub için yönetim uygulaması                                   |
+| [🏢 Office](https://bit.ly/2kjVZe9)                                                       | MS Office                                                        |
+| [📂 Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)              | Drive backup                                                     |
+| [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                                     |
+| [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                                       |
 
 > 🔧 PaintNet'i varsayılan resim editörü yapmak için [Registery Scriptlerim](./Registery%20Scriptlerim) alanındanki [PaintNet'i varsayılan resim editörü yapma](./Registery%20Scriptlerim/PaintNet%27i%20varsay%C4%B1lan%20resim%20edit%C3%B6r%C3%BC%20yapma.reg) aracını kullanabilrisin.
 

@@ -48,6 +48,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update 0 - Sıfırdan Windows 10.md. [Yunus Emre]
+
+  Brave ve tab geçisi eklendi
+
 * Update README.md. [Yunus Emre]
 
 * 🚀 Faydalı kaynaklar yenilendi. [Yunus Emre]

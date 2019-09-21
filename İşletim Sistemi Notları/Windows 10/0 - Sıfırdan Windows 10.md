@@ -61,8 +61,20 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [📂 Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)              | Drive backup                                                     |
 | [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                                     |
 | [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                                       |
+| [🍫 Chocolatey](https://chocolatey.org/)                                                  | Windows paket yöneticisi                                         |
 
-> 🔧 PaintNet'i varsayılan resim editörü yapmak için [Registery Scriptlerim](./Registery%20Scriptlerim) alanındanki [PaintNet'i varsayılan resim editörü yapma](./Registery%20Scriptlerim/PaintNet%27i%20varsay%C4%B1lan%20resim%20edit%C3%B6r%C3%BC%20yapma.reg) aracını kullanabilrisin.
+### 🍫 Chocolatey ve Tüm Uygulamaların Kurulum Scripti
+
+Yukarıdakileri tek tek kurmak yerine alttaki komutu `cmd`'ye kopyalayarak hem **chocolatey**'i hem de uygulamaları kurabilirsin
+
+> ⚠ Bu scripti kendine göre şekillendirmeni tavsiye ederim
+
+```cmd
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+choco install -y firacode winrar youtube-dl wget vscode github-desktop python3 git --params "/GitAndUnixToolsOnPath /NoShellIntegration /WindowsTerminal"
+
+```
 
 ### 🤸‍ İnternet Uygulamları için Kişiselleştirmelerim
 
@@ -83,6 +95,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 - Backup and Sync için, PC açıldığında otomatik olarak açılmasını iptal et
   - Sağ alttaki ☁ ikonuna sağ tık
   - **Üç nokta ikonu** - **Pereferences** - **Settings** - **Open Backup when system starts** işarteni kaldır
+- 🔧 PaintNet'i varsayılan resim editörü yapmak için [Registery Scriptlerim](./Registery%20Scriptlerim) alanındanki [PaintNet'i varsayılan resim editörü yapma](./Registery%20Scriptlerim/PaintNet%27i%20varsay%C4%B1lan%20resim%20edit%C3%B6r%C3%BC%20yapma.reg) aracını kullanabilrisin.
 
 ## ⚙ Windows 10 Sistem Ayarları
 

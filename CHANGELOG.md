@@ -120,6 +120,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* 🗽 Yeniden kategorize edildi. [Yunus Emre]
+
 * 💠 Google Analytic Üzerinden Filtre Uygulama. [Yunus Emre]
 
 

@@ -50,6 +50,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Update 0 - Sıfırdan Windows 10.md. [Yunus Emre]
 
+  🍫 Chocolatey ve Tüm Uygulamaların Kurulum Scripti eklendi
+
+* Update 0 - Sıfırdan Windows 10.md. [Yunus Emre]
+
   Brave ve tab geçisi eklendi
 
 * Update README.md. [Yunus Emre]

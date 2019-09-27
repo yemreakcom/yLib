@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 💒 Derpem Anında Kişisel Korunma yazısı eklendi. [Yunus Emre]
+
 * 🚀 React Hızlı Notlar sayfası oluşturuldu. [Yunus Emre]
 
 * 🧰 Faydalı siteler eklendi. [Yunus Emre]

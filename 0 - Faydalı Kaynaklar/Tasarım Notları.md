@@ -1,4 +1,4 @@
-# Tasarım Notları 
+# 🖌 Tasarım Notları 
 
 ## CV Notları
 

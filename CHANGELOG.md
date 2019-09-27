@@ -94,6 +94,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* Yazım hatası giderildi. [Yunus Emre]
+
 * 💒 Derpem Anında Kişisel Korunma için yazım hataları giderildi. [Yunus Emre]
 
 * 👷‍♂️ Ufak düzenlemeler yapıldı. [Yunus Emre]

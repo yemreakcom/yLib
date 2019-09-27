@@ -2,7 +2,7 @@
 description: Kişisel veya kurumsal sitenizi yönetmek için bilgiler 📓
 ---
 
-# Web Sitesi Yönetimi 
+# 👨‍💼 Web Sitesi Yönetimi 
 
 ## 🌎 Sitenizi Kendi Alan Adınıza Bağlama (Domain)
 

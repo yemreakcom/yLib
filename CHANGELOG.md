@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Günlük Hayat Notlarına simgeler eklendi. [Yunus Emre]
+
 * 💒 Derpem Anında Kişisel Korunma yazısı eklendi. [Yunus Emre]
 
 * 🚀 React Hızlı Notlar sayfası oluşturuldu. [Yunus Emre]

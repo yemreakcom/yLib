@@ -46,5 +46,12 @@ Dizleri, karına doğru çekerek kıvrılma pozisyonudur
 
 - 🪑 Masa, araba gibi nesnelerin **altına giren** kişiler
 her zaman **ezilirler**. 
-- 🚪 Kapı krişlerinin altına geçenler **ölürler**
+- 🚪 Kapı kirişlerinin altına geçenler **ölürler**
+  - Eğer kapı kirişlerinin altına
+geçerseniz ve kapı kirişi öne veya arkaya doğru düşürse inen tavanın altında
+ezilirsiniz
+  - Eğer kapı kirişi yana doğru yıkılırsa ikiye bölünürsünüz
+  - Her iki
+durumda da ölürsünüz!
 - Merdivenlere hiçbir zaman gitmeyin, yıkılabilir ve tehlikelidir
+

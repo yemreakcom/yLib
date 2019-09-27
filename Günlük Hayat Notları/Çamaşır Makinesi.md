@@ -1,4 +1,4 @@
-# Çamaşır Makinesi 
+# 🧺 Çamaşır Makinesi 
 
 Çamaşır makinesi ile alakası olmayanlar için 😄
 

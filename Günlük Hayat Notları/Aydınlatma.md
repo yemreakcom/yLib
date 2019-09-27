@@ -1,4 +1,4 @@
-# Aydınlatma 
+# 💡 Aydınlatma 
 
 ## Genel Bilgi
 

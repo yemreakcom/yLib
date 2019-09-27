@@ -1,4 +1,4 @@
-# Staj İlanları
+# 👨‍🎓 Staj İlanları
 
 Bulduğum staj ilanlarını burada listelemekteyim, katkıda bulunmak isteyenler [iletişime][mail] geçebilir.
 

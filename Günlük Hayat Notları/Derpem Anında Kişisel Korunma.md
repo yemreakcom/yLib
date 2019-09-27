@@ -2,7 +2,7 @@
 description: Deprem anında hayat üçgeni 📐 ve önemi
 ---
 
-# 💒 Derpem Anında Kişisel Korunma
+# 💒 Deprem Anında Kişisel Korunma
 
 Orjinal kaynak için [buraya](http://ogretmenlerdiyari.com/deprem-aninda-hayat-ucgeni-ve-onemi) bakabilirsin.
 

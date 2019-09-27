@@ -19,7 +19,7 @@
   - [🌞 Günlük Hayat Notları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/README.md)
     - [💡 Aydınlatma](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Ayd%C4%B1nlatma.md)
     - [🎨 Boyama](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Boyama.md)
-    - [💒 Derpem Anında Kişisel Korunma](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Derpem%20An%C4%B1nda%20Ki%C5%9Fisel%20Korunma.md)
+    - [💒 Deprem Anında Kişisel Korunma](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Derpem%20An%C4%B1nda%20Ki%C5%9Fisel%20Korunma.md)
     - [👨‍🎓 Staj İlanları](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/Staj%20%C4%B0lanlar%C4%B1.md)
     - [🧺 Çamaşır Makinesi](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C3%87ama%C5%9F%C4%B1r%20Makinesi.md)
     - [🤝 İŞKUR](./G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1/%C4%B0%C5%9EKUR.md)

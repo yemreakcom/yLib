@@ -1,4 +1,10 @@
+---
+description: Mobil telefonlar üzerinden haberleşme üzerine izlediğim videolardan aldığım notlar.
+---
+
 # 📲 Mobil Telefonlar Nasıl Haberleşir
+
+## 🗽 Açıklama
 
 - İlk olarak [📕 buradan](../PDF%27ler%5CMobil%20Telefonlar%20Nas%C4%B1l%20Haberle%C5%9Fir.pdf) videolardan not aldığım PDF'e erişebilirsin
 - Aşağıdaki 2 videoyu da izlemeni tavsiye ederim
@@ -7,6 +13,6 @@
 
 > Videolar ingilizcedir ama notum türkçedir 🙄
 
-## PDF'ten Örnek Kare
+## 🖼 PDF'ten Örnek Kare
 
 ![how_to_cell_phone_works](../res/how_to_cell_phone_works.png)

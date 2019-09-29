@@ -29,6 +29,7 @@
   - [💫 Karma Bilgiler](./Karma%20Bilgiler/README.md)
     - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
     - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
+    - [📺 Eğitim Videoları](./Karma%20Bilgiler/E%C4%9Fitim%20Videolar%C4%B1.md)
     - [Scripting Languages](./Karma%20Bilgiler/Scripting%20Languages.md)
     - [📦 Yazılımlar](./Karma%20Bilgiler/Yaz%C4%B1l%C4%B1mlar.md)
   - [🧾 PDF'ler](./PDF%27ler/README.md)

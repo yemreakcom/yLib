@@ -62,6 +62,7 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                                     |
 | [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                                       |
 | [🍫 Chocolatey](https://chocolatey.org/)                                                  | Windows paket yöneticisi                                         |
+| [💫 AutoHotkey](https://www.autohotkey.com/)                                              | Kısayol oluşturucu                                               |
 
 ### 🍫 Chocolatey ve Tüm Uygulamaların Kurulum Scripti
 

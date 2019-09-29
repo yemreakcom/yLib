@@ -160,6 +160,7 @@
       - [Yavaşlayan Bilgisayarı Hızlandırma](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Yava%C5%9Flayan%20Bilgisayar%C4%B1%20H%C4%B1zland%C4%B1rma.md)
       - [Windows 10 için Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)
       - [Windows 10 Komut İstem (CMD) Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/4%20-%20Windows%2010%20Komut%20%C4%B0stemi%20%28CMD%29%20Notlar%C4%B1.md)
+      - [💫 AutoHotkey](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/AutoHotkey.md)
       - [Windows 10 Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
       - [Registery Scriptlerim](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Registery%20Scriptlerim/README.md)
       - [Windows 10 Diğer Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar)

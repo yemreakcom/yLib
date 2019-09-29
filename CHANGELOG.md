@@ -9,6 +9,14 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 📲 Mobil Telefonlar Nasıl Haberleşir notu eklendi. [Yunus Emre]
+
+* 💫 AutoHotkey eklendi. [Yunus Emre]
+
+  AutoHotkey, windows için Kısayol oluşturucu  olarak geçmektedir
+
+* 📺 Eğitim Videoları eklendi. [Yunus Emre]
+
 * Günlük Hayat Notlarına simgeler eklendi. [Yunus Emre]
 
 * 💒 Derpem Anında Kişisel Korunma yazısı eklendi. [Yunus Emre]

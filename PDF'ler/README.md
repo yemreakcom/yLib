@@ -16,6 +16,7 @@ description: Karışık kuruşuk PDF'ler 🙄
 - [Improving of Personal Educational Content Using.pdf](./Improving%20of%20Personal%20Educational%20Content%20Using.pdf)
 - [Linux Notları.pdf](./Linux%20Notlar%C4%B1.pdf)
 - [Machine Learning Model for Analyzing Learning.pdf](./Machine%20Learning%20Model%20for%20Analyzing%20Learning.pdf)
+- [Mobil Telefonlar Nasıl Haberleşir.pdf](./Mobil%20Telefonlar%20Nas%C4%B1l%20Haberle%C5%9Fir.pdf)
 - [Python.pdf](./Python.pdf)
 - [Türkçe Yapay Zeka Kaynakları.pdf](./T%C3%BCrk%C3%A7e%20Yapay%20Zeka%20Kaynaklar%C4%B1.pdf)
 - [Visual Studio Code Shortcuts.pdf](./Visual%20Studio%20Code%20Shortcuts.pdf)

@@ -1,4 +1,4 @@
-# Linux Genel Notlar 
+# 💫 Linux Genel Notlar 
 
 ## Dosya Paylaşımı
 

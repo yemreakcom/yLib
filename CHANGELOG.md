@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update Mobil Telefonlar Nasıl Haberleşir.md. [Yunus Emre]
+
 * Update 0 - Sıfırdan Windows 10.md. [Yunus Emre]
 
   🍫 Chocolatey ve Tüm Uygulamaların Kurulum Scripti eklendi

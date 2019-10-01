@@ -1,4 +1,4 @@
-# Linux Gelişmiş 
+# 🤯 Linux Gelişmiş 
 
 ## Dosya içeriğinden Türünü Bulma
 

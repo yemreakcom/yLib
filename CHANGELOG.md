@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Linux giriş notu yenilendi. [Yunus Emre]
+
 * 🐧 Linux notları yapılandırıldı. [Yunus Emre]
 
 * Update Mobil Telefonlar Nasıl Haberleşir.md. [Yunus Emre]

@@ -1,4 +1,4 @@
-# Excel 
+# 📈 Excel 
 
 ## Temel Değişkenler
 
@@ -53,5 +53,9 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 ## Harici Bağlantılar
 
 - [Excel çalışma sitesi]
+
+## 🤸‍ MS Excel Chead Sheets
+
+![](../res/ms_excel_cheat_sheets.png)
 
 [Excel çalışma sitesi]: https://exceljet.net/

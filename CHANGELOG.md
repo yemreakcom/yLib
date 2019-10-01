@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* README yapısı yenilendi. [Yunus Emre]
+
 * Excel notları yenilendi. [Yunus Emre]
 
 * Linux giriş notu yenilendi. [Yunus Emre]

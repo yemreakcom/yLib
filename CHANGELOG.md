@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🐧 Linux notları yapılandırıldı. [Yunus Emre]
+
 * Update Mobil Telefonlar Nasıl Haberleşir.md. [Yunus Emre]
 
 * Update 0 - Sıfırdan Windows 10.md. [Yunus Emre]

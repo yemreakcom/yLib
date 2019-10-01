@@ -7,14 +7,15 @@ description: Kişisel ansiklopedi 📚
 ## 🗽 Hoş Geldin
 
 - Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
-- En son gelen güncellemeleri [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin
-- Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YBilgiler/issues) açabilirsin
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - Yani hep güncel kalacak denebilir 🚀
 - İyi okumalar 👻
 
 > [🚀 Awesome](./0%20-%20Faydal%C4%B1%20Kaynaklar%5CAwesome.md) etiketi ile adlandırılan, bir konu veya yazılım üzerine detaylı açıklamaların yapıldığı projelere bakmana fayda var
 
+## ✨ Son Güncellemeler (🧪 Deneysel)
+
+En son gelen güncellemeleri [👀 Neler Değişti](./CHANGELOG.md) veya [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin.
 
 ## 🚙 Diğer Özenle Hazırladığım Notlar
 
@@ -37,37 +38,12 @@ Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler f
 - [Açık API listesi][geliştiriciler için api yayınlayan yerli girişim ve şirket listesi]
 - [Türkçe Dökümanlar](https://turkcedokuman.com/)
 
-## ✍ Çalışma Notları
+## 🤔 İçerik Desteğinde Bulunma veya Fikir Belirtme
 
-- Her şey **dinamik** olmalı
-- Önce sabit değerli yaz, sonrasında <kbd>✲ Ctrl</kbd> + <kbd>F</kbd> ile sabitleri değişken haline dönüştür
-- Terimler _italik_
-- önemli notlar ve başlıklar **bold**
-- komutlar `code`
-- matematikler (latex) $latex$
-- butonlar ve tıklanabilir öğeler <kbd>button</kbd>
+Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığım.
 
-## 📑 İçerik Yapısı
+- Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/IstanbulUniversity-CE/issues) açabilirsin
 
-Giriş cümlesi veya alakalı cümle.
-
-> Varsa ek yorum
-
-- Alaklı maddesel bilgiler
-- Bilgi 2
-
-| Tablo        | Tablo1                      |
-| ------------ | --------------------------- |
-| `<değişken>` | Tablosal yapı ile örnekleme |
-
-- `<değişken>` Tablo değişkenlerini açıklama
-  - Örn: `kod` örneklendirme
-
-> Ek bağlantılar:
->
-> - Link
-> - Link
-> - Link
 
 ## 💖 Destek ve İletişim
 

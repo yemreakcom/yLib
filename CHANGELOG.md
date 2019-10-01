@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Excel notları yenilendi. [Yunus Emre]
+
 * Linux giriş notu yenilendi. [Yunus Emre]
 
 * 🐧 Linux notları yapılandırıldı. [Yunus Emre]

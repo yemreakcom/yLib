@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🙋‍ Programlamaya Giriş ilk sıraya alındı. [Yunus Emre]
+
 * 👨‍💻 Programlama notları yenilendi. [Yunus Emre]
 
 * README yapısı yenilendi. [Yunus Emre]

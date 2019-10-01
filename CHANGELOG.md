@@ -60,6 +60,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 👨‍💻 Programlama notları yenilendi. [Yunus Emre]
+
 * README yapısı yenilendi. [Yunus Emre]
 
 * Excel notları yenilendi. [Yunus Emre]

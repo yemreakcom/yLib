@@ -1,4 +1,4 @@
-# Linux Giriş 
+# 🙋‍ Linux Giriş 
 
 ## Linux Nedir
 

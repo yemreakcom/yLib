@@ -147,7 +147,7 @@
       - [📱 Android için Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Android%20%C4%B0%C5%9Fletim%20Sistemi/Android%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)
     - [🐧 Linux Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/README.md)
       - [🌟 Linux için Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/0%20-%20Linux%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)
-      - [Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
+      - [🙋‍ Linux Giriş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/1%20-%20Linux%20Giri%C5%9F.md)
       - [🖤 Linux Terminali](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/2%20-%20Linux%20Terminali.md)
       - [🤯 Linux Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/3%20-%20Linux%20Geli%C5%9Fmi%C5%9F.md)
       - [⏬ Linux Terminal İndiricileri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Linux%20Notlar%C4%B1/4%20-%20Linux%20Terminal%20%C4%B0ndiricileri.md)

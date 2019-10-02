@@ -25,6 +25,8 @@ wget -O linux-5.3.2.tar.xz https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.
 
 İndirdiğiniz kernel dosyasının bulunduğu dizine girin. (Örn `cd ~/Downloads`)
 
+> **Terminal üzerinden indirme yaptıysanız** zaten o dizinde olacağınızdan geçiş yapmanıza **gerek yoktur**.
+
 **Ubuntu, Debian**:
 
 ```sh

@@ -19,6 +19,8 @@ description: Linux üzerinde can sıkan kernel güncelleme olayı
 
 ### 🗃 Arşivden Çıkarma
 
+İndirdiğiniz kernel dosyasının bulunduğu dizine girin. (Örn `cd ~/Downloads`)
+
 **Ubuntu, Debian**:
 
 ```sh

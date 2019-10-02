@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 💎 Linux Kernel Güncelleme yazısı eklendi. [Yunus Emre]
+
 * 📲 Mobil Telefonlar Nasıl Haberleşir notu eklendi. [Yunus Emre]
 
 * 💫 AutoHotkey eklendi. [Yunus Emre]

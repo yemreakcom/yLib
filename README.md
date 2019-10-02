@@ -17,6 +17,8 @@ description: Kişisel ansiklopedi 📚
 
 En son gelen güncellemeleri [👀 Neler Değişti](./CHANGELOG.md) veya [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin.
 
+- [💎 Linux Kernel Güncelleme](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1%5CLinux%20Notlar%C4%B1%5CX%20-%20Linux%20Kernel%20G%C3%BCncelleme.md)
+
 ## 🚙 Diğer Özenle Hazırladığım Notlar
 
 Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler farklı _repository_'lere aktarıldı.

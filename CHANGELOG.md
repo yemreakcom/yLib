@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Ufak not eklendi. [Yunus Emre]
+
 * Son güncellemeler alanına eklendi. [Yunus Emre]
 
 * 💎 Linux Kernel Güncelleme yazısı eklendi. [Yunus Emre]

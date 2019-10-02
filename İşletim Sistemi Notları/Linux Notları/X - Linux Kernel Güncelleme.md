@@ -11,7 +11,11 @@ description: Linux üzerinde can sıkan kernel güncelleme olayı
 
 ## ⤵ Güncel Kernel Dosyasının İndirilmesi
 
-[🐧 The Linux Kernel Archives](https://www.kernel.org/) sitesi üzerinden en güncel kernel sürümünü indirin
+[🐧 The Linux Kernel Archives](https://www.kernel.org/) sitesi üzerinden en güncel kernel sürümünü indirin veya alttaki komut ile indirmeyi 🖤 terminal üzerinden yapın:
+
+```sh
+wget -O linux-5.3.2.tar.xz https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.3.2.tar.xz
+```
 
 ![](../../res/linux_kernel_archives.png)
 

@@ -8,6 +8,8 @@ description: Linux üzerinde can sıkan kernel güncelleme olayı
 ## 🗽 Açıklama
 
 - Bu yazı bir alıntı (türkçeleştirme) yazısıdır, orjinal halini görmek için [buraya](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html) tıklayabilirsin.
+- Detayları merak etmiyorsan **🤸‍ Hızlı Kurulum** alanındaki yapman yeterlidir
+- Detayları merak ediyorsan **⤵ Güncel Kernel Dosyasının İndirilmesi** alanından başlamalısın
 
 ## 🤸‍ Hızlı Kurulum
 

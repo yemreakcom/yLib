@@ -18,33 +18,29 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 
 ```ahk
 #SingleInstance Force
+
 SetTitleMatchMode, 2
 
-WinName=Rambox
-;WinName=%A_ScriptName%
+ShowWin(windowName, url) {
+    IfWinExist, %windowName%
+    {
+        WinGet, WinState, MinMax 
+        if (WinState = -1)
+            WinRestore
+        else 
+            WinMinimize
+    }
+    else
+        Run, %url%
+    return
+}
+
+;windowName=%A_ScriptName%
 return
 
-f1::
-; msgbox before test
-
-IfWinExist, %WinName%
-{
-;   msgbox window %WinName% exists
-  WinGet, WinState, MinMax 
-;   msgbox %WinName%
-  if (WinState = -1)
-     WinRestore
-  else 
-  {
- ;    WinRestore
-     WinMinimize
-  }
-}
-else
-   msgbox window %WinName% could not be found
-
-   return
-
+!w::
+    ShowWin("Rambox", "C:\Program Files\Rambox\Rambox.exe")
+    return
 ```
 
 > [Minimize and Restore Window with one command](https://autohotkey.com/board/topic/49207-minimize-and-restore-window-with-one-command/?p=306623)

@@ -96,26 +96,6 @@ cp -v /boot/config-$(uname -r) .config
 sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 ```
 
-### 👷‍ Kernel Yapılandırma (🧪 Sadece bilgisi olanlar için)
-
-Kaynak kodların olduğu yerde aşağıdaki komuntlardan gerekli olanı yazıyoruz:
-
-> ❗ Eğer ne olduğu hakkında bilgin yoksa, **Kernel Derleme** adımına geçebilirsin.
-
-| Kod               | Açıklama                                         |
-| ----------------- | ------------------------------------------------ |
-| `make menuconfig` | Grafiksel arayüz ile yapılandırma                |
-| `make xconfig`    | KDE Masaüstü ortamları için ideal yapılandırma   |
-| `make gconfig`    | Gnome Masaüstü ortamları için ideal yapılandırma |
-
-**Örnek komut kullanım şekli**:
-
-```sh
-make menuconfig
-```
-
-> Eğer make komutu bulunamadı hatası gelirse `sudo apt-get install make` ile indirmeniz gerekmekte
-
 ### ⚒ Kernel'i Derleme
 
 Sıkıştırılmış kernel imajını derlemek için alttaki komutu yazın:

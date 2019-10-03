@@ -72,6 +72,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update AutoHotkey.md. [Yunus Emre]
+
 * Eksik bilgiler yenilendi. [Yunus Emre]
 
 * 🙋‍ Programlamaya Giriş ilk sıraya alındı. [Yunus Emre]
@@ -155,6 +157,8 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* Ufak açıklama. [Yunus Emre]
 
 * Detaylı bilgi gerektiren alan belirtildi. [Yunus Emre]
 

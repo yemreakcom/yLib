@@ -152,6 +152,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* Detaylı bilgi gerektiren alan belirtildi. [Yunus Emre]
+
 * 🗽 Yeniden kategorize edildi. [Yunus Emre]
 
 * 💠 Google Analytic Üzerinden Filtre Uygulama. [Yunus Emre]

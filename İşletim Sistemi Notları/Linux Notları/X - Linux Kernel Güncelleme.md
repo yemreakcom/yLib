@@ -30,13 +30,15 @@ wget -O linux-5.3.2.tar.xz https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.
 **Ubuntu, Debian**:
 
 ```sh
-xz -d -v linux-5.3.2.tar.xz # Ubuntu, Debian 
+xz -d -v linux-5.3.2.tar.xz
+tar xvf linux-5.3.2.tar
 ```
 
 **Diğer**:
 
 ```sh
 unzx -v linux-5.3.2.tar.xz
+tar xvf linux-5.3.2.tar
 ```
 
 ### ⚙ Yapılandırma Ayarlarını Aktarma

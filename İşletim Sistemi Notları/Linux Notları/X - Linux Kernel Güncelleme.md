@@ -39,7 +39,7 @@ xz -d -v linux-5.3.2.tar.xz # Ubuntu, Debian
 unzx -v linux-5.3.2.tar.xz
 ```
 
-### ⚙ Yapılandırma Ayarları
+### ⚙ Yapılandırma Ayarlarını Aktarma
 
 ```sh
 cd linux-5.3.2
@@ -58,9 +58,11 @@ cp -v /boot/config-$(uname -r) .config
 sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 ```
 
-### 👷‍ Kernel Yapılandırma
+### 👷‍ Kernel Yapılandırma (🧪 Sadece bilgisi olanlar için)
 
 Kaynak kodların olduğu yerde aşağıdaki komuntlardan gerekli olanı yazıyoruz:
+
+> ❗ Eğer ne olduğu hakkında bilgin yoksa, **Kernel Derleme** adımına geçebilirsin.
 
 | Kod               | Açıklama                                         |
 | ----------------- | ------------------------------------------------ |

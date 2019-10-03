@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Ufak not eklendi. [Yunus Emre]
+
 * Terminal üzerinden kernel kurulumu eklendi. [Yunus Emre]
 
 * Ufak not eklendi. [Yunus Emre]

@@ -132,6 +132,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* Kafa karıştıran alan kaldırıldı. [Yunus Emre]
+
 * Yazım hatası giderildi. [Yunus Emre]
 
 * 💒 Derpem Anında Kişisel Korunma için yazım hataları giderildi. [Yunus Emre]

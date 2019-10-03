@@ -7,15 +7,28 @@ description: Linux üzerinde can sıkan kernel güncelleme olayı
 
 ## 🗽 Açıklama
 
-- Bu yazı bir alıntı (türkçeleştirme) yazısıdır, orjinal halini görmek için [buraya](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html) tıklayabilirsin.
-- Detayları merak etmiyorsan **🤸‍ Hızlı Kurulum** alanındaki yapman yeterlidir
+Temel olarak 3 farklı yöntem ile kernel güncelleyebilirsin. Alttakilerden **sadece birini** kullanman yeterlidir.
+
+- Grafik arayüzle basit kurulum için **🛠 Ubuntu Kernel Update Utility ile Kernel Güncelleme** aşamasına bakmalısın
+- Detayları merak etmiyorsan **🤸‍ Komutlarla Hızlı Kurulum** alanındaki yapman yeterlidir
 - Detayları merak ediyorsan **⤵ Güncel Kernel Dosyasının İndirilmesi** alanından başlamalısın
 
-## 🤸‍ Hızlı Kurulum
+> Bu yazı bir alıntı (türkçeleştirme) yazısıdır, orjinal halini görmek için [buraya](https://www.cyberciti.biz/tips/compiling-linux-kernel-26.html) tıklayabilirsin.
+
+## 🛠 Ubuntu Kernel Update Utility ile Kernel Güncelleme
+
+```sh
+sudo apt-add-repository ppa:teejee2008/ppa
+sudo apt-get update
+sudo apt-get install ukuu
+sudo ukuu-gtk
+```
+
+## 🤸‍ Komutlarla Hızlı Kurulum
 
 Detayları merak etmeyenler için hızlı kurulum 🏃‍
 
-### ⚡ Çabuk Kurulum
+### ⚡ Kısa İşlemli Komutlar
 
 Alttaki komutları direkt olarak kopyalayabilirsin.
 
@@ -28,7 +41,7 @@ cd linux-VERSION
 cp -v /boot/config-$(uname -r) .config
 sudo apt-get install -y build-essential libncurses-dev bison flex libssl-dev libelf-dev
 ```
-### ⏲ Uzun Süren Kurulumlar 
+### ⏲ Uzun Süren Komutlar 
 
 Bu kısımdaki komutları satır satır kopyalamalısın.
 

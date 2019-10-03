@@ -70,6 +70,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Eksik bilgiler yenilendi. [Yunus Emre]
+
 * 🙋‍ Programlamaya Giriş ilk sıraya alındı. [Yunus Emre]
 
 * 👨‍💻 Programlama notları yenilendi. [Yunus Emre]

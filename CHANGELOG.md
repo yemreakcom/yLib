@@ -9,6 +9,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Create LOL TFT.md. [Yunus Emre]
+
+* Alternatif kernel güncelleme çözümleri eklendi. [Yunus Emre]
+
 * Hızlı kernel kurulumu eklendi. [Yunus Emre]
 
 * Ufak not eklendi. [Yunus Emre]

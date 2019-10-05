@@ -29,6 +29,7 @@
     - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
     - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
     - [📺 Eğitim Videoları](./Karma%20Bilgiler/E%C4%9Fitim%20Videolar%C4%B1.md)
+    - [LOL TFT](./Karma%20Bilgiler/LOL%20TFT.md)
     - [📲 Mobil Telefonlar Nasıl Haberleşir](./Karma%20Bilgiler/Mobil%20Telefonlar%20Nas%C4%B1l%20Haberle%C5%9Fir.md)
     - [Scripting Languages](./Karma%20Bilgiler/Scripting%20Languages.md)
     - [📦 Yazılımlar](./Karma%20Bilgiler/Yaz%C4%B1l%C4%B1mlar.md)

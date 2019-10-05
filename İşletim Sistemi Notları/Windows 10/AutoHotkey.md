@@ -11,6 +11,14 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 
 > Windows 10'da denenmiştir.
 
+## Hızlı Notlar
+
+- [Kısayol Tanımlamaları](https://www.autohotkey.com/docs/Tutorial.htm#s21)
+
+| Komut                                                                               | Açıklama                               |
+| ----------------------------------------------------------------------------------- | -------------------------------------- |
+| [SetTitleMatchMode](https://www.autohotkey.com/docs/commands/SetTitleMatchMode.htm) | Pencere başlığındaki isimlerin alınışı |
+
 ## Pencere Açma, Açıksa Gizleme
 
 - `WinName` alanına kendi pencere isminizi yazmayı unutmayın.
@@ -21,7 +29,8 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 
 SetTitleMatchMode, 2
 
-ShowWin(windowName, url) {
+ShowWin(windowName, url) 
+{   
     IfWinExist, %windowName%
     {
         WinGet, WinState, MinMax 
@@ -39,8 +48,9 @@ ShowWin(windowName, url) {
 return
 
 !w::
-    ShowWin("Rambox", "C:\Program Files\Rambox\Rambox.exe")
+    ShowWin("Rambox", "C:\ProgramData\chocolatey\lib\rambox\tools\Rambox.exe")
     return
+
 ```
 
 > [Minimize and Restore Window with one command](https://autohotkey.com/board/topic/49207-minimize-and-restore-window-with-one-command/?p=306623)

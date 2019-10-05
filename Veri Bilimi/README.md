@@ -6,7 +6,9 @@ description: Veri Bilimi notları artık 📊 ds.yemreak.com/ 📊 üzerinde der
 
 - [📊 Veri Bilimi](https://ds.yemreak.com/)
   - [👀 Neler değişti](https://ds.yemreak.com/CHANGELOG)
-  - [🚀 Awesome Data Science](https://ds.yemreak.com/0%20-%20Awesome/)
+  - [🌟 Faydalı Kaynaklar](https://ds.yemreak.com/0%20-%20Faydal%C4%B1%20Kaynaklar/)
+    - [🚀 Awesome Data Science](https://ds.yemreak.com/0%20-%20Faydal%C4%B1%20Kaynaklar/Awesome%20Data%20Science)
+    - [✨ Popüler Kullanımlar](https://ds.yemreak.com/0%20-%20Faydal%C4%B1%20Kaynaklar/Pop%C3%BCler%20Kullan%C4%B1mlar)
   - [🤸‍ Cheat Sheets](https://ds.yemreak.com/Cheat%20Sheets/)
   - [👨‍🔧 Düzeltilmiş Notlar](https://ds.yemreak.com/D%C3%BCzeltilmi%C5%9F%20Notlar/)
     - [🕵️‍ İnternetten Veri Çekme İşlemi](https://ds.yemreak.com/D%C3%BCzeltilmi%C5%9F%20Notlar/%C4%B0nternetten%20Veri%20%C3%87ekme%20%C4%B0%C5%9Flemi)

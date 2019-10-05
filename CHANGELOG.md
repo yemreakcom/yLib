@@ -11,6 +11,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Create LOL TFT.md. [Yunus Emre]
 
+* Create LOL TFT.md. [Yunus Emre]
+
 * Alternatif kernel güncelleme çözümleri eklendi. [Yunus Emre]
 
 * Hızlı kernel kurulumu eklendi. [Yunus Emre]

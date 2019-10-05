@@ -78,6 +78,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Diğer sitelere yapılan yönlendirme linkleri yenilendi. [Yunus Emre]
+
 * Update AutoHotkey.md. [Yunus Emre]
 
 * Eksik bilgiler yenilendi. [Yunus Emre]

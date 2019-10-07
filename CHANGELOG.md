@@ -9,6 +9,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🐳 Docker notları eklendi. [Yunus Emre]
+
+* Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma yazısı eklendi. [Yunus Emre]
+
 * Create LOL TFT.md. [Yunus Emre]
 
 * Create LOL TFT.md. [Yunus Emre]
@@ -77,6 +81,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* Update AutoHotkey.md. [Yunus Emre]
 
 * ✨ Diğer sitelere yapılan yönlendirme linkleri yenilendi. [Yunus Emre]
 

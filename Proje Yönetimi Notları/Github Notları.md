@@ -1,6 +1,6 @@
-# Github Notları 
+# 🐙 Github Notları 
 
-## Github Nedir, Ne için Kullanılır
+## 🗽 Github Nedir, Ne için Kullanılır
 
 Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨‍💻 paylaşım ve yönetim platformudur.
 
@@ -16,7 +16,7 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 
 > Bu konuyla **birebir alakalı** olan [git notlarıma][git notlarım] bakmanda fayda var.
 
-## Github Pro
+## 🌟 Github Pro
 
 [Github] öğrenciler için ücretsiz **pro** faydaları sağlamaktadır.
 
@@ -30,16 +30,16 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 
 > Diğer avantajlar için [github student pack](https://education.github.com/pack) sayfasına bakabilirsin.
 
-## Github Desktop
+## 💻 Github Desktop
 
 Kodlarla uğraşmak yerine arayüzden işini halletmek isteyenler için.
 
 - <kbd>✲ Ctrl</kbd> <kbd>↩ Enter</kbd> ile **commit** yapılır
 - <kbd>✲ Ctrl</kbd> <kbd>P</kbd> ile **push** edilir
 
-## Proje Yönetimi
+## 👨‍💼 Proje Yönetimi
 
-### Repository'nin Oluşturulması ve Dosyaların Aktarılması
+### 🚙 Repository'nin Oluşturulması ve Dosyaların Aktarılması
 
 - [Github] üzerinden sağ üst köşedeki `+` butonundan `New Repository` diyerek ya da direkt olarak [buradan][github repo oluşturma] repository'i oluşturun
 - `git clone` ile veya var olan projeniz üzerinden `git remote add origin <url>` ile bağlantıyı kurun
@@ -51,7 +51,7 @@ Kodlarla uğraşmak yerine arayüzden işini halletmek isteyenler için.
     - Genel yorum formatı: `<Açıklama> (#<IssueID>)` ve isteğe bağlı ek açıklamalar
   - `git push origin master`
 
-### Repo Üzerinde Proje Yönetimi
+### 💫 Repo Üzerinde Proje Yönetimi
 
 Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yapılanlar, yapıldı vs..) yapısı kullanılmaktadır.
 
@@ -65,11 +65,11 @@ Repository üzerinde proje yönetimi için scrum veya canvan (yapılacaklar, yap
 - Oluşturulan `Issue`'ler, `Automated Kanban` yapısı ve sayesinde belirttiğiniz projeye otomatik akatarılacaktır.
 - `Milestones` ile yapılacak işlere süre sınırı (deadline) tanımlayabilirsin
 
-## Github Üzerindeki Açılmayan Dosyalar
+## 📂 Github Üzerindeki Açılmayan Dosyalar
 
 > [Stackoverflow açıklaması](https://stackoverflow.com/questions/19584255/what-does-a-grey-icon-in-remote-github-mean)
 
-## Github Eklentileri
+## 🔌 Github Eklentileri
 
 Eklentilerin sayfasına [buradan][marketplace] erişebilirsin.
 
@@ -83,17 +83,17 @@ Eklentilerin sayfasına [buradan][marketplace] erişebilirsin.
 | [GitLocalize][gitlocalize - github] | Bir bak 🙋‍♀️                                                                                |
 | [Codetree][codetree - github]       | Çevik (agile) takımların için proje yönetim eklentisi (paralı 🧐)                            |
 
-## Github Yardımcıları
+## 🆘 Github Yardımcıları
 
 | Yardımcı                   | Açıklama                                                       |
 | -------------------------- | -------------------------------------------------------------- |
 | [GitGuardian][gitguardian] | Kimlik bilgilerinin paylaşılması durumunu kontrol eder, uyarır |
 
-## Github Credential Değiştirme
+## 🔐 Github Credential Değiştirme
 
 Kaynak için [buraya][credential settings - video] bakabilirsin
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 - [Github page'e domain bağlama]
 

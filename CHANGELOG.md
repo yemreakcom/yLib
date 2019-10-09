@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🛫 Drone ve IHA Farkları yazısı eklendi. [Yunus Emre]
+
 * 🐳 Docker notları eklendi. [Yunus Emre]
 
 * Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma yazısı eklendi. [Yunus Emre]
@@ -81,6 +83,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* Update Markdown.md. [Yunus Emre]
 
 * Update AutoHotkey.md. [Yunus Emre]
 

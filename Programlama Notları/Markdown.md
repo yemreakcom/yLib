@@ -1,14 +1,17 @@
-# Markdowns 
+---
+description: GitHub README gibi alanlarda kullanılan derlenebilir
+---
 
-Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) tıklayabilirsin.
+# 📑 Markdown
 
-## Kullanım Örnekleri
+## 👀 Kullanım Örnekleri
 
-Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) tıklayabilirsin.
+- Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) tıklayabilirsin.
+- Ek kaynak için [buraya](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) tıklayabilirsin.
 
 > HTML etiketlerini destekler.
 
-## Temel Formatlar
+## 📌 Temel Formatlar
 
 - `*[metin]*` Metni italik (eğik) yazma
 - `**[metin]**` Metni bold (kalın) yazma
@@ -23,7 +26,7 @@ Detaylar için [buraya](https://guides.github.com/features/mastering-markdown/) 
   - Özel butonlar: <kbd>Tab ⭾</kbd> <kbd>❖ Win</kbd> <kbd>⇧ Shift</kbd> <kbd>⇪ Caps Lock</kbd> <kbd>⇭ NumLock</kbd> <kbd>↩ Enter</kbd> <kbd>▤ Menu</kbd> <kbd>⎋ Esc</kbd> <kbd>⌫ Backspace</kbd> <kbd>⌦ Del</kbd> <kbd>⎀ Insert</kbd> <kbd>↑ ↓ ← → Arrow</kbd> <kbd>✲ Ctrl</kbd> <kbd>⎇ Alt</kbd>
   - Daha fazlası için [buraya](http://xahlee.info/comp/unicode_computing_symbols.html) bakabilirsin
 
-## Bağlantı Verme
+## 🔗 Bağlantı Verme
 
 Link işlemleri için bilgiler. Kaynak için [buraya](https://css-tricks.com/snippets/html/mailto-links/) tıklayabilirsin.
 
@@ -41,13 +44,13 @@ Link işlemleri için bilgiler. Kaynak için [buraya](https://css-tricks.com/sni
 - [Test](../Markdown#ba%C4%9Flant%C4%B1-verme) `[Test](../Markdown#ba%C4%9Flant%C4%B1-verme)`
 - `%20` Boşluk karakteri
 
-### Satıriçi Bağlantı (Inline Link)
+### 🔪 Satıriçi Bağlantı (Inline Link)
 
 `[metin](url)` yapısı ile metne _inline link_ verebilirsin. [Test](https://yemreak.com)
 
 > _Dynamic link_'te `[]` kullanıldığına dikkat ediniz.
 
-### Dinamik Bağlantı (Dynamic Link)
+### 🗡 Dinamik Bağlantı (Dynamic Link)
 
 Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 
@@ -61,13 +64,13 @@ Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 
 > _Inline link_'te `()` kullanıldığına dikkat ediniz.
 
-### Resim Bağlantısı
+### 🎨 Resim Bağlantısı
 
 `![resim_açıklaması][resim_urli]` yapısı ile yazına resim yerleştirebilirsin.
 
 > GIF'i de destekler
 
-## Tablo Oluşturma
+## 📊 Tablo Oluşturma
 
 ```markdown
 | Tables   |      Are      |   Cool |
@@ -83,7 +86,7 @@ Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 | col 2 is |   centered    |   \$12 |
 | col 3 is | right-aligned |    \$1 |
 
-## Açılır Menü Oluşturma
+## 📋 Açılır Menü Oluşturma
 
 - `details` etiketi ile açılır menü oluşturulur
 - `summary` kısmı görünen metindir
@@ -106,7 +109,7 @@ Alttaki yapı ile metne _dynamic link_ verebilirsin. [Test][test]
 
 </details>
 
-## Matematik Denklemleri
+## 🔢 Matematik Denklemleri
 
 Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathematic-Fomulars-in-Markdown/) bakabilirsin.
 
@@ -115,7 +118,7 @@ Detaylı bilgi için [buraya](https://csrgxtu.github.io/2015/03/20/Writing-Mathe
 
 > Online editör için [buraya](https://www.codecogs.com/latex/eqneditor.php) bakabilirsin.
 
-### Formül Yapısı
+### 🧬 Formül Yapısı
 
 $$z^{[1] (i)} =  W^{[1]} x^{(i)} + b^{[1]}\tag{1}$$
 $$a^{[1] (i)} = \tanh(z^{[1] (i)})\tag{2}$$
@@ -133,7 +136,7 @@ $$y^{(i)}_{prediction} = \begin{cases} 1 & \mbox{if } a^{[2](i)} > 0.5 \\ 0 & \m
 $$J = - \frac{1}{m} \sum\limits_{i = 0}^{m} \large\left(\small y^{(i)}\log\left(a^{[2] (i)}\right) + (1-y^{(i)})\log\left(1- a^{[2] (i)}\right)  \large  \right) \small \tag{6}$$
 ```
 
-## Sık Kullanılan Rozetler (Badge)
+## ✨ Sık Kullanılan Rozetler (Badge)
 
 Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
@@ -147,9 +150,9 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 ![status](https://img.shields.io/nodeping/status/jkiwn052-ntpp-4lbb-8d45-ihew6d9ucoei.svg)
 
-## VsCode için Markdown
+## 🆚 VsCode için Markdown
 
-### VsCode için Markdown Snippets
+### 📖 VsCode için Markdown Snippets
 
 ```json
 {
@@ -179,7 +182,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 }
 ```
 
-### VsCode için Faydalı Eklentiler
+### 🔌 VsCode için Faydalı Eklentiler
 
 | Eklenti                                                                                               | Açıklama                                                                  |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
@@ -189,7 +192,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 | [ToDo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)                | Yapılacakları derleme ve arayüzde sunma                                   |
 | [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image)          | Panodan resim kopyalama                                                   |
 
-### Markdown PDF
+### 🧾 Markdown to PDF
 
 - PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
   - Yaklaşık **40** satırda bir yeni sayfaya geçmek mantıklı
@@ -207,7 +210,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 </script>
 ```
 
-#### PDF için Markdown Imzam
+#### ✍ PDF için Markdown Imzam
 
 ```md
 <!-- > *Yunus Emre Ak* ile çalışılmıştır. -->
@@ -236,7 +239,7 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 <div class="page"/>
 ```
 
-#### PDF için Özelleştirmem
+#### 🌠 PDF için Özelleştirmem
 
 - Css dosyamı [buradan](../res/markdown-pdf.css) indirebilirsin
 - VsCode üzerinden ayarlara `"markdown-pdf.styles"` komutu ile `css` dosyasının yolunu belirtin
@@ -244,7 +247,7 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 
 ![PDF Css](../res/pdf_structure.png)
 
-#### PDF için VsCode Ayarları
+#### 🔨 PDF için VsCode Ayarları
 
 ```json
 {
@@ -256,13 +259,13 @@ Bu yazı **MIT** lisanslıdır. Lisanslar hakkında bilgi almak için [buraya](h
 }
 ```
 
-#### PDF'te Emoji Fontlarının Gözükmemesi
+#### 🐞 PDF'te Emoji Fontlarının Gözükmemesi
 
 ```sh
 sudo apt install fonts-noto-color-emoji
 ```
 
-#### PDF Dosya Boyutu Sorunu
+#### 🐞 PDF Dosya Boyutu Sorunu
 
 Dosya boyutunu düşürmek için:
 
@@ -271,14 +274,12 @@ Dosya boyutunu düşürmek için:
 
 > Emoji sorunu sadece linux'ta var.
 
-## Faydalı Siteler
+## 🔗 Faydalı Siteler
 
 | Site                                       | Açıklama                   |
 | ------------------------------------------ | -------------------------- |
 | [Url Encoder](https://www.urlencoder.org/) | Link URL'leri oluşturma    |
 | [StackEdit](https://stackedit.io)          | Çevrimiçi markdown editörü |
-
-## Harici Bağlantılar
 
 - <https://html.com/attributes/a-href/>
 - [Markdown and Visual Studio Codes](https://code.visualstudio.com/docs/languages/markdown)

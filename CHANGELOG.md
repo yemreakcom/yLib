@@ -84,6 +84,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update GitBook.md. [Yunus Emre]
+
+* Update Github Notları.md. [Yunus Emre]
+
+* 🔗 Linkler direkt olarak indirilebilir hale alındı. [Yunus Emre]
+
 * Update AutoHotkey.md. [Yunus Emre]
 
 * Update .ygitchangelog.rc. [Yunus Emre]

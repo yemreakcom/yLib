@@ -87,7 +87,7 @@ section_regexps = [
         r'\bekle|\boluş|(\byeni )|\b[cC]reate|\barttır|\bartır'
     ]),
     ('🌌 Değişikler', [
-        r'\b[tT]aşı|\bdeğiş|\b[uU]pdate|\bgüncel|\byenile|\bdönül|\bgeç|\bkoyu|\byapılan|\b[rR]evert|\b[gG]eri|\balındı|\baktar|\byenile|(\bevril)|\bgetir',
+        r'\b[tT]aşı|\bdeğiş|\b[uU]pdate|\bgüncel|\byenile|\bdönül|\bgeç|\bkoyu|\byapılan|\b[rR]evert|\b[gG]eri|\balındı|\baktar|\byenile|(\bevril)|\bgetir|\b[Aa]rtık',
      ]),
     ('🗽 Düzeltmeler', [
         r'\b[bB]ug|\bdüzen|\bdüzelt|\bgider|\bkalk|\b[kK]aldır|\bayrıl|\b[dD]elete',

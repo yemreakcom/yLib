@@ -32,22 +32,33 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 ## Pencere Açma, Açıksa Gizleme
 
 - `WinName` alanına kendi pencere isminizi yazmayı unutmayın.
-- Bu örnek mesajlaşma uygulamarını tek platformda sunan [Rambox](https://rambox.pro/) için kısayoldur
+
+> Bu örnek mesajlaşma uygulamarını tek platformda sunan [Rambox](https://rambox.pro/) için kısayolunu da içerir
 
 ```ahk
 #SingleInstance Force
 
 SetTitleMatchMode, 2
 
+ToggleWindow(windowName)
+{   
+    WinGet, WinState, MinMax, %windowName%
+    if (WinState == -1)
+    {
+        WinRestore, %windowName%
+        WinActivate, %windowName%
+    }
+    else
+    {
+        WinMinimize, %windowName%
+    }
+}
+
 ShowWin(windowName, url) 
 {   
     IfWinExist, %windowName%
     {
-        WinGet, WinState, MinMax 
-        if (WinState = -1)
-            WinRestore
-        else 
-            WinMinimize
+        ToggleWindow(windowName)
     }
     else
         Run, %url%
@@ -57,8 +68,17 @@ ShowWin(windowName, url)
 ;windowName=%A_ScriptName%
 return
 
-!w::
+#w::
     ShowWin("Rambox", "C:\ProgramData\chocolatey\lib\rambox\tools\Rambox.exe")
+    return
+#q::
+    ShowWin("- OneNote", "shell:appsFolder\Microsoft.Office.OneNote_8wekyb3d8bbwe!microsoft.onenoteim")
+    return
+#t::
+    ShowWin("Tureng", "shell:appsFolder\24232AlperOzcetin.Tureng_9n2ce2f97t3e6!App")
+    return
+#+t::
+    ShowWin("Trello", "shell:appsFolder\45273LiamForsyth.PawsforTrello_7pb5ddty8z1pa!trello")
     return
 
 ```

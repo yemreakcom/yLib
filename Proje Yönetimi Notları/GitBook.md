@@ -4,7 +4,10 @@
 
 GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
 
-- Kaynakları (resim, PDF vs) GitHub üzerinden çeker, kendi sitesinde barındırmaz
+- Kaynakları (resim, PDF vs) GitHub üzerinden çekebilmekte
+  - Kendi linkleri **.gitbook/assets** dizinindeki dosyalara yapılmakta
+  - `{% file src="../../.gitbook/assets/örnek.pdf" %}` şeklindedir
+    - 2 dizin içeride olan bir dosya için yazılmıştır
 - GitHub ile 💫 senkronize çalışır 
 
 ### 💔 Desteklemedikleri

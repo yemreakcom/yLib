@@ -36,6 +36,9 @@ Kodlarla uğraşmak yerine arayüzden işini halletmek isteyenler için.
 
 - <kbd>✲ Ctrl</kbd> <kbd>↩ Enter</kbd> ile **commit** yapılır
 - <kbd>✲ Ctrl</kbd> <kbd>P</kbd> ile **push** edilir
+- `History` alnından **commit**'lere sağ tıklayıp `Rever Commit` ile geri alabilrisiniz
+  - 5 **commit** geri gidecekseniz, en tepeden aşağıya doğru 5 kere **revert** etmeniz lazım
+  - Aksi takdirde 🐞 **merge conflict**'ler ile  uğraşırsınız
 
 ## 👨‍💼 Proje Yönetimi
 

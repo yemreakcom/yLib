@@ -84,6 +84,14 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update AutoHotkey.md. [Yunus Emre]
+
+* Update .ygitchangelog.rc. [Yunus Emre]
+
+* Update AutoHotkey.md. [Yunus Emre]
+
+* 🐙 Github Notları yenilendi. [Yunus Emre]
+
 * Update Markdown.md. [Yunus Emre]
 
 * Update AutoHotkey.md. [Yunus Emre]
@@ -861,6 +869,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * Windows 10 bilgileri yenilendi. [yedhrab]
 
+* VsCode notları artık daha anlaşılır 🌟 [yedhrab]
+
 * Java notları yenilendi 🎈 [yedhrab]
 
 * Format yenilendi. [yedhrab]
@@ -1300,8 +1310,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Yeni notlar 📚 [yedhrab]
 
 * Yeni bilgiler 🚀 [yedhrab]
-
-* VsCode notları artık daha anlaşılır 🌟 [yedhrab]
 
 * Karışık notlar 🌀 [yedhrab]
 

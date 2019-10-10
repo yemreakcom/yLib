@@ -11,9 +11,19 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 
 > Windows 10'da denenmiştir.
 
-## Hızlı Notlar
 
-- [Kısayol Tanımlamaları](https://www.autohotkey.com/docs/Tutorial.htm#s21)
+## Kısayol Tanımlamaları
+
+| Symbol | Description                                                                                          |
+| ------ | ---------------------------------------------------------------------------------------------------- |
+| `#`    | Win (Windows logo key)                                                                               |
+| `!`    | Alt                                                                                                  |
+| `^`    | Control                                                                                              |
+| `+`    | Shift                                                                                                |
+| `&`    | An ampersand may be used between any two keys or mouse buttons to combine them into a custom hotkey. |
+
+> [Kısayol Tanımlamaları](https://www.autohotkey.com/docs/Tutorial.htm#s21)
+## Hızlı Notlar
 
 | Komut                                                                               | Açıklama                               |
 | ----------------------------------------------------------------------------------- | -------------------------------------- |

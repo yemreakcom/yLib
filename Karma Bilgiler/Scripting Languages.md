@@ -2,7 +2,7 @@
 description: Scripting diller hakkında aldığım notlar ✍
 ---
 
-# Scripting Languages
+# 👨‍💻 Scripting Languages
 
 ## Terimler
 

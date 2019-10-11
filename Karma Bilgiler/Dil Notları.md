@@ -1,4 +1,4 @@
-# Dil Notları
+# 👅 Dil Notları
 
 ## Çoğulları Adlandırma
 

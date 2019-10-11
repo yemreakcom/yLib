@@ -1,4 +1,4 @@
-# Araştırmalar 
+# 👨‍🔬 Araştırmalar 
 
 ## Akademik Yazı ve Makale Siteleri
 

@@ -1,4 +1,4 @@
-# LOL TFT
+# 🎮 LOL TFT
 
 ## Challanger Meta
 

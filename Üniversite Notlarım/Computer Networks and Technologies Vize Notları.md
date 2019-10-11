@@ -109,7 +109,7 @@ Birbirine bağlı çok sayıda *router*'dan oluşur. Network of network olarak d
 - *Packet*'ların bir sırası yoktur
 - Her bilgisayar *packet* iletimi için aynı yolu kullanır
 - Kaynaklar boşta kalmaz. (verimli)
-- Her bir *packet* $L$ kadar bit içeriyor ve *transmission rate* $R$ ise transmission delay $D=L/R$ formülü ile bulunur
+- Her bir *packet* $$L$$ kadar bit içeriyor ve *transmission rate* $$R$$ ise transmission delay $$D=L/R$$ formülü ile bulunur
 - Kaynak çekişmesi olabilir. (olumsuz)
   - Toplamk kaynak talebi kullanılanı aşabilir
   - Trafik sıkışıklığı, *packet*'in kuyruğu ve bağlatıyı kullanmak için beklemesi

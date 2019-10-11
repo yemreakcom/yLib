@@ -3,8 +3,8 @@
 ## Diziden eleman bulma
 
 - Dizi öncelikle sıralanır
-  - Sırasız dizilerin karmaşıklığı $O(N) = N\log(N)$
-  - Sıralı olunca $O(N) = N$
+  - Sırasız dizilerin karmaşıklığı $$O(N) = N\log(N)$$
+  - Sıralı olunca $$O(N) = N$$
   - Örn: küçükten büyüğe
 - Ardından eleman aranır
 - Eğer eleman bakılan indeksten küçükse arama sonlandırılır

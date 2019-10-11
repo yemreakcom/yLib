@@ -74,7 +74,7 @@ Görüntünün birinci türevindeki maks ve min değerlere bakarak kenar belirle
 | Prewitt | *Sobel*'e göre daha basit ama gürültülü sonuçlar elde eder     |
 | Robert  | En basit eğim opreratörüdür, köşeden köşeye çapraz geçiş yapar |
 
-> $G = \sqrt {G_x^2 + G_y^2}$
+> $$G = \sqrt {G_x^2 + G_y^2}$$
 
 ![grad_ex2](../res/grad_ex2.png)
 
@@ -271,29 +271,29 @@ Fazlalık olan kısımlara 1, diğer alanlara değişkenler verilir. [xy1] vs.
 Pixel değerlerinin aralığını genişletme işlemi olarak da bilinir.
 
 - Resmin sahip olduğu en düşük ve en yüksek pixel değeri bulunur
-  - $eski_{max}, eski_{min}$
+  - $$eski_{max}, eski_{min}$$
 - İstenen en yüksek ve en düşük pixel aralıkları belirlenir
   - Genelde 0, 255 değerleri seçilir
-  - $yeni_{max}, yeni_{min}$
+  - $$yeni_{max}, yeni_{min}$$
 - Her bir pixel, yeni başlangıç ve bitiş noktasına göre değerler alır
 
-$$
+$$$$
 yeni_i = ((yeni_{max} - yeni_{min}) / (eski_{max} - eski_{min})) . (eski_i - eski_{min}) + yeni_{min}
-$$
+$$$$
 
 ### Histogram Eşitleme
 
 Her bir parlaklık seviyesi için aynı sayıda pixel bulunmasını sağlayarak resmin pixellerinin dengeli (uniform) dağılımda olması amaçlanır.
 
-- Her pixel ton değerinin resmin içinde hangi oranda olduğu $p_r(r_k)$ hesaplanır
-  - $P_r(r_k) = n_k / n$
-    - $n$: Toplam pixel sayısı
-    - $n_k$: k. pixel sayısı
-- Kümülatif olasılık fonksiyonu $s_k$ hesaplanır
-  - $s_k = T(r_k) = \sum_{j=0}^k P_r(r_k) = \sum_{j=0}^k n_j / n$
+- Her pixel ton değerinin resmin içinde hangi oranda olduğu $$p_r(r_k)$$ hesaplanır
+  - $$P_r(r_k) = n_k / n$$
+    - $$n$$: Toplam pixel sayısı
+    - $$n_k$$: k. pixel sayısı
+- Kümülatif olasılık fonksiyonu $$s_k$$ hesaplanır
+  - $$s_k = T(r_k) = \sum_{j=0}^k P_r(r_k) = \sum_{j=0}^k n_j / n$$
 - Ters dönüşüm yapılarak, hangi renk tonu yerine hangisinin geleceği hesaplanır
-  - $r_k = T^-(s_k) = L * T(r_k)$
-    - $L$: Maksimum pixel değeri (255)
+  - $$r_k = T^-(s_k) = L * T(r_k)$$
+    - $$L$$: Maksimum pixel değeri (255)
 
 <div class="page"/>
 

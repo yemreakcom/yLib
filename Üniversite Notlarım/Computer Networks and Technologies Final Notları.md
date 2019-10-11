@@ -49,7 +49,7 @@ Yönlendircinin 2 görevi vardır:
 #### Input & Output Queuing
 
 - *Queue delay* ve *buffer*'ın dolu olmasından dolayı kayıp olur (Output)
-  - $(RTT.C) / \sqrt{N}$
+  - $$(RTT.C) / \sqrt{N}$$
 - Gecikme ve giriş buffer'ında yer kalmaz ise kayıp oluşabilir (Input)
   - Head of the Line (HOL)
 - Scheduling mechanisims
@@ -72,9 +72,9 @@ Yönlendircinin 2 görevi vardır:
 - IPv4 = 4byte (32 bit)
 - IPv6 = 16byte (128 bit)
 - Büyük IP datagramları ağ içlerinde parçalanıp (*fragmentation*) yollanır, son hedefte (*final destination*) da işlemcide birleştirilir (*reassambled*)
-  - Üst bilgi uzunluğu $Head = 20$bit
-  - Bölünme varsa $fragflag = 1$
-  - $Offset = (length - Head) / 8$
+  - Üst bilgi uzunluğu $$Head = 20$$bit
+  - Bölünme varsa $$fragflag = 1$$
+  - $$Offset = (length - Head) / 8$$
 
 #### IP Adressing
 
@@ -84,7 +84,7 @@ Yönlendircinin 2 görevi vardır:
 
 #### Subnet (Alt ağlar)
 
-- IP'lerin ortak kısmı yazılır, değişken kısmı $0$ olarak gösterilir
+- IP'lerin ortak kısmı yazılır, değişken kısmı $$0$$ olarak gösterilir
 - 223.1.1.1, 223.1.1.4 vs. için 223.1.1.0 *subnet*'i kullanılır
   - IP'in sol kısmı 223.1.1 **subnet**, sağ kısmı **host** bölümüdür
   - 223.1.3.0 / 24 değerinden 24 kısmı subnet için ayrılan biti (*subnet mask*) temsil eder
@@ -183,32 +183,32 @@ Yeni bir ISP'ye geçildiğinde yeni olandaki IP adresinin **subnet mask** değer
 
 ### SubnetMask Host ve Bit Hesaplamaları
 
-$255.255.b.a$ olan subnetmask için:
+$$255.255.b.a$$ olan subnetmask için:
 
-- $host = (256 - b)(256 - a) - 2$
+- $$host = (256 - b)(256 - a) - 2$$
   - 0 ve 255 kullanılamaz, ondan - 2
-- $bit = 32 - log_2 (host + 2)$
+- $$bit = 32 - log_2 (host + 2)$$
   - Subnet içina ayrılan bit (*subnet mask*)
 
 Subnet splitting:
 
-- $m \geq log_2(subnet)$
-  - $subnet$: istenen subnet sayısı
-  - $m$ kadar host kısmına 1 yazılır (x.x.x.x / 21 ise 22 olacak)
-- $host = 2^n - 2$
-  - $n$: Bir subnetteki host sayısı
-- $2^n$ kadar arttırılacak şekilde IP'ler gruplanır
+- $$m \geq log_2(subnet)$$
+  - $$subnet$$: istenen subnet sayısı
+  - $$m$$ kadar host kısmına 1 yazılır (x.x.x.x / 21 ise 22 olacak)
+- $$host = 2^n - 2$$
+  - $$n$$: Bir subnetteki host sayısı
+- $$2^n$$ kadar arttırılacak şekilde IP'ler gruplanır
 - Başlangıç ve bitiş dahil olmaz
 
 <div class="page"/>
 
 ### IPv4 Classes
 
-$IP.0.0.0$ için temel formül:
+$$IP.0.0.0$$ için temel formül:
 
-- $IP_{class} = IP_{class - 1} + 2^{8 - harf}$
-  - $harf$ A -> 0 olmak üzere alfabetik sıra
-  - $IP_{0} = 0$
+- $$IP_{class} = IP_{class - 1} + 2^{8 - harf}$$
+  - $$harf$$ A -> 0 olmak üzere alfabetik sıra
+  - $$IP_{0} = 0$$
 
 | Class | IP Karşılığı | Artış |
 | ----- | ------------ | ----- |

@@ -21,14 +21,14 @@ Pipeline durumunda her *cycle*'da birden fazla işlem yapılır.
 
 ## Hız Hesaplama
 
-$CycleTime = (IF + n_m \times n_c) \times CPI$
+$$CycleTime = (IF + n_m \times n_c) \times CPI$$
 
-- $CycleTime$, Saat çevrim sayısı
-- $IF$, ilk komuttaki IF katı
+- $$CycleTime$$, Saat çevrim sayısı
+- $$IF$$, ilk komuttaki IF katı
   - Genelde 1 olur
-- $n_m$, Döngüdeki komut sayısı
-- $n_c$, Döngüdeki çevrim sayısı
-- $CPI$, Her talimat için çevrim sayısı (Cycle per instruction)
+- $$n_m$$, Döngüdeki komut sayısı
+- $$n_c$$, Döngüdeki çevrim sayısı
+- $$CPI$$, Her talimat için çevrim sayısı (Cycle per instruction)
   - Genelde 1 olur
 
 <div class="page"/>
@@ -37,7 +37,7 @@ $CycleTime = (IF + n_m \times n_c) \times CPI$
 
 ## Hız ve Maaliyet Kıyaslaması
 
-$Register > Cache > Memory > Disk > Tape$
+$$Register > Cache > Memory > Disk > Tape$$
 
 > Kapasite için tam tersi
 
@@ -52,21 +52,21 @@ $Register > Cache > Memory > Disk > Tape$
 
 ## Memory with Cache (Önbellekli Bellek) Erişme
 
-`lw $t0 0($t1)` instruction (talimat) için:
+`lw $$t0 0($$t1)` instruction (talimat) için:
 
-- `$t1` $1022_{ten}$ verisini içerir
-- $Memory[1022] = 99$ olsun
+- `$$t1` $$1022_{ten}$$ verisini içerir
+- $$Memory[1022] = 99$$ olsun
 - Cache varsa:
-  - İşlemci $1022_{ten}$ adersini cache belirtir
-  - Cache $1022_{ten}$ verisinin kopyası var mı kontrol eder
+  - İşlemci $$1022_{ten}$$ adersini cache belirtir
+  - Cache $$1022_{ten}$$ verisinin kopyası var mı kontrol eder
   - Eğer kopyası varsa (hit):
-    - Cache $99$'u okur ve işlemciye gönderir
+    - Cache $$99$$'u okur ve işlemciye gönderir
   - Eğer kopyası yoksa (miss):
-    - Cache $1022_{ten}$'u memory'e gönderir
-    - Memory $99$ verisini $1022_{ten}$ adresinden okur
-    - Memory $99$ verisini cache'e gönderir
-    - Cache verisini yeni $99$ verisiyle değiştirir
-    - Cache $99$ verisini işlemciye gönderir
+    - Cache $$1022_{ten}$$'u memory'e gönderir
+    - Memory $$99$$ verisini $$1022_{ten}$$ adresinden okur
+    - Memory $$99$$ verisini cache'e gönderir
+    - Cache verisini yeni $$99$$ verisiyle değiştirir
+    - Cache $$99$$ verisini işlemciye gönderir
 
 <div class="page"/>
 
@@ -74,41 +74,41 @@ $Register > Cache > Memory > Disk > Tape$
 
 ### Cache Uzunluğu
 
-$S_{catch} = 2 ^ {S_{index}} \times S_{tag} \times S_{line}$
+$$S_{catch} = 2 ^ {S_{index}} \times S_{tag} \times S_{line}$$
 
-- $S$ Uzunluk (size)
+- $$S$$ Uzunluk (size)
 
 ### Hit ve Miss Oranları
 
-$R_{miss} = 1 - R_{hit}$
+$$R_{miss} = 1 - R_{hit}$$
 
-- $R$: Rate, oran değeri (<1)
+- $$R$$: Rate, oran değeri (<1)
 
 ### Hit ve Miss Süreleri
 
-$T_{cache} = T_{replace}$
+$$T_{cache} = T_{replace}$$
 
-$T_{miss} = T_{replace} + T_{deliver}$
+$$T_{miss} = T_{replace} + T_{deliver}$$
 
-- $T_{miss}$: Miss durumunda harcanan süre (penalty)
-- $T_{replace}$: Cache'deki bloğu yeniden yerleştirme süresi
-- $T_{deliver}$: Bloğun işlemciye aktarılma süresi
+- $$T_{miss}$$: Miss durumunda harcanan süre (penalty)
+- $$T_{replace}$$: Cache'deki bloğu yeniden yerleştirme süresi
+- $$T_{deliver}$$: Bloğun işlemciye aktarılma süresi
 
 ### Etkin Bellek Varış Zamanı
 
 **Etkin bellek varış zamanı** aşağıdaki gibi tanımlanır:
 
-$T_{e} = T_{cache} \times R_{hit} + (1 - R_{hit}) \times T_{memory}$
+$$T_{e} = T_{cache} \times R_{hit} + (1 - R_{hit}) \times T_{memory}$$
 
-- $T$: Time, tamamlanması için geçen süre (penalty)
-- $R$: Rate, oran
+- $$T$$: Time, tamamlanması için geçen süre (penalty)
+- $$R$$: Rate, oran
 
 ### Ortalama Erişim Süresi
 
-$T_{avg} = T_{hit} \times R_{hit} + T_{miss} \times R_{mis}$
+$$T_{avg} = T_{hit} \times R_{hit} + T_{miss} \times R_{mis}$$
 
-- $T$: Time, tamamlanması için geçen süre (penalty)
-- $R$: Rate, oran
+- $$T$$: Time, tamamlanması için geçen süre (penalty)
+- $$R$$: Rate, oran
 
 <div class="page"/>
 
@@ -118,9 +118,9 @@ $T_{avg} = T_{hit} \times R_{hit} + T_{miss} \times R_{mis}$
   - Cache'deki her block memory bloğunu taşıyabilir
   - En hızlı ve en pahalı yöntemdir
 - Direct mapping
-  - Memory blokları için cache'ye $1$ yer vardır
+  - Memory blokları için cache'ye $$1$$ yer vardır
 - Set-associative mapping
-  - Memory blokları için cache'de $N$ farklı yer vardır, daha fazla $R_{hit}$ mümkün
+  - Memory blokları için cache'de $$N$$ farklı yer vardır, daha fazla $$R_{hit}$$ mümkün
 - Fully Associative Mapping
   - Memory blokları cache'de **herhangi** bir yere gidebilir
 
@@ -191,43 +191,43 @@ Yeni blok alındığında hangi bloğun yerine koyulacak.
   - Yoksa (Miss):
     - Memory'deki bloklar cache alınır (*mem-read*)
     - Cache'deki veriler hesaplanır
-      - $V = 1$ yapılır
-      - $X_{tag} = X_{Adress} \div S_{data}$
-      - $X_{data} = X_{memory}$
+      - $$V = 1$$ yapılır
+      - $$X_{tag} = X_{Adress} \div S_{data}$$
+      - $$X_{data} = X_{memory}$$
 - St (store) komutu için:
   - Veri cache'de yoksa (Miss):
     - Memory'deki bloklar cache alınır (*mem-read*)
     - Cache'deki veriler hesaplanır
-      - $V = 1$ yapılır
-      - $X_{tag} = X_{Adress} \div S_{data}$
-      - $X_{data} = X_{memory}$
+      - $$V = 1$$ yapılır
+      - $$X_{tag} = X_{Adress} \div S_{data}$$
+      - $$X_{data} = X_{memory}$$
   - Veri önce cache'e sonra memory'e yazılır (*mem-write*)
 
-> $X$: Değer, $S_{data}$: Blok boyutu (kaç byte),  $X_{memory}$: Memory'deki değer
+> $$X$$: Değer, $$S_{data}$$: Blok boyutu (kaç byte),  $$X_{memory}$$: Memory'deki değer
 
 ### Write-Back (Sonradan Yazma)
 
 - `V D Tag Data` yapısına sahiptir
-- Ld komutu için ek olarak $d = 0$ işlemi yapılır
+- Ld komutu için ek olarak $$d = 0$$ işlemi yapılır
 - St komutunu işleyiş şekli:
   - Veri cache'de yoksa (Miss):
-    - Cache üzerinde $d = 0$ olan blok yoksa:
-      - $d = 1$ olan bloklardan biri memory'e yazılır (*mem-write*)
+    - Cache üzerinde $$d = 0$$ olan blok yoksa:
+      - $$d = 1$$ olan bloklardan biri memory'e yazılır (*mem-write*)
     - Memory'deki bloklar cache alınır (*mem-read*)
     - Cache'deki veriler hesaplanır
-      - $V = 1$ ve $d = 0$ yapılır
-      - $X_{tag} = X_{Adress} \div S_{data}$
-      - $X_{data} = X_{memory}$
+      - $$V = 1$$ ve $$d = 0$$ yapılır
+      - $$X_{tag} = X_{Adress} \div S_{data}$$
+      - $$X_{data} = X_{memory}$$
   - Veri cache'e yazılır
 
-> $d$: Dirty Cache, cache'deki veri memory'den farklıysa yani cache'e yazma işlemi yapıldıysa 1 değerini alır
+> $$d$$: Dirty Cache, cache'deki veri memory'den farklıysa yani cache'e yazma işlemi yapıldıysa 1 değerini alır
 
 <div class="page"/>
 
 ## Cache Üzerinde Yazma İşleml Hesaplamaları
 
 - Her *miss* işlemi için 1 **blok** okunur (*mem-read*)
-  - $S_{data}$ kadar byte demek
+  - $$S_{data}$$ kadar byte demek
 - Her *store* işlemi için 1 **byte** yazılır (*mem-write*)
 - Her *dirty cache* işlemi için 1 **blok** yazılır (*mem-write*)
 

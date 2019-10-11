@@ -12,8 +12,8 @@ iconv -f WINDOWS-1252 -t UTF-8 infile.txt > outfile.txt
 
 ## 32 vs 64 Bit
 
-- 32 bit $2 ^ {34}$ bit yani **4 GB**'lık çıktı verebilir
-- 64 bit $2 ^ {64}$ bit yani **16 EB**'lık çıktı verebilir
+- 32 bit $$2 ^ {34}$$ bit yani **4 GB**'lık çıktı verebilir
+- 64 bit $$2 ^ {64}$$ bit yani **16 EB**'lık çıktı verebilir
 
 > 4 GB'lık çıktı için yaklaşık 4GB RAM
 

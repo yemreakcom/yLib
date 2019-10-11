@@ -86,6 +86,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Matematiksel formüller GitBook için yapılandırıldı. [Yunus Emre]
+
 * Update GitBook.md. [Yunus Emre]
 
 * Update Github Notları.md. [Yunus Emre]
@@ -193,6 +195,10 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* Matematiksel formüllerin gözükmesi denendi. [Yunus Emre]
+
+* ✨ Emojilendi. [Yunus Emre]
 
 * 🔗 Linkler ön izlemeli olarak açılacak şekilde ayarlandı. [Yunus Emre]
 

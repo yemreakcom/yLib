@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🔢 Asal Sayılar yazısı eklendi. [Yunus Emre]
+
 * 🛫 Drone ve IHA Farkları yazısı eklendi. [Yunus Emre]
 
 * 🐳 Docker notları eklendi. [Yunus Emre]
@@ -191,6 +193,8 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* 🔗 Linkler ön izlemeli olarak açılacak şekilde ayarlandı. [Yunus Emre]
 
 * 🐳 Docker notları güzelleştirildi ✨ [Yunus Emre]
 

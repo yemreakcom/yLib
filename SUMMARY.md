@@ -27,6 +27,7 @@
   - [🏫 Istanbul University - CE](./IUCE/README.md)
   - [💫 Karma Bilgiler](./Karma%20Bilgiler/README.md)
     - [Araştırmalar](./Karma%20Bilgiler/Ara%C5%9Ft%C4%B1rmalar.md)
+    - [🔢 Asal Sayılar](./Karma%20Bilgiler/Asal%20Say%C4%B1lar.md)
     - [Dil Notları](./Karma%20Bilgiler/Dil%20Notlar%C4%B1.md)
     - [📺 Eğitim Videoları](./Karma%20Bilgiler/E%C4%9Fitim%20Videolar%C4%B1.md)
     - [LOL TFT](./Karma%20Bilgiler/LOL%20TFT.md)

@@ -50,8 +50,8 @@ Asal sayıların dağılımları ile uranyum atomunun enerji seviyelerinin dağ�
 
 ## 📜 Asal Sayıları Bulmaya Çalışan Formüller
 
-- Fermat, Mersenne'ye yazdığı bir mektupta $2^{2^n}  + 1$ sayısının asal olacağını öne sürmüştür.
-  - Bu işlemin doğru olabilmesi için $2^n - 1$'in de asal olması lazım, ancak bu her işlem için doğru değildir.
+- Fermat, Mersenne'ye yazdığı bir mektupta $$2^{2^n}  + 1$$ sayısının asal olacağını öne sürmüştür.
+  - Bu işlemin doğru olabilmesi için $$2^n - 1$$'in de asal olması lazım, ancak bu her işlem için doğru değildir.
   - Bunu test etmek için **Lucas-Lehmer** testi uygulanmaktadır
   - Testten geçen sayılar, **Mersenne Prime** olarak ele alınmaktadır
 

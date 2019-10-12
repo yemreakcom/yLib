@@ -1,10 +1,14 @@
-# VsCode Eklentiler 
+---
+description: VsCode üzerinde üretkenliğinizi 🛫 uçuracak eklentiler.
+---
 
-## Önerilen Eklentiler
+# 🔌 VsCode Eklentileri
+
+## 🎇 Önerilen Eklentiler
 
 Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/) tıklamanda fayda var.
 
-## Verimlilik ve Görsellik Eklentileri
+## 📈 Verimlilik ve Görsellik Eklentileri
 
 | Eklenti                                       | Açıklama                                          |
 | --------------------------------------------- | ------------------------------------------------- |
@@ -16,7 +20,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [✅ Todo Tree][todo tree]                      | Yapılacakları gösteren arayüz                     |
 | [🎶 vscode-spotify][vscode-spotify]           | Spotify ile müzik desteği                         |
 
-## Proje Yönetimi
+## 👨‍💼 Proje Yönetimi
 
 | Eklenti                                                                                  | Açıklama                                   |
 | ---------------------------------------------------------------------------------------- | ------------------------------------------ |
@@ -25,46 +29,46 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [🔊 Live Share Audio][live share audio]                                                  | Anlık olarak ses paylaşma                  |
 | [👨‍💻 Remote Development][remote development]                                           | Uzak bilgisayarlarda metni VsCode ile açma |
 
-## Programlama Eklentileri
+## 👨‍💻 Programlama Eklentileri
 
 > **CodeSnippets**, **Scratchpad** ve **Fira Code**'a bakmayı unutma
 
-| Eklenti             | Açıklama                                                 |
-| ------------------- | -------------------------------------------------------- |
-| [IntelliCode ☆]     | **Yapay zeka** ile en sık kullanılan metodları önerir 🤖 |
-| [Path Intellisense] | Dosya yollarını yazarken yardımcı olur 📁                |
-| [autoDocstring]     | Otomatik kod dökümanı oluşturma 📰                       |
-| [Code Runner]       | Editör üzerinden projeleri derleme & çalıştırma ▶        |
+| Eklenti                                   | Açıklama                                              |
+| ----------------------------------------- | ----------------------------------------------------- |
+| [🤖 IntelliCode ☆][intellicode]           | **Yapay zeka** ile en sık kullanılan metodları önerir |
+| [📁 Path Intellisense][path_intellisense] | Dosya yollarını yazarken yardımcı olur                |
+| [📰 autoDocstring][autodocstring]         | Otomatik kod dökümanı oluşturma                       |
+| [⏯ Code Runner][code_runner]              | Editör üzerinden projeleri derleme & çalıştırma       |
 
-### Markdown Eklentileri
+### 📄 Markdown Eklentileri
 
-| Eklenti               | Açıklama                               |
-| --------------------- | -------------------------------------- |
-| [Markdown All in One] | Faydalı kısayollar, formatlama vs.. 🌟 |
-| [Markdown PDF]        | Markdown'u PDF'e çevirme 📃            |
-| [Paste Image]         | Panodan resim kopyalama 🖼             |
+| Eklenti                                       | Açıklama                            |
+| --------------------------------------------- | ----------------------------------- |
+| [🌟 Markdown All in One][markdown_all_in_one] | Faydalı kısayollar, formatlama vs.. |
+| [📃 Markdown PDF][markdown_pdf]               | Markdown'u PDF'e çevirme            |
+| [📋 Paste Image][paste_image]                 | Panodan resim kopyalama             |
 
-### Python Eklentileri
+### 🐍 Python Eklentileri
 
-| Eklenti            | Açıklama                                                       |
-| ------------------ | -------------------------------------------------------------- |
-| [Python]           | Python desteği 🌟                                              |
-| [Kite]             | [IntelliCode ☆]'dan daha iyi python'a odaklı **yapay zeka** 🤖 |
-| [AREPL For Python] | Anlık python çalıştırıcısı ▶                                   |
+| Eklenti                                | Açıklama                                                    |
+| -------------------------------------- | ----------------------------------------------------------- |
+| [🌟 Python][python]                    | Python desteği                                              |
+| [🤖 Kite][kite]                        | [IntelliCode ☆]'dan daha iyi python'a odaklı **yapay zeka** |
+| [⏯ AREPL For Python][arepl_for_python] | Anlık python çalıştırıcısı                                  |
 
-### Javascript Eklentileri
+### 📜 Javascript Eklentileri
 
-| Eklenti                          | Açıklama                         |
-| -------------------------------- | -------------------------------- |
-| [Quokka.js]                      | Anlık derleyici ve hata ayıklama |
-| [JavaScript (ES6) code snippets] | Kod kısayolları                  |
-| [Babel Javascript]               | ES6 tipinde yazmayı sağlar       |
-| [npm Intellisese]                | NPM modüllerini önerir           |
-| [jshint]                         | Javascript imla kontrolcüsü      |
-| [Eslint]                         | JS için imla kontrolcüsü         |
-| [Import Cost]                    | Bellek kullanımını gösterir      |
+| Eklenti                                                             | Açıklama                         |
+| ------------------------------------------------------------------- | -------------------------------- |
+| [🐛 Quokka.js][quokka.js]                                           | Anlık derleyici ve hata ayıklama |
+| [🚀 JavaScript (ES6) code snippets][javascript (es6) code snippets] | Kod kısayolları                  |
+| [✨ Babel Javascript][babel javascript]                              | ES6 tipinde yazmayı sağlar       |
+| [👁 npm Intellisese][npm intellisese]                               | NPM modüllerini önerir           |
+| [💡 jshint][jshint]                                                 | Javascript imla kontrolcüsü      |
+| [💡 Eslint][eslint]                                                 | JS için imla kontrolcüsü         |
+| [🎳 Import Cost][import_cost]                                       | Bellek kullanımını gösterir      |
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 - [Here are some super secret VS Code hacks to boost your productivity](https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/)
 - [My Top 10 VSCode Extension Recommendation](https://medium.com/backticks-tildes/my-top-10-vscode-extension-recommendation-ac2c2f62ffe5)
@@ -89,21 +93,22 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 <!-- Programlama -->
 
-[intellicode ☆]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
-[path intellisense]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
-[code runner]: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+[intellicode]: https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+[path_intellisense]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+[code_runner]: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
+[autodocstring]: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
 
 <!-- Markdown -->
 
-[markdown all in one]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
-[markdown pdf]: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
-[paste image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
+[markdown_all_in_one]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+[markdown_pdf]: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
+[paste_image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
 
 <!-- Python -->
 
 [python]: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 [kite]: https://marketplace.visualstudio.com/items?itemName=kiteco.kite
-[arepl for python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl
+[arepl_for_python]: https://marketplace.visualstudio.com/items?itemName=almenon.arepl
 
 <!-- Javascript -->
 
@@ -113,4 +118,4 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 [npm intellisese]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense
 [jshint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.jshint
 [eslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
-[import cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost
+[import_cost]: https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost

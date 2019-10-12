@@ -88,6 +88,11 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ GitBook notları yenilendi. [Yunus Emre]
+
+  - Scriptlerim eklendi
+  - Ufak notlar eklendi
+
 * 📕 Programlama Kitapçığı yenilendi ✨ [Yunus Emre]
 
 * ✨ VsCode Eklentileri yazısı yenilendi. [Yunus Emre]

@@ -12,14 +12,15 @@ Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı as
 
 ## 🚀 Yeni Yazılan Yazılar
 
-<!-- TODO: Burayı dinamik hale getir 
+<!-- TODO: Burayı dinamik hale getir
 - Tüm dosyaları indeksle, değişenler için path bul
 - Pathleri buraya ekle
-  
+
 > Veya hazır script bul
 -->
 
-- [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](Proje%20Y%C3%B6netimi%20Notlar%C4%B1%5CBilgisayarda%20Zaman%20Y%C3%B6netimi.md)
+- [👨‍💻 Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
+- [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Bilgisayarda%20Zaman%20Y%C3%B6netimi.md)
 - [🔢 Asal Sayılar](Karma%20Bilgiler%5CAsal%20Say%C4%B1lar.md)
 - [📖 GitBook Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1%5CGitBook.md)
 - [🔌 VsCode Eklentileri](Uygulama%20Notlar%C4%B1%5CVsCode%5C2%20-%20VsCode%20Eklentileri.md)

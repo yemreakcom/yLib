@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* VsCode ayarlarını GitHub Gist üzerine upload eden eklenti bilgisi eklendi. [Yunus Emre]
+
 * 🔢 Asal Sayılar yazısı eklendi. [Yunus Emre]
 
 * 🛫 Drone ve IHA Farkları yazısı eklendi. [Yunus Emre]
@@ -85,6 +87,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* ✨ VsCode Eklentileri yazısı yenilendi. [Yunus Emre]
 
 * ✨ Matematiksel formüller GitBook için yapılandırıldı. [Yunus Emre]
 

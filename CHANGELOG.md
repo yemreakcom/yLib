@@ -9,6 +9,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ✨ Ufak gitbook notları daha eklendi. [Yunus Emre]
+
+* ✨ Ufak gitbook notları daha eklendi. [Yunus Emre]
+
 * VsCode ayarlarını GitHub Gist üzerine upload eden eklenti bilgisi eklendi. [Yunus Emre]
 
 * 🔢 Asal Sayılar yazısı eklendi. [Yunus Emre]

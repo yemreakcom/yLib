@@ -6,8 +6,7 @@ description: Yazılım dünyasına hoşgeldin 🚀
 
 ## 🗽 Açıklama
 
-- Programlama için faydalı olan [📕 Programlama Kitapçığı](..%5Cres%5CProgramlama%20Kitap%C3%A7%C4%B1%C4%9F%C4%B1.pdf)'na buradan erişebilirsin.
-  - Programlama kitapçığının ✨ güncel haline [buradan](https://github.com/asmaamirkhan/ProgrammingHandBook) erişebilirsin.
+Programlama için faydalı olan [📕 Programlama Kitapçığı](https://asmaamirkhan.gitbook.io/programlama-kitpcik/)'na buradan erişebilirsin.
 
 > Faydalı Kaynaklara göz atmayı unutma
 

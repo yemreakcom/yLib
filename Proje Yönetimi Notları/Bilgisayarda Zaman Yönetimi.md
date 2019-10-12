@@ -63,7 +63,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 ## 😒 Beğenmediklerim
 
-### [DueFocus](https://duefocus.com)
+### 🎯 [DueFocus](https://duefocus.com)
 
 **Avantajlar**: 
 
@@ -80,7 +80,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 ![](../res/duefocus_ex.png)
 
-### [Pendulums](https://pendulums.io/)
+### 🅿 [Pendulums](https://pendulums.io/)
 
 **Avantajlar**:
 
@@ -94,7 +94,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 ![](../res/pandelums_ex.png)
 
-### Diğerleri
+### 📦 Diğerleri
 
 - [TimeCamp](https://www.timecamp.com/)
 - [Clockify](https://clockify.me/)

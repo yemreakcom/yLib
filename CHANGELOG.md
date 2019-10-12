@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ⏳ Zaman Yönetimi notları eklendi. [Yunus Emre]
+
 * ✨ Ufak gitbook notları daha eklendi. [Yunus Emre]
 
 * ✨ Ufak gitbook notları daha eklendi. [Yunus Emre]

@@ -48,7 +48,7 @@ description: İçeriği açıklayan kısa not
 Temel amacı githubdaki dosyalarımızın sitenin sol kısmında (navigation):
 
 - Hangi isimle gösterileceği
-- Hangi dosyaların görünür olacağı
+- Hangi dosyaların veya klasörlerin görünür olacağı
 - Hangi sırada gözükeceği
 
 gibi sorulara çözüm bulmaktır.

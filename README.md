@@ -6,18 +6,34 @@ description: Kişisel ansiklopedi 📚
 
 ## 🗽 Hoş Geldin
 
-- Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
+Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme
+
+> [👓 Awesome](./0%20-%20Faydal%C4%B1%20Kaynaklar%5CAwesome.md) etiketi ile adlandırılan, bir konu veya yazılım üzerine detaylı açıklamaların yapıldığı projelere bakmana fayda var
+
+## 🚀 Yeni Yazılan Yazılar
+
+<!-- TODO: Burayı dinamik hale getir 
+- Tüm dosyaları indeksle, değişenler için path bul
+- Pathleri buraya ekle
+  
+> Veya hazır script bul
+-->
+
+- [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](Proje%20Y%C3%B6netimi%20Notlar%C4%B1%5CBilgisayarda%20Zaman%20Y%C3%B6netimi.md)
+- [🔢 Asal Sayılar](Karma%20Bilgiler%5CAsal%20Say%C4%B1lar.md)
+- [📖 GitBook Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1%5CGitBook.md)
+- [🔌 VsCode Eklentileri](Uygulama%20Notlar%C4%B1%5CVsCode%5C2%20-%20VsCode%20Eklentileri.md)
+- [🐳 Docker](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1%5CDocker.md)
+- [📲 Mobil Telefonlar Nasıl Haberleşir](Karma%20Bilgiler%5CMobil%20Telefonlar%20Nas%C4%B1l%20Haberle%C5%9Fir.md)
+- [💒 Deprem Anında Kişisel Korunma](G%C3%BCnl%C3%BCk%20Hayat%20Notlar%C4%B1%5CDeprem%20An%C4%B1nda%20Ki%C5%9Fisel%20Korunma.md)
+- [💎 Linux Kernel Güncelleme](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1%5CLinux%20Notlar%C4%B1%5CX%20-%20Linux%20Kernel%20G%C3%BCncelleme.md)
+
+## ✨ Son Güncellemeler
+
+En son gelen güncellemeleri [👀 Neler Değişti](./CHANGELOG.md) veya [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin.
 - 🌊 Yeni bilgiler öğrenmemle birlikle güncellenecektir
 - Yani hep güncel kalacak denebilir 🚀
 - İyi okumalar 👻
-
-> [🚀 Awesome](./0%20-%20Faydal%C4%B1%20Kaynaklar%5CAwesome.md) etiketi ile adlandırılan, bir konu veya yazılım üzerine detaylı açıklamaların yapıldığı projelere bakmana fayda var
-
-## ✨ Son Güncellemeler (🧪 Deneysel)
-
-En son gelen güncellemeleri [👀 Neler Değişti](./CHANGELOG.md) veya [✨ Commits](https://github.com/yedhrab/YBilgiler/commits/master) alanından takip edebilirsin.
-
-- [💎 Linux Kernel Güncelleme](%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1%5CLinux%20Notlar%C4%B1%5CX%20-%20Linux%20Kernel%20G%C3%BCncelleme.md)
 
 ## 🚙 Diğer Özenle Hazırladığım Notlar
 

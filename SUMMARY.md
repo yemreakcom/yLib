@@ -118,7 +118,7 @@
     - [Youtube](./Uygulama%20Notlar%C4%B1/Youtube.md)
     - [VsCode](./Uygulama%20Notlar%C4%B1/VsCode)
       - [Vscode Giriş](./Uygulama%20Notlar%C4%B1/VsCode/1%20-%20VsCode%20Giri%C5%9F.md)
-      - [🔌 VsCode Eklentileri](./Uygulama%20Notlar%C4%B1/VsCode/2%20-%20VsCode%20Eklentiler.md)
+      - [🔌 VsCode Eklentileri](./Uygulama%20Notlar%C4%B1/VsCode/2%20-%20VsCode%20Eklentileri.md)
       - [Vscode Editör Ayarları](./Uygulama%20Notlar%C4%B1/VsCode/3%20-%20VsCode%20Edit%C3%B6r%20Ayarlar%C4%B1.md)
       - [Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
       - [VsCode Özelleştirmem](./Uygulama%20Notlar%C4%B1/VsCode/X%20-%20VsCode%20%C3%96zelle%C5%9Ftirmem.md)

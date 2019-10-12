@@ -15,6 +15,7 @@ GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
 - Açılır menü yapısı olan `<detail>` formatı
 - Buton yapısı olan `<kdb>` formatı
 - Github submodule'leri
+- Markdown (`md`) dışındaki dosyalar
 
 ### 💞 Ek Olarak Destekledikleri
 
@@ -85,6 +86,16 @@ description: İçeriği açıklayan kısa not
 
 * [Last part without title](part3/title.md)
 ```
+
+## 👨‍💻 GitBook Scriptlerim
+
+[YGitBookIntegration](https://github.com/yedhrab/YGitBookIntegration) repom ile 🐙 GitHub - GitBook 📖 entegrasyonunu sağlayabilirsin.
+
+- `SUMMARY.md` oluşturma
+- Markdown olmayan dosyalar için GitHub linkleri oluşturma
+  - Markdown olmayan dosyalar GitBook'da gözükmez
+
+> ⚙ Kişiselleştirmek istersen, [YPackage](https://pypi.org/project/ypackage/) üzerinde GitBook scriptlerim mevcuttur.
 
 ## 🐞 Hata Çözümleri
 

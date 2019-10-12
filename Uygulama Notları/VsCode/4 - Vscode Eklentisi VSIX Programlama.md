@@ -1,11 +1,11 @@
-# Vscode Eklentisi VSIX Programlama 
+# 👨‍💻 Vscode Eklentisi VSIX Programlama
 
-## Temel Gereksinimler
+## 🧱 Temel Gereksinimler
 
 - Nodejs
 - Javascript bilgisi
 
-## Giriş Kalıbını Oluşturma
+## 🧃 Giriş Kalıbını Oluşturma
 
 Video anlatımı için [buraya][vscode create theme extension in 1 min - shows all steps] bakabilirsin.
 
@@ -18,16 +18,38 @@ Video anlatımı için [buraya][vscode create theme extension in 1 min - shows a
   - Ek açıklamalar
   - Package.json
 
-## Eklentiyi Paylaşma
+## 🔀 Eklenti Oluşturma ve Paylaşma
+
+- `npm install -g vsce` ile `vsix` oluşturucuyu indirin
+- `vsce package` ile `.vsix` uzantılı eklentiyi oluşturun
+- [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'den `vsix` uzantılı dosyanızı sunucuya yükleyin
+
+> VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var.
+
+## 🖤 Eklentiyi Komut İsteminden Paylaşma
+
+- Token'iniz yoksa, [Token Oluşturma](#Token-Olu%C5%9Fturma) adımından token oluşturun
+- `vsce login <id>`
+  - Kopyaladığınız **ID**'yi yapıştırın
+- Package json'u [Package JSON Örneği](#Package-JSON-%C3%96rne%C4%9Fi) gibi ayarların
+- `vsce publish` ile eklentiyi [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'e gönderebilirsiniz
+  - `vscode publish minor` ile versiyonu arttırarak gönderirsiniz
+
+> VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var.
+
+
+### 🔑 Token Oluşturma
 
 - Öncelikle [buradan][token oluşturma] token oluşturmanız gerekmekte
   - `New Token` -> Organizatin **All accessiable organization**'ı seçin
-- `npm install -g vsce` ile `vsix` oluşturucuyu indirin
-- `vsce login <id>`
-- Package json'u [örnekteki][package json örneği] gibi ayarların
-- [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'den vsix uzantılı dosyanızı yükleyin
+  - `Scopes` altında `Marketplace` kısmından `Acquire` ve `Manage` kutucuklarını seçin
+  - Tokeni oluşturup, verilen **ID**'yi kopyalayın
 
-## Package JSON Örneği
+![](../../res/vscode_getting_token.png)
+![](../../res/vscode_getting_token2.png)
+
+
+### 📜 Package JSON Örneği
 
 ```json
 {
@@ -42,11 +64,8 @@ Video anlatımı için [buraya][vscode create theme extension in 1 min - shows a
 }
 ```
 
-> Ek Notlar
->
-> <https://code.visualstudio.com/api/working-with-extensions/publishing-extension#common-questions>
+> [VsCode Eklentileri Sık Sorulan Sorular](https://code.visualstudio.com/api/>working-with-extensions/publishing-extension#common-questions)
 
 [özel tema oluşturma]: https://www.youtube.com/watch?v=3Ju74i1MyBg
 [token oluşturma]: https://dev.azure.com/yedhrab/_usersSettings/tokens
-[package json örneği]: #package-json-%C3%B6rne%C4%9Fi
 [vscode create theme extension in 1 min - shows all steps]: https://youtu.be/z_D_86WjXg4

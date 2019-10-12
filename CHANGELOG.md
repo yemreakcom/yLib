@@ -215,6 +215,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* ⏳ Bilgisayarda Zaman Yönetimi (Time Tracking) olarak adlandırıldı. [Yunus Emre]
+
 * Matematiksel formüllerin gözükmesi denendi. [Yunus Emre]
 
 * ✨ Emojilendi. [Yunus Emre]

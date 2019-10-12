@@ -88,6 +88,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 📕 Programlama Kitapçığı yenilendi ✨ [Yunus Emre]
+
 * ✨ VsCode Eklentileri yazısı yenilendi. [Yunus Emre]
 
 * ✨ Matematiksel formüller GitBook için yapılandırıldı. [Yunus Emre]
@@ -171,6 +173,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * ✨ Ayrılan notları daha görsel hale alındı. [Yunus Emre]
 
 ### 🗽 Düzeltmeler
+
+* 🐞 "VsCode Eklentiler" yazım hatası giderildi. [Yunus Emre]
 
 * Kafa karıştıran alan kaldırıldı. [Yunus Emre]
 

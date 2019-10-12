@@ -1,12 +1,12 @@
 ---
-description: Çok önemli ve değiştiremeyeceğimiz kavramlardan biri olan zamanın yönetimi üzerine notlarım
+description: Çok önemli ve değiştiremeyeceğimiz kavramlardan biri olan zamanın yönetimi (time tracking) üzerine notlarım
 ---
 
-# ⏳ Zaman Yönetimi
+# ⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)
 
 ## 🗽 Açıklama
 
-Zaman yönetimi için **Time Tracking** uygulamaları kullanılmaktadır.
+Bilgisayar üzerindeki zamanın yönetimi için **Time Tracking** uygulamaları kullanılmaktadır.
 
 - Belli başlı programlardaki faaileyetlerinizi takip eder
 - Arkaplanda sistemi yormadan çalışır

@@ -17,8 +17,20 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [🌙 DarkCode Theme][darkcode theme]           | Python ve Markdown odaklı karanlık tema           |
 | [📂 Material Icon Theme][material icon theme] | Dosya ikon teması                                 |
 | [✨ Prettier][prettier - code formatter]       | Kod formatlama ve güzelleştirme                   |
-| [✅ Todo Tree][todo tree]                      | Yapılacakları gösteren arayüz                     |
-| [🎶 vscode-spotify][vscode-spotify]           | Spotify ile müzik desteği                         |
+| [🍁 gitignore][gitignore]                     | Gitignore dosyasını otomatik oluşturur            |
+
+### ❔ Duruma Göre İhtiyaç Duyulabilecek Eklentiler
+
+
+| Eklenti                                   | Açıklama                                       |
+| ----------------------------------------- | ---------------------------------------------- |
+| [✅ Todo Tree][todo tree]                  | Yapılacakları gösteren arayüz                  |
+| [📸 Polacode][polacode]                   | Kodların fotoğraflarını oluşturmayı sağlar     |
+| [📏 Sort Lines][sort_lines]               | Seçilen metinleri sıralar                      |
+| [📑 Advanced New Line][advanced_new_file] | Daha detaylı bir yeni dosya açma arayüzü sunar |
+| [🎶 vscode-spotify][vscode-spotify]       | Spotify ile müzik desteği                      |
+| [📐 Guides][guides]                       | Sütun çizgilerini daha belirgin hale getirir   |
+
 
 ## 👨‍💼 Proje Yönetimi
 
@@ -39,14 +51,18 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [📁 Path Intellisense][path_intellisense] | Dosya yollarını yazarken yardımcı olur                |
 | [📰 autoDocstring][autodocstring]         | Otomatik kod dökümanı oluşturma                       |
 | [⏯ Code Runner][code_runner]              | Editör üzerinden projeleri derleme & çalıştırma       |
+| [🖼 Image Preview][image_preview]         | Resim urllerinde ön izleme gösterir                   |
+| [✨ Color Highlight][color_highligth]      | Renk kodlarını daha belirgin gösterir                 |
+| [◼ DotENV][dotenv]                        | `.env` uzantılı dosyalar için vscode desteği sağlar   |
 
 ### 📄 Markdown Eklentileri
 
-| Eklenti                                       | Açıklama                            |
-| --------------------------------------------- | ----------------------------------- |
-| [🌟 Markdown All in One][markdown_all_in_one] | Faydalı kısayollar, formatlama vs.. |
-| [📃 Markdown PDF][markdown_pdf]               | Markdown'u PDF'e çevirme            |
-| [📋 Paste Image][paste_image]                 | Panodan resim kopyalama             |
+| Eklenti                                       | Açıklama                              |
+| --------------------------------------------- | ------------------------------------- |
+| [🌟 Markdown All in One][markdown_all_in_one] | Faydalı kısayollar, formatlama vs..   |
+| [✨ Markdown Preview Github Styling][mpgs]     | GitHub yapısına göre markdown derleme |
+| [📃 Markdown PDF][markdown_pdf]               | Markdown'u PDF'e çevirme              |
+| [📋 Paste Image][paste_image]                 | Panodan resim kopyalama               |
 
 ### 🐍 Python Eklentileri
 
@@ -84,6 +100,11 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 [vscode-spotify]: https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify
 [prettier - code formatter]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 [todo tree]: https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree
+[polacode]: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+[advanced_new_file]: https://marketplace.visualstudio.com/items?itemName=dkundel.vscode-new-file
+[sort_lines]: https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines
+[gitignore]: https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore
+[guides]: https://marketplace.visualstudio.com/items?itemName=spywhere.guides
 
 <!-- Proje Yönetimi -->
 
@@ -97,10 +118,14 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 [path_intellisense]: https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 [code_runner]: https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner
 [autodocstring]: https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring
+[image_preview]: https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+[color_highligth]: https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight
+[dotenv]: https://marketplace.visualstudio.com/items?itemName=mikestead.dotenvs
 
 <!-- Markdown -->
 
 [markdown_all_in_one]: https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one
+[mpgs]: https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles
 [markdown_pdf]: https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf
 [paste_image]: https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image
 

@@ -1,3 +1,7 @@
+---
+description: GitBook, GitHub dökümantasyonlarımızı daha güzel bir arayüz ve hızlı arama özelliği ile sunan yardımcı bir platformdur
+---
+
 # 📖 GitBook Notları
 
 ## 📌 Önemli Notlar
@@ -40,6 +44,14 @@ description: İçeriği açıklayan kısa not
 ```
 
 ### 🗂 `Summary.md` Dosyası
+
+Temel amacı githubdaki dosyalarımızın sitenin sol kısmında (navigation):
+
+- Hangi isimle gösterileceği
+- Hangi dosyaların görünür olacağı
+- Hangi sırada gözükeceği
+
+gibi sorulara çözüm bulmaktır.
 
 **Basit Örnek:**
 ```md

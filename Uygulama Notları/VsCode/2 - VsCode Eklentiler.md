@@ -6,14 +6,15 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 ## Verimlilik ve Görsellik Eklentileri
 
-| Eklenti                                       | Açıklama                                |
-| --------------------------------------------- | --------------------------------------- |
-| [⏱ WakaTime][wakatime]                        | Kodlama başında geçen vakti raporlar    |
-| [🌙 DarkCode Theme][darkcode theme]           | Python ve Markdown odaklı karanlık tema |
-| [📂 Material Icon Theme][material icon theme] | Dosya ikon teması                       |
-| [✨ Prettier][prettier - code formatter]       | Kod formatlama ve güzelleştirme         |
-| [✅ Todo Tree][todo tree]                      | Yapılacakları gösteren arayüz           |
-| [🎶 vscode-spotify][vscode-spotify]           | Spotify ile müzik desteği               |
+| Eklenti                                       | Açıklama                                          |
+| --------------------------------------------- | ------------------------------------------------- |
+| [💫 Setting Sync][setting sync]               | VsCode ayarlarını GitHub Gist üzerine upload eder |
+| [⏱ WakaTime][wakatime]                        | Kodlama başında geçen vakti raporlar              |
+| [🌙 DarkCode Theme][darkcode theme]           | Python ve Markdown odaklı karanlık tema           |
+| [📂 Material Icon Theme][material icon theme] | Dosya ikon teması                                 |
+| [✨ Prettier][prettier - code formatter]       | Kod formatlama ve güzelleştirme                   |
+| [✅ Todo Tree][todo tree]                      | Yapılacakları gösteren arayüz                     |
+| [🎶 vscode-spotify][vscode-spotify]           | Spotify ile müzik desteği                         |
 
 ## Proje Yönetimi
 
@@ -72,6 +73,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 
 <!-- Temel -->
 
+[setting sync]: https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync
 [wakatime]: https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime
 [darkcode theme]: https://marketplace.visualstudio.com/items?itemName=yedhrab.darkcode-theme-adopted-python-and-markdown
 [material icon theme]: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme

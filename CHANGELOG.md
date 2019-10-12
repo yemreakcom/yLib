@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🚀 Yeni Yazılan Yazılar alanı eklendi. [Yunus Emre]
+
 * ⏳ Zaman Yönetimi notları eklendi. [Yunus Emre]
 
 * ✨ Ufak gitbook notları daha eklendi. [Yunus Emre]
@@ -185,6 +187,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐛 Yazım hatası giderildi. [Yunus Emre]
+
 * 🐞 "VsCode Eklentiler" yazım hatası giderildi. [Yunus Emre]
 
 * Kafa karıştıran alan kaldırıldı. [Yunus Emre]
@@ -214,6 +218,8 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* ✨ Emojilendirildi. [Yunus Emre]
 
 * ⏳ Bilgisayarda Zaman Yönetimi (Time Tracking) olarak adlandırıldı. [Yunus Emre]
 

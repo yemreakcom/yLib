@@ -99,6 +99,7 @@
     - [Git Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git%20Notlar%C4%B1.md)
     - [📖 GitBook Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/GitBook.md)
     - [🐙 Github Notları](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
+    - [⏳ Zaman Yönetimi](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Zaman%20Y%C3%B6netimi.md)
   - [🔮 Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/README.md)
     - [Blockchain](./Teknoloji%20Notlar%C4%B1/Blockchain.md)
     - [🛫 Drone ve IHA Farkları](./Teknoloji%20Notlar%C4%B1/Drone%20ve%20%C4%B0HA%20Farklar%C4%B1.md)

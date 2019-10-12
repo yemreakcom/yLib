@@ -64,7 +64,10 @@ Video anlatımı için [buraya][vscode create theme extension in 1 min - shows a
 }
 ```
 
-> [VsCode Eklentileri Sık Sorulan Sorular](https://code.visualstudio.com/api/>working-with-extensions/publishing-extension#common-questions)
+## 🔗 Harici Bağlantılar
+
+- [VsCdode Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
+- [VsCode Eklentileri Sık Sorulan Sorular](https://code.visualstudio.com/api/>working-with-extensions/publishing-extension#common-questions)
 
 [özel tema oluşturma]: https://www.youtube.com/watch?v=3Ju74i1MyBg
 [token oluşturma]: https://dev.azure.com/yedhrab/_usersSettings/tokens

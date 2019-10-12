@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ✨ Yeni katogeri oluşturuldu. [Yunus Emre]
+
 * 🚀 Yeni Yazılan Yazılar alanı eklendi. [Yunus Emre]
 
 * ⏳ Zaman Yönetimi notları eklendi. [Yunus Emre]
@@ -95,6 +97,10 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* 🚀 Yeni Yazılan Yazılar yenilendi. [Yunus Emre]
+
+* 👨‍💻 Vscode Eklentisi VSIX Programlama yazısı yenilendi. [Yunus Emre]
 
 * ✨ GitBook notları yenilendi. [Yunus Emre]
 

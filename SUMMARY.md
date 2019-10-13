@@ -107,7 +107,7 @@
     - [HTC Desire 820](./Teknoloji%20Notlar%C4%B1/HTC%20Desire%20820.md)
     - [Notebook Notları](./Teknoloji%20Notlar%C4%B1/Notebook%20Notlar%C4%B1.md)
     - [Telefon Rehberini Taşıma](./Teknoloji%20Notlar%C4%B1/Telefon%20Rehberini%20Ta%C5%9F%C4%B1ma.md)
-    - [Xiaomi Mi A2 Lite](./Teknoloji%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Lite.md)
+    - [📱 Xiaomi Mi A2 Lite](./Teknoloji%20Notlar%C4%B1/Xiaomi%20Mi%20A2%20Lite.md)
   - [📦 Uygulamalar](./Uygulama%20Notlar%C4%B1/README.md)
     - [Faydalı Uygulamalar](./Uygulama%20Notlar%C4%B1/0%20-%20Faydal%C4%B1%20Uygulamalar.md)
     - [Anaconda](./Uygulama%20Notlar%C4%B1/Anaconda.md)

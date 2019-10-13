@@ -1,34 +1,22 @@
-# Xiaomi Mi A2 Lite 
+# 📱 Xiaomi Mi A2 Lite
 
 Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
 
-## Güvenli Modda Açma
+## 🔏 Güvenli Modda Açma
 
 - Güç tuşuna basın
 - Kapat butonuna basılı tutun
 - Güvenli modda başlat seçeneği belirecektir
 
-## Hata Notları
+## 🧰 Stock Rom Yükleme
 
-### Dokunmatikte Sorunlu Algılama
-
-Maalesef cihazın donanımsal kusurudur 😥
-
-### Telefonun Ekranının Kendiliğinden Kapanması
-
-Görüntü boyutunu değiştirip eski haline getirin 😅
-
-> Kaynak için [buraya](https://www.reddit.com/r/Xiaomi/comments/apkwo9/mi_a2_lite_autoclosing_apps/) bakabilirsin
-
-## Stock Rom Yükleme
-
-### ADB Kurulumu
+### 👨‍🔧 ADB Kurulumu
 
 - Linux için kurulumuna [buradan](../%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1%2FLinux%20Notlar%C4%B1.md#adb--fastboot-android-tools-kurulumu) erişebilirsin.
 - Windows için kurulumu el ile yapmalı ve dosyaların olduğu dizini **ortam değişkenlerine** (_PATH_ adı altına) eklemeniz gerekmektedir.
   - Choco için `choco install adb`
 
-### Cihazı Geliştirici Moduna Alma ve Erişme
+### 🔌 Cihazı Geliştirici Moduna Alma ve Erişme
 
 - Cihazdan ayarlar alanına girin
 - En üstte **Cihaz Bilgileri** alınına tıklayın
@@ -36,7 +24,7 @@ Görüntü boyutunu değiştirip eski haline getirin 😅
 - Geliştirici modu aktif olduğunda, PC'ye telefonu bağlayın
 - `adb devices` komutu ile `adb` servisini başlatıp, telefona gelen pop-up'tan izin verin
 
-### Bootloader Klidini Açma
+### 🔓 Bootloader Klidini Açma
 
 - Öncelikle bu işlemin cihazın hafızasının **sıfırlayacağının** farkında olun 😅
 - Cihazı PC'ye USB ile bağlayın
@@ -45,7 +33,7 @@ Görüntü boyutunu değiştirip eski haline getirin 😅
 
 > Kapatmak için `fastboot oem lock` veya yükleme esnasında `*_lock.sh` scriptini kullanın
 
-### Stock Rom Kurulumu
+### 🧱 Stock Rom Kurulumu
 
 Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u indirme sayfasına yönelebilirsin.
 
@@ -53,7 +41,7 @@ Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u
   - Orjinal stock rom dosyasıdır. (checksum'dan geçmiştir)
 - Gerekirse USB driverı da yedeklememden indirebilirsin
 
-### Stock Rom'un Aktarılması
+### 🚙 Stock Rom'un Aktarılması
 
 - Telefonunuzu kapatın
 - Telefon kapandıktan sonra, `Volume Down (Ses Kısma)` butonuna basılır tutarak PC'ye bağlayın
@@ -61,16 +49,13 @@ Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u
   - Linux için gerekli değildir
 - İndirdiğiniz dosyayı çıkartın ve dizine gelip, windows için `flash_all_lock.bat` linux için `flash_all_lock.sh` scriptlerini çalıştırın
 
-## Özel Scriptler
+## 📃 Özel Scriptler
 
 - `images` klasörünün içerisinde imajlar olmalıdır
 - Klasörün yanında da alttaki script olmalıdır
 - Script'in çalışması için `adb` gereklidir
 
-### Flash All
-
-<details>
-<summary>Windows</summary>
+### Windows için Flash All
 
 ```bat
 fastboot %* getvar product 2>&1 | findstr /r /c:"^product: *daisy" || @echo "error : Missmatching image and device" && exit /B 1
@@ -118,10 +103,7 @@ fastboot %* reboot || @echo "Reboot error" && exit /B 1
 
 ```
 
-</details>
-
-<details>
-<summary>Linux</summary>
+### Linux için Flash All
 
 ```sh
 fastboot $* getvar product 2>&1 | grep -E "^product: *daisy$"
@@ -200,7 +182,17 @@ if [ $? -ne 0 ] ; then echo "Reboot error"; exit 1; fi
 
 ```
 
-</details>
+## 🐞 Hata Notları
+
+### Dokunmatikte Sorunlu Algılama
+
+Maalesef cihazın donanımsal kusurudur 😥
+
+### Telefonun Ekranının Kendiliğinden Kapanması
+
+Görüntü boyutunu değiştirip eski haline getirin 😅
+
+> Kaynak için [buraya](https://www.reddit.com/r/Xiaomi/comments/apkwo9/mi_a2_lite_autoclosing_apps/) bakabilirsin
 
 ## Harici Bağlantılar
 

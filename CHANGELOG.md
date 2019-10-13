@@ -211,6 +211,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 Hata düzeltme. [Yunus Emre]
+
 * 🐞 Hatalar giderildi. [Yunus Emre]
 
 * ✨ Görsel düzenleme ve güzelleştirme. [Yunus Emre]

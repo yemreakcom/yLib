@@ -21,6 +21,22 @@ Alttaki uygulamalar Windows 10 üzerinde çalışan uygulamalardır, diğer işl
 
 > MacOs için [TimingApp](https://timingapp.com/)'ı deneyebilirsiin.
 
+### ⏲ [WakaTime](https://wakatime.com/)
+
+Kodlama ve tarayıcıda gezinme aktivitelerini analiz eder
+
+- VsCode üzerinde eklenti ile alttaki bilgileri sunar:
+  - Yazdığınız kod dillerini
+  - Hangi dosyalar üzerinde işlem yapıldığı
+  - Hangi projede ne kadar süre çalıştığınızı
+  - Haftalık analizleri
+- Chrome gibi tarayıcı eklentileri ile gezinti sürenizi gösterir
+- Kendi sitesi üzerinden sunduğu grafik arayüzü ve tablolar ile verileri sunar
+
+> Ücretsiz sürüm 7 günlük verileri gösterir
+
+![](../res/wakatime_ex.png)
+
 ### 🕓 [ManicTime](https://www.manictime.com/)
 
 Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır

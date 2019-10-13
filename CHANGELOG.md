@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🧱 Brick halden kurtarma linki eklendi. [Yunus Emre]
+
 * ✨ Gömülü içerikler bilgisi eklendi. [Yunus Emre]
 
 * ⏲ WakaTime eklendi. [Yunus Emre]

@@ -98,6 +98,12 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚙 ManicTime yukarı alındı. [Yunus Emre]
+
+  Kendimin de kullandığı en tepeye alındı.
+
+* Update 4 - Vscode Eklentisi VSIX Programlama.md. [Yunus Emre]
+
 * 🚀 Yeni Yazılan Yazılar yenilendi. [Yunus Emre]
 
 * 👨‍💻 Vscode Eklentisi VSIX Programlama yazısı yenilendi. [Yunus Emre]

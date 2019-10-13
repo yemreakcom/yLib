@@ -245,6 +245,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* ✨ Yenilenen yazılar belirginleştirildi. [Yunus Emre]
+
 * ✨ Emojilendirildi. [Yunus Emre]
 
 * ⏳ Bilgisayarda Zaman Yönetimi (Time Tracking) olarak adlandırıldı. [Yunus Emre]

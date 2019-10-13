@@ -197,3 +197,4 @@ Görüntü boyutunu değiştirip eski haline getirin 😅
 ## Harici Bağlantılar
 
 - [Xiaomi Mi A2 Lite Bilinen Hatalar ve Çözümleri](https://mobileinternist.com/xiaomi-mi-a2-issues-solved)
+- [Unbrick All Qualcomm Snapdragon’s from Qualcomm HS-USB QDLoader 9008 (if you have the right kind of rom)](https://www.androidbrick.com/unbrick-all-qualcomm-snapdragons-from-qualcomm-hs-usb-qdloader-9008-if-you-have-the-right-kind-of-rom-qhsusb_dload_edl/)

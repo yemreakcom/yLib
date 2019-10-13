@@ -1,6 +1,9 @@
-# HTC Desire 820 
+---
+description: HTC Desire 820 için karma hata çözümleri
+---
 
-HTC Desire 820 için karma hata çözümleri
+
+# 📱 HTC Desire 820
 
 ## Sim Kartını Okumama Sorunu
 

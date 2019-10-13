@@ -1,8 +1,10 @@
-# Notebook Notları
+---
+description: Notebook satın almadan önce aldığım notlar.
+---
 
-Notebook satın almadan önce aldığım notlar.
+# 💻 Notebook Notları
 
-## İşlemci
+## ⭐ İşlemci
 
 - U serisi : Düşük güç tüketimi
 - HQ serisi : Ultra performans yüksek güç tüketimi
@@ -10,14 +12,14 @@ Notebook satın almadan önce aldığım notlar.
 - İşlemci karşılaştırma sitesi için buraya tıklayabilirsin.
 - Sağ üst köşedeki arama çubuğuna işlemci modelini yazmanız yeterli.
 
-## Ram
+## 🔩 Ram
 
 - DDR3 : eski nesil ram
 - DDR3L : düşük güç tüketim (düşük performans)
 - DDR4 : Yeni nesil, yüksek performans, düşük güç kullanımlı (DDR3 'e göre) ram. (Tavsiye)
 - Bellek frekansı yüksek olan daha iyidir. (2400MHz > 213 MHz ...)
 
-## Görüntü
+## 🎴 Görüntü
 
 - TN : Oyuncular için tercih edilen, daha kötü görüntü ama yüksek frekans.
 - IPS : Fotoğraf / Render işlemleri için tercih edilen, daha hoş görüntü ama düşük frekans.
@@ -28,13 +30,13 @@ Notebook satın almadan önce aldığım notlar.
 - USB ile powerbang'ten şarj olmasına imkan sağlayan USB TYPE-C bulundurması
 - Ekran boyutu (inch)
 
-## Pil
+## 🔋 Pil
 
 - Li-Ion : Maliyeti ucuz, daha az verimli, daha az riskli
 - Li-Po : Maliyeti pahalı, daha çok verimli, riskli (çabuk hasar görebilir)
 - Pil hakkında detaylı bilgi için buraya tıklayabilirsin.
 
-## İşletim Sistemi
+## 🧱 İşletim Sistemi
 
 - Windows : En çok kullanılan işletim sistemi, bilgisayarda yüklü olarak gelir.
 - macOS : Apple'ın kendine özel işletim sistemi, bilgisayarda yüklü olarak gelir.
@@ -43,12 +45,12 @@ Notebook satın almadan önce aldığım notlar.
 - Linux işletim sistemlerini indirebilirsiniz. İnternette ücretsiz olarak dağıtılmakta.
 - İsteğe bağlı macOS işletim sistemi imajı ile macOS sierra da indirebilirsiniz.
 
-## Bağlantılar
+## 🔌 Bağlantılar
 
 - USB 2 : Eski nesil USB türüdür.
 - USB 3 : USB 2'den 6 kat daha hızlı.
 - USB C : USB 2 'den 12 kat daha hızlı. USB 3'ten 2 kat daha hızlı. Süperpoziyon özelliği ile tersi ve düzü önemli değildir, her şekilde bağlanabilir. Ayrıca powerbang ile şarj edilebilmeye olanak sağlar.
 
-## Ek
+## 🔗 Ek
 
 - [UEFI kurulum rehberi](https://www.technopat.net/2015/09/09/uefi-windows-10-kurulum-rehberi/)

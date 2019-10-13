@@ -1,12 +1,16 @@
-# Telefon Rehberini Taşıma
+---
+description: Kayıtlı telefon numaraları yedekleme veya aktarma
+---
 
-## Google Rehberini Aktarma
+# 📥 Telefon Rehberini Taşıma
+
+## 📰 Google Rehberini Aktarma
 
 - Google Contact sayfasını [buraya](https://contacts.google.com/) tıklayarak açın
 - Sol kısımdaki sekmelerden `Daha fazla` ardıdan `Dışa aktar` kısmını seçin
 - Çıkan ekranda `Google CSV` seçeniğini seçip, dışarı aktarın
 
-### CSV Dosyaysını VCard Dosyasına Dönüştürme
+### 💫 CSV Dosyaysını VCard Dosyasına Dönüştürme
 
 Csv dosyasını vcard uygulmasına dönüştürdek sonra `.vcf` uzantılı dosayayı açtığımızda rehberimize eklenecektir.
 

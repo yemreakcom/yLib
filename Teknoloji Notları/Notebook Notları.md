@@ -6,26 +6,25 @@ description: Notebook satın almadan önce aldığım notlar.
 
 ## ⭐ İşlemci
 
-- U serisi : Düşük güç tüketimi
-- HQ serisi : Ultra performans yüksek güç tüketimi
+- **U serisi**, düşük güç tüketimi
+- **HQ serisi**, ultra performans yüksek güç tüketimi
 - Build (programlama) işlemleri için 4 çekirdekli işlemciler önemli
-- İşlemci karşılaştırma sitesi için buraya tıklayabilirsin.
-- Sağ üst köşedeki arama çubuğuna işlemci modelini yazmanız yeterli.
 
 ## 🔩 Ram
 
-- DDR3 : eski nesil ram
-- DDR3L : düşük güç tüketim (düşük performans)
-- DDR4 : Yeni nesil, yüksek performans, düşük güç kullanımlı (DDR3 'e göre) ram. (Tavsiye)
+- **DDR3**, eski nesil ram
+- **DDR3L**, düşük güç tüketim (düşük performans)
+- **DDR4**, yeni nesil, yüksek performans, düşük güç kullanımlı (DDR3 'e göre) ram. (Tavsiye)
 - Bellek frekansı yüksek olan daha iyidir. (2400MHz > 213 MHz ...)
 
 ## 🎴 Görüntü
 
-- TN : Oyuncular için tercih edilen, daha kötü görüntü ama yüksek frekans.
-- IPS : Fotoğraf / Render işlemleri için tercih edilen, daha hoş görüntü ama düşük frekans.
-- Yansımasız Yüzey : Arka ışığın bilgisayardan yansımasını engeller. Parlak ortamlarda çalışanlar için önemli
-- Detaylı bilgilendirme için buraya tıklayabilirsin.
-- Taşınabilirlik / Mobil
+- **TN**, Oyuncular için tercih edilen, daha kötü görüntü ama yüksek frekans.
+- **IPS**, Fotoğraf / Render işlemleri için tercih edilen, daha hoş görüntü ama düşük frekans.
+- **Yansımasız Yüzey**, Arka ışığın bilgisayardan yansımasını engeller. Parlak ortamlarda çalışanlar için önemli
+
+## 👜 Taşınabilirlik
+
 - Ağırlık değerlerinin düşük olması
 - USB ile powerbang'ten şarj olmasına imkan sağlayan USB TYPE-C bulundurması
 - Ekran boyutu (inch)

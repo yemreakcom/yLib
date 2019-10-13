@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ✨ Gömülü içerikler bilgisi eklendi. [Yunus Emre]
+
 * ⏲ WakaTime eklendi. [Yunus Emre]
 
 * ✨ Yeni katogeri oluşturuldu. [Yunus Emre]
@@ -99,6 +101,8 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
+
+* 📱 Xiaomi Mi A2 Lite notları yenilendi. [Yunus Emre]
 
 * 🚙 ManicTime yukarı alındı. [Yunus Emre]
 

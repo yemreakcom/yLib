@@ -106,6 +106,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Açıklama yenilendi. [Yunus Emre]
+
 * 📱 Xiaomi Mi A2 Lite notları yenilendi. [Yunus Emre]
 
 * 🚙 ManicTime yukarı alındı. [Yunus Emre]

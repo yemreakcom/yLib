@@ -12,7 +12,9 @@ GitBook'a 🚙 geçiş yapmadan önce bilinmesi gerekenler
   - Kendi linkleri **.gitbook/assets** dizinindeki dosyalara yapılmakta
   - `{% file src="../../.gitbook/assets/örnek.pdf" %}` şeklindedir
     - 2 dizin içeride olan bir dosya için yazılmıştır
-- GitHub ile 💫 senkronize çalışır 
+- GitHub ile 💫 senkronize çalışır
+
+> GitBookta gömülü içerikler için [GitBook Embeds](https://docs.gitbook.com/content-editing/embeds) sayfasına bakabilirsin.
 
 ### 💔 Desteklemedikleri
 

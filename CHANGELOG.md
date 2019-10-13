@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* ⏲ WakaTime eklendi. [Yunus Emre]
+
 * ✨ Yeni katogeri oluşturuldu. [Yunus Emre]
 
 * 🚀 Yeni Yazılan Yazılar alanı eklendi. [Yunus Emre]

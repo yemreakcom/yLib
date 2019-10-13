@@ -19,9 +19,10 @@ Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
 ### 🔌 Cihazı Geliştirici Moduna Alma ve Erişme
 
 - Cihazdan ayarlar alanına girin
-- En üstte **Cihaz Bilgileri** alınına tıklayın
-- Açılan pencerede en altta bulunun **Derleme No**'ya 7, 8 kere dokunun
-- Geliştirici modu aktif olduğunda, PC'ye telefonu bağlayın
+- En üstte **Telefon Hakkında** alınına tıklayın
+- Açılan pencerede en altta bulunun **Derleme Numarası**'ya 7, 8 kere dokunun
+- Geliştirici ayarlarından **USB hata ayıklamasını** aktif edin
+- PC'ye telefonu bağlayın
 - `adb devices` komutu ile `adb` servisini başlatıp, telefona gelen pop-up'tan izin verin
 
 ### 🔓 Bootloader Klidini Açma
@@ -43,11 +44,17 @@ Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u
 
 ### 🚙 Stock Rom'un Aktarılması
 
+- Telefonunuzun [🔓 Bootloader Klidini Açma](#%F0%9F%94%93-Bootloader-Klidini-A%C3%A7ma) alanındaki yönerge ile bootloader kilidini açtığınızdan emin olun
 - Telefonunuzu kapatın
 - Telefon kapandıktan sonra, `Volume Down (Ses Kısma)` butonuna basılır tutarak PC'ye bağlayın
 - PC'de adb dosyalarının olduğu dizini PATH'e eklemeyi unutmayın
   - Linux için gerekli değildir
+  - Windows için choco ile yükleme yapıldıysa gerekli değildir
 - İndirdiğiniz dosyayı çıkartın ve dizine gelip, windows için `flash_all_lock.bat` linux için `flash_all_lock.sh` scriptlerini çalıştırın
+
+> `FAILED (remote: 'device is locked. Cannot erase')` sorunu gelirse [🔓 Bootloader Klidini Açma](#%F0%9F%94%93-Bootloader-Klidini-A%C3%A7ma) alanındaki talimatları uygulayın.
+
+![](../res/xiomi_flash_ex.png)
 
 ## 📃 Özel Scriptler
 

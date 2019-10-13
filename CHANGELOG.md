@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🔓 Bootloader kiliti açmanın önemi ve örnek çıktı eklendi. [Yunus Emre]
+
 * 🧱 Brick halden kurtarma linki eklendi. [Yunus Emre]
 
 * ✨ Gömülü içerikler bilgisi eklendi. [Yunus Emre]

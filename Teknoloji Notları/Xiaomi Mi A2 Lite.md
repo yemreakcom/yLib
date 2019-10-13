@@ -1,6 +1,8 @@
-# 📱 Xiaomi Mi A2 Lite
+---
+description: Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
+---
 
-Kendi cep telefonum 📱 hakkında bildiklerimi derlediğim proje.
+# 📱 Xiaomi Mi A2 Lite
 
 ## 🔏 Güvenli Modda Açma
 

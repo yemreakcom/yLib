@@ -21,6 +21,19 @@ Alttaki uygulamalar Windows 10 üzerinde çalışan uygulamalardır, diğer işl
 
 > MacOs için [TimingApp](https://timingapp.com/)'ı deneyebilirsiin.
 
+### 🕓 [ManicTime](https://www.manictime.com/)
+
+Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
+
+- Uygulamaları açılış ve kullanım saatleri ile takip eder
+- Bilgisayardan uzaklaştığınızda onu algılar ve takibi bırakır
+- Geri geldiğinizde ne yaptığınızı soran sistemi ile günü analiz etmeye çalışır
+- Toplam bilgisayar kullanım saatinizi belirleminizi sağlar
+
+> Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
+
+![](../res/manictime_ex.png)
+
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 
 Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
@@ -34,19 +47,6 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 - Verileri **JSON formatında indirmenize** olanak sağlar
 
 ![](../res/activitywatch_ex.png)
-
-### 🕓 [ManicTime](https://www.manictime.com/)
-
-Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
-
-- Uygulamaları açılış ve kullanım saatleri ile takip eder
-- Bilgisayardan uzaklaştığınızda onu algılar ve takibi bırakır
-- Geri geldiğinizde ne yaptığınızı soran sistemi ile günü analiz etmeye çalışır
-- Toplam bilgisayar kullanım saatinizi belirleminizi sağlar
-
-> Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
-
-![](../res/manictime_ex.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -65,17 +65,17 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 ### 🎯 [DueFocus](https://duefocus.com)
 
-**Avantajlar**: 
+**Avantajlar**:
 
 - Arayüzü çok güzel ve sade
 - Freelancer'ların sizin için günde kaç saat çalıştığını kontrol edebilrisiniz
   - Tabi onları sayacı başlatması lazım
-  
+
 **Dejavantajlar**:
 
 - Pencere Yönetimi yok
 - Kronometre mantığı ile çalışmakta
-    
+
 > Çeşitli entegrasyon destekleri mevcut lakin denemedim
 
 ![](../res/duefocus_ex.png)

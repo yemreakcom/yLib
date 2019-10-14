@@ -251,6 +251,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* ✨ Yeni notlar ve emojilendirme. [Yunus Emre]
+
 * ✨ Emojilendi. [Yunus Emre]
 
 * ✨ Yenilenen yazılar belirginleştirildi. [Yunus Emre]

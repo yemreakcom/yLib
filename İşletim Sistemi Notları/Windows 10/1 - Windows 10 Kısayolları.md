@@ -1,10 +1,10 @@
-# Windows 10 Kısayolları
+# 💘 Windows 10 Kısayolları
 
 Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde çalışır**.
 
 > Kısayollarını kendin düzenlemek istersen [AutoHotkey](https://www.autohotkey.com) adlı uygulamayı kullanabilirsin.
 
-## Sık Kullanılan Kısayollar
+## 🌟 Sık Kullanılan Kısayollar
 
 | Uygulama Kısayolları                                                         | Girdi Kısayolları                                                              |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
@@ -14,9 +14,9 @@ Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde 
 | <kbd>❖ Win</kbd> <kbd>1 2 3 ...</kbd> 🎛 Görev çubuğundaki uygulamaları açma | <kbd>❖ Win</kbd> <kbd>⇧ Shift</kbd> <kbd>S</kbd> 🖼 Ekran görüntüsü alma       |
 | <kbd>❖ Win</kbd> <kbd>R</kbd> ▶ Çalıştır penceresini açar                    | <kbd>❖ Win</kbd> <kbd>Q</kbd> 🔎 Arama penceresini açar                        |
 
-## Tüm Kısayollar
+## 📚 Tüm Kısayollar
 
-### Uygulama İşlemleri
+### 📦 Uygulama İşlemleri
 
 | Kısayol                                          | Açıklama                                                                                           |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
@@ -32,7 +32,7 @@ Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde 
 | <kbd>❖ Win</kbd> + `YUKARI YONU`                 | Uygulamayı tam ekran yapma                                                                         |
 | <kbd>❖ Win</kbd> + `AŞAĞI YONU`                  | Uygulamayı küçük ekran yapma                                                                       |
 
-### Gezinti
+### 🚶‍ Gezinti
 
 - <kbd>⎇ Alt</kbd> <kbd>⭾ Tab</kbd> Uygulamalar arası gezinti
 - <kbd>✲ Ctrl</kbd> <kbd>❖ Win</kbd> <kbd>← → Arrow</kbd> Masaüstleri arası gezinti
@@ -41,13 +41,13 @@ Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde 
 - <kbd>❖ Win</kbd> + `,` Anlık masaüstüne bakma
 - <kbd>❖ Win</kbd> + `L` Oturumu kitleme
 
-### Girdi İşlemleri
+### 💫 Girdi İşlemleri
 
 - <kbd>❖ Win</kbd> + `V` Son kopyalananları gösterir (Clipboard / Pano)
 - <kbd>❖ Win</kbd> + `Ş` veya `.` Emoji ekleme 👌
 - <kbd>❖ Win</kbd> + <kbd>⇧ Shift</kbd> + `S` Bell bir alanın ekran görüntüsü alma
 
-### Menü Kısayolları
+### 📃 Menü Kısayolları
 
 - <kbd>❖ Win</kbd> + <kbd>I</kbd> Ayarlar menüsü
 - <kbd>❖ Win</kbd> + <kbd>U</kbd> Görünüm ayarları
@@ -57,7 +57,7 @@ Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde 
 - <kbd>❖ Win</kbd> + <kbd>Q</kbd> veya S Arama penceresini açma
 - <kbd>❖ Win</kbd> + <kbd>W</kbd> Windows INK çalışma alanını açma
 
-## Klavye Kısayolu Oluşturma
+## 👷‍ Klavye Kısayolu Oluşturma
 
 - İlk olarak <kbd>❖ Win</kbd> + <kbd>R</kbd> ile `Run` alanını açın
 - İçerisine `shell:AppsFolder` yazıp <kbd>ENTER</kbd>'a basın
@@ -66,3 +66,5 @@ Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde 
 - Masaüstüne gelip oluşan kısayola sağ tıklayın
 - `Shortcut` alnına tıklayıp klavyenizden bir tuşa basın
 - <kbd>✲ Ctrl</kbd> + <kbd>⎇ Alt</kbd> kombinasyonları ile kısayol oluşturabilirsiniz
+
+> [💫 AutoHotkey](.AutoHotkey.md) ile istediğin kısayolları oluşturan scriptler yazabilirsin.

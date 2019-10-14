@@ -1,4 +1,4 @@
-# Windows 10 Komut İstem (CMD) Notları 
+# 🖤 Windows 10 Komut İstem (CMD) Notları
 
 ## Command Promp (CMD)
 
@@ -137,80 +137,9 @@ WshShell.Run chr(34) & "path\to\bat" & Chr(34), 0
 Set WshShell = Nothing
 ```
 
-## Windows için Paket Yöneticisi
+## 🔗 Harici Bağlantılar
 
-Windows için popüler olan **Chocolatey** paket yöneticisi, powershell üzerinden `choco install <paket>` komutuyla yükleme yapmanızı sağlar.
-
-- Resmi sitesine [buraya](https://chocolatey.org/) tıklayarak erişebilirsin.
-- Başlangıç videosu için [buraya](https://www.youtube.com/watch?v=hfgZYpo5moA) bakabilirsin
-- Yükleyebileceğin paketler için [buraya](https://chocolatey.org/packages) bakabilirsin
-
-### Hızlı Komut Bilgisi
-
-| Komut                                                | Açıklama                              |
-| ---------------------------------------------------- | ------------------------------------- |
-| `choco list -lo`                                     | Yüklü yerel uygulamaları gösterir     |
-| `choco install -y <paket>`                           | Paketi sessiz yükleme                 |
-| `choco uninstall <paket>`                            | Paket kaldırma                        |
-| `choco install -y <paket> --params "<parametreler>"` | Paketi belirli ayarlarla sessiz kurma |
-
-### Sık Kullanılan Paketler
-
-```sh
-choco install -y googlechrome winrar # Genel kullanım için
-choco install -y vscode git # Programlama için
-```
-
-<details>
-<summary>Kendi kullandıklarım</summary>
-
-<details>
-<summary>Tablet</summary>
-
-```sh
-choco install -y googlechrome wget firacode winrar youtube-dl vscode git --params "/GitAndUnixToolsOnPath /NoShellIntegration /WindowsTerminal"
-```
-
-</details>
-
-<details>
-<summary>PC</summary>
-
-```sh
-choco install -y googlechrome wget firacode winrar youtube-dl vscode tusk miniconda3 python github-desktop git --params "/GitAndUnixToolsOnPath /NoShellIntegration /WindowsTerminal"
-```
-
-</details>
-
-</details>
-
-
-## Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma
-
-[Method to open any Windows 10 Apps from command line](https://www.tenforums.com/software-apps/57000-method-open-any-windows-10-apps-command-line.html) yazısından derlenmiştir.
-
-### Komutu Oluşturmak için Gerekli Bilgileri Alma
-
-- PowerShell üzerinden `Get-AppxPackage > appxpackages.txt` komutu ile dosyaya appx paketlerinin bilgilerini kaydedin
-- `.\appxpackages.txt` komutu ile dosyayı açın
-- <kbd>✲ Ctrl</kbd> <kbd>F</kbd> ile dosya içerisinde kısayol oluşturmak istediğiniz uygulamanın adını aratın
-  - Örn: `OneNote`
-- Bulduğunuz uygulama bilgilerindeki alttaki kısımlar ileride kullanılacaktır:
-  -  `PackageFamilyName`
-  -  `InstallLocation`
--  ` cat "InstallLocation\AppxManifest.xml" | grep Executable=` komutunu yazın ve çıkan sonuçtaki `Application Id=` değerini kaydedin
-
-### Komutu Tanımlama
-
-Çalıştırma komutu aşağıdaki gibi olacaktır:
-
--  `shell:appsFolder\PackageFamilyName!Application Id`
-   -  `PackageFamilyName` ve `Application Id` kısmına yukarıdaki işlemlerde bulduğumuz değerleri yazacağız
--  OneNote için: `shell:appsFolder\Microsoft.Office.OneNote_8wekyb3d8bbwe!microsoft.onenoteim`
-
-
-## PowerShell Kullanımı
-
-İlgili dökümana [buraya](Windows10%20Kaynaklar%C4%B1\Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf) tıklayarak erişebilirsin.
+- [👜 Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma](./Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Ma%C4%9Fazas%C4%B1ndan%20%C4%B0ndirilen%20Uygulamalar%C4%B1%20Komut%20ile%20%C3%87al%C4%B1%C5%9Ft%C4%B1rma.md)
+- [💙 PowerShell Kullanımı](Windows10%20Kaynaklar%C4%B1\Windows%20PowerShell%20Tutorial%20for%20Beginners.pdf)
 
 [clink]: http://mridgers.github.io/clink/

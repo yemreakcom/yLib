@@ -12,7 +12,7 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 > Windows 10'da denenmiştir.
 
 
-## Kısayol Tanımlamaları
+## 🍍 Kısayol Tanımlamaları
 
 | Symbol | Description                                                                                          |
 | ------ | ---------------------------------------------------------------------------------------------------- |
@@ -29,7 +29,7 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 | ----------------------------------------------------------------------------------- | -------------------------------------- |
 | [SetTitleMatchMode](https://www.autohotkey.com/docs/commands/SetTitleMatchMode.htm) | Pencere başlığındaki isimlerin alınışı |
 
-## Pencere Açma, Açıksa Gizleme
+## 👀 Pencere Açma, Açıksa Gizleme
 
 - `WinName` alanına kendi pencere isminizi yazmayı unutmayın.
 
@@ -41,7 +41,7 @@ description: Windows üzerinde kişisel kısayolları ve scriptleri oluşturmaya
 SetTitleMatchMode, 2
 
 ToggleWindow(windowName)
-{   
+{
     WinGet, WinState, MinMax, %windowName%
     if (WinState == -1)
     {
@@ -54,8 +54,8 @@ ToggleWindow(windowName)
     }
 }
 
-ShowWin(windowName, url) 
-{   
+ShowWin(windowName, url)
+{
     IfWinExist, %windowName%
     {
         ToggleWindow(windowName)
@@ -84,3 +84,7 @@ return
 ```
 
 > [Minimize and Restore Window with one command](https://autohotkey.com/board/topic/49207-minimize-and-restore-window-with-one-command/?p=306623)
+
+## 🔗 Harici Bağlantılar
+
+- [👜 Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma](./Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Ma%C4%9Fazas%C4%B1ndan%20%C4%B0ndirilen%20Uygulamalar%C4%B1%20Komut%20ile%20%C3%87al%C4%B1%C5%9Ft%C4%B1rma.md)

@@ -1,4 +1,4 @@
-# Yavaşlayan Bilgisayarı Hızlandırma
+# 💨 Yavaşlayan Bilgisayarı Hızlandırma
 
 Her birimiz farkındayız ki:
 
@@ -9,7 +9,7 @@ Bu sorunu kesin olarak engelleme çözümü sunamasam da size bilgisayarınızı
 
 > Uygulama indirmeden bir işlem yapacağım ben diyorsan, sayfanın en altına inmeni tavsiye ederim 😊
 
-## CCleaner
+## 🧹 CCleaner
 
 ![ccleaner](../../res/ccleaner.png)
 
@@ -21,7 +21,7 @@ Bilgisayar bakım aracı olan [CCleaner][CCleaner]:
 
 gibi faydalar sunmaktadır.
 
-## Defragler
+## 🧱 Defragler
 
 ![defragler](../../res/defragler.png)
 
@@ -34,7 +34,7 @@ gibi faydalar sunmaktadır.
 
 > Kullandıktan sonra gözle görülebilir bir hız artışına tanıklık edeceksiniz.
 
-## DriverPack Solution
+## 📦 DriverPack Solution
 
 Driver güncelleme aracı olan [DriverPack Solution][DriverPack Solution]:
 
@@ -46,7 +46,7 @@ gibi faydalar sunmaktadır.
 
 > Yükleme sırasında ek programlar (Yandex, Opera, Avast vs. ) indirmekte dikkat ediniz. Ek olarak: `C:\Users\(Kullanıcı)\AppData\Roaming` içindeki **DRP ile başlayan klasörleri siliniz**. Avast `"Win32-Malvare-Gen"` virüsü bulmaktadır.
 
-## Programsız Hızlandırma
+## 🦢 Programsız Hızlandırma
 
 - Bilgisayarım sağ tıklayın `Özellikler` - `Gelişmiş Sistem Ayarları`
 - `Gelişmiş` - `Performans` - `Ayarlar`

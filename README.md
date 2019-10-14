@@ -19,6 +19,7 @@ Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı as
 > Veya hazır script bul
 -->
 
+- [🎇 Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/README.md)
 - [🔮 Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/README.md)
 - [👨‍💻 Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
 - [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Bilgisayarda%20Zaman%20Y%C3%B6netimi.md)

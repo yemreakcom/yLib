@@ -1,6 +1,6 @@
-# Windows Sağ Tık Menüsünü Özelleştirme
+# 🧱 Windows Sağ Tık Menüsünü Özelleştirme
 
-## Hızlı Yöntem
+## 🏃‍ Hızlı Yöntem
 
 Dosya oluşturup uzantısını `.reg` yaparak alttaki formatta düzenlemelisin.
 
@@ -10,16 +10,16 @@ Dosya oluşturup uzantısını `.reg` yaparak alttaki formatta düzenlemelisin.
   - Örn: `"C:\Program Files (x86)\Dev-Cpp\devcpp.exe"` olan metin `"\"C:\\Program Files (x86)\\Dev-Cpp\\devcpp.exe\""` olmalı
 - `[..\command]` altındaki `@=` satırına yapıştırmalısın
 
-![reg_format](../../res/win_reg_format.png)
-![reg_example](../../res/win_reg_example.png)
+![reg_format](../../../../res/win_reg_format.png)
+![reg_example](../../../../res/win_reg_example.png)
 
-## Consolu Yönetici Olarak Burada Aç Ekleme
+## 🖤 Consolu Yönetici Olarak Burada Aç Ekleme
 
 Windows'ta komut istemini her hangi bir dosyaya tıkladığınızda sağ tık menüsünde görmek istiyorsanız, yani aşağıdaki fotoğraflardaki gibi 😄
 
-![Consolu Burada Aç](../../res/win_opencommandprompt.png)
+![Consolu Burada Aç](../../../res/win_opencommandprompt.png)
 
-### Kayıt Defteri Yapıladırması (Regedit)
+### 🧾 Kayıt Defteri Yapıladırması (Regedit)
 
 *Çalıştır*' a `regedit.exe` yazmanız veya *arama çubuğuna* `regedit` yazmanız ve kayıt defterini **yönetici olarak** açmanız gerekmekte.
 
@@ -34,34 +34,34 @@ Windows'ta komut istemini her hangi bir dosyaya tıkladığınızda sağ tık me
 
 Artık herhangi bir klasöre sağ tıkladığınızda "Konsolu yönetici olarak burada aç" veya kendi özelleştirdiğiniz isim yazacaktır, tıklayarak komut istemini yönetici olarak klasör dizininde açabilirsiniz :)
 
-![regedit](../../res/win_regedit.png)
-![reg1](../../res/win_ocpex1.png)
-![reg2](../../res/win_ocpex.png)
-![reg3](../../res/win_reg3.png)
-![reg4](../../res/win_reg4.png)
-![reg5](../../res/win_reg5.png)
+![regedit](../../../res/win_regedit.png)
+![reg1](../../../res/win_ocpex1.png)
+![reg2](../../../res/win_ocpex.png)
+![reg3](../../../res/win_reg3.png)
+![reg4](../../../res/win_reg4.png)
+![reg5](../../../res/win_reg5.png)
 
-#### İkon Ekleme
+#### 🎴 İkon Ekleme
 
 İkon da eklemek isterseniz; (Windows Defender'daki kalkan, Winrar'daki kitaplar gibi):
 
 - `runas` dizinine sağ tıklayıp `Yeni` ->` Dize Değeri` diyoruz ve adını `Icon` yapıyoruz.
 - `Icon` a çift tıklayarak verisine `cmd.exe` (veya hangi ikonu istiyorsanız onun yolunu) yazıyoruz
 
-![reg6](../../res/win_reg6.png)
+![reg6](../../../res/win_reg6.png)
 
 Son olarak eklemek isterim ki, bu işlem sadece klasörlere sağ tıkladığımızda karşımıza gelecektir, eğer klasörün içindeyken de sağ tıkladığınızda gelmesini istiyorsanız, yani aşağıdaki resimdeki gibi :)
 
-![reg7](../../res/win_reg7.png)
+![reg7](../../../res/win_reg7.png)
 
 Bu sefer yukarıdaki işlemlerin aynısını:
 
 - `HKEY_CLASSES_ROOT\Directory\Background\shell` dizinine yapıyoruz
 - Ek olarak `runes/command` dizininin "(Varsayılan)" ın verisine `cmd.exe /k "pushd %V && title Komut İstemi"` yazıyoruz. (L yerine V yazdığımıza dikkat edelim)
 
-![reg8](../../res/win_reg8.png)
+![reg8](../../../res/win_reg8.png)
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 - [Penguin Coder](http://www.penguincoders.net/2015/12/add-open-administrator-command-prompt-right-click-folder-windows.html)
 - [How to geek](https://www.howtogeek.com/107965/how-to-add-any-application-shortcut-to-windows-explorers-context-menu/)

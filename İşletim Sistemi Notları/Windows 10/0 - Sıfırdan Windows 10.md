@@ -27,17 +27,19 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 
 ### 👜 Windows Store Üzerinden Uygulamarın Kurulumu
 
-| Uygulama                                                                                                                                                                       | Açıklama                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
-| [🖼 Sharex](https://www.microsoft.com/tr-tr/p/sharex/9nblggh4z1sp?activetab=pivot%3Aoverviewtab)                                                                               | Ekran görüntüsü alma                             |
-| [🔍 Quick Look](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                                                                          | Dosyaları açamadan <kbd>SPACE</kbd> ile önizleme |
-| [🆗 Tureng Sözlük](https://www.microsoft.com/tr-tr/p/tureng-sozluk/9wzdncrfjb1g?utm_source=AppAgg.com&utm_medium=AppAgg&utm_campaign=AppAgg&rtc=1&activetab=pivot:overviewtab) | İngilizce - Türkçe Sözlük                        |
-| [✅ SpellBoy - Spell & Grammar Check](https://www.microsoft.com/tr-tr/p/spellboy-spell-grammar-check/9nc12crwc360?activetab=pivot:overviewtab)                                  | Yabancı diller için imla kontorlü                |
-| [🖤 Windows Terminal](https://www.microsoft.com/tr-tr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)                                                     | Windows'un yeni şık terminali                    |
-| [📝 Notepad](https://www.microsoft.com/tr-tr/p/notepad/9n7lrq8p8pd5?activetab=pivot:overviewtab)                                                                               | Sade tasarımlı not defteri                       |
-| 📔 OneNote                                                                                                                                                                     | Not alma uygulaması (Gömülü olarak gelir)        |
+| Uygulama                                                                                                                                                                       | Açıklama                                                                  |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------- |
+| [🖼 Sharex](https://www.microsoft.com/tr-tr/p/sharex/9nblggh4z1sp?activetab=pivot%3Aoverviewtab)                                                                               | Ekran görüntüsü alma                                                      |
+| [🔍 Quick Look](https://www.microsoft.com/tr-tr/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab)                                                                          | Dosyaları açamadan <kbd>SPACE</kbd> ile önizleme                          |
+| [🆗 Tureng Sözlük](https://www.microsoft.com/tr-tr/p/tureng-sozluk/9wzdncrfjb1g?utm_source=AppAgg.com&utm_medium=AppAgg&utm_campaign=AppAgg&rtc=1&activetab=pivot:overviewtab) | İngilizce - Türkçe Sözlük                                                 |
+| [🖤 Windows Terminal](https://www.microsoft.com/tr-tr/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)                                                     | Windows'un yeni şık terminali                                             |
+| [👨‍💼 Trello](https://www.microsoft.com/tr-tr/p/trello/9nblggh4xxvw?activetab=pivot:overviewtab)                                                                              | Proje yönetim uygulaması                                                  |
+| 🎴 Snip & Sketch                                                                                                                                                               | Ekran görüntsü yakalayıcı <kbd>❖ Win</kbd><kbd>⇧ Shift</kbd> <kbd>S</kbd> |
+| 📔 OneNote                                                                                                                                                                     | Not alma uygulaması                                                       |
+| 🤝 Quick Assist                                                                                                                                                                | Ekran paylaşım ve yönetim aracı (team viewer gibi)                        |
 
-> Store üzerinden indirilen Python, Git Bash üzerinden kullanılamıyor (`Permission denied`). Bu yüzden store'dan değil web sitesinden indirilmeli. 
+
+> Store üzerinden indirilen Python, Git Bash üzerinden kullanılamıyor (`Permission denied`). Bu yüzden store'dan değil web sitesinden indirilmeli.
 
 ### 🤸‍ Store Uygulamları için Kişiselleştirmelerim
 
@@ -62,7 +64,24 @@ Siteye girdiğinizde sırasıyla alttaki ayarları açamınız | seçmeniz gerek
 | [🖱 Numix Cursor Theme](https://drive.google.com/uc?id=1odtFIqAEfnvBH5Zk5ZefPnm77kZIxxQp) | Mouse teması                                                     |
 | [🖼 PaintNet](https://www.dotpdn.com/downloads/pdn.html)                                  | Resim düzenleme uygulaması                                       |
 | [🍫 Chocolatey](https://chocolatey.org/)                                                  | Windows paket yöneticisi                                         |
-| [💫 AutoHotkey](https://www.autohotkey.com/)                                              | Kısayol oluşturucu                                               |
+| [💫 AutoHotkey](https://www.autohotkey.com/)                                              | Kısayol oluşturucu ve scripting                                  |
+
+# 🍫 Chocolatey Paket Yöneticisi
+
+Windows için popüler olan **Chocolatey** paket yöneticisi, powershell üzerinden `choco install <paket>` komutuyla yükleme yapmanızı sağlar.
+
+- Resmi sitesine [buraya](https://chocolatey.org/) tıklayarak erişebilirsin.
+- Başlangıç videosu için [buraya](https://www.youtube.com/watch?v=hfgZYpo5moA) bakabilirsin
+- Yükleyebileceğin paketler için [buraya](https://chocolatey.org/packages) bakabilirsin
+
+### Hızlı Komut Bilgisi
+
+| Komut                                                | Açıklama                              |
+| ---------------------------------------------------- | ------------------------------------- |
+| `choco list -lo`                                     | Yüklü yerel uygulamaları gösterir     |
+| `choco install -y <paket>`                           | Paketi sessiz yükleme                 |
+| `choco uninstall <paket>`                            | Paket kaldırma                        |
+| `choco install -y <paket> --params "<parametreler>"` | Paketi belirli ayarlarla sessiz kurma |
 
 ### 🍫 Chocolatey ve Tüm Uygulamaların Kurulum Scripti
 
@@ -108,7 +127,8 @@ choco install -y firacode winrar youtube-dl wget vscode github-desktop python3 g
 - **Mail** uygulamasından e-posta hesabı girme
 - **Gelişmiş klavye ayarları**'dan **Emoji Panel** kısmındaki işareti kaldırma
   - Birden fazla klavye varsa varsayılanı seçmek
-- <kbd>❖ Win</kbd> tuşuna basıp, ayarlar resmine sağ tıklayıp **Bu listeyi özelleştir** üzerinden gözükecek klasörleri ayarlama
+- <kbd>❖ Win</kbd> tuşuna basıp, ayarlar resmine sağ tıklayıp **Bu listeyi özelleştir** üzerinden gözükecek klasörleri ayarlamak
+- 🎮 **Game Bar**'ı kapatmak
 
 ### 🔑 Otomatik Olarak Oturum Açma
 
@@ -118,13 +138,13 @@ choco install -y firacode winrar youtube-dl wget vscode github-desktop python3 g
 
 ### 🍢 Görev Çubuğu Ayarları
 
-<kbd>❖ Win</kbd> + <kbd>1 2 3 ...</kbd> tuşları ile otomatik açılır 
+<kbd>❖ Win</kbd> + <kbd>1 2 3 ...</kbd> tuşları ile otomatik açılır
 
 - Windows Terminal
 - Chrome
 - VsCode
 - File Explorer
-- Notepad
+- GitHub Desktop
 
 ## 📂 Temel Dizinler
 
@@ -139,3 +159,8 @@ Alttaki komutları <kbd>❖ Win</kbd> + <kbd>R</kbd> ile açılan **run** pencer
   - Arama yerine `%appdata%` yazarak erişebilirsin
 - `C:\Users\%username%\AppData\Local`
 - `C:\ProgramData`
+
+## 🔗 Harici Bağlantılar
+
+- [🧱 Windows Sağ Tık Menüsünü Özelleştirme](./Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Sa%C4%9F%20T%C4%B1k%20Men%C3%BCs%C3%BCn%C3%BC%20%C3%96zelle%C5%9Ftirme.md)
+- [🌆 Windows Ortam Değişkenleri](./Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Ortam%20De%C4%9Fi%C5%9Fkenleri.md)

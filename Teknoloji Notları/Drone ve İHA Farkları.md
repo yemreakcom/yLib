@@ -27,11 +27,9 @@ description: Drone ve İHA (İnsansız hava aracı)'nın kıyaslanmasını ele a
 
 ## 🔗 Harici Bağlantılar
 
-- [DRONE VE İHA (İNSANSIZ HAVA ARACI) ARASINDAKİ FARKLAR NELERDİR?](https://www.dronetamiri.com/drone-ve-iha-insansiz-hava-araci-arasindaki-farklar-nelerdir/) 
+- [DRONE VE İHA (İNSANSIZ HAVA ARACI) ARASINDAKİ FARKLAR NELERDİR?](https://www.dronetamiri.com/drone-ve-iha-insansiz-hava-araci-arasindaki-farklar-nelerdir/)
 
 ### 📰 Makaleler
 
-- [İHA KULLANILARAK ALINAN GÖRÜNTÜNÜN İŞLENİP
-RAYLARDAKİ GENEL STABİLİTE PROBLEMİNİN TESPİT
-EDİLMESİ](http://www.ibrahimcayiroglu.com/Dokumanlar/MekatronikProjeUygulamasi/28-Quadrotor_ve_Goruntu_Aktarimi_Ile_Raylardaki_Problem_Tespiti-Gokhan_KUSOGLU-Ali_Emre_KARADENIZ.pdf)
+- [İHA KULLANILARAK ALINAN GÖRÜNTÜNÜN İŞLENİP RAYLARDAKİ GENEL STABİLİTE PROBLEMİNİN TESPİT EDİLMESİ](http://www.ibrahimcayiroglu.com/Dokumanlar/MekatronikProjeUygulamasi/28-Quadrotor_ve_Goruntu_Aktarimi_Ile_Raylardaki_Problem_Tespiti-Gokhan_KUSOGLU-Ali_Emre_KARADENIZ.pdf)
 - [İnsanız Hava Aracı (İHA) Görüntüleri ile Ortogörüntü Üretiminde Yükseklik ve Kamera Açısının Doğruluğa Etkisinin Araştırılması](https://www.researchgate.net/publication/321586396_Insaniz_Hava_Araci_IHA_Goruntuleri_ile_Ortogoruntu_Uretiminde_Yukseklik_ve_Kamera_Acisinin_Dogruluga_Etkisinin_Arastirilmasi)

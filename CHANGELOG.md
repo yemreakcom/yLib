@@ -215,6 +215,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🐞 İsim düzeltmesi. [Yunus Emre]
+
 * 🐞 Hata düzeltme. [Yunus Emre]
 
 * 🐞 Hatalar giderildi. [Yunus Emre]

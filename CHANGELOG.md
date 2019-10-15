@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 🎴 Sharex için ek açıklama eklendi. [Yunus Emre]
+
 * 🔮 Teknoloji Notları linki eklendi. [Yunus Emre]
 
 * 🔓 Bootloader kiliti açmanın önemi ve örnek çıktı eklendi. [Yunus Emre]

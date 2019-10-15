@@ -64,7 +64,7 @@ Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u
 - Klasörün yanında da alttaki script olmalıdır
 - Script'in çalışması için `adb` gereklidir
 
-### Windows için Flash All
+### 👨‍💻 Windows için Flash All
 
 ```bat
 fastboot %* getvar product 2>&1 | findstr /r /c:"^product: *daisy" || @echo "error : Missmatching image and device" && exit /B 1
@@ -112,7 +112,7 @@ fastboot %* reboot || @echo "Reboot error" && exit /B 1
 
 ```
 
-### Linux için Flash All
+### 🐧 Linux için Flash All
 
 ```sh
 fastboot $* getvar product 2>&1 | grep -E "^product: *daisy$"
@@ -203,7 +203,7 @@ Görüntü boyutunu değiştirip eski haline getirin 😅
 
 > Kaynak için [buraya](https://www.reddit.com/r/Xiaomi/comments/apkwo9/mi_a2_lite_autoclosing_apps/) bakabilirsin
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 - [Xiaomi Mi A2 Lite Bilinen Hatalar ve Çözümleri](https://mobileinternist.com/xiaomi-mi-a2-issues-solved)
 - [Unbrick All Qualcomm Snapdragon’s from Qualcomm HS-USB QDLoader 9008 (if you have the right kind of rom)](https://www.androidbrick.com/unbrick-all-qualcomm-snapdragons-from-qualcomm-hs-usb-qdloader-9008-if-you-have-the-right-kind-of-rom-qhsusb_dload_edl/)

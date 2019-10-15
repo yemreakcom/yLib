@@ -2,7 +2,7 @@
 description: Notebook satın almadan önce aldığım notlar.
 ---
 
-# 💻 Notebook Notları
+# 💻 Notebook Satın Alma Notları
 
 ## ⭐ İşlemci
 

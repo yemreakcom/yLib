@@ -1,8 +1,8 @@
+---
+description: Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, her yerde çalışır.
+---
+
 # 💘 Windows 10 Kısayolları
-
-Windows'un bize sunduğu nu kısayollar tüm ekranlara baskındır, **her yerde çalışır**.
-
-> Kısayollarını kendin düzenlemek istersen [AutoHotkey](https://www.autohotkey.com) adlı uygulamayı kullanabilirsin.
 
 ## 🌟 Sık Kullanılan Kısayollar
 

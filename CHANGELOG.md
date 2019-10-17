@@ -279,6 +279,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* 🧹 Ufaz temizlikler. [Yunus Emre]
+
 * 🚀 Emojisiz alan kalmadı. [Yunus Emre]
 
 * 🧹 [Yunus Emre]

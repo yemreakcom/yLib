@@ -1,4 +1,4 @@
-# Verimli Programlama
+# 📈 Verimli Programlama
 
 ## Diziden eleman bulma
 

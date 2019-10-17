@@ -1,8 +1,21 @@
-# Terimler
+---
+description: Burası henüz yapım aşamasındadir 🧪
+---
 
-Yazılımda kullanılan genel terimler.
+# 🤓 Programlama Terimleri
 
-| Terim        | Türkçe Karşılığı | Ek Açıklama                                                                                       |
+## 🧱 Ana Terimler
+
+| Terim     | Açıklama                                                                |
+| --------- | ----------------------------------------------------------------------- |
+| library   | Özel bir iş için toplanmış metodlar fonksiyonlar (ev için alet çantası) |
+| framework | Kapsamlı işler için toplanmış metodlar (önceden yapılmış ev)            |
+| API       | Uygulama ile karşılıkla haberleşme (istek gönderip, karşılık alma)      |
+| Singleton | Tek seferlik tanımlanabilen uygulama türü                               |
+
+## 🏦 Yazılımda kullanılan terimler
+
+| Kavram       | Türkçe Karşılığı | Ek Açıklama                                                                                       |
 | ------------ | ---------------- | ------------------------------------------------------------------------------------------------- |
 | Feed         | Akış             | Instagramdaki resim alanı, veya sitelerdeki ana verilerin alanı                                   |
 | Feature      | Özellik          |                                                                                                   |
@@ -19,3 +32,19 @@ Yazılımda kullanılan genel terimler.
 | Slider       | Kayan Afiş       |
 | Namespace    | İsim alanı       | Aynı amaca hizmet eden özellikleri, sınıfları ve fonksiyonları aynı çatı altında toplama          |
 | Wild Card    |                  | `..` `.` `*` gibi terimleri içeren metne verilen isim                                             |
+
+## 🔂 Değişken Terimleri
+
+| Kavram | Türkçe Karşılığı | Ek Açıklama                                             |
+| ------ | ---------------- | ------------------------------------------------------- |
+| Flag   | Bayrak           | Varlık (evet, hayır) değeri tutan değişkenler - Booelan |
+
+## 📜 Raporlama (Logging) Seviyeleri
+
+Aşağıya doğru inildikçe, ekrana basılan çıktı azalır.
+
+- DEBUG
+- INFO
+- WARNING
+- ERROR
+- CRITICAL

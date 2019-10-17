@@ -1,4 +1,4 @@
-# Web Programlama 
+# 🥴 Web Programlama Karışık Notlar
 
 ## CSS Notları
 

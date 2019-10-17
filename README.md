@@ -19,12 +19,18 @@ Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı as
 > Veya hazır script bul
 -->
 
-- [🎇 Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/README.md)
-- [🔮 Teknoloji Notları](./Teknoloji%20Notlar%C4%B1/README.md)
-- [👨‍💻 Vscode Eklentisi VSIX Programlama](./Uygulama%20Notlar%C4%B1/VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
-- [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](./Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Bilgisayarda%20Zaman%20Y%C3%B6netimi.md)
-- [🔢 Asal Sayılar](Karma%20Bilgiler%5CAsal%20Say%C4%B1lar.md)
-- [📖 GitBook Notları](Proje%20Y%C3%B6netimi%20Notlar%C4%B1%5CGitBook.md)
+Sitede 🌴 kökten değişiklik yapılmıştır. ( _18 Eylül_ )
+
+- [🧩 Git](./4%20-%20Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Git/README.md)
+- [📦 Uygulama & Yazılım](./6%20-%20Uygulama%20&%20Yaz%C4%B1l%C4%B1m/README.md)
+- [👨‍🔬 Kişisel Araştırmalarım](./0.1%20-%20Ki%C5%9Fisel%20Ara%C5%9Ft%C4%B1rmalar%C4%B1m/README.md)
+- [👨‍💻 Programlama Notları](./1%20-%20Programlama%20Notlar%C4%B1/README.md)
+- [🎇 Windows 10 Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/1%20-%20Windows%2010/README.md)
+- [🔮 Teknoloji Notları](./9%20-%20Teknoloji%20Notlar%C4%B1/README.md)
+- [👨‍💻 Vscode Eklentisi VSIX Programlama](./6%20-%20Uygulama%20&%20Yaz%C4%B1l%C4%B1m/1%20-%20VsCode/4%20-%20Vscode%20Eklentisi%20VSIX%20Programlama.md)
+- [⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)](./4%20-%20Proje%20Y%C3%B6netimi%20Notlar%C4%B1/1%20-%20Bilgisayarda%20Zaman%20Y%C3%B6netimi.md)
+- [🔢 Asal Sayılar](./0.1%20-%20Ki%C5%9Fisel%20Ara%C5%9Ft%C4%B1rmalar%C4%B1m/2%20-%20Asal%20Say%C4%B1lar.md)
+- [📖 GitBook Notları](./4%20-%20Proje%20Y%C3%B6netimi%20Notlar%C4%B1/3%20-%20GitBook.md)
 - [🔌 VsCode Eklentileri](Uygulama%20Notlar%C4%B1%5CVsCode%5C2%20-%20VsCode%20Eklentileri.md)
 - [🐳 Docker](Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1%5CDocker.md)
 - [📲 Mobil Telefonlar Nasıl Haberleşir](Karma%20Bilgiler%5CMobil%20Telefonlar%20Nas%C4%B1l%20Haberle%C5%9Fir.md)
@@ -47,8 +53,9 @@ Veri yığılmasını 📚 engellemek için içeriği fazla olan 📈 bilgiler f
 - [🐍 Python Notlarım](https://python.yemreak.com/)
 - [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 - [📊 Veri Bilimi Notlarım](https://ds.yemreak.com/)
-- [📱 Android Notlarım](https://android.yemreak.com/)
 - [🏫 İstanbul Üniversitesi - Bilgisayar Mühendisliği Notları](https://iuce.yemreak.com)
+- [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
+- [📱 Android Notlarım](https://android.yemreak.com/)
 - [⚛ React ve 🔥 Firebase projem](https://github.com/yedhrab/YReact-Firebase)
 
 ## 🔗 Harici Bağlantılar

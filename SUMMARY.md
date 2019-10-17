@@ -77,7 +77,7 @@
     - [📖 GitBook Notları](./4%20-%20Proje%20Y%C3%B6netimi%20Notlar%C4%B1/GitBook.md)
     - [🐙 Github Notları](./4%20-%20Proje%20Y%C3%B6netimi%20Notlar%C4%B1/Github%20Notlar%C4%B1.md)
   - [💻 İşletim Sistemi Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/README.md)
-    - [🥴 İşletim Sistemleri için Karışık Notlar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Kar%C4%B1%C5%9F%C4%B1k%20Notlar.md)
+    - [🥴 İşletim Sistemleri için Karışık Notlar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/X%20-%20%C4%B0%C5%9Fletim%20Sistemleri%20i%C3%A7in%20Kar%C4%B1%C5%9F%C4%B1k%20Notlar.md)
     - [🎇 Windows 10 Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/1%20-%20Windows%2010/README.md)
     - [🐧 Linux Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/2%20-%20Linux%20Notlar%C4%B1/README.md)
       - [🌟 Linux için Faydalı Uygulamalar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/2%20-%20Linux%20Notlar%C4%B1/0%20-%20Linux%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)

@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* 👨‍💻 VsCode açıklaması eklendi. [Yunus Emre]
+
 * 🎴 Sharex için ek açıklama eklendi. [Yunus Emre]
 
 * 🔮 Teknoloji Notları linki eklendi. [Yunus Emre]
@@ -268,6 +270,8 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* 🧪 [Yunus Emre]
 
 * ✨ [Yunus Emre]
 

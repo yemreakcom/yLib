@@ -163,21 +163,6 @@
     - [MacOS](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/MacOS)
       - [MacOS Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/MacOS/MacOS%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
     - [🎇 Windows 10 Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/README.md)
-      - [🚀 Sıfırdan Windows 10](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/0%20-%20S%C4%B1f%C4%B1rdan%20Windows%2010.md)
-      - [💘 Windows 10 Kısayolları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/1%20-%20Windows%2010%20K%C4%B1sayollar%C4%B1.md)
-      - [💨 Yavaşlayan Bilgisayarı Hızlandırma](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/2%20-%20Yava%C5%9Flayan%20Bilgisayar%C4%B1%20H%C4%B1zland%C4%B1rma.md)
-      - [🖤 Windows 10 Komut İstem (CMD) Notları](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/3%20-%20Windows%2010%20Komut%20%C4%B0stemi%20%28CMD%29%20Notlar%C4%B1.md)
-      - [💫 AutoHotkey](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/AutoHotkey.md)
-      - [Windows 10 Tüm Faydalı Uygulamalar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/X%20-%20Windows%2010%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
-      - [Registery Scriptlerim](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Registery%20Scriptlerim/README.md)
-      - [Windows 10 Diğer Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar)
-        - [Windows10 Gelişmiş](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%2010%20Geli%C5%9Fmi%C5%9F.md)
-        - [Windows 10 Genel Notlar](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%2010%20Genel%20Notlar.md)
-        - [#👜 Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Ma%C4%9Fazas%C4%B1ndan%20%C4%B0ndirilen%20Uygulamalar%C4%B1%20Komut%20ile%20%C3%87al%C4%B1%C5%9Ft%C4%B1rma.md)
-        - [🌆 Windows Ortam Değişkenleri](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Ortam%20De%C4%9Fi%C5%9Fkenleri.md)
-        - [🧱 Windows Sağ Tık Menüsünü Özelleştirme](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Sa%C4%9F%20T%C4%B1k%20Men%C3%BCs%C3%BCn%C3%BC%20%C3%96zelle%C5%9Ftirme.md)
-        - [Windows Subsystem for Linux (WSL)](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%20Subsystem%20for%20Linux.md)
-        - [Windows'da Gizlenmiş GodMode](./%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/Windows%2010/Windows%2010%20Di%C4%9Fer%20Notlar/Windows%27da%20Gizlenmi%C5%9F%20GodMode.md)
 
 <!--Index-->
 

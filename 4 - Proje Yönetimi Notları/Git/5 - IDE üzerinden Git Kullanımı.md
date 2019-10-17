@@ -7,9 +7,6 @@
   - `New Branch` kısmından yeni _yerel branch_ oluşturabilirsin.
   - `Remote branch` kısmındaki herhangi bir branch üzerine tıklayarak `Merge Into Current` ile kendi projene dahil edebilirsin.
 
-## Kitaplar
-
-- [Pro Git](https://drive.google.com/open?id=12bYrrbB2ESt531bYWnddf5NpEg2_fGzl)
 
 ## Harici Linkler
 

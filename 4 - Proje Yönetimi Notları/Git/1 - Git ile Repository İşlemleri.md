@@ -125,6 +125,4 @@ git push -u origin [branch]
 - [Sık kullanılan git komutları](https://github.com/joshnh/Git-Commands)
 - [Github ile Fork ve Pull Request](https://medium.com/@noteCe/github-ile-fork-ve-pull-request-be6077342834)
 
-## Git Cheat Sheet
 
-![git](../../res/git-cheet-sheet.jpeg)

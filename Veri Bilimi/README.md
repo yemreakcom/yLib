@@ -4,6 +4,8 @@ description: Veri Bilimi notları artık 📊 ds.yemreak.com/ 📊 üzerinde der
 
 # 📊 Veri Bilimi
 
+<!--Index-->
+
 - [📊 Veri Bilimi](https://ds.yemreak.com/)
   - [👀 Neler değişti](https://ds.yemreak.com/CHANGELOG)
   - [🌟 Faydalı Kaynaklar](https://ds.yemreak.com/0%20-%20Faydal%C4%B1%20Kaynaklar/)

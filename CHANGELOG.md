@@ -116,6 +116,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 * 👷‍♂️ Baştan aşağı yapılandırma. [Yunus Emre]
 
+* 👷‍♂️ Baştan aşağı yapılandırma. [Yunus Emre]
+
 * 🚅 Notların yerleri değiştirildi. [Yunus Emre]
 
 * Update .gitignore. [Yunus Emre]
@@ -276,6 +278,8 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* Merge branch 'dev' [Yunus Emre]
 
 * 🧪 [Yunus Emre]
 

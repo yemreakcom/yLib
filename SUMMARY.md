@@ -131,7 +131,6 @@
     - [🧹 CClenaer](./6%20-%20Uygulama%20%26%20Yaz%C4%B1l%C4%B1m/6%20-%20CClenaer.md)
     - [LGSV Simulator](./6%20-%20Uygulama%20%26%20Yaz%C4%B1l%C4%B1m/7%20-%20LGSV%20Simulator.md)
     - [GittiGidiyor Entegrasyon](./6%20-%20Uygulama%20%26%20Yaz%C4%B1l%C4%B1m/X%20-%20GittiGidiyor%20Entegrasyon.md)
-  - [☕ Yazılım Notları](./7%20-%20Yaz%C4%B1l%C4%B1m%20Notlar%C4%B1/README.md)
   - [🏫 Istanbul University - CE](./8%20-%20Istanbul%20University%20-%20CE/README.md)
     - [✍ Üniversitedeki Notlarım](./8%20-%20Istanbul%20University%20-%20CE/%C3%9Cniversitedeki%20Notlar%C4%B1m/README.md)
       - [Bilgisayar Mimarisi Final Notları](./8%20-%20Istanbul%20University%20-%20CE/%C3%9Cniversitedeki%20Notlar%C4%B1m/Bilgisayar%20Mimarisi%20Final%20Notlar%C4%B1.md)

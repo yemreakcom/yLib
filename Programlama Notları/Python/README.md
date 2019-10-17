@@ -4,6 +4,8 @@ description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derle
 
 # 🐍 Python
 
+<!--Index-->
+
 - [🐍 Python](https://python.yemreak.com/)
   - [👀 Neler değişti](https://python.yemreak.com/CHANGELOG)
   - [🔗 Faydalı Kaynaklar](https://python.yemreak.com/0%20-%20Di%C4%9Fer%20Kaynaklar/)
@@ -41,7 +43,7 @@ description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derle
     - [📈 Python ile Grafik Çizimleri](https://python.yemreak.com/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/3%20-%20Python%20ile%20Grafik%20%C3%87izimleri)
   - [✨ Diğer Python Notlarım](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/)
     - [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/0%20-%20Sistem%20Y%C3%B6netimi)
-    - [#Thread ve MultiProcessing](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/1%20-%20Thread%20ve%20Multiprocessing)
+    - [💫 Thread ve MultiProcessing](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/1%20-%20Thread%20ve%20Multiprocessing)
     - [🔳 Ekran Yönetimi](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/2%20-%20Ekran%20Y%C3%B6netimi)
     - [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/6%20-%20Di%C4%9Fer%20Python%20Notlar%C4%B1m/3%20-%20Pip%20ile%20Kurulabilir%20Python%20Paketi%20Olu%C5%9Fturma)
   - [🥴 Karışık Python Notları](https://python.yemreak.com/7%20-%20Kar%C4%B1%C5%9F%C4%B1k%20Python%20Notlar%C4%B1/)
@@ -57,3 +59,5 @@ description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derle
     - [🔃 IPython I/O İşlemleri](https://python.yemreak.com/9%20-%20IPython/3%20-%20IPython%20IO%20%C4%B0%C5%9Flemleri)
     - [🔆 IPython Görsel Programlama (GUI)](https://python.yemreak.com/9%20-%20IPython/4%20-%20IPython%20G%C3%B6rsel%20Programlama%20%28GUI%29)
     - [🔗 IPython Harici Bağlantılar](https://python.yemreak.com/9%20-%20IPython/X%20-%20IPython%20Harici%20Ba%C4%9Flant%C4%B1lar)
+
+<!--Index-->

@@ -1,4 +1,4 @@
-# Kotlin
+# 🎃 Kotlin
 
 ## Değişkenler (Variables)
 

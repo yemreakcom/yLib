@@ -267,6 +267,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* ✨ [Yunus Emre]
+
 * ✨ Entegrasyon geliştirmesi yapıldı. [Yunus Emre]
 
 * ✨ Güzelleştirme yapıldı. [Yunus Emre]

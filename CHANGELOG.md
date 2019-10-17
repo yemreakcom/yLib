@@ -263,6 +263,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* ✨ Güzelleştirmeler yapıldı. [Yunus Emre]
+
 * ✨ [Yunus Emre]
 
 * 📊 Veri Bilimi notları indekslendi. [Yunus Emre]

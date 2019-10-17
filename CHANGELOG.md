@@ -110,6 +110,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Python notları yenilendi. [Yunus Emre]
+
 * ✨ Açıklama yenilendi. [Yunus Emre]
 
 * 📱 Xiaomi Mi A2 Lite notları yenilendi. [Yunus Emre]

@@ -4,6 +4,8 @@ description: Yapay Zeka notları artık 🧠 ai.yemreak.com 🧠 üzerinde derle
 
 # 🧠 Yapay Zeka
 
+<!--Index-->
+
 - [🧠 Yapay Zeka](https://ai.yemreak.com/)
   - [👀 Neler değişti](https://ai.yemreak.com/CHANGELOG)
   - [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/0%20-%20Faydal%C4%B1%20Kaynaklar/)
@@ -17,7 +19,8 @@ description: Yapay Zeka notları artık 🧠 ai.yemreak.com 🧠 üzerinde derle
     - [🧰 Makine Öğrenimi Başlangıç Kiti](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20A%C3%A7%C4%B1klama)
     - [✍ Kişisel Notlarım](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20Ki%C5%9Fisel%20Notlar%C4%B1m/)
       - [🙋‍ Makine Öğrenimine Giriş](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20Ki%C5%9Fisel%20Notlar%C4%B1m/0%20-%20Makine%20%C3%96%C4%9Frenimine%20Giri%C5%9F)
-      - [📉 Scikit-Learn](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20Ki%C5%9Fisel%20Notlar%C4%B1m/1%20-%20Scikit-Learn)
+      - [🚶‍ Scikit-Learn'e Giriş](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20Ki%C5%9Fisel%20Notlar%C4%B1m/1%20-%20Scikit-Learn%27e%20Giri%C5%9F)
+      - [📉 SciKit-Learn](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/0%20-%20Ki%C5%9Fisel%20Notlar%C4%B1m/2%20-%20SciKit-Learn)
     - [👨‍🏫 Eğitici Notebooklar](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/1%20-%20E%C4%9Fitici%20Notebooklar/)
     - [👨‍💻 Çalışma Notebookları](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/2%20-%20%C3%87al%C4%B1%C5%9Fma%20Notebooklar%C4%B1/)
     - [📂 data](https://ai.yemreak.com/0.2%20-%20Machine%20Learninig%20Notebooks/data/)

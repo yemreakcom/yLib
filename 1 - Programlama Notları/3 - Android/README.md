@@ -1,5 +1,5 @@
 ---
-description: Android notları artık 📱 android.yemreak.com 📱 üzerinde derlenmekte, alttaki 🔗 bağlantılardan içeriklere erişebilirsin
+description: Android notlarıö
 ---
 
 # 📱 Android

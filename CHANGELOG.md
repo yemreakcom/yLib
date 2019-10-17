@@ -279,6 +279,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* 🚀 Emojisiz alan kalmadı. [Yunus Emre]
+
 * 🧹 [Yunus Emre]
 
 * Merge branch 'dev' [Yunus Emre]

@@ -1,5 +1,5 @@
 ---
-description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derlenmekte, alttaki 🔗 bağlantılardan içeriklere erişebilirsin
+description: Python notlarım
 ---
 
 # 🐍 Python

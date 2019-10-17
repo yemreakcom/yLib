@@ -91,7 +91,7 @@
     - [📱 Android Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/3%20-%20Android%20%C4%B0%C5%9Fletim%20Sistemi/README.md)
       - [📦 Android için Faydalı Uygulamalar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/3%20-%20Android%20%C4%B0%C5%9Fletim%20Sistemi/Android%20i%C3%A7in%20Faydal%C4%B1%20Uygulamalar.md)
     - [🍎 Mac Notları](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/4%20-%20MacOS/README.md)
-      - [MacOS Tüm Faydalı Uygulamalar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/4%20-%20MacOS/MacOS%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
+      - [🚀 MacOS Tüm Faydalı Uygulamalar](./5%20-%20%C4%B0%C5%9Fletim%20Sistemi%20Notlar%C4%B1/4%20-%20MacOS/MacOS%20T%C3%BCm%20Faydal%C4%B1%20Uygulamalar.md)
   - [📦 Uygulamalar](./6%20-%20Uygulama%20Notlar%C4%B1/README.md)
     - [Faydalı Uygulamalar](./6%20-%20Uygulama%20Notlar%C4%B1/0%20-%20Faydal%C4%B1%20Uygulamalar.md)
     - [Anaconda](./6%20-%20Uygulama%20Notlar%C4%B1/Anaconda.md)

@@ -1,6 +1,6 @@
 # 📦 Android için Faydalı Uygulamalar
 
-## Üretkenlik Uygulamaları
+## 📈 Üretkenlik Uygulamaları
 
 | Uygulama         | Açıklama                                 |
 | ---------------- | ---------------------------------------- |

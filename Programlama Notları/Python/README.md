@@ -34,7 +34,7 @@ description: Python notları artık 🐍 python.yemreak.com 🐍 üzerinde derle
     - [📰 Python Koleksiyonlar](https://python.yemreak.com/3%20-%20Veri%20Yap%C4%B1lar%C4%B1/2%20-%20Koleksiyonlar)
   - [📂 Dosya İşlemleri](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/)
     - [📂 Dosya İşlemleri (File)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/1%20-%20Dosya%20%C4%B0%C5%9Flemleri)
-    - [🗂 Dizin İşlemleri (Dir)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/2%20-%20Dizin%20%C4%B0%C5%9Flemleri)
+    - [📂 Dizin İşlemleri (Dir)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/2%20-%20Dizin%20%C4%B0%C5%9Flemleri)
     - [🚩 Yol İşlemleri (Path)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/3%20-%20Yol%20%C4%B0%C5%9Flemleri)
     - [📄 Raporlama İşlemleri (Logging)](https://python.yemreak.com/4%20-%20Dosya%20%C4%B0%C5%9Flemleri/4%20-%20Raporlama%20%C4%B0%C5%9Flemleri)
   - [🔆 Arayüz Oluşturma](https://python.yemreak.com/5%20-%20Aray%C3%BCz%20Olu%C5%9Fturma/)

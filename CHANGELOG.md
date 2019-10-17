@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 👀 Neler Değişti alanı yenilendi. [Yunus Emre]
+
 * ✨ Kusurlu isimler düzeltildi, her yerde emojiler koyulmakta. [Yunus Emre]
 
 

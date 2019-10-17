@@ -110,6 +110,10 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚅 YWiki'den windows 10 notları windows.yemreak.com'a aktarıldı. [Yunus Emre]
+
+* Update SUMMARY.md. [Yunus Emre]
+
 * ✨ Python notları yenilendi. [Yunus Emre]
 
 * ✨ Açıklama yenilendi. [Yunus Emre]
@@ -217,6 +221,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 🧹 Gereksiz sayfalar kaldırıldı. [Yunus Emre]
+
 * 🐞 İsim düzeltmesi. [Yunus Emre]
 
 * 🐞 Hata düzeltme. [Yunus Emre]
@@ -256,6 +262,14 @@ description: Sitede neler olup bittiğinin raporudur.
   `|` yerine `<or>` kullanıldı,
 
 ### 📡 Diğerler
+
+* ✨ [Yunus Emre]
+
+* 📊 Veri Bilimi notları indekslendi. [Yunus Emre]
+
+* 🐍 Python indekslendi. [Yunus Emre]
+
+* 🏫 Istanbul University - CE notları indekslendi. [Yunus Emre]
 
 * ✨ [Yunus Emre]
 

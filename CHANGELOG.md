@@ -114,6 +114,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* ✨ Kusurlu isimler düzeltildi, her yerde emojiler koyulmakta. [Yunus Emre]
+
 * Update README.md. [Yunus Emre]
 
 * 🚀 Git notları çok daha anlaşılır hale alındı. [Yunus Emre]

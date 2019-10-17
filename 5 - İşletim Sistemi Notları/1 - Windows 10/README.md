@@ -1,7 +1,6 @@
 ---
-description: Dünyada en sık kullanılan işletim sistemi olan Windows 10 hakkında notlarım
+description: Windows 10 notları artık 🎇 windows.yemreak.com 🎇 üzerinde derlenmekte, alttaki 🔗 bağlantılardan içeriklere erişebilirsin
 ---
-
 
 # 🎇 Windows 10 Notları
 
@@ -22,8 +21,8 @@ description: Dünyada en sık kullanılan işletim sistemi olan Windows 10 hakk�
     - [🌠 Windows 10 Genel Notlar](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/1%20-%20Windows%2010%20Genel%20Notlar)
     - [🌆 Windows Ortam Değişkenleri](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/2%20-%20Windows%20Ortam%20De%C4%9Fi%C5%9Fkenleri)
     - [🧱 Windows Sağ Tık Menüsünü Özelleştirme](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/3%20-%20Windows%20Sa%C4%9F%20T%C4%B1k%20Men%C3%BCs%C3%BCn%C3%BC%20%C3%96zelle%C5%9Ftirme)
-    - [Windows 10 Gelişmiş](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/4%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F)
-    - [Windows Subsystem for Linux (WSL)](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/5%20-%20Windows%20Subsystem%20for%20Linux)
+    - [🤔 Windows 10 Gelişmiş](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/4%20-%20Windows%2010%20Geli%C5%9Fmi%C5%9F)
+    - [🌇 Windows Subsystem for Linux (WSL)](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/5%20-%20Windows%20Subsystem%20for%20Linux)
     - [👜 Windows Mağazasından İndirilen Uygulamaları Komut ile Çalıştırma](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/6%20-%20Windows%20Ma%C4%9Fazas%C4%B1ndan%20%C4%B0ndirilen%20Uygulamalar%C4%B1%20Komut%20ile%20%C3%87al%C4%B1%C5%9Ft%C4%B1rma)
     - [🧙‍ Windows'da Gizlenmiş GodMode](https://windows.yemreak.com/3%20-%20Windows%2010%20Di%C4%9Fer%20Notlar/7%20-%20Windows%27da%20Gizlenmi%C5%9F%20GodMode)
   - [🟦 Registery Scriptlerim](https://windows.yemreak.com/X%20-%20Registery%20Scriptlerim/)

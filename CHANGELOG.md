@@ -7,6 +7,13 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ## ✨ Güncel
 
+### 🌌 Değişikler
+
+* ✨ Kusurlu isimler düzeltildi, her yerde emojiler koyulmakta. [Yunus Emre]
+
+
+## 2.0 (2019-10-17)
+
 ### 🚀 Yenilikler
 
 * Create SUMMARY.md. [Yunus Emre]
@@ -113,8 +120,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Dosya Kodlanmasını (Encoding) Değiştirme eklendi. [Yunus Emre]
 
 ### 🌌 Değişikler
-
-* ✨ Kusurlu isimler düzeltildi, her yerde emojiler koyulmakta. [Yunus Emre]
 
 * Update README.md. [Yunus Emre]
 
@@ -351,6 +356,13 @@ description: Sitede neler olup bittiğinin raporudur.
 
 
 ## 1.0 (2019-09-10)
+
+### 🗽 Düzeltmeler
+
+* Ufak düzeltmeler yapıldı `v`kaldırıldı. [Yunus Emre]
+
+
+## v1.0 (2019-09-10)
 
 ### 🚀 Yenilikler
 
@@ -1173,8 +1185,6 @@ description: Sitede neler olup bittiğinin raporudur.
 * Xampp kurulumu güncellendi. [YEmreAk]
 
 ### 🗽 Düzeltmeler
-
-* Ufak düzeltmeler yapıldı `v`kaldırıldı. [Yunus Emre]
 
 * Git Tag'ları Kaldırma (Release Aşamasındakiler) [Yunus Emre]
 

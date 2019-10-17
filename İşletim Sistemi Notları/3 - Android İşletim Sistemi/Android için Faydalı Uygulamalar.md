@@ -1,4 +1,4 @@
-# 📱 Android için Faydalı Uygulamalar
+# 📦 Android için Faydalı Uygulamalar
 
 ## Üretkenlik Uygulamaları
 

@@ -110,6 +110,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* Update .gitignore. [Yunus Emre]
+
 * 🎇 Windows 10 Notları yenilendi. [Yunus Emre]
 
 * 🚅 Notların yerleri değiştirildi. [Yunus Emre]

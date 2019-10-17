@@ -1,4 +1,4 @@
-python ../YGitBookIntegration/integrate.py .
+python ../YGitBookIntegration/integrate.py . -d
 echo "---
 description: Sitede neler olup bittiğinin raporudur.
 ---

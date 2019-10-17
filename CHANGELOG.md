@@ -9,6 +9,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🚀 Yenilikler
 
+* Create SUMMARY.md. [Yunus Emre]
+
 * 👨‍💻 VsCode açıklaması eklendi. [Yunus Emre]
 
 * 🎴 Sharex için ek açıklama eklendi. [Yunus Emre]

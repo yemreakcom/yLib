@@ -1,4 +1,4 @@
-# GittiGidiyor Entegrasyon 
+# 💫 GittiGidiyor Entegrasyon
 
 ## API İşlemleri
 
@@ -6,7 +6,7 @@
 - [Başlangıç Diagramı](https://st.gittigidiyor.net/rsrc/devgg/doc/startUpDiagram.png)
 - [Ürün Ekleme Diagramı](https://st.gittigidiyor.net/rsrc/devgg/doc/insertProductDiagram.png)
 - [Ürün Güncelleme Diagramı](https://st.gittigidiyor.net/rsrc/devgg/doc/updateProductDiagram.png)
-  
+
 > Kaynak için [buraya](https://dev.gittigidiyor.com/araclar-dokumanlar) tıklayabilirsin.
 
 ### Diller

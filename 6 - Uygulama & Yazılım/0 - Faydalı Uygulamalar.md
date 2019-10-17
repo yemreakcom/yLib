@@ -1,4 +1,4 @@
-# Faydalı Uygulamalar 
+# ✨ Faydalı Uygulamalar
 
 ## Sık Kullanılan Uygulamalar
 

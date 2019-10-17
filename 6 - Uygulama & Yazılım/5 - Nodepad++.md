@@ -1,4 +1,4 @@
-# Notepad++ 
+# 📑 Notepad++
 
 ## Özelleştirme Ayarları
 

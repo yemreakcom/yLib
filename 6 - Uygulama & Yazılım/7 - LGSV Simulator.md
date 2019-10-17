@@ -1,4 +1,4 @@
-# LGSV Simulator 
+# 🚗 LGSV Simulator
 
 > Bir başka similasyon uygulaması olan Udacity Sim için [buraya](https://github.com/udacity/self-driving-car-sim) bakabilirsin.
 

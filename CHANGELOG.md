@@ -279,6 +279,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 📡 Diğerler
 
+* 🧹 [Yunus Emre]
+
 * Merge branch 'dev' [Yunus Emre]
 
 * 🧪 [Yunus Emre]

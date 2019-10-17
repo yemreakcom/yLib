@@ -1,6 +1,6 @@
-# Discord
+# 🎳 Discord
 
-Sunucu tabanlı 🗣 sohbet platformu 
+Sunucu tabanlı 🗣 sohbet platformu
 
 ## Avantajları
 

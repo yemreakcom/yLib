@@ -1,4 +1,4 @@
-# Jetbrains IDEs 
+# 🥦 Jetbrains IDEs
 
 ## Proje Dizinlerini yapılandırma
 

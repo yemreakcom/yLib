@@ -114,6 +114,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 👷‍♂️ Baştan aşağı yapılandırma. [Yunus Emre]
+
 * 🚅 Notların yerleri değiştirildi. [Yunus Emre]
 
 * Update .gitignore. [Yunus Emre]

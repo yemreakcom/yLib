@@ -110,6 +110,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚅 Notların yerleri değiştirildi. [Yunus Emre]
+
 * 🚅 YWiki'den windows 10 notları windows.yemreak.com'a aktarıldı. [Yunus Emre]
 
 * Update SUMMARY.md. [Yunus Emre]

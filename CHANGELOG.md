@@ -114,6 +114,8 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🌌 Değişikler
 
+* 🚀 Git notları çok daha anlaşılır hale alındı. [Yunus Emre]
+
 * 👷‍♂️ Baştan aşağı yapılandırma. [Yunus Emre]
 
 * 👷‍♂️ Baştan aşağı yapılandırma. [Yunus Emre]

@@ -67,6 +67,4 @@ git config --global --unset credential.helper
 - [Start Using Git | Gitlab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 - [git: 'credential-cache' is not a git command](https://stackoverflow.com/a/11889392/9770490)
 
-## Git Cheat Sheet
 
-![git](../../res/git-cheet-sheet.jpeg)

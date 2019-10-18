@@ -1,4 +1,14 @@
-# ⏩ Git'in Çalışma Mantığı
+
+# 🚶‍ Git Giriş
+
+## ❔ Git Nedir
+
+Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojidir.
+
+- Senkronize çalışmayı ve versiyon yönetimi sağlar
+- Branch yapısı ile geliştirmelerin birbirinden bağımsız ilerlemesine olanak sağlar
+
+> 📢 Git'i detaylıca anlatan [Git ile Versiyon Kontrolü](https://book.git.yemreak.com) kitabını baz alan sayfama bakmanda fayda var
 
 ## 🌆 Git Kullanım Senaryosu
 

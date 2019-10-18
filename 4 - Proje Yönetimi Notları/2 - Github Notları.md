@@ -1,4 +1,4 @@
-# 🐙 Github Notları 
+# 🐙 Github
 
 ## 🗽 Github Nedir, Ne için Kullanılır
 

@@ -1,6 +1,6 @@
 ---
-description: Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojidir. Senkronize çalışmayı ve versiyon yönetimi sağlar.
+description: Versiyon yönetim sistemi olarak tanımlanan Git hakkında notlarım
 ---
 
-# 🧩 Git Notları
+# 🧩 Git
 

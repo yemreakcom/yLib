@@ -4,6 +4,7 @@
 
 - [📖 YWiki](./README.md)
   - [👀 Neler değişti](./CHANGELOG.md)
+  - [💖 Katkıda Bulunma Rehberi](./CONTRIBUTING.md)
   - [🔗 Faydalı Bağlantılar](./0%20-%20Faydal%C4%B1%20Kaynaklar/README.md)
     - [🚀 Awesome](./0%20-%20Faydal%C4%B1%20Kaynaklar/Awesome.md)
     - [🖌 Tasarım Notları](./0%20-%20Faydal%C4%B1%20Kaynaklar/Tasar%C4%B1m%20Notlar%C4%B1.md)

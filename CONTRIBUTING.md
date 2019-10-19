@@ -76,6 +76,8 @@ Giriş cümlesi veya alakalı cümle.
 
 ## ✍ Çalışma Notları
 
+Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.com/1-programlama-notlari/0-genel-notlar/2-markdown) bağlantısından erişebilirsin
+
 - Her şey **dinamik** olmalı
 - Önemli notlar ve başlıklar **bold**
 - Butonlar ve tıklanabilir öğeler <kbd>button</kbd> `<kbd>button</kbd>`

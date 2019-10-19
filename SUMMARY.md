@@ -40,6 +40,7 @@
       - [🌆 JavaFX](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/2%20-%20JavaFX/README.md)
         - [JavaFX ile GUI](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/2%20-%20JavaFX/1%20-%20JavaFX%20Giri%C5%9F.md)
         - [JavaFX 12 Hızlı Notlar](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/2%20-%20JavaFX/2%20-%20JavaFX%2012%20H%C4%B1zl%C4%B1%20Notlar.md)
+      - [⭐ Örnek Java Projeleri](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/X%20-%20Java%20Kar%C4%B1%C5%9F%C4%B1k%20Notlar/%C3%96rnek%20Java%20Projeleri.md)
       - [🌃 Java Karışık Notlar](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/X%20-%20Java%20Kar%C4%B1%C5%9F%C4%B1k%20Notlar/README.md)
         - [GroupLayaouts](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/X%20-%20Java%20Kar%C4%B1%C5%9F%C4%B1k%20Notlar/GroupLayaouts.md)
         - [Java GUI Component Metodları](./1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/X%20-%20Java%20Kar%C4%B1%C5%9F%C4%B1k%20Notlar/Java%20GUI%20Component%20Metodlar%C4%B1.md)

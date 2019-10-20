@@ -6,6 +6,8 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 
 ## 🙋‍ Hoş Geldin
 
+🌍 Bilgi dünyama hoş geldin, burada kaybolmaman için bilmen gerekenler:
+
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Hocaların ve derslerin adları, ders konuları vs. arayabilirsin
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing) alanından projeye katkıda bulunabilirsin

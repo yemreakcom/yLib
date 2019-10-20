@@ -56,7 +56,7 @@ description: Kullandığım emojilerin anlamları
 | 🔍 | arama | sola dönük büyüteç | Arama, mercek, büyüteç |
 | 🔤 | abc | latin alfabesi | Harf, karakter, alfabe |
 | 🧹 | süpürge | süpürge | Temizlik, silme |
-| 🎀 | kurdele | kurdele | ? |
+| 🎀 | kurdele | kurdele | hediye, gift, free |
 | 🚩 | üçgen b | üçgen bayrak | Yol, path |
 | 👨‍🔧 | tamir | erkek tamirci | Tamir, düzeltme, onarma, sorun giderme |
 | 🧰 | tamir | alet çantası | Utility, araçlar, tool |

@@ -2,6 +2,7 @@
 
 * [📖 YWiki](README.md)
 * [👀 Neler Değişti](https://github.com/yedhrab/YWiki/commits/master)
+* [🚀 YEmoji](yemoji.md)
 * [💖 Katkıda Bulunma Rehberi](changelog.md)
 * [👨‍🔬 Kişisel Araştırmalarım](kisisel-arastirmalarim/README.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](kisisel-arastirmalarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)

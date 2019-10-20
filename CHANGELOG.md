@@ -7,7 +7,17 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ## ✨ Güncel
 
+### 🚀 Yenilikler
+
+* ⭐ Örnek Java Projeleri eklendi. [Yunus Emre]
+
+* 📑 Markdown bağlantısı eklendi. [Yunus Emre]
+
+* 💖 Katkıda Bulunma Rehberi eklendi. [Yunus Emre]
+
 ### 🌌 Değişikler
+
+* 💫 Diğer projelerin değişikliliğini aktaran yapı kuruldu. [Yunus Emre]
 
 * 👀 Neler Değişti alanı yenilendi. [Yunus Emre]
 
@@ -15,7 +25,13 @@ description: Sitede neler olup bittiğinin raporudur.
 
 ### 🗽 Düzeltmeler
 
+* 👨‍🔧 Yazım hataları ve kusurlu bağlantılar düzeltildi. [Yunus Emre]
+
 * 🧹 Gereksiz linkler kaldırıldı. [Yunus Emre]
+
+### 📡 Diğerler
+
+* ✨ [Yunus Emre]
 
 
 ## 2.0 (2019-10-17)

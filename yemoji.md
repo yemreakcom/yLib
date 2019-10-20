@@ -4,6 +4,8 @@ description: Kullandığım emojilerin anlamları
 
 # 🚀 YEmoji
 
+### 🎀 Emoji Sözlüğü Kullanımı
+
 | Emoji | Anahtar | Aslı | Kullanım Alanı |
 | :--- | :--- | :--- | :--- |
 | 💫 | yıldız | Baş dönmesi | Döngü, senkronizasyon |
@@ -53,4 +55,14 @@ description: Kullandığım emojilerin anlamları
 | 🎴 | kart | oyun kartı | Resim |
 | 🔍 | arama | sola dönük büyüteç | Arama, mercek, büyüteç |
 | 🔤 | abc | latin alfabesi | Harf, karakter, alfabe |
+| 🧹 | süpürge | süpürge | Temizlik, silme |
+| 🎀 | kurdele | kurdele | ? |
+| 🚩 | üçgen b | üçgen bayrak | Yol, path |
+| 👨‍🔧 | tamir | erkek tamirci | Tamir, düzeltme, onarma, sorun giderme |
+| 🧰 | tamir | alet çantası | Utility, araçlar, tool |
+| 🤔 | düşünen | düşünen yüz | Kararsız kalma, emin olmama, düşündürücü |
+| 🎨 | sanat | boya paleti | Sanat, tasarım, boya |
+| 🏁 | damalı | damalı bayrak | Bitiş, son, final, sonuç |
+| 🎌 | çapraz | çapraz bayraklar | Talimatlar, başlangıç |
+|  |  |  |  |
 

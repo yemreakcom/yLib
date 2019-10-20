@@ -4,7 +4,7 @@ description: Projeye katkı sağlamak isteyenler için bilgilendirme
 
 # 💖 Katkıda Bulunma Rehberi
 
-💡 İçerik Desteğinde Bulunma veya Fikir Belirtme
+## 💡 İçerik Desteğinde Bulunma veya Fikir Belirtme
 
 Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 
@@ -14,22 +14,6 @@ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 > 📌 **Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
 
 {% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
-
-## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
-
-### ⏫ Dosya Yükleme
-
-{% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}
-
-
-
-### ✍ Yazı veya İçerik Düzenleme
-
-{% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" caption="Yazı veya içerik düzenleme" %}
-
-### ✨ Fork'u Güncelleme
-
-{% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" caption="Fork güncelleme" %}
 
 ## 👷‍ Sayfaların Tasarımı ve Notların Tutulma Yapısı
 
@@ -99,4 +83,22 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 * Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
 
 {% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
+
+## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
+
+### ⏫ Dosya Yükleme
+
+{% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}
+
+
+
+### ✍ Yazı veya İçerik Düzenleme
+
+{% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" caption="Yazı veya içerik düzenleme" %}
+
+### ✨ Fork'u Güncelleme
+
+{% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" caption="Fork güncelleme" %}
+
+
 

@@ -31,7 +31,5 @@ Buraya yakında daha detaylı içerikler eklenecektir.
 
 **The** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
 
-![](.gitbook/assets/ysigniture-trans.png)
-
-## 
+![YEmreAk](.gitbook/assets/ysigniture-trans.png)
 

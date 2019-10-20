@@ -4,6 +4,8 @@ description: Kişisel ansiklopedi 📚
 
 # 📖 YWiki
 
+> **Burada artık yenilik YAPILMAYACAKTIR, YWiki üzerinde geliştirmeye devam edilecektir.**
+
 ## 🗽 Hoş Geldin
 
 Sağ üstteki [🔍 Arama Buton](https://wiki.yemreak.com/?q=)'nu kullanmayı asla asla ihmal etme

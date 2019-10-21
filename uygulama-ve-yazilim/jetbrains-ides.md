@@ -1,7 +1,5 @@
 # 🥦 Jetbrains IDEs
 
-
-
 ## Proje Dizinlerini yapılandırma
 
 Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
@@ -154,11 +152,6 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 * [DataGrip](https://www.jetbrains.com/datagrip/)
 
 > Sayfa başındaki işaretçilere yönlenmek için [buraya]() tıklayabilirsin.
-
-## Yapılacaklar
-
-* [x] PyCharm Env Variable
-  * [Link1](https://stackoverflow.com/a/42708476/9770490)
 
 ## Keymap \(Kısayollar\)
 

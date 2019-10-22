@@ -4,18 +4,22 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 
 # 📖 YWiki
 
-## 🙋‍ Hoş Geldin
+## 🙋‍♂️ Hoş Geldin
 
-🌍 Bilgi dünyama hoş geldin, burada kaybolmaman için bilmen gerekenler:
+🤓 Burada kaybolmaman için bilmen gerekenler:
 
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Hocaların ve derslerin adları, ders konuları vs. arayabilirsin
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing) alanından projeye katkıda bulunabilirsin
 * [👀 Neler Değişti](https://github.com/yedhrab/YWiki/commits/master) veya [✨ Commits](https://github.com/yedhrab/IstanbulUniversity-CE/commits/master) alanından değişiklikleri görebilirsin
 
-{% page-ref page="changelog.md" %}
+  {% page-ref page="changelog.md" %}
 
-## ✨ İçerikler
+![YWiki t&#xFC;m i&#xE7;erikler](.gitbook/assets/ywiki.png)
+
+## ✨ Tüm YEmreAk İçerikleri
+
+![YEmreAK t&#xFC;m i&#xE7;erikleri \(her s&#xFC;tun bir web sitesidir\)](.gitbook/assets/yemreak.png)
 
 ## 💖 Destek ve İletişim
 

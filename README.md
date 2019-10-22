@@ -10,10 +10,12 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Hocaların ve derslerin adları, ders konuları vs. arayabilirsin
-* [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing) alanından projeye katkıda bulunabilirsin
-* [👀 Neler Değişti](https://github.com/yedhrab/YWiki/commits/master) veya [✨ Commits](https://github.com/yedhrab/IstanbulUniversity-CE/commits/master) alanından değişiklikleri görebilirsin
+* [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
+* [👀 Neler Değişti](neler-degisti.md) veya [✨ Commits](https://github.com/yedhrab/IstanbulUniversity-CE/commits/master) alanından değişiklikleri görebilirsin
 
-  {% page-ref page="changelog.md" %}
+{% page-ref page="changelog.md" %}
+
+{% page-ref page="neler-degisti.md" %}
 
 ![YWiki t&#xFC;m i&#xE7;erikler](.gitbook/assets/ywiki.png)
 

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [📖 YWiki](README.md)
-* [👀 Neler Değişti](https://github.com/yedhrab/YWiki/commits/master)
+* [👀 Neler Değişti](neler-degisti.md)
 * [🚀 YEmoji](yemoji.md)
 * [💖 Katkıda Bulunma Rehberi](changelog.md)
 * [👨‍🔬 Kişisel Araştırmalarım](kisisel-arastirmalarim/README.md)

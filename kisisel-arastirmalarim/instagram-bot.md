@@ -15,6 +15,8 @@ Botu `pip install yinstabot` komutu ile indirebilirsiniz.
 
 > ✨ [Instabot](https://github.com/instagrambot/instabot) projesinden yararlanılmıştır.
 
+{% embed url="https://github.com/yedhrab/YInstaBot" %}
+
 ## 📑 Botun Kullanımı
 
 Bot, `yinstabot <accounts.json yolu>` komutu ile önceden oluşturulmuş `accounts.json` dosyasının yolunu alarak çalışır.

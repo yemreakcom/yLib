@@ -20,7 +20,7 @@ Kendinden önceki sayıların hiç birine bölünmeyen sayılardır.
 
 ## 💎 Asal Sayılar Neden Bu Kadar Önemli?
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 Asal sayılar ve bunların düzeni çok sık karşılaşılan bir düzendir.
 

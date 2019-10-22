@@ -5,6 +5,7 @@
 * [🚀 YEmoji](yemoji.md)
 * [💖 Katkıda Bulunma Rehberi](changelog.md)
 * [👨‍🔬 Kişisel Araştırmalarım](kisisel-arastirmalarim/README.md)
+  * [🤖 Instagram Bot](kisisel-arastirmalarim/instagram-bot.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](kisisel-arastirmalarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)
   * [📲 Android Telefonlar için Faydalı Uygulamalar](kisisel-arastirmalarim/android-telefonlar-icin-faydali-uygulamalar.md)
   * [📶 Mobil Telefonlar Nasıl Haberleşir](kisisel-arastirmalarim/mobil-telefonlar-nasil-haberlesir.md)

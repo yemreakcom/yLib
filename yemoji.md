@@ -22,7 +22,7 @@ description: Kullandığım emojilerin anlamları
 | 🌆 | manzara | şehirde alacakaranlık | Manzara, tasarım, görsel |
 | 🥴 | sarhoş | sarhoş | Özensiz, karışık, rastgele |
 | 🔩 | vida | vida | Gömülü sistem, sistem |
-| 💡 | ampul | ampul | Açıklama, ipucu, uyarı |
+| 💡 | ampul | ampul | Açıklama, ipucu, uyarı, fikir, aydınlatma |
 | 🎶 | müzik | müzik notaları | Ses, şarkı, müzik |
 | 🔉 | ses | ses açık | Ses dosyaları, `.waw` |
 | 👨‍💼 | yönetici | erkek ofis çalışanı | Yönetim, yönetici, manager |
@@ -64,5 +64,7 @@ description: Kullandığım emojilerin anlamları
 | 🎨 | sanat | boya paleti | Sanat, tasarım, boya |
 | 🏁 | damalı | damalı bayrak | Bitiş, son, final, sonuç |
 | 🎌 | çapraz | çapraz bayraklar | Talimatlar, başlangıç |
-|  |  |  |  |
+| 💖 | kalp | parıldayan kalp | Destek, bağış |
+| 🚀 | roket | roket | Çok güzel, çok yeni, mükemmel |
+| ⌛ | kum | kum saati | Zaman, vakit, süre |
 

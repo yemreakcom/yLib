@@ -11,17 +11,26 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Hocaların ve derslerin adları, ders konuları vs. arayabilirsin
 * [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
-* [👀 Neler Değişti](neler-degisti.md) veya [✨ Commits](https://github.com/yedhrab/IstanbulUniversity-CE/commits/master) alanından değişiklikleri görebilirsin
 
 {% page-ref page="changelog.md" %}
 
-{% page-ref page="neler-degisti.md" %}
+## ✨ Yeni İçerikler
+
+{% page-ref page="kisisel-arastirmalarim/instagram-bot.md" %}
+
+{% page-ref page="yemoji.md" %}
 
 ![YWiki t&#xFC;m i&#xE7;erikler](.gitbook/assets/ywiki.png)
 
 ## ✨ Tüm YEmreAk İçerikleri
 
 ![YEmreAK t&#xFC;m i&#xE7;erikleri \(her s&#xFC;tun bir web sitesidir\)](.gitbook/assets/yemreak.png)
+
+## 🧐 Değişiklere Detaylı Bakın
+
+Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitHub üzerinden bakabilirsin.
+
+{% embed url="https://github.com/yedhrab/YWiki/commits/master" %}
 
 ## 💖 Destek ve İletişim
 

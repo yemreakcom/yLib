@@ -67,4 +67,8 @@ description: Kullandığım emojilerin anlamları
 | 💖 | kalp | parıldayan kalp | Destek, bağış |
 | 🚀 | roket | roket | Çok güzel, çok yeni, mükemmel |
 | ⌛ | kum | kum saati | Zaman, vakit, süre |
+| ✍ | yazı | yazı yazan el | Kişisel yazılar, el yazıları, notlarım |
+| 🤖 | robot | robot | Robot, bot, model |
+| 🤿 | dalgıç | dalgıç | Derin, deep, deer learning |
+| 🤝 | el sık | el sıkışma | Yardım, destek |
 

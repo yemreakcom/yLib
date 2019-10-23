@@ -16,7 +16,7 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 
 ## ✨ Yeni İçerikler
 
-{% page-ref page="kisisel-arastirmalarim/instagram-bot.md" %}
+{% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
 
 {% page-ref page="yemoji.md" %}
 

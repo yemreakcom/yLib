@@ -9,7 +9,7 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 🤓 Burada kaybolmaman için bilmen gerekenler:
 
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
-  * Hocaların ve derslerin adları, ders konuları vs. arayabilirsin
+  * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
 
 {% page-ref page="changelog.md" %}

@@ -13,8 +13,10 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 * [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
 * Tüm emojiler [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji) sözlüğüne uygun olarak seçilmektedir
 
-{% hint style="info" %}
-Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
+> Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
+
+{% hint style="success" %}
+Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.
 {% endhint %}
 
 ## ✨ Yeni İçerikler

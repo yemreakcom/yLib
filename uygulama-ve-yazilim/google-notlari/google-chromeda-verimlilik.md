@@ -47,6 +47,7 @@ Adres çubuğundan bu sayfaya erişebilirsin.
 | [🚀 OneTab Plus](https://chrome.google.com/webstore/detail/onetab-plustab-manage-pro/lepdjbhbkpfenckechpdfohdmkhogojf) | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) | Kullanılmayan sekmeleri uyku moduna alır |
 | [⏪ Youtube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik) | Youtube hız kontrolü |
+| [🔨 Data Scraper - Easy Web Scraping](https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden) | Web sitelerinde tabloları verilerini çekme |
 | [⌨ Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) | İngilizce imla kuralları kontrolü |
 | [💌 Temp Mail](https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj) | Geçici mail oluşturma eklentisi. |
 | [🔐 LastPass](https://www.lastpass.com/) | Şifreleri saklama  uygulaması |

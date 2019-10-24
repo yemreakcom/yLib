@@ -39,7 +39,7 @@ description: Kullandığım emojilerin anlamları
 | 🔏 | kilit | kilit ve kalem | Kilitli, şifreli |
 | 📜 | kağıt | parşömen | Script, kağıt, dosya parçası |
 | ✨ | parıltı | parıltı | yenilik, güzelleştirme, özelleştirme |
-| 👀 | göz | gözler | Merak, bakmak, göz atmak |
+| 👀 | göz | gözler | Merak, bakmak, göz atmak, içerikler |
 | ⛅ | bulut | bulutların ardındaki güneş | Bulut, sunucu |
 | 🌄 | dağ | dağların arasında güneşin doğuşu | ? |
 | 🔱 | üçlü | üçlü çatal işareti | Verimlilik başlığı |
@@ -71,4 +71,9 @@ description: Kullandığım emojilerin anlamları
 | 🤖 | robot | robot | Robot, bot, model |
 | 🤿 | dalgıç | dalgıç | Derin, deep, deer learning |
 | 🤝 | el sık | el sıkışma | Yardım, destek |
+| 🙋‍♂️ | el kaldır | el kaldıran erkek | Karşılama, hoş geldin, selam |
+| 🎤 | mikro | mikrofon | Ön söz, sesleniş |
+| 🧐 | tek cam | tek cam gözlüklü yüz | İnceleme, detaylandırma, detaylı bakmak |
+| 🌍 | dünya | yerkürede Avrupa-Afrika | Tüm içerikler, web sayfaları, internet, web |
+| 🏫 | okul | okul | Okul, üniversite |
 

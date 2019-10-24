@@ -2,7 +2,7 @@
 
 * [📖 YWiki](README.md)
 * [👨‍🏫 YLearn](https://learn.yemreak.com)
-* [🚀 YEmoji](yemoji.md)
+* [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
 * [💖 Katkıda Bulunma Rehberi](changelog.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/README.md)
   * [🤖 Instagram Bot](kisisel-yazilarim/instagram-bot.md)

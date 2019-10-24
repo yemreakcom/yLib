@@ -11,16 +11,19 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
+* Tüm emojiler [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji) sözlüğüne uygun olarak seçilmektedir
 
-{% page-ref page="changelog.md" %}
+{% hint style="info" %}
+Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
+{% endhint %}
 
 ## ✨ Yeni İçerikler
+
+{% page-ref page="changelog.md" %}
 
 {% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}
 
 {% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
-
-{% page-ref page="yemoji.md" %}
 
 ### 🧐 Değişikliklere Detaylı Bakın
 
@@ -33,7 +36,8 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 ![YWiki t&#xFC;m i&#xE7;erikler](.gitbook/assets/ywiki.png)
 
 * [📖 YWiki](./)
-* [🚀 YEmoji](yemoji.md)
+* [👨‍🏫 YLearn](https://learn.yemreak.com/)
+* [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
 * [💖 Katkıda Bulunma Rehberi](changelog.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/)
   * [🤖 Instagram Bot](kisisel-yazilarim/instagram-bot.md)

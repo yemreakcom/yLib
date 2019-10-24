@@ -16,6 +16,8 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}
+
 {% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
 
 {% page-ref page="yemoji.md" %}

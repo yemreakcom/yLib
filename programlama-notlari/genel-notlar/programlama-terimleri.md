@@ -17,7 +17,7 @@ description: "Burası henüz yapım aşamasındadır \U0001F9EA‌"
 
 📉 Katmanlarda aşağıya doğru inildikçe karmaşıklık artar
 
-{% hint style="info" %}
+{% hint style="success" %}
 Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 {% endhint %}
 
@@ -28,6 +28,10 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
 | Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
 | Hardware | Donanım katmanıdır |
+
+![](../../.gitbook/assets/image%20%2857%29.png)
+
+> [What's the difference between hardware, firmware, and software?](https://www.quora.com/Whats-the-difference-between-hardware-firmware-and-software)
 
 ## 🏦 Yazılımda kullanılan terimler <a id="yazilimda-kullanilan-terimler"></a>
 

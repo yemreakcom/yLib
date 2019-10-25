@@ -8,7 +8,7 @@ description: >-
 
 ## Natro için Domain Yönetimi
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
@@ -18,13 +18,13 @@ description: >-
 
 Domain yönetimi alanına [Natro için Domain Yönetimi]() yönergeleri takip ederek gelin
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 ## Natro için TXT Kayıtları
 
 Domain yönetimi alanına [Natro için Domain Yönetimi]() yönergeleri takip ederek gelin
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 

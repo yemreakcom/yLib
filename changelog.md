@@ -11,7 +11,11 @@ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 * Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YWiki/issues) açabilirsin
 * **Yapıcı** eleştirileriniz veya fikirleriniz varsa sağ üst köşedeki  **🏹 Edit on GitHub** alanından fikirlerinizi belirtebilirsiniz
 
-> 📌 **Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
+> GitHub üzerinden [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) sayfasına da bakabilirsin.
+
+{% hint style="warning" %}
+**Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
+{% endhint %}
 
 {% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
 

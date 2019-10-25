@@ -21,7 +21,7 @@
     * [🤓 Programlama Terimleri](programlama-notlari/genel-notlar/programlama-terimleri.md)
     * [📈 Verimli Programlama](programlama-notlari/genel-notlar/verimli-programlama.md)
   * [🤝 Yardımcı Diller](programlama-notlari/yardimci-diller/README.md)
-    * [�� Markdown](programlama-notlari/yardimci-diller/markdown.md)
+    * [📑 Markdown](programlama-notlari/yardimci-diller/markdown.md)
     * [💎 Regex](programlama-notlari/yardimci-diller/regex.md)
     * [👨‍💻 Shell Script](programlama-notlari/yardimci-diller/shell-script.md)
     * [👩‍💻 Batch Script](programlama-notlari/yardimci-diller/batch-script.md)

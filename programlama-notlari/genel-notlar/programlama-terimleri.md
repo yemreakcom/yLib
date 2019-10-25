@@ -13,6 +13,22 @@ description: "Burası henüz yapım aşamasındadır \U0001F9EA‌"
 | API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
 | Singleton | Tek seferlik tanımlanabilen uygulama türü |
 
+## 🏰 Katmanlar <a id="yazilimda-kullanilan-terimler"></a>
+
+📉 Katmanlarda aşağıya doğru inildikçe karmaşıklık artar
+
+{% hint style="info" %}
+Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
+{% endhint %}
+
+| Katman | Açıklama |
+| :--- | :--- |
+| Software | Yazılım katmanıdır, son kullanıcının gördüğü |
+| Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
+| Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
+| Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
+| Hardware | Donanım katmanıdır |
+
 ## 🏦 Yazılımda kullanılan terimler <a id="yazilimda-kullanilan-terimler"></a>
 
 | Kavram | Türkçe Karşılığı | Ek Açıklama |

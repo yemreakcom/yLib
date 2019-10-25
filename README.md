@@ -21,6 +21,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="uygulama-ve-yazilim/vscode/vscode-eklentileri.md" %}
+
 {% page-ref page="programlama-notlari/genel-notlar/" %}
 
 {% page-ref page="changelog.md" %}

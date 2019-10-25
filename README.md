@@ -21,6 +21,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="programlama-notlari/genel-notlar/programlama-terimleri.md" %}
+
 {% page-ref page="changelog.md" %}
 
 {% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}

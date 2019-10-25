@@ -16,7 +16,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [⏱ WakaTime](https://marketplace.visualstudio.com/items?itemName=WakaTime.vscode-wakatime) | Kodlama başında geçen vakti raporlar |
 | [🌙 DarkCode Theme](https://marketplace.visualstudio.com/items?itemName=yedhrab.darkcode-theme-adopted-python-and-markdown) | Python ve Markdown odaklı karanlık tema |
 | [📂 Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) | Dosya ikon teması |
-| [✨ Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) | Parantezleri karışmasın diye renklendirir |
+| [✨ Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | Parantezleri karışmasın diye renklendirir |
 | [🍁 gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) | Gitignore dosyasını otomatik oluşturur |
 
 ### ❔ Duruma Göre İhtiyaç Duyulabilecek Eklentiler

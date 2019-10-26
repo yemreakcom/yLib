@@ -33,7 +33,7 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 {% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
 
-### 🧐 Değişikliklere Detaylı Bakın
+## 🧐 Değişikliklere Detaylı Bakın
 
 Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitHub üzerinden bakabilirsin.
 

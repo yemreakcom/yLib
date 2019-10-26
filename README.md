@@ -21,6 +21,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="proje-yoenetimi/gitbook/" %}
+
 {% page-ref page="uygulama-ve-yazilim/vscode/vscode-eklentileri.md" %}
 
 {% page-ref page="programlama-notlari/genel-notlar/" %}
@@ -133,7 +135,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
     * [🤸‍ Git Cheat Sheet](proje-yoenetimi/git/git-cheat-sheet.md)
     * [📕 Git Kitabı](https://book.git.yemreak.com)
   * [🐙 Github](proje-yoenetimi/github.md)
-  * [📖 GitBook](proje-yoenetimi/gitbook.md)
+  * [📖 GitBook](proje-yoenetimi/gitbook/)
 * [💻 İşletim Sistemi Notları](isletim-sistemi-notlari/)
   * [🎇 Windows 10 Notları](isletim-sistemi-notlari/windows-10-notlari.md)
   * [🐧 Linux Notları](isletim-sistemi-notlari/linux-notlari/)

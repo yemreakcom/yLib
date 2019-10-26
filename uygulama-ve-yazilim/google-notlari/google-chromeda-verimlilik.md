@@ -48,11 +48,13 @@ Adres çubuğundan bu sayfaya erişebilirsin.
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) | Kullanılmayan sekmeleri uyku moduna alır |
 | [⏪ Youtube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik) | Youtube hız kontrolü |
 | [🔨 Data Scraper - Easy Web Scraping](https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden) | Web sitelerinde tabloları verilerini çekme |
+| [👁‍🗨 Night Eye - Dark Mode](https://chrome.google.com/webstore/detail/night-eye-dark-mode-on-an/alncdjedloppbablonallfbkeiknmkdi) | Tüm siteler için karanlık tema |
 | [⌨ Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen) | İngilizce imla kuralları kontrolü |
 | [💌 Temp Mail](https://chrome.google.com/webstore/detail/temp-mail-disposable-temp/inojafojbhdpnehkhhfjalgjjobnhomj) | Geçici mail oluşturma eklentisi. |
 | [🔐 LastPass](https://www.lastpass.com/) | Şifreleri saklama  uygulaması |
 | 🎴[ Fatkun Batch Download Image](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf?hl=en) | Resimleri toplu olarak indirme eklentisi |
 | [✔ Tick Tick](https://ticktick.com/) | Todo Yönetimi \(Kanban vs\) |
+| [🏹 Seperate Window](https://chrome.google.com/webstore/detail/separate-window/cbgkkbaghihhnaeabfcmmglhnfkfnpon?hl=en) | Pencereleri popup olarak açma |
 
 ### ✨ Görsellik Eklentileri
 
@@ -85,6 +87,7 @@ Adres çubuğundan bu sayfaya erişebilirsin.
 
 | Eklenti | Açıklama |
 | :--- | :--- |
+| [Alexa](https://www.alexa.com/) | Web site analizi |
 | [VStat](https://chrome.google.com/webstore/detail/vstat-visit-statistics-an/bohliiapbjnbphkefjiakajaimlleoma) | Site ziyaret bilgileri |
 | [SEOquake](https://chrome.google.com/webstore/detail/seoquake/akdgnmcogleenhbclghghlkkdndkjdjc?hl=en) | Seo analizi |
 | [SimilarWeb](https://chrome.google.com/webstore/detail/similarweb-traffic-rank-w/hoklmmgfnpapgjgcpechhaamimifchmp?hl=en) | Websitesi analizi |

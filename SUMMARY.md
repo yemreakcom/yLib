@@ -89,6 +89,7 @@
     * [🌳 Git ile Branch İşlemleri](proje-yoenetimi/git/git-ile-branch-islemleri.md)
     * [📂 Git Submodules](proje-yoenetimi/git/git-submodules.md)
     * [🎳 IDE üzerinden Git Kullanımı](proje-yoenetimi/git/ide-uezerinden-git-kullanimi.md)
+    * [⚓ Git Hook](proje-yoenetimi/git/git-hook.md)
     * [🤸‍ Git Cheat Sheet](proje-yoenetimi/git/git-cheat-sheet.md)
     * [📕 Git Kitabı](https://book.git.yemreak.com)
   * [🐙 Github](proje-yoenetimi/github.md)

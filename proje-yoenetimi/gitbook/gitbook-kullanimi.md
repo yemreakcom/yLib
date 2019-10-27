@@ -21,6 +21,13 @@ GitBook, GitHub'a göre daha görsel arayüz sağladığından, doküman oluştu
 GitBook'un [📖 Markdown](https://docs.gitbook.com/content-editing/markdown) dokümanına bakmanda fayda var.
 {% endhint %}
 
+## 📈 Verimli Kullanım
+
+GitBook arama motorunu verimli kullanmak için:
+
+* Arama işlemleri başlıklara ve onların altındaki paragraflarda yapılmakta
+* Aranacak kelimeleri başlıkta veya başlık içindeki paragrafta bulundurman lazım
+
 ## 📺 Video Anlatımlar
 
 ### 🅱 Kalın, italik veya kod formatında yazma

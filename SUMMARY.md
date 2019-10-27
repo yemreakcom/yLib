@@ -93,7 +93,7 @@
     * [🤸‍ Git Cheat Sheet](proje-yoenetimi/git/git-cheat-sheet.md)
     * [📕 Git Kitabı](https://book.git.yemreak.com)
   * [🐙 Github](proje-yoenetimi/github/README.md)
-    * [👣 GitHub Giriş](proje-yoenetimi/github/github-giris.md)
+    * [🔰 GitHub Giriş](proje-yoenetimi/github/github-giris.md)
     * [👨‍💼 GitHub ile Proje Yönetimi](proje-yoenetimi/github/github-ile-proje-yoenetimi.md)
     * [🌍 GitHub Web](proje-yoenetimi/github/github-web.md)
     * [🎲 Diğer GitHub Notları](proje-yoenetimi/github/diger-github-notlari.md)

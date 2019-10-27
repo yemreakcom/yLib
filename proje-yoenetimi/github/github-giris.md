@@ -2,7 +2,7 @@
 description: GitHub'un ne olduğuna kısaca bir bakış
 ---
 
-# 👣 GitHub Giriş
+# 🔰 GitHub Giriş
 
 ## ❔ Nedir, Ne için Kullanılır
 

@@ -4,6 +4,16 @@ description: Web üzerinden GitHub kullanımı
 
 # 🌍 GitHub Web
 
+## ❔ Neden Web Ortamında İşlem Yapayım
+
+* Web ortamında projeleri **clone**'lama işlemlerine gerek kalmaz
+* Projeler **fork** edilir ki bu süreç çok hızlıdır.
+* Fork edilen projeleri indirmezsin, uzaktan kontrol edersin
+
+{% hint style="success" %}
+Özellikle **yüksek boyutlu veya hızlıca düzenleme** yapmak istediğin projelerde faydalı olur.
+{% endhint %}
+
 ## ⏫ Dosya Yükleme
 
 {% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}

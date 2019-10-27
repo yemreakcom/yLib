@@ -90,19 +90,12 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 
 ## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
 
-### ⏫ Dosya Yükleme
+GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerinden katkıda bulunabilirsin.
 
-{% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}
+* Katkı sağlama işlemi GitHub hesabı gerektirir.
+* Güncel bilgiler için [🌍 GitHub Web](proje-yoenetimi/github/github-web.md) yazıma bakabilirsin
 
-
-
-### ✍ Yazı veya İçerik Düzenleme
-
-{% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" caption="Yazı veya içerik düzenleme" %}
-
-### ✨ Fork'u Güncelleme
-
-{% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" caption="Fork güncelleme" %}
+{% page-ref page="proje-yoenetimi/github/github-web.md" %}
 
 
 

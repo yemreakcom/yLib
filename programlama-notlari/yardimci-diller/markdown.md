@@ -54,6 +54,12 @@ Link işlemleri için bilgiler.
 
 > Kaynak için [buraya](https://css-tricks.com/snippets/html/mailto-links/) tıklayabilirsin
 
+### ⭐ Başlık Linkleri Oluşturma
+
+> `<a name="link_ismi"></a>` ile başlıklarına `#` ön eki ile erişebileceğin bağlantılar oluşturabilirsin.
+
+> [Cross-reference \(named anchor\) in markdown](https://stackoverflow.com/a/7335259/9770490)
+
 ### 🔪 Satır içi Bağlantı \(Inline Link\)
 
 `[metin](url)` yapısı ile metne _inline link_ verebilirsin. [Test](https://yemreak.com)

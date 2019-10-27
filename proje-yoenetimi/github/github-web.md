@@ -16,19 +16,27 @@ description: Web üzerinden GitHub kullanımı
 
 ## ⏫ Dosya Yükleme
 
+GitHub üzerine dosya yükleme işlemi videosu:
+
 {% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}
 
 
 
 ## ✍ Yazı veya İçerik Düzenleme
 
+GitHub üzerinde içerik düzenleme:
+
 {% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" caption="Yazı veya içerik düzenleme" %}
 
 ## ✨ Fork'u Güncelleme
 
+GitHub üzerinde fork güncelleme işlemi
+
 {% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" caption="Fork güncelleme" %}
 
 ## 📂 Klasör Oluşturma
+
+GitHub üzerinde klasör veya dizin oluşturmak için:
 
 * `Create New File` butonuna tıklayın
 * Resimdeki alana `/` koyma durumunuzda klasör açılır

@@ -21,11 +21,13 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="proje-yoenetimi/github/" %}
+
+{% page-ref page="proje-yoenetimi/gitbook/" %}
+
 {% page-ref page="proje-yoenetimi/git/" %}
 
 {% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
-
-{% page-ref page="proje-yoenetimi/gitbook/" %}
 
 {% page-ref page="uygulama-ve-yazilim/vscode/vscode-eklentileri.md" %}
 

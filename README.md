@@ -21,6 +21,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
+
 {% page-ref page="programlama-notlari/genel-notlar/programlamada-oenemli-hususlar.md" %}
 
 {% page-ref page="proje-yoenetimi/github/" %}
@@ -38,8 +40,6 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 {% page-ref page="changelog.md" %}
 
 {% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}
-
-{% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
 
 ## 🧐 Değişikliklere Detaylı Bakın
 

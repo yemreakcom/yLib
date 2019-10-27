@@ -28,13 +28,13 @@
 * Dikey İnceleme için hayali yatay çizgiler çiziyoruz
 * Aynı çizgide olanlar paralel, farklı çizgilerde olanlar seridir.
 
-![Layout &#xF6;rne&#x11F;i](../../../.gitbook/assets/image%20%2828%29.png)
+![Layout &#xF6;rne&#x11F;i](../../../.gitbook/assets/image%20%2829%29.png)
 
 ## Basit Bir Örnek
 
 Alt taraftaki gibi bir çıktı almak istediğimiz zaman, adım adım yatay ve dikey olarak inceleme yapmamız gerekmekte; \(gl = GroupLayout, b1 = buton1, b2 = buton2
 
-![Temel layout yap&#x131;s&#x131;](../../../.gitbook/assets/image%20%2834%29.png)
+![Temel layout yap&#x131;s&#x131;](../../../.gitbook/assets/image%20%2836%29.png)
 
 ### Yatay Olarak İncelersek
 
@@ -64,13 +64,13 @@ gl.setVerticalGroup(
 
 ### Detaylı Resim İle Açıklama
 
-![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2860%29.png)
+![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2862%29.png)
 
 ## Biraz Daha Zor Bir Örnek
 
 Alt taraftaki gibi bir çıktı almak istediğimiz zaman, adım adım yatay ve dikey olarak inceleme yapmamız gerekmekte; \(gl = GroupLayout, b1 = buton1, b2 = buton2\)
 
-![Bo&#x15F;luklu tasar&#x131;m](../../../.gitbook/assets/image%20%2838%29.png)
+![Bo&#x15F;luklu tasar&#x131;m](../../../.gitbook/assets/image%20%2840%29.png)
 
 ### Örneği Yatay Olarak İncelersek
 
@@ -106,11 +106,11 @@ gl.setVerticalGroup(
 
 ### Ek Örnek Daha
 
-![Resim &#xFC;zerinde birden fazla bo&#x15F;luklu &#xF6;rnek](../../../.gitbook/assets/image%20%2821%29.png)
+![Resim &#xFC;zerinde birden fazla bo&#x15F;luklu &#xF6;rnek](../../../.gitbook/assets/image%20%2822%29.png)
 
 ## Karmaşık Bir Örnek
 
-![Karma&#x15F;&#x131;k bir &#xF6;rnek](../../../.gitbook/assets/image%20%2818%29.png)
+![Karma&#x15F;&#x131;k bir &#xF6;rnek](../../../.gitbook/assets/image%20%2819%29.png)
 
 ### Yatay Olarak İncelersek \(Kırmızı Çizgiler\)
 
@@ -140,11 +140,11 @@ gl.setVerticalGroup(
 
 ### Sonuç Resmi
 
-![Karma&#x15F;&#x131;k &#xF6;rnek sonucu](../../../.gitbook/assets/image%20%2851%29.png)
+![Karma&#x15F;&#x131;k &#xF6;rnek sonucu](../../../.gitbook/assets/image%20%2853%29.png)
 
 ### Hızlı Örnekler
 
-![H&#x131;zlaca bir &#xF6;rnek](../../../.gitbook/assets/image%20%2852%29.png)
+![H&#x131;zlaca bir &#xF6;rnek](../../../.gitbook/assets/image%20%2854%29.png)
 
 **Yatay Olarak İncelersek:**
 
@@ -169,5 +169,5 @@ gl.setVerticalGroup(
 * 4, 3 paralel
 * 1, 2, \(4, 3\), 5 seri
 
-![3. zor &#xF6;rnek](../../../.gitbook/assets/image%20%2837%29.png)
+![3. zor &#xF6;rnek](../../../.gitbook/assets/image%20%2839%29.png)
 

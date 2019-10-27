@@ -138,7 +138,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
     * [🎳 IDE üzerinden Git Kullanımı](proje-yoenetimi/git/ide-uezerinden-git-kullanimi.md)
     * [🤸‍ Git Cheat Sheet](proje-yoenetimi/git/git-cheat-sheet.md)
     * [📕 Git Kitabı](https://book.git.yemreak.com)
-  * [🐙 Github](proje-yoenetimi/github.md)
+  * [🐙 Github](proje-yoenetimi/github/)
   * [📖 GitBook](proje-yoenetimi/gitbook/)
 * [💻 İşletim Sistemi Notları](isletim-sistemi-notlari/)
   * [🎇 Windows 10 Notları](isletim-sistemi-notlari/windows-10-notlari.md)

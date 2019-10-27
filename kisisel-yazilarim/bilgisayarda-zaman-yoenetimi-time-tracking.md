@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2858%29.png)
+![Pendulums](../.gitbook/assets/image%20%2860%29.png)
 
 ### 📦 Diğerleri
 

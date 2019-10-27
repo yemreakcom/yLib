@@ -21,6 +21,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="programlama-notlari/genel-notlar/programlamada-oenemli-hususlar.md" %}
+
 {% page-ref page="proje-yoenetimi/github/" %}
 
 {% page-ref page="proje-yoenetimi/gitbook/" %}

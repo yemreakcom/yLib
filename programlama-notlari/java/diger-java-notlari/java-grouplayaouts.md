@@ -64,7 +64,7 @@ gl.setVerticalGroup(
 
 ### Detaylı Resim İle Açıklama
 
-![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2862%29.png)
+![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2864%29.png)
 
 ## Biraz Daha Zor Bir Örnek
 
@@ -140,11 +140,11 @@ gl.setVerticalGroup(
 
 ### Sonuç Resmi
 
-![Karma&#x15F;&#x131;k &#xF6;rnek sonucu](../../../.gitbook/assets/image%20%2853%29.png)
+![Karma&#x15F;&#x131;k &#xF6;rnek sonucu](../../../.gitbook/assets/image%20%2854%29.png)
 
 ### Hızlı Örnekler
 
-![H&#x131;zlaca bir &#xF6;rnek](../../../.gitbook/assets/image%20%2854%29.png)
+![H&#x131;zlaca bir &#xF6;rnek](../../../.gitbook/assets/image%20%2855%29.png)
 
 **Yatay Olarak İncelersek:**
 

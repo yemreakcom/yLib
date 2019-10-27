@@ -54,7 +54,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 
 > Şekillendirilebilir. `hasNextInt()` bir sonraki satırda `int` olup olmadığını kontrol eder ve sonuca göre `true` / `false` döndürür.
 
-![hasnext](../../../.gitbook/assets/image%20%2864%29.png)
+![hasnext](../../../.gitbook/assets/image%20%2866%29.png)
 
 
 
@@ -66,7 +66,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 * Normalde `next` metodu whitespace karakterine geldiğinde veri almayı kesmektedir.
 * Bu metotdan sonra `next` metodu **parametreye** denk geldiğinde veri almayı kesmiş olacak.
 
-![usedelimeter](../../../.gitbook/assets/image%20%2870%29.png)
+![usedelimeter](../../../.gitbook/assets/image%20%2872%29.png)
 
 
 
@@ -79,7 +79,7 @@ Scanner tipinde tanımlanmış olan değişkenin sınırlayıcısını döndür�
 
 > `"\p{javaWhitespace}+"` deyimi Java whitespace olarak aşağıda tanımlanmıştır.
 
-![delimeter](../../../.gitbook/assets/image%20%2875%29.png)
+![delimeter](../../../.gitbook/assets/image%20%2877%29.png)
 
 ### `close` Metodu
 

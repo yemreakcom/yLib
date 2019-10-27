@@ -40,5 +40,5 @@ Yazdırılacak olan **string** değeri için **20 karakterlik** bir alan ayırı
 
 Önceki kullanım ile aynı şekilde 20 karakterlik bir alan ayırmakta lakin bu sefer çıktı, ayrılan alanın **soluna dayalı** şekilde yazılmakta.
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2865%29.png)
 

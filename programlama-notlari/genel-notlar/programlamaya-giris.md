@@ -12,7 +12,7 @@ Programlama için faydalı olan [📕 Programlama Kitapçığı](https://asmaami
 
 ## 🌊 Diller Arasındaki Bağlantı
 
-![Diller aras&#x131;ndaki ba&#x11F;lant&#x131;](../../.gitbook/assets/image%20%2861%29.png)
+![Diller aras&#x131;ndaki ba&#x11F;lant&#x131;](../../.gitbook/assets/image%20%2863%29.png)
 
 ### 🆔 Adlandırma Yapısı
 

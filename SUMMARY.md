@@ -155,6 +155,4 @@
   * [🧺 Çamaşır Makinesi](gunluk-hayat-notlari/camasir-makinesi.md)
   * [🤝 İŞKUR](gunluk-hayat-notlari/iskur.md)
 * [🌄 Düzensiz Notlar](duzensiz-notlar.md)
-* [🔍 Kişisel Araştırmalar](kisisel-arastirmalar/README.md)
-  * [🛫 Polonya'da Erasmus](kisisel-arastirmalar/polonyada-erasmus.md)
 

@@ -658,6 +658,29 @@ $button[0].dispatchEvent(e);
 </script>
 ```
 
+## HTML Elemanının İçeriğini Yazdırma
+
+```javascript
+function print(elem) {
+    var mywindow = window.open('', 'PRINT', 'height=400,width=600');
+
+    mywindow.document.write('<html><head><title>' + document.title  + '</title>');
+    mywindow.document.write('</head><body >');
+    mywindow.document.write('<h1>' + document.title  + '</h1>');
+    mywindow.document.write(elem.innerHTML);
+    mywindow.document.write('</body></html>');
+
+    mywindow.document.close(); // necessary for IE >= 10
+    mywindow.focus(); // necessary for IE >= 10*/
+	mywindow.print()
+}
+
+elem = $("div.page-inner")[0]
+print(elem)
+```
+
+> [Print content of div](https://stackoverflow.com/a/2255438/9770490)
+
 ## VsCode Eklentileri
 
 | Eklenti | Açıklama |

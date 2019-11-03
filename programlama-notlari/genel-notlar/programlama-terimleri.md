@@ -52,6 +52,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | Slider | Kayan Afiş | ​ |
 | Namespace | İsim alanı | Aynı amaca hizmet eden özellikleri, sınıfları ve fonksiyonları aynı çatı altında toplama |
 | Wild Card | ​ | `..` `.` `*` gibi terimleri içeren metne verilen isim |
+| Hook | Kanca | Eylemler çalıştıklarında tetiklenen işlemler \(her tıklandığında yapılan eylem için onClick\(\) kullanılır\) |
 
 ## 🔂 Değişken Terimleri <a id="degisken-terimleri"></a>
 

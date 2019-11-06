@@ -32,7 +32,15 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
 * [Octodex](https://octodex.github.com/)
 * Detaylı bilgiler ve sık sorulan sorular için de [buraya](https://help.github.com/en/categories/teaching-and-learning-with-github-education) bakabilirsin.
 
-> Diğer avantajlar için [github student pack](https://education.github.com/pack) sayfasına bakabilirsin.
+## 👜 GitHub Student Pack
+
+Avantajlar için [GitHub Student Pack](https://education.github.com/pack) sayfasına bakabilirsin.
+
+* GitHub'ın derlediği, öğrenciler için ücretsiz veya indirimli hizmet veren sitelerdir
+
+{% hint style="success" %}
+Oldukça faydalı olan bu sitelere bakmanız tavsiye edilir
+{% endhint %}
 
 ## 💻 GitHub Desktop
 

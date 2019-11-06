@@ -36,5 +36,9 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 "Sadece bunları bilmen yeter." diye bir durum söz konusu değil 😁
 {% endhint %}
 
+## 🔗 Ek bağlantılar
+
+{% page-ref page="../../proje-yoenetimi/github/github-giris.md" %}
+
 
 

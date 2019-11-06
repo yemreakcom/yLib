@@ -18,7 +18,13 @@ Kod camiasının sosyal medyası olarak da geçen github, 👩‍💻 kod 👨�
   * `[![app](res/app.gif)](res/app.mp4)`
 * Alternatifleri: Gitlab, Bitbucket, Sourceforge ...
 
-> Bu konuyla **birebir alakalı** olan [git notlarıma](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/Git%20Notları.md) bakmanda fayda var.
+{% hint style="info" %}
+GitHub **git** yapısıyla yönetilmekte, **markdown** formatıyla dokümanlar hazırlanmaktadır.
+{% endhint %}
+
+{% page-ref page="../git/" %}
+
+{% page-ref page="../../programlama-notlari/yardimci-diller/markdown.md" %}
 
 ## 🌟 GitHub Pro
 

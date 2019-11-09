@@ -11,7 +11,7 @@ description: "Kişisel ansiklopedi \U0001F4DA"
 * **Sağ üstteki** [**🔍 Arama Buton**](https://iuce.yemreak.com/?q=) **'unu kullanmayı asla ama asla ihmal etme**
   * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
-* [💖 Katkıda Bulunma Rehberi](changelog.md) alanından projeye katkıda bulunabilirsin
+* [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
 * Tüm emojiler [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji) sözlüğüne uygun olarak seçilmektedir
 
 > Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
@@ -38,7 +38,7 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 {% page-ref page="programlama-notlari/genel-notlar/" %}
 
-{% page-ref page="changelog.md" %}
+{% page-ref page="contributing.md" %}
 
 {% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}
 
@@ -55,7 +55,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 * [📖 YWiki](./)
 * [👨‍🏫 YLearn](https://learn.yemreak.com)
 * [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
-* [💖 Katkıda Bulunma Rehberi](changelog.md)
+* [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/)
   * [🤖 Instagram Bot](kisisel-yazilarim/instagram-bot.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](kisisel-yazilarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)
@@ -222,7 +222,9 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 
 ## 🔏 Lisans
 
-**The** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
+**Th**
 
 ![YEmreAk](.gitbook/assets/ysigniture-trans.png)
+
+**e** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
 

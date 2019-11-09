@@ -3,7 +3,7 @@
 * [📖 YWiki](README.md)
 * [👨‍🏫 YLearn](https://learn.yemreak.com)
 * [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
-* [💖 Katkıda Bulunma Rehberi](changelog.md)
+* [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/README.md)
   * [🤖 Instagram Bot](kisisel-yazilarim/instagram-bot.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](kisisel-yazilarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)

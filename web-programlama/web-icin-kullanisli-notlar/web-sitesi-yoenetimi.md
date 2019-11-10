@@ -11,8 +11,10 @@ CNAME kayıtları ile halledilen bir işlemdir
 * Domaininiz bağlamak istediğiniz siteye girin ve oradaki yönergeleri takip ederek, hosting \(sunucu\) urli alın.
 * Domaini satın aldığınız siteye giriş yapın ve **DNS Hizmeti ve Yönetimi** alanına girin
 * **CNAME Kayıtları** altında:
-  * `Alt alan adı` olarak belirtilen yere _subdomain_'i yazın \(örn: wiki.yemreak.com\)
+  * `Alt alan adı` olarak belirtilen yere _subdomain_''i yazın \(örn: wiki.yemreak.com\)
   * `Sunucu` alanına size verilen bağlantıyı kopyalayın. \(örn: hosting.github.com\)
+
+{% page-ref page="natro-hosting.md" %}
 
 ## 🔍 Google Search Console ile Arama Motoru Yönetimi
 
@@ -21,7 +23,7 @@ CNAME kayıtları ile halledilen bir işlemdir
 * Domaini satın aldığınız siteye giriş yapın ve **DNS Hizmeti ve Yönetimi** alanına girin
 * **TXT Kayıtları** altında:
   * `Key` alanını boş bırakın
-  * `Value` alanına google'ın size verdiği metni kopyalayın. 
+  * `Value` alanına Google'ın size verdiği metni kopyalayın. 
     * \(örn: `google-site-verification=********************************`\)
 * Çıkan arayüzde arama alanına URL'lerinizi yazın, indekslenmeyen URL için talepte bulunun
 
@@ -42,5 +44,5 @@ Admin - Property - Filter - Add Filter alanından aşağıdaki özelliklere sahi
 * Filter Type: Custom
 * Include
 * Pattern `\.domain\.com` \(örn: `\.yemreak\.com`\) yazın
-* Filter Verification alannından kontrol edip kaydedin.
+* Filter Verification alanından kontrol edip kaydedin.
 

@@ -5,6 +5,7 @@
 * [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/README.md)
+  * [💸 Ücretsiz Avantajlar](kisisel-yazilarim/uecretsiz-avantajlar.md)
   * [🤖 Instagram Bot](kisisel-yazilarim/instagram-bot.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](kisisel-yazilarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)
   * [📲 Android Telefonlar için Faydalı Uygulamalar](kisisel-yazilarim/android-telefonlar-icin-faydali-uygulamalar.md)

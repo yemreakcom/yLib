@@ -22,6 +22,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="kisisel-yazilarim/uecretsiz-avantajlar.md" %}
+
 {% page-ref page="uygulama-ve-yazilim/onenote.md" %}
 
 {% page-ref page="kisisel-yazilarim/instagram-bot.md" %}

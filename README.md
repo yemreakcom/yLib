@@ -230,9 +230,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 
 ## 🔏 Lisans
 
-**Th**
+**The** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
 
 ![YEmreAk](.gitbook/assets/ysigniture-trans.png)
-
-**e** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
 

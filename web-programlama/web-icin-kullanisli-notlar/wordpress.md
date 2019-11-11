@@ -4,33 +4,33 @@ description: Açık kaynaklı php dilinde yazılmış web içerik yöneticisi ya
 
 # 🧇 Wordpress
 
-## Localhost Üzerinde Wordpress
+## 🏠 Localhost Üzerinde Wordpress
 
-### XAMPP Kurulumu
+### ⏬ XAMPP Kurulumu
 
-XAMPP kurulum yönergeleri için alttak işletim sistemlerine tıklayabilirsin:
+XAMPP kurulum yönergeleri için alttaki işletim sistemlerine tıklayabilirsin:
 
 * [Linux](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/1%20-%20Programlama%20Notları/5%20-%20Web%20Programlama/İşletim%20Sistemi%20Notları/Linux%20Notları.md#xampp-kurulumu)
 * [Windows & MacOS](https://www.apachefriends.org/download.html)
 
-### PHPMyAdmin Database Oluşturma
+### ✨ PHPMyAdmin Database Oluşturma
 
 Wordpress kurulumu için veritabanı gerekmektedir.
 
-* XAMPP üzerinden _MySql_, _Apache_ sunucuları çalıştırın
+* XAMPP üzerinden _MySQL_, _Apache_ sunucuları çalıştırın
 * [Yerel sunucu sayfası](http://localhost/phpmyadmin/) olan `localhost/phpmyadmin` sayfasına girin
 * Sol üst kısımdan `New` bağlantısına ya da [buraya](http://localhost/phpmyadmin/server_databases.php?server=1) tıklayın
 * Database ismi ve karakter formatı belirleyin
   * Örn: `yemreak` `utf8_general_ci`
 * İstediğiniz şekilde tablo ve sütunlar ekleyebilirsiniz
 
-### Wordpress Dosyalarının İndirilmesi ve Hazırlanması
+### 🚧 Wordpress Dosyalarının İndirilmesi ve Hazırlanması
 
 _Wordpress_ dosyalarını indirmek için [buraya](https://wordpress.org/download/) tıklayabilirsiniz.
 
-* Indirelen dosyaları çıkartıp XAMPP'ın `htdocs` dizinine taşıyın
-  * Taşıdığınız `wordpress` adlı dosyasına ve alt dosyalarına **okuma ve yazma** erişiminizin olmasını sağlayın.
-  * Linux için `sudo nautilus /opt/lampp/htdocs` ile dosya gezgininni açıp, alddaki dosyalara sağ tıklayıp `Özellikler > İzinler` alanından her kullanıcıya \(_other_ en alttaki\) **okuma ve yazma** izinlerini verin.
+* İndirilen dosyaları çıkartıp XAMPP'ın `htdocs` dizinine taşıyın
+  * Taşıdığınız `wordpress` adlı dosyasına ve alt dosyalarına **okuma ve yazma** erişimimizin olmasını sağlayın.
+  * Linux için `sudo nautilus /opt/lampp/htdocs` ile dosya gezginini açıp, alttaki dosyalara sağ tıklayıp `Özellikler > İzinler` alanından her kullanıcıya \(_other_ en alttaki\) **okuma ve yazma** izinlerini verin.
     * Terminal ile bu komut yardımıyla `sudo chmod -R 757 /opt/lampp/htdocs/wordpress/` ya da el ile yetki verin.
     * `wordpress`
     * `wordpress/wp-content`
@@ -43,10 +43,10 @@ _Wordpress_ dosyalarını indirmek için [buraya](https://wordpress.org/download
 * Yapılandırma dosyalarının oluşumunda hata meydana gelirse, XAMPP içerisindeki `htdocs/wordpress` dizinine `wp-config.php` dosyası oluşturup, içerisine yapılandırma bilgilerinizi yapıştırın.
 * FTP kullanmak için `wp-config.php` dosyanıza `define('FS_METHOD', 'direct');` satırını ekleyin.
   * FTP için kullanıcı adı ve şifreniz **PC**'nizin bilgileridir, wordpress hesabınızın değil.
-  * FTP ile yerel dosya işlemleri yapabilrisiniz
-  * İnternetten tema indirme, deneme vs.
+  * FTP ile yerel dosya işlemleri yapabilirsiniz
+  * İnternet'ten tema indirme, deneme vs.
 
-### Wordpress'in Aktarılması
+### 🏹 Wordpress'in Aktarılması
 
 _Wordpress_'in aktarılması için:
 
@@ -56,11 +56,11 @@ _Wordpress_'in aktarılması için:
 
 gerekmektedir.
 
-## Online Wordpress Sunucusu \(Hosting\)
+## 🌍 Online Wordpress Sunucusu \(Hosting\)
 
 * [Natro](https://www.natro.com/hosting/wordpress-hosting)
 
-## Wordpress Hata Çözümleri
+## 🐞 Wordpress Hata Çözümleri
 
 ### Unable to create directory wp-content/uploads/2019/04. Is its parent directory writable by the server
 
@@ -80,12 +80,12 @@ sahip olması gerekir
 
 > `wp-config.php` dosyası XAMPP'ın kurulu olduğu dizindeki `htdocs/wordpress/` yolundadır.
 
-## Markdown Wordpress
+## 📑 Markdown Wordpress
 
 * [Markdown Editörü](https://terryl.in/en/repository/wordpress-markdown-plugin-githuber-md/)
 * [Markdown yanlısı tema](https://terryl.in/en/repository/mynote/)
 
-## Harici Bağlantılar
+## 🔗 Harici Bağlantılar
 
 * [10 Markdowns for Wordpress](https://blogging.org/blog/10-best-markdown-plugins-for-wordpress-websites/)
 * [Twentyfifteen Theme](https://wordpress.org/themes/twentyfifteen/)

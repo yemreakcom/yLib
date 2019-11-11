@@ -22,6 +22,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="google-notlari/" %}
+
 {% page-ref page="kisisel-yazilarim/uecretsiz-avantajlar.md" %}
 
 {% page-ref page="web-programlama/web-icin-kullanisli-notlar/web-sitesi-yoenetimi.md" %}
@@ -46,7 +48,7 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 {% page-ref page="contributing.md" %}
 
-{% page-ref page="uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md" %}
+{% page-ref page="google-notlari/google-chromeda-verimlilik.md" %}
 
 ## 🧐 Değişikliklere Detaylı Bakın
 
@@ -182,12 +184,12 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
     * [🔆 Vscode Editör Ayarları](uygulama-ve-yazilim/vscode/vscode-editoer-ayarlari.md)
     * [👨‍💻 Vscode Eklentisi VSIX Programlama](uygulama-ve-yazilim/vscode/vscode-eklentisi-vsix-programlama.md)
     * [✨ VsCode Özelleştirmelerim](uygulama-ve-yazilim/vscode/vscode-oezellestirmelerim.md)
-  * [📍 Google Notları](uygulama-ve-yazilim/google-notlari/)
-    * [👀 Google Hızlı Bakış](uygulama-ve-yazilim/google-notlari/google-hizli-bakis.md)
-    * [⛅ Google Drive Notları](uygulama-ve-yazilim/google-notlari/google-drive-notlari.md)
-    * [🔱 Google Chrome'da Verimlilik](uygulama-ve-yazilim/google-notlari/google-chromeda-verimlilik.md)
-    * [🟠 Google Colabrotory](uygulama-ve-yazilim/google-notlari/google-colabrotory.md)
-    * [🔍 Google Hacking](uygulama-ve-yazilim/google-notlari/google-hacking.md)
+  * [📍 Google Notları](google-notlari/)
+    * [👀 Google Hızlı Bakış](google-notlari/google-hizli-bakis.md)
+    * [⛅ Google Drive Notları](google-notlari/google-drive-notlari.md)
+    * [🔱 Google Chrome'da Verimlilik](google-notlari/google-chromeda-verimlilik.md)
+    * [🟠 Google Colabrotory](google-notlari/google-colabrotory.md)
+    * [🔍 Google Hacking](google-notlari/google-hacking.md)
   * [🐳 Docker](uygulama-ve-yazilim/docker.md)
   * [🥦 Jetbrains IDEs](uygulama-ve-yazilim/jetbrains-ides.md)
   * [💌 Telegram](uygulama-ve-yazilim/telegram.md)

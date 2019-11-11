@@ -6,7 +6,7 @@ description: >-
 
 # 🌎 Natro Hosting
 
-## Natro için Domain Yönetimi
+## 👨‍💼 Natro için Domain Yönetimi
 
 ![](../../.gitbook/assets/image%20%2818%29.png)
 
@@ -14,17 +14,17 @@ description: >-
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-## Natro için CNAME Kayıtları
+## 🧾 Natro için CNAME Kayıtları
 
-Domain yönetimi alanına [Natro için Domain Yönetimi]() yönergeleri takip ederek gelin
+Domain yönetimi alanına [👨‍💼 Natro için Domain Yönetimi ](natro-hosting.md#natro-icin-domain-yoenetimi)yönergeleri takip ederek gelin
 
 ![](../../.gitbook/assets/image%20%2844%29.png)
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-## Natro için TXT Kayıtları
+## 📄 Natro için TXT Kayıtları
 
-Domain yönetimi alanına [Natro için Domain Yönetimi]() yönergeleri takip ederek gelin
+Domain yönetimi alanına [👨‍💼 Natro için Domain Yönetimi](natro-hosting.md#natro-icin-domain-yoenetimi) yönergeleri takip ederek gelin
 
 ![](../../.gitbook/assets/image%20%2832%29.png)
 

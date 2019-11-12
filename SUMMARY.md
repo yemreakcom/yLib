@@ -155,6 +155,7 @@
 * [📕 Üniversite Notlarım](ueniversite-notlarim/README.md)
   * [🧠 Neural Network](ueniversite-notlarim/neural-network.md)
 * [🌞 Günlük Hayat Notları](gunluk-hayat-notlari/README.md)
+  * [💳 Pasaport İşlemleri](gunluk-hayat-notlari/pasaport-islemleri.md)
   * [🎨 Boyama](gunluk-hayat-notlari/boyama.md)
   * [🧺 Çamaşır Makinesi](gunluk-hayat-notlari/camasir-makinesi.md)
   * [🤝 İŞKUR](gunluk-hayat-notlari/iskur.md)

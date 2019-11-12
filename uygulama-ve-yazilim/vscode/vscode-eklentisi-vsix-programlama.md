@@ -22,6 +22,12 @@ Video anlatımı için [buraya](https://youtu.be/z_D_86WjXg4) bakabilirsin.
   * Ek açıklamalar
   * Package.json
 
+## ✨ Faydalı Komutlar
+
+Komutlar için `CTRL + SHIFT + P` tuşlarına basman lazım.
+
+* `Developer: Inspect TM Scopes`
+
 ## 🔀 Eklenti Oluşturma ve Paylaşma
 
 * `npm install -g vsce` ile `vsix` oluşturucuyu indirin
@@ -32,10 +38,10 @@ Video anlatımı için [buraya](https://youtu.be/z_D_86WjXg4) bakabilirsin.
 
 ## 🖤 Eklentiyi Komut İsteminden Paylaşma
 
-* Token'iniz yoksa, [Token Oluşturma]() adımından token oluşturun
+* Token'iniz yoksa, [🔑 Token Oluşturma](vscode-eklentisi-vsix-programlama.md#token-olusturma) adımından token oluşturun
 * `vsce login <id>`
   * Kopyaladığınız **ID**'yi yapıştırın
-* Package json'u [Package JSON Örneği]() gibi ayarların
+* Package json'u [📜 Package JSON Örneği](vscode-eklentisi-vsix-programlama.md#package-json-oernegi) gibi ayarların
 * `vsce publish` ile eklentiyi [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'e gönderebilirsiniz
   * `vscode publish minor` ile versiyonu arttırarak gönderirsiniz
 

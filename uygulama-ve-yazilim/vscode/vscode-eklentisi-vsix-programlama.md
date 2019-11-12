@@ -30,11 +30,15 @@ Komutlar için `CTRL + SHIFT + P` tuşlarına basman lazım.
 
 ## 🔀 Eklenti Oluşturma ve Paylaşma
 
+Öncelikle [Nodejs](https://nodejs.org/en/download/) uygulamasını yükleyin
+
 * `npm install -g vsce` ile `vsix` oluşturucuyu indirin
 * `vsce package` ile `.vsix` uzantılı eklentiyi oluşturun
 * [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'den `vsix` uzantılı dosyanızı sunucuya yükleyin
 
-> VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var.
+{% hint style="success" %}
+VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var.
+{% endhint %}
 
 ## 🖤 Eklentiyi Komut İsteminden Paylaşma
 
@@ -45,7 +49,9 @@ Komutlar için `CTRL + SHIFT + P` tuşlarına basman lazım.
 * `vsce publish` ile eklentiyi [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'e gönderebilirsiniz
   * `vscode publish minor` ile versiyonu arttırarak gönderirsiniz
 
-> VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var.
+{% hint style="success" %}
+VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) açıklamasına bakmanda fayda var
+{% endhint %}
 
 ### 🔑 Token Oluşturma
 

@@ -28,13 +28,13 @@ description: Scanner metodu kullanıcıdan girdi almak amaçlı kullanılan bir 
 
 Klavyeden alınan girdileri, ilk [**whitespace**](https://wiki.yemreak.com/programlama-notlari/java/diger-java-notlari/java-scanner-metodlari#java-whitespaces) ****girdisine kadar almakta ve bu girdiyi **string** türünde döndürmekte.
 
-![next](../../../.gitbook/assets/image%20%2825%29.png)
+![next](../../../.gitbook/assets/image%20%2826%29.png)
 
 ### `nextLine` Metodu
 
 Klavyeden alınan girdileri, ilk ENTER \(`"\n"`\) girdisine kadar almakta ve bu girdiyi **string** türünde döndürmekte.
 
-![nextline](../../../.gitbook/assets/image%20%2852%29.png)
+![nextline](../../../.gitbook/assets/image%20%2853%29.png)
 
 
 
@@ -44,7 +44,7 @@ Klavyeden alınan girdileri `byte` / `short`/ `int` / `long` / `float` / `double
 
 > Farklı bir aralıkta sayı değeri girilirse, hata \(`exception`\) verir.
 
-![nextvar](../../../.gitbook/assets/image%20%2836%29.png)
+![nextvar](../../../.gitbook/assets/image%20%2837%29.png)
 
 
 
@@ -54,7 +54,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 
 > Şekillendirilebilir. `hasNextInt()` bir sonraki satırda `int` olup olmadığını kontrol eder ve sonuca göre `true` / `false` döndürür.
 
-![hasnext](../../../.gitbook/assets/image%20%2871%29.png)
+![hasnext](../../../.gitbook/assets/image%20%2872%29.png)
 
 
 
@@ -66,7 +66,7 @@ Scanner tipinde tanımlamış olduğumuz değişkenin bir satır sonrasında ver
 * Normalde `next` metodu whitespace karakterine geldiğinde veri almayı kesmektedir.
 * Bu metotdan sonra `next` metodu **parametreye** denk geldiğinde veri almayı kesmiş olacak.
 
-![usedelimeter](../../../.gitbook/assets/image%20%2877%29.png)
+![usedelimeter](../../../.gitbook/assets/image%20%2878%29.png)
 
 
 
@@ -79,7 +79,7 @@ Scanner tipinde tanımlanmış olan değişkenin sınırlayıcısını döndür�
 
 > `"\p{javaWhitespace}+"` deyimi Java whitespace olarak aşağıda tanımlanmıştır.
 
-![delimeter](../../../.gitbook/assets/image%20%2882%29.png)
+![delimeter](../../../.gitbook/assets/image%20%2883%29.png)
 
 ### `close` Metodu
 

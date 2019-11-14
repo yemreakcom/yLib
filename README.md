@@ -22,6 +22,8 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
+{% page-ref page="kisisel-arastirmalarim/cocuklar-icin-programlama.md" %}
+
 {% page-ref page="google-notlari/" %}
 
 {% page-ref page="kisisel-yazilarim/uecretsiz-avantajlar.md" %}

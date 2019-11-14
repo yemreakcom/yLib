@@ -18,7 +18,7 @@ description: >-
 
 Domain yönetimi alanına [👨‍💼 Natro için Domain Yönetimi ](natro-hosting.md#natro-icin-domain-yoenetimi)yönergeleri takip ederek gelin
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
@@ -26,5 +26,5 @@ Domain yönetimi alanına [👨‍💼 Natro için Domain Yönetimi ](natro-host
 
 Domain yönetimi alanına [👨‍💼 Natro için Domain Yönetimi](natro-hosting.md#natro-icin-domain-yoenetimi) yönergeleri takip ederek gelin
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 

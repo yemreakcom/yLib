@@ -21,17 +21,17 @@ Dünyanın en tecrübeli kurtarma birimi Amerikan Uluslararası Kurtarma ekibini
   * Eğer **uyuyorsanız yataktan yuvarlanarak düşün**, orada kalın \(Şekil 2\)
 * Dizi, karına doğru çekerek kıvrılın \(**cenin pozisyonu**\) \(Şekil 3\)
 
-![Hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2847%29.png)
+![Hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2851%29.png)
 
 ### 🙍‍ Cenin Pozisyonu
 
 Dizleri, karına doğru çekerek kıvrılma pozisyonudur
 
-![Cenin pozisyonu](../.gitbook/assets/image%20%2871%29.png)
+![Cenin pozisyonu](../.gitbook/assets/image%20%2876%29.png)
 
 ## 🧱 Örnek Yıkım Alanları ve Hayat Üçgeni
 
-![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2873%29.png)
+![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2878%29.png)
 
 ## ⛔ Yapılamaması Gerekenler
 

@@ -63,7 +63,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2843%29.png)
+![ActivityWatch](../.gitbook/assets/image%20%2847%29.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -76,7 +76,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2831%29.png)
+![RescueTime](../.gitbook/assets/image%20%2833%29.png)
 
 ## 😒 Beğenmediklerim
 
@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2860%29.png)
+![Pendulums](../.gitbook/assets/image%20%2864%29.png)
 
 ### 📦 Diğerleri
 

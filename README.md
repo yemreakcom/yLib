@@ -1,5 +1,5 @@
 ---
-description: "Yunus Emre AK (@yedhrab)'ın bilgi dünyasının dijital ortamda vücut bulmuş hali \U0001F680"
+description: "Yunus Emre AK (@yedhrab)'ın bilgi dünyasının dijital ortamda vücut  bulmuş hali \U0001F680"
 ---
 
 # 📖 YWiki

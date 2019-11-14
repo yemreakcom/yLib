@@ -4,6 +4,10 @@ description: Programlama dünyasını çocuklara sunmaya çalışan bir kaç san
 
 # 👨‍💻 Çocuklar için Programlama
 
+## [🐈 Scratch](https://scratch.mit.edu/)
+
+![](../.gitbook/assets/image%20%2867%29.png)
+
 ## [🤺 CodeCombat](https://codecombat.com/play)
 
 ![](../.gitbook/assets/image%20%2822%29.png)
@@ -18,7 +22,7 @@ description: Programlama dünyasını çocuklara sunmaya çalışan bir kaç san
 
 ## [🧩 Blockly](https://blockly.games/?lang=en)
 
-![](../.gitbook/assets/image%20%2868%29.png)
+![](../.gitbook/assets/image%20%2869%29.png)
 
 ## 🔗 Kaynaklar
 

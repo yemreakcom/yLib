@@ -64,7 +64,7 @@ gl.setVerticalGroup(
 
 ### Detaylı Resim İle Açıklama
 
-![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2870%29.png)
+![Detayl&#x131; a&#xE7;&#x131;klama](../../../.gitbook/assets/image%20%2871%29.png)
 
 ## Biraz Daha Zor Bir Örnek
 

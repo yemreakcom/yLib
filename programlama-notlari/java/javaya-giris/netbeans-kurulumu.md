@@ -27,7 +27,7 @@ Aydınlık temalar benlik değil diye düşünüyorsan, hiç merak etme _NetBean
 
 #### Resimlerle Tema ve Font Ayarlama
 
-![Karanl&#x131;k tema ve font ayarlama](../../../.gitbook/assets/image%20%2881%29.png)
+![Karanl&#x131;k tema ve font ayarlama](../../../.gitbook/assets/image%20%2882%29.png)
 
 ## İlk Projeyi Oluşturma
 

@@ -4,6 +4,19 @@ description: Meraklısı için Linux hakkında detaylı notlarım
 
 # 🤯 Linux Gelişmiş
 
+## 👨‍🔧 Linux'ta Varsayılan Olarak Python3 Kullanma
+
+Alttaki komut ile python2'yi kaldırıp, python3'e bağlantı oluşturarak varsayılan olarak python3 kullanabilirsin.
+
+```bash
+sudo apt purge python2.x-minimal
+sudo ln -sfn /usr/bin/python3.6 /usr/bin/python
+```
+
+{% hint style="info" %}
+Detaylı bilgiler için [How to safely switch to python3 as default after upgrade to Ubuntu 18.04](https://askubuntu.com/questions/1065572/how-to-safely-switch-to-python3-as-default-after-upgrade-to-ubuntu-18-04) alanına bakabilirsin
+{% endhint %}
+
 ## Dosya içeriğinden Türünü Bulma
 
 | Satr Metni | Açıklama |

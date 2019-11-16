@@ -169,16 +169,18 @@
   * [🤝 İŞKUR](gunluk-hayat-notlari/iskur.md)
 * [🌄 Düzensiz Notlar](duzensiz-notlar.md)
 
-## Derlenmiş Çalışmalarım
+# Diğer Çalışmalarım
 
-* [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
-* [🐍 Python Notlarım](https://python.yemreak.com)
-* [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)
-* [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
-* [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
-* [📲 Android Notlarım](https://android.yemreak.com)
-* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
-* [📕 Git Notları](https://book.git.yemreak.com/)
-* [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
-* [📜 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
+- [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
+- [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
+- [🐍 Python Notlarım](https://python.yemreak.com)
+- [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)
+- [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
+- [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
+- [📲 Android Notlarım](https://android.yemreak.com)
+- [🏫 Üniversite Notları](https://iuce.yemreak.com)
+- [📕 Git Notları](https://book.git.yemreak.com/)
+- [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
+- [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
+
 

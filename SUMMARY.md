@@ -164,7 +164,7 @@
   * [🤝 İŞKUR](gunluk-hayat-notlari/iskur.md)
 * [🌄 Düzensiz Notlar](duzensiz-notlar.md)
 
-## Diğer Çalışmalarım
+## Derlenmiş Çalışmalarım
 
 - [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
 - [🐍 Python Notlarım](https://python.yemreak.com)

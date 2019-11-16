@@ -16,7 +16,7 @@ CNAME kayıtları ile halledilen bir işlemdir
 
 {% page-ref page="natro-hosting.md" %}
 
-## 🔍 Google Search Console ile Arama Motoru Yönetimi
+## 🔍 Arama Motoru Yönetimi
 
 * [Google Search Console](https://search.google.com/search-console/welcome?utm_source=about-page)'a giriş yapın
 * Çıkan seçeneklerden **domain** alanını seçin ve domaininizi yazın
@@ -27,7 +27,7 @@ CNAME kayıtları ile halledilen bir işlemdir
     * \(örn: `google-site-verification=********************************`\)
 * Çıkan arayüzde arama alanına URL'lerinizi yazın, indekslenmeyen URL için talepte bulunun
 
-## 📊 Google Analytic ile Sitenize Gelenleri Analiz Etme
+## 📊 Sitenize Gelenleri Analiz Etme
 
 * [Google Analytics](http://analytics.google.com)'e giriş yapın
 * Sol alt köşedeki ⚙ Admin butonuna tıklayın
@@ -37,7 +37,7 @@ CNAME kayıtları ile halledilen bir işlemdir
   * Eğer sitenizin desteği yoksa **Website Tracking** adı altındaki **HTML** kodlarını kopyalayın.
 * Sitenizin **HTML** kodlarına girin ve en üste `<scripts>`'lerinizin olduğu alana yapıştırın
 
-### 💠 Google Analytic Üzerinden Filtre Uygulama
+### 💠 Filtre Uygulama
 
 Admin - Property - Filter - Add Filter alanından aşağıdaki özelliklere sahip filtre ekleyin
 

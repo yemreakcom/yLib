@@ -1,5 +1,5 @@
 ---
-description: "Yunus Emre AK (@yedhrab)'ın bilgi dünyasının dijital ortamda vücut  bulmuş hali \U0001F680"
+description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasının dijital ortamda vücut bulmuş hali \U0001F680 Konular: öğrenme, python, yapay zeka, veri bilimi, windows, android, iuce ders notları, git, web, java"
 ---
 
 # 📖 YWiki

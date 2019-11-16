@@ -2,7 +2,7 @@
 description: 'Faydalı olabilecek component (frame, panel, label) Metot''ları'
 ---
 
-# 💠 Java GUI Component Metotları
+# 💠 GUI Component Metotları
 
 ## Set \(Ayarlama\) Metodları
 

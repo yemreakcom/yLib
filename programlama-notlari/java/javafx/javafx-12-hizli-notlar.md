@@ -1,4 +1,8 @@
-# 🏃‍♂️ JavaFX 12 Hızlı Notlar
+---
+description: JavaFX 12 için hızlı notlar
+---
+
+# 🏃‍♂️ Hızlı Notlar
 
 ## Proje Dizin Yapısı
 

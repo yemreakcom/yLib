@@ -1,5 +1,5 @@
 ---
-description: Java kodlarını derleyebileceğin bir IDE
+description: Java kodlarını derleyebileceğimiz bir IDE
 ---
 
 # ⏬ NetBeans Kurulumu

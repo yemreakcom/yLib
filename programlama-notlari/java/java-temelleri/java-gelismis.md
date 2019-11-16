@@ -2,7 +2,7 @@
 description: İlgilenenlere biraz daha ileri seviye notlar
 ---
 
-# 🤯 Java Gelişmiş
+# 🤯 İleri Seviye
 
 ## Modül Programlama
 

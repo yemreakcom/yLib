@@ -2,7 +2,7 @@
 description: "Java ufaktan giriş yapalım \U0001F463"
 ---
 
-# 👶 Java Başlangıç
+# 👶 Başlangıç
 
 ## 🤓 Javayı Tanıyalım
 

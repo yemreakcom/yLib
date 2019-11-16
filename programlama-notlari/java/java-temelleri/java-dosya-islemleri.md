@@ -2,7 +2,7 @@
 description: Verilerin saklanılması için olmazsa olmaz dosya işlemleri
 ---
 
-# 📁 Java Dosya İşlemleri
+# 📁 Dosya İşlemleri
 
 ## Kullanıcı Dizinleri
 

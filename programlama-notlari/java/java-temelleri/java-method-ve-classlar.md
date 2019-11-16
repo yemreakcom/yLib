@@ -1,4 +1,8 @@
-# 💠 Java Method ve Classlar
+---
+description: Java'da method ve classlar
+---
+
+# 💠 Method ve Classlar
 
 ## Sayısı belirtilmemiş parametre kullanımı
 

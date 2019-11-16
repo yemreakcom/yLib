@@ -2,7 +2,7 @@
 description: JavaFX ile javada görsel arayüze sahip uygulama yapımı
 ---
 
-# 🌃 JavaFX ile GUI Tasarımı
+# 🌃 GUI Tasarımı
 
 ## Önemli Bilgi
 

@@ -1,8 +1,8 @@
 ---
-description: String işlemleri her dil için çok önemli bir kavramdır
+description: String işlemleri her dil için olduğu gibi java'da da çok önemli bir kavramdır
 ---
 
-# 🔡 Java String İşlemleri
+# 🔡 String İşlemleri
 
 ## String İşlemleri
 

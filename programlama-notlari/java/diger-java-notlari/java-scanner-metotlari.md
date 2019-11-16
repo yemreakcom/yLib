@@ -2,7 +2,7 @@
 description: Scanner metodu kullanıcıdan girdi almak amaçlı kullanılan bir metottur.
 ---
 
-# 💠 Java Scanner Metotları
+# 💠 Scanner Metotları
 
 ## Scanner Metotları Özeti
 

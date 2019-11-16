@@ -1,4 +1,8 @@
-# 🚧 Java GroupLayaouts
+---
+description: Java'da group layout kavramı
+---
+
+# 🚧 GroupLayouts
 
 ## 🎤 Ön Söz
 

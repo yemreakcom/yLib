@@ -1,4 +1,8 @@
-# 💫 Java Değişkenler Koşullar ve Döngüler
+---
+description: Java'da değişkenler koşullar ve döngüler
+---
+
+# 💫 Değişkenler Koşullar ve Döngüler
 
 ## Değişkenler
 

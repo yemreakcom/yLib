@@ -2,7 +2,7 @@
 description: Java ile alakalı linkleri içerir
 ---
 
-# �� Java Harici Bağlantılar
+# 🔗 Harici Bağlantılar
 
 ##  🥴 Karışık Linkler
 

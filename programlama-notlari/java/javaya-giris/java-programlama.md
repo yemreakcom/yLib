@@ -2,7 +2,7 @@
 description: Java ile ilk programı oluşturma
 ---
 
-# 👩‍💻 Java Programlama
+# 👩‍💻 Javada İlk Program
 
 ## İlk Programı Oluşturma <a id="ilk-programi-olusturma"></a>
 

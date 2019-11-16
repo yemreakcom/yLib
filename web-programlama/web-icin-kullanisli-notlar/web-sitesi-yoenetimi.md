@@ -46,3 +46,38 @@ Admin - Property - Filter - Add Filter alanından aşağıdaki özelliklere sahi
 * Pattern `\.domain\.com` \(örn: `\.yemreak\.com`\) yazın
 * Filter Verification alanından kontrol edip kaydedin.
 
+## 🚙 Web Sitesi Yönlendirmesi
+
+### 💨 Direkt Yönlendirme
+
+```javascript
+<script type='text/javascript'>
+  var d='<data:blog.url/>';
+  d=d.replace(/.*\/\/[^\/]*/, '');
+  location.href = 'http://www.marketingextremist.com';
+</script>
+```
+
+### 👨‍💼 Belirli URL'i Yönlendirme
+
+```javascript
+<script>
+if(window.location.href == '<strong>Page URL</strong>')
+{
+window.location="http://www.marketingextremist.com";
+}
+</script>
+```
+
+### 🕐 Gecikmeli Yönlendirme
+
+Baştaki 5 sayısı kadar saniye olmak üzere bekler.
+
+```http
+<meta content='5;URL=&quot;<url>/&quot;' http-equiv='refresh'/>
+```
+
+### 🧐 Daha fazla bilgi
+
+{% embed url="http://www.marketingextremist.com/redirect-blogger-blog-page-another-blog-website-956/" %}
+

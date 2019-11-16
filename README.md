@@ -115,7 +115,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
       * [💠 Java Scanner Metotları](programlama-notlari/java/diger-java-notlari/java-scanner-metotlari.md)
     * [⭐ Örnek Java Projeleri](programlama-notlari/java/ornek-java-projeleri.md)
   * [📱 Android](programlama-notlari/android.md)
-  * [🎃 Kotlin](programlama-notlari/kotlin.md)
+  * [🎃 Kotlin](programlama-notlari/kotlin/)
   * [🔩 C, C++](programlama-notlari/c-c++/)
     * [💡 C++ Scanf İpuçları](programlama-notlari/c-c++/c++-scanf-ipuclari.md)
     * [🐛 C, C++ Sorunları](programlama-notlari/c-c++/c-c++-sorunlari.md)

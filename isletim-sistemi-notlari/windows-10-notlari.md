@@ -6,7 +6,6 @@ description: Windows 10 notlarım
 
 <!--Index-->
 
-# Table of contents
 
 * [🎇 Windows 10 Notları](README.md)
 * [🥽 Awesome Windows](awesome.md)

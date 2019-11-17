@@ -6,7 +6,6 @@ description: Yapay zeka notlarım
 
 <!--Index-->
 
-# Table of contents
 
 * [🧠 Yapay Zeka](README.md)
 * [🌟 Faydalı Kaynaklar](faydali-kaynaklar.md)

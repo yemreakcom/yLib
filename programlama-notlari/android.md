@@ -6,7 +6,6 @@ description: Android notlarım
 
 <!--Index-->
 
-# Table of contents
 
 * [📱 YAndroid](README.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)

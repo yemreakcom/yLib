@@ -6,7 +6,6 @@ description: Python programlama dili hakkında notlarım
 
 <!--Index-->
 
-# Table of contents
 
 * [🐍 Python](README.md)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)

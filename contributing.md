@@ -97,5 +97,13 @@ GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerin
 
 {% page-ref page="proje-yoenetimi/github/github-web.md" %}
 
+## 👨‍💻 Geliştirici Notları
 
+### 📃 Alt Sayfa Bağlantılarının Güncellenmesi
+
+Güncelleme işlemleri için gereksinimler
+
+- `pip install ypackage` ile `ypackage` kurulumu
+- `.ysubmodules` dosyası
+- `ygitbookintegration . -u` komutu
 

@@ -1,26 +1,38 @@
 [submodule "programlama-notlari/python.md"]
+	description = 🐍 Python notlarım
 	path = programlama-notlari/python.md
 	url = https://github.com/YEmreAk/YPython
+	root = https://python.yemreak.com
 
 [submodule "isletim-sistemi-notlari/windows-10-notlari.md"]
+	description = 🎇 Windows 10 notlarım
 	path = isletim-sistemi-notlari/windows-10-notlari.md
 	url = https://github.com/YEmreAk/YWindows10
+	root = https://windows.yemreak.com
 
 [submodule "yapay-zeka.md"]
+	description = 🧠 Yapay zeka notlarım
 	path = yapay-zeka.md
 	url = https://github.com/YEmreAk/YArtificialIntelligence
+	root = https://ai.yemreak.com
 
 [submodule "veri-bilimi.md"]
+	description = 📊 Veri bilimi notlarım
 	path = veri-bilimi.md
 	url = https://github.com/YEmreAk/YDataScience
+	root = https://ds.yemreak.com
 
 [submodule "programlama-notlari/android.md"]
+	description = 📲 Android programlama notlarım
 	path = programlama-notlari/android.md
 	url = https://github.com/YEmreAk/YAndroid
+	root = https://android.yemreak.com
 
 [submodule "istanbul-university-ce.md"]
+	description = 🏫 Üniversitedeki notlar
 	path = istanbul-university-ce.md
 	url = https://github.com/YEmreAk/IstanbulUniversity-CE
+	root = https://iuce.yemreak.com
 
 
 

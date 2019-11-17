@@ -103,7 +103,7 @@ GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerin
 
 Güncelleme işlemleri için gereksinimler
 
-- `pip install ypackage` ile `ypackage` kurulumu
-- `.ysubmodules` dosyası
-- `ygitbookintegration . -u` komutu
+* `pip install ypackage` ile `ypackage` kurulumu
+* `.ysubmodules` dosyası
+* `ygitbookintegration . -u` komutu
 

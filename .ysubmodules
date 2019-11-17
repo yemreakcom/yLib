@@ -1,0 +1,26 @@
+[submodule "programlama-notlari/python.md"]
+	path = programlama-notlari/python.md
+	url = https://github.com/YEmreAk/YPython
+
+[submodule "isletim-sistemi-notlari/windows-10-notlari.md"]
+	path = isletim-sistemi-notlari/windows-10-notlari.md
+	url = https://github.com/YEmreAk/YWindows10
+
+[submodule "yapay-zeka.md"]
+	path = yapay-zeka.md
+	url = https://github.com/YEmreAk/YArtificialIntelligence
+
+[submodule "veri-bilimi.md"]
+	path = veri-bilimi.md
+	url = https://github.com/YEmreAk/YDataScience
+
+[submodule "programlama-notlari/android.md"]
+	path = programlama-notlari/android.md
+	url = https://github.com/YEmreAk/YAndroid
+
+[submodule "istanbul-university-ce.md"]
+	path = istanbul-university-ce.md
+	url = https://github.com/YEmreAk/IstanbulUniversity-CE
+
+
+

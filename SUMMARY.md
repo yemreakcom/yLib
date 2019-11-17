@@ -1,8 +1,8 @@
 # Table of contents
 
 * [📖 YWiki](README.md)
-* [👨‍🏫 YLearn](https://learn.yemreak.com)
-* [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji)
+* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
+* [🚀 Emoji Sözlüğüm](https://learn.yemreak.com/yonetim/yemoji)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](kisisel-yazilarim/README.md)
   * [🚀 Microsoft Student Partnership](kisisel-yazilarim/microsoft-student-partnership.md)

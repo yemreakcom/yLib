@@ -1,52 +1,51 @@
 ---
-description: Android notlarım
+description: 📲 Android programlama notlarım
 ---
 
-# 📱 Android
+# 📱 YAndroid
 
-* [📱 YAndroid](./)
+* [📱 YAndroid](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 
 ## Temel Kavramlar
 
-* [📃 Activity ve Intent'ler](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/activity-ve-intentler.md)
-* [💫 Activity Yaşam Döngüsü](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/activity-yasam-doenguesue.md)
-* [🏹 Implicit intents](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/implicit-intents.md)
-* [🧐 Component İsimleri](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/component-isimleri.md)
-* [💾 Veri Saklama Yöntemleri](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/veri-saklama-yoentemleri.md)
-* [🎪 Android'de Animasyonlar](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/androidde-animasyonlar.md)
-* [🌄 Arkaplan'da Çalışma](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/arkaplanda-calisma/README.md)
-  * [💫 AsyncTask ve AsyncTaskLoader](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/arkaplanda-calisma/asynctask-ve-asynctaskloader.md)
-  * [🌠 MultiThreading](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/temel-kavramlar/arkaplanda-calisma/multithreading.md)
+* [📃 Activity ve Intent'ler](https://android.yemreak.com/temel-kavramlar/activity-ve-intentler)
+* [💫 Activity Yaşam Döngüsü](https://android.yemreak.com/temel-kavramlar/activity-yasam-doenguesue)
+* [🏹 Implicit intents](https://android.yemreak.com/temel-kavramlar/implicit-intents)
+* [🧐 Component İsimleri](https://android.yemreak.com/temel-kavramlar/component-isimleri)
+* [💾 Veri Saklama Yöntemleri](https://android.yemreak.com/temel-kavramlar/veri-saklama-yoentemleri)
+* [🎪 Android'de Animasyonlar](https://android.yemreak.com/temel-kavramlar/androidde-animasyonlar)
+* [🌄 Arkaplan'da Çalışma](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/)
+  * [💫 AsyncTask ve AsyncTaskLoader](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/asynctask-ve-asynctaskloader)
+  * [🌠 MultiThreading](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/multithreading)
 
 ## Faydalı Bilgiler
 
-* [✍ Kişisel Notlarım](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/kisisel-notlarim.md)
-* [⭐ Activity Örnekleri](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/activity-oernekleri.md)
-* [📲 Telefonu Bilgisayara Bağlama](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/telefonu-bilgisayara-baglama.md)
-* [👜 Google Play Store](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/google-play-store.md)
-* [🚧 Proje İşlemleri](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/proje-islemleri.md)
-* [🐛 Hata Notları](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/hata-notlari.md)
-* [🔗 Karışık Bağlantılar](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/karisik-baglantilar.md)
-* [🥴 Düzensiz Notlar](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/README.md)
-  * [🔰 Giriş](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/giris.md)
-  * [👶 İlk Etkileşimli UI](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/ilk-etkilesimli-ui.md)
-  * [🔤 TextView](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/textview.md)
-  * [⏬ Scrolling views](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/scrolling-views.md)
-  * [📜 XML Örneği](https://github.com/YEmreAk/YWiki/tree/6c0e63a0396d1f3a04c05e5926f9620ce137d39c/programlama-notlari/faydali-bilgiler/duezensiz-notlar/xml-oernegi.md)
+* [✍ Kişisel Notlarım](https://android.yemreak.com/faydali-bilgiler/kisisel-notlarim)
+* [⭐ Activity Örnekleri](https://android.yemreak.com/faydali-bilgiler/activity-oernekleri)
+* [📲 Telefonu Bilgisayara Bağlama](https://android.yemreak.com/faydali-bilgiler/telefonu-bilgisayara-baglama)
+* [👜 Google Play Store](https://android.yemreak.com/faydali-bilgiler/google-play-store)
+* [🚧 Proje İşlemleri](https://android.yemreak.com/faydali-bilgiler/proje-islemleri)
+* [🐛 Hata Notları](https://android.yemreak.com/faydali-bilgiler/hata-notlari)
+* [🔗 Karışık Bağlantılar](https://android.yemreak.com/faydali-bilgiler/karisik-baglantilar)
+* [🥴 Düzensiz Notlar](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/)
+  * [🔰 Giriş](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/giris)
+  * [👶 İlk Etkileşimli UI](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/ilk-etkilesimli-ui)
+  * [🔤 TextView](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/textview)
+  * [⏬ Scrolling views](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/scrolling-views)
+  * [📜 XML Örneği](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/xml-oernegi)
 
 ## Derlenmiş Çalışmalarım
 
-* [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
-* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
-* [🐍 Python Notlarım](https://python.yemreak.com)
-* [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)
-* [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
-* [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
-* [📲 Android Notlarım](https://android.yemreak.com)
-* [🏫 Üniversite Notları](https://iuce.yemreak.com)
-* [📕 Git Notları](https://book.git.yemreak.com/)
-* [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
-* [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
-
+- [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
+- [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
+- [🐍 Python Notlarım](https://python.yemreak.com)
+- [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)
+- [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
+- [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
+- [📲 Android Notlarım](https://android.yemreak.com)
+- [🏫 Üniversite Notları](https://iuce.yemreak.com)
+- [📕 Git Notları](https://book.git.yemreak.com/)
+- [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
+- [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)

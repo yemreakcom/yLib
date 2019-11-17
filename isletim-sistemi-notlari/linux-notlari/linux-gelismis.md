@@ -10,7 +10,8 @@ Alttaki komut ile python2'yi kaldırıp, python3'e bağlantı oluşturarak varsa
 
 ```bash
 sudo apt purge python2.x-minimal
-sudo ln -sfn /usr/bin/python3.6 /usr/bin/python
+sudo ln -sfn /usr/bin/python3.6 /usr/bin/python # python -> python3
+sudo ln -s /usr/bin/pip3 /usr/bin/pip # pip -> pip3
 ```
 
 {% hint style="info" %}

@@ -22,37 +22,9 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 ## ✨ Yeni İçerikler
 
-{% page-ref page="web-programlama/web-icin-kullanisli-notlar/web-sitesi-yoenetimi.md" %}
-
-{% page-ref page="kisisel-arastirmalarim/cocuklar-icin-programlama.md" %}
-
-{% page-ref page="google-notlari/" %}
-
-{% page-ref page="kisisel-yazilarim/uecretsiz-avantajlar.md" %}
-
-{% page-ref page="web-programlama/web-icin-kullanisli-notlar/web-sitesi-yoenetimi.md" %}
-
-{% page-ref page="uygulama-ve-yazilim/onenote.md" %}
-
-{% page-ref page="kisisel-yazilarim/instagram-bot.md" %}
-
-{% page-ref page="programlama-notlari/genel-notlar/programlamada-oenemli-hususlar.md" %}
-
-{% page-ref page="proje-yoenetimi/github/" %}
-
-{% page-ref page="proje-yoenetimi/gitbook/" %}
-
-{% page-ref page="proje-yoenetimi/git/" %}
-
-{% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
-
-{% page-ref page="uygulama-ve-yazilim/vscode/vscode-eklentileri.md" %}
-
-{% page-ref page="programlama-notlari/genel-notlar/" %}
-
-{% page-ref page="contributing.md" %}
-
-{% page-ref page="google-notlari/google-chromeda-verimlilik.md" %}
+{% hint style="warning" %}
+📢 Bu alanın otomatikleştirilmesi hususunda yardıma ihtiyaç vardır.
+{% endhint %}
 
 ## 🧐 Değişikliklere Detaylı Bakın
 

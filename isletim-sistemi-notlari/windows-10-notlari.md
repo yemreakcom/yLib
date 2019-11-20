@@ -1,5 +1,5 @@
 ---
-description: 🎇 Windows 10 notlarım
+description: "\U0001F387 Windows 10 notlarım"
 ---
 
 # 🎇 Windows 10 Notları

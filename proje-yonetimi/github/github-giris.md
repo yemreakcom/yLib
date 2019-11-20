@@ -24,7 +24,7 @@ GitHub **git** yapısıyla yönetilmekte, **markdown** formatıyla dokümanlar h
 
 {% page-ref page="../git/" %}
 
-{% page-ref page="../../programlama-notlari/yardimci-diller/markdown.md" %}
+{% page-ref page="../../code/yardimci/markdown.md" %}
 
 ## 🌟 GitHub Pro
 

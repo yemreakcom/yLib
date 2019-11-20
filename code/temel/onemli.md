@@ -13,10 +13,10 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 * 🥰 Yapay zeka destekli öneriler \(**intellisense**\)
 
 {% hint style="info" %}
-[🏰 Proje Yönetimi](../../proje-yoenetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
+[🏰 Proje Yönetimi](../../proje-yonetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
 {% endhint %}
 
-{% page-ref page="../../proje-yoenetimi/" %}
+{% page-ref page="../../proje-yonetimi/" %}
 
 ## 👨‍💻 Programlama Dilleri için Bilmen Gerekenler
 
@@ -38,7 +38,7 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 
 ## 🔗 Ek bağlantılar
 
-{% page-ref page="../../proje-yoenetimi/github/github-giris.md" %}
+{% page-ref page="../../proje-yonetimi/github/github-giris.md" %}
 
 
 

@@ -17,7 +17,7 @@ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 **Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
 {% endhint %}
 
-{% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
+{% page-ref page="code/yardimci/markdown.md" %}
 
 ## 👷‍ Sayfaların Tasarımı ve Notların Tutulma Yapısı
 
@@ -86,16 +86,16 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 * Kodlar \`\`\` arasına yazılmalı
 * Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
 
-{% page-ref page="programlama-notlari/yardimci-diller/markdown.md" %}
+{% page-ref page="code/yardimci/markdown.md" %}
 
 ## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
 
 GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerinden katkıda bulunabilirsin.
 
 * Katkı sağlama işlemi GitHub hesabı gerektirir.
-* Güncel bilgiler için [🌍 GitHub Web](proje-yoenetimi/github/github-web.md) yazıma bakabilirsin
+* Güncel bilgiler için [🌍 GitHub Web](proje-yonetimi/github/github-web.md) yazıma bakabilirsin
 
-{% page-ref page="proje-yoenetimi/github/github-web.md" %}
+{% page-ref page="proje-yonetimi/github/github-web.md" %}
 
 ## 👨‍💻 Geliştirici Notları
 

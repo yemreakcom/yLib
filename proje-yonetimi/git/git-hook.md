@@ -10,10 +10,10 @@ description: Belirli komutların çalışma durumlarında tetiklenen scriptler
 * 🧱 Hook Listesi alanındaki size lazım olan isimle dosya oluşturun
   * Örn: `pre-commit` \(dosyanın uzantısı **olmayacak**\)
   * Var olan scriptlerin sonlarındaki `.sample` isminin silinmesiyle içindeki kodlar aktif hale gelir
-* [👨‍💻 Shell script](../../programlama-notlari/yardimci-diller/shell-script.md) yapısı ile çalışmaktadır
+* [👨‍💻 Shell script](../../code/yardimci/shell.md) yapısı ile çalışmaktadır
 * 👮‍♂️ Scriptler `0` dışında bir değer döndürürse, seçilen işlem **tamamlanmaz**.
 
-{% page-ref page="../../programlama-notlari/yardimci-diller/shell-script.md" %}
+{% page-ref page="../../code/yardimci/shell.md" %}
 
 ## 🧱 Hook Listesi
 

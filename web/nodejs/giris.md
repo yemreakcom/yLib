@@ -1,4 +1,4 @@
-# 🚶‍♂️ Nodejs Giriş
+# 🔰 Nodejs Giriş
 
 ## ❔ Nodejs Nedir
 

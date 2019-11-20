@@ -2,7 +2,7 @@
 description: Windows işletim sistemlerinin ortak programlama dilidir.
 ---
 
-# 👩‍💻 Batch Script
+# 👩‍�� Batch Script
 
 ## Başlatma İşlemleri \(Start\)
 

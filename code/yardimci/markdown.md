@@ -201,8 +201,10 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 * PDF oluşumu için yeni sayfaya geçmek için `md` dosyasına `<div class="page"/>` satırını yazman gerekmekte
   * Yaklaşık **40** satırda bir yeni sayfaya geçmek mantıklı
   * Bu sayda metnini otomatik ekleyen script yazılabilir
-* Dökümanda _latex_ varsa, `md` dosyasının en altında, latex scipt'ini eklemen gerekmektedir
-  * Aksi halde _latex_ yapısı derlenmez.
+
+#### 🧮 PDF için Latex Desteği
+
+Dokümanda _latex_ varsa, `md` dosyasının en altına, latex scipt'ini eklemen gerekmektedir
 
 ```markup
 <script
@@ -213,6 +215,10 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
   MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });
 </script>
 ```
+
+{% hint style="info" %}
+🧙‍♂️  Ek olarak buradaki yöntemi de deneyebilirsin.
+{% endhint %}
 
 #### ✍ PDF için Markdown Imzam
 

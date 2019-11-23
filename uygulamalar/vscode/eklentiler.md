@@ -2,7 +2,7 @@
 description: "VsCode üzerinde üretkenliğinizi \U0001F6EB uçuracak eklentiler."
 ---
 
-# 🔌 Eklentiler
+# 🔌 VsCode Eklentileri
 
 ## 🎇 Önerilenler
 

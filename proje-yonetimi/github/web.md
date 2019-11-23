@@ -18,7 +18,8 @@ description: Web üzerinden GitHub kullanımı
 
 Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile açabilirsin.
 
-{% embed url="https://www.gitpod.io/" %}
+* Öncelikle [Gitpod](https://www.gitpod.io/) üzerinden kayıt olun
+* Ardından [Gitpod Chrome](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki?hl=tr) eklentisini indirin
 
 ## ⏫ Dosya Yükleme
 

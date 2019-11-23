@@ -2,7 +2,7 @@
 description: VsCode kısayolları
 ---
 
-# 💫 Kısayollar
+# 💫 VsCode Kısayolları
 
 ## 🌟 Sık Kullanılanlar
 

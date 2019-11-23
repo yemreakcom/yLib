@@ -4,7 +4,7 @@ description: 'Projelerde yapılacak iş ve rotasyon önceden belirlenir, gidişa
 
 # 👨‍💼 Projelerin Kontrolü
 
-## Kaynak Kod Odaklı Proje Yönetimi
+## 👨‍💻 Kaynak Kod Odaklı Proje Yönetimi
 
 Çok kişi ile yapılan projelerde her konuyu birbirimize anlatmak vakit kaybıdır, bu sebeple herkesin sadece kendi işi ile uğraşacağı yapı kurulmalıdır.
 
@@ -15,7 +15,7 @@ description: 'Projelerde yapılacak iş ve rotasyon önceden belirlenir, gidişa
   * Yapacağı işlemlerin detaylarını çok fazla anlatmadan istenen veri hakkında bilgi verilmelidir. \(Vakit kaynını engeller\)
 * Projenin en üst kısmında değiştirlebilir veriler saklanmalı ve switch yapısı kurulmalıdır.
 
-### Proje Oluşturma & Güncelleme Yapısı
+### ✨ Proje Oluşturma & Güncelleme Yapısı
 
 Proje yönetimi için git kullanılması çok faydalıdır.
 
@@ -27,7 +27,7 @@ Proje yönetimi için git kullanılması çok faydalıdır.
 * **Merge Request** ile _master branch_ kısmına eklenme talebi oluşturulur.
 * Yönetici, talebi kontrol edip, onaylayarak projeye katar.
 
-> Küresel çalışma adına ingilizce dili tercih edilmektedir.
+> Küresel çalışma adına İngilizce tercih edilmektedir.
 
 #### Ufak Projeler için Branch \(Tam hazır değil\)
 
@@ -53,7 +53,7 @@ Büyük projelerdeki temel yapı `konu` / `detay veya dosya` şeklinde branch ol
 * sf/newBannerRow
 * feature/excelPhp
 
-### Model View Controller Yapısı
+### 🍱 Model View Controller Yapısı
 
 Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-orneklerle-mvc-nedir-anlayalim/) tıklayabilirsin.
 
@@ -71,18 +71,18 @@ Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-ornekl
 * **Controller** üzerinde bağlantılar oluşturulur.
 * **View** ile kullanıcıya sunulur.
 
-### Değişken İsimlendirmeleri
+### 💎 Değişken İsimlendirmeleri
 
 | İsim | Açıklama |
 | :--- | :--- |
 | `NAME`\_PREFİX | Veri tabanı ön eki. _Örn: DB\_PREFIX, BRANCH\_PREFIX_ |
 | Flag | Checkbox gibi boolean değerleri tutan değişkenlerin adıdır |
 
-## Faydalı Yazılımlar
+## 📦 Faydalı Yazılımlar
 
 Eklentileri ile meşhur olan `VsCode` yazılımı tavsiye edilir.
 
-### Yönetim Uygulamaları & Siteleri
+### 👨‍💼 Yönetim Uygulamaları & Siteleri
 
 | Uygulama İsmi | Açıklama |
 | :--- | :--- |
@@ -91,7 +91,7 @@ Eklentileri ile meşhur olan `VsCode` yazılımı tavsiye edilir.
 | [Asana](https://asana.com/) | Proje yönetimi & Yapılacaklar Aşaması & İş aktarımı / eşleme |
 | [Slack](https://slack.com/) | Takım yönetimi |
 
-### Web programlama
+### 🌍 Web programlama
 
 | Uygulama İsmi | Açıklama |  |
 | :--- | :--- | :--- |

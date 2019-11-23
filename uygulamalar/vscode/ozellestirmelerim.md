@@ -2,7 +2,7 @@
 description: VsCode'daki değişiklerim
 ---
 
-# ✨ Özelleştirmelerim
+# ✨ VsCode Özelleştirmelerim
 
 ## 📋 Tüm Ayarlarım
 

@@ -2,7 +2,7 @@
 description: VsCode dünyasına giriş
 ---
 
-# 🔰 Giriş
+# 🔰 VsCode'a Giriş
 
 ## 💙 VsCode için Önemli Notlar
 
@@ -24,9 +24,7 @@ Debug ayarlarına erişmek için:
 
 ## 🚀 GitHub projelerini VsCode ile açma
 
-Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile açabilirsin.
-
-{% embed url="https://www.gitpod.io/" %}
+Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile çalıştırmak için [buraya](../../proje-yonetimi/github/web.md#repoyu-vscode-ile-acma) bakabilirsin
 
 ## 🔗 Harici Bağlantılar
 

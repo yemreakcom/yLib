@@ -2,7 +2,7 @@
 description: VsCode eklentileri olan VSIX yazılımlarını programlama
 ---
 
-# 👨‍💻 Eklenti \(VSIX\) Programlama
+# 👨‍💻 VsCode Eklentisi \(VSIX\) Programlama
 
 ## 🧱 Temel Gereksinimler
 

@@ -93,9 +93,9 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerinden katkıda bulunabilirsin.
 
 * Katkı sağlama işlemi GitHub hesabı gerektirir.
-* Güncel bilgiler için [🌍 GitHub Web](proje-yonetimi/github/github-web.md) yazıma bakabilirsin
+* Güncel bilgiler için [🌍 GitHub Web](proje-yonetimi/github/web.md) yazıma bakabilirsin
 
-{% page-ref page="proje-yonetimi/github/github-web.md" %}
+{% page-ref page="proje-yonetimi/github/web.md" %}
 
 ## 👨‍💻 Geliştirici Notları
 

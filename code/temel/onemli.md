@@ -38,7 +38,7 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 
 ## 🔗 Ek bağlantılar
 
-{% page-ref page="../../proje-yonetimi/github/github-giris.md" %}
+{% page-ref page="../../proje-yonetimi/github/giris.md" %}
 
 
 

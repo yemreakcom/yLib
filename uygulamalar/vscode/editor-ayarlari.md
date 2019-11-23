@@ -2,7 +2,7 @@
 description: VsCode editörünü özelleştirme
 ---
 
-# 🔆 Editör Ayarları
+# 🔆 VsCode Editör Ayarları
 
 ## 👮‍♂️ Editör Ayarlarına Erişim
 

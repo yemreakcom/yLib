@@ -2,9 +2,9 @@
 description: VsCode editörünü özelleştirme
 ---
 
-# 🔆 Vscode Editör Ayarları
+# 🔆 Editör Ayarları
 
-## Editör Ayarlarına Erişim
+## 👮‍♂️ Editör Ayarlarına Erişim
 
 Sol alt köşedeki **ayarlar simgesi**'ne tıklayarak ayarlara erişebilirsin
 
@@ -17,7 +17,7 @@ Sol alt köşedeki **ayarlar simgesi**'ne tıklayarak ayarlara erişebilirsin
 * macOS: `$HOME/Library/Application Support/Code/User/settings.json`
 * Linux: `$HOME/.config/Code/User/settings.json`
 
-## Editör Değişkenleri
+## 💎 Editör Değişkenleri
 
 Değişkenlerin kullanım şekilleri:
 
@@ -34,7 +34,7 @@ Değişkenlerin kullanım şekilleri:
 
 > Tüm değişkenlere [buradan](https://code.visualstudio.com/docs/editor/variables-reference) erişebilirsin.
 
-## Harici Bağlantılar
+## ✨ Faydalı Yazılar
 
-* [Kişisel ayarlarım]()
+{% page-ref page="ozellestirmelerim.md" %}
 

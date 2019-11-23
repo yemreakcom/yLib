@@ -2,13 +2,13 @@
 description: "VsCode üzerinde üretkenliğinizi \U0001F6EB uçuracak eklentiler."
 ---
 
-# 🔌 VsCode Eklentileri
+# 🔌 Eklentiler
 
-## 🎇 Önerilen Eklentiler
+## 🎇 Önerilenler
 
 Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/here-are-some-super-secret-vs-code-hacks-to-boost-your-productivity-20d30197ac76/) tıklamanda fayda var.
 
-## 📈 Verimlilik ve Görsellik Eklentileri
+## 📈 Verimlilik ve Görsellik
 
 | Eklenti | Açıklama |
 | :--- | :--- |
@@ -19,7 +19,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [✨ Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) | Parantezleri karışmasın diye renklendirir |
 | [🍁 gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) | Gitignore dosyasını otomatik oluşturur |
 
-### ❔ Duruma Göre İhtiyaç Duyulabilecek Eklentiler
+### ❔ Duruma Göre İhtiyaç Duyulabilecek
 
 | Eklenti | Açıklama |
 | :--- | :--- |
@@ -40,7 +40,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [🔊 Live Share Audio](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-audio) | Anlık olarak ses paylaşma |
 | [👨‍💻 Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) | Uzak bilgisayarlarda metni VsCode ile açma |
 
-## 👨‍💻 Programlama Eklentileri
+## 👨‍💻 Programlama
 
 > **CodeSnippets**, **Scratchpad** ve **Fira Code**'a bakmayı unutma
 
@@ -54,7 +54,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [✨ Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | Renk kodlarını daha belirgin gösterir |
 | [◼ DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenvs) | `.env` uzantılı dosyalar için vscode desteği sağlar |
 
-### 📄 Markdown Eklentileri
+### 📄 Markdown
 
 | Eklenti | Açıklama |
 | :--- | :--- |
@@ -63,7 +63,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [📃 Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) | Markdown'u PDF'e çevirme |
 | [📋 Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) | Panodan resim kopyalama |
 
-### 🐍 Python Eklentileri
+### 🐍 Python
 
 | Eklenti | Açıklama |
 | :--- | :--- |
@@ -71,7 +71,7 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [🤖 Kite](https://marketplace.visualstudio.com/items?itemName=kiteco.kite) | \[IntelliCode ☆\]'dan daha iyi python'a odaklı **yapay zeka** |
 | [⏯ AREPL For Python](https://marketplace.visualstudio.com/items?itemName=almenon.arepl) | Anlık python çalıştırıcısı |
 
-### 📜 Javascript Eklentileri
+### 📜 Javascript
 
 | Eklenti | Açıklama |
 | :--- | :--- |

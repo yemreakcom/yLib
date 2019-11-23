@@ -14,6 +14,12 @@ description: Web üzerinden GitHub kullanımı
 Özellikle **yüksek boyutlu veya hızlıca düzenleme** yapmak istediğin projelerde faydalı olur.
 {% endhint %}
 
+## 🚀 Repoyu VsCode ile açma
+
+Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile açabilirsin.
+
+{% embed url="https://www.gitpod.io/" %}
+
 ## ⏫ Dosya Yükleme
 
 GitHub üzerine dosya yükleme işlemi videosu:

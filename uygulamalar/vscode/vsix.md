@@ -1,8 +1,8 @@
 ---
-description: VsCode eklentileri VSIX olarak adlandırılır
+description: VsCode eklentileri olan VSIX yazılımlarını programlama
 ---
 
-# 👨‍💻 Vscode Eklentisi VSIX Programlama
+# 👨‍💻 Eklenti \(VSIX\) Programlama
 
 ## 🧱 Temel Gereksinimler
 
@@ -42,10 +42,10 @@ VSCode'un resmi sitesindeki [Publishing Extension](https://code.visualstudio.com
 
 ## 🖤 Eklentiyi Komut İsteminden Paylaşma
 
-* Token'iniz yoksa, [🔑 Token Oluşturma](vscode-eklentisi-vsix-programlama.md#token-olusturma) adımından token oluşturun
+* Token'iniz yoksa, [🔑 Token Oluşturma](vsix.md#token-olusturma) adımından token oluşturun
 * `vsce login <id>`
   * Kopyaladığınız **ID**'yi yapıştırın
-* Package json'u [📜 Package JSON Örneği](vscode-eklentisi-vsix-programlama.md#package-json-oernegi) gibi ayarların
+* Package json'u [📜 Package JSON Örneği](vsix.md#package-json-oernegi) gibi ayarların
 * `vsce publish` ile eklentiyi [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'e gönderebilirsiniz
   * `vscode publish minor` ile versiyonu arttırarak gönderirsiniz
 

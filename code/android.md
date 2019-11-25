@@ -1,8 +1,8 @@
 ---
-description: "\U0001F4F2 Android programlama notlarım"
+description: 📲 Android programlama notlarım
 ---
 
-# 📱 Android
+# 📱 YAndroid
 
 * [📱 YAndroid](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
@@ -16,8 +16,11 @@ description: "\U0001F4F2 Android programlama notlarım"
 * [🧐 Component İsimleri](https://android.yemreak.com/temel-kavramlar/component-isimleri)
 * [💾 Veri Saklama Yöntemleri](https://android.yemreak.com/temel-kavramlar/veri-saklama-yoentemleri)
 * [🎪 Android'de Animasyonlar](https://android.yemreak.com/temel-kavramlar/androidde-animasyonlar)
+* [👮‍♂️ İzinlerin Yönetimi](https://android.yemreak.com/temel-kavramlar/izinlerin-yoenetimi)
+* [💫 AsyncTask ve AsyncTaskLoader](https://android.yemreak.com/temel-kavramlar/asynctask-ve-asynctaskloader)
 * [🌄 Arkaplan'da Çalışma](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/)
-  * [💫 AsyncTask ve AsyncTaskLoader](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/asynctask-ve-asynctaskloader)
+  * [🔰 Android Servislerine Giriş](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/android-servisleri)
+  * [🌞 Foreground Service](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/foreground-service)
   * [🌠 MultiThreading](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/multithreading)
 
 ## Faydalı Bilgiler
@@ -28,6 +31,7 @@ description: "\U0001F4F2 Android programlama notlarım"
 * [👜 Google Play Store](https://android.yemreak.com/faydali-bilgiler/google-play-store)
 * [🚧 Proje İşlemleri](https://android.yemreak.com/faydali-bilgiler/proje-islemleri)
 * [🐛 Hata Notları](https://android.yemreak.com/faydali-bilgiler/hata-notlari)
+* [🤖 Android Things](https://android.yemreak.com/faydali-bilgiler/android-things)
 * [🔗 Karışık Bağlantılar](https://android.yemreak.com/faydali-bilgiler/karisik-baglantilar)
 * [🥴 Düzensiz Notlar](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/)
   * [🔰 Giriş](https://android.yemreak.com/faydali-bilgiler/duezensiz-notlar/giris)

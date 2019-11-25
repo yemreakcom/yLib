@@ -1,5 +1,5 @@
 ---
-description: "\U0001F40D Python notlarım"
+description: 🐍 Python notlarım
 ---
 
 # 🐍 Python

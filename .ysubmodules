@@ -1,12 +1,12 @@
-[submodule "programlama-notlari/python.md"]
+[submodule "code/python.md"]
 	description = 🐍 Python notlarım
-	path = programlama-notlari/python.md
+	path = code/python.md
 	url = https://github.com/YEmreAk/YPython
 	root = https://python.yemreak.com
 
-[submodule "isletim-sistemi-notlari/windows-10-notlari.md"]
+[submodule "os/windows-10.md"]
 	description = 🎇 Windows 10 notlarım
-	path = isletim-sistemi-notlari/windows-10-notlari.md
+	path = os/windows-10.md
 	url = https://github.com/YEmreAk/YWindows10
 	root = https://windows.yemreak.com
 
@@ -24,13 +24,19 @@
 
 [submodule "programlama-notlari/android.md"]
 	description = 📲 Android programlama notlarım
-	path = programlama-notlari/android.md
+	path = code/android.md
 	url = https://github.com/YEmreAk/YAndroid
 	root = https://android.yemreak.com
 
-[submodule "istanbul-university-ce.md"]
+[submodule "os/linux.md"]
+	description = 🐧 Linux Notlarım
+	path = os/linux.md
+	url = https://github.com/YEmreAk/YLinux
+	root = https://linux.yemreak.com
+
+[submodule "iuc-ce.md"]
 	description = 🏫 Üniversitedeki notlar
-	path = istanbul-university-ce.md
+	path = iuc-ce.md
 	url = https://github.com/YEmreAk/IstanbulUniversity-CE
 	root = https://iuce.yemreak.com
 

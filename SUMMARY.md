@@ -14,6 +14,7 @@
   * [💡 Aydınlatma](yazilar/aydinlatma.md)
   * [🎨 Tasarım Notları](yazilar/tasarim-notlari.md)
 * [👨‍🔬 Kişisel Araştırmalarım](arastirmalar/README.md)
+  * [📶 Nesnelerin İnterneti \(IoT\)](arastirmalar/nesnelerin-interneti-iot.md)
   * [👨‍💻 Çocuklar için Programlama](arastirmalar/cocuklar-icin-programlama.md)
   * [💳 Pasaport İşlemleri](arastirmalar/pasaport-islemleri.md)
   * [🔢 Asal Sayılar](arastirmalar/asal-sayilar.md)

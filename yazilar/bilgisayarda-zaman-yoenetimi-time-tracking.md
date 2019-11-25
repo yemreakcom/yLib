@@ -49,7 +49,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
 
-![ManicTime](../.gitbook/assets/image%20%2821%29.png)
+![ManicTime](../.gitbook/assets/image%20%2822%29.png)
 
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 
@@ -63,7 +63,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2848%29.png)
+![ActivityWatch](../.gitbook/assets/image%20%2849%29.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -76,7 +76,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2834%29.png)
+![RescueTime](../.gitbook/assets/image%20%2835%29.png)
 
 ## 😒 Beğenmediklerim
 
@@ -95,7 +95,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çeşitli entegrasyon destekleri mevcut lakin denemedim
 
-![DueFocus](../.gitbook/assets/image%20%2813%29.png)
+![DueFocus](../.gitbook/assets/image%20%2814%29.png)
 
 ### 🅿 [Pendulums](https://pendulums.io/)
 
@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2865%29.png)
+![Pendulums](../.gitbook/assets/image%20%2866%29.png)
 
 ### 📦 Diğerleri
 

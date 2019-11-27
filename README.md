@@ -12,7 +12,7 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
   * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
-* Tüm emojiler [🚀 YEmoji](https://learn.yemreak.com/yonetim/yemoji) sözlüğüne uygun olarak seçilmektedir
+* Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
 
 > Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
 

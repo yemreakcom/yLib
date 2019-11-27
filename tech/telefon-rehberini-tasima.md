@@ -23,5 +23,5 @@ Csv dosyasını vcard uygulmasına dönüştürdek sonra `.vcf` uzantılı dosay
 
 > Yeni `.vcf` dosyası `.csv` dosyasının yanına oluşacaktır.
 
-![CSV&apos;den VCarf&apos;a &#xE7;evirme](../.gitbook/assets/image%20%2828%29.png)
+![CSV&apos;den VCarf&apos;a &#xE7;evirme](../.gitbook/assets/image%20%2830%29.png)
 

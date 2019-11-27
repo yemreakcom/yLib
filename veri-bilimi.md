@@ -1,5 +1,5 @@
 ---
-description: 📊 Veri bilimi notlarım
+description: "\U0001F4CA Veri bilimi notlarım"
 ---
 
 # 📊 Veri Bilimi

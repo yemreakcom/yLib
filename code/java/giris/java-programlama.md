@@ -8,7 +8,7 @@ description: Java ile ilk programı oluşturma
 
 Programlamaya başlamanın olmazsa olmazlarından biri de _consola_ `"Merhaba Dünya"` \(`"Hello World"`\) yazdırmaktır, o halde biz de bu geleneği bozmadan başlayalım 😊
 
-![&#x130;lk program&#x131; olu&#x15F;turma](../../../.gitbook/assets/image%20%2869%29.png)
+![&#x130;lk program&#x131; olu&#x15F;turma](../../../.gitbook/assets/image%20%2875%29.png)
 
 > Bu yazımda **NetBeans** tabanlı ilerleyeceğim, eğer _NetBeans_ kullanmak istiyorsan [buraya](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/1%20-%20Programlama%20Notlar%C4%B1/2%20-%20Java/1%20-%20Java%27ya%20Giri%C5%9F/NetBeans%20Kurulumu.md) tıklayarak _NetBeans_ kurulum talimatlarına ve proje açılımına bakabilirsin.
 

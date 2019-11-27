@@ -1,5 +1,5 @@
 ---
-description: 🧠 Yapay zeka notlarım
+description: "\U0001F9E0 Yapay zeka notlarım"
 ---
 
 # 🧠 Yapay Zeka

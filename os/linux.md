@@ -1,8 +1,8 @@
 ---
-description: 🐧 Linux Notlarım
+description: "\U0001F427 Linux Notlarım"
 ---
 
-# 🐧 YLinux
+# 🐧 Linux Notları
 
 * [🐧 YLinux](https://linux.yemreak.com/)
 * [🌟 Faydalı Uygulamalar](https://linux.yemreak.com/uygulamalar)
@@ -44,3 +44,4 @@ description: 🐧 Linux Notlarım
 * [📕 Git Notları](https://book.git.yemreak.com/)
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
+

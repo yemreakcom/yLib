@@ -121,6 +121,12 @@ Eklenti sitesi için [buraya](https://github.com/ashald/EnvFile/blob/develop/REA
 
 ## Faydalı Ayarlar
 
+### Editör Kaydırması
+
+* JetBrains varsayılan olarak son satırdan aşağısına inmez
+* Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
+* Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
+
 ### Font Ayarları
 
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` kısmında

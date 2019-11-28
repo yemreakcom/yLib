@@ -127,6 +127,10 @@ Eklenti sitesi için [buraya](https://github.com/ashald/EnvFile/blob/develop/REA
 * Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
 * Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
 
+{% hint style="info" %}
+🧙‍♂️ Detaylar için [Scroll Past End Of File](https://intellij-support.jetbrains.com/hc/en-us/community/posts/205814379/comments/205997989) bağlantısına bakabilirsin
+{% endhint %}
+
 ### Font Ayarları
 
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` kısmında

@@ -20,11 +20,11 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🐈 Scratch](https://scratch.mit.edu/)
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 
 ### [🤺 CodeCombat](https://codecombat.com/play)
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 ### [👨‍🎓 Code Master](https://www.thinkfun.com/play-online/code-master/)
 
@@ -32,11 +32,11 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🤖 RoboZZle](http://www.robozzle.com/)
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 ### [🧩 Blockly](https://blockly.games/?lang=en)
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 ## 🔗 Kaynaklar
 

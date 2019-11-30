@@ -5,6 +5,7 @@
 * [🚀 Emoji Sözlüğüm](https://learn.yemreak.com/yonetim/yemoji)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](yazilar/README.md)
+  * [🐈 Scratch Notlarım](yazilar/scratch-notlarim.md)
   * [🚀 Microsoft Student Partnership](yazilar/microsoft-student-partnership.md)
   * [💸 Ücretsiz Avantajlar](yazilar/uecretsiz-avantajlar.md)
   * [🤖 Instagram Bot](yazilar/instagram-bot.md)

@@ -43,3 +43,8 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 📢 Adlandırmalar kardeşime aittir 😅
 {% endhint %}
 
+## 🧒 Kardeşimle Yaptığım Oyunlar
+
+* [🌊 Sahilde savaş - Yeni](https://scratch.mit.edu/projects/349533804/fullscreen/)
+* [🏹 Ok yağmuru](https://scratch.mit.edu/projects/349611157/fullscreen/)
+

@@ -4,6 +4,12 @@ description: Scratch'i etkili kullanma üzerine notlarım
 
 # 🐈 Scratch
 
+## 🔰 Önemli Hususlar
+
+* 📢 Tüm işlemler **haberlerle** yapılmalı
+* 👯‍♀️ Kopyalama işlemleri yerine **ikizini al** işlemi yapılmalı
+* 🧩 Tekrarlı kodlar **blok** olarak tanımlanmalı
+
 ## ‍🎮 Yönetim İşlemleri
 
 * 🌇 Tüm yönetimler **sahne** üzerinde olmalı ve **haber** yayınlamalı
@@ -13,6 +19,7 @@ description: Scratch'i etkili kullanma üzerine notlarım
   * 💫 Sonsuza kadar çünkü her an bir tuşa basılabilir
 * 🚩 **Tuş basıldı mı** kontrolü ile **Eğer** yapısı kullanılmalıdır
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
+  * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
 ### ⭐ Yönetim Örneği
 

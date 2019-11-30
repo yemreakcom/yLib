@@ -4,12 +4,12 @@ description: GitBook'u GitHub'tan farklı kılan yönler.
 
 # 🌟 GitBook Farklılıkları
 
-## 🚀 Önemli Notlar
+## 🚀 Önemli Ayrıcalıkları
 
 * 🔍 Tüm dokümanda **kelimesi kelimesine arama özelliği** sayesinde aradığını çok rahat bulabilirsin
 * 📑 **Online editörü** ile markdown yazmakla uğraşmana gerek kalmaz
 * ✨ Dokümanlarını **daha görsel** bir arayüzde sunarsın
-* 📂 **Tab yapısı** ile birden fazla notu daha görsel bir arayüzle sunabilirsin
+* 📂 **Tab yapısı** ile birden fazla notu daha görsel bir arayüzle sunabilirsin, üstelik arama özelliği ile
 * 🎴 [**Embed**](https://docs.gitbook.com/editing-content/embeds) ****destekleri sayesinde **📺 video, 📃 makale, 👨‍💻 gist hatta 🎶 müzik** bile paylaşabilirsin
 * 💫 Kaynakları \(resim, PDF vs\) **GitHub üzerinden otomatik** olarak bağlamaktadır
 
@@ -32,8 +32,8 @@ GitBook için yazmış [YPackage](https://github.com/yedhrab/YPackage#-entegrasy
 * 📑 `SUMMARY.md` ile sol kenarda gösterilen dizin yapısını düzenleme
 * 📄 `README.md`'yi otomatik olarak algılama
 * 🧮 Matematiksel formül formatı olarak bilinen `latex` formatını `$$a=1$$`
-  * `$$$$ a $$$$` yapısını da destekler
-  * Özetle `$` yerine `$$` kullanmanız gerekmekte
+  * 👌 `$$$$ a $$$$` yapısını da destekler 
+  * 💁‍♂️ Özetle `$` yerine `$$` kullanmanız gerekmekte
 * 📜 `.bookignore` ile GitHub'dan aktarılmayacak dosyaları belirleme
 
 ## 💡 Bilmen Gerekenler

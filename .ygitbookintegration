@@ -1,53 +1,51 @@
 [integration "pre"]
-	args = "-u"
+args = -usp
 
 [submodule "programlama/python.md"]
-	description = Python notlarım
-	path = programlama/python.md
-	url = https://github.com/YEmreAk/YPython
-	root = https://python.yemreak.com
+description = Python notlarım
+path = programlama/python.md
+url = https://github.com/YEmreAk/YPython
+root = https://python.yemreak.com
 
 [submodule "os/windows-10.md"]
-	description = Windows 10 notlarım
-	path = os/windows-10.md
-	url = https://github.com/YEmreAk/YWindows10
-	root = https://windows.yemreak.com
+description = Windows 10 notlarım
+path = os/windows-10.md
+url = https://github.com/YEmreAk/YWindows10
+root = https://windows.yemreak.com
 
 [submodule "yapay-zeka.md"]
-	description = Yapay zeka notlarım
-	path = yapay-zeka.md
-	url = https://github.com/YEmreAk/YArtificialIntelligence
-	root = https://ai.yemreak.com
+description = Yapay zeka notlarım
+path = yapay-zeka.md
+url = https://github.com/YEmreAk/YArtificialIntelligence
+root = https://ai.yemreak.com
 
 [submodule "veri-bilimi.md"]
-	description = Veri bilimi notlarım
-	path = veri-bilimi.md
-	url = https://github.com/YEmreAk/YDataScience
-	root = https://ds.yemreak.com
+description = Veri bilimi notlarım
+path = veri-bilimi.md
+url = https://github.com/YEmreAk/YDataScience
+root = https://ds.yemreak.com
 
 [submodule "programlama-notlari/android.md"]
-	description = Android programlama notlarım
-	path = programlama/android.md
-	url = https://github.com/YEmreAk/YAndroid
-	root = https://android.yemreak.com
+description = Android programlama notlarım
+path = programlama/android.md
+url = https://github.com/YEmreAk/YAndroid
+root = https://android.yemreak.com
 
 [submodule "programlama-notlari/java.md"]
-	description = Java notlarım
-	path = programlama/java.md
-	url = https://github.com/YEmreAk/YJava
-	root = https://java.yemreak.com
+description = Java notlarım
+path = programlama/java.md
+url = https://github.com/YEmreAk/YJava
+root = https://java.yemreak.com
 
 [submodule "os/linux.md"]
-	description = Linux Notlarım
-	path = os/linux.md
-	url = https://github.com/YEmreAk/YLinux
-	root = https://linux.yemreak.com
+description = Linux Notlarım
+path = os/linux.md
+url = https://github.com/YEmreAk/YLinux
+root = https://linux.yemreak.com
 
 [submodule "iuc-ce.md"]
-	description = Üniversitedeki notlar
-	path = iuc-ce.md
-	url = https://github.com/YEmreAk/IstanbulUniversity-CE
-	root = https://iuce.yemreak.com
-
-
+description = Üniversitedeki notlar
+path = iuc-ce.md
+url = https://github.com/YEmreAk/IstanbulUniversity-CE
+root = https://iuce.yemreak.com
 

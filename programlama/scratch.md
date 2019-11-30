@@ -2,7 +2,7 @@
 description: Scratch'i etkili kullanma üzerine notlarım
 ---
 
-# 🐈 Scratch Notlarım
+# 🐈 Scratch
 
 ## ‍🎮 Yönetim İşlemleri
 

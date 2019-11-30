@@ -17,7 +17,7 @@ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 **Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
 {% endhint %}
 
-{% page-ref page="code/yardimci/markdown.md" %}
+{% page-ref page="programlama/yardimci/markdown.md" %}
 
 ## 👷‍ Sayfaların Tasarımı ve Notların Tutulma Yapısı
 
@@ -86,7 +86,7 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 * Kodlar \`\`\` arasına yazılmalı
 * Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
 
-{% page-ref page="code/yardimci/markdown.md" %}
+{% page-ref page="programlama/yardimci/markdown.md" %}
 
 ## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
 

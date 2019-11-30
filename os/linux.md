@@ -1,8 +1,8 @@
 ---
-description: "\U0001F427 Linux Notlarım"
+description: Linux Notlarım
 ---
 
-# 🐧 Linux Notları
+# 🐧 YLinux
 
 * [🐧 YLinux](https://linux.yemreak.com/)
 * [🌟 Faydalı Uygulamalar](https://linux.yemreak.com/uygulamalar)
@@ -19,6 +19,7 @@ description: "\U0001F427 Linux Notlarım"
   * [👷‍♂️ Uygulama Kurulumları](https://linux.yemreak.com/terminal/kurulumlar)
   * [⏬ Terminal İndiricileri](https://linux.yemreak.com/terminal/indiriciler)
   * [✨ Diğer Terminal Notları](https://linux.yemreak.com/terminal/diger)
+  * [🎨 Terminal Teması](https://linux.yemreak.com/terminal/tema)
 * [👨‍🔧 Yapılandırma Ayarları](https://linux.yemreak.com/yapilandirma)
 * [👨‍💻 Geliştirici Notları](https://linux.yemreak.com/gelistirici/)
   * [👨‍💼 Pencere Yönetimi](https://linux.yemreak.com/gelistirici/pencere-yonetimi)

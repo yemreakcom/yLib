@@ -1,18 +1,18 @@
 ---
-description: "\U0001F387 Windows 10 notlarım"
+description: Windows 10 notlarım
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 YWindows 10
 
 * [🎇 YWindows 10](https://windows.yemreak.com/)
 
 ## Harici Kaynaklar <a id="harici"></a>
 
 * [🥽 Awesome Windows](https://windows.yemreak.com/harici/awesome)
-* [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/kurulum)
-* [⚡ Bilgisayarı Hızlandırma](https://windows.yemreak.com/hizlandirma)
-* [🌈 Faydalı Uygulamalar](https://windows.yemreak.com/uygulamalar)
-* [📂 Dosya Gezginini Geliştirme](https://windows.yemreak.com/dosya-gezginini-gelistirme)
+* [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/harici/kurulum)
+* [⚡ Bilgisayarı Hızlandırma](https://windows.yemreak.com/harici/hizlandirma)
+* [🌈 Faydalı Uygulamalar](https://windows.yemreak.com/harici/uygulamalar)
+* [📂 Dosya Gezginini Geliştirme](https://windows.yemreak.com/harici/dosya-gezginini-gelistirme)
 
 ## Giriş
 

@@ -1,8 +1,8 @@
 ---
-description: "\U0001F4F2 Android programlama notlarım"
+description: Android programlama notlarım
 ---
 
-# 📱 Android
+# 📱 YAndroid
 
 * [📱 YAndroid](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
@@ -22,6 +22,8 @@ description: "\U0001F4F2 Android programlama notlarım"
   * [🔰 Android Servislerine Giriş](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/android-servisleri)
   * [🌞 Foreground Service](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/foreground-service)
   * [🌠 MultiThreading](https://android.yemreak.com/temel-kavramlar/arkaplanda-calisma/multithreading)
+* [📶 Kablosuz Haberleşme](https://android.yemreak.com/temel-kavramlar/kablosuz-haberlesme/)
+  * [📶 WiFi P2P](https://android.yemreak.com/temel-kavramlar/kablosuz-haberlesme/wifi)
 
 ## Faydalı Bilgiler
 

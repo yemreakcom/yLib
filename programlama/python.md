@@ -1,5 +1,5 @@
 ---
-description: "\U0001F40D Python notlarım"
+description: Python notlarım
 ---
 
 # 🐍 Python
@@ -28,10 +28,15 @@ description: "\U0001F40D Python notlarım"
   * [📂 Dizin İşlemleri \(Dir\)](https://python.yemreak.com/dosya-islemleri/dizin-islemleri-dir)
   * [🚩 Yol İşlemleri \(Path\)](https://python.yemreak.com/dosya-islemleri/yol-islemleri-path)
   * [📄 Raporlama İşlemleri \(Logging\)](https://python.yemreak.com/dosya-islemleri/raporlama-islemleri-logging)
-* [🔆 Arayüz Oluşturma](https://python.yemreak.com/arayuez-olusturma/)
-  * [🖤 Komut İstemi \(CLI\)](https://python.yemreak.com/arayuez-olusturma/cli)
-  * [🚀 Görsel Arayüz](https://python.yemreak.com/arayuez-olusturma/gui)
-  * [📈 Grafik Çizimleri](https://python.yemreak.com/arayuez-olusturma/grafik-cizimleri)
+* [🖤 Komut İstemi \(CLI\)](https://python.yemreak.com/cli/)
+  * [👨‍💼 Komut İstemi Yönetim](https://python.yemreak.com/cli/komut-istemi-yoenetim)
+  * [✨ Argparse](https://python.yemreak.com/cli/argparse)
+  * [🌊 Argparse Nargs](https://python.yemreak.com/cli/argparse-nargs)
+  * [💠 Argparse Action](https://python.yemreak.com/cli/argparse-action)
+  * [⭐ Argparse Örnekleri](https://python.yemreak.com/cli/argparse-oernekleri)
+* [🔆 Grafiksel Arayüzler](https://python.yemreak.com/gui/)
+  * [👨‍💻 Görsel Programlama](https://python.yemreak.com/gui/programlama)
+  * [📈 Grafik Çizimleri](https://python.yemreak.com/gui/grafik-cizimleri)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yoenetimi)
   * [💫 Thread ve MultiProcessing](https://python.yemreak.com/diger/thread-ve-multiprocessing)

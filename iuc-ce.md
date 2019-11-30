@@ -1,5 +1,5 @@
 ---
-description: 🏫 Üniversitedeki notlar
+description: Üniversitedeki notlar
 ---
 
 # 🏫 Istanbul University - CE

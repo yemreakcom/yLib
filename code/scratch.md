@@ -16,7 +16,7 @@ description: Scratch'i etkili kullanma üzerine notlarım
 
 ### ⭐ Yönetim Örneği
 
-Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/349533804/) oyununa aittir, bağlantıya tıklayıp 👀 **İçine Bak** butonundan bloklara bakabilirsin
+Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/349533804/) oyununa aittir, bağlantıya tıklayıp [👀 **İçine Bak**](https://scratch.mit.edu/projects/349533804/editor/) butonundan bloklara bakabilirsin
 
 {% tabs %}
 {% tab title="🌇 Sahne" %}

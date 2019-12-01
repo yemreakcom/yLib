@@ -14,10 +14,11 @@ description: Yapay zeka destekli kod önerisi uygulması TabNine hakkında
 * [❔ TabNine FAQ](https://tabnine.com/faq#simple) alanında aklına takılan soruların cevaplarını bulabilirsin
 * 🐙 GitHub reposuna [TabNine](https://github.com/zxqfl/TabNine) bağlantısından erişebilirsin
 
-## 🔑 API Key Kullanımı
+## 👨‍🔧 TabNine'ı Yapılandırma
 
-* ⏺ Beta sürümüne kayıt olun
-* 🎌 Size gelen maildeki talimatları uygulayın
+* 👨‍💻 Editörünüzde herhangi bir yere `TabNine::config` yazdığınızda ayarlar sayfası açılacaktır
+* ⏺ Beta sürümüne kayıt olmanız durumunda API key alırsınız
+* 🎌 Beta sürümü için size gelen maildeki talimatları uygulayın
 
 ## 🔗 Faydalı Bağlantılar
 

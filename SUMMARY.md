@@ -15,7 +15,7 @@
   * [💡 Aydınlatma](yazilar/aydinlatma.md)
   * [🎨 Tasarım Notları](yazilar/tasarim-notlari.md)
 * [👨‍🔬 Kişisel Araştırmalarım](arastirmalar/README.md)
-  * [🤖 AI Destekli Kod Önerisi](arastirmalar/ai-destekli-kod-oenerisi.md)
+  * [🤖 AI ile Kod Tamamlama](arastirmalar/ai-ile-kod-tamamlama.md)
   * [👨‍💻 Çocuklar için Programlama](arastirmalar/cocuklar-icin-programlama.md)
   * [💳 Pasaport İşlemleri](arastirmalar/pasaport-islemleri.md)
   * [🔢 Asal Sayılar](arastirmalar/asal-sayilar.md)

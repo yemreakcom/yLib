@@ -18,6 +18,7 @@ description: Yapay zeka destekli kod önerisi uygulması TabNine hakkında
 
 * 👨‍💻 Editörünüzde herhangi bir yere `TabNine::config` yazdığınızda ayarlar sayfası açılacaktır
 * ⏺ Beta sürümüne kayıt olmanız durumunda API key alırsınız
+* 🔑 Fake hesapla aldığım `iotguksemfwggxtzrihpmvqethgstt` anahtarı kullanabilirsiniz
 * 🎌 Beta sürümü için size gelen maildeki talimatları uygulayın
 
 ## 🔗 Faydalı Bağlantılar

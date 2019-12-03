@@ -1,5 +1,5 @@
 ---
-description: "(\U0001F6A7) İngilizcemin gerçekten iyi olmadığını keşfettiğimde çıkardığım notlar"
+description: "İngilizcemin gerçekten iyi olmadığını keşfettiğimde çıkardığım notlar (\U0001F6A7)"
 ---
 
 # 👅 İngilizce Notlarım

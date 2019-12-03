@@ -1,5 +1,5 @@
 ---
-description: "Kendi cep telefonum \U0001F4F1 hakkında bildiklerimi derlediğim proje."
+description: Kendi cep telefonum hakkında bildiklerimi derlediğim proje.
 ---
 
 # 📱 Xiaomi Mi A2 Lite Notlarım

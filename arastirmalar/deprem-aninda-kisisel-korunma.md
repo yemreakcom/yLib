@@ -1,5 +1,5 @@
 ---
-description: "Deprem anında hayat üçgeni \U0001F4D0 ve önemi"
+description: Deprem anında hayat üçgeni ve önemi
 ---
 
 # 💒 Deprem Anında Kişisel Korunma

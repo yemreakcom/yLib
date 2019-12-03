@@ -1,5 +1,5 @@
 ---
-description: Scripting diller hakkında aldığım notlar ✍
+description: Scripting diller hakkında aldığım notlar
 ---
 
 # 👨‍💻 Scripting Languages

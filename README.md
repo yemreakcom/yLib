@@ -13,8 +13,7 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
 * Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
-
-> Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
+* Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
 
 {% hint style="success" %}
 Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.

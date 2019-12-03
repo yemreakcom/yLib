@@ -72,7 +72,7 @@
   * [📜 Javascript](web/javascript.md)
   * [🔶 JQuery](web/jquery.md)
   * [🐘 PHP](web/php.md)
-  * [🧬 React](web/react.md)
+  * [⚛️ React](web/react.md)
 * [🧠 Yapay Zeka](yapay-zeka.md)
 * [📊 Veri Bilimi](veri-bilimi.md)
 * [🏰 Proje Yönetimi](proje-yonetimi/README.md)

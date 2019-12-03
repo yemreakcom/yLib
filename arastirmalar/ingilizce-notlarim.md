@@ -7,6 +7,7 @@ description: "İngilizcemin gerçekten iyi olmadığını keşfettiğimde çıka
 ## 💎 Kavramlar
 
 * [💞 Duygular ve Hisler](https://ingilizcebankasi.com/ingilizce-duygular-ve-hisler-feelings-and-emotions/)
+* [👻 Emotions](https://www.english-at-home.com/vocabulary/english-word-for-emotions/)
 
 ## 🔍 İngilizce Kelime ve Cümle Arama
 

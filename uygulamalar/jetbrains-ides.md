@@ -1,3 +1,7 @@
+---
+description: IntelliJ IDEs ve Android Studio hakkında notlarım
+---
+
 # 🥦 Jetbrains IDEs
 
 ## Proje Dizinlerini yapılandırma

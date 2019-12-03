@@ -2,7 +2,7 @@
 
 * [📖 YWiki](README.md)
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
-* [🚀 Emoji Sözlüğüm](https://learn.yemreak.com/yonetim/yemoji)
+* [🚀 Emoji Sözlüğüm](https://emoji.yemreak.com)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](yazilar/README.md)
   * [📱 Xiaomi Mi A2 Lite Notlarım](yazilar/xiaomi-mi-a2-lite.md)

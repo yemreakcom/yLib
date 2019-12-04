@@ -24,6 +24,10 @@ VsCode'un emojileri ve özel karakterleri destekleyen türde dosya kaydetmesini 
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
+{% hint style="info" %}
+🧙‍♂️ İsterseniz direkt olarak `CTRL + SHIFT + P` ile açılan komut penceresine **Save with Encoding** yazabilirsiniz
+{% endhint %}
+
 ## 🐛 Debug Ayarları
 
 Debug ayarlarına erişmek için:

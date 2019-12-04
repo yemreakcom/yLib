@@ -15,8 +15,12 @@
 
 ## 👨‍💻 Hızlı Örnekler
 
-```python
-regex = r"(?<!\w)\b[A-Z]+[\_]*[A-Z]*\b(?=\s)" # CONSTANT_VARIABLE bulma
-regex2 = r"\b(?<!\n)(?!MsgBox)([\w]+)(?=\()" # Çağırılan fonksiyonların isimlerini bulma
-```
+| 💎 Regex | 📑 Açıklama | ⭐ |
+| :--- | :--- | :--- |
+| `(?<!\w)\b[A-Z]+[\_]*[A-Z]*\b(?=\s)` | Büyük harf içeren değişkenleri bulma \(`Y_EMRE`\) | [🔗](https://regex101.com/r/fgHYX0/3) |
+| `\b(?<!\n)(?!MsgBox)([\w]+)(?=\()` | Çağrılan fonksiyonların isimlerini bulma | [🌍](https://regex101.com/r/fgHYX0/2/) |
+
+{% hint style="success" %}
+⭐ Örnekler için sağdaki emojilere tıklayabilirsin
+{% endhint %}
 

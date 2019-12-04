@@ -1,6 +1,6 @@
 # 🤯 Regex Gelişmiş Notlar
 
-## 👀 Hızlı Bakış
+## 👀 Hızlı Bakış‍
 
 * `!` eki olumsuzluk iken `=` eşitlik anlamındadır
 

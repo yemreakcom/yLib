@@ -27,15 +27,15 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 
 {% tabs %}
 {% tab title="🌇 Sahne" %}
-![](../.gitbook/assets/image%20%2829%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/image%20%2882%29.png)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 {% endtab %}
 {% endtabs %}
 

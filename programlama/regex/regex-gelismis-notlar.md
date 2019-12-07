@@ -19,6 +19,8 @@
 | :--- | :--- | :--- |
 | `(?<!\w)\b[A-Z]+[\_]*[A-Z]*\b(?=\s)` | Büyük harf içeren değişkenleri bulma \(`Y_EMRE`\) | [🔗](https://regex101.com/r/fgHYX0/3) |
 | `\b(?<!\n)(?!MsgBox)([\w]+)(?=\()` | Çağrılan fonksiyonların isimlerini bulma | [🌍](https://regex101.com/r/fgHYX0/2/) |
+| `^(?!.bar).$` | İçerisinde `bar` geçmeyen satırları bulma |  |
+| `(?<=\(\ |\,\ |\(|\,)\w+` |  |  |
 
 {% hint style="success" %}
 ⭐ Örnekler için sağdaki emojilere tıklayabilirsin

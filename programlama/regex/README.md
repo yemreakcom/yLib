@@ -52,5 +52,5 @@ Kullanım formatı `r""` \(python\) veya `/ /` \(javascript\) şeklindedir.![](h
 
 ## 🔗 Faydalı Bağlantılar
 
-{% embed url="https://regexr.com/" %}
+{% embed url="https://regex101.com/" %}
 

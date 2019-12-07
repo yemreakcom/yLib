@@ -114,7 +114,7 @@
 * [📦 Uygulama Notları](uygulamalar/README.md)
   * [👨‍💻 VsCode](uygulamalar/vscode/README.md)
     * [🔰 VsCode'a Giriş](uygulamalar/vscode/giris.md)
-    * [💎 VsCode Değişkenleri](uygulamalar/vscode/vscode-degiskenleri.md)
+    * [💎 VsCode Değişkenleri](uygulamalar/vscode/degiskenler.md)
     * [💫 VsCode Kısayolları](uygulamalar/vscode/kisayollar.md)
     * [🔌 VsCode Eklentileri](uygulamalar/vscode/eklentiler.md)
     * [🔆 VsCode Editör Ayarları](uygulamalar/vscode/editor-ayarlari.md)

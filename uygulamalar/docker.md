@@ -6,13 +6,14 @@ description: >-
 
 # 🐳 Docker
 
-## 🗽 Açıklama
+## 🔰 Docker'a Giriş
 
-Uygulamaları kendi PC'ne kurmak, kaldırmak, hatalarıyla veya artıklarıyla uğraşmak istemiyorsan, doğru konumdasın :\)
+* 😫 Uygulamaları kendi PC'ne kurmak, kaldırmak, hatalarıyla veya artıklarıyla uğraşmak istemiyorsan, doğru konumdasın :\)
+* 🌍 Docker'ın ana sayfası için [buraya](https://www.docker.com/) tıklayabilirsin
 
-* Docker'ın ana sayfası için [buraya](https://www.docker.com/) tıklayabilirsin.
-
-> Bu yazı detaylı anlatan blog yazısının özeti niteliğindedir, orijinali için [buraya](https://gokhansengun.com/docker-nedir-nasil-calisir-nerede-kullanilir/) tıklamanı tavsiye ederim.
+{% hint style="info" %}
+🧙‍♂️ Bu yazının kaynağı için [buraya](https://gokhansengun.com/docker-nedir-nasil-calisir-nerede-kullanilir/) bakabilirsin
+{% endhint %}
 
 ## ❔ Nedir ve Neden Kullanmalıyım?
 

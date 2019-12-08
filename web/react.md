@@ -2,7 +2,7 @@
 description: React üzerine çalışmalarım ve bilgilerim.
 ---
 
-# 🧬 React
+# ⚛️ React
 
 ## Neden React
 

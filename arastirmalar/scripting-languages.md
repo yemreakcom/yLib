@@ -1,5 +1,5 @@
 ---
-description: Scripting diller hakkında aldığım notlar ✍
+description: Scripting diller hakkında aldığım notlar
 ---
 
 # 👨‍💻 Scripting Languages
@@ -18,7 +18,7 @@ description: Scripting diller hakkında aldığım notlar ✍
 * Java, Python gibi diller **byte code** yapısını kullanır
 * C, C\# gibi diller **executable** \(`.exe`\) yapısını kullanır
 
-![Dillerin &#xE7;al&#x131;&#x15F;ma yap&#x131;s&#x131;](../.gitbook/assets/image%20%2866%29.png)
+![Dillerin &#xE7;al&#x131;&#x15F;ma yap&#x131;s&#x131;](../.gitbook/assets/image%20%2867%29.png)
 
 ## Scripting Özellikleri
 

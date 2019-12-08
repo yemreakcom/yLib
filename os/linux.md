@@ -2,7 +2,7 @@
 description: Linux Notlarım
 ---
 
-# 🐧 YLinux
+# 🐧 Linux Notları
 
 * [🐧 YLinux](https://linux.yemreak.com/)
 * [🌟 Faydalı Uygulamalar](https://linux.yemreak.com/uygulamalar)

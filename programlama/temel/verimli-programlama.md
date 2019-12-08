@@ -16,19 +16,19 @@ description: "Yazılan kodların çalışmasından sonraki en önemli özelliği
   * Eleman bulunamamıştır
 * Binary arama yöntemi de oldukça hızlıdır
 
-![S&#x131;ral&#x131; vs s&#x131;ras&#x131;z arama](../../.gitbook/assets/image%20%2837%29.png)
+![S&#x131;ral&#x131; vs s&#x131;ras&#x131;z arama](../../.gitbook/assets/image%20%2838%29.png)
 
-![Binary vs s&#x131;ral&#x131; ve s&#x131;ras&#x131;z](../../.gitbook/assets/image%20%2867%29.png)
+![Binary vs s&#x131;ral&#x131; ve s&#x131;ras&#x131;z](../../.gitbook/assets/image%20%2868%29.png)
 
 ## 🎡 Tekrarlı ya da Hafıza ile Fonksiyon İşlemleri <a id="tekrarli-ya-da-hafiza-ile-fonksiyon-islemleri"></a>
 
 Hafıza \(_memory_\), tekrarlı işlemler \(_recursive_\) ile çalışan fonksiyonlara nazaran daha **hızlıdır**.‌
 
-![Tekrarl&#x131; fonksyionlar](../../.gitbook/assets/image%20%2854%29.png)
+![Tekrarl&#x131; fonksyionlar](../../.gitbook/assets/image%20%2855%29.png)
 
 ## 📦 Hazır Paketlerin Hız Avantajı
 
 Yazılım ekipleri tarafından oluşturulan paketler, optimize edildiğinden el yazımı işlemlere nazaran daha  hızlı çalışır.
 
-![Haz&#x131;r paketlerin h&#x131;z avantaj&#x131;](../../.gitbook/assets/image%20%2860%29.png)
+![Haz&#x131;r paketlerin h&#x131;z avantaj&#x131;](../../.gitbook/assets/image%20%2861%29.png)
 

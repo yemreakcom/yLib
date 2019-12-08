@@ -4,7 +4,7 @@ description: VsCode dünyasına giriş
 
 # 🔰 VsCode'a Giriş
 
-## 💙 VsCode için Önemli Notlar
+## 💙 Önemli Notlar
 
 VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.
 
@@ -13,7 +13,22 @@ VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.
 * Ardından gerekli olan eklentileri, eklenti mağazasından indirin \(✲ Ctrl + ⇧ Shift + X\)
 * Sağ taraftaki kodların ön izlesinin olduğu alanı \(minimap\) kaldırmak için `"editor.minimap.enabled": false`
 
-## 🐞 Debug Ayarları
+## 📑 Encoding Düzenleme
+
+VsCode'un emojileri ve özel karakterleri destekleyen türde dosya kaydetmesini sağlamak için:
+
+* 👀 VsCode arayüzünde altta bulunan **Status Bar** alanına bakın
+* 👉 **UTF-8** Yazısında tıklayın
+* 💾 Çıkan ekranda **Save with Encoding** seçeneğine tıklayın
+* 👨‍💻 **UTF-8 with BOM** seçeneğini seçin
+
+![](../../.gitbook/assets/image%20%2822%29.png)
+
+{% hint style="info" %}
+🧙‍♂️ İsterseniz direkt olarak `CTRL + SHIFT + P` ile açılan komut penceresine **Save with Encoding** yazabilirsiniz
+{% endhint %}
+
+## 🐛 Debug Ayarları
 
 Debug ayarlarına erişmek için:
 
@@ -22,7 +37,7 @@ Debug ayarlarına erişmek için:
 * Sağ üstteki `ayarlar ikonuna` tıklayın
 * `Launch.json` dosyası açılacaktır
 
-## 🚀 GitHub projelerini VsCode ile açma
+## 🚀 GitHub projelerini Açma
 
 Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile çalıştırmak için [buraya](../../proje-yonetimi/github/web.md#repoyu-vscode-ile-acma) bakabilirsin
 

@@ -1,5 +1,5 @@
 ---
-description: "Deprem anında hayat üçgeni \U0001F4D0 ve önemi"
+description: Deprem anında hayat üçgeni ve önemi
 ---
 
 # 💒 Deprem Anında Kişisel Korunma
@@ -21,17 +21,17 @@ Dünyanın en tecrübeli kurtarma birimi Amerikan Uluslararası Kurtarma ekibini
   * Eğer **uyuyorsanız yataktan yuvarlanarak düşün**, orada kalın \(Şekil 2\)
 * Dizi, karına doğru çekerek kıvrılın \(**cenin pozisyonu**\) \(Şekil 3\)
 
-![Hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2861%29.png)
+![Hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2862%29.png)
 
 ### 🙍‍ Cenin Pozisyonu
 
 Dizleri, karına doğru çekerek kıvrılma pozisyonudur
 
-![Cenin pozisyonu](../.gitbook/assets/image%20%2890%29.png)
+![Cenin pozisyonu](../.gitbook/assets/image%20%2891%29.png)
 
 ## 🧱 Örnek Yıkım Alanları ve Hayat Üçgeni
 
-![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2892%29.png)
+![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%2893%29.png)
 
 ## ⛔ Yapılamaması Gerekenler
 

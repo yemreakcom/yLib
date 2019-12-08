@@ -1,5 +1,5 @@
 ---
-description: "Yazılım dünyasına hoşgeldin \U0001F680"
+description: Yazılım dünyasına hoş geldin
 ---
 
 # 🧱 Programlama Temelleri

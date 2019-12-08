@@ -81,6 +81,7 @@ Adres çubuğundan bu sayfaya erişebilirsin.
 | [🛑 No Script](https://chrome.google.com/webstore/detail/noscript/doojmbjmlfjjnbmnoijecmcbfeoakpjm/related?hl=en) | Javascript engelleyici |
 | [Run Javascript](https://chrome.google.com/webstore/detail/run-javascript/lmilalhkkdhfieeienjbiicclobibjao) | Seçtiğiniz sayfalara girdiğinizde otomatik olarak JS derleme |
 | [Selenium IDE](https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd) | Web işlemlerini tekrarlayan web testing yazılımı |
+| [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa) | JSON verileri formatlı gösterme |
 | [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en) | JSON'ları formatlı gösterme |
 | [ResNet Client](https://chrome.google.com/webstore/detail/restlet-client-rest-api-t/aejoelaoggembcahagimdiliamlcdmfm?hl=en) | API istekleri atma |
 

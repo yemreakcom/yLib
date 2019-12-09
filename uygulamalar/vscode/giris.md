@@ -8,10 +8,10 @@ description: VsCode dünyasına giriş
 
 VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.
 
-* İlk defa VsCode kullanıyor isen \[buradaki\]\[vscode intro videos\] videoları izlemen ve açıklamaları okuman oldukça önemli \(okumadan öğrenemezsin 😔\)
-* VsCode'a başlamadan önce \[buradan\]\[vscode doc\] üzerinden, hangi dile odaklı çalışacaksanız onun dökümasyanunu okuyun
+* İlk defa VsCode kullanıyor isen [Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos) videoları izlemen ve açıklamaları okuman oldukça önemli \(okumadan öğrenemezsin 😔\)
+* VsCode'a başlamadan önce [Tips & Trick](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) alanından, hangi dile odaklı çalışacaksanız onun dökümasyanunu okuyun
 * Ardından gerekli olan eklentileri, eklenti mağazasından indirin \(✲ Ctrl + ⇧ Shift + X\)
-* Sağ taraftaki kodların ön izlesinin olduğu alanı \(minimap\) kaldırmak için `"editor.minimap.enabled": false`
+* Sağ taraftaki kodların önizlemesinin olduğu alanı \(minimap\) kaldırmak için `"editor.minimap.enabled": false`
 
 ## 📑 Encoding Düzenleme <a id="encoding-duzenleme"></a>
 

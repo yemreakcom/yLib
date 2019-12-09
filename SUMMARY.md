@@ -93,6 +93,7 @@
     * [🔰 GitHub Giriş](proje-yonetimi/github/giris.md)
     * [👨‍💼 GitHub ile Proje Yönetimi](proje-yonetimi/github/proje-yonetimi.md)
     * [🌍 GitHub Web](proje-yonetimi/github/web.md)
+    * [💫 GitHub API](proje-yonetimi/github/github-api.md)
     * [🎲 Diğer GitHub Notları](proje-yonetimi/github/diger.md)
   * [📖 GitBook](proje-yonetimi/gitbook/README.md)
     * [🌟 GitBook Farklılıkları](proje-yonetimi/gitbook/farkliliklar.md)

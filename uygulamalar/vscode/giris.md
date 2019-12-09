@@ -13,7 +13,7 @@ VsCode dünyanın en çok kullanılan text editörü olarak geçmektedir.
 * Ardından gerekli olan eklentileri, eklenti mağazasından indirin \(✲ Ctrl + ⇧ Shift + X\)
 * Sağ taraftaki kodların ön izlesinin olduğu alanı \(minimap\) kaldırmak için `"editor.minimap.enabled": false`
 
-## 📑 Encoding Düzenleme
+## 📑 Encoding Düzenleme <a id="encoding-duzenleme"></a>
 
 VsCode'un emojileri ve özel karakterleri destekleyen türde dosya kaydetmesini sağlamak için:
 

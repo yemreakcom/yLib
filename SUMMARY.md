@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📖 YWiki](README.md)
+* [📖 Kişisel Kütüphanem](README.md)
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
 * [🚀 Emoji Sözlüğüm](https://emoji.yemreak.com)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)

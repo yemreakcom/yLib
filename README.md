@@ -44,7 +44,6 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 
 ## 🔏 Lisans
 
-**The** [**MIT License**](https://choosealicense.com/licenses/mit/) **© Yunus Emre Ak**
+**The** [**Apache 2.0 License**](https://choosealicense.com/licenses/apache-2.0/) **©️ Yunus Emre Ak**
 
 ![YEmreAk](https://drive.google.com/uc?id=1Wd_YLVOkAhXPVqFMx_aZyFvyTy_88H-Z)
-

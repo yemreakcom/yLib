@@ -14,7 +14,7 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
 * Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
 * Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
-* [‍🔍 **Arama butonunu**](https://wiki.yemreak.com/?q=) _\*\*_kullanmayı ihmal etmemen gerektiğini tekrardan hatırlatayım 🤭
+* [‍🔍 **Arama butonunu**](https://wiki.yemreak.com/?q=) \_\*\*\_kullanmayı ihmal etmemen gerektiğini tekrardan hatırlatayım 🤭
 
 {% hint style="success" %}
 Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.
@@ -47,3 +47,4 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 **The** [**Apache 2.0 License**](https://choosealicense.com/licenses/apache-2.0/) **©️ Yunus Emre Ak**
 
 ![YEmreAk](https://drive.google.com/uc?id=1Wd_YLVOkAhXPVqFMx_aZyFvyTy_88H-Z)
+

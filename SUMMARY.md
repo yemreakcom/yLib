@@ -45,6 +45,7 @@
   * [🐍 Python](programlama/python.md)
   * [☕ Java](programlama/java.md)
   * [📱 Android](programlama/android.md)
+  * [🌍 Web Programlama](programlama/web.md)
   * [🎃 Kotlin](programlama/kotlin/README.md)
     * [💫 Değişkenler](programlama/kotlin/degiskenler.md)
     * [🚅 Diziler](programlama/kotlin/diziler.md)

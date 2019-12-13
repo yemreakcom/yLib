@@ -2,40 +2,45 @@
 description: Windows 10 notlarım
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows 10 Notlarım
 
-* [🎇 YWindows 10](https://windows.yemreak.com/)
-
-## Harici Kaynaklar <a id="harici"></a>
-
-* [🥽 Awesome Windows](https://windows.yemreak.com/harici/awesome)
-* [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/harici/kurulum)
-* [⚡ Bilgisayarı Hızlandırma](https://windows.yemreak.com/harici/hizlandirma)
-* [🌈 Faydalı Uygulamalar](https://windows.yemreak.com/harici/uygulamalar)
-* [📂 Dosya Gezginini Geliştirme](https://windows.yemreak.com/harici/dosya-gezginini-gelistirme)
-
-## Giriş
-
-* [💘 Kısayollar](https://windows.yemreak.com/giris/kisayollar)
-* [🔨 Sistem Ayarları](https://windows.yemreak.com/giris/sistem)
-* [📂 Önemli Dizinler](https://windows.yemreak.com/giris/dizinler)
-* [🌠 Genel Notlar](https://windows.yemreak.com/giris/genel)
-
-## Geliştirici
-
-* [🖤 Komut İstemi](https://windows.yemreak.com/gelistirici/komut-istemi)
-* [👨‍💼 Paket Yöneticisi](https://windows.yemreak.com/gelistirici/paket-yoeneticisi)
-* [🌇 Windows Subsystem for Linux \(WSL\)](https://windows.yemreak.com/gelistirici/wsl)
-* [📋 Sağ Tık Menüsü](https://windows.yemreak.com/gelistirici/sag-tik-menuesue/)
-  * [✨ Sağ Tık Menüsü Düzenleme Programım](https://windows.yemreak.com/gelistirici/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim)
-  * [✨ Sağ Tık Menüsü Düzenleme Programım](https://windows.yemreak.com/gelistirici/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim-2)
-* [💫 AutoHotkey](https://windows.yemreak.com/gelistirici/autohotkey/)
-  * [🔰 AutoHotkey'e Giriş](https://windows.yemreak.com/gelistirici/autohotkey/giris)
-  * [👨‍💻 AHK Scriptleri](https://windows.yemreak.com/gelistirici/autohotkey/scripts)
-* [👜 Mağaza Uygulamlarını Komutla Açma](https://windows.yemreak.com/gelistirici/magaza-uygulamlarini-komutla-acma)
-* [⏹ RegEdit Ayarları](https://windows.yemreak.com/gelistirici/regedit)
-* [🧙‍ Gizlenmiş GodMode](https://windows.yemreak.com/gelistirici/godmode)
-* [🐞 Hata Notlarım](https://windows.yemreak.com/gelistirici/hata-notlarim)
+* [🎇 Windows 10 Notlarım](https://windows.yemreak.com/)
+* [🔰 Windows'a Giriş](https://windows.yemreak.com/windowsa-giris/)
+  * [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/windowsa-giris/kurulum)
+  * [🔨 Sistem Ayarları](https://windows.yemreak.com/windowsa-giris/sistem)
+  * [📂 Önemli Dizinler](https://windows.yemreak.com/windowsa-giris/dizinler)
+  * [🌠 Genel Notlar](https://windows.yemreak.com/windowsa-giris/genel)
+* [💞 Kısayollar](https://windows.yemreak.com/kisayollar/)
+  * [💘 Varsayılan Kısayollar](https://windows.yemreak.com/kisayollar/varsayilan)
+  * [🌱 YHotkeys](https://windows.yemreak.com/kisayollar/yhotkeys)
+  * [👨‍💻 Hotkey Scriptim](https://github.com/yedhrab/YHotkeys)
+  * [👷‍♂️ Kısayol Oluşturma](https://windows.yemreak.com/autohotkey)
+* [🚀 Verimlilik Notlarım](https://windows.yemreak.com/verimlilik-notlarim/)
+  * [🌈 Faydalı Uygulamalar](https://windows.yemreak.com/verimlilik-notlarim/uygulamalar)
+  * [⚡ Bilgisayarı Hızlandırma](https://windows.yemreak.com/verimlilik-notlarim/hizlandirma)
+  * [📂 Dosya Gezginini Geliştirme](https://windows.yemreak.com/verimlilik-notlarim/dosya-gezginini-gelistirme)
+  * [👨‍💼 Paket Yöneticisi](https://windows.yemreak.com/verimlilik-notlarim/paket-yoeneticisi)
+* [👨‍💻 Geliştirici Notlarım](https://windows.yemreak.com/gelistirici-notlarim/)
+  * [🖤 Komut İstemi](https://windows.yemreak.com/gelistirici-notlarim/komut-istemi)
+  * [🌃 Ortam Değişkenleri](https://windows.yemreak.com/gelistirici-notlarim/ortam-degiskenleri)
+  * [📋 Sağ Tık Menüsü](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/)
+    * [✨ Sağ Tık Menüsü Düzenleme Programım](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim)
+    * [👨‍🔧 Sağ Tık Menüsü Düzenleme](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim-2)
+  * [⏹ RegEdit Ayarları](https://windows.yemreak.com/gelistirici-notlarim/regedit)
+  * [👜 Mağaza Uygulamalarını Komutla Açma](https://windows.yemreak.com/gelistirici-notlarim/magaza-uygulamlarini-komutla-acma)
+  * [🧙‍ Gizlenmiş GodMode](https://windows.yemreak.com/gelistirici-notlarim/godmode)
+* [🐧 Windows'ta Linux](https://windows.yemreak.com/windowsta-linux/)
+  * [🌇 Windows Subsystem for Linux \(WSL\)](https://windows.yemreak.com/windowsta-linux/wsl)
+  * [🐞 Hata Notlarım](https://windows.yemreak.com/windowsta-linux/hata-notlarim)
+* [💫 AutoHotkey](https://windows.yemreak.com/autohotkey/)
+  * [🔰 AutoHotkey'e Giriş](https://windows.yemreak.com/autohotkey/giris)
+  * [🧱 AHK Temel İşlemler](https://windows.yemreak.com/autohotkey/ahk-temel-islemler)
+  * [💞 Kısayollar](https://windows.yemreak.com/autohotkey/diger-islemler)
+  * [🌃 AHK ile GUI](https://windows.yemreak.com/autohotkey/ahk-ile-gui)
+  * [🎌 AHK Tavsiyelerim](https://windows.yemreak.com/autohotkey/ahk-tavsiyelerim)
+  * [👨‍💻 AHK Scriptleri](https://windows.yemreak.com/autohotkey/scripts)
+  * [⏬ AHK ile Dosya İndirme](https://windows.yemreak.com/autohotkey/ahk-ile-dosya-indirme)
+* [🥽 Awesome Windows](https://windows.yemreak.com/awesome)
 
 ## Derlenmiş Çalışmalarım
 
@@ -48,6 +53,7 @@ description: Windows 10 notlarım
 * [🐧 Linux Notlarım](https://linux.yemreak.com)
 * [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
 * [📲 Android Notlarım](https://android.yemreak.com)
+* [☕ Java Notlarım](https://java.yemreak.com)
 * [🏫 Üniversite Notları](https://iuce.yemreak.com)
 * [📕 Git Notları](https://book.git.yemreak.com/)
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)

@@ -35,8 +35,7 @@ description: Projeye katkı sağlamak isteyenler için bilgilendirme
 
 ## 📑 İçerik Yazma Formatı
 
-Başlık ile alakalı bir emoji koyman verimlilik adına çok etkilidir.
-
+* 🚀 Başlık ile alakalı bir emoji koyman verimlilik adına çok etkilidir.
 * 🎇 Windows üzerinde, ❖ Win Ş ile emoji klavyesini açabilirsin
 * 🐧 Linux için [😎 Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/) eklentisini kullanabilirsin
 
@@ -72,8 +71,7 @@ Giriş cümlesi veya alakalı cümle.
 
 ## ✍ Çalışma Notları
 
-Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown) bağlantısından erişebilirsin
-
+* 👀 Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown) bağlantısından erişebilirsin
 * ✨ Her şey **dinamik** olmalı
 * 💖 Önemli notlar ve başlıklar **bold**
 * 🎛️ Butonlar ve tıklanabilir öğeler button `<kbd>button</kbd>`

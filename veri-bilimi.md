@@ -2,7 +2,7 @@
 description: Veri bilimi notlarım
 ---
 
-# 📊 Veri Bilimi Notlarım
+# 📊 Veri Bilimi
 
 * [📊 Veri Bilimi Notlarım](https://ds.yemreak.com/)
 * [👀 Neler değişti](https://ds.yemreak.com/changelog)

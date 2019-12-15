@@ -2,7 +2,7 @@
 description: Android programlama notlarım
 ---
 
-# 📲 Android Notlarım
+# 📱 Android
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)

@@ -12,8 +12,8 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
   * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
-* Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
-* Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
+* 👮‍♂️ Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
+* 👨‍🏫 Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
 * [‍🔍 **Arama butonunu**](https://wiki.yemreak.com/?q=) \_\*\*\_kullanmayı ihmal etmemen gerektiğini tekrardan hatırlatayım 🤭
 
 {% hint style="success" %}

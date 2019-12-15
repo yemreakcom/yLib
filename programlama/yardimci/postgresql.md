@@ -69,7 +69,7 @@ INSERT INTO Books VALUES (6, 'kitap6', 19);
 * Projeni aç \(Netbeans üzerinden\)
 * Alttaki resimde gösterdiğim şekilde .jar uzantılı dosyayı projene ekle
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 ## PostgreSQL Bağlantı Kodu \(Connection String\)
 

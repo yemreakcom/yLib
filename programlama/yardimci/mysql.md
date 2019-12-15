@@ -98,7 +98,7 @@ Sorgu ile ilgili detayları gösterir.
 explain SELECT * from table;
 ```
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2862%29.png)
 
 ## Optimizasyon
 

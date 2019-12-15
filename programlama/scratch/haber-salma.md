@@ -7,7 +7,7 @@
 * 👨‍💼 Haberleri **ikizleri** yönetmek için kullanabilirsiniz
 * 🐞 Haberlerin dikkatsiz kullanılması ikizleri kullanışsız kılar
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 
 ## 
 

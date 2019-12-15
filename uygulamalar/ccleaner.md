@@ -12,7 +12,7 @@ Lisans girme alanına erişmek için resimdeki adımları takip edin
 * [👇 Aşağıdaki]() keylerden birini kopyalayın
 * 💁‍ İsmi boş bırakabilirsinin
 
-![](../.gitbook/assets/image%20%2890%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
 ## 🔑 Lisans Keyleri
 

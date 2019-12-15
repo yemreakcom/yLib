@@ -8,6 +8,8 @@
 
 ## 🎮 Yönetim İşlemleri
 
+* 🌄 Tüm kullanıcının değiştirebileceği değerler **sahne** üzerinde olmalıdır
+* 🌃 Kullanıcının değiştiremeyeceği değişkenler, **kuklalarda** yer almalıdır
 * 🌇 Tüm yönetimler **yönetilecek obje** üzerinde olmalı ve **haber** yayınlamalı
   * 👀 Yönetimleri rahat görebilmeyi ve düzenleyebilmeyi sağlar
   * ✨ Haberler daha hoş bir akış sağlar
@@ -16,6 +18,10 @@
 * 🚩 **Tuş basıldı mı** kontrolü ile **Eğer** yapısı kullanılmalıdır
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
+
+![](../../.gitbook/assets/image%20%28101%29.png)
+
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 ## ⭐ Yönetim Örneği
 
@@ -27,7 +33,7 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}

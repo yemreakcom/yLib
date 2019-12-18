@@ -1,5 +1,7 @@
 ---
-description: Programlamaya başlamadan önce bilmen gerekenler
+description: >-
+  Programlamaya başlamadan önce bilmen gerekenler önemli konular, kavramlar ve
+  hususlar
 ---
 
 # 🌟 Programlamada Önemli Hususlar
@@ -12,28 +14,28 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 * 📜 Code Snippets olarak adlandırılan verimli kod parçaları
 * 🥰 Yapay zeka destekli öneriler \(**intellisense**\)
 
-{% hint style="info" %}
-[🏰 Proje Yönetimi](../../proje-yonetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
+{% hint style="success" %}
+‍[🏰 Proje Yönetimi](../../proje-yonetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
 {% endhint %}
 
 {% page-ref page="../../proje-yonetimi/" %}
 
 ## 👨‍💻 Programlama Dilleri için Bilmen Gerekenler
 
-*  Kodlama yapacağın dildeki frameworkleri ve paketleri belirle ki hızlıca ilerle 😏
-*  Framework ve paketleri baştan yazmak yerine kullanmayı öğrenmelisin 😒
-  * 100'lerce insanın birlikte yaptığı işi tek başına yapman haliyle zordur 😅
-  * Optimize işlemlerini gözden kaçırabilirsin 🙄
-  * Diyelim ki yaptın, diğer işleri yapmak için vaktin kalmayacak 😥
+* 😏  Kodlama yapacağın dildeki frameworkleri ve paketleri belirle ki hızlıca ilerle
+*  😒 Framework ve paketleri baştan yazmak yerine kullanmayı öğrenmelisin
+  * 😅 100'lerce insanın birlikte yaptığı işi tek başına yapman haliyle zordur
+  * 🙄 Optimize işlemlerini gözden kaçırabilirsin
+  * 😥 Diyelim ki yaptın, diğer işleri yapmak için vaktin kalmayacak
 * 🚧 Her daim son sürümü kullanmak mantıklı değil, en stabil sürümü kullanman lazım
   * 🌍 İnternette araştırıp nasıl yapıldığını keşfetmen gerekir
-  * Bulsan bile o kadar vakit ayırıp onu öğrenmene değer mi 😐
+  * 🤔 Bulsan bile o kadar vakit ayırıp onu öğrenmene değer mi \(bazı durumlarda değer\)
     * ⬜ Büyük proje ise değebilir
     * 👣 Hayatının ilerleyen aşamalarında kullanacaksan da değebilir
-    * ⏲ Ona harcayacağın vakit ile yeni bir dil öğrenebilirsin
+    * ⏲ Ona harcayacağın vakit ile yeni bir dil veya teknoloji öğrenebilirsin
 
 {% hint style="warning" %}
-"Sadece bunları bilmen yeter." diye bir durum söz konusu değil 😁
+📢 "Sadece bunları bilmen yeter." diye bir durum söz konusu değil 😁
 {% endhint %}
 
 ## 🔗 Ek bağlantılar

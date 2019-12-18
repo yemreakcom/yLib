@@ -2,7 +2,7 @@
 description: Yapay zeka notlarım
 ---
 
-# 🧠 Yapay Zeka Notlarım
+# 🧠 Yapay Zeka
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/faydali-kaynaklar)

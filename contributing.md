@@ -6,18 +6,15 @@ description: Projeye katkı sağlamak isteyenler için bilgilendirme
 
 ## 💡 İçerik Desteğinde Bulunma veya Fikir Belirtme
 
-Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
-
-* Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YWiki/issues) açabilirsin
-* **Yapıcı** eleştirileriniz veya fikirleriniz varsa sağ üst köşedeki  **🏹 Edit on GitHub** alanından fikirlerinizi belirtebilirsiniz
-
-> GitHub üzerinden [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) sayfasına da bakabilirsin.
-
-{% hint style="warning" %}
-**Formata \(**[**markdown**](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown)**'a\) uygun şekilde katkıda bulunursanız hoş olur 😊**
-{% endhint %}
+* ✨ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığım
+* 💡 Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YWiki/issues) açabilirsin
+* **🏗️ Yapıcı** eleştirileriniz veya fikirleriniz varsa sağ üst köşedeki  **🏹 Edit on GitHub** alanından fikirlerinizi belirtebilirsiniz
 
 {% page-ref page="programlama/yardimci/markdown.md" %}
+
+{% hint style="warning" %}
+**📢** [**Markdown**](programlama/yardimci/markdown.md)**'a uygun şekilde katkıda bulunursanız hoş olur 😊**
+{% endhint %}
 
 ## 👷‍ Sayfaların Tasarımı ve Notların Tutulma Yapısı
 
@@ -38,10 +35,9 @@ Verimli olabilecek yapı tekliflerine ve **yapıcı** eleştirilere açığız.
 
 ## 📑 İçerik Yazma Formatı
 
-Başlık ile alakalı bir emoji koyman verimlilik adına çok etkilidir.
-
-* Windows üzerinde, ❖ Win Ş ile emoji klavyesini açabilirsin
-* Linux için [😎 Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/) eklentisini kullanabilirsin
+* 🚀 Başlık ile alakalı bir emoji koyman verimlilik adına çok etkilidir.
+* 🎇 Windows üzerinde, ❖ Win Ş ile emoji klavyesini açabilirsin
+* 🐧 Linux için [😎 Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/) eklentisini kullanabilirsin
 
 ```text
 ## 🌟 Başlık
@@ -75,16 +71,15 @@ Giriş cümlesi veya alakalı cümle.
 
 ## ✍ Çalışma Notları
 
-Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown) bağlantısından erişebilirsin
-
-* Her şey **dinamik** olmalı
-* Önemli notlar ve başlıklar **bold**
-* Butonlar ve tıklanabilir öğeler button `<kbd>button</kbd>`
-* Terimler _italik_ `_italik_`
-  * Önce normal yaz, sonrasında ✲ Ctrl + H ile metinleri italik hale dönüştür
-* Kalıplar ve sabit ifadeler \` arasına yazılmalı
-* Kodlar \`\`\` arasına yazılmalı
-* Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
+* 👀 Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.com/programlama-notlari/yardimci-diller/markdown) bağlantısından erişebilirsin
+* ✨ Her şey **dinamik** olmalı
+* 💖 Önemli notlar ve başlıklar **bold**
+* 🎛️ Butonlar ve tıklanabilir öğeler button `<kbd>button</kbd>`
+* 🚅 Terimler _italik_ `_italik_`
+  * 👨‍💼 Önce normal yaz, sonrasında ✲ Ctrl + H ile metinleri italik hale dönüştür
+* 🧱 Kalıplar ve sabit ifadeler \` arasına yazılmalı
+* 👨‍💻 Kodlar \`\`\` arasına yazılmalı
+* 🧮 Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
 
 {% page-ref page="programlama/yardimci/markdown.md" %}
 
@@ -92,8 +87,8 @@ Markdown hakkında detaylı açıklamalara [📑 Markdown](https://wiki.yemreak.
 
 GitHub projelerini `clone` yapıp, internet kotanı harcamak yerine, web üzerinden katkıda bulunabilirsin.
 
-* Katkı sağlama işlemi GitHub hesabı gerektirir.
-* Güncel bilgiler için [🌍 GitHub Web](proje-yonetimi/github/web.md) yazıma bakabilirsin
+* 👮‍♂️ Katkı sağlama işlemi GitHub hesabı gerektirir.
+* ✨ Güncel bilgiler için [🌍 GitHub Web](proje-yonetimi/github/web.md) yazıma bakabilirsin
 
 {% page-ref page="proje-yonetimi/github/web.md" %}
 

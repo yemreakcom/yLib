@@ -1,19 +1,10 @@
 ---
-description: "Burası henüz yapım aşamasındadır \U0001F9EA‌"
+description: Programlamada bilmen gereken terimler ve mimari yaklaşımlar
 ---
 
-# 🤓 Programlama Terimleri
+# 💎 Programlama Terimleri
 
-## 🧱 Ana Terimler <a id="ana-terimler"></a>
-
-| Terim | Açıklama |
-| :--- | :--- |
-| library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
-| framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
-| API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
-| Singleton | Tek seferlik tanımlanabilen uygulama türü |
-
-## 🏰 Katmanlar <a id="yazilimda-kullanilan-terimler"></a>
+## 🏰 Yazılım Mimarisi <a id="yazilimda-kullanilan-terimler"></a>
 
 📉 Katmanlarda aşağıya doğru inildikçe karmaşıklık artar
 
@@ -23,15 +14,35 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 | Katman | Açıklama |
 | :--- | :--- |
-| Software | Yazılım katmanıdır, son kullanıcının gördüğü |
-| Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
-| Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
-| Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
-| Hardware | Donanım katmanıdır |
+| 👨‍💻 Software | Yazılım katmanıdır, son kullanıcının gördüğü \(oyunlar, uygulamalar\) |
+| 🔌 Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
+| 👨‍💼 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
+| 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları kapsar \(drivers, sürücüler\) |
+| 🧱 Hardware | Donanım katmanıdır \(entegre devreler\) |
 
-![](../../.gitbook/assets/image%20%2877%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 > [What's the difference between hardware, firmware, and software?](https://www.quora.com/Whats-the-difference-between-hardware-firmware-and-software)
+
+## 🌟 Sık Kullanılan Terimler <a id="ana-terimler"></a>
+
+| Terim | Açıklama |
+| :--- | :--- |
+| 📚 Library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
+| 🎇 Framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
+| ⛓️ ToolChain | Birden fazla teknolojiyi \(library veya framework\) kullanma |
+| 💫 API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
+| 🦄 Singleton | Tek seferlik tanımlanabilen uygulama türü |
+
+## 💎 Kavramlar
+
+### ⛓️ ToolChain
+
+Aşağıdaki amaçlar için kullanılan yazılımdır.
+
+* Genellikle başka bilgisayar programları yada programlar arasında ilişki kuran
+* Karmaşık yazılım geliştirme görevlerini yapmak
+* Yazılım ürünü oluşturmada programlama araçlarını ayarlamak
 
 ## 🏦 Yazılımda kullanılan terimler <a id="yazilimda-kullanilan-terimler"></a>
 
@@ -59,6 +70,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | Kavram | Türkçe Karşılığı | Ek Açıklama |
 | :--- | :--- | :--- |
 | Flag | Bayrak | Varlık \(evet, hayır\) değeri tutan değişkenler - Boolean |
+| Listener | Dinleyici | Bir olay gerçekleştiğinde tetiklenen metotlar |
 
 ## 📜 Raporlama \(Logging\) Seviyeleri <a id="raporlama-logging-seviyeleri"></a>
 

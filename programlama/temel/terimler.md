@@ -14,11 +14,11 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 | Katman | Açıklama |
 | :--- | :--- |
-| 👨‍💻 Software | Yazılım katmanıdır, son kullanıcının gördüğü |
+| 👨‍💻 Software | Yazılım katmanıdır, son kullanıcının gördüğü \(oyunlar, uygulamalar\) |
 | 🔌 Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
 | 👨‍💼 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
-| 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
-| 🧱 Hardware | Donanım katmanıdır |
+| 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları kapsar \(drivers, sürücüler\) |
+| 🧱 Hardware | Donanım katmanıdır \(entegre devreler\) |
 
 ![](../../.gitbook/assets/image%20%2880%29.png)
 

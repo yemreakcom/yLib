@@ -12,8 +12,8 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 * 📜 Code Snippets olarak adlandırılan verimli kod parçaları
 * 🥰 Yapay zeka destekli öneriler \(**intellisense**\)
 
-{% hint style="info" %}
-[🏰 Proje Yönetimi](../../proje-yonetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
+{% hint style="success" %}
+‍[🏰 Proje Yönetimi](../../proje-yonetimi/) alanında da bilgi sahibi olman, sana hız katacaktır.
 {% endhint %}
 
 {% page-ref page="../../proje-yonetimi/" %}

@@ -27,7 +27,7 @@ description: Programlamaya başlamadan önce bilmen gerekenler
   * 😥 Diyelim ki yaptın, diğer işleri yapmak için vaktin kalmayacak
 * 🚧 Her daim son sürümü kullanmak mantıklı değil, en stabil sürümü kullanman lazım
   * 🌍 İnternette araştırıp nasıl yapıldığını keşfetmen gerekir
-  * Bulsan bile o kadar vakit ayırıp onu öğrenmene değer mi 😐
+  * Bulsan bile o kadar vakit ayırıp onu öğrenmene değer mi
     * ⬜ Büyük proje ise değebilir
     * 👣 Hayatının ilerleyen aşamalarında kullanacaksan da değebilir
     * ⏲ Ona harcayacağın vakit ile yeni bir dil öğrenebilirsin

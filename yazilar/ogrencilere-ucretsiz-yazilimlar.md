@@ -1,8 +1,8 @@
 ---
-description: Öğrencilere sunulan ücretsiz avantajlar
+description: 'Öğrencilere sunulan ücretsiz, bedava (beleş) yazılımlar'
 ---
 
-# 💸 Ücretsiz Avantajlar
+# 💸 Öğrencilere Ücretsiz Yazılımlar
 
 ## 📦 GitHub Student Pack
 

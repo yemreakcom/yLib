@@ -12,7 +12,7 @@ description: >-
 * 🗂️ Gerçek zamanlı veri tabanıdır
 * 📂 Dosya sistemidir
 * 👮‍♂️ Kimlik belirleme hizmetidir
-* 🌍 Sunucudur \(hosting\)
+* 🌍 Sunucu \(hosting\)
 
 ## 📋 Diğer Firebase Hizmetleri
 

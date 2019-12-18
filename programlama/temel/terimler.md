@@ -18,7 +18,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | 🍢 Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
 | 🚧 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
 | 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
-| 🎳 Hardware | Donanım katmanıdır |
+| 🧱 Hardware | Donanım katmanıdır |
 
 ![](../../.gitbook/assets/image%20%2880%29.png)
 

@@ -4,16 +4,7 @@ description: "Burası henüz yapım aşamasındadır \U0001F9EA‌"
 
 # 🤓 Programlama Terimleri
 
-## 🧱 Ana Terimler <a id="ana-terimler"></a>
-
-| Terim | Açıklama |
-| :--- | :--- |
-| library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
-| framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
-| API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
-| Singleton | Tek seferlik tanımlanabilen uygulama türü |
-
-## 🏰 Katmanlar <a id="yazilimda-kullanilan-terimler"></a>
+## 🏰 Yazılım Mimarisi <a id="yazilimda-kullanilan-terimler"></a>
 
 📉 Katmanlarda aşağıya doğru inildikçe karmaşıklık artar
 
@@ -32,6 +23,29 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 ![](../../.gitbook/assets/image%20%2880%29.png)
 
 > [What's the difference between hardware, firmware, and software?](https://www.quora.com/Whats-the-difference-between-hardware-firmware-and-software)
+
+## 🌟 Sık Kullanılan Terimler <a id="ana-terimler"></a>
+
+| Terim | Açıklama |
+| :--- | :--- |
+| 📚 library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
+| 🎇 framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
+| 💫 API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
+| 🦄 Singleton | Tek seferlik tanımlanabilen uygulama türü |
+
+## 💎 Kavramlar
+
+### ⛓️ ToolChain
+
+Aşağıdaki amaçlar için kullanılan yazılımdır.
+
+* Genellikle başka bilgisayar programları yada programlar arasında ilişki kuran
+* Karmaşık yazılım geliştirme görevlerini yapmak
+* Yazılım ürünü oluşturmada programlama araçlarını ayarlamak
+
+📦 Library
+
+🎇 Framework
 
 ## 🏦 Yazılımda kullanılan terimler <a id="yazilimda-kullanilan-terimler"></a>
 
@@ -59,6 +73,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | Kavram | Türkçe Karşılığı | Ek Açıklama |
 | :--- | :--- | :--- |
 | Flag | Bayrak | Varlık \(evet, hayır\) değeri tutan değişkenler - Boolean |
+| Listener | Dinleyici | Bir olay gerçekleştiğinde tetiklenen metotlar |
 
 ## 📜 Raporlama \(Logging\) Seviyeleri <a id="raporlama-logging-seviyeleri"></a>
 

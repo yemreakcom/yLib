@@ -1,8 +1,8 @@
 ---
-description: "Burası henüz yapım aşamasındadır \U0001F9EA‌"
+description: Programlamada bilmen gereken terimler ve mimari yaklaşımlar
 ---
 
-# 🤓 Programlama Terimleri
+# 💎 Programlama Terimleri
 
 ## 🏰 Yazılım Mimarisi <a id="yazilimda-kullanilan-terimler"></a>
 

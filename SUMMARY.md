@@ -27,7 +27,7 @@
 * [👨‍💻 Programlama Notları](programlama/README.md)
   * [🧱 Programlama Temelleri](programlama/temel/README.md)
     * [🙋‍ Programlamaya Giriş](programlama/temel/giris.md)
-    * [🤓 Programlama Terimleri](programlama/temel/terimler.md)
+    * [💎 Programlama Terimleri](programlama/temel/terimler.md)
     * [📈 Verimli Programlama](programlama/temel/verimli-programlama.md)
     * [🌟 Programlamada Önemli Hususlar](programlama/temel/onemli.md)
   * [🤝 Yardımcı Diller](programlama/yardimci/README.md)

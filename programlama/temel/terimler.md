@@ -14,11 +14,11 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 | Katman | Açıklama |
 | :--- | :--- |
-| Software | Yazılım katmanıdır, son kullanıcının gördüğü |
-| Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
-| Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
-| Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
-| Hardware | Donanım katmanıdır |
+| 🧶 Software | Yazılım katmanıdır, son kullanıcının gördüğü |
+| 🍢 Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
+| 🚧 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
+| 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
+| 🎳 Hardware | Donanım katmanıdır |
 
 ![](../../.gitbook/assets/image%20%2880%29.png)
 
@@ -30,6 +30,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | :--- | :--- |
 | 📚 Library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
 | 🎇 Framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
+| ⛓️ ToolChain | Birden fazla teknolojiyi \(library veya framework\) kullanma |
 | 💫 API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
 | 🦄 Singleton | Tek seferlik tanımlanabilen uygulama türü |
 

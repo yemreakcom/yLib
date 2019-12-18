@@ -33,7 +33,7 @@ description: Programlamaya başlamadan önce bilmen gerekenler
     * ⏲ Ona harcayacağın vakit ile yeni bir dil öğrenebilirsin
 
 {% hint style="warning" %}
-"Sadece bunları bilmen yeter." diye bir durum söz konusu değil 😁
+📢 "Sadece bunları bilmen yeter." diye bir durum söz konusu değil 😁
 {% endhint %}
 
 ## 🔗 Ek bağlantılar

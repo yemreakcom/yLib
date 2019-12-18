@@ -20,11 +20,11 @@ description: Programlamaya başlamadan önce bilmen gerekenler
 
 ## 👨‍💻 Programlama Dilleri için Bilmen Gerekenler
 
-*  Kodlama yapacağın dildeki frameworkleri ve paketleri belirle ki hızlıca ilerle 😏
-*  Framework ve paketleri baştan yazmak yerine kullanmayı öğrenmelisin 😒
-  * 100'lerce insanın birlikte yaptığı işi tek başına yapman haliyle zordur 😅
-  * Optimize işlemlerini gözden kaçırabilirsin 🙄
-  * Diyelim ki yaptın, diğer işleri yapmak için vaktin kalmayacak 😥
+* 😏  Kodlama yapacağın dildeki frameworkleri ve paketleri belirle ki hızlıca ilerle
+*  😒 Framework ve paketleri baştan yazmak yerine kullanmayı öğrenmelisin
+  * 😅 100'lerce insanın birlikte yaptığı işi tek başına yapman haliyle zordur
+  * 🙄 Optimize işlemlerini gözden kaçırabilirsin
+  * 😥 Diyelim ki yaptın, diğer işleri yapmak için vaktin kalmayacak
 * 🚧 Her daim son sürümü kullanmak mantıklı değil, en stabil sürümü kullanman lazım
   * 🌍 İnternette araştırıp nasıl yapıldığını keşfetmen gerekir
   * Bulsan bile o kadar vakit ayırıp onu öğrenmene değer mi 😐

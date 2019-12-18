@@ -40,3 +40,11 @@ description: >-
 * 🚫 NoSQL kullanmasından dolayı SQL verileri aktarılamaz.
 * 🏢 Şirket içi kurulum yok
 
+## 🤖 Firebase ML-Kit
+
+### 👀 ML-Kit'e Hızlıca Bakış
+
+* 🤖 Hazır Google Cloud modellerini ücretsiz kullanıma sunmaktadır
+* 🚀 Kendi modellerimizi aktarmamıza ve onları kullanmamıza olanak sağlamaktadır
+* 🌍 Hem online hem internet erişimi olmadan çalışmaktadır
+

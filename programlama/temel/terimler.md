@@ -14,9 +14,9 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 | Katman | Açıklama |
 | :--- | :--- |
-| 🧶 Software | Yazılım katmanıdır, son kullanıcının gördüğü |
+| 👨‍💻 Software | Yazılım katmanıdır, son kullanıcının gördüğü |
 | 🍢 Middleware | Ara katmandır, yazılım ile işletim sistemi arasındaki iletişim |
-| 🚧 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
+| 👨‍💼 Operation System | İşletim sistemi katmanıdır \(windows, Linux vs\) |
 | 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları \(driver'ları\) kapsar |
 | 🧱 Hardware | Donanım katmanıdır |
 

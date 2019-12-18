@@ -28,8 +28,8 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 | Terim | Açıklama |
 | :--- | :--- |
-| 📚 library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
-| 🎇 framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
+| 📚 Library | Özel bir iş için toplanmış metotlar fonksiyonlar \(ev için alet çantası\) |
+| 🎇 Framework | Kapsamlı işler için toplanmış metotlar \(önceden yapılmış ev\) |
 | 💫 API | Uygulama ile karşılıkla haberleşme \(istek gönderip, karşılık alma\) |
 | 🦄 Singleton | Tek seferlik tanımlanabilen uygulama türü |
 
@@ -42,10 +42,6 @@ Aşağıdaki amaçlar için kullanılan yazılımdır.
 * Genellikle başka bilgisayar programları yada programlar arasında ilişki kuran
 * Karmaşık yazılım geliştirme görevlerini yapmak
 * Yazılım ürünü oluşturmada programlama araçlarını ayarlamak
-
-📦 Library
-
-🎇 Framework
 
 ## 🏦 Yazılımda kullanılan terimler <a id="yazilimda-kullanilan-terimler"></a>
 

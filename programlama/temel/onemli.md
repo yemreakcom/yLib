@@ -1,5 +1,7 @@
 ---
-description: Programlamaya başlamadan önce bilmen gerekenler
+description: >-
+  Programlamaya başlamadan önce bilmen gerekenler önemli konular, kavramlar ve
+  hususlar
 ---
 
 # 🌟 Programlamada Önemli Hususlar

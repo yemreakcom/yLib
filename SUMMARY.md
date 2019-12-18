@@ -16,6 +16,7 @@
   * [💡 Aydınlatma](yazilar/aydinlatma.md)
   * [🎨 Tasarım Notları](yazilar/tasarim-notlari.md)
 * [👨‍🔬 Kişisel Araştırmalarım](arastirmalar/README.md)
+  * [🔥 Firebase](arastirmalar/firebase.md)
   * [👅 İngilizce Notlarım](arastirmalar/ingilizce-notlarim.md)
   * [🤖 AI ile Kod Tamamlama](arastirmalar/ai-ile-kod-tamamlama.md)
   * [👨‍💻 Çocuklar için Programlama](arastirmalar/cocuklar-icin-programlama.md)

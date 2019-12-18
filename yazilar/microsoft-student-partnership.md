@@ -1,3 +1,7 @@
+---
+description: Microsoft'un öğrenci kolu olma ve ayrıcalıklarından faydalanma
+---
+
 # 🚀 Microsoft Student Partnership
 
 ## 🔰 Program Hakkında

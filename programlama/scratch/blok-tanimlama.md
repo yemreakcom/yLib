@@ -6,7 +6,7 @@
 * 🦄 Kopyalanmış işlemleri tek bir blok adı altında kullanmanızı sağlar
 * 📢 Haberler ile bloklar karıştırılmamalıdır
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 
 ## 
 

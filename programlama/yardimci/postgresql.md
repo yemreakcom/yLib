@@ -16,7 +16,7 @@ description: 'PostgreSQL, MySQL alternatifi bir veri tabanı sistemidir'
 * Çıkan terminalde 'şifre' alanı gelene kadar 'ENTER' a bas
 * Şifreni yazdıktan sonra örnek database komutunu çalıştırabilirsin
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2839%29.png)
 
 ## PostgreSQL Database Oluşturma
 
@@ -69,7 +69,7 @@ INSERT INTO Books VALUES (6, 'kitap6', 19);
 * Projeni aç \(Netbeans üzerinden\)
 * Alttaki resimde gösterdiğim şekilde .jar uzantılı dosyayı projene ekle
 
-![](../../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 ## PostgreSQL Bağlantı Kodu \(Connection String\)
 

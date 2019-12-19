@@ -19,9 +19,9 @@
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](../../.gitbook/assets/image%20%28113%29.png)
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 ## ⭐ Yönetim Örneği
 
@@ -29,15 +29,15 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 
 {% tabs %}
 {% tab title="🌇 Sahne" %}
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../../.gitbook/assets/image%20%2891%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 {% endtab %}
 {% endtabs %}
 

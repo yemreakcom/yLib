@@ -6,7 +6,7 @@ description: 'Matematiğin gizemli (ve havalı) üyeleri olan, asal sayıları a
 
 ## ❔ Asal Sayılar Nedir?
 
-![Sieve of Eratosthenos](../.gitbook/assets/image%20%2813%29.png)
+![Sieve of Eratosthenos](../.gitbook/assets/image%20%2814%29.png)
 
 Kendinden önceki sayıların hiç birine bölünmeyen sayılardır.
 
@@ -20,7 +20,7 @@ Kendinden önceki sayıların hiç birine bölünmeyen sayılardır.
 
 ## 💎 Asal Sayılar Neden Bu Kadar Önemli?
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 Asal sayılar ve bunların düzeni çok sık karşılaşılan bir düzendir.
 

@@ -13,7 +13,7 @@ description: Projeye dahili ses dosyaları ekleme
 * Türkçe: `Proje` -  `<Proje Adın> Özellikleri` - `Kaynaklar` - `Kaynak Ekle` - `Mevcut Dosya Ekle`
 * İngilizce:  `Project` - `Properties`  - `Resources tab` -  `Add Resource` -  `Add Existing File`
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 
 
@@ -25,7 +25,7 @@ description: Projeye dahili ses dosyaları ekleme
 * Ek olarak, `.waw` için `SoundPlayer`, diğer uzantılar için `WindowsMediaPlayer` türünden değişkenimizi oluşturuyorz.
 * `WindowsMediaPlayer wmp = new WindowsMediaPlayer();`
 
-![](../../.gitbook/assets/image%20%2875%29.png)
+![](../../.gitbook/assets/image%20%2881%29.png)
 
 ## 👨‍💻 Kod Parçası
 
@@ -37,7 +37,7 @@ wmp.controls.play(); // Sesi çalıştırma
 wmp.controls.stop(); // Sesi durdurma
 ```
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](../../.gitbook/assets/image%20%2864%29.png)
 
 ## 💡 Kod Açıklaması
 

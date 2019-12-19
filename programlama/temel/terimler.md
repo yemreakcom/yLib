@@ -20,7 +20,7 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 | 🕹️ Firmware | Donanımla ilgili yazılmış, yazılımları kapsar \(drivers, sürücüler\) |
 | 🧱 Hardware | Donanım katmanıdır \(entegre devreler\) |
 
-![](../../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2886%29.png)
 
 > [What's the difference between hardware, firmware, and software?](https://www.quora.com/Whats-the-difference-between-hardware-firmware-and-software)
 

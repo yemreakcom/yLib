@@ -16,7 +16,47 @@ Bilgisayar üzerindeki zamanın yönetimi için **Time Tracking** uygulamaları 
 
 > Alttaki uygulamlar hakkındaki yorumlarım, **tamamıyla kişisel görüşlerimdir**.
 
-## 🕵️‍ Time Tracking Uygulamaları
+## 📜 Kullanımı Raporlarma
+
+Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip etme
+
+### 📈 [WhatPulse](https://whatpulse.org/)
+
+* 🔍 Fare ve klavye tıklamalalarını raporlar
+* 📜 Kullanım istatistiklerini raporlar
+* 💰 Ücretsiz
+
+{% tabs %}
+{% tab title="1" %}
+![](../.gitbook/assets/image%20%2896%29.png)
+{% endtab %}
+
+{% tab title="2" %}
+![](../.gitbook/assets/image%20%2843%29.png)
+{% endtab %}
+
+{% tab title="3" %}
+![](../.gitbook/assets/image%20%2810%29.png)
+{% endtab %}
+
+{% tab title="4" %}
+![](../.gitbook/assets/image%20%2870%29.png)
+{% endtab %}
+
+{% tab title="5" %}
+![](../.gitbook/assets/image%20%2842%29.png)
+{% endtab %}
+
+{% tab title="6" %}
+![](../.gitbook/assets/image%20%2814%29.png)
+{% endtab %}
+{% endtabs %}
+
+### 🔗 Diğer Faydalı Araçlar
+
+{% embed url="https://www.quora.com/What-are-good-applications-for-collecting-statistics-on-keyboard-use" %}
+
+## 🕵️‍ Time Tracking
 
 Alttaki uygulamalar Windows 10 üzerinde çalışan uygulamalardır, diğer işletim sistemlerini desteklemeyebilir.
 
@@ -49,7 +89,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
 
-![ManicTime](../.gitbook/assets/image%20%2827%29.png)
+![ManicTime](../.gitbook/assets/image%20%2830%29.png)
 
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 
@@ -63,7 +103,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2860%29.png)
+![ActivityWatch](../.gitbook/assets/image%20%2865%29.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -76,7 +116,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2843%29.png)
+![RescueTime](../.gitbook/assets/image%20%2848%29.png)
 
 ## 😒 Beğenmediklerim
 
@@ -95,7 +135,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çeşitli entegrasyon destekleri mevcut lakin denemedim
 
-![DueFocus](../.gitbook/assets/image%20%2814%29.png)
+![DueFocus](../.gitbook/assets/image%20%2817%29.png)
 
 ### 🅿 [Pendulums](https://pendulums.io/)
 
@@ -109,7 +149,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2879%29.png)
+![Pendulums](../.gitbook/assets/image%20%2885%29.png)
 
 ### 📦 Diğerleri
 

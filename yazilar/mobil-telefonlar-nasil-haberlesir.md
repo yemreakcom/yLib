@@ -8,7 +8,7 @@ description: >-
 
 ## 📕 Çalışma Notlarım
 
-![PDF i&#xE7;eri&#x11F;i](../.gitbook/assets/image%20%2890%29.png)
+![PDF i&#xE7;eri&#x11F;i](../.gitbook/assets/image%20%2897%29.png)
 
 {% file src="../.gitbook/assets/mobil-telefonlar-nasil-haberlesir.pdf" %}
 

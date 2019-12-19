@@ -22,7 +22,7 @@ VsCode'un emojileri ve özel karakterleri destekleyen türde dosya kaydetmesini 
 * 💾 Çıkan ekranda **Save with Encoding** seçeneğine tıklayın
 * 👨‍💻 **UTF-8 with BOM** seçeneğini seçin
 
-![](../../.gitbook/assets/image%20%2823%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 {% hint style="info" %}
 🧙‍♂️ İsterseniz direkt olarak `CTRL + SHIFT + P` ile açılan komut penceresine **Save with Encoding** yazabilirsiniz

@@ -19,7 +19,7 @@ Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
     * `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
 * `Excluded` dışlanan, bağımsız dosyalar
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ## Kısayolar
 

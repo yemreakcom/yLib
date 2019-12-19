@@ -5,6 +5,7 @@
 * [🚀 Emoji Sözlüğüm](https://emoji.yemreak.com)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](yazilar/README.md)
+  * [📜 Bilgisayar Kullanımını Raporlarma](yazilar/bilgisayar-kullanimini-raporlarma.md)
   * [⏬ Android için Video Downloader](https://github.com/yedhrab/YDownloader)
   * [📱 Xiaomi Mi A2 Lite Notlarım](yazilar/xiaomi-mi-a2-lite.md)
   * [🚀 Microsoft Student Partnership](yazilar/microsoft-student-partnership.md)

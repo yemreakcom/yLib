@@ -65,7 +65,7 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 * Tüm gerekli eklentiler PixHawk tarafından ayarlanmıştır
 * **Install All** butonu ile indirmeniz yeterli
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 ### 🚧 Build Etme
 
@@ -73,7 +73,7 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 * Build işlemini **Status Bar** üzerinden yapabiliriz
 * Veya `make px4_fmu-v4_default` komutu ile **NuttX / Pixhawk Based Boards** için derleyebiliriz
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 {% hint style="warning" %}
 📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu]() alanındaki paketleri kurduğunuzdan emin olun

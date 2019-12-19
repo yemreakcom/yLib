@@ -1,2 +1,0 @@
-# 📜 Bilgisayar Kullanımını Raporlarma
-

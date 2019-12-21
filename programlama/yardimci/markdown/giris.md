@@ -4,6 +4,13 @@ description: 'Markdown hızlı notlar, sık kullanılan komutlar ve basitçe mar
 
 # 🔰 Markdown'a Giriş
 
+## ❔ Markdown Nedir?
+
+* 🌟 Geliştiriciler arasında en sık kullanılan yazım formatıdır
+* 🐙 GitHub üzerinde README gibi alanlarda kullanılan derlenebilir yazım formatıdır
+* ✍ İçerik oluşturmadan, PDF yazımına kadar bir sürü desteği ve avantajı vardır
+* 💨 Daha hızlı not almayı sağlar
+
 ## 🧱 Temel Formatlar
 
 * `*[metin]*` Metni italik \(eğik\) yazma

@@ -1,6 +1,6 @@
 ---
 description: >-
-  GitHub üzerinde ve bir çok yerde kullanılan Markdown metin düzenleme formatı
+  GitHub üzerinde ve bir çok yerde kullanılan Markdown metin yazma formatı
   hakkında
 ---
 

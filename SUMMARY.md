@@ -111,7 +111,7 @@
   * [🔍 Google Hacking](google/google-hacking.md)
 * [📦 Uygulama Notları](uygulamalar/README.md)
   * [🌃 VsCode](uygulamalar/vscode/README.md)
-    * [🔰 Giriş](uygulamalar/vscode/giris.md)
+    * [🔰 VsCode'a Giriş](uygulamalar/vscode/giris.md)
     * [💎 VsCode Değişkenleri](uygulamalar/vscode/degiskenler.md)
     * [💫 VsCode Kısayolları](uygulamalar/vscode/kisayollar.md)
     * [🔌 VsCode Eklentileri](uygulamalar/vscode/eklentiler.md)

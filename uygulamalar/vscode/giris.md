@@ -2,7 +2,7 @@
 description: VsCode hakkında temel bilgiler ve genel kullanım notlarım
 ---
 
-# 🔰 Giriş
+# 🔰 VsCode'a Giriş
 
 ## 💙 Önemli Notlar
 

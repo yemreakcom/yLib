@@ -55,13 +55,9 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 
 ## 🔌 VsCode için Faydalı Eklentiler
 
-| Eklenti | Açıklama |
-| :--- | :--- |
-| [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) | Markdown için gerekli tüm içeriklere, kısayollara ve formatlayıcıya sahip |
-| [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) | Markdown hatalarının altını çizme ve uyarma |
-| [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf) | Markdown'u PDF'e çevirme |
-| [ToDo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) | Yapılacakları derleme ve arayüzde sunma |
-| [Paste Image](https://marketplace.visualstudio.com/items?itemName=mushan.vscode-paste-image) | Panodan resim kopyalama |
+{% hint style="warning" %}
+‍📢 Markdown eklentileri [VsCode Eklentileri - Markdown](../../../uygulamalar/vscode/eklentiler.md#markdown) alanına gösterilmektedir
+{% endhint %}
 
 ## 🔗 Faydalı Siteler
 

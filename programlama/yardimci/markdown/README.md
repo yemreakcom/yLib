@@ -4,5 +4,3 @@ description: GitHub README gibi alanlarda kullanılan derlenebilir yazım format
 
 # 📑 Markdown
 
-## 
-

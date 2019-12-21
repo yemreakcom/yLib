@@ -1,5 +1,7 @@
 ---
-description: Windows'un sunduğu ücretsiz not alma uygulaması
+description: >-
+  Windows'un sunduğu ücretsiz not alma uygulaması olan OneNote For Windows 10
+  hakkında
 ---
 
 # 📝 OneNote

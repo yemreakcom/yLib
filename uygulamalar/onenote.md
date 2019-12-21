@@ -8,12 +8,12 @@ description: Windows'un sunduğu ücretsiz not alma uygulaması
 
 [OneNote](https://products.office.com/en/onenote/digital-note-taking-app)'u sıkça kullanan ve bir nevi hayranı olan bir kişi olarak bu yazıyı yazmak istedim
 
-* [OneNote](https://products.office.com/en/onenote/digital-note-taking-app) Windows 10 ile gömülü olarak gelen **cross-platform** not alma uygulamasıdır
-* Kalemle not alabileceğin **şu ana kadar denk geldiğim en iyi** uygulamadır.
-* İçerikleri online olarak tutmaktadır ve değişikler otomatik olarak tüm cihazlarda senkronize edilmektedir
+* 📦 [OneNote](https://products.office.com/en/onenote/digital-note-taking-app) Windows 10 ile gömülü olarak gelen **cross-platform** not alma uygulamasıdır
+* ✒️ Kalemle not alabileceğin **şu ana kadar denk geldiğim en iyi** uygulamadır.
+* 💫 İçerikleri online olarak tutmaktadır ve değişikler otomatik olarak tüm cihazlarda senkronize edilmektedir
 
 {% hint style="info" %}
-Cross-platform, tüm işletim sistemlerinde \(Android, IOS, Mac, Linux\) çalışan uygulamalara verilen sıfattır.
+💞 Cross-platform, tüm işletim sistemlerinde \(Android, IOS, Mac, Linux\) çalışan uygulamalara verilen sıfattır.
 {% endhint %}
 
 ## 💖 Ayrıcalıkları

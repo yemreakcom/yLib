@@ -126,6 +126,22 @@ Drive
 https://drive.google.com/drive/my-drive
 ```
 
+### 📋 Arama Motorlarım
+
+| Search engine | Keyword | Query URL |
+| :--- | :--- | :--- |
+| 🎡 StackOverflow | -stack | [https://stackoverflow.com/search?q=%s](https://stackoverflow.com/search?q=%s) |
+| 🎴 ICO Converter | -ico | [https://icoconvert.com/](https://icoconvert.com/) |
+| 🐙 GitHub Home | -githubh | [https://github.com/](https://github.com/) |
+| 👨‍💻 GitHub | -github | [https://github.com/search?q=%s](https://github.com/search?q=%s) |
+| 💖 Emojipedia | -e | [https://emojipedia.org/search/?q=%s](https://emojipedia.org/search/?q=%s) |
+| 📃 Online PDF Converter | -pdf | [https://online2pdf.com/](https://online2pdf.com/) |
+| 📖 GitBook | -gitbook | [https://app.gitbook.com/@yemreak/spaces](https://app.gitbook.com/@yemreak/spaces) |
+| 📧 Mail | -mail | [https://mail.google.com/mail](https://mail.google.com/mail) |
+| 🖼️ FreePic | -pic | [https://www.freepik.com/search?dates=any&format=search&page=1&query=%s&sort=popular](https://www.freepik.com/search?dates=any&format=search&page=1&query=%s&sort=popular) |
+| 🗂️ Drive | -drive | [https://drive.google.com/drive/](https://drive.google.com/drive/) |
+| 🤖 Reddit | -reddit | [https://www.reddit.com/search/?q=%s](https://www.reddit.com/search/?q=%s) |
+
 ## 🔗 Harici Linkler
 
 * [Make Google Chrome 1000% Faster \| Fix Memory](https://www.youtube.com/watch?v=6pjDn3m4rsU&list=PL1m1AtfGwsxmeK4bsX9IvcVS8jRvj0cly&index=2&t=0s)

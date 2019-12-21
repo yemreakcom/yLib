@@ -1,8 +1,8 @@
 ---
-description: VsCode dünyasına giriş
+description: VsCode hakkında temel bilgiler ve genel kullanım notlarım
 ---
 
-# 🔰 VsCode'a Giriş
+# 🔰 Giriş
 
 ## 💙 Önemli Notlar
 

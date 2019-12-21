@@ -82,3 +82,11 @@ Aşağıya doğru inildikçe, ekrana basılan çıktı azalır.‌
 * ERROR
 * CRITICAL
 
+## ✨ Versiyonlar
+
+| 💎 Sürüm | 📝 Açıklama |
+| :--- | :--- |
+| Beta | Sadece toplu güncelleştirme alır \(6 haftada bir\) |
+| Dev | Haftalık güncelleştirme alır Cannary'den daha stabildir |
+| Cannary | Gecelik güncelleme alan, anlık gelişimi temsil eder |
+

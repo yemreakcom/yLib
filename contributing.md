@@ -10,10 +10,10 @@ description: Projeye katkı sağlamak isteyenler için bilgilendirme
 * 💡 Tavsiyelerin veya hata tespitlerin varsa [🦋 Issue](https://github.com/yedhrab/YWiki/issues) açabilirsin
 * **🏗️ Yapıcı** eleştirileriniz veya fikirleriniz varsa sağ üst köşedeki  **🏹 Edit on GitHub** alanından fikirlerinizi belirtebilirsiniz
 
-{% page-ref page="programlama/yardimci/markdown.md" %}
+{% page-ref page="programlama/yardimci/markdown/" %}
 
 {% hint style="warning" %}
-**📢** [**Markdown**](programlama/yardimci/markdown.md)**'a uygun şekilde katkıda bulunursanız hoş olur 😊**
+**📢** [**Markdown**](programlama/yardimci/markdown/)**'a uygun şekilde katkıda bulunursanız hoş olur 😊**
 {% endhint %}
 
 ## 👷‍ Sayfaların Tasarımı ve Notların Tutulma Yapısı
@@ -81,7 +81,7 @@ Giriş cümlesi veya alakalı cümle.
 * 👨‍💻 Kodlar \`\`\` arasına yazılmalı
 * 🧮 Matematikler \(latex\) $latex$ `$$latex$$ (gitbook) veya $latex$ (github)`
 
-{% page-ref page="programlama/yardimci/markdown.md" %}
+{% page-ref page="programlama/yardimci/markdown/" %}
 
 ## 🏃‍ Online Ortamda Projeye Hızlıca Katkıda Bulunma
 

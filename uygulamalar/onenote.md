@@ -2,7 +2,7 @@
 description: Windows'un sunduğu ücretsiz not alma uygulaması
 ---
 
-# 📝OneNote
+# 📝 OneNote
 
 ## 🙋‍♂️ Giriş
 

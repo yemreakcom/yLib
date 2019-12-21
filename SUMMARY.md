@@ -118,7 +118,7 @@
     * [🔆 VsCode Editör Ayarları](uygulamalar/vscode/editor-ayarlari.md)
     * [👨‍💻 VsCode Eklentisi \(VSIX\) Programlama](uygulamalar/vscode/vsix.md)
     * [✨ VsCode Özelleştirmelerim](uygulamalar/vscode/ozellestirmelerim.md)
-  * [📝OneNote](uygulamalar/onenote.md)
+  * [📝 OneNote](uygulamalar/onenote.md)
   * [🐳 Docker](uygulamalar/docker.md)
   * [🥦 Jetbrains IDEs](uygulamalar/jetbrains-ides.md)
   * [💌 Telegram](uygulamalar/telegram.md)

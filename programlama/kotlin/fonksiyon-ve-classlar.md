@@ -2,7 +2,7 @@
 description: Kotlin üzerinde fonksiyon ve sınıflar
 ---
 
-# 💠 Fonksiyon ve Class'lar
+# 💠 Fonksiyon ve Class'lar \| Kotlin
 
 ## 💠 Fonksiyonlar \(Functions\)
 

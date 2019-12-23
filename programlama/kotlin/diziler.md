@@ -2,7 +2,7 @@
 description: Kotlin'de diziler
 ---
 
-# 🚅 Diziler
+# 🚅 Diziler \| Kotlin
 
 ## 🔰 Diziler \(Arrays\)
 

@@ -2,7 +2,7 @@
 description: Kotlin için harici bağlantılar
 ---
 
-# 🔗 Harici Bağlantılar
+# 🔗 Harici Bağlantılar \| Kotlin
 
 ## 🚀 Kişisel Çalışmalarım
 

@@ -2,7 +2,7 @@
 description: Kotlin'de değişkenler
 ---
 
-# 💫 Değişkenler
+# 💫 Değişkenler \| Kotlin
 
 ## 💎 Değişkenler \(Variables\)
 

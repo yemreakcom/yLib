@@ -2,7 +2,7 @@
 description: Kotlin'de koşullar
 ---
 
-# 👮‍♂️ Koşullar
+# 👮‍♂️ Koşullar \| Kotlin
 
 ## 🎆 IF Yapısı
 

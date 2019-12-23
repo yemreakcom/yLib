@@ -2,7 +2,7 @@
 description: Scratch üzerindeki oyunlara örnekler ve yaptığımız oyunlar
 ---
 
-# ⭐ Scratch \| Oyun Örnekleri
+# ⭐ Oyun Örnekleri \| Scratch
 
 ## ‍🎮🧒 Kardeşimle Yaptığımız Oyunlar
 

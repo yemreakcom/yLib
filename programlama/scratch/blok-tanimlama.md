@@ -2,7 +2,7 @@
 description: Scratch üzerinde blok tanımlaması ve blok örnekleri
 ---
 
-# 🍱 Scratch \| Blok Tanımlama
+# 🍱 Blok Tanımlama \| Scratch
 
 ## 💎 Blokların Özellikleri
 

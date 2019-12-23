@@ -2,7 +2,7 @@
 description: Scratch üzerinde haber salma ve haber işlemleri
 ---
 
-# 📢 Scratch \| Haber Salma
+# 📢 Haber Salma \| Scratch
 
 ## 💎 Haberlerin Özellikleri
 

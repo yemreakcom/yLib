@@ -2,7 +2,7 @@
 description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick)'
 ---
 
-# 👨‍💻 Scratch \| Kodlama Notları
+# 👨‍💻 Kodlama Notları \| Scratch
 
 ## 📢 Önemli Hususlar
 

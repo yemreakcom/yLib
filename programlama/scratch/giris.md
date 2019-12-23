@@ -2,7 +2,7 @@
 description: Scratch hakkında temel bilgiler ve Scratch'i tanıma
 ---
 
-# 🔰 Scratch \| Giriş
+# 🔰 Giriş \| Scratch
 
 ## 🎈 Nedir, Ne için Kullanılır?
 

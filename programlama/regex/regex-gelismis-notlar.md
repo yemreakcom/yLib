@@ -1,4 +1,8 @@
-# 🤯 Regex Gelişmiş Notlar
+---
+description: Regex hakkında gelişmiş notlar ve örnekler
+---
+
+# 🤯 Gelişmiş Notlar \| Regex
 
 ## 👀 Hızlı Bakış‍
 

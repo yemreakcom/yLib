@@ -1,4 +1,8 @@
-# 🍱 Blok Tanımlama
+---
+description: Scratch üzerinde blok tanımlaması ve blok örnekleri
+---
+
+# 🍱 Scratch \| Blok Tanımlama
 
 ## 💎 Blokların Özellikleri
 

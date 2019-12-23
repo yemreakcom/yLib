@@ -1,8 +1,8 @@
 ---
-description: Scratch üzerindeki oyunlara örnekler
+description: Scratch üzerindeki oyunlara örnekler ve yaptığımız oyunlar
 ---
 
-# ⭐ Oyun Örnekleri
+# ⭐ Scratch \| Oyun Örnekleri
 
 ## ‍🎮🧒 Kardeşimle Yaptığımız Oyunlar
 

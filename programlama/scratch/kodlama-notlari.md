@@ -1,4 +1,8 @@
-# 👨‍💻 Kodlama Notları
+---
+description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick)'
+---
+
+# 👨‍💻 Scratch \| Kodlama Notları
 
 ## 📢 Önemli Hususlar
 

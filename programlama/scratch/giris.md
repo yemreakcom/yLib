@@ -1,4 +1,8 @@
-# 🔰 Scratch'e Giriş
+---
+description: Scratch hakkında temel bilgiler ve Scratch'i tanıma
+---
+
+# 🔰 Scratch \| Giriş
 
 ## 🎈 Nedir, Ne için Kullanılır?
 

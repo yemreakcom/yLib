@@ -1,4 +1,8 @@
-# 📢 Haber Salma
+---
+description: Scratch üzerinde haber salma ve haber işlemleri
+---
+
+# 📢 Scratch \| Haber Salma
 
 ## 💎 Haberlerin Özellikleri
 

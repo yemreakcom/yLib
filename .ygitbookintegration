@@ -3,14 +3,14 @@ args = -usp
 
 [submodule "Öğrenme Yolları"]
 description = Öğrenme yolları
-path = learn.md
+path = ogrenme-yollari.md
 url = https://github.com/YEmreAk/YLearn
 root = https://learn.yemreak.com
 until = Derlenmiş Çalışmalar
 
 [submodule "YEmoji"]
-description = YEmreAk tarzında emojiler
-path = emoji.md
+description = YEmreAk tarzında emojiler (YEmoji)
+path = emoji-sozlugum.md
 url = https://github.com/YEmreAk/YEmoji
 root = https://emoji.yemreak.com
 until = Derlenmiş Çalışmalar

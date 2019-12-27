@@ -1,5 +1,5 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) etkili, verimli ve türkçe Öğrenme Yolları
+description: Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması
 ---
 
 # 👨‍🏫 Öğrenme Yolları

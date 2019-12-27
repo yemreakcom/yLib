@@ -1,11 +1,9 @@
 # Table of contents
 
 * [📖 Kişisel Kütüphanem](README.md)
-* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
-* [🚀 Emoji Sözlüğüm](https://emoji.yemreak.com)
-* [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [👨‍🏫 Öğrenme Yolları](learn.md)
 * [🚀 Emoji Sözlüğüm](emoji.md)
+* [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](yazilar/README.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](yazilar/bilgisayarda-zaman-yoenetimi-time-tracking.md)
   * [⏬ Android için Video Downloader](https://github.com/yedhrab/YDownloader)

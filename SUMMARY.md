@@ -74,7 +74,6 @@
       * [🛵 Unreal Engine](programlama/c/oyun-programlama/unreal-engine.md)
       * [🔲 Unity](programlama/c/oyun-programlama/unity.md)
 * [🧠 Yapay Zeka](yapay-zeka.md)
-* [📊 Veri Bilimi](veri-bilimi.md)
 * [🏰 Proje Yönetimi](proje-yonetimi/README.md)
   * [👨‍💼 Projelerin Kontrolü](proje-yonetimi/kontrol.md)
   * [🧩 Git](proje-yonetimi/git/README.md)

@@ -20,17 +20,11 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.
 {% endhint %}
 
-## ✨ Yeni İçerikler
-
-{% hint style="warning" %}
-📢 Bu alanın otomatikleştirilmesi hususunda yardıma ihtiyaç vardır.
-{% endhint %}
-
 ## 🧐 Değişikliklere Detaylı Bakın
 
 Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitHub üzerinden bakabilirsin.
 
-{% embed url="https://github.com/yedhrab/YWiki/commits/master" caption="" %}
+{% embed url="https://github.com/YEmreAk/YLib/commits/master" %}
 
 ## 🌍 Tüm YEmreAk İçerikleri
 

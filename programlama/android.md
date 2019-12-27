@@ -2,7 +2,7 @@
 description: Android programlama notlarım
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
@@ -16,7 +16,7 @@ description: Android programlama notlarım
 * [🧱 Temel Bilgiler](https://android.yemreak.com/temel/)
   * [👮‍♂️ İzinlerin Yönetimi](https://android.yemreak.com/temel/izinlerin-yoenetimi)
   * [🧐 Component İsimleri](https://android.yemreak.com/temel/component-isimleri)
-  * [💌 HTTP İstekleri](https://github.com/YEmreAk/YWiki/tree/8c9ba85afdd1ae7f923622953057c2286282a772/programlama/temel/http-istekleri.md)
+  * [💌 HTTP İstekleri](temel/http-istekleri.md)
   * [🌍 Global Değişkenler](https://android.yemreak.com/temel/global-degiskenler)
   * [🎪 Android'de Animasyonlar](https://android.yemreak.com/temel/androidde-animasyonlar)
 * [👨‍💼 Verilerin Yönetimi](https://android.yemreak.com/veriler/)

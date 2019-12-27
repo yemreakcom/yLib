@@ -2,7 +2,7 @@
 description: Python notlarım
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
@@ -11,8 +11,8 @@ description: Python notlarım
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/yazilar/pip-ile-kurulabilir-python-paketi-olusturma)
   * [🔢 Algoritma Örnekleri](https://python.yemreak.com/yazilar/algoritma-ornekleri)
   * [📈 Verimli Kodlama](https://python.yemreak.com/yazilar/verimli-kodlama)
-  * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/yazilar/veri-cekme)
-  * [📊 Verileri Kategorize Etme](https://python.yemreak.com/yazilar/kategorizasyon)
+  * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/veri-yoenetimi/veri-cekme)
+  * [📊 Verileri Kategorize Etme](https://python.yemreak.com/veri-yoenetimi/kategorizasyon)
 * [🔰 Python'a Giriş](https://python.yemreak.com/giris/)
   * [🙋‍♂️ Hoş Geldin](https://python.yemreak.com/giris/hos-geldin)
   * [🔑 Anahtar Kelimeler \(Keywords\)](https://python.yemreak.com/giris/keywords)
@@ -28,7 +28,7 @@ description: Python notlarım
   * [📦 Class, Modül ve Paketler](https://python.yemreak.com/temel/class-modul-paket)
   * [👮‍ Kural Koyma](https://python.yemreak.com/temel/kurallar)
   * [🕐 Zaman İşlemleri](https://python.yemreak.com/temel/zaman)
-* [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yapilari/)
+* [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yoenetimi/)
   * [📋 List](https://python.yemreak.com/veri-yapilari/list)
   * [👝 Tuple](https://python.yemreak.com/veri-yapilari/tuple)
   * [⭕ Set](https://python.yemreak.com/veri-yapilari/set)

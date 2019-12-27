@@ -1,5 +1,5 @@
 ---
-description: Üniversitedeki notlar
+description: İstanbul Üniversitesi bilgisayar mühendisliği notları
 ---
 
 # 🏫 Istanbul University - CE

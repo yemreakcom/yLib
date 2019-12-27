@@ -1,5 +1,5 @@
 ---
-description: Linux Notlarım
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Linux Notları
 ---
 
 # 🐧 Linux Notlarım

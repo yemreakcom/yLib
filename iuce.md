@@ -1,5 +1,5 @@
 ---
-description: İstanbul Üniversitesi bilgisayar mühendisliği notları
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar Mühendisliği notları
 ---
 
 # 🏫 Istanbul University - CE

@@ -1,5 +1,5 @@
 ---
-description: Yapay zeka notlarım
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
 # 🧠 Yapay Zeka Notlarım

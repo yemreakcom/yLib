@@ -1,5 +1,5 @@
 ---
-description: Python notlarım
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
 # 🐍 Python Notlarım

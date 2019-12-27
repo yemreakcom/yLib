@@ -1,5 +1,5 @@
 ---
-description: Java notlarım
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 ---
 
 # ☕ Java Notlarım

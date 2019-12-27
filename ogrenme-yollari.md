@@ -1,5 +1,5 @@
 ---
-description: Öğrenme yolları
+description: Etkili, verimli ve türkçe Öğrenme Yolları
 ---
 
 # 👨‍🏫 Öğrenme Yolları

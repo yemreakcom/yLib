@@ -137,7 +137,7 @@
   * [🎤 Ses Formatları](tech/ses-formatlari.md)
   * [📱 HTC Desire 820](tech/htc-desire-820.md)
   * [💻 HP Bilgisayar Sorunları](tech/hp-bilgisayar-sorunlari.md)
-* [🏫 Istanbul University - CE](istanbul-university-ce.md)
+* [🏫 İstanbul Üniversitesi - CE](iuce.md)
 * [📕 Üniversite Notlarım](uni/README.md)
   * [🧠 Neural Network](uni/neural-network.md)
 * [🛫 İnsansız Hava Araçları](iha/README.md)

@@ -52,7 +52,7 @@ until = Derlenmiş Çalışmalarım
 
 [submodule "IUC-CE"]
 description = Üniversitedeki notlar
-path = iuc-ce.md
+path = iuce.md
 url = https://github.com/YEmreAk/IstanbulUniversity-CE
 root = https://iuce.yemreak.com
 until = Derlenmiş Çalışmalarım

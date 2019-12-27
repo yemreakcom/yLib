@@ -1,6 +1,20 @@
 [integration "pre"]
 args = -usp
 
+[submodule "Öğrenme Yolları"]
+description = Öğrenme yolları
+path = learn.md
+url = https://github.com/YEmreAk/YLearn
+root = https://learn.yemreak.com
+until = Derlenmiş Çalışmalar
+
+[submodule "YEmoji"]
+description = YEmreAk tarzında emojiler
+path = emoji.md
+url = https://github.com/YEmreAk/YEmoji
+root = https://emoji.yemreak.com
+until = Derlenmiş Çalışmalar
+
 [submodule "Python"]
 description = Python notlarım
 path = programlama/python.md
@@ -51,7 +65,7 @@ root = https://linux.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "IUC-CE"]
-description = Üniversitedeki notlar
+description = İstanbul Üniversitesi bilgisayar mühendisliği notları
 path = iuce.md
 url = https://github.com/YEmreAk/IstanbulUniversity-CE
 root = https://iuce.yemreak.com

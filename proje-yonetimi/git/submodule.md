@@ -17,6 +17,7 @@ git submodule add <url> <path>
 git submodule --name <isim> add <url> <path> # İsim ile ekleme
 
 # Güncel dalı kontrol eden submodule ekleme
+# https://stackoverflow.com/a/9103113
 git submodule add -b master <url>
 ```
 

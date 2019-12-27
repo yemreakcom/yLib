@@ -8,8 +8,9 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 
 🤓 Burada kaybolmaman için bilmen gerekenler:
 
-* **Sağ üstteki** [**🔍 Arama butonunu**](https://wiki.yemreak.com/?q=) **kullanmayı asla ama asla ihmal etme**
-  * Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
+* **🏹 Sağ üstteki** [**🔍 Arama butonunu**](https://wiki.yemreak.com/?q=) **kullanmayı asla ama asla ihmal etme**
+  * 🔤 Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
+  * 📃 Tüm YEmreAk alt sayfalarındaki başlıkları da içermektedir
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
 * 👮‍♂️ Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir

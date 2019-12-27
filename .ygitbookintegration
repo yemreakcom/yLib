@@ -2,70 +2,70 @@
 args = -usp
 
 [submodule "Öğrenme Yolları"]
-description = Öğrenme yolları
+description = Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması
 path = ogrenme-yollari.md
 url = https://github.com/YEmreAk/YLearn
 root = https://learn.yemreak.com
 until = Derlenmiş Çalışmalar
 
 [submodule "YEmoji"]
-description = YEmreAk tarzında emojiler (YEmoji)
+description = Yunus Emre AK ~ YEmreAK (@yedhrab) tarzında emojiler (YEmoji)
 path = emoji-sozlugum.md
 url = https://github.com/YEmreAk/YEmoji
 root = https://emoji.yemreak.com
 until = Derlenmiş Çalışmalar
 
 [submodule "Python"]
-description = Python notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 path = programlama/python.md
 url = https://github.com/YEmreAk/YPython
 root = https://python.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Windows 10"]
-description = Windows 10 notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 path = os/windows-10.md
 url = https://github.com/YEmreAk/YWindows10
 root = https://windows.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Yapay Zeka"]
-description = Yapay zeka notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 path = yapay-zeka.md
 url = https://github.com/YEmreAk/YArtificialIntelligence
 root = https://ai.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Android"]
-description = Android programlama notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 path = programlama/android.md
 url = https://github.com/YEmreAk/YAndroid
 root = https://android.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Java"]
-description = Java notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 path = programlama/java.md
 url = https://github.com/YEmreAk/YJava
 root = https://java.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Web"]
-description = Web notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
 path = programlama/web.md
 url = https://github.com/YEmreAk/YWeb
 root = https://web.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "Linux"]
-description = Linux Notlarım
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Linux Notları
 path = os/linux.md
 url = https://github.com/YEmreAk/YLinux
 root = https://linux.yemreak.com
 until = Derlenmiş Çalışmalarım
 
 [submodule "IUC-CE"]
-description = İstanbul Üniversitesi bilgisayar mühendisliği notları
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar Mühendisliği notları
 path = iuce.md
 url = https://github.com/YEmreAk/IstanbulUniversity-CE
 root = https://iuce.yemreak.com

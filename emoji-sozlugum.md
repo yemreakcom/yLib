@@ -1,5 +1,5 @@
 ---
-description: YEmreAk tarzında emojiler
+description: YEmreAk tarzında emojiler (yemoji)
 ---
 
 # 🚀 Emoji Sözlüğüm

@@ -2,7 +2,7 @@
 description: Python notlarım
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
@@ -11,8 +11,8 @@ description: Python notlarım
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/yazilar/pip-ile-kurulabilir-python-paketi-olusturma)
   * [🔢 Algoritma Örnekleri](https://python.yemreak.com/yazilar/algoritma-ornekleri)
   * [📈 Verimli Kodlama](https://python.yemreak.com/yazilar/verimli-kodlama)
-  * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/veri-yoenetimi/veri-cekme)
-  * [📊 Verileri Kategorize Etme](https://python.yemreak.com/veri-yoenetimi/kategorizasyon)
+  * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/yazilar/veri-cekme)
+  * [📊 Verileri Kategorize Etme](https://python.yemreak.com/yazilar/kategorizasyon)
 * [🔰 Python'a Giriş](https://python.yemreak.com/giris/)
   * [🙋‍♂️ Hoş Geldin](https://python.yemreak.com/giris/hos-geldin)
   * [🔑 Anahtar Kelimeler \(Keywords\)](https://python.yemreak.com/giris/keywords)
@@ -28,7 +28,7 @@ description: Python notlarım
   * [📦 Class, Modül ve Paketler](https://python.yemreak.com/temel/class-modul-paket)
   * [👮‍ Kural Koyma](https://python.yemreak.com/temel/kurallar)
   * [🕐 Zaman İşlemleri](https://python.yemreak.com/temel/zaman)
-* [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yoenetimi/)
+* [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yapilari/)
   * [📋 List](https://python.yemreak.com/veri-yapilari/list)
   * [👝 Tuple](https://python.yemreak.com/veri-yapilari/tuple)
   * [⭕ Set](https://python.yemreak.com/veri-yapilari/set)
@@ -59,8 +59,8 @@ description: Python notlarım
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
+  * [💌 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yonetimi)
-  * [💫 Thread ve MultiProcessing](https://python.yemreak.com/diger/thread-ve-multiprocessing)
   * [🔳 Ekran Yönetimi](https://python.yemreak.com/diger/ekran-yonetimi)
   * [✨ Faydalı İşlemler](https://python.yemreak.com/diger/faydali-islemler)
 * [🥴 Karışık Notlar](https://python.yemreak.com/karisik/)

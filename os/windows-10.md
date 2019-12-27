@@ -2,7 +2,7 @@
 description: Windows 10 notlarım
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/windows-10)

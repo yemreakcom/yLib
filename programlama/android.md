@@ -2,7 +2,7 @@
 description: Android programlama notlarım
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
@@ -16,7 +16,6 @@ description: Android programlama notlarım
 * [🧱 Temel Bilgiler](https://android.yemreak.com/temel/)
   * [👮‍♂️ İzinlerin Yönetimi](https://android.yemreak.com/temel/izinlerin-yoenetimi)
   * [🧐 Component İsimleri](https://android.yemreak.com/temel/component-isimleri)
-  * [💌 HTTP İstekleri](https://github.com/YEmreAk/YLib/tree/790c313e0dacbd11750db41c0c56d1133053fbc3/programlama/temel/http-istekleri.md)
   * [🌍 Global Değişkenler](https://android.yemreak.com/temel/global-degiskenler)
   * [🎪 Android'de Animasyonlar](https://android.yemreak.com/temel/androidde-animasyonlar)
 * [👨‍💼 Verilerin Yönetimi](https://android.yemreak.com/veriler/)
@@ -28,6 +27,8 @@ description: Android programlama notlarım
   * [🪐 Servisler](https://android.yemreak.com/arkaplan/android-servisleri)
   * [🌞 Foreground Service](https://android.yemreak.com/arkaplan/foreground-service)
 * [📶 Haberleşme İşlemleri](https://android.yemreak.com/haberlesme/)
+  * [🌍 İnternete Bağlanma](https://android.yemreak.com/haberlesme/internete-baglanma)
+  * [💌 HTTP İstekleri](haberlesme/http-istekleri.md)
   * [📶 WiFi P2P](https://android.yemreak.com/haberlesme/wifi)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
   * [🤖 Android Things](https://android.yemreak.com/faydali/android-things)

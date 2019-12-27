@@ -64,6 +64,7 @@ Aşağıdaki amaçlar için kullanılan yazılımdır.
 | Namespace | İsim alanı | Aynı amaca hizmet eden özellikleri, sınıfları ve fonksiyonları aynı çatı altında toplama |
 | Wild Card | ​ | `..` `.` `*` gibi terimleri içeren metne verilen isim |
 | Hook | Kanca | Eylemler çalıştıklarında tetiklenen işlemler \(her tıklandığında yapılan eylem için onClick\(\) kullanılır\) |
+| Overhead | Ek yük | İşin yapan işçiye harcanan enerji. \(Örn: kamyon yük kaldırmak için kendi ağırlığını da kaldırmalıdır\) \([kaynak](http://bilgisayarkavramlari.sadievrenseker.com/2011/01/03/overhead-ek-yuk/)\) |
 
 ## 🔂 Değişken Terimleri <a id="degisken-terimleri"></a>
 

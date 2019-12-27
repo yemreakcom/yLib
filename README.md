@@ -4,15 +4,27 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 
 # 📖 Kişisel Kütüphanem
 
-## 🙋‍♂️ Hoş Geldin
+## ✨ Site Avantajları
 
-🤓 Burada kaybolmaman için bilmen gerekenler:
+### 🙋‍♂️ Hoş Geldin
+
+* **📖 Kütüphane ~ YEmreAk** bildiklerimi derlediğim bir kütüphanem olarak ele alınabilir
+* 🧐 İçerikler indekslenmiş ve düzenlenmiştir. 
+* 🕵️‍♂️ Burada kaybolmaman için bilmen gerekenler:
+
+### 🔍 Arama Butonu İle Tüm Sayfa Başlıklarında Arayın
 
 * **🏹 Sağ üstteki** [**🔍 Arama butonunu**](https://wiki.yemreak.com/?q=) **kullanmayı asla ama asla ihmal etme**
-  * 🔤 Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
-  * 📃 Tüm YEmreAk alt sayfalarındaki başlıkları da içermektedir
+* 🔤 Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
+* 📃 Tüm YEmreAk alt sayfalarındaki başlıkları da içermektedir
+
+### 🧐 Genel Kullanımı Öğrenim İçerikleri Gözden Kaçırmayın
+
 * 📋 İçeriklerin hepsi **sol üst köşedeki menünün** altındadır
 * [💖 Katkıda Bulunma Rehberi](contributing.md) alanından projeye katkıda bulunabilirsin
+
+### 💡 Faydalı Bilgiler ile İçerik Yapısını Anlayın
+
 * 👮‍♂️ Tüm emojiler [🚀 YEmoji](https://emoji.yemreak.com/) sözlüğüne uygun olarak seçilmektedir
 * 👨‍🏫 Konuları öğrenmek için ideal yolları araştırdığımız [👨‍🏫 YLearn](https://learn.yemreak.com/) projesine bakmanda fayda var.
 * [‍🔍 **Arama butonunu**](https://wiki.yemreak.com/?q=) kullanmayı ihmal etmemen gerektiğini tekrardan hatırlatayım 🤭
@@ -21,15 +33,21 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olabilirsin.
 {% endhint %}
 
-## 🧐 Değişikliklere Detaylı Bakın
+## 🕵️‍♂️ Değişikliklere Detaylı Bakın
 
 Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitHub üzerinden bakabilirsin.
 
 {% embed url="https://github.com/YEmreAk/YLib/commits/master" %}
 
+{% hint style="warning" %}
+📢 GitHub bilgisi gerektirir
+{% endhint %}
+
 ## 🌍 Tüm YEmreAk İçerikleri
 
 ![](https://drive.google.com/uc?id=1LZoJzZyY_uYbl3zCxk6ZtZPaDiMHglMv)
+
+> 🙄 Bu fotoğraf eskidir.
 
 ## 💖 Destek ve İletişim
 

@@ -45,4 +45,3 @@ description: Android programlama notlarım
   * [📜 XML Örneği](https://android.yemreak.com/duzensiz/xml-oernegi)
 * [🔗 Karışık Bağlantılar](https://android.yemreak.com/karisik-baglantilar)
 
-## 

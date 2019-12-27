@@ -75,4 +75,3 @@ description: Python notlarım
   * [🔆 Görsel Arayüz \(GUI\)](https://python.yemreak.com/ipython/ipython-goersel-programlama-gui)
   * [🔗 Harici Bağlantılar](https://python.yemreak.com/ipython/harici-baglantilar)
 
-## 

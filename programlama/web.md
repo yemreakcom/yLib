@@ -27,4 +27,3 @@ description: Web notlarım
   * [💳 OpenCart](https://web.yemreak.com/opencart/untitled)
 * [🥴 Karışık Notlar](https://web.yemreak.com/karisik-notlar)
 
-## 

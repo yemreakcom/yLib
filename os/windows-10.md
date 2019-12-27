@@ -51,4 +51,3 @@ description: Windows 10 notlarım
   * [🐞 Hata Notlarım](https://windows.yemreak.com/windowsta-linux/hata-notlarim)
 * [🥽 Awesome Windows](https://windows.yemreak.com/awesome)
 
-## 

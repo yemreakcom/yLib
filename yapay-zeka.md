@@ -72,4 +72,3 @@ description: Yapay zeka notlarım
   * [⭐ Colab Üzerinden Tensorflow](https://colab.research.google.com/drive/1JvMqUga8ALUF-YwPp4gPVZ8SjxsOoFad)
 * [⭐ Ek Bilgiler](https://ai.yemreak.com/ek-bilgiler)
 
-## 

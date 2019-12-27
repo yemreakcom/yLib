@@ -30,4 +30,3 @@ description: Linux Notlarım
   * [👣 Gnome Notlarım](https://linux.yemreak.com/gelistirici/gnome)
 * [🐛 Hata Notları](https://linux.yemreak.com/hatalar)
 
-## 

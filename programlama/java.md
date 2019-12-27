@@ -30,4 +30,3 @@ description: Java notlarım
   * [💠 GUI Component Metotları](https://java.yemreak.com/diger-java-notlari/gui-component-metotlari)
 * [⭐ Örnek Projeleri](https://java.yemreak.com/oernek-projeleri)
 
-## 

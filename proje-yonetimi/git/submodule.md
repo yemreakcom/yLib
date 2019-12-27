@@ -12,8 +12,12 @@ description: Submodule'ler repo içinde repo yapısıdır.
 ## ✨ SubModule Oluşturma
 
 ```bash
+# Direkt Submodule ekleme
 git submodule add <url> <path>
 git submodule --name <isim> add <url> <path> # İsim ile ekleme
+
+# Güncel dalı kontrol eden submodule ekleme
+git submodule add -b master <url>
 ```
 
 > [Git: symlink/reference to a file in an external repository](https://stackoverflow.com/a/27770463/9770490)

@@ -5,7 +5,7 @@ description: Web notlarım
 # 🌍 Web Notlarım
 
 * [🌍 Web Notlarım](https://web.yemreak.com/)
-* [👨‍💼 Web Sitesi Yönetimi](https://web.yemreak.com/web-sitesi-yoenetimi)
+* [👨‍💼 Web Sitesi Yönetimi](https://web.yemreak.com/web-sitesi-yonetimi)
 * [🌎 Natro Hosting](https://web.yemreak.com/untitled-1)
 * [🐘 PHP](https://web.yemreak.com/php)
 * [📜 Javascript](https://web.yemreak.com/javascript)

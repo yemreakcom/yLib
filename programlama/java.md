@@ -2,7 +2,7 @@
 description: Java notlarım
 ---
 
-# ☕ Java
+# ☕ Java Notlarım
 
 * [☕ Java Notlarım](https://java.yemreak.com/)
 * [🔰 Java'ya Giriş](https://java.yemreak.com/javaya-giris/)

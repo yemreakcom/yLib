@@ -18,6 +18,7 @@ description: Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, ver
 * [📱 Android](https://learn.yemreak.com/android)
 * [🌊 Derin Öğrenme](https://learn.yemreak.com/derin-ogrenme)
 * [🧰 Faydalı Siteler](https://learn.yemreak.com/faydali-siteler)
+* [☕ Java](https://learn.yemreak.com/java)
 * [🍎 MacOS](https://learn.yemreak.com/macos)
 * [👩‍🏫 Makine Öğrenimi](https://learn.yemreak.com/makine-ogrenimi)
 * [🐍 Python](https://learn.yemreak.com/python)

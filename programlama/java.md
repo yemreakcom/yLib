@@ -33,3 +33,8 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
   * [💠 GUI Component Metotları](https://java.yemreak.com/diger-java-notlari/gui-component-metotlari)
 * [⭐ Örnek Projeleri](https://java.yemreak.com/oernek-projeleri)
 
+## Faydalı Kaynaklar
+
+* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/java)
+* [📋 Tüm Yabancı Kaynaklar](https://java.yemreak.com/faydali-kaynaklar/tuem-yabanci-kaynaklar)
+

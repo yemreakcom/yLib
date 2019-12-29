@@ -5,7 +5,6 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 # 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
-* [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/windows-10)
 * [🔰 Windows'a Giriş](https://windows.yemreak.com/windowsa-giris/)
   * [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/windowsa-giris/kurulum)
   * [🔨 Sistem Ayarları](https://windows.yemreak.com/windowsa-giris/sistem)
@@ -49,5 +48,9 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 * [🐧 Windows'ta Linux](https://windows.yemreak.com/windowsta-linux/)
   * [🌇 Windows Subsystem for Linux \(WSL\)](https://windows.yemreak.com/windowsta-linux/wsl)
   * [🐞 Hata Notlarım](https://windows.yemreak.com/windowsta-linux/hata-notlarim)
-* [🥽 Awesome Windows](https://windows.yemreak.com/awesome)
+
+## Faydalı Kaynaklar
+
+* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/windows-10)
+* [📋 Tüm Yabancı Kaynaklar](https://windows.yemreak.com/faydali-kaynaklar/awesome)
 

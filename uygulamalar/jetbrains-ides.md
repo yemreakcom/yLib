@@ -64,6 +64,10 @@ Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-s
 * ✲ Ctrl + `K` Commit
 * ✲ Ctrl + ⇧ Shift + `K` Push
 
+### İmleç Kısayollar
+
+* ⇧ Shift ⎇ Alt ⎀ Insert ile tek imleç moduna geçme
+
 ### VsCode KeyMap
 
 * ✲ Ctrl + P, Dosyalarda arama

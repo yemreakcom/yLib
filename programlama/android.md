@@ -2,7 +2,7 @@
 description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
-# 📲 Android Notlarım
+# 📱 Android
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/android)
@@ -39,7 +39,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
     * [🔰 Giriş \| Broadcast](https://android.yemreak.com/haberlesme/broadcast/giris)
     * [🏗️ Broadcast Oluşturma](https://android.yemreak.com/haberlesme/broadcast/olusturma)
     * [📡 Broadcast Alma](https://android.yemreak.com/haberlesme/broadcast/receiver)
-  * [💌 HTTP İstekleri](haberlesme/http-istekleri.md)
+  * [💌 HTTP İstekleri](https://github.com/YEmreAk/YLib/tree/3a30c6e2a83a73229bc5bf314f18d84b244ae681/programlama/haberlesme/http-istekleri.md)
   * [📶 WiFi P2P](https://android.yemreak.com/haberlesme/wifi)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
   * [🤖 Android Things](https://android.yemreak.com/faydali/android-things)

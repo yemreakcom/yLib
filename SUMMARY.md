@@ -160,8 +160,7 @@
 
 ## Derlenmiş Çalışmalarım
 
-* [🙋‍♂️ YEmreAk](https://welcome.yemreak.com)
-* [📖 Kişisel Kütüphanem](https://wiki.yemreak.com)
+* [📖 Kişisel Kütüphanem](https://lib.yemreak.com)
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
 * [🐍 Python Notlarım](https://python.yemreak.com)
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)

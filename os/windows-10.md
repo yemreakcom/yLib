@@ -2,7 +2,7 @@
 description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
 * [🔰 Windows'a Giriş](https://windows.yemreak.com/windowsa-giris/)

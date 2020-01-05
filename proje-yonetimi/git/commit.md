@@ -4,15 +4,16 @@ description: Her değişikliği belirten commitler hakkında detaylar
 
 # ✨ Git Commit İşlemleri
 
-## Son Commit'i Kaldırma
+## 🧼 Son Commit'i Kaldırma
 
 ```bash
-git reset HEAD^ # remove commit locally
-git push origin +HEAD # force-push the new HEAD commit
-# git push origin +HEAD^:<name of your branch, most likely 'master'> sadece uzaktakini kaldırır
+git reset --soft HEAD~n # n commit sayısı
+git push origin +master --force # zorla karşıyı güncelleme
 ```
 
-> Son yüklemeyi kaldırır. Bu işlemden sonra tekrar commit etmeniz gerekmekte. Detay için [link](https://stackoverflow.com/a/8225166)
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [How can I remove commit on GitHub](https://stackoverflow.com/a/448929/9770490) alanına bakabilirsin.
+{% endhint %}
 
 ## Son Değişiklikleri Geri Alma
 

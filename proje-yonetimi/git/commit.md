@@ -4,6 +4,16 @@ description: Her değişikliği belirten commitler hakkında detaylar
 
 # ✨ Git Commit İşlemleri
 
+## ‍🧙‍♂ Hata Mesajsız Commit
+
+```bash
+echo `git add -A && git commit -m "Added license headers"`
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [How to let Jenkins git commit only if there are changes?](https://stackoverflow.com/questions/22040113/how-to-let-jenkins-git-commit-only-if-there-are-changes) alanına bakabilirsin.
+{% endhint %}
+
 ## 🧼 Son Commit'i Kaldırma
 
 ```bash

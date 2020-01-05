@@ -20,7 +20,7 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🐈 Scratch](https://scratch.mit.edu/)
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 ### [🤺 CodeCombat](https://codecombat.com/play)
 
@@ -36,7 +36,7 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🧩 Blockly](https://blockly.games/?lang=en)
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 ## 🔗 Kaynaklar
 

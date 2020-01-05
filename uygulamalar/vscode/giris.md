@@ -37,6 +37,17 @@ Debug ayarlarına erişmek için:
 * Sağ üstteki `ayarlar ikonuna` tıklayın
 * `Launch.json` dosyası açılacaktır
 
+## 🔍 Arama Özelliği
+
+* 🕵️‍♂️ ✲ Ctrl F ile dosya, ✲ Ctrl ⇧ Shift F ile tüm proje içerisinde arayabilirsiniz
+* 🕵️‍♂️ ✲ Ctrl H ile dosya, ✲ Ctrl ⇧ Shift H ile tüm proje içerisinde değiştirme yapabilirsiniz
+* 🤝 Regex destekler
+* 🐣 Regex gruplarına `$` işareti ile erişebilirsiniz
+  * 🔸 `$0` ile tüm regex grubuna
+  * 🔸 `$1`, `$2` ile  gruplara
+
+![](../../.gitbook/assets/image%20%2880%29.png)
+
 ## 🚀 GitHub projelerini Açma
 
 Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile çalıştırmak için [buraya](../../proje-yonetimi/github/web.md#repoyu-vscode-ile-acma) bakabilirsin

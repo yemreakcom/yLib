@@ -27,11 +27,11 @@ Dünyanın en tecrübeli kurtarma birimi Amerikan Uluslararası Kurtarma ekibini
 
 Dizleri, karına doğru çekerek kıvrılma pozisyonudur
 
-![Cenin pozisyonu](../.gitbook/assets/image%20%28105%29.png)
+![Cenin pozisyonu](../.gitbook/assets/image%20%28106%29.png)
 
 ## 🧱 Örnek Yıkım Alanları ve Hayat Üçgeni
 
-![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%28107%29.png)
+![&#xD6;rnek y&#x131;k&#x131;m alanlar&#x131; ve hayat &#xFC;&#xE7;geni](../.gitbook/assets/image%20%28108%29.png)
 
 ## ⛔ Yapılamaması Gerekenler
 

@@ -18,7 +18,7 @@ description: "Yazılan kodların çalışmasından sonraki en önemli özelliği
 
 ![S&#x131;ral&#x131; vs s&#x131;ras&#x131;z arama](../../.gitbook/assets/image%20%2846%29.png)
 
-![Binary vs s&#x131;ral&#x131; ve s&#x131;ras&#x131;z](../../.gitbook/assets/image%20%2880%29.png)
+![Binary vs s&#x131;ral&#x131; ve s&#x131;ras&#x131;z](../../.gitbook/assets/image%20%2881%29.png)
 
 ## 🎡 Tekrarlı ya da Hafıza ile Fonksiyon İşlemleri <a id="tekrarli-ya-da-hafiza-ile-fonksiyon-islemleri"></a>
 

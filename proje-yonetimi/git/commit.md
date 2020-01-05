@@ -7,7 +7,7 @@ description: Her değişikliği belirten commitler hakkında detaylar
 ## 🧼 Son Commit'i Kaldırma
 
 ```bash
-git reset --soft HEAD~n # n commit sayısı
+git reset --soft HEAD~1 # 1 tane commit kaldırma
 git push origin +master --force # zorla karşıyı güncelleme
 ```
 

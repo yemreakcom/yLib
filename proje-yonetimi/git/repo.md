@@ -32,6 +32,16 @@ git clone [url] [kopyalanacağı yol]
 
 > Var olan git'i istenen dizine kopyalar
 
+## 🔸 Git Bilgilerini Alma
+
+```bash
+git config --get remote.origin.url # Url'i alma
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [How can I determine the URL that a local Git repository was originally cloned from?](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr) alanına bakabilirsin.
+{% endhint %}
+
 ## Belli branch'i klonlama
 
 Çoklu değişimin olduğu projelerde sadece kendi branch'imiz üzerinden işlem yapmak isteyebilir ve diğer değişikliklerle uğraşmaya biliriz.

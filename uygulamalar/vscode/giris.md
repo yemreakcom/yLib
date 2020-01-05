@@ -48,6 +48,10 @@ Debug ayarlarına erişmek için:
 
 ![](../../.gitbook/assets/image%20%2880%29.png)
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [VSCode regex find & replace submatch math?](https://stackoverflow.com/questions/34618383/vscode-regex-find-replace-submatch-math) alanına bakabilirsin.
+{% endhint %}
+
 ## 🚀 GitHub projelerini Açma
 
 Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile çalıştırmak için [buraya](../../proje-yonetimi/github/web.md#repoyu-vscode-ile-acma) bakabilirsin

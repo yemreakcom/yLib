@@ -6,6 +6,10 @@ description: Her değişikliği belirten commitler hakkında detaylar
 
 ## ‍🧙‍♂ Hata Mesajsız Commit
 
+* ❣️ Entegrasyon araçları için hata mesajları önemlidir
+* 💁‍♂️ İşlem tamamlanmadığıda hata mesajı gelmesini engellemek için alttaki yapıyı kullan
+* 💫 GitHub workflows vb yerlerde işlemlerin etmesini sağlar
+
 ```bash
 echo `git add -A && git commit -m "Added license headers"`
 ```

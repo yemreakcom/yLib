@@ -67,7 +67,7 @@ description: >-
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
-  * [💌 HTTP İstekleri](diger/http-istekleri.md)
+  * [💌 HTTP İstekleri](https://python.yemreak.com/diger/http-istekleri)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yonetimi)
   * [🔳 Ekran Yönetimi](https://python.yemreak.com/diger/ekran-yonetimi)
   * [✨ Faydalı İşlemler](https://python.yemreak.com/diger/faydali-islemler)

@@ -122,6 +122,7 @@
   * [🐳 Docker](uygulamalar/docker.md)
   * [🥦 Jetbrains IDEs](uygulamalar/jetbrains-ides/README.md)
     * [⚙️ Faydalı Ayarlar](uygulamalar/jetbrains-ides/faydali-ayarlar.md)
+    * [🌈 Faydalı Eklentiler](uygulamalar/jetbrains-ides/faydali-eklentiler.md)
   * [💌 Telegram](uygulamalar/telegram.md)
   * [🎳 Discord](uygulamalar/discord.md)
   * [📺 Youtube](uygulamalar/youtube.md)

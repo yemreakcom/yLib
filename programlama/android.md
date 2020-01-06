@@ -59,6 +59,7 @@ description: >-
   * [⏬ Scrolling views](https://android.yemreak.com/duzensiz/scrolling-views)
   * [📜 XML Örneği](https://android.yemreak.com/duzensiz/xml-oernegi)
 * [🔗 Karışık Bağlantılar](https://android.yemreak.com/karisik-baglantilar)
+* [📃 Dokümanlar](https://android.yemreak.com/pdf/)
 
 ## Faydalı Kaynaklar
 

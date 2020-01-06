@@ -1,5 +1,10 @@
 # ⚙️ Faydalı Ayarlar
 
+## ⌨️ VS Code Keymap
+
+* 🚀 VS Code kısayollarını JetBrains üzerinde kullanmanızı sağlar
+* 🔌 Plugins alanına `VS Code Keymap` yazarak indirebilirsiniz
+
 ## 🌌 Editör Kaydırması
 
 * JetBrains varsayılan olarak son satırdan aşağısına inmez

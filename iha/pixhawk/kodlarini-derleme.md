@@ -73,7 +73,7 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 * Build işlemini **Status Bar** üzerinden yapabiliriz
 * Veya `make px4_fmu-v4_default` komutu ile **NuttX / Pixhawk Based Boards** için derleyebiliriz
 
-![](../../.gitbook/assets/image%20%2897%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 {% hint style="warning" %}
 📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu]() alanındaki paketleri kurduğunuzdan emin olun

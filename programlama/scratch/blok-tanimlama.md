@@ -10,7 +10,7 @@ description: Scratch üzerinde blok tanımlaması ve blok örnekleri
 * 🦄 Kopyalanmış işlemleri tek bir blok adı altında kullanmanızı sağlar
 * 📢 Haberler ile bloklar karıştırılmamalıdır
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 
 ## 
 

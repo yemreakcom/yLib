@@ -19,7 +19,7 @@ Projeledeki dizinlerin ne işe yaradığını derleyiciye bildiren ayardır.
     * `getResource("/images/yemreak.jpg")` yazıldığında `src/resources/images/yemreak.jpg` yoluna bakılır
 * `Excluded` dışlanan, bağımsız dosyalar
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 ## Kısayolar
 
@@ -126,43 +126,6 @@ Sanal environment gibi durumlarda system yerine onların derleyicisini kullanma
 #### Ortam Değişkenleri Ayarlama Eklentisi
 
 Eklenti sitesi için [buraya](https://github.com/ashald/EnvFile/blob/develop/README.md) bakabilirsin.
-
-## Faydalı Ayarlar
-
-### Editör Kaydırması
-
-* JetBrains varsayılan olarak son satırdan aşağısına inmez
-* Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
-* Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
-
-{% hint style="info" %}
-🧙‍♂️ Detaylar için [Scroll Past End Of File](https://intellij-support.jetbrains.com/hc/en-us/community/posts/205814379/comments/205997989) bağlantısına bakabilirsin
-{% endhint %}
-
-### Font Ayarları
-
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` kısmında
-  * _Font:_ `Consolas`
-  * _Size:_ `12`
-  * _Line spacing:_ `1.0`
-
-### Dökümantasyon Önizle
-
-Fareyle kodun üzerinize geldiğiniz _açıklamalarını_ ve dökümantasyonlarını gösterecektir.
-
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | General | Other` başlığı altında `Show quick documentation on mouse move` kısmını seçin ve süreyi `500` yapın.
-
-### Dictionaries
-
-Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/open?id=1UAGLGvwv_zLBzH7zH1oGRvYhzzP67M4k) tıklayabilirsin.
-
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Spelling | Dictionaries | Custom Dictionaries` başlığı altında `+` butonuna basıp `.dic` uzantılı sözlük dosyanı ekleyin.
-
-> Sözlüğün çalışabilmesi için `hunspell` plugin'ini indirmeniz gerekmekte. Plugin kurma detayı için [buraya](https://www.jetbrains.com/help/idea/managing-plugins.html) tıklayabilirsin.
-
-### Spellcheck Kaldırma
-
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
 
 ## Karma Notlar
 

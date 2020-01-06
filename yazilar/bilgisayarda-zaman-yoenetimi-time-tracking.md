@@ -32,7 +32,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 {% endtab %}
 
 {% tab title="2" %}

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
@@ -40,10 +41,17 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🌠 Deque](https://python.yemreak.com/koleksiyonlar/deque)
   * [⏳ Counter](https://python.yemreak.com/koleksiyonlar/counter)
   * [📗 Verimli Dict Yapıları](https://python.yemreak.com/koleksiyonlar/verimli-dict-yapilari)
-* [📂 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/)
+* [🚧 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/)
   * [📂 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/dosya)
-  * [🗂️ Dizin İşlemleri](https://python.yemreak.com/dosya-islemleri/dizin)
+    * [👮‍♂️ Dosyaya Erişim](https://python.yemreak.com/dosya-islemleri/dosya/erisim)
+    * [👀 Dosyayı Okuma](https://python.yemreak.com/dosya-islemleri/dosya/okuma)
+    * [⭐ Okuma Örnekleri](https://python.yemreak.com/dosya-islemleri/dosya/ornekler)
+    * [🔨 Properties Dosyası](https://python.yemreak.com/dosya-islemleri/dosya/properties)
+  * [🗃️ Dizin İşlemleri](https://python.yemreak.com/dosya-islemleri/dizin)
+    * [🌟 Sık Kullanılan İşlemler](https://python.yemreak.com/dosya-islemleri/dizin/untitled)
+    * [⭐ Örnekler](https://python.yemreak.com/dosya-islemleri/dizin/oernekler)
   * [🚩 Yol İşlemleri](https://python.yemreak.com/dosya-islemleri/yol)
+  * [🛍 Pathlib](https://python.yemreak.com/dosya-islemleri/pathlib)
   * [📄 Raporlama İşlemleri](https://python.yemreak.com/dosya-islemleri/raporlama)
 * [🖤 Komut İstemi](https://python.yemreak.com/cli/)
   * [👨‍💼 Komut İstemi Yönetim](https://python.yemreak.com/cli/yonetim)
@@ -59,7 +67,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
-  * [💌 HTTP İstekleri](https://github.com/YEmreAk/YLib/tree/46f61ae0065f7a2f974c72a230440c7db11a432a/programlama/diger/http-istekleri.md)
+  * [💌 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yonetimi)
   * [🔳 Ekran Yönetimi](https://python.yemreak.com/diger/ekran-yonetimi)
   * [✨ Faydalı İşlemler](https://python.yemreak.com/diger/faydali-islemler)

@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAK (@yedhrab) tarzında emojiler (YEmoji)
+description: >-
+  Yunus Emre AK ~ YEmreAK (@yedhrab) tarzında emojiler (YEmoji)
 ---
 
 # 🚀 YEmoji

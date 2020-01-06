@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ---
 
 # 🎇 Windows Notlarım

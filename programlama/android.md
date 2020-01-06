@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
 # 📲 Android Notlarım

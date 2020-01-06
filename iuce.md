@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar Mühendisliği notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar Mühendisliği notları
 ---
 
 # 🏫 İstanbul Üniversitesi Bilgisayar Mühendisliği

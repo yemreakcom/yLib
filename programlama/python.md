@@ -2,7 +2,7 @@
 description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
@@ -59,7 +59,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
-  * [💌 HTTP İstekleri](https://github.com/YEmreAk/YLib/tree/46f61ae0065f7a2f974c72a230440c7db11a432a/programlama/diger/http-istekleri.md)
+  * [💌 HTTP İstekleri](diger/http-istekleri.md)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yonetimi)
   * [🔳 Ekran Yönetimi](https://python.yemreak.com/diger/ekran-yonetimi)
   * [✨ Faydalı İşlemler](https://python.yemreak.com/diger/faydali-islemler)

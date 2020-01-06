@@ -1,3 +1,7 @@
+---
+description: JetBrains IDE için faydalı eklentiler
+---
+
 # 🌈 Faydalı Eklentiler
 
 ## 🌟 Sık Kullanılan Eklentiler

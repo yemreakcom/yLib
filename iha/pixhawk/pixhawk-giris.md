@@ -16,11 +16,11 @@ PixHawk açık kaynak kodlu donanım olarak Stm32, yazılım olarak da ArduPilot
 
 ## 🆚 PixHawk vs ArduPilot
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 ## 🎮 PixHawk Donanımı
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 ## 🎌 Faydalı Yönergeler
 

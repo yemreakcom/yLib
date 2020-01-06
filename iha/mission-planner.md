@@ -22,5 +22,5 @@ Kırmızı nokta, her bir beyaz noktadan geçene kadar çevrilir.
 
 ### 🎮 Kablosuz Kontrol Cihazını Örneği
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 

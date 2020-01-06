@@ -7,9 +7,10 @@
 
 ## 🌌 Editör Kaydırması
 
-* JetBrains varsayılan olarak son satırdan aşağısına inmez
-* Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
-* Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
+* ✨ Yumuşak kaydırma için \``Smooth Scroll` özelliğini aktif edebilirsin
+* 👮‍♂️ JetBrains varsayılan olarak son satırdan aşağısına inmez
+* 👇 Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
+* 🔨 Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
 
 {% hint style="info" %}
 🧙‍♂️ Detaylar için [Scroll Past End Of File](https://intellij-support.jetbrains.com/hc/en-us/community/posts/205814379/comments/205997989) bağlantısına bakabilirsin
@@ -38,7 +39,18 @@ Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları
 * 👁️ `Show quick documentation on mouse move` kısmını seçin 
 * 🕐 Süreyi `500` yapın.
 
-![](../../.gitbook/assets/image%20%2894%29.png)
+![](../../.gitbook/assets/image%20%2896%29.png)
+
+## 💡 Parametre İpuçları
+
+* 💠 Metot kullanımlarında ipuçları gösterir
+* 📈 Daha verimli kod yazmanızı sağlar
+* 🔨 `Editor -> General -> Appearance -> Show parameter hints -> Configure` alanından
+* 💁‍♂️ Don't ile başlamayanları işaretlersiniz her koşulda gösterecektir
+
+![](../../.gitbook/assets/image%20%2879%29.png)
+
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 ## 📖 Türkçe Kontrolü Tanımlama
 

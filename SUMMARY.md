@@ -164,6 +164,7 @@
 ## Derlenmiş Çalışmalarım
 
 * [📖 Kişisel Kütüphanem](https://lib.yemreak.com)
+* [🌱 YHotkeys](https://yhotkeys.yemreak.com/)
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
 * [🐍 Python Notlarım](https://python.yemreak.com)
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)

@@ -45,7 +45,7 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 📢 Sözlüğün çalışabilmesi için `hunspell` eklentisini indirmeniz gerekmekte. Plugin kurma detayı için [buraya](https://www.jetbrains.com/help/idea/managing-plugins.html) tıklayabilirsin.
 {% endhint %}
 
-### 🧐 Spellcheck Kaldırma
+## 🧐 Spellcheck Kaldırma
 
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
 

@@ -17,6 +17,7 @@
   * [💡 Aydınlatma](yazilar/aydinlatma.md)
   * [🎨 Tasarım Notları](yazilar/tasarim-notlari.md)
 * [👨‍🔬 Kişisel Araştırmalarım](arastirmalar/README.md)
+  * [📚 Türkçe Kelime Sözlüğü](https://1drv.ms/u/s!Amnbd9ydhrmdhq4MoaqvSiHL8BUxHA?e=4FSlyf)
   * [🔥 Firebase](arastirmalar/firebase.md)
   * [🔥 Firebase ML-Kit](arastirmalar/firebase-ml-kit.md)
   * [👅 İngilizce Notlarım](arastirmalar/ingilizce-notlarim.md)

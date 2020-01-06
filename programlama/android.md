@@ -37,7 +37,7 @@ description: >-
   * [⏰ Alarm](https://android.yemreak.com/arkaplan/alarm)
 * [📶 Haberleşme İşlemleri](https://android.yemreak.com/haberlesme/)
   * [🌍 İnternete Bağlanma](https://android.yemreak.com/haberlesme/internete-baglanma)
-  * [💌 HTTP İstekleri](https://android.yemreak.com/haberlesme/http-istekleri)
+  * [💌 HTTP İstekleri](https://android.yemreak.com/haberlesme/http-istekleri.md)
   * [⏬ Dosya İndirme](https://android.yemreak.com/haberlesme/dosya-indirme)
   * [📢 Broadcast](https://android.yemreak.com/haberlesme/broadcast/)
     * [👣 Giriş \| Broadcast](https://android.yemreak.com/haberlesme/broadcast/giris)

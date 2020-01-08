@@ -115,6 +115,7 @@
     * [🔰 VsCode'a Giriş](uygulamalar/vscode/giris.md)
     * [💎 VsCode Değişkenleri](uygulamalar/vscode/degiskenler.md)
     * [💫 VsCode Kısayolları](uygulamalar/vscode/kisayollar.md)
+    * [🔄 VsCode Taskları](uygulamalar/vscode/vscode-tasklari.md)
     * [🔌 VsCode Eklentileri](uygulamalar/vscode/eklentiler.md)
     * [🔆 VsCode Editör Ayarları](uygulamalar/vscode/editor-ayarlari.md)
     * [👨‍💻 VsCode Eklentisi \(VSIX\) Programlama](uygulamalar/vscode/vsix.md)

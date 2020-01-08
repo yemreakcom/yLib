@@ -90,6 +90,7 @@
   * [🐙 Github](proje-yonetimi/github/README.md)
     * [🔰 GitHub Giriş](proje-yonetimi/github/giris.md)
     * [👨‍💼 GitHub ile Proje Yönetimi](proje-yonetimi/github/proje-yonetimi.md)
+    * [🌈 Workflow \| GitHub](proje-yonetimi/github/workflow-or-github.md)
     * [🌍 GitHub Web](proje-yonetimi/github/web.md)
     * [💫 GitHub API](proje-yonetimi/github/github-api.md)
     * [🎲 Diğer GitHub Notları](proje-yonetimi/github/diger.md)

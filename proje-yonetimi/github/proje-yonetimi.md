@@ -1,8 +1,10 @@
 ---
-description: 'GitHub üzerinden projeleri kontrol etme, ilerletme'
+description: >-
+  GitHub üzerinden projeleri, versiyonları ve ilerleyişi artırımlı olarak
+  kontrol etme ve yönetme
 ---
 
-# 👨‍💼 GitHub ile Proje Yönetimi
+# 👨‍💼 Versiyon Yönetimi \| GitHub
 
 ## 🚙 Repository'nin Oluşturulması ve Dosyaların Aktarılması
 

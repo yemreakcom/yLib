@@ -2,7 +2,7 @@
 description: Düzensiz GitHub notları
 ---
 
-# 🎲 Diğer GitHub Notları
+# 🎲 Diğer Notlarım \| GitHub
 
 ## 🔌 GitHub Eklentileri
 

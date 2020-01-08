@@ -2,7 +2,7 @@
 description: GitHub API ile repoların bilgilerine erişme
 ---
 
-# 💫 GitHub API
+# 💫 API Kullanımı \| GitHub
 
 ## 🔰 GitHub API Hakkında
 

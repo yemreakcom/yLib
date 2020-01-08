@@ -2,7 +2,7 @@
 description: Web üzerinden GitHub kullanımı
 ---
 
-# 🌍 GitHub Web
+# 🌍 Web İşlemleri \| GitHub
 
 ## ❔ Neden Web Ortamında İşlem Yapayım
 

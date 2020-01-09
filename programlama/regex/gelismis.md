@@ -15,7 +15,7 @@ description: Regex hakkında gelişmiş notlar ve örnekler
 | `(?<=exp)` | Arkasında `exp` koşulunu sağlamalıdır |
 | `(?<=^)` | Satır başında olmalıdır |
 | `[exp]` | Verilen `exp` değerlerinden herhangi biri olmalıdır |
-| `[^exp]` | Verilen `exp` değerleri olmamalıdır |
+| `[^exp]` | Verilen `exp` değerlerinin hiçbiri olmamalıdır |
 
 ## 👨‍💻 Hızlı Örnekler
 

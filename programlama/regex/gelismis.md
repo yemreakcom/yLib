@@ -30,3 +30,26 @@ description: Regex hakkında gelişmiş notlar ve örnekler
 ⭐ Örnekler için sağdaki emojilere tıklayabilirsin
 {% endhint %}
 
+## 🔑 Şifre RegExleri
+
+| 💎 Regex | 📑 Açıklama |
+| :--- | :--- |
+| `^` | Metnin başı \(**zorunlu**\) |
+| `(?!.*\ )`  | Boşluk karakteri olmayan |
+| `(?=.*\d)` | Sayı içeren |
+| `(?=.*[A-Z])` | Büyük harf içeren |
+| `(?=.*[a-z])` | Küçük harf içeren |
+| `(?=.*[!@#\$\%\^\&\*\(\)\_])` | Özel karakter içeren |
+| `[\w\!\@\#\$\%\^\&\*\(\)\_]{6,}` | En az `6` karakterli \(**zorunlu**\) |
+| `$` | Metnin sonu \(**zorunlu**\) |
+
+{% hint style="warning" %}
+📢 Yukarıdakilerden, **zorunlu** yazanlar hariç diğerleri isteğe bağlıdır
+{% endhint %}
+
+```python
+import re
+pattern = r"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\!\@\#\$\%\^\&\*\(\)\_])(?!.*\ )[\w\!\@\#\$\%\^\&\*\(\)\_]{6,}$"
+return bool(re.match(pattern, S))
+```
+

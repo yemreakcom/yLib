@@ -6,7 +6,8 @@ description: Regex hakkında gelişmiş notlar ve örnekler
 
 ## 👀 Hızlı Bakış‍
 
-* `!` eki olumsuzluk iken `=` eşitlik anlamındadır
+* 💡`!` eki olumsuzluk iken `=` eşitlik anlamındadır 
+* 💁‍♂️ `exp` eki expression kısaltmasıdır
 
 | 💎 Regex | 📑 Açıklama |
 | :--- | :--- |

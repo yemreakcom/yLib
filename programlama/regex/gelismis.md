@@ -32,16 +32,19 @@ description: Regex hakkında gelişmiş notlar ve örnekler
 
 ## 🔑 Şifre RegExleri
 
+* 👀 Şifre kontroller için Look Behind yapısı kullanılır
+* ➕ Alttaki alandan istediğiniz kurala uygun olanları **sırasıyla** yan yana ekleyiniz
+
 | 💎 Regex | 📑 Açıklama |
 | :--- | :--- |
-| `^` | Metnin başı \(**zorunlu**\) |
+| `^` | Satır başından arama  \(**zorunlu**\) |
 | `(?!.*\ )`  | Boşluk karakteri olmayan |
 | `(?=.*\d)` | Sayı içeren |
 | `(?=.*[A-Z])` | Büyük harf içeren |
 | `(?=.*[a-z])` | Küçük harf içeren |
 | `(?=.*[!@#\$\%\^\&\*\(\)\_])` | Özel karakter içeren |
 | `[\w\!\@\#\$\%\^\&\*\(\)\_]{6,}` | En az `6` karakterli \(**zorunlu**\) |
-| `$` | Metnin sonu \(**zorunlu**\) |
+| `$` | Metnin sonunu temsil eder \(**zorunlu**\) |
 
 {% hint style="warning" %}
 📢 Yukarıdakilerden, **zorunlu** yazanlar hariç diğerleri isteğe bağlıdır

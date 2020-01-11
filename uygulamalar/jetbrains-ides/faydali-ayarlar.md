@@ -1,16 +1,20 @@
-# ⚙️ Faydalı Ayarlar
+# ⚙️ Ayarlar \| JetBrains
 
 ## ⌨️ VS Code Keymap
 
 * 🚀 VS Code kısayollarını JetBrains üzerinde kullanmanızı sağlar
 * 🔌 Plugins alanına `VS Code Keymap` yazarak indirebilirsiniz
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [💞 Kısayollar](kisayollar-or-jetbrains.md#vscode-keymap) alanına bakabilirsin.
+{% endhint %}
+
 ## 🌌 Editör Kaydırması
 
 * ✨ Yumuşak kaydırma için \``Smooth Scroll` özelliğini aktif edebilirsin
 * 👮‍♂️ JetBrains varsayılan olarak son satırdan aşağısına inmez
 * 👇 Son satırı en üst satıra kadar kaydırabilmek için alttaki ayarı kullanın
-* 🔨 Settings -&gt; Editor -&gt; Virtual Space -&gt; Show virtual space at file bottom
+* 🔨 `Settings -> Editor -> Virtual Space -> Show virtual space at file bottom`
 
 {% hint style="info" %}
 🧙‍♂️ Detaylar için [Scroll Past End Of File](https://intellij-support.jetbrains.com/hc/en-us/community/posts/205814379/comments/205997989) bağlantısına bakabilirsin
@@ -21,7 +25,7 @@
 Editör üzerindeki `==`, `=>`, `->`, `<=` gibi karakteri birleştiren hoş bir yazı tipidir
 
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` kısmında
-  * _Font:_ `Consolas`
+  * _Font:_ `FiraCode Medium`
   * _Size:_ `12`
   * _Line spacing:_ `1.0`
   * `Enable Font Ligatures`
@@ -65,4 +69,11 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 ## 🧐 Spellcheck Kaldırma
 
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
+
+## 🔀 Git Yönetimi
+
+* `JetBrain IDE` - `Check out from Version Control` - `Git`
+  * _Url:_ Proje URL'idir. \(Adress çubuğunda yazan metin\)
+  * _Directory:_ Proje yolunudur. \(projenin/konumu\)
+* `Test` & `Clone`
 

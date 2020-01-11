@@ -1,3 +1,7 @@
+---
+description: JetBrains IDE için faydalı ayarlar
+---
+
 # ⚙️ Ayarlar \| JetBrains
 
 ## ⌨️ VS Code Keymap

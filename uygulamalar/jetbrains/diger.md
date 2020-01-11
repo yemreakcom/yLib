@@ -1,3 +1,7 @@
+---
+description: JetBrains IDE için diğer notlar
+---
+
 # 🥴 Diğer Notlar \| JetBrains
 
 ## 🔗 Faydalı Kaynaklar

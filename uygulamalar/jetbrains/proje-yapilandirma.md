@@ -1,3 +1,9 @@
+---
+description: >-
+  JetBrains IDE için proje yapılandırma yöntemleri ve faydalı yapılandırma
+  ayarları
+---
+
 # 🏗️ Proje Yapılandırma \| JetBrains
 
 ## 📂 Dizinlerini yapılandırma

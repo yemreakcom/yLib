@@ -6,7 +6,7 @@
 * 🔌 Plugins alanına `VS Code Keymap` yazarak indirebilirsiniz
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [💞 Kısayollar](kisayollar-or-jetbrains.md#vscode-keymap) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [💞 Kısayollar](kisayollar.md#vscode-keymap) alanına bakabilirsin.
 {% endhint %}
 
 ## 🌌 Editör Kaydırması

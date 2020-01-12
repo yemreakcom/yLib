@@ -1,5 +1,19 @@
 # 🌟 Faydalı Kullanımlar
 
+## 🐥 Get Set Kullanımı
+
+* 🌌 Get set olmadan direkt olarak kullanabilirsiniz
+* ‍🧙‍♂ Kotlin onu sizin için halletmekte
+
+```kotlin
+val arrayAdapter = ArrayAdapter<String>(
+    wifiDirectActivity,
+    R.layout.activity_wifi_direct,
+    deviceNameList
+)
+wifiDirectActivity.lvPeer.adapter = arrayAdapter
+```
+
 ## 👮‍♂️ Switch - Case
 
 * 🤝 Koşullu değer atama işlemlerini destekler

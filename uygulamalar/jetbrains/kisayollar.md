@@ -14,6 +14,10 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 * ✲ Ctrl + `N` Classlar arasında dolanma
 * ✲ Ctrl + `F12` Üzerinde bulunduğumuz dosya üzerinde dolanma
 
+## ✴️ Pencere İşlemleri
+
+* ⇧ Shift e basılı tutarak bir dosyayı açarsanız, pop-up olarak açılır
+
 ## 👨‍💻 Kodlama
 
 * ✲ Ctrl + `SPACE` Kod tamamlama

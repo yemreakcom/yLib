@@ -23,7 +23,7 @@ description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
-![](../../.gitbook/assets/image%20%28121%29.png)
+![](../../.gitbook/assets/image%20%28122%29.png)
 
 ![](../../.gitbook/assets/image%20%2847%29.png)
 

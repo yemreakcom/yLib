@@ -12,6 +12,8 @@ description: Kotlin için harici bağlantılar
 
 ![](../../.gitbook/assets/image%20%2852%29.png)
 
+![](../../.gitbook/assets/image%20%28120%29.png)
+
 ## 🚀 Kişisel Çalışmalarım
 
 {% embed url="https://github.com/yedhrab/KotlinCalismalarim" %}

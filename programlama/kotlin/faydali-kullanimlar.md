@@ -1,7 +1,3 @@
----
-description: "Bu alan yapım aşamasındadır, yanlış bilgi olabilir \U0001F468‍\U0001F52C"
----
-
 # 🌟 Faydalı Kullanımlar
 
 ## 🐥 Get Set Kullanımı

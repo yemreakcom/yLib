@@ -2,7 +2,15 @@
 description: Kotlin için harici bağlantılar
 ---
 
-# 🔗 Harici Bağlantılar \| Kotlin
+# 📝 Diğer Notlar \| Kotlin
+
+## 🌟 Faydalı Kullanımlar
+
+![](../../.gitbook/assets/image%20%2830%29.png)
+
+![](../../.gitbook/assets/image%20%2862%29.png)
+
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 ## 🚀 Kişisel Çalışmalarım
 

@@ -25,7 +25,7 @@ description: Projeye dahili ses dosyaları ekleme
 * Ek olarak, `.waw` için `SoundPlayer`, diğer uzantılar için `WindowsMediaPlayer` türünden değişkenimizi oluşturuyorz.
 * `WindowsMediaPlayer wmp = new WindowsMediaPlayer();`
 
-![](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 ## 👨‍💻 Kod Parçası
 
@@ -37,7 +37,7 @@ wmp.controls.play(); // Sesi çalıştırma
 wmp.controls.stop(); // Sesi durdurma
 ```
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2871%29.png)
 
 ## 💡 Kod Açıklaması
 

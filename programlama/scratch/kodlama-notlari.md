@@ -23,9 +23,9 @@ description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
-![](../../.gitbook/assets/image%20%28117%29.png)
+![](../../.gitbook/assets/image%20%28121%29.png)
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 ## ⭐ Yönetim Örneği
 
@@ -33,11 +33,11 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 
 {% tabs %}
 {% tab title="🌇 Sahne" %}
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../../.gitbook/assets/image%20%2899%29.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}

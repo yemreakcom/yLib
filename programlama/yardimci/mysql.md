@@ -98,7 +98,7 @@ Sorgu ile ilgili detayları gösterir.
 explain SELECT * from table;
 ```
 
-![](../../.gitbook/assets/image%20%2870%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 ## Optimizasyon
 
@@ -204,7 +204,7 @@ SELECT COUNT(if(`crr`.`return_reason_id` = 14, `crr`.`return_reason_id`, null)) 
 
 > Koşul sağlanırsa sayar.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 ## Faydalı Kaynaklar
 

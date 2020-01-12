@@ -39,9 +39,19 @@ Sabitler `val` ile tanımlanmaktadır.
 * `val y = "Hello"`
 * `y = "hi"` \(olmaz\)
 
-⭐ Static Değişkenler
+## ⭐ Static Değişkenler
 
 * Statikler `companion object` olarak tanımlanırlar
+
+```kotlin
+companion object {
+    val TAG = WiFiDirectActivity::javaClass.name
+}
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [What is an equivalent of private static final field in Kotlin? \[duplicate\]](https://stackoverflow.com/questions/45521462/what-is-an-equivalent-of-private-static-final-field-in-kotlin) alanına bakabilirsin.
+{% endhint %}
 
 
 

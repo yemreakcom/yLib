@@ -66,6 +66,7 @@
     * [👮‍♂️ Koşullar \| Kotlin](programlama/kotlin/kosullar.md)
     * [💫 Döngüler \| Kotlin](programlama/kotlin/doengueler-or-kotlin.md)
     * [💠 Fonksiyon ve Class'lar \| Kotlin](programlama/kotlin/fonksiyon-ve-classlar.md)
+    * [🌟 Faydalı Kullanımlar](programlama/kotlin/faydali-kullanimlar.md)
     * [📝 Diğer Notlar \| Kotlin](programlama/kotlin/harici-baglantilar.md)
   * [🔩 C, C++](programlama/c-c++/README.md)
     * [💡 C++ Scanf İpuçları](programlama/c-c++/c++-scanf-ipuclari.md)

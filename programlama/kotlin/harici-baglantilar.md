@@ -4,24 +4,6 @@ description: Kotlin için harici bağlantılar
 
 # 📝 Diğer Notlar \| Kotlin
 
-## 🌟 Faydalı Kullanımlar
-
-![](../../.gitbook/assets/image%20%2831%29.png)
-
-![](../../.gitbook/assets/image%20%2863%29.png)
-
-![](../../.gitbook/assets/image%20%2853%29.png)
-
-![](../../.gitbook/assets/image%20%28123%29.png)
-
-![](../../.gitbook/assets/image%20%28127%29.png)
-
-![](../../.gitbook/assets/image%20%2825%29.png)
-
-![](../../.gitbook/assets/image%20%28104%29.png)
-
-![](../../.gitbook/assets/image%20%2885%29.png)
-
 ## 🚀 Kişisel Çalışmalarım
 
 {% embed url="https://github.com/yedhrab/KotlinCalismalarim" %}

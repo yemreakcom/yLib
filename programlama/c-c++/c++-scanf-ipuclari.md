@@ -12,7 +12,7 @@ Bir çok kodlamada `scanf("%c",&x);` şeklinde veri talebinde bulunuyoruz. Bu ve
 
 Örneğin yukarıdaki koddaki gibi bir scanf kullanımında, kullanıcı sırasıyla `'a'`, `'b'`, `'c'` verilerini girmiş olsun. `x`, `y` ,`z` 'yi ayrı ayrı ekrana bastığımızda çıktı şu şekilde olacaktır:
 
-![](../../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 ### Neden Veri Almada Sorun Var
 
@@ -40,5 +40,5 @@ Yazdırılacak olan **string** değeri için **20 karakterlik** bir alan ayırı
 
 Önceki kullanım ile aynı şekilde 20 karakterlik bir alan ayırmakta lakin bu sefer çıktı, ayrılan alanın **soluna dayalı** şekilde yazılmakta.
 
-![](../../.gitbook/assets/image%20%28106%29.png)
+![](../../.gitbook/assets/image%20%28109%29.png)
 

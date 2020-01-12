@@ -22,7 +22,7 @@ VsCode'un emojileri ve özel karakterleri destekleyen türde dosya kaydetmesini 
 * 💾 Çıkan ekranda **Save with Encoding** seçeneğine tıklayın
 * 👨‍💻 **UTF-8 with BOM** seçeneğini seçin
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](../../.gitbook/assets/image%20%2828%29.png)
 
 {% hint style="info" %}
 🧙‍♂️ İsterseniz direkt olarak `CTRL + SHIFT + P` ile açılan komut penceresine **Save with Encoding** yazabilirsiniz
@@ -46,7 +46,7 @@ Debug ayarlarına erişmek için:
   * 🔸 `$0` ile tüm regex grubuna
   * 🔸 `$1`, `$2` ile  gruplara
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image%20%2888%29.png)
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [VSCode regex find & replace submatch math?](https://stackoverflow.com/questions/34618383/vscode-regex-find-replace-submatch-math) alanına bakabilirsin.

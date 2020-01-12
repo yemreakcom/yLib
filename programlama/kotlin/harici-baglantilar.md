@@ -6,13 +6,21 @@ description: Kotlin için harici bağlantılar
 
 ## 🌟 Faydalı Kullanımlar
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2831%29.png)
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2863%29.png)
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
-![](../../.gitbook/assets/image%20%28120%29.png)
+![](../../.gitbook/assets/image%20%28123%29.png)
+
+![](../../.gitbook/assets/image%20%28127%29.png)
+
+![](../../.gitbook/assets/image%20%2825%29.png)
+
+![](../../.gitbook/assets/image%20%28104%29.png)
+
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 ## 🚀 Kişisel Çalışmalarım
 

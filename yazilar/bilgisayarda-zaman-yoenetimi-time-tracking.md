@@ -32,23 +32,23 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28108%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 {% endtab %}
 
 {% tab title="2" %}
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2847%29.png)
 {% endtab %}
 
 {% tab title="2.1" %}
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 {% endtab %}
 
 {% tab title="2.2" %}
-![](../.gitbook/assets/image%20%2858%29.png)
+![](../.gitbook/assets/image%20%2859%29.png)
 {% endtab %}
 
 {% tab title="2.3" %}
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../.gitbook/assets/image%20%2877%29.png)
 {% endtab %}
 
 {% tab title="2.4" %}
@@ -60,11 +60,11 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 {% endtab %}
 
 {% tab title="4" %}
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 {% endtab %}
 
 {% tab title="5" %}
-![](../.gitbook/assets/image%20%2845%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 {% endtab %}
 
 {% tab title="6" %}
@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
 
-![ManicTime](../.gitbook/assets/image%20%2833%29.png)
+![ManicTime](../.gitbook/assets/image%20%2834%29.png)
 
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 
@@ -123,7 +123,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2872%29.png)
+![ActivityWatch](../.gitbook/assets/image%20%2873%29.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -136,7 +136,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2851%29.png)
+![RescueTime](../.gitbook/assets/image%20%2852%29.png)
 
 ## 😒 Beğenmediklerim
 
@@ -169,7 +169,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2896%29.png)
+![Pendulums](../.gitbook/assets/image%20%2898%29.png)
 
 ### 📦 Diğerleri
 

@@ -1,3 +1,7 @@
+---
+description: "Bu alan yapım aşamasındadır, yanlış bilgi olabilir \U0001F468‍\U0001F52C"
+---
+
 # 🌟 Faydalı Kullanımlar
 
 ## 🐥 Get Set Kullanımı
@@ -28,19 +32,33 @@ val reasonMsg = when (reason) {
 }
 ```
 
-## 👨‍💼 Apply
+## 👨‍💼 Run - Apply - Let
 
 * 👪 Bir değişkenin birden fazla metodunu kullanmayı sağar
+* 🐣 Apply objelerine değer atarsınız
+* ▶️ Run ile alt metotlarını kullanırsınız
 * 📈 Tekrar tekrar yazmayı engeller
 
 ```kotlin
-private val wifiFilter = IntentFilter().apply {
+val wifiFilter = IntentFilter().apply {
     addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION)
     addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION)
-    addAction(WifiP2pManager.WIFI_P2P_CONNECTION_CHANGED_ACTION)
-    addAction(WifiP2pManager.WIFI_P2P_THIS_DEVICE_CHANGED_ACTION)
+}
+
+obje.run {
+    metot2() // obje.metot2()
+    metot3() // obje.metot3()
+}
+
+obje.let {
+    it.metot2() // obje.metot2()
+    it.metot3() // obje.metot3()
 }
 ```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Scope Function](https://kotlinlang.org/docs/reference/scope-functions.html#functions) ve [Function Selections](https://kotlinlang.org/docs/reference/scope-functions.html#functions) alanlarına bakabilirsin.
+{% endhint %}
 
 ## 💁‍♂️ Also
 

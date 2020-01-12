@@ -43,11 +43,27 @@ channel?.also { channel ->
 
 ![](../../.gitbook/assets/image%20%28127%29.png)
 
+## 👮‍♂️ İzinlerin Kontrolü
+
+* 📢 İzin tanımlanmadığında hata verir
+* 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
+* 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
+
 ![](../../.gitbook/assets/image%20%2825%29.png)
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+## 🐣 Keyword Argument
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+* ✨ Değişkenlerin adları ile onlara değer atayabilirsin
+* ⭐ Python gibi dillerde olan bir kullanımdır
 
-## 
+```kotlin
+hasWifiDirectPermission(activity = activity)
+
+fun hasWifiDirectPermission(activity: Activity): Boolean {
+    return hasPermission(
+        activity,
+        Manifest.permission.ACCESS_FINE_LOCATION
+    )
+}
+```
 

@@ -13,7 +13,7 @@ Değişkenler `var` ile tanımlanmaktadır.
 * `var y = "Hello"`
 * `y = "hi"` \(olur\)
 
-### 🏗️ Obje Tanımlaması
+### Obje Tanımlaması
 
 ```kotlin
 object : Obje
@@ -21,7 +21,7 @@ object : CountDownTimer(1, 1){...}
 object : Intent(...)
 ```
 
-### 👮‍♂️ Kontrollü Değişkenler
+### Değişken Tanımlamalarında Ek Notlar
 
 ```kotlin
 var sayi? = null  // Buradaki  ' ? ' değişkenin değerinin null da olabiliceğini ifade etmekte.
@@ -38,20 +38,4 @@ Sabitler `val` ile tanımlanmaktadır.
 * `val x = 5`
 * `val y = "Hello"`
 * `y = "hi"` \(olmaz\)
-
-## ⭐ Static Değişkenler
-
-* Statikler `companion object` olarak tanımlanırlar
-
-```kotlin
-companion object {
-    val TAG = WiFiDirectActivity::javaClass.name
-}
-```
-
-{% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [What is an equivalent of private static final field in Kotlin? \[duplicate\]](https://stackoverflow.com/questions/45521462/what-is-an-equivalent-of-private-static-final-field-in-kotlin) alanına bakabilirsin.
-{% endhint %}
-
-
 

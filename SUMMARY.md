@@ -64,6 +64,7 @@
     * [💫 Değişkenler \| Kotlin](programlama/kotlin/degiskenler.md)
     * [🚅 Diziler \| Kotlin](programlama/kotlin/diziler.md)
     * [👮‍♂️ Koşullar \| Kotlin](programlama/kotlin/kosullar.md)
+    * [💫 Döngüler \| Kotlin](programlama/kotlin/doengueler-or-kotlin.md)
     * [💠 Fonksiyon ve Class'lar \| Kotlin](programlama/kotlin/fonksiyon-ve-classlar.md)
     * [🔗 Harici Bağlantılar \| Kotlin](programlama/kotlin/harici-baglantilar.md)
   * [🔩 C, C++](programlama/c-c++/README.md)

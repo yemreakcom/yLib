@@ -13,7 +13,7 @@ Değişkenler `var` ile tanımlanmaktadır.
 * `var y = "Hello"`
 * `y = "hi"` \(olur\)
 
-### Obje Tanımlaması
+### 🏗️ Obje Tanımlaması
 
 ```kotlin
 object : Obje
@@ -21,7 +21,7 @@ object : CountDownTimer(1, 1){...}
 object : Intent(...)
 ```
 
-### Değişken Tanımlamalarında Ek Notlar
+### 👮‍♂️ Kontrollü Değişkenler
 
 ```kotlin
 var sayi? = null  // Buradaki  ' ? ' değişkenin değerinin null da olabiliceğini ifade etmekte.
@@ -38,4 +38,10 @@ Sabitler `val` ile tanımlanmaktadır.
 * `val x = 5`
 * `val y = "Hello"`
 * `y = "hi"` \(olmaz\)
+
+⭐ Static Değişkenler
+
+* Statikler `companion object` olarak tanımlanırlar
+
+
 

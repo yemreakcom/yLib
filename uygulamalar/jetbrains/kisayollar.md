@@ -21,25 +21,26 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 ## 👨‍💻 Kodlama
 
 * ✲ Ctrl + `SPACE` Kod tamamlama
-  * 2 kez ard arda basılırsa **import edilmemiş** değişkenleri de gösterir ve otomatik dahil eder
+  * 2 kez arka arkaya basılırsa **import edilmemiş** değişkenleri de gösterir ve otomatik dahil eder
 * ✲ Ctrl + ⇧ Shift + `SPACE` İle akıllı kod önerileri sunar
 * ⎇ Alt + `F7` Projedeki kullanım alanını gösterir
-* ✲ Ctrl + `Q` Dökümanı hızlı önizleme
+* ✲ Ctrl + `Q` Dokümanı hızlı ön izleme
   * **import** edilen modüller için kullanışlıdır
 * ✲ Ctrl + `B` ya da ✲ Ctrl'ye basılı tutup fare ile tıklama, tanımlandığı alana gönderir
 * ✲ Ctrl + ⎇ Alt + `V` Seçilen kısmı değişkene atama
+* ✲ Ctrl ⎇ Alt T Seçili kod blokunu if / try  gibi koşullara sokar
 
 ## 🔤 Metin İşlemleri
 
 * ✲ Ctrl + `X` Satırı kesme
-* ✲ Ctrl + `D` Satırı hemen altına kopyalam \(dublicate\)
+* ✲ Ctrl + `D` Satırı hemen altına kopyalama \(duplicate\)
 * ✲ Ctrl + ⇧ Shift + `/` Yorum satırına çevirme
 * ✲ Ctrl + ⇧ Shift + `YON TUSLARI` İmlecin üzerinde durduğu metni taşıma
 * ⇧ Shift + `F6` Yeniden adlandırma
 
 ## 🧐 Debug
 
-* ⎇ Alt + `F8` Dobug modunda iken kod derleme arayüzü
+* ⎇ Alt + `F8` Debug modunda iken kod derleme arayüzü
 * ✲ Ctrl + ENTER, Sonucu derleme
 
 ## 🔀 Git Yönetimi
@@ -51,7 +52,7 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 
 * ⇧ Shift ⎇ Alt ⎀ Insert ile tek imleç moduna geçme
 
-## ⌨️ VsCode KeyMap
+## ⌨️ VS Code KeyMap
 
 * ✲ Ctrl + P, Dosyalarda arama
   * ✲ Ctrl + ⭾ Tab, Arama ekranındaki sekmeyi değiştirme
@@ -59,7 +60,7 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 * Comment with line Comment, ⎇ Alt + ⇧ Shift + A
 * Extend Selection, ✲ Ctrl + D \(Kelime ve daha fazlasını seçme\)
 * Editör Tab - Close, ✲ Ctrl + W
-* Toggle Distraction Free mode, CLTR + K, Z
+* Toggle Distraction Free mode, ✲ Ctrl + K, Z
 
 ## 🔗 Faydalı Bağlantılar
 

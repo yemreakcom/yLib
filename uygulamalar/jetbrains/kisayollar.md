@@ -29,6 +29,8 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 * ✲ Ctrl + `B` ya da ✲ Ctrl'ye basılı tutup fare ile tıklama, tanımlandığı alana gönderir
 * ✲ Ctrl + ⎇ Alt + `V` Seçilen kısmı değişkene atama
 * ✲ Ctrl ⎇ Alt T Seçili kod blokunu if / try  gibi koşullara sokar
+* ⎇ Alt ⇧ Shift ← → Arrow Parantezlere ve scope'a göre seçme
+* ⎇ Alt ⇧ Shift ↑ ↓ Arrow Seçili alanı klonlama
 
 ## 🔤 Metin İşlemleri
 

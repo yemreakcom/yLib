@@ -6,7 +6,7 @@ description: "Yazılım dünyasına hoş geldin \U0001F680"
 
 ## 🗽 Açıklama
 
-* Programlama için faydalı olan [📕 Programlama Kitapçığı](https://asmaamirkhan.gitbook.io/programlama-kitpcik/)'na buradan erişebilirsin.
+* Programlama için faydalı olan [📕 Programlama Kitapçığı](https://prog.asmaamir.com/)'na buradan erişebilirsin.
 
 {% hint style="warning" %}
 👁️ Faydalı Kaynaklara göz atmayı unutma

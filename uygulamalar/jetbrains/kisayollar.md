@@ -64,6 +64,17 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 * Editör Tab - Close, ✲ Ctrl + W
 * Toggle Distraction Free mode, ✲ Ctrl + K, Z
 
+## 📜 Snippet'ler
+
+* 💁‍♂️ Sizin tanımladığını metin kısayolları olarak adlandırılabilir
+* ⚙️ `Settings > Editor > Live Templates` alanından ayarlanır
+* ➕ Öncelikle `Template Group` oluşturun ardından içine `Live Template` ekleyin
+* 🖱️ `$1$`, `$2$` , `$END$` kısayolları ile imleç adımları ayarlanır
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Predefined template variables](https://www.jetbrains.com/help/idea/template-variables.html) alanına bakabilirsin.
+{% endhint %}
+
 ## 🔗 Faydalı Bağlantılar
 
 Detaylar için [buraya](https://www.jetbrains.com/help/idea/mastering-keyboard-shortcuts.html) tıklayabilirsin.

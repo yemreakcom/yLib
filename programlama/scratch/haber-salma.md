@@ -11,7 +11,7 @@ description: Scratch üzerinde haber salma ve haber işlemleri
 * 👨‍💼 Haberleri **ikizleri** yönetmek için kullanabilirsiniz
 * 🐞 Haberlerin dikkatsiz kullanılması ikizleri kullanışsız kılar
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 ## 
 

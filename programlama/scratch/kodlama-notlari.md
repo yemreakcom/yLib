@@ -23,7 +23,7 @@ description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
-![](../../.gitbook/assets/image%20%28126%29.png)
+![](../../.gitbook/assets/image%20%28128%29.png)
 
 ![](../../.gitbook/assets/image%20%2849%29.png)
 
@@ -37,7 +37,7 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../../.gitbook/assets/image%20%28107%29.png)
+![](../../.gitbook/assets/image%20%28108%29.png)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}

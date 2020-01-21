@@ -160,11 +160,15 @@ a = b.also { b = a }
 * 👇 Metotların üzerine geldiğinizde \(hover\) açıklamasında doküman linki olur
 * ⭐ Link üzerinden kullanım örneklerine erişirsiniz
 
+![](../.gitbook/assets/image%20%28121%29.png)
+
 ## 👮‍♂️ İzinlerin Kontrolü
 
 * 📢 İzin tanımlanmadığında hata verir
 * 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
 * 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
+
+![](../.gitbook/assets/image%20%2881%29.png)
 
 ## 💎 Keyword Argument
 

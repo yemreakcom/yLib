@@ -46,7 +46,7 @@ Debug ayarlarına erişmek için:
   * 🔸 `$0` ile tüm regex grubuna
   * 🔸 `$1`, `$2` ile  gruplara
 
-![](../../.gitbook/assets/image%20%2889%29.png)
+![](../../.gitbook/assets/image%20%2890%29.png)
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [VSCode regex find & replace submatch math?](https://stackoverflow.com/questions/34618383/vscode-regex-find-replace-submatch-math) alanına bakabilirsin.

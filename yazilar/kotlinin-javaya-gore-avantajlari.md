@@ -221,3 +221,9 @@ func(func2)
 | View işlemleri | Dosya okuma & yazma | JSON parsing |
 | LiveData işlemleri | Ağ işlemleri | DiffUtils |
 
+## 🧐 Daha Fazla
+
+{% embed url="https://kotlin.yemreak.com/" %}
+
+{% embed url="https://medium.com/@yedhrab/kotlinin-java-ya-g%C3%B6re-avantajlar%C4%B1-3e88ab5620bf" %}
+

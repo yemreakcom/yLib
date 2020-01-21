@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
 ---
 
-# 🎃 Kotlin
+# 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
 * [🌟 Faydalı Kullanımlar](https://kotlin.yemreak.com/faydali-kullanimlar)

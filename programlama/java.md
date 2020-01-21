@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 ---
 
-# ☕ Java
+# ☕ Java Notlarım
 
 * [☕ Java Notlarım](https://java.yemreak.com/)
 * [🔰 Java'ya Giriş](https://java.yemreak.com/javaya-giris/)

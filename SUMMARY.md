@@ -172,6 +172,7 @@
 * [🐧 Linux Notlarım](https://linux.yemreak.com)
 * [📊 Veri Bilimi Notlarım](https://ds.yemreak.com)
 * [📲 Android Notlarım](https://android.yemreak.com)
+* [🎃 Kotlin Notlarım](https://kotlin.yemreak.com)
 * [☕ Java Notlarım](https://java.yemreak.com)
 * [🏫 Üniversite Notları](https://iuce.yemreak.com)
 * [📕 Git Notları](https://book.git.yemreak.com/)

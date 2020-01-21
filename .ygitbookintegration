@@ -43,6 +43,13 @@ url = https://github.com/YEmreAk/YAndroid
 root = https://android.yemreak.com
 until = Derlenmiş Çalışmalarım
 
+[submodule "Kotlin"]
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
+path = programlama/kotlin.md
+url = https://github.com/YEmreAk/YKotlin
+root = https://kotlin.yemreak.com
+until = Derlenmiş Çalışmalarım
+
 [submodule "Java"]
 description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 path = programlama/java.md

@@ -1,5 +1,5 @@
 [integration "pre"]
-args = -usp
+args = -us
 
 [submodule "Öğrenme Yolları"]
 description = Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması

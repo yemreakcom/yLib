@@ -1,11 +1,16 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
+* [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
+  * [🚫 WebView Üzerindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-uzerindeki-reklamlari-engelleme)
+  * [💁‍♂️ Neden Kotlin](https://android.yemreak.com/yazilarim/neden-kotlin)
+* [🚩 Çalışma Yolu](https://android.yemreak.com/calisma-yolu)
 * [🔰 Android'e Giriş](https://android.yemreak.com/giris/)
   * [📃 Activity ve Intent'ler](https://android.yemreak.com/giris/activity-ve-intentler)
   * [💫 Activity Yaşam Döngüsü](https://android.yemreak.com/giris/activity-yasam-doenguesue)
@@ -21,6 +26,8 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
   * [🗂️ RcycleView](https://android.yemreak.com/gui/rcycleview)
   * [🗨 AlertDialog](https://android.yemreak.com/gui/alertdialog)
   * [🍱 Menu](https://android.yemreak.com/gui/menu)
+  * [🍱 Fragment](https://android.yemreak.com/gui/fragment/)
+    * [🏗️ Oluşturma \| Fragment](https://android.yemreak.com/gui/fragment/olusturma-or-fragment)
 * [👨‍💼 Verilerin Yönetimi](https://android.yemreak.com/veriler/)
   * [🔸 Veri Saklama Yöntemleri](https://android.yemreak.com/veriler/veri-saklama-yoentemleri)
   * [📜 JSON Yönetimi](https://android.yemreak.com/veriler/json-yoenetimi)
@@ -29,11 +36,15 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
   * [🗃️ SQLite](https://android.yemreak.com/veriler/sqlite)
   * [💽 Room Database](https://android.yemreak.com/veriler/room-database)
 * [🌄 Arkaplan'da Çalışma](https://android.yemreak.com/arkaplan/)
-  * [🌠 MultiThreading](https://android.yemreak.com/arkaplan/multithreading)
-  * [💫 Asenkron İşlemler](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader)
-  * [🪐 Servisler](https://android.yemreak.com/arkaplan/android-servisleri)
-  * [🌞 Foreground Service](https://android.yemreak.com/arkaplan/foreground-service)
+  * [💫 Asenkron İşlemler](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/)
+    * [🌃 Asenkrona Giriş](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asenkrona-giris)
+    * [🔁 AsyncTask](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asynctask)
+    * [🔂 AsyncTask Loader](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asynctask-loader)
+  * [🔔 Notification](https://android.yemreak.com/arkaplan/notification-1/)
+    * [✍ Yazılı Notlar \| Notification](https://android.yemreak.com/arkaplan/notification/)
+    * [🏗️ Oluşturma \| Notification](https://android.yemreak.com/arkaplan/notification-1/giris-or-notification)
   * [⏰ Alarm](https://android.yemreak.com/arkaplan/alarm)
+  * [🌠 MultiThreading](https://android.yemreak.com/arkaplan/multithreading)
 * [📶 Haberleşme İşlemleri](https://android.yemreak.com/haberlesme/)
   * [🌍 İnternete Bağlanma](https://android.yemreak.com/haberlesme/internete-baglanma)
   * [💌 HTTP İstekleri](https://android.yemreak.com/haberlesme/http-istekleri)
@@ -43,22 +54,27 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
     * [🏗️ Oluşturma \| Broadcast](https://android.yemreak.com/haberlesme/broadcast/olusturma)
     * [📡 Receiver \| Broadcast](https://android.yemreak.com/haberlesme/broadcast/receiver)
   * [📶 WiFi P2P](https://android.yemreak.com/haberlesme/wifi)
+* [🪐 Servisler](https://android.yemreak.com/android-servisleri/)
+  * [🔰 Servislere Giriş](https://android.yemreak.com/android-servisleri/servislere-giris)
+  * [🌞 Foreground Service](https://android.yemreak.com/android-servisleri/foreground-service)
+  * [🐥 Intent Service](https://android.yemreak.com/android-servisleri/intent-service)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
+  * [🚧 Proje İsmi Değiştirme](https://android.yemreak.com/faydali/proje-islemleri)
   * [🤖 Android Things](https://android.yemreak.com/faydali/android-things)
   * [📲 Telefonu Bilgisayara Bağlama](https://android.yemreak.com/faydali/telefonu-bilgisayara-baglama)
   * [👜 Google Play Store](https://android.yemreak.com/faydali/google-play-store)
   * [✨ Verimli Programlama](https://android.yemreak.com/faydali/verimli-programlama)
   * [✍ Kişisel Notlarım](https://android.yemreak.com/faydali/kisisel-notlarim)
   * [🐛 Hata Notları](https://android.yemreak.com/faydali/hata-notlari)
-  * [🚧 Proje İşlemleri](https://android.yemreak.com/faydali/proje-islemleri)
 * [🥴 Düzensiz Notlar](https://android.yemreak.com/duzensiz/)
+  * [🐞 Hata Notları](https://android.yemreak.com/duzensiz/hata-notlari)
   * [🔰 Giriş](https://android.yemreak.com/duzensiz/giris)
   * [👶 İlk Etkileşimli UI](https://android.yemreak.com/duzensiz/ilk-etkilesimli-ui)
   * [🔤 TextView](https://android.yemreak.com/duzensiz/textview)
   * [⏬ Scrolling views](https://android.yemreak.com/duzensiz/scrolling-views)
   * [📜 XML Örneği](https://android.yemreak.com/duzensiz/xml-oernegi)
 * [🔗 Karışık Bağlantılar](https://android.yemreak.com/karisik-baglantilar)
-* [📃 Dokümanlar](https://android.yemreak.com/pdf/)
+* [📃 Dokümanlar](https://android.yemreak.com/pdf)
 
 ## Faydalı Kaynaklar
 

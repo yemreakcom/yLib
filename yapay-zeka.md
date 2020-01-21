@@ -1,13 +1,16 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
-# 🧠 Yapay Zeka
+# 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
-* [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/faydali-kaynaklar)
-* [💫 Derin Öğrenme Notları](https://dltr.asmaamir.com/)
-* [📙 Yapay Zeka Çalışma Notları](https://github.com/YEmreAk/AI-NoteBooks)
+* [⭐ Kaynaklar](https://ai.yemreak.com/kaynaklar/)
+  * [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/kaynaklar/faydali-kaynaklar)
+  * [💫 Derin Öğrenme Notları](https://dltr.asmaamir.com/)
+  * [📙 Yapay Zeka Çalışma Notları](https://github.com/YEmreAk/AI-NoteBooks)
+  * [📕 Türkçe Terimler](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri)
 * [📊 Veri Tipleri](https://ai.yemreak.com/veri-tipleri/)
   * [🔰 Giriş \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/giris)
   * [📅 Tablo Verileri](https://ai.yemreak.com/veri-tipleri/csv)
@@ -29,7 +32,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
     * [💨 Hızlı Notlar 2 \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/hizli-notlar-2-or-pandas)
     * [🔗 Faydalı Kaynaklar \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/faydali-kaynaklar-or-pandas)
   * [📈 Matplotlib](https://ai.yemreak.com/veri-yonetimi/matplotlib)
-* [💽 Veri Kümeleri](https://ai.yemreak.com/veri-kuemeleri)
+* [🗃️ Veri Kümeleri](https://ai.yemreak.com/veri-kumeleri)
 * [👨‍🏫 Makine Öğrenimi](https://ai.yemreak.com/makine-oegrenimi/)
   * [🔰 Makine Öğrenimine Giriş](https://ai.yemreak.com/makine-oegrenimi/makine-oegrenimine-giris)
   * [🚶‍ SciKit-Learn'e Giriş](https://ai.yemreak.com/makine-oegrenimi/scikit-learne-giris)

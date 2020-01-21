@@ -32,23 +32,23 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28111%29.png)
+![](../.gitbook/assets/image%20%28112%29.png)
 {% endtab %}
 
 {% tab title="2" %}
-![](../.gitbook/assets/image%20%2847%29.png)
+![](../.gitbook/assets/image%20%2848%29.png)
 {% endtab %}
 
 {% tab title="2.1" %}
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 {% endtab %}
 
 {% tab title="2.2" %}
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 {% endtab %}
 
 {% tab title="2.3" %}
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../.gitbook/assets/image%20%2878%29.png)
 {% endtab %}
 
 {% tab title="2.4" %}
@@ -60,7 +60,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 {% endtab %}
 
 {% tab title="4" %}
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 {% endtab %}
 
 {% tab title="5" %}
@@ -123,7 +123,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2873%29.png)
+![ActivityWatch](../.gitbook/assets/image%20%2874%29.png)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -136,7 +136,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2852%29.png)
+![RescueTime](../.gitbook/assets/image%20%2853%29.png)
 
 ## 😒 Beğenmediklerim
 
@@ -169,7 +169,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2898%29.png)
+![Pendulums](../.gitbook/assets/image%20%2899%29.png)
 
 ### 📦 Diğerleri
 

@@ -14,7 +14,7 @@ description: "Yazılım dünyasına hoş geldin \U0001F680"
 
 ## 🌊 Diller Arasındaki Bağlantı
 
-![Diller aras&#x131;ndaki ba&#x11F;lant&#x131;](../../.gitbook/assets/image%20%28105%29.png)
+![Diller aras&#x131;ndaki ba&#x11F;lant&#x131;](../../.gitbook/assets/image%20%28106%29.png)
 
 ### 🆔 Adlandırma Yapısı
 

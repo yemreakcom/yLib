@@ -47,7 +47,7 @@ Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları
 * 👁️ `Show quick documentation on mouse move` kısmını seçin 
 * 🕐 Süreyi `500` yapın.
 
-![](../../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 
 ## 💡 Parametre İpuçları
 
@@ -56,7 +56,7 @@ Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları
 * 🔨 `Editor -> General -> Appearance -> Show parameter hints -> Configure` alanından
 * 💁‍♂️ Don't ile başlamayanları işaretlersiniz her koşulda gösterecektir
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 

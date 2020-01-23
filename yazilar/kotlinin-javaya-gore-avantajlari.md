@@ -160,7 +160,7 @@ a = b.also { b = a }
 * 👇 Metotların üzerine geldiğinizde \(hover\) açıklamasında doküman linki olur
 * ⭐ Link üzerinden kullanım örneklerine erişirsiniz
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](../.gitbook/assets/kotlin_ktdoc.png)
 
 ## 👮‍♂️ İzinlerin Kontrolü
 
@@ -168,7 +168,7 @@ a = b.also { b = a }
 * 💁‍♂️ `@SupressLint("MissingPermission")` ile bunu engelleyebilirsiniz
 * 🤭 "Ne yaptığımın farkındayım, bana bulaşma" demek gibi
 
-![](../.gitbook/assets/image%20%2881%29.png)
+![](../.gitbook/assets/kotlin_permission.png)
 
 ## 💎 Keyword Argument
 
@@ -185,6 +185,10 @@ fun hasWifiDirectPermission(activity: Activity): Boolean {
     )
 }
 ```
+
+{% hint style="warning" %}
+📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
+{% endhint %}
 
 ## 💠 Parametre Olarak Fonksiyon
 

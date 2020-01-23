@@ -118,6 +118,34 @@ val reasonMsg = when (reason) {
 }
 ```
 
+## 💁‍♂️ Functional Arguments
+
+* 💦 Gereksiz yere parantez `(` kullanımı yoktur
+* ⚙️ Bu yapı ile otomatik olarak **son fonksiyona** tanımlanan işlemler atanır
+
+```kotlin
+button.setOnClickListener { view ->
+    // ...
+}
+
+/*
+// Java kullanımı
+button.setOnClickListener ( { view ->
+
+});
+*/
+
+fun funcT(func1: () -> Unit, func2 () -> Unit) { }
+
+funcT({ /* func1 */ }) {
+    // func2
+}
+```
+
+{% hint style="warning" %}
+📢 Functional argument olursa, sadece `metot {}` kullanılması durumunda sadece son argümana değer atanır
+{% endhint %}
+
 ## 👨‍💼 Run - Apply - Let - Also
 
 * 👪 Bir değişkenin birden fazla metodunu kullanmayı sağar

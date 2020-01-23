@@ -52,7 +52,9 @@ description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 
 ## 🖱️ İmleç & Fare
 
-* ⇧ Shift ⎇ Alt ⎀ Insert ile tek imleç moduna geçme
+| 💞 Kısayol | 📝 Açıklama | 🌍 Resmi Adı |
+| :--- | :--- | :--- |
+| ⇧ Shift ⎇ Alt ⎀ Insert | Sütun seçme tipini değiştirme | Column selection mode |
 
 ## ⌨️ VS Code KeyMap
 

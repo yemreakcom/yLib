@@ -6,6 +6,8 @@ description: >-
 # 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
+* [✍ Kişisel Yazılarım](https://kotlin.yemreak.com/kisisel-yazilarim/)
+  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://lib.yemreak.com/yazilar/kotlin-vs-java)
 * [🌟 Faydalı Kullanımlar](https://kotlin.yemreak.com/faydali-kullanimlar)
 * [💎 Değişkenler](https://kotlin.yemreak.com/degiskenler/)
   * [🚴‍♂️ Giriş \| Değişkenler](https://kotlin.yemreak.com/degiskenler/giris)

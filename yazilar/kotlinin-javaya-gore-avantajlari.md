@@ -4,7 +4,7 @@ description: >-
   farkındalıklarımla sizlere sunayım (kotlin vs java, java vs kotlin).
 ---
 
-# 🚀 Kotlin’in Java’ya Göre Avantajları
+# 🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)
 
 ![](../.gitbook/assets/image%20%2847%29.png)
 

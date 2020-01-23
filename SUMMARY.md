@@ -5,7 +5,7 @@
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Kişisel Yazılarım](yazilar/README.md)
-  * [🚀 Kotlin’in Java’ya Göre Avantajları](yazilar/kotlinin-javaya-gore-avantajlari.md)
+  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](yazilar/kotlinin-javaya-gore-avantajlari.md)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](yazilar/bilgisayarda-zaman-yoenetimi-time-tracking.md)
   * [⏬ Android için Video Downloader](https://github.com/yedhrab/YDownloader)
   * [📱 Xiaomi Mi A2 Lite Notlarım](yazilar/xiaomi-mi-a2-lite.md)

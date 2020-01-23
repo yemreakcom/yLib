@@ -4,7 +4,7 @@ description: Projedeki her geliştirme dallarının yönetimi
 
 # 🌳 Git ile Branch İşlemleri
 
-## 🚧 Branch İşlemleri
+## 🚴‍♂️ Branch'i Tanıyalım
 
 Branch \(dal\) git yığıtlarında imleç görevi gören araçlardır. Ek bilgi için [buraya](https://git-scm.com/book/tr/v1/Git-te-Dallanma-Dal-Nedir%3F) tıklayabilirsin.
 
@@ -37,23 +37,13 @@ Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 * `<url | remote>` Uzaktaki git adresi veya ismi
   * **Örn**: `origin` veya `https://github.com/yedhrab/YBilgiler.git`
 
-> Branch kaldırma hakkında ek bilgi için \[buraya\]\[git branch silme işlemleri\] bakabilirsin
+## ✨ Silme ve Güncelleme
 
-## 🌍 Remote Kaldırma & Gösterme
-
-```bash
-git remote -v
-```
-
-* `-v` Verbose, kontrol edilenleri gösterir.
-
-```bash
-git remote rm [branch]
-```
-
-* `branch` Kontrol türü. Mesela origin
-
-> Detaylı açıklama için [buraya](https://help.github.com/articles/removing-a-remote/) tıklayabilirsin.
+| 👨‍💻 Komut | 📝 Açıklama |
+| :--- | :--- |
+| `git branch -m <eski> <yeni>` | 👨‍🔧 Branch ismi değiştirme |
+| `git push origin :<eski>` | 💦 Eski branch'i kaldırma |
+| `git push origin <yeni>` | 🏹 Yeni branch'i sunucuya aktarma |
 
 ## 🔗 Harici Bağlantılar
 

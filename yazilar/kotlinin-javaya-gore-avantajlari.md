@@ -1,7 +1,7 @@
 ---
 description: >-
   Kotlin’i Java’ya nazaran daha kullanışlı (ve havalı) kılan nedir, kendi
-  farkındalıklarımla sizlere sunayım.
+  farkındalıklarımla sizlere sunayım (kotlin vs java, java vs kotlin).
 ---
 
 # 🚀 Kotlin’in Java’ya Göre Avantajları

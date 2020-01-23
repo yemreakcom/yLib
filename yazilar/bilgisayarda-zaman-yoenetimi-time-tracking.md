@@ -32,7 +32,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../.gitbook/assets/image%20%28113%29.png)
 {% endtab %}
 
 {% tab title="2" %}
@@ -40,7 +40,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 {% endtab %}
 
 {% tab title="2.1" %}
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../.gitbook/assets/image%20%2893%29.png)
 {% endtab %}
 
 {% tab title="2.2" %}
@@ -74,7 +74,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 ### 🔗 Diğer Faydalı Araçlar
 
-{% embed url="https://www.quora.com/What-are-good-applications-for-collecting-statistics-on-keyboard-use" %}
+{% embed url="https://www.quora.com/What-are-good-applications-for-collecting-statistics-on-keyboard-use" caption="" %}
 
 ## 🕵️‍ Time Tracking
 
@@ -169,7 +169,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%2899%29.png)
+![Pendulums](../.gitbook/assets/image%20%28100%29.png)
 
 ### 📦 Diğerleri
 

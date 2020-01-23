@@ -45,6 +45,10 @@ Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 | `git push origin :<eski>` | 💦 Eski branch'i kaldırma |
 | `git push origin <yeni>` | 🏹 Yeni branch'i sunucuya aktarma |
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Change a branch name in a Git repo](https://stackoverflow.com/a/32895500/9770490) alanına bakabilirsin.
+{% endhint %}
+
 ## 🔗 Harici Bağlantılar
 
 * [Git branch silme işlemleri](https://stackoverflow.com/a/2003515)

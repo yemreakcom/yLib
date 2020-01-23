@@ -20,7 +20,7 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🐈 Scratch](https://scratch.mit.edu/)
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
 ### [🤺 CodeCombat](https://codecombat.com/play)
 
@@ -36,11 +36,11 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🧩 Blockly](https://blockly.games/?lang=en)
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](../.gitbook/assets/image%20%28105%29.png)
 
 ## 🔗 Kaynaklar
 
-{% embed url="https://www.codecamp.com.au/blog/8-best-programming-games-for-kids" %}
+{% embed url="https://www.codecamp.com.au/blog/8-best-programming-games-for-kids" caption="" %}
 
-{% embed url="https://github.com/HollyAdele/awesome-programming-for-kids" %}
+{% embed url="https://github.com/HollyAdele/awesome-programming-for-kids" caption="" %}
 

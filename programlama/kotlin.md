@@ -20,6 +20,7 @@ description: >-
   * [🚴‍♂️ Giriş \| Coroutine](https://kotlin.yemreak.com/coroutine/giris)
   * [🏹 Dispatcher \| Coroutine](https://kotlin.yemreak.com/coroutine/dispatcher)
   * [🌄 Scope \| Coroutine](https://kotlin.yemreak.com/coroutine/scope)
+  * [🔗 Bağlantılar\| Coroutine](https://kotlin.yemreak.com/coroutine/baglantilar)
 * [📑 Yazım Kuralları](https://kotlin.yemreak.com/yazim-kurallari)
 * [🏃‍♂️ Hızlı Notlar](https://kotlin.yemreak.com/hizli-notlar)
 * [🧐 Kaynaklar](https://kotlin.yemreak.com/kaynaklar)

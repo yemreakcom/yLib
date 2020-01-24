@@ -1,13 +1,13 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
 ---
 
-# 🎃 Kotlin
+# 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
-* [✍ Kişisel Yazılarım](https://kotlin.yemreak.com/kisisel-yazilarim/)
-  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://lib.yemreak.com/yazilar/kotlin-vs-java)
-* [🌟 Faydalı Kullanımlar](https://kotlin.yemreak.com/faydali-kullanimlar)
+* [✍ Yazılarım](https://kotlin.yemreak.com/yazilarim/)
+  * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://kotlin.yemreak.com/yazilarim/kotlin-vs-java)
 * [💎 Değişkenler](https://kotlin.yemreak.com/degiskenler/)
   * [🚴‍♂️ Giriş \| Değişkenler](https://kotlin.yemreak.com/degiskenler/giris)
   * [⭐ Özellikler \| Değişkenler](https://kotlin.yemreak.com/degiskenler/ozellikler)

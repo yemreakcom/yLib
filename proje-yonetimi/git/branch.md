@@ -49,6 +49,13 @@ Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 ‍🧙‍♂ Detaylı bilgi için [Change a branch name in a Git repo](https://stackoverflow.com/a/32895500/9770490) alanına bakabilirsin.
 {% endhint %}
 
+## 🧹 Tüm Branch'ları Silme
+
+* 🛒 Tüm branch'ları `git branch | grep -v "master"` komutu ile al
+* 👇 Her bir branch'i `xargs` komutu ile seç
+* 💦 Branch'ları `xargs git branch -D` komutu ile sil
+* 👨‍💻 Sonuç olarak komut: `git branch | grep -v "master" | xargs git branch -D`
+
 ## 🔗 Harici Bağlantılar
 
 * [Git branch silme işlemleri](https://stackoverflow.com/a/2003515)

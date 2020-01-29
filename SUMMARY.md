@@ -72,6 +72,7 @@
       * [🔲 Unity](programlama/c/oyun-programlama/unity.md)
 * [🧠 Yapay Zeka](yapay-zeka.md)
 * [🏰 Proje Yönetimi](proje-yonetimi/README.md)
+  * [👨‍💻 Kodlama Düzeni](proje-yonetimi/kodlama-duezeni.md)
   * [👨‍💼 Projelerin Kontrolü](proje-yonetimi/kontrol.md)
   * [🧩 Git](proje-yonetimi/git/README.md)
     * [🚶‍ Git Giriş](proje-yonetimi/git/giris.md)

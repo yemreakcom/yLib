@@ -13,6 +13,7 @@ description: >-
   * [⭐ Özellikler \| Değişkenler](https://kotlin.yemreak.com/degiskenler/ozellikler)
   * [🐣 Erişim \| Değişkenler](https://kotlin.yemreak.com/degiskenler/erisim)
 * [👮‍♂️ Koşullar](https://kotlin.yemreak.com/kosullar)
+* [💠 Fonksiyonlar](https://kotlin.yemreak.com/fonksiyonlar)
 * [🚅 Diziler](https://kotlin.yemreak.com/diziler)
 * [🍎 Sınıflar](https://kotlin.yemreak.com/siniflar)
 * [📂 Dosya İşlemleri](https://kotlin.yemreak.com/dosya-islemleri)

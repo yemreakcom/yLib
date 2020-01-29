@@ -19,6 +19,7 @@ description: >-
   * [🚅 Serileştirmiş Veriler](https://ai.yemreak.com/veri-tipleri/pickle)
   * [🔢 NumPy Verileri](https://ai.yemreak.com/veri-tipleri/numpy)
 * [👨‍💼 Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/)
+  * [🗃️ SQL](https://ai.yemreak.com/veri-yonetimi/sql)
   * [🔢 NumPy](https://ai.yemreak.com/veri-yonetimi/numpy/)
     * [🔰 Giriş \| Numpy](https://ai.yemreak.com/veri-yonetimi/numpy/giris-or-numpy)
     * [🚅 Diziler \| Numpy](https://ai.yemreak.com/veri-yonetimi/numpy/diziler-or-numpy)

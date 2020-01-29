@@ -59,6 +59,7 @@ description: >-
   * [🌞 Foreground Service](https://android.yemreak.com/android-servisleri/foreground-service)
   * [🐥 Intent Service](https://android.yemreak.com/android-servisleri/intent-service)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
+  * [📅 Tarih işlemleri](https://android.yemreak.com/faydali/tarih-islemleri)
   * [🚧 Proje İsmi Değiştirme](https://android.yemreak.com/faydali/proje-islemleri)
   * [🤖 Android Things](https://android.yemreak.com/faydali/android-things)
   * [📲 Telefonu Bilgisayara Bağlama](https://android.yemreak.com/faydali/telefonu-bilgisayara-baglama)

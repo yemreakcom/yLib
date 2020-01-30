@@ -1,3 +1,7 @@
+---
+description: Yazılım projeleri için proje kodlarını düzene sokma ve yapılandırma ayarları
+---
+
 # 👨‍💻 Kodlama Düzeni
 
 ## 🐇 EditorConfig Yapılandırması

@@ -1,5 +1,17 @@
 # 👨‍💻 Kodlama Düzeni
 
+## 🐇 EditorConfig Yapılandırması
+
+* 👨‍💻 EditorConfig ile kodların formatlanma yapısı belirlenir
+* 💁‍♂️ Her IDE için çalışan ortak bir yapılandırma dosyasıdır
+* 🚀 Versiyon kontrol sistemleri ile çok sık kullanılır
+
+![](../.gitbook/assets/editorconfig_example.png)
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [EditorConfig Wiki](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties) alanına bakabilirsin.
+{% endhint %}
+
 ## 💎 Değişken Adlandırması
 
 * 📈 Adlandırma şekli `<ön_ek><isim>` şeklinde daha verimlidir.

@@ -51,10 +51,13 @@ Yeni bir branch, test işlemleri için sıklıkla kullanılır.
 
 ## 🧹 Tüm Branch'ları Silme
 
+```bash
+git branch | grep -v "master" | xargs git branch -D
+```
+
 * 🛒 Tüm branch'ları `git branch | grep -v "master"` komutu ile al
 * 👇 Her bir branch'i `xargs` komutu ile seç
 * 💦 Branch'ları `xargs git branch -D` komutu ile sil
-* 👨‍💻 Sonuç olarak komut: `git branch | grep -v "master" | xargs git branch -D`
 
 ## 🔗 Harici Bağlantılar
 

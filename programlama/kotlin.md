@@ -12,6 +12,7 @@ description: >-
   * [🚴‍♂️ Giriş \| Değişkenler](https://kotlin.yemreak.com/degiskenler/giris)
   * [⭐ Özellikler \| Değişkenler](https://kotlin.yemreak.com/degiskenler/ozellikler)
   * [🐣 Erişim \| Değişkenler](https://kotlin.yemreak.com/degiskenler/erisim)
+* [💎 RegEx](https://kotlin.yemreak.com/regex)
 * [👮‍♂️ Koşullar](https://kotlin.yemreak.com/kosullar)
 * [💠 Fonksiyonlar](https://kotlin.yemreak.com/fonksiyonlar)
 * [🚅 Diziler](https://kotlin.yemreak.com/diziler)

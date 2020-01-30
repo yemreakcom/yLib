@@ -59,6 +59,10 @@ git branch | grep -v "master" | xargs git branch -D
 * 👇 Her bir branch'i `xargs` komutu ile seç
 * 💦 Branch'ları `xargs git branch -D` komutu ile sil
 
+{% hint style="warning" %}
+📢 Bash komutudur, cmd ve powershell üzerinde çalışmayabilir.
+{% endhint %}
+
 ## 🔗 Harici Bağlantılar
 
 * [Git branch silme işlemleri](https://stackoverflow.com/a/2003515)

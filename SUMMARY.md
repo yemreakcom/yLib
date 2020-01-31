@@ -103,6 +103,7 @@
     * [📦 MacOs Faydalı Uygulamalar](https://github.com/nikitavoloboev/my-mac-os)
   * [⛺ OS Genel Notlar](os/genel.md)
 * [📌 Google Notları](google/README.md)
+  * [📍 Google Maps](google/google-maps.md)
   * [👀 Google Hızlı Bakış](google/google-hizli-bakis.md)
   * [⛅ Google Drive Notları](google/google-drive-notlari.md)
   * [🔱 Google Chrome'da Verimlilik](google/google-chromeda-verimlilik.md)

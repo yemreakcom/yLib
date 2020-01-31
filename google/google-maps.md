@@ -4,7 +4,7 @@ description: Google haritalar hakkındaki notlarım
 
 # 📍 Google Maps
 
-## 👨‍💻 Haritalar URL Yapısı
+## 👨‍💻 URL Yapısı
 
 * 🐣 Google haritalar üzerinde alttaki URL yapısı ile konum paylaşabilirsiniz
 * 📍 Konumu gösteren raptiye de olacaktır

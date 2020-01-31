@@ -10,7 +10,7 @@ description: Google haritalar hakkındaki notlarım
 * 📍 Konumu gösteren raptiye de olacaktır
 
 ```markup
-http://www.google.com/maps/place/<lat>,<lng>/@<lat>,<lng>,<zoom>z
+https://maps.google.com/?q=<lat>,<lng>&ll=<lat>,<lng>&z=3
 ```
 
 | 💎 Parametre | 📝 Açıklama |

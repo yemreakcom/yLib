@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
@@ -34,12 +35,15 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
   * [👐 Shared Preferences](https://android.yemreak.com/veriler/shared-preferences)
   * [🗃️ SQLite](https://android.yemreak.com/veriler/sqlite)
   * [💽 Room Database](https://android.yemreak.com/veriler/room-database)
+  * [🎃 Kotlin RoomDB](https://android.yemreak.com/veriler/kotlin-roomdb)
 * [🌄 Arka planda Çalışma](https://android.yemreak.com/arkaplan/)
   * [👮‍♂️ Çalışma Prensibi](https://android.yemreak.com/arkaplan/calisma-prensibi)
+  * [👷‍♂️ Kotlin Coroutine](https://android.yemreak.com/arkaplan/kotlin-coroutine)
   * [💫 Asenkron İşlemler](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/)
     * [🌃 Asenkrona Giriş](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asenkrona-giris)
     * [🔁 AsyncTask](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asynctask)
     * [🔂 AsyncTask Loader](https://android.yemreak.com/arkaplan/asynctask-ve-asynctaskloader/asynctask-loader)
+  * [👷‍♂️ WorkManager](https://android.yemreak.com/arkaplan/workmanager)
   * [🔔 Notification](https://android.yemreak.com/arkaplan/notification-1/)
     * [✍ Yazılı Notlar \| Notification](https://android.yemreak.com/arkaplan/notification-1/notification)
     * [🏗️ Oluşturma \| Notification](https://android.yemreak.com/arkaplan/notification-1/giris-or-notification)
@@ -59,6 +63,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
   * [🌞 Foreground Service](https://android.yemreak.com/android-servisleri/foreground-service)
   * [🐥 Intent Service](https://android.yemreak.com/android-servisleri/intent-service)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
+  * [📍 Google Maps Kullanımı](https://android.yemreak.com/faydali/google-maps-kullanimi)
   * [📅 Tarih işlemleri](https://android.yemreak.com/faydali/tarih-islemleri)
   * [🚧 Proje İsmi Değiştirme](https://android.yemreak.com/faydali/proje-islemleri)
   * [🤖 Android Things](https://android.yemreak.com/faydali/android-things)

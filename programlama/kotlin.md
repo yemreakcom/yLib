@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
 ---
 
-# 🎃 Kotlin
+# 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
 * [✍ Yazılarım](https://kotlin.yemreak.com/yazilarim/)
@@ -21,6 +22,8 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
   * [🚴‍♂️ Giriş \| Coroutine](https://kotlin.yemreak.com/coroutine/giris)
   * [🏹 Dispatcher \| Coroutine](https://kotlin.yemreak.com/coroutine/dispatcher)
   * [🌄 Scope \| Coroutine](https://kotlin.yemreak.com/coroutine/scope)
+  * [💨 Flow \| Coroutine](https://kotlin.yemreak.com/coroutine/flow-or-coroutine)
+  * [🦄 Singleton Yapısı](https://kotlin.yemreak.com/coroutine/singleton-yapisi)
   * [🔗 Bağlantılar\| Coroutine](https://kotlin.yemreak.com/coroutine/baglantilar)
 * [📑 Yazım Kuralları](https://kotlin.yemreak.com/yazim-kurallari)
 * [🏃‍♂️ Hızlı Notlar](https://kotlin.yemreak.com/hizli-notlar)

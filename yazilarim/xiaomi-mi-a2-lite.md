@@ -61,6 +61,12 @@ Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u
 
 > `🐞 FAILED (remote: 'device is locked. Cannot erase')` sorunu gelirse [🔓 Bootloader Klidini Açma](xiaomi-mi-a2-lite.md#bootloader-klidini-acma) alanındaki talimatları uygulayın.
 
+### 🧰 MIUI ROM Flashing Tool
+
+![](../.gitbook/assets/miflash_base.png)
+
+![](../.gitbook/assets/miflash_success.png)
+
 ## 📃 Özel Scriptler
 
 * `images` klasörünün içerisinde imajlar olmalıdır

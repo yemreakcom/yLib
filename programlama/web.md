@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
 ---
 
 # 🌍 Web Notlarım

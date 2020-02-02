@@ -4,19 +4,20 @@ description: Kendi cep telefonum hakkında bildiklerimi derlediğim proje.
 
 # 📱 Xiaomi Mi A2 Lite Notlarım
 
-## 🔏 Güvenli Modda Açma
+## 🔏 Güvenli Mod ile Açma
 
 * Güç tuşuna basın
 * Kapat butonuna basılı tutun
-* Güvenli modda başlat seçeneği belirecektir
+* Güvenli mod ile başlat seçeneği belirecektir
 
 ## 🧰 Stock Rom Yükleme
 
-### 👨‍🔧 ADB Kurulumu
+### ‍👷‍♂️ ADB Kurulumu
 
-* Linux için kurulumuna [buradan](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/İşletim%20Sistemi%20Notları/Linux%20Notları.md#adb--fastboot-android-tools-kurulumu) erişebilirsin.
-* Windows için kurulumu el ile yapmalı ve dosyaların olduğu dizini **ortam değişkenlerine** \(_PATH_ adı altına\) eklemeniz gerekmektedir.
-  * Choco için `choco install adb`
+* 🐧 Linux için kurulumuna [buradan](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/İşletim%20Sistemi%20Notları/Linux%20Notları.md#adb--fastboot-android-tools-kurulumu) erişebilirsin.
+* ✴️ Windows için kurulumu el ile yapmalı ve dosyaların olduğu dizini **ortam değişkenlerine** \(_PATH_ adı altına\) eklemeniz gerekmektedir.
+  * 🍫 Choco için `choco install adb`
+  * 👨‍💻 `%localappdata%\Android\Sdk\platform-tools` dizininde `adb` olabilir
 
 ### 🔌 Cihazı Geliştirici Moduna Alma ve Erişme
 
@@ -29,32 +30,36 @@ description: Kendi cep telefonum hakkında bildiklerimi derlediğim proje.
 
 ### 🔓 Bootloader Klidini Açma
 
-* Öncelikle bu işlemin cihazın hafızasının **sıfırlayacağının** farkında olun 😅
-* Cihazı PC'ye USB ile bağlayın
-* Ses kısma ve güç tuşlarına basılı tutup **fastboot** alanına girin
-* `fastboot oem unlock` komutu ile kilidi açın
+* 💦 Öncelikle bu işlemin cihazın hafızasının **sıfırlayacağının** farkında olun
+* 🔌 Cihazı PC'ye USB ile bağlayın
+* 🔉 Ses kısma ve güç tuşlarına basılı tutup **fastboot** alanına girin 
+* 👨‍💻`fastboot oem unlock` komutu ile kilidi açın \(cmd veya bash'e yazılmalı\)
 
-> Kapatmak için `fastboot oem lock` veya yükleme esnasında `*_lock.sh` scriptini kullanın
+> Kapatmak için `fastboot oem lock` veya yükleme esnasında `flash_all_lock.sh` scriptini kullanın
 
 ### 🧱 Stock Rom Kurulumu
 
 Buradaki [linke](http://en.miui.com/download-354.html) tıklayarak _stock rom_'u indirme sayfasına yönelebilirsin.
 
-* Link çalışmazsa [buradan \(May 2019\)](http://bigota.d.miui.com/V10.0.9.0.PDLMIXM/daisy_global_images_V10.0.9.0.PDLMIXM_20190514.0000.00_9.0_f9d0c739e0.tgz) direkt olarak indirebilirsin
-  * Orjinal stock rom dosyasıdır. \(checksum'dan geçmiştir\)
-* Gerekirse USB driverı da yedeklememden indirebilirsin
+* 📦 Kararlı son ROM'u [Mi Community - MIUI Global ROM &gt; Mi A2 Lite](http://c.mi.com//miuidownload/detail?device=1700354) üzerinden indirebilirsin
+* ⏬ Link çalışmazsa[ buradan \(Şubat 2020\) ](http://bigota.d.miui.com/V10.0.13.0.PDLMIXM/daisy_global_images_V10.0.13.0.PDLMIXM_20190813.0000.00_9.0_5d0d486f04.tgz)direkt olarak indirebilirsin
+  * 📢 Orjinal stock rom dosyasıdır. \(checksum'dan geçmiştir\)
+* 🧰 [MIUI ROM Flashing Tool](http://download.appmifile.com/images/2019/07/01/09cdc3a7-5a11-42aa-81f4-be27fe12ce80.msi) uygulamasını indirin
 
 ### 🚙 Stock Rom'un Aktarılması
 
-* Telefonunuzun [🔓 Bootloader Klidini Açma](xiaomi-mi-a2-lite.md#bootloader-klidini-acma) alanındaki yönerge ile bootloader kilidini açtığınızdan emin olun
-* Telefonunuzu kapatın
-* Telefon kapandıktan sonra, `Volume Down (Ses Kısma)` butonuna basılır tutarak PC'ye bağlayın
-* PC'de adb dosyalarının olduğu dizini PATH'e eklemeyi unutmayın
-  * Linux için gerekli değildir
-  * Windows için choco ile yükleme yapıldıysa gerekli değildir
-* İndirdiğiniz dosyayı çıkartın ve dizine gelip, windows için `flash_all_lock.bat` linux için `flash_all_lock.sh` scriptlerini çalıştırın
+* 👮‍♂️ Telefonunuzun [🔓 Bootloader Klidini Açma](xiaomi-mi-a2-lite.md#bootloader-klidini-acma) alanındaki yönerge ile bootloader kilidini açtığınızdan emin olun
+* 🌃 Telefonunuzu kapatın
+* 🔉 Telefon kapandıktan sonra, `Volume Down (Ses Kısma)` butonuna basılır tutarak PC'ye bağlayın
+* 📢 PC'de adb dosyalarının olduğu dizini PATH'e eklemeyi unutmayın
+  * 🐧 Linux için gerekli değildir
+  * ✴️ Windows için choco ile yükleme yapıldıysa gerekli değildir
+  * [👷‍♂️ ADB Kurulumu](xiaomi-mi-a2-lite.md#adb-kurulumu) alanına bakınız
+* 📂 İndirdiğiniz ROM'u dizine çıkartın ardından alttaki seçeneklerden **biri** ile kurulumu yapın
+  * 🧰 [MIUI ROM Flashing Tool](http://download.appmifile.com/images/2019/07/01/09cdc3a7-5a11-42aa-81f4-be27fe12ce80.msi) uygulamasına ROM'un yolunu kopyalayın
+  * 👨‍💻 İndirdiğiniz dosyayı çıkartın ve dizine gelip, windows için `flash_all_lock.bat` linux için `flash_all_lock.sh` scriptlerini çalıştırın
 
-> `FAILED (remote: 'device is locked. Cannot erase')` sorunu gelirse [🔓 Bootloader Klidini Açma](xiaomi-mi-a2-lite.md#bootloader-klidini-acma) alanındaki talimatları uygulayın.
+> `🐞 FAILED (remote: 'device is locked. Cannot erase')` sorunu gelirse [🔓 Bootloader Klidini Açma](xiaomi-mi-a2-lite.md#bootloader-klidini-acma) alanındaki talimatları uygulayın.
 
 ## 📃 Özel Scriptler
 
@@ -201,6 +206,8 @@ Görüntü boyutunu değiştirip eski haline getirin 😅
 
 ## 🔗 Harici Bağlantılar
 
+* [⏬ Mi A2 Lite Kararlı ROM](http://c.mi.com//miuidownload/detail?device=1700354)
+* [📖 Fastboot Güncellemesi](http://c.mi.com/tr/miuidownload/detail?guide=2)
 * [Xiaomi Mi A2 Lite Bilinen Hatalar ve Çözümleri](https://mobileinternist.com/xiaomi-mi-a2-issues-solved)
 * [Unbrick All Qualcomm Snapdragon’s from Qualcomm HS-USB QDLoader 9008 \(if you have the right kind of rom\)](https://www.androidbrick.com/unbrick-all-qualcomm-snapdragons-from-qualcomm-hs-usb-qdloader-9008-if-you-have-the-right-kind-of-rom-qhsusb_dload_edl/)
 

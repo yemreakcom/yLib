@@ -16,7 +16,7 @@ Anahtarların kullanım şekli `<anahtar>:<değer>` şeklindedir.
 | :--- | :--- | :--- | :--- |
 | filetype | Dosya uzantısı | `filetype:pdf Google hacking` | Google hacking pdf'lerini listeler |
 | site | Verilen site içerisinde arama | `site:yemreak.com Ders Notları` | Sitemdeki ders notları sayfasını listeler |
-| intitle | Başlık içerisinde arama | `intitle:index.of` | Sitelerin dizinlerini listeler |
+| intitle | Başlık içerisinde arama | `intitle "index of /"` | Sitelerin dosyalarını listeler |
 | inurl | Url'de arama | `intitle:index.of inurl:“/admin/”` | Admin dizini listelenmeye açık olan siteleri gösterir |
 | numrange | Sayı aralığında arama | `numrange:99999-100000` |  |
 | daterange | Tarih aralığında arama |  |  |
@@ -26,6 +26,7 @@ Anahtarların kullanım şekli `<anahtar>:<değer>` şeklindedir.
 
 * `filetype:pdf Google hacking`
 * `site:yemreak.com Ders Notları`
+* `intitle "index of /" jdk-8u241-windows-x64.exe`
 
 ## 🔤 Özel Karakterler
 

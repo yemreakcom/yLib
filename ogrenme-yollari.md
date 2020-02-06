@@ -13,7 +13,7 @@ description: >-
 ## Yönetim <a id="yonetim"></a>
 
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
-* [📘 GitBook Kullanımı](https://lib.yemreak.com/proje-yoenetimi/gitbook/gitbook-kullanimi)
+* [📘 GitBook Kullanımı](https://wiki.yemreak.com/proje-yoenetimi/gitbook/gitbook-kullanimi)
 * [📱 Android](https://learn.yemreak.com/android)
 * [🌊 Derin Öğrenme](https://learn.yemreak.com/derin-ogrenme)
 * [🧰 Faydalı Siteler](https://learn.yemreak.com/faydali-siteler)

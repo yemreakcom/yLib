@@ -16,7 +16,7 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 
 ### 🔍 Arama Butonu İle Tüm Sayfa Başlıklarında Arayın
 
-* **🏹 Sağ üstteki** [**🔍 Arama butonunu**](https://wiki.yemreak.com/?q=) **kullanmayı asla ama asla ihmal etme**
+* 🏹 Sağ üstteki **🔍 Arama butonunu** kullanmayı asla ama asla ihmal etme
 * 🔤 Konuları veya konuyla alakalı kelimeleri ve terimleri aratabilirsin
 * 📃 Tüm YEmreAk alt sayfalarındaki başlıkları da içermektedir
 

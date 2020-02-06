@@ -7,8 +7,8 @@ description: >-
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
 * [✍ Yazılarım](https://kotlin.yemreak.com/yazilarim/)
-  * [👷‍♂️ Kotlin Kurulumu](https://kotlin.yemreak.com/yazilarim/kotlin-kurulumu)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://kotlin.yemreak.com/yazilarim/kotlin-vs-java)
+  * [👷‍♂️ Kotlin Kurulumu](https://kotlin.yemreak.com/yazilarim/kotlin-kurulumu)
 * [💎 Değişkenler](https://kotlin.yemreak.com/degiskenler/)
   * [🚴‍♂️ Giriş \| Değişkenler](https://kotlin.yemreak.com/degiskenler/giris)
   * [⭐ Özellikler \| Değişkenler](https://kotlin.yemreak.com/degiskenler/ozellikler)

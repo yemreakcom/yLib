@@ -8,7 +8,7 @@ description: >-
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
-  * [🚫 WebView Üzerindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-uzerindeki-reklamlari-engelleme)
+  * [🚫 WebView İçerisindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-icerisindeki-reklamlari-engelleme)
   * [💁‍♂️ Neden Kotlin](https://android.yemreak.com/yazilarim/neden-kotlin)
 * [🚩 Çalışma Yolu](https://android.yemreak.com/calisma-yolu)
 * [🔰 Android'e Giriş](https://android.yemreak.com/giris/)

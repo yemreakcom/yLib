@@ -167,7 +167,6 @@
 
 ## Derlenmiş Çalışmalarım
 
-* [🤵 YEmreAk](https://yemreak.com)
 * [📖 Kişisel Kütüphanem](https://lib.yemreak.com)
 * [🌱 YHotkeys](https://yhotkeys.yemreak.com/)
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
@@ -180,7 +179,6 @@
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com)
 * [☕ Java Notlarım](https://java.yemreak.com)
 * [🏫 Üniversite Notları](https://iuce.yemreak.com)
-* [📕 Git Notları](https://book.git.yemreak.com/)
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 

@@ -182,4 +182,5 @@
 * [🏫 Üniversite Notları](https://iuce.yemreak.com)
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
+* [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
 

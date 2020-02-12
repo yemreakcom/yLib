@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
@@ -41,12 +42,12 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [⏳ Counter](https://python.yemreak.com/koleksiyonlar/counter)
   * [📗 Verimli Dict Yapıları](https://python.yemreak.com/koleksiyonlar/verimli-dict-yapilari)
 * [🚧 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/)
-  * [📂 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/dosya)
+  * [📂 Dosya İşlemleri](https://python.yemreak.com/dosya-islemleri/dosya/)
     * [👮‍♂️ Dosyaya Erişim](https://python.yemreak.com/dosya-islemleri/dosya/erisim)
     * [👀 Dosyayı Okuma](https://python.yemreak.com/dosya-islemleri/dosya/okuma)
     * [⭐ Okuma Örnekleri](https://python.yemreak.com/dosya-islemleri/dosya/ornekler)
     * [🔨 Properties Dosyası](https://python.yemreak.com/dosya-islemleri/dosya/properties)
-  * [🗃️ Dizin İşlemleri](https://python.yemreak.com/dosya-islemleri/dizin)
+  * [🗃️ Dizin İşlemleri](https://python.yemreak.com/dosya-islemleri/dizin/)
     * [🌟 Sık Kullanılan İşlemler](https://python.yemreak.com/dosya-islemleri/dizin/untitled)
     * [⭐ Örnekler](https://python.yemreak.com/dosya-islemleri/dizin/oernekler)
   * [🚩 Yol İşlemleri](https://python.yemreak.com/dosya-islemleri/yol)
@@ -59,6 +60,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [💠 Argparse Action](https://python.yemreak.com/cli/argparse-action)
   * [⭐ Argparse Örnekleri](https://python.yemreak.com/cli/argparse-ornekleri)
 * [🔆 Grafiksel Arayüzler](https://python.yemreak.com/gui/)
+  * [👨‍🎨 Tkinter](https://python.yemreak.com/gui/tkinter)
   * [👨‍💻 Görsel Programlama](https://python.yemreak.com/gui/programlama)
   * [📈 Grafik Çizimleri](https://python.yemreak.com/gui/grafik-cizimleri)
 * [💞 Eş Zamanlı İşlemler](https://python.yemreak.com/es-zamanli-islemler/)
@@ -66,19 +68,26 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
+  * [🌇 Sanal Ortam Oluşturma](https://python.yemreak.com/diger/sanal-ortam-olusturma)
   * [💌 HTTP İstekleri](https://python.yemreak.com/diger/http-istekleri)
   * [👨‍🔧 Sistem Yönetimi](https://python.yemreak.com/diger/sistem-yonetimi)
   * [🔳 Ekran Yönetimi](https://python.yemreak.com/diger/ekran-yonetimi)
   * [✨ Faydalı İşlemler](https://python.yemreak.com/diger/faydali-islemler)
-* [🥴 Karışık Notlar](https://python.yemreak.com/karisik/)
-  * [🔗 Harici Linkler](https://python.yemreak.com/karisik/harici-linkler)
+  * [🎴 Görüntü İşlemleri](https://python.yemreak.com/diger/goeruentue-islemleri)
 * [💚 Anaconda](https://python.yemreak.com/anaconda/)
-  * [🔰 Anaconda'ya Giriş](https://python.yemreak.com/anaconda/giris)
-  * [✨ Anaconda Kullanımı](https://python.yemreak.com/anaconda/kullanim)
-  * [🎪 Anaconda Diğer Notlar](https://python.yemreak.com/anaconda/diger)
+  * [🏂 Anaconda'ya Giriş](https://python.yemreak.com/anaconda/giris)
+  * [👷‍♂️ Anaconda & Miniconda Kurulumu](https://python.yemreak.com/anaconda/anaconda-and-miniconda-kurulumu)
+  * [🧱Temel Kullanım \| Conda](https://python.yemreak.com/anaconda/temel-kullanim)
+  * [📦 Paket Kurulumları \| Conda](https://python.yemreak.com/anaconda/paket-kurulumlari)
+  * [🧠 Yapay Zeka Paketleri \| Conda](https://python.yemreak.com/anaconda/yapay-zeka-paketleri)
+  * [🌇 Sanal Ortamlar \| Conda](https://python.yemreak.com/anaconda/sanal-ortamlar)
+  * [🎪 Diğer Notlar \| Conda](https://python.yemreak.com/anaconda/diger)
 * [📗 IPython](https://python.yemreak.com/ipython/)
-  * [🔰 Giriş](https://python.yemreak.com/ipython/ipython-giris)
-  * [🔃 I/O İşlemleri](https://python.yemreak.com/ipython/ipython-i-o-islemleri)
-  * [🔆 Görsel Arayüz \(GUI\)](https://python.yemreak.com/ipython/ipython-goersel-programlama-gui)
-  * [🔗 Harici Bağlantılar](https://python.yemreak.com/ipython/harici-baglantilar)
+  * [🚴‍♂️ IPython'a Giriş](https://python.yemreak.com/ipython/giris)
+  * [🧱 Temel İşlemler \| IPython](https://python.yemreak.com/ipython/temel-islemler-or-ipython)
+  * [🖤 Terminal İşlemleri \| IPython](https://python.yemreak.com/ipython/terminal-islemleri-or-ipython)
+  * [🔃 I/O İşlemleri \| IPython](https://python.yemreak.com/ipython/io-islemleri)
+  * [🔆 Görsel Arayüz \(GUI\) \| IPython](https://python.yemreak.com/ipython/gui)
+  * [🔗 Faydalı Bağlantılar \| IPython](https://python.yemreak.com/ipython/faydali-baglantilar)
+* [🔗 Faydalı Bağlantılar](https://python.yemreak.com/harici-linkler)
 

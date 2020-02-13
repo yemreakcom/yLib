@@ -4,7 +4,7 @@ description: >-
   ayarları
 ---
 
-# 🏗️ Proje Yapılandırma \| JetBrains
+# 🏗️ Proje Yapılandırma \| JetBrains IDE
 
 ## 📂 Dizinlerini yapılandırma
 

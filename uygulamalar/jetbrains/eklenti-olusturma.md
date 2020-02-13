@@ -4,7 +4,7 @@ description: >-
   eklenti oluşturma
 ---
 
-# 🔌 Eklenti Oluşturma
+# 🔌 Eklenti Oluşturma \| JetBrains IDE
 
 ## 🏗️ Eklenti Projesi Oluşturma
 

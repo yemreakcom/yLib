@@ -2,7 +2,7 @@
 description: JetBrains IDE için faydalı kısayollar ve VS Code keymap
 ---
 
-# 💞 Kısayollar \| JetBrains
+# 💞 Kısayollar \| JetBrains IDE
 
 ## 🧱 Temel Kısayollar
 

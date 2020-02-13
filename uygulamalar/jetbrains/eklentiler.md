@@ -2,7 +2,7 @@
 description: JetBrains IDE için faydalı eklentiler
 ---
 
-# 🌈 Eklentiler \| JetBrains
+# 🌈 Eklentiler \| JetBrains IDE
 
 ## 🔰 Pluginler Nedir
 

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
-# 🧠 Yapay Zeka
+# 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 * [✍ Yazılarım](https://ai.yemreak.com/yazilarim/)
@@ -12,28 +13,29 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
   * [💫 Derin Öğrenme Notları](https://dltr.asmaamir.com/)
   * [📙 Yapay Zeka Çalışma Notları](https://github.com/YEmreAk/AI-NoteBooks)
   * [📕 Türkçe Terimler](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri)
+  * [⚡ Awesome Tensorflow 2](https://github.com/Amin-Tgz/awesome-tensorflow-2)
 * [📊 Veri Tipleri](https://ai.yemreak.com/veri-tipleri/)
   * [🔰 Giriş \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/giris)
-  * [📅 Tablo Verileri](https://ai.yemreak.com/veri-tipleri/csv)
-  * [🌍 JavaScript Verileri](https://ai.yemreak.com/veri-tipleri/json)
-  * [📚  Sıkıştırılmış Veriler](https://ai.yemreak.com/veri-tipleri/gzip)
-  * [🚅 Serileştirmiş Veriler](https://ai.yemreak.com/veri-tipleri/pickle)
-  * [🔢 NumPy Verileri](https://ai.yemreak.com/veri-tipleri/numpy)
+  * [📅 CSV \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/csv)
+  * [📜 JSON \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/json)
+  * [📚  GZip \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/gzip)
+  * [🚅 Pickle \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/pickle)
+  * [🔢 NumPy \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/numpy)
 * [👨‍💼 Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/)
-  * [🗃️ SQL](https://ai.yemreak.com/veri-yonetimi/sql)
-  * [🔢 NumPy](https://ai.yemreak.com/veri-yonetimi/numpy/)
+  * [🗃️ SQL \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/sql)
+  * [🔢 NumPy \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/numpy/)
     * [🔰 Giriş \| Numpy](https://ai.yemreak.com/veri-yonetimi/numpy/giris-or-numpy)
     * [🚅 Diziler \| Numpy](https://ai.yemreak.com/veri-yonetimi/numpy/diziler-or-numpy)
     * [👷‍♂️ Numpy İşlemleri](https://ai.yemreak.com/veri-yonetimi/numpy/numpy-islemleri)
     * [🥴 Karışık Notlar](https://ai.yemreak.com/veri-yonetimi/numpy/karisik-notlar)
-  * [🐼 Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/)
+  * [🐼 Pandas \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/pandas/)
     * [🔰 Giriş \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/giris)
-    * [📊 Tablo İşlemleri](https://ai.yemreak.com/veri-yonetimi/pandas/tablo-islemleri)
-    * [🗃️ Veri İşlemleri](https://ai.yemreak.com/veri-yonetimi/pandas/veri-islemleri)
+    * [📊 Tablo İşlemleri \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/tablo-islemleri)
+    * [🗃️ Veri İşlemleri \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/veri-islemleri)
     * [🏃‍♂️ Hızlı Notlar \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/hizli-notlar-or-pandas)
     * [💨 Hızlı Notlar 2 \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/hizli-notlar-2-or-pandas)
     * [🔗 Faydalı Kaynaklar \| Pandas](https://ai.yemreak.com/veri-yonetimi/pandas/faydali-kaynaklar-or-pandas)
-  * [📈 Matplotlib](https://ai.yemreak.com/veri-yonetimi/matplotlib)
+  * [📈 Matplotlib \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/matplotlib)
 * [🗃️ Veri Kümeleri](https://ai.yemreak.com/veri-kumeleri)
 * [👨‍🏫 Makine Öğrenimi](https://ai.yemreak.com/makine-ogrenimi/)
   * [🏂 Makine Öğrenimine Giriş](https://ai.yemreak.com/makine-ogrenimi/giris)

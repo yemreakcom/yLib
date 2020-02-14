@@ -6,7 +6,6 @@ description: >-
 # 👨‍🏫 Öğrenme Yolları
 
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/)
-* [🥽 Yabancı Kaynaklar](https://awesome.yemreak.com)
 * [🚀 YEmoji](https://emoji.yemreak.com)
 * [⭐ Benzer Çalışmalar](https://learn.yemreak.com/benzer-calismalar)
 

@@ -6,6 +6,7 @@ description: >-
 # 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
+* [👀 Neler değişti](https://python.yemreak.com/CHANGELOG)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](https://python.yemreak.com/yazilar/)

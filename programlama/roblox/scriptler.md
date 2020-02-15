@@ -1,12 +1,30 @@
-# ⏹ Roblox
+---
+description: Roblox script örnekleri ve kullanımları
+---
 
-## 🌃 Roblox Studio
+# 📜 Scriptler \| Roblox
 
-![](../.gitbook/assets/robloxstudio_usage%20%283%29.png)
+## 🎌 Script Ekleme
 
-## 📜 Script Ekleme
+![](../../.gitbook/assets/robloxstudio_addscript.png)
 
-![](../.gitbook/assets/robloxstudio_addscript.png)
+## ☠️ Ölüm Script'i
+
+* 🤵 Kullanıcı objeye değdiğinde anda ölür
+* 🤵 `Humanoid` insan anlamına gelmektedir
+* 🦄 `FindFirstChild` ile ilk değen obje bulunur
+* 🩸 `BreakJoints` ile değen kişi öldürülür
+
+```lua
+-- Objeye değildiğinde
+script.Parent.Touched:Connect(function(hit)
+
+	-- Değen kişi insan ise
+	if hit.Parent:FindFirstChild("Humanoid") then 
+		hit.Parent:BreakJoints()
+	end
+end)
+```
 
 ## 🐣 Spawn Point Ayarlama
 
@@ -67,32 +85,4 @@ Players.PlayerAdded:Connect(playerAdded)
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Respawn Location](https://developer.roblox.com/en-us/api-reference/property/Player/RespawnLocation) alanına bakabilirsin.
 {% endhint %}
-
-## ☠️ Ölüm Script'i
-
-* 🤵 Kullanıcı objeye değdiğinde anda ölür
-* 🤵 `Humanoid` insan anlamına gelmektedir
-* 🦄 `FindFirstChild` ile ilk değen obje bulunur
-* 🩸 `BreakJoints` ile değen kişi öldürülür
-
-```lua
-script.Parent.Touched:Connect(function(hit)
-	if hit.Parent:FindFirstChild("Humanoid") then 
-		hit.Parent:BreakJoints()
-	end
-end)
-```
-
-## 🧩 Block Ayarları
-
-| 💎 Özellik | 📝 Açıklama |
-| :--- | :--- |
-| `CanCollide` | ⤵ Blokların içinden geçilir |
-| `Anchored` | 🕊️ Aşağı düşmesini engeller |
-
-## 🔗 Faydalı Bağlantılar
-
-{% embed url="https://www.youtube.com/watch?v=rWUbmR9EmLU" %}
-
-
 

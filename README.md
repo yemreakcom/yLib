@@ -39,7 +39,7 @@ Her sayfanın en altında bulunan memnuniyet anketi ile ✨ gelişime ortak olab
 
 Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitHub üzerinden bakabilirsin.
 
-{% embed url="https://github.com/YEmreAk/YLib/commits/master" %}
+{% embed url="https://github.com/YEmreAk/YLib/commits/master" caption="" %}
 
 {% hint style="warning" %}
 📢 GitHub bilgisi gerektirir
@@ -48,7 +48,6 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 ## 🌍 Tüm YEmreAk İçerikleri
 
 ![](.gitbook/assets/yemreakcom.png)
-
 
 ## 💖 Destek ve İletişim
 

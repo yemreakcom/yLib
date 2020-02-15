@@ -1,6 +1,7 @@
 ---
 description: >-
-  Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması
+  Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve
+  Türkçe olarak öğrenme yolları çalışması
 ---
 
 # 👨‍🏫 Öğrenme Yolları

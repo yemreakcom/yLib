@@ -1,7 +1,7 @@
 # Table of contents
 
 * [📖 Kişisel Kütüphanem](README.md)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](changelog.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
@@ -55,7 +55,9 @@
     * [📢 Haber Salma \| Scratch](programlama/scratch/haber-salma.md)
     * [👨‍💻 Kodlama Notları \| Scratch](programlama/scratch/kodlama-notlari.md)
     * [⭐ Oyun Örnekleri \| Scratch](programlama/scratch/ornekler.md)
-  * [⏹ Roblox](programlama/roblox.md)
+  * [⏹ Roblox](programlama/roblox/README.md)
+    * [🚴‍♂️ Giriş \| Roblox](programlama/roblox/giris.md)
+    * [📜 Scriptler \| Roblox](programlama/roblox/scriptler.md)
   * [💎 Regex](programlama/regex/README.md)
     * [🔰 Kullanım \| Regex](programlama/regex/kullanim.md)
     * [🤯 Gelişmiş Notlar \| Regex](programlama/regex/gelismis.md)

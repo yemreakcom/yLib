@@ -86,3 +86,11 @@ Players.PlayerAdded:Connect(playerAdded)
 ‍🧙‍♂ Detaylı bilgi için [Respawn Location](https://developer.roblox.com/en-us/api-reference/property/Player/RespawnLocation) alanına bakabilirsin.
 {% endhint %}
 
+## 🔗 Faydalı Bağlantılar
+
+* [📖 Respawn Location](https://developer.roblox.com/en-us/api-reference/property/Player/RespawnLocation)
+
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+{% endhint %}
+

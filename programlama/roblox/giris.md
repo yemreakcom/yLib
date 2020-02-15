@@ -19,3 +19,7 @@ description: 'Roblox oyunları oluşturmaya, yapmaya veya programlamaya giriş'
 
 * [📺 How To Make a Roblox Game in 20 Minutes](https://www.youtube.com/watch?v=rWUbmR9EmLU)
 
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+{% endhint %}
+

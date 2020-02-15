@@ -139,3 +139,7 @@ tasks.publishPlugin {
 * [**📖** Internal Actions - LaF Defaults](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/internal_actions/internal_ui_lafd.html) ****
 * [📃 Gradle IntelliJ Plugin](https://github.com/JetBrains/gradle-intellij-plugin/)
 
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar)  yapısına uygundur
+{% endhint %}
+

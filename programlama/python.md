@@ -27,6 +27,7 @@ description: >-
   * [🔤 String İşlemleri](https://python.yemreak.com/temel/string)
   * [💎 Regex İşlemleri](https://python.yemreak.com/temel/regex)
   * [📦 Class, Modül ve Paketler](https://python.yemreak.com/temel/class-modul-paket)
+  * [📜 Raporlama İşlemleri](https://python.yemreak.com/temel/raporlama)
   * [👮‍ Kural Koyma](https://python.yemreak.com/temel/kurallar)
   * [🕐 Zaman İşlemleri](https://python.yemreak.com/temel/zaman)
 * [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yapilari/)

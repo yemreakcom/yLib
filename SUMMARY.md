@@ -127,7 +127,7 @@
     * [⚙️ Ayarlar \| JetBrains IDE](uygulamalar/jetbrains/ayarlar.md)
     * [🌈 Eklentiler \| JetBrains IDE](uygulamalar/jetbrains/eklentiler.md)
     * [🏗️ Proje Yapılandırma \| JetBrains IDE](uygulamalar/jetbrains/proje-yapilandirma.md)
-    * [🔌 Eklenti Oluşturma \| JetBrains IDE](uygulamalar/jetbrains/eklenti-olusturma.md)
+    * [🔌 Plugin Oluşturma \| JetBrains IDE](uygulamalar/jetbrains/plugin-olusturma.md)
     * [🥴 Diğer Notlar \| JetBrains](uygulamalar/jetbrains/diger.md)
   * [💌 Telegram](uygulamalar/telegram.md)
   * [🎳 Discord](uygulamalar/discord.md)

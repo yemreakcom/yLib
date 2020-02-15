@@ -1,9 +1,8 @@
 ---
-description: >-
-  Yunus Emre AK ~ YEmreAK (@yedhrab) tarzında emojiler (YEmoji)
+description: Yunus Emre AK ~ YEmreAK (@yedhrab) tarzında emojiler (YEmoji)
 ---
 
-# 🚀 YEmoji
+# 🚀 Emoji Sözlüğüm
 
 * [🚀 YEmoji](https://emoji.yemreak.com/)
 * [🔰 Emojilerin Dünyasına Giriş](https://emoji.yemreak.com/giris)

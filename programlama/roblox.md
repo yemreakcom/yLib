@@ -26,9 +26,11 @@ local function addSpawn(spawnLocation)
 			if player and player.RespawnLocation ~= spawnLocation then
 				local humanoid = character:FindFirstChildOfClass("Humanoid")
 				
-				-- Oyuncu ölmediyse spawnpoint'i ayarla
+				-- Oyuncu ölmediyse
 				if humanoid and humanoid:GetState() ~= Enum.HumanoidStateType.Dead then
 					print("spawn set")
+					
+					-- Spawnpoint'i ayarla
 					player.RespawnLocation = spawnLocation
 				end
 			end

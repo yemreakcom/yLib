@@ -140,6 +140,6 @@ tasks.publishPlugin {
 * [📃 Gradle IntelliJ Plugin](https://github.com/JetBrains/gradle-intellij-plugin/)
 
 {% hint style="success" %}
-🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar)  yapısına uygundur
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
 {% endhint %}
 

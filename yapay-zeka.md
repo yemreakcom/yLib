@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
-# 🧠 Yapay Zeka
+# 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 * [👀 Neler değişti](https://ai.yemreak.com/CHANGELOG)

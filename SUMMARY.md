@@ -1,6 +1,7 @@
 # Table of contents
 
 * [📖 Kişisel Kütüphanem](README.md)
+* [👀 Neler değişti](CHANGELOG.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)

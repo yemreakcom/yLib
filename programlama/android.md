@@ -6,6 +6,7 @@ description: >-
 # 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
+* [👀 Neler Değişti](https://android.yemreak.com/CHANGELOG)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
   * [🚫 WebView İçerisindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-icerisindeki-reklamlari-engelleme)
@@ -87,3 +88,25 @@ description: >-
 * [📋 Tüm Yabancı Notlar](https://android.yemreak.com/faydali-kaynaklar/tuem-yabanci-notlar)
 * [📦 UI / UX Kütüphaneleri](https://android.yemreak.com/faydali-kaynaklar/ui-ux-kuetuephaneleri)
 
+## Tüm Kişisel Notlarım
+
+* [🤵 YEmreAk](https://yemreak.com)
+* [📲 Android Notlarım](https://android.yemreak.com)
+* [☕ Java Notlarım](https://java.yemreak.com)
+* [📖 Kişisel Kütüphanem](https://lib.yemreak.com)
+* [🎃 Kotlin Notlarım](https://kotlin.yemreak.com)
+* [🐧 Linux Notlarım](https://linux.yemreak.com)
+* [🐍 Python Notlarım](https://python.yemreak.com)
+* [🌍 Web Notlarım](https://web.yemreak.com)
+* [🎇 Windows 10 Notlarım](https://windows.yemreak.com)
+* [🚀 YEmoji](https://emoji.yemreak.com)
+* [🌱 YHotkeys](https://yhotkeys.yemreak.com/)
+* [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com)
+* [🏫 Üniversite Notları](https://iuce.yemreak.com)
+* [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com)
+
+## Kod Notlarım
+
+* [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
+* [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
+* [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)

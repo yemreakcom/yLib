@@ -14,6 +14,7 @@
 * ➕ Eklemek için `🌍 Workspace` objesinin içindeki `scripts` dosyasına alttaki kodu kopyalayın
 
 ```lua
+-- Oyunculara erişme
 local Players = game:GetService("Players")
  
 local function addSpawn(spawnLocation)
@@ -24,7 +25,8 @@ local function addSpawn(spawnLocation)
 			local player = Players:GetPlayerFromCharacter(character)
 			if player and player.RespawnLocation ~= spawnLocation then
 				local humanoid = character:FindFirstChildOfClass("Humanoid")
-				-- make sure the character isn't dead
+				
+				-- Oyuncu ölmediyse spawnpoint'i ayarla
 				if humanoid and humanoid:GetState() ~= Enum.HumanoidStateType.Dead then
 					print("spawn set")
 					player.RespawnLocation = spawnLocation
@@ -34,23 +36,29 @@ local function addSpawn(spawnLocation)
 	end)
 end
  
+
 local firstSpawn
- 
--- look through the workspace for spawns
+
+-- Workspace üzerindeki tüm parçaları azalarak sıralama
 for _, descendant in pairs(workspace:GetDescendants()) do
+	-- Obje SpawnPoint öğesisi
 	if descendant:IsA("SpawnLocation") then
+		-- SpawnPoint'in ismi FirstSpawn ise
 		if descendant.Name == "FirstSpawn" then
+			--- İlk spawnpoint noktasını belirleme ve firstSpawn objesine atama
 			firstSpawn = descendant
 		end
+		
 		addSpawn(descendant)
 	end
 end
- 
+
+-- Her oyunucuyu ilk spawnpoint üzerinde doğurma
 local function playerAdded(player)
 	player.RespawnLocation = firstSpawn
 end
  
--- listen for new players
+-- Oyuncular oyuna bağlandığında metot çalıştırma
 Players.PlayerAdded:Connect(playerAdded)
 ```
 

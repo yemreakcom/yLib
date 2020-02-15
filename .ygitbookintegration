@@ -1,5 +1,5 @@
 [integration "pre"]
-args = -us
+args = -usc -ru https://github.com/YEmreAk/YLib -ic "💫 GitBook entegrasyonu yapıldı" "Merge branch 'master' of https://github.com/YEmreAk/YLib" -cm "💫 GitBook entegrasyonu yapıldı"
 
 [submodule "Öğrenme Yolları"]
 description = Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması

@@ -24,7 +24,7 @@ description: >-
 * [👩‍🏫 Makine Öğrenimi](https://learn.yemreak.com/makine-ogrenimi)
 * [👨‍💻 Programlama](https://learn.yemreak.com/programlama)
 * [👨‍💼 Proje Yönetimi](https://learn.yemreak.com/proje-yonetimi)
-* [🐍 Python](https://learn.yemreak.com/python)
+* [🐍 Python](https://learn.yemreak.com/yonetim/python)
 * [🔊 Ses](https://learn.yemreak.com/ses)
 * [🗃️ SQL](https://learn.yemreak.com/sql)
 * [📊 Veri Bilimi](https://learn.yemreak.com/veri-bilimi)

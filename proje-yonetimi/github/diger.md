@@ -4,6 +4,21 @@ description: Düzensiz GitHub notları
 
 # 🎲 Diğer Notlarım \| GitHub
 
+## ⛓️ GitHub URL Yapısı
+
+* 🧱 Tüm URL yapıları `https://github.com/<username>/<package>/` ile başlar
+
+| 📝 Açıklama | :🏗️ Yapı |
+| :--- | :--- |
+| 🧐 Versiyon kıyaslama | `compare/<version1>...<version2>` |
+| 🔀 Commit kıyaslama | `compare/<commit1>...<commit2>` |
+| 🏷️ Son sürümü alma | `releases/latest` |
+| ⏬ Son sürümü indirme | `releases/latest/download/<filename>` |
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Comparing commits](https://help.github.com/en/github/committing-changes-to-your-project/comparing-commits#comparing-commits) alanına bakabilirsin.
+{% endhint %}
+
 ## 🔌 GitHub Eklentileri
 
 Eklentilerin sayfasına [buradan](https://github.com/marketplace) erişebilirsin.

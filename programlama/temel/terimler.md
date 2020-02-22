@@ -36,6 +36,12 @@ Bu özellik, katman adlandırmalarında **Soft, Hard** olarak belirtilmiştir.
 
 ## 💎 Kavramlar
 
+### 💠 Function vs Method
+
+* 💁‍♂️ Metotlar class içerisinde bulunan ve objeleri değiştiren fonksiyonlar olarak adlandırılabilir
+
+{% embed url="https://stackoverflow.com/a/155655/9770490" %}
+
 ### ⛓️ ToolChain
 
 Aşağıdaki amaçlar için kullanılan yazılımdır.

@@ -66,6 +66,7 @@ description: >-
   * [🎌 Komut Çalıştırma](https://python.yemreak.com/es-zamanli-islemler/komut-calistirma)
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
+* [🕹 Oyun Programlama](https://python.yemreak.com/oyun-programlama)
 * [✨ Diğer Notlarım](https://python.yemreak.com/diger/)
   * [🌇 Sanal Ortam Oluşturma](https://python.yemreak.com/diger/sanal-ortam-olusturma)
   * [💌 HTTP İstekleri](https://python.yemreak.com/diger/http-istekleri)

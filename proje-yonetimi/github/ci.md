@@ -221,6 +221,15 @@ jobs:
 ```
 {% endcode %}
 
+## 👮‍♂️ Branch Korumasını Ayarlama
+
+* ⚙️ Projenizin **Settings** kısmından **Branch** sekmesinde **Add rule** butonuna tıklayın
+* 💁‍♂️ Eğer zaten bir kural varsa, **Edit** butonuna tıklayabilirsiniz
+* 👇 Açılan ekranda alttaki resimde kırmızı oklarla gösterilen ayarlamaları yapın
+* 🚀 Artık durum kontrolü yapılmadan projeye merge edilemeyecek
+
+![](../../.gitbook/assets/github_brach_protection_ci.png)
+
 ## 🔗 Faydalı Linkler
 
 * [📖 Good Integration Practices](https://docs.pytest.org/en/latest/goodpractices.html)

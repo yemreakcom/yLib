@@ -23,3 +23,11 @@
 * ⚙️ `settings/secrets` alanından oluşturulur
 * 🐣 `${{ secrets.<secret_name> }}` yapısı ile workflow üzerinden erişilir
 
+## 🔗 Faydalı Bağlantılar
+
+* [📖 Configuring a workflow](https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow)
+* [📖 Using environment variables](https://help.github.com/en/actions/configuring-and-managing-workflows/using-environment-variables)
+* [📖 Language and framework guides](https://help.github.com/en/actions/language-and-framework-guides)
+
+
+

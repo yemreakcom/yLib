@@ -92,6 +92,7 @@
     * [🔰 Giriş \| GitHub](proje-yonetimi/github/giris.md)
     * [👨‍💼 Versiyon Yönetimi \| GitHub](proje-yonetimi/github/proje-yonetimi.md)
     * [🌈 Workflow \| GitHub](proje-yonetimi/github/workflow-or-github.md)
+    * [🔄 Continuous İntegration \| GitHub](proje-yonetimi/github/continuous-integration-or-github.md)
     * [🌍 Web İşlemleri \| GitHub](proje-yonetimi/github/web.md)
     * [💫 API Kullanımı \| GitHub](proje-yonetimi/github/github-api.md)
     * [🎲 Diğer Notlarım \| GitHub](proje-yonetimi/github/diger.md)

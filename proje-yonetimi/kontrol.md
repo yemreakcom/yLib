@@ -78,7 +78,20 @@ Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-ornekl
 | `NAME`\_PREFİX | Veri tabanı ön eki. _Örn: DB\_PREFIX, BRANCH\_PREFIX_ |
 | Flag | Checkbox gibi boolean değerleri tutan değişkenlerin adıdır |
 
-## 📦 Faydalı Yazılımlar
+## 🌊 Continuous Integration
+
+| Continuous Integration | Continuous Delivery | Continuous Deployment |
+| :--- | :--- | :--- |
+| Her kod için test metotları yazılır | Continuous Integration'a geliştirilmiş halidir | Continuous Delivery'nin gelişmiş halidir |
+| Tüm test metotları farklı sunucuda her commit işleminden sonra gerçekleşir | Projeyi yayınlamaya hazır hale getirir | Proje yayınlanması da otomatik hale gelmiştir |
+
+![](../.gitbook/assets/continuous_integration.png)
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Continuous integration vs. continuous delivery vs. continuous deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) alanına bakabilirsin.
+{% endhint %}
+
+## ⭐ Faydalı Yazılımlar
 
 Eklentileri ile meşhur olan `VsCode` yazılımı tavsiye edilir.
 

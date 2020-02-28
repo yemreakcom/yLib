@@ -1,7 +1,6 @@
 ---
 description: >-
-  Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve
-  Türkçe olarak öğrenme yolları çalışması
+  Yunus Emre Ak ~ YEmreAk (@yedhrab) ve destek olanların etkili, verimli ve Türkçe olarak öğrenme yolları çalışması
 ---
 
 # 👨‍🏫 Öğrenme Yolları
@@ -25,7 +24,7 @@ description: >-
 * [🍎 MacOS](https://learn.yemreak.com/macos)
 * [👩‍🏫 Makine Öğrenimi](https://learn.yemreak.com/makine-ogrenimi)
 * [🕹 Oyun Programlama](https://learn.yemreak.com/yonetim/oyun-programlama)
-* [👨‍💻 Programlama](https://learn.yemreak.com/programlama)
+* [👨‍💻 Programlama](https://learn.yemreak.com/yonetim/programlama)
 * [👨‍💼 Proje Yönetimi](https://learn.yemreak.com/proje-yonetimi)
 * [🐍 Python](https://learn.yemreak.com/yonetim/python)
 * [🔊 Ses](https://learn.yemreak.com/ses)
@@ -61,4 +60,3 @@ description: >-
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

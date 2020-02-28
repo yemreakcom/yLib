@@ -39,3 +39,8 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
   * Döviz işlemleri
   * SIM kartı işlemleri \(orange önerilir\)
 
+## 📧 Certificate of Arrival
+
+* Bu belgeye göre gönderen okulunuzdan hibe alırsınız
+* Alıcı okula **otobüs ve uçak biletlerinizi mail olarak atıp**, istekte bulunabilirsiniz
+

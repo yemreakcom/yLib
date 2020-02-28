@@ -44,3 +44,7 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 * Bu belgeye göre gönderen okulunuzdan hibe alırsınız
 * Alıcı okula **otobüs ve uçak biletlerinizi mail olarak atıp**, istekte bulunabilirsiniz
 
+🗣 Dil Notları
+
+* [Harflerin okunuşu ve lehçeye bakış](http://www.atilimceviri.com/index.php/ceviri-yapt-g-m-z-diller/item/403-polonyaca)
+

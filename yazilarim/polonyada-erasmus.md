@@ -61,6 +61,7 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 * Parasal işlemlerini kesinti almayan Revolut Card ile yapabilirsiniz
 * Tüm ülkelerde geçerli olup, kur fiyatlarından kesinti almaz
+* Aylık **800 PLN** kullanım limiti vardır
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için 

@@ -57,4 +57,5 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 ## Harici Bağlantılar
 
 * [Excel çalışma sitesi](https://exceljet.net/)
+* [Döviz kurlarını Excel'e aktarma](https://vidoport.com/excel-finansal-ve-ticari-islemler/2019-doviz-kurlarini-excel-e-aktarma-nasil-yapilir)
 

@@ -4,6 +4,13 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 # ✈️ Polonya'da Erasmus
 
+## 🏫 Lodz University of Technology \(TUL\) Erasmus Dersleri
+
+* Kendi gittiğim okul olan TUL için seçilebilen derslerin listesini PDF'e ekledim
+* Ders kodlarını PDF üzerinde aratarak, aradığınız dersleri hızlıca bulabilirsiniz
+
+{% file src="../.gitbook/assets/course\_list.pdf" caption="Lodz University of Technology Courses For Erasmus Students \(March 2020\)" %}
+
 ## 🚶‍♂️ Yurda geliş
 
 * Sabiha gökçen Pegasus ile Berlin Schonefeld Hava limanı

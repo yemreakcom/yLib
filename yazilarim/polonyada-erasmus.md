@@ -39,6 +39,7 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 ## 📝 9. Yurt Notları
 
+* 💰 Ücreti 500 PLN \(diğer yurtlar 440 PLN\)
 * 🙄 Biraz eski gözüküyor odalar
 * 🦄 Ama herkesin kendisine ait bir odası var
 * 👪 Her iki kişi için 1 banyo, her kat için ortak mutfak var
@@ -51,11 +52,24 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 📢 Google Maps yorumuma [buradan](https://goo.gl/maps/j6MPrujYwpWX5yUz8) bakabilirsin
 {% endhint %}
 
+## 💸 Yurt Ücreti Ödeme
+
+* Yurda giriş yaptıktan sonra kesinlikle **administrator** ile görüşmeniz lazımdır
+* Gerekli açıklamaları size yapacaktır ama ben yine de aşağıya detayları yazayım
+* Reception önündeki kağıtlardan alıp **adınız, soyadınız ve ödenecek miktarı** yazacaksınız
+* Post Office üzerinden ödeme yapmanız gerekecek, [**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) içerisinde 2. katta bulabilirsin
+* **Post Office**'i [**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) içerisinde 2. katta bulabilirsin \(Genellikle sıra oluyor ve ağır işliyor\)
+* Bu işlem için **3.5 PLN** vermeniz gerekmektedir
+
+![](../.gitbook/assets/dorm_9_payment_rent.png)
+
+![](../.gitbook/assets/dorm_9_payment_deposit.png.png)
+
 ## 🛍️ Alışveriş Notları
 
 * En uygun fiyatlarda satan marketler [**Dino**](https://goo.gl/maps/z7R6KvGf95YoS7js5) ve [**Lidl**](https://goo.gl/maps/xqfhmXL29XVi8N6R9)\*\*\*\*
 * \*\*\*\*[**Manufactura**](https://goo.gl/maps/Wob7D51qytYRY51RA) alışveriş merkezi üzerinden üçlü priz vs gibi malzemeler alınabilir
-* \*\*\*\*[**Suckesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) alışveriş merkezi ile alttaki ihtiyaçlarınızı karşılayabilirsiniz
+* \*\*\*\*[**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) alışveriş merkezi ile alttaki ihtiyaçlarınızı karşılayabilirsiniz
   * Döviz işlemleri \(kantor starbucks karşısında girişte\)
   * SIM kartı işlemleri \(orange önerilir\)
 
@@ -68,7 +82,7 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 * Parasal işlemlerini kesinti almayan Revolut Card ile yapabilirsiniz
 * Tüm ülkelerde geçerli olup, kur fiyatlarından kesinti almaz
-* Aylık **800 PLN** kullanım limiti vardır
+* Aylık **800 PLN para çekme** limiti vardır
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için 

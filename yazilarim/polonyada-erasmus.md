@@ -67,7 +67,7 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 ## 🛍️ Alışveriş Notları
 
-* En uygun fiyatlarda satan marketler [**Dino**](https://goo.gl/maps/z7R6KvGf95YoS7js5) ve [**Lidl**](https://goo.gl/maps/xqfhmXL29XVi8N6R9)\*\*\*\*
+* En uygun fiyatlarda satan marketler ****[**Biedronka**](https://www.google.com/search?sxsrf=ALeKk03Uepgo8fLvpRhlwiFa0M843ICIuw:1583503865852&q=biedronka&npsic=0&rflfq=1&rlha=0&rllag=51748448,19463047,1145&tbm=lcl&ved=2ahUKEwiwt7LLg4boAhUS7KYKHQebAN4QtgN6BAgQEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4&rldoc=1#rlfi=hd:;si:;mv:[[51.781552999999995,19.528505499999998],[51.7216266,19.406815899999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4), [**Dino**](https://goo.gl/maps/z7R6KvGf95YoS7js5) ve [**Lidl**](https://goo.gl/maps/xqfhmXL29XVi8N6R9)\*\*\*\*
 * \*\*\*\*[**Manufactura**](https://goo.gl/maps/Wob7D51qytYRY51RA) alışveriş merkezi üzerinden üçlü priz vs gibi malzemeler alınabilir
 * \*\*\*\*[**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) alışveriş merkezi ile alttaki ihtiyaçlarınızı karşılayabilirsiniz
   * Döviz işlemleri \(kantor starbucks karşısında girişte\)
@@ -80,13 +80,13 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 ## 💸 Para Yönetimi
 
-* Parasal işlemlerini kesinti almayan Revolut Card ile yapabilirsiniz
+* Parasal işlemlerini kesinti almayan [Revolut Card](https://www.revolut.com/) ile yapabilirsiniz
 * Tüm ülkelerde geçerli olup, kur fiyatlarından kesinti almaz
 * Komisyon yok
 * Döviz değerleri günlük kur değerlerine göre hesaplanıyor
 * Para transferi aşırı hızlı ve komisyonsuz
-* Başkasından para isteyebiliyorsun
-* Başkasına para gönderebiliyorsun \(Sadece rehberde ismi olması kafi\)
+* Başkasından para istenebiliyor
+* Başkasına para gönderilebiliyor \(Sadece rehberde ismi olması kafi\)
 * Faturayı 2-3 kişiye bölüp ödemeyi ayrık yapabiliyorsun
 * Aylık **800 PLN para çekme** limiti vardır
 
@@ -99,6 +99,16 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 bakabilirsin.
 {% endhint %}
 
+## 🕌 Cuma için Mescit
+
+* 📌 Tam Adres: `Hotel Willa Marina 93-457, Pabianicka 274A, 93-457 Łódź 42 680 23 30`
+* **17** trenine binin **Pabianicka - Długa** durağında inin, sağdaki otelin sağından içeri gireceksiniz
+  * 17 treni Sukcesja önünden giden trendir
+  * Sırtınız Sukcesja tarafına dönük olacak şekilde sağ tarafa giden trene bineceksiniz
+* Sadece farz kılınıyor
+
+{% embed url="https://maps.app.goo.gl/A768yqTsQX61sHxbA" %}
+
 ## 🗣 Dil Notları
 
 ### 🛒 Market Konuşmaları
@@ -109,6 +119,7 @@ bakabilirsin.
 |   Cin dobrı | Cin dobrı | Günaydın!, Tünaydın!, İyi günler! |
 |  Witam | Vitam |  Hoş geldiniz |
 |  Dzięki | Cienki |  Teşekkürler |
+| Dziękuję | Cinkuye | Teşekkürler \(daha kibar\) |
 |  Proszę | Proşe |  Rica ederim |
 |  Przepraszam  | Pşep’raşam |  Affedersiniz |
 |  Przykro mi | Pşıkro mi |  Üzgünüm |

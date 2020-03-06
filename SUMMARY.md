@@ -1,7 +1,7 @@
 # Table of contents
 
 * [📖 Kişisel Kütüphanem](README.md)
-* [👀 Neler değişti](changelog.md)
+* [👀 Neler değişti](CHANGELOG.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
@@ -150,7 +150,7 @@
   * [🎤 Ses Formatları](tech/ses-formatlari.md)
   * [📱 HTC Desire 820](tech/htc-desire-820.md)
   * [💻 HP Bilgisayar Sorunları](tech/hp-bilgisayar-sorunlari.md)
-* [🏫 İstanbul Üniversitesi - CE](iuce.md)
+* [🏫 İstanbul Üniversitesi - Cerrahpaşa Bilgisayar Mühendisliği](iuce.md)
 * [📕 Üniversite Notlarım](uni/README.md)
   * [🧠 Neural Network](uni/neural-network.md)
 * [🛫 İnsansız Hava Araçları](iha/README.md)

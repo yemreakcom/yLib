@@ -4,6 +4,26 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 # ✈️ Polonya'da Erasmus
 
+## 🗣 Dil Notları
+
+### 🛒 Market Konuşmaları
+
+| 💎 Kelime | 🔊 Okunuşu | 📝 Açıklama |
+| :--- | :--- | :--- |
+| Cześć | Çeşç | Merhaba!, Selam! |
+| Cin dobrı | Cin dobrı | Günaydın!, Tünaydın!, İyi günler! |
+| Witam | Vitam | Hoş geldiniz |
+| Dzięki | Cienki | Teşekkürler |
+| Dziękuję | Cinkuye | Teşekkürler \(daha kibar\) |
+| Proszę | Proşe | Rica ederim |
+| Przepraszam  | Pşep’raşam | Affedersiniz |
+| Przykro mi | Pşıkro mi | Üzgünüm |
+
+### 🔗 Dil Çalışma Siteleri
+
+* [🌟 Pratik lehçe notları ve selamlaşmalar](http://lehceogren.blogspot.com/2012/01/lehcede-selamlasma-hatr-sorma.html)
+* [Harflerin okunuşu ve lehçeye bakış](http://www.atilimceviri.com/index.php/ceviri-yapt-g-m-z-diller/item/403-polonyaca)
+
 ## 🏫 Lodz University of Technology \(TUL\) Erasmus Dersleri
 
 * Kendi gittiğim okul olan TUL için seçilebilen derslerin listesini PDF'e ekledim
@@ -147,24 +167,4 @@ bakabilirsin.
 ![](../.gitbook/assets/cheese_triangle_oland.png)
 
 ![](../.gitbook/assets/breakfast_example.jpg)
-
-## 🗣 Dil Notları
-
-### 🛒 Market Konuşmaları
-
-| 💎 Kelime | 🔊 Okunuşu | 📝 Açıklama |
-| :--- | :--- | :--- |
-|  Cześć |  Çeşç | Merhaba!, Selam! |
-|   Cin dobrı | Cin dobrı | Günaydın!, Tünaydın!, İyi günler! |
-|  Witam | Vitam |  Hoş geldiniz |
-|  Dzięki | Cienki |  Teşekkürler |
-| Dziękuję | Cinkuye | Teşekkürler \(daha kibar\) |
-|  Proszę | Proşe |  Rica ederim |
-|  Przepraszam  | Pşep’raşam |  Affedersiniz |
-|  Przykro mi | Pşıkro mi |  Üzgünüm |
-
-### 🔗 Dil Çalışma Siteleri
-
-* [🌟 Pratik lehçe notları ve selamlaşmalar](http://lehceogren.blogspot.com/2012/01/lehcede-selamlasma-hatr-sorma.html)
-* [Harflerin okunuşu ve lehçeye bakış](http://www.atilimceviri.com/index.php/ceviri-yapt-g-m-z-diller/item/403-polonyaca)
 

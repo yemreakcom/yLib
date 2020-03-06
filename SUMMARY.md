@@ -88,7 +88,7 @@
     * [🎳 IDE üzerinden Git Kullanımı](proje-yonetimi/git/ide.md)
     * [⚓ Git Hook](proje-yonetimi/git/hook.md)
     * [🤸‍ Git Cheat Sheet](proje-yonetimi/git/cheat-sheet.md)
-    * [�� Türkçe Git Kitabı](https://book.git.yemreak.com)
+    * [📕 Türkçe Git Kitabı](https://book.git.yemreak.com)
   * [🐙 Github](proje-yonetimi/github/README.md)
     * [🔰 Giriş \| GitHub](proje-yonetimi/github/giris.md)
     * [👨‍💼 Versiyon Yönetimi \| GitHub](proje-yonetimi/github/proje-yonetimi.md)

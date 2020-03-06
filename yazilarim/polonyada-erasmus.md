@@ -133,6 +133,17 @@ bakabilirsin.
 
 {% embed url="https://maps.app.goo.gl/A768yqTsQX61sHxbA" %}
 
+## 😋 Yemek Bilgileri
+
+### 🌞 Kahvaltı
+
+* **Apetina** markalı peyniri beğenmedim ama öneriliyor
+* Üçgen peynir seviyorsanız **Hochland** markalı olanı alın
+
+![](../.gitbook/assets/cheese_triangle_oland.png)
+
+![](../.gitbook/assets/breakfast_example.jpg)
+
 ## 🗣 Dil Notları
 
 ### 🛒 Market Konuşmaları

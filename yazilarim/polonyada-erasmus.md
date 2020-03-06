@@ -21,13 +21,37 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 ![](../.gitbook/assets/lodz_bus_2.png)
 
-## 🚌 Otobüs Notları:
+## 🚌 Seyahat Notları:
 
-* Biletler otobüs içerisinden alınır
-* 3 pln olan üst kısımdaki seçilir
-* Katla, temassızla ödenebilir
+* Biletler otobüs veya trenin içerisindeki bilet makineleri üzerinden **kartla** alınır
+* Kartın temassız özelliğini kullanabilirsin
+* Trenin **arka vagonundan bilet alınamaz**, sadece biletiniz varsa orayı kullanın
+* **Öğrenci kartınız varsa 1.5 pln** yoksa **3 pln** olanı seçin
 * Ziraat kartı varsa öğrenci oluyor
-* Radwanska - Kampul PL durağında inilir
+* Biletinizi bilet okuma makinesine sokup tarih bastırmanız gerekmekte
+  * Bilette gösterildiği şekilde bileti tutun
+  * Sadece makineye sokun 🙄
+* Genel olarak biletin süresi **20 dk** olmaktadır
+
+### 🎰 Bilet Alma İşlemleri
+
+1. Dokunmatik alanından bileti seçin
+   1. Öğrenci iseniz 1.5 pln
+   2. Aksi halde 3 pln
+   3. 20 dk süreli bilet gelecektir
+2. Temassız özelliği olan kartınızı kullanın
+   1. Eğer kartınızda temassız yoksa 3. alana takın ve 4. alanda şifre girin
+3. Daire içine alınmış kısımdan **biletiniz ve isterseniz fişiniz** verilecektir
+
+![](../.gitbook/assets/buying_ticket_poland.jpeg)
+
+### ⭐ Bilet Örneği
+
+![](../.gitbook/assets/ticket_example.jpg)
+
+### 👁️ Bilet Okutma Makinesi
+
+![](../.gitbook/assets/reading_ticket.jpg)
 
 ## 🎫 Yurda giriş:
 

@@ -111,11 +111,11 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 
 ## 🛍️ Alışveriş Notları
 
-* En uygun fiyatlarda satan marketler **\*\*\[**Biedronka**\]\(**[https://www.google.com/search?sxsrf=ALeKk03Uepgo8fLvpRhlwiFa0M843ICIuw:1583503865852&q=biedronka&npsic=0&rflfq=1&rlha=0&rllag=51748448,19463047,1145&tbm=lcl&ved=2ahUKEwiwt7LLg4boAhUS7KYKHQebAN4QtgN6BAgQEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf\_ui:4&rldoc=1\#rlfi=hd:;si:;mv:\[\[51.781552999999995,19.528505499999998\],\[51.7216266,19.406815899999998\]\];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf\_ui:4](https://www.google.com/search?sxsrf=ALeKk03Uepgo8fLvpRhlwiFa0M843ICIuw:1583503865852&q=biedronka&npsic=0&rflfq=1&rlha=0&rllag=51748448,19463047,1145&tbm=lcl&ved=2ahUKEwiwt7LLg4boAhUS7KYKHQebAN4QtgN6BAgQEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4&rldoc=1#rlfi=hd:;si:;mv:[[51.781552999999995,19.528505499999998],[51.7216266,19.406815899999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4)**\), \[**Dino**\]\(**[https://goo.gl/maps/z7R6KvGf95YoS7js5](https://goo.gl/maps/z7R6KvGf95YoS7js5)**\) ve \[**Lidl_\*\]\(_[https://goo.gl/maps/xqfhmXL29XVi8N6R9\)\](https://goo.gl/maps/xqfhmXL29XVi8N6R9%29\)\*\*\*
-* \*\*\*\*[**Auchan**](https://goo.gl/maps/KjVsoApDhJ8Zo91p8) üzerinden aradığınız her şeyi uygun fiyata bulabilirsiniz
+* En uygun fiyatlarda satan marketler [**Biedronka**](https://www.google.com/search?sxsrf=ALeKk03Uepgo8fLvpRhlwiFa0M843ICIuw:1583503865852&q=biedronka&npsic=0&rflfq=1&rlha=0&rllag=51748448,19463047,1145&tbm=lcl&ved=2ahUKEwiwt7LLg4boAhUS7KYKHQebAN4QtgN6BAgQEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4&rldoc=1#rlfi=hd:;si:;mv:[[51.781552999999995,19.528505499999998],[51.7216266,19.406815899999998]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!2m1!1e3!3sIAE,lf:1,lf_ui:4)**,** [**Dino**](https://www.google.pl/maps/place/Market+Dino/@51.7459642,19.4393539,14z/data=!4m5!3m4!1s0x0:0x9d1c4b405cb313!8m2!3d51.7516166!4d19.4487834?shorturl=1) ve ****[**Lidl**](https://goo.gl/maps/xqfhmXL29XVi8N6R9)\*\*\*\*
+* [**Auchan**](https://goo.gl/maps/KjVsoApDhJ8Zo91p8) üzerinden aradığınız her şeyi uygun fiyata bulabilirsiniz
   * 5M Migros gibi bir markettir
   * İsterseniz hızlı kasaları ile ödemenizi kendiniz yapabilirsiniz
-* \*\*\*\*[**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) alışveriş merkezi ile alttaki ihtiyaçlarınızı karşılayabilirsiniz
+* [**Sukcesja**](https://goo.gl/maps/Kt3CxorF1v1S8ePC8) alışveriş merkezi ile alttaki ihtiyaçlarınızı karşılayabilirsiniz
   * Döviz işlemleri \(kantor starbucks karşısında girişte\)
   * SIM kartı işlemleri \(orange önerilir\)
   * Yeme, içme işleri

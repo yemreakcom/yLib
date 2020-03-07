@@ -1,26 +1,27 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
-# 🧠 Yapay Zeka
+# 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 * [👀 Neler değişti](https://ai.yemreak.com/changelog)
 * [✍ Yazılarım](https://ai.yemreak.com/yazilarim/)
   * [🕵️‍♂️ Tensorflow Object Detection API ile Obje Bulma](https://ai.yemreak.com/yazilarim/tensorflow-object-detection-api-ile-obje-bulma)
-* [📚 Kaynaklar](https://ai.yemreak.com/kaynaklar/)
-  * [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/kaynaklar/faydali-kaynaklar)
+* [📚 Çalışma Kaynakları](https://ai.yemreak.com/calisma-kaynaklari/)
+  * [🌟 Faydalı Kaynaklar](https://ai.yemreak.com/calisma-kaynaklari/faydali-kaynaklar)
   * [💫 Derin Öğrenme Notları](https://dltr.asmaamir.com/)
   * [📙 Yapay Zeka Çalışma Notları](https://github.com/YEmreAk/AI-NoteBooks)
   * [📕 Türkçe Terimler](https://github.com/deeplearningturkiye/turkce-yapay-zeka-terimleri)
   * [⚡ Awesome Tensorflow 2](https://github.com/Amin-Tgz/awesome-tensorflow-2)
-* [📊 Veri Tipleri](https://ai.yemreak.com/veri-tipleri/)
-  * [🔰 Giriş \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/giris)
-  * [📅 CSV \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/csv)
-  * [📜 JSON \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/json)
-  * [📚  GZip \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/gzip)
-  * [🚅 Pickle \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/pickle)
-  * [🔢 NumPy \| Veri Bilimi](https://ai.yemreak.com/veri-tipleri/numpy)
+* [📊 Veri Bilimi](https://ai.yemreak.com/veri-bilimi/)
+  * [🔰 Giriş \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/giris)
+  * [📅 CSV \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/csv)
+  * [📜 JSON \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/json)
+  * [📚  GZip \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/gzip)
+  * [🚅 Pickle \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/pickle)
+  * [🔢 NumPy \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/numpy)
 * [👨‍💼 Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/)
   * [🗃️ SQL \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/sql)
   * [🔢 NumPy \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/numpy/)
@@ -103,4 +104,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

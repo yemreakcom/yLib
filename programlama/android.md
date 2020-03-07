@@ -1,11 +1,12 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
-* [👀 Neler Değişti](https://android.yemreak.com/CHANGELOG)
+* [👀 Neler Değişti](https://android.yemreak.com/changelog)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
   * [🚫 WebView İçerisindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-icerisindeki-reklamlari-engelleme)
@@ -109,4 +110,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

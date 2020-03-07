@@ -1,5 +1,7 @@
 ---
-description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'da yaşama h
+description: >-
+  Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'da yaşama
+  hakkında
 ---
 
 # ✈️ Polonya'da Erasmus
@@ -15,9 +17,13 @@ description: Polonya Lodz Üniversitesi üzerinde Erasmus yapma ve Polonya Lodz'
 | Witam | Vitam | Hoş geldiniz |
 | Dzięki | Cienki | Teşekkürler |
 | Dziękuję | Cinkuye | Teşekkürler \(daha kibar\) |
-| Proszę | Proşe | Rica ederim |
+| Proszę | Proşe | Lütfen |
+| tak | tak | Evet |
+| nie | nye | Hayır |
+| nie ma za co | nye mazato | Rica ederim |
 | Przepraszam | Pşep’raşam | Affedersiniz |
 | Przykro mi | Pşıkro mi | Üzgünüm |
+| Co to jest | so to yes | Bu ne |
 
 ### 🔗 Dil Çalışma Siteleri
 

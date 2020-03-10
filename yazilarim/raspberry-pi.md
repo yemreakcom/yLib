@@ -5,7 +5,7 @@ description: >-
   raspberry pi yönetimi.
 ---
 
-# 🍓 Raspberry Pi
+# 🍓 Raspberry Pi Kurulum, Yönetim ve Paylaşım
 
 ## 🏗️ Kurulum İşlemleri
 

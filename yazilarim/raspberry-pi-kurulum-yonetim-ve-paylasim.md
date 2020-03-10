@@ -33,6 +33,9 @@ description: >-
 ## 🔌 Putty ile SSH üzerinden bağlanma
 
 * **Ethernet** kablonuzun 1 ucunu bilgisayara diğer ucunu Raspberry Pi üzerine takın
+
+![](../.gitbook/assets/ex_ethernet_to_rasp.jpeg)
+
 * Ardından bilgisayarınıza [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) uygulamasını indirin \(ücretsizdir\)
 * Putty'I açın ve
   1. Host name: `raspberrypi.local`

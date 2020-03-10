@@ -87,7 +87,7 @@ description: >-
 
 ![](../.gitbook/assets/dorm9_rules.png)
 
-## 📝 9. Yurt Notları
+## 📝 TUL 9. Yurt Notları
 
 * 💰 Ücreti 500 PLN \(diğer yurtlar 440 PLN\)
 * 🙄 Biraz eski gözüküyor odalar

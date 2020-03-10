@@ -34,7 +34,7 @@ description: >-
 
 * **Ethernet** kablonuzun 1 ucunu bilgisayara diğer ucunu Raspberry Pi üzerine takın
 
-![](../.gitbook/assets/ex_ethernet_to_rasp.jpeg)
+![](../.gitbook/assets/ex_ethernet_to_raspberry.jpeg)
 
 * Ardından bilgisayarınıza [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) uygulamasını indirin \(ücretsizdir\)
 * Putty'I açın ve
@@ -61,7 +61,7 @@ description: >-
 
     Password alanına: raspberry
 
-![](../.gitbook/assets/ex_vnc_rasp_connection.jpg)
+![](../.gitbook/assets/ex_vnc_raspberry_connection.jpg)
 
 ## 🌇 VS Code Üzerinden Yönetme
 

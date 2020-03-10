@@ -1,9 +1,8 @@
 ---
-description: >-
-  Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
+description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 ---
 
-# ☕ Java Notlarım
+# ☕ Java
 
 * [☕ Java Notlarım](https://java.yemreak.com/)
 * [👀 Neler Değişti](https://java.yemreak.com/CHANGELOG)
@@ -65,3 +64,4 @@ description: >-
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
+

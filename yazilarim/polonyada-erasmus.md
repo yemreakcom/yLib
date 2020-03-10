@@ -132,6 +132,11 @@ description: >-
 * Bu belgeye göre gönderen okulunuzdan hibe alırsınız
 * Alıcı okula **otobüs ve uçak biletlerinizi mail olarak atıp**, istekte bulunabilirsiniz
 
+## 📅 Ders Takvimi \(Timetables\)
+
+* Ders düzeltmeleri için TUL mühendislik öğrencileri [buradan](https://www.ife.p.lodz.pl/en/timetables) zaman çizelgelerine bakmalı
+* Eğer çakışan dersleriniz varsa [Mobility in](https://mobility.p.lodz.pl/in/Student.Start) üzerinden[ Changes to LA ](https://mobility.p.lodz.pl/in/Student.Changes)alanında değişiklik yapmalısınız
+
 ## 💸 Para Yönetimi
 
 * Parasal işlemlerini kesinti almayan [Revolut Card](https://www.revolut.com/) ile yapabilirsiniz

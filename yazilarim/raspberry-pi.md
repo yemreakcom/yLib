@@ -1,5 +1,8 @@
 ---
-description: Raspberry Pi notlarım
+description: >-
+  Raspberry Pi monitörsüz, bilgisayar üzerinden kurulum. Bilgisayarın
+  internetini raspberry pi ile paylaşma. VS Code, VNC ve putty üzerinden
+  raspberry pi yönetimi.
 ---
 
 # 🍓 Raspberry Pi
@@ -59,15 +62,6 @@ description: Raspberry Pi notlarım
 
 ![](../.gitbook/assets/ex_vnc_rasp_connection.jpg)
 
-## 🤝 Ethernet üzerinden internet paylaşma
-
-* **Control Panel\Network and Internet\Network Connections** alanına girin
-* **Settings -&gt; WiFi -&gt; Status -&gt; Change adapter settings**
-* **İnternet bağlantısı olan Network bağdaştırıcısının** üzerine sağ tıklayın
-* Özellikler -&gt; Paylaşım -&gt; **İnternet paylaşımına izin ver** butonunu seçin
-
-![](../.gitbook/assets/ex_internet_sharing.png)
-
 ## 🌇 VS Code Üzerinden Yönetme
 
 * İlk olarak [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&WT.mc_id=-blog-scottha) eklentisini indirin
@@ -78,6 +72,15 @@ description: Raspberry Pi notlarım
   * Eğer host name farklı ise Putty üzerinden **terminaldeki komut yazdığınız satırdaki ismi** kopyalayın
 
 ![](../.gitbook/assets/ex_vscode_ssh_connect.png)
+
+## 🤝 Ethernet üzerinden internet paylaşma
+
+* **Control Panel\Network and Internet\Network Connections** alanına girin
+* **Settings -&gt; WiFi -&gt; Status -&gt; Change adapter settings**
+* **İnternet bağlantısı olan Network bağdaştırıcısının** üzerine sağ tıklayın
+* Özellikler -&gt; Paylaşım -&gt; **İnternet paylaşımına izin ver** butonunu seçin
+
+![](../.gitbook/assets/ex_internet_sharing.png)
 
 ## 🔗 Faydalı Bağlantılar
 

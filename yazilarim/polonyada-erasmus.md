@@ -87,7 +87,9 @@ description: >-
 
 ![](../.gitbook/assets/dorm9_rules.png)
 
-## 📝 TUL 9. Yurt Notları
+## 📝 9. Yurt Notları \(TUL\)
+
+### ⭐ Genel Notlar
 
 * 💰 Ücreti 500 PLN \(diğer yurtlar 440 PLN\)
 * 🙄 Biraz eski gözüküyor odalar
@@ -101,6 +103,19 @@ description: >-
 {% hint style="warning" %}
 📢 Google Maps yorumuma [buradan](https://goo.gl/maps/j6MPrujYwpWX5yUz8) bakabilirsin
 {% endhint %}
+
+### 🧺 Çamaşır Yıkama
+
+* **Receptionist** ile görüşüp, **Laundry Room** için anahtar almalısınız
+* Anahtarı aldıktan sonra deftere adınızı, alış tarihinizi, hangi makineyi kullandığınızı yazmalısınız
+* Çamaşır makineleri en altta katta en sol köşedeki odadadır
+* Hangi çamaşır makinesini kullandığınıza dikkat edin, numarasını deftere kayıt edeceksiniz
+* Kurutma işlemleri için ister **Laundry Room** içerisinde, isterseniz kendi odanız ya da koridorunuzu kullanabilirsiniz
+
+### 🧹 Temizlik Notlar
+
+* **Paspas** ve **elektrikli süpürgeyi, Receptionist** ile görüşüp alabilirsiniz
+* İşleminiz bittikten sonra iade etmeniz gerekmektedir 
 
 ## 💸 Yurt Ücreti Ödeme
 

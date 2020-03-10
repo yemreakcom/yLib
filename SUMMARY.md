@@ -126,6 +126,7 @@
     * [🔆 VsCode Editör Ayarları](uygulamalar/vscode/editor-ayarlari.md)
     * [👨‍💻 VsCode Eklentisi \(VSIX\) Programlama](uygulamalar/vscode/vsix.md)
     * [✨ VsCode Özelleştirmelerim](uygulamalar/vscode/ozellestirmelerim.md)
+    * [👓 Awesome VS Code](https://viatsko.github.io/awesome-vscode/)
   * [📝 OneNote](uygulamalar/onenote.md)
   * [🐳 Docker](uygulamalar/docker.md)
   * [🥦 JetBrains IDEs](uygulamalar/jetbrains/README.md)

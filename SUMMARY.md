@@ -6,7 +6,7 @@
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Yazılarım](yazilarim/README.md)
-  * [🍓 Raspberry Pi Kurulum, Yönetim ve Paylaşım](yazilarim/raspberry-pi.md)
+  * [🍓 Raspberry Pi Kurulum, Yönetim ve Paylaşım](yazilarim/raspberry-pi-kurulum-yonetim-ve-paylasim.md)
   * [✈️ Polonya'da Erasmus](yazilarim/polonyada-erasmus.md)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://kotlin.yemreak.com/yazilarim/kotlin-vs-java)
   * [⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)](yazilarim/bilgisayarda-zaman-yoenetimi-time-tracking.md)

@@ -32,7 +32,8 @@ description: >-
 
 ## 🔌 Putty ile SSH üzerinden bağlanma
 
-* İlk olarak PC'ye Putty uygulamasını indirin \(ücretsizdir\)
+* **Ethernet** kablonuzun 1 ucunu bilgisayara diğer ucunu Raspberry Pi üzerine takın
+* Ardından bilgisayarınıza [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) uygulamasını indirin \(ücretsizdir\)
 * Putty'I açın ve
   1. Host name: `raspberrypi.local`
   2. Port: `22`

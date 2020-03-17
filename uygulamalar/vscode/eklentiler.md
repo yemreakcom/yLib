@@ -49,10 +49,18 @@ Eklentiler üzerine bir yazı olan [bu linke](https://www.freecodecamp.org/news/
 | [🤖 IntelliCode ☆](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) | **Yapay zeka** ile en sık kullanılan metodları önerir |
 | [📁 Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) | Dosya yollarını yazarken yardımcı olur |
 | [📰 autoDocstring](https://marketplace.visualstudio.com/items?itemName=njpwerner.autodocstring) | Otomatik kod dökümanı oluşturma |
-| [⏯ Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | Editör üzerinden projeleri derleme & çalıştırma |
-| [🖼 Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | Resim urllerinde ön izleme gösterir |
+| [🏃‍♂️ Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner) | Editör üzerinden projeleri derleme & çalıştırma |
+| [🖼️ Image Preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview) | Resim urllerinde ön izleme gösterir |
 | [✨ Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) | Renk kodlarını daha belirgin gösterir |
-| [◼ DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenvs) | `.env` uzantılı dosyalar için vscode desteği sağlar |
+| [🟦 DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenvs) | `.env` uzantılı dosyalar için vscode desteği sağlar |
+| [📋 Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) | JSON verilerini kod olarak kopyalar |
+| [🔗 gitlink](https://marketplace.visualstudio.com/items?itemName=qezhu.gitlink) | Seçilen kod parçasına GitHub üzerinden link verir |
+| [🚄 Sort Lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines) | Metni sıralar |
+| [🍢 Better Align](https://marketplace.visualstudio.com/items?itemName=wwm.better-align) | Kodları hizalama \(= 'ler aynı hizada olur\) |
+| [📘 Gist Pad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs) | GitHub Gist verilerini VS Code üzerinden yönetme |
+| [🚚 Deploy](https://marketplace.visualstudio.com/items?itemName=mkloubert.vs-deploy) | Kodları otomatik olarak taşıma veya indirme |
+| [⭐ Bookmark](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) | İşaretlenen satıra geri dönmenizi sağlar |
+| [💱 Vscode Google Translate](https://marketplace.visualstudio.com/items?itemName=funkyremi.vscode-google-translate) | VS Code üzerinden metinleri çevirme |
 
 ### 📄 Markdown
 

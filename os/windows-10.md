@@ -1,11 +1,12 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
-* [👀 Neler Değişti](https://windows.yemreak.com/CHANGELOG)
+* [👀 Neler Değişti](https://windows.yemreak.com/changelog)
 * [🔰 Windows'a Giriş](https://windows.yemreak.com/windowsa-giris/)
   * [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/windowsa-giris/kurulum)
   * [🔨 Sistem Ayarları](https://windows.yemreak.com/windowsa-giris/sistem)
@@ -77,4 +78,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

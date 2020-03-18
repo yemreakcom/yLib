@@ -1,5 +1,6 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
 ---
 
 # 🌍 Web Notlarım
@@ -49,4 +50,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Web Programlama notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
 * [👀 Neler Değişti](https://windows.yemreak.com/changelog)
@@ -43,7 +44,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
   * [📋 Sağ Tık Menüsü](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/)
     * [✨ Sağ Tık Menüsü Düzenleme Programım](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim)
     * [👨‍🔧 Sağ Tık Menüsü Düzenleme](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/sag-tik-menuesue-duezenleme-programim-2)
-  * [⏹ RegEdit Ayarları](https://windows.yemreak.com/gelistirici-notlarim/regedit)
+  * [⏺️ RegEdit Ayarları](https://windows.yemreak.com/gelistirici-notlarim/regedit)
   * [🛍️ Mağaza Uygulamalarını Komutla Açma](https://windows.yemreak.com/gelistirici-notlarim/magaza-uygulamlarini-komutla-acma)
   * [🧙‍ Gizlenmiş GodMode](https://windows.yemreak.com/gelistirici-notlarim/godmode)
 * [🐧 Windows'ta Linux](https://windows.yemreak.com/windowsta-linux/)
@@ -77,4 +78,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

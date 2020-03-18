@@ -48,7 +48,7 @@ Adres çubuğundan bu sayfaya erişebilirsin.
 | [🚀 OneTab Plus](https://chrome.google.com/webstore/detail/onetab-plustab-manage-pro/lepdjbhbkpfenckechpdfohdmkhogojf) | Sekme karışıklığını ve fazla ram kullanımı engelleme |
 | [👨‍👦 Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) | Açık olan pencereleri kategorize eder |
 | [😴 The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg) | Kullanılmayan sekmeleri uyku moduna alır |
-| [⏪ Youtube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik) | Youtube hız kontrolü |
+| [⏪ YouTube Playback Speed Control](https://chrome.google.com/webstore/detail/youtube-playback-speed-co/hdannnflhlmdablckfkjpleikpphncik) | YouTube hız kontrolü |
 | [✴️ Chrome Remote Desktop](https://chrome.google.com/webstore/detail/chrome-remote-desktop/inomeogfingihgjfjlpeplalcfajhgai?hl=en) | Uzak masaüstü yönetim arayüzü |
 | 📃[ Google Doc Offline](https://chrome.google.com/webstore/detail/google-docs-offline/ghbmnnjooekpmoecnnnilnnbdlolhkhi) | Ofis dosyalarına online erişim |
 | [🔨 Data Scraper - Easy Web Scraping](https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden) | Web sitelerinde tabloları verilerini çekme |

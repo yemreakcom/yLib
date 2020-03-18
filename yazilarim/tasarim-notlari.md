@@ -21,13 +21,15 @@ Windows için ikon paketini [buradan](https://icons8.com/app) indirebilirsin
 * Adobe ürünleri üzerinden çalışanların kullandığını gördüm
 * GUI uygulamaları yapanlar için de oldukça faydalı
 
+![](../.gitbook/assets/win_icon_app.png)
+
 ## Adobe XD
 
-* [Web Design UI](https://www.youtube.com/watch?v=aShSUqSbhss)
-* [Your developer license has expired. To continue to use this app, please renew your license.](https://forums.adobe.com/thread/2607910)
-* [Error P505 ve Adobe'u Komple Kaldırma](https://forums.adobe.com/thread/2313884)
-
 > Alternatif olarak **Figma** kullanabilirsin.
+
+{% hint style="info" %}
+📢 Adobe notlarım [🎨 Adobe XD](../uygulamalar/adobe-xd.md) alanına aktarıldı
+{% endhint %}
 
 ## CamTasia Studio
 

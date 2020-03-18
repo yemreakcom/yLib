@@ -6,7 +6,7 @@ description: 'Matematiğin gizemli (ve havalı) üyeleri olan, asal sayıları a
 
 ## ❔ Asal Sayılar Nedir?
 
-![Sieve of Eratosthenos](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/sieve_of_eratosthenes_animation.gif)
 
 Kendinden önceki sayıların hiç birine bölünmeyen sayılardır.
 

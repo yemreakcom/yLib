@@ -35,3 +35,7 @@ description: UI yani kullanıcı arayüzü tasarlamak için popüler ve ücretsi
 * 👨‍🔧 [Your developer license has expired. To continue to use this app, please renew your license.](https://forums.adobe.com/thread/2607910)
 * 💦 [Error P505 ve Adobe'u Komple Kaldırma](https://forums.adobe.com/thread/2313884)
 
+{% hint style="success" %}
+🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+{% endhint %}
+

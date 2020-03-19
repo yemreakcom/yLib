@@ -26,6 +26,13 @@ description: UI yani kullanıcı arayüzü tasarlamak için popüler ve ücretsi
 
 ![](../.gitbook/assets/adobe_share.png)
 
+## 🧩 Eklentiler
+
+| Eklenti | Açıklama |
+| :--- | :--- |
+| [🖼️ unDraw](https://adobe.com/go/xd_plugins_discover_plugin?pluginId=2d1bea48) | Projeye istenen illustrations ekleme |
+| [📊 ViizyCharts](https://adobe.com/go/xd_plugins_discover_plugin?pluginId=c4f56b2a) | Veri görselleştirmesi |
+
 ## 🔗 Faydalı Bağlantılar
 
 * [👨‍🏫 Adobe XD Getting Started](https://www.youtube.com/playlist?list=PLHjwuoik-ep1Vb4RPXNUbAVHxB1rJRC8W)

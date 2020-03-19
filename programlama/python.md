@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [👀 Neler değişti](https://python.yemreak.com/changelog)
@@ -18,8 +19,8 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🙋‍♂️ Hoş Geldin](https://python.yemreak.com/giris/hos-geldin)
   * [💻 Python için VsCode](https://python.yemreak.com/giris/vscode)
   * [🔑 Anahtar Kelimeler \(Keywords\)](https://python.yemreak.com/giris/keywords)
-  * [💫 Değişkenler](https://python.yemreak.com/giris/degiskenler)
-  * [💎 Operatörler](https://python.yemreak.com/giris/operatorler)
+  * [💎 Değişkenler](https://python.yemreak.com/giris/degiskenler)
+  * [💠 Operatörler](https://python.yemreak.com/giris/operatorler)
   * [⚖️ Koşullar](https://python.yemreak.com/giris/kosullar)
   * [💫 Döngüler](https://python.yemreak.com/giris/donguler)
 * [🧱 Temel Python](https://python.yemreak.com/temel/)
@@ -32,6 +33,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🏗️ Decorator](https://python.yemreak.com/temel/decorator)
   * [👮‍ Kural Koyma](https://python.yemreak.com/temel/kurallar)
   * [🕐 Zaman İşlemleri](https://python.yemreak.com/temel/zaman)
+  * [📑 Dokümantasyon](https://python.yemreak.com/temel/dokuemantasyon)
 * [🏗️ Veri Yapıları](https://python.yemreak.com/veri-yapilari/)
   * [📋 List](https://python.yemreak.com/veri-yapilari/list)
   * [👝 Tuple](https://python.yemreak.com/veri-yapilari/tuple)
@@ -80,6 +82,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🏗️ Kod içi Yapılar](https://python.yemreak.com/diger/kod-ici-yapilar)
   * [🔄 Continuous İntegration \(CI\)](https://python.yemreak.com/diger/ci)
   * [⚗️ Test İşlemler](https://python.yemreak.com/diger/pytest)
+  * [👨‍🔧 Hata Notları](https://python.yemreak.com/diger/hata-notlari)
 * [💚 Anaconda](https://python.yemreak.com/anaconda/)
   * [🏂 Anaconda'ya Giriş](https://python.yemreak.com/anaconda/giris)
   * [👷‍♂️ Anaconda & Miniconda Kurulumu](https://python.yemreak.com/anaconda/anaconda-and-miniconda-kurulumu)
@@ -119,4 +122,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

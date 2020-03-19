@@ -117,7 +117,7 @@
   * [🟠 Google Colabrotory](google/google-colabrotory.md)
   * [🔍 Google Hacking](google/google-hacking.md)
 * [📦 Uygulama Notları](uygulamalar/README.md)
-  * [🎨 Adobe XD](uygulamalar/adobe-xd.md)
+  * [👨‍🎨 Adobe XD](uygulamalar/adobe-xd.md)
   * [🌃 VsCode](uygulamalar/vscode/README.md)
     * [🔰 VsCode'a Giriş](uygulamalar/vscode/giris.md)
     * [💎 VsCode Değişkenleri](uygulamalar/vscode/degiskenler.md)

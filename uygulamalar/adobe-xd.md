@@ -2,11 +2,29 @@
 description: UI yani kullanıcı arayüzü tasarlamak için popüler ve ücretsiz uygulama
 ---
 
-# 🎨 Adobe XD
+# 👨‍🎨 Adobe XD
 
-## 👨‍🏫 Öğrenme Adımları
+## 🧱 Temel Kısayollar
 
+| Kısayol | Açıklama |
+| :--- | :--- |
+| `ı`  | Artboard'ı seçip bu kısayolu uygularsanız, başka bir rengi arka plan rengi olarak ayarlar |
 
+![](../.gitbook/assets/adobe_xd_shortucts.png)
+
+## 🍢 Kaydırma Animasyonu \(Scrolling\)
+
+![](../.gitbook/assets/adobe_scroll_handling.png)
+
+![](../.gitbook/assets/adobe_fix_scroll.png)
+
+## 🎨 Proje Renklerini Değiştirme
+
+![](../.gitbook/assets/adobe_color_handling.png)
+
+## 👐 Projeyi Paylaşma
+
+![](../.gitbook/assets/adobe_share.png)
 
 ## 🔗 Faydalı Bağlantılar
 

@@ -8,7 +8,7 @@ description: UI yani kullanıcı arayüzü tasarlamak için popüler ve ücretsi
 
 | Kısayol | Açıklama |
 | :--- | :--- |
-| `ı`  | Artboard'ı seçip bu kısayolu uygularsanız, başka bir rengi arka plan rengi olarak ayarlar |
+| `I`  | Artboard'ı seçip bu kısayolu uygularsanız, başka bir rengi arka plan rengi olarak ayarlar |
 
 ![](../.gitbook/assets/adobe_xd_shortucts.png)
 

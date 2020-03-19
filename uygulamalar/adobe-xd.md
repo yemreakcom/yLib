@@ -30,6 +30,7 @@ description: UI yani kullanıcı arayüzü tasarlamak için popüler ve ücretsi
 
 * [👨‍🏫 Adobe XD Getting Started](https://www.youtube.com/playlist?list=PLHjwuoik-ep1Vb4RPXNUbAVHxB1rJRC8W)
 * [👨‍🏫 Adobe XD ~ YouTube](https://www.youtube.com/channel/UCxwE7-HpeFygSH0zEI2tkDQ)
+* [👨‍🏫 Adobe Creative Cloud ~ YouTube](https://www.youtube.com/channel/UCL0iAkpqV5YaIVG7xkDtS4Q)
 * [⭐ Web Design UI Örneği](https://www.youtube.com/watch?v=aShSUqSbhss)
 * 👨‍🔧 [Your developer license has expired. To continue to use this app, please renew your license.](https://forums.adobe.com/thread/2607910)
 * 💦 [Error P505 ve Adobe'u Komple Kaldırma](https://forums.adobe.com/thread/2313884)

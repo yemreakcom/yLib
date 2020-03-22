@@ -21,6 +21,7 @@
   * [💡 Aydınlatma](yazilarim/aydinlatma.md)
   * [🎨 Tasarım Notları](yazilarim/tasarim-notlari.md)
 * [👨‍🔬 Kişisel Araştırmalarım](arastirmalar/README.md)
+  * [🧵 Thread Pool \(Executors\) Kavramı](arastirmalar/thread-pool-executors-kavrami.md)
   * [📚 Türkçe Kelime Sözlüğü](https://1drv.ms/u/s!Amnbd9ydhrmdhq4MoaqvSiHL8BUxHA?e=4FSlyf)
   * [🔥 Firebase](arastirmalar/firebase.md)
   * [🔥 Firebase ML-Kit](arastirmalar/firebase-ml-kit.md)

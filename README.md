@@ -10,7 +10,7 @@ description: "\U0001F30E Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasın
 
 * **📖 Kütüphane ~ YEmreAk** bildiklerimi derlediğim bir kütüphanem olarak ele alınabilir
 * 🧐 İçerikler indekslenmiş ve düzenlenmiştir. 
-* 🕵️‍♂️ Burada kaybolmaman için bilmen gerekenler:
+* 🖤 Karanlık tema için [Dark Reader](https://darkreader.org/) eklentisini kullanabilirsin
 
 > 🔗 Tüm alt sayfalara `yemreak.com/<sayfa>` adı ile erişebilirsin
 

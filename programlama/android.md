@@ -1,13 +1,15 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 ---
 
-# 📱 Android
+# 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
-* [👀 Neler Değişti](https://android.yemreak.com/changelog)
+* [👀 Neler Değişti](https://android.yemreak.com/CHANGELOG)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
+  * [📸 CameraX Kullanımı](https://android.yemreak.com/yazilarim/camerax-kullanimi)
   * [🚫 WebView İçerisindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-icerisindeki-reklamlari-engelleme)
   * [💁‍♂️ Neden Kotlin](https://android.yemreak.com/yazilarim/neden-kotlin)
 * [🚩 Çalışma Yolu](https://android.yemreak.com/calisma-yolu)
@@ -62,6 +64,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
   * [🌞 Foreground Service](https://android.yemreak.com/android-servisleri/foreground-service)
   * [🐥 Intent Service](https://android.yemreak.com/android-servisleri/intent-service)
 * [✨ Faydalı Bilgiler](https://android.yemreak.com/faydali/)
+  * [🔥 Firebase ML-Kit](https://android.yemreak.com/faydali/firebase-ml-kit)
   * [📍 Google Maps Kullanımı](https://android.yemreak.com/faydali/google-maps-kullanimi)
   * [📅 Tarih işlemleri](https://android.yemreak.com/faydali/tarih-islemleri)
   * [🚧 Proje İsmi Değiştirme](https://android.yemreak.com/faydali/proje-islemleri)
@@ -109,4 +112,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Android Programlama notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

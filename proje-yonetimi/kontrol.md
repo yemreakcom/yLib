@@ -85,6 +85,8 @@ Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-ornekl
 | Her kod için test metotları yazılır | Continuous Integration'a geliştirilmiş halidir | Continuous Delivery'nin gelişmiş halidir |
 | Tüm test metotları farklı sunucuda her commit işleminden sonra gerçekleşir | Projeyi yayınlamaya hazır hale getirir | Proje yayınlanması da otomatik hale gelmiştir |
 
+> 📋 Tüm CI hizmetlerine [Awesome CI](https://github.com/ligurio/awesome-ci) üzerinden bakabilirsin
+
 ![](../.gitbook/assets/continuous_integration.png)
 
 {% hint style="info" %}

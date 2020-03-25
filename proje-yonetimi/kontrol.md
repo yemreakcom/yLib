@@ -76,7 +76,7 @@ Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-ornekl
 | İsim | Açıklama |
 | :--- | :--- |
 | `NAME`\_PREFİX | Veri tabanı ön eki. _Örn: DB\_PREFIX, BRANCH\_PREFIX_ |
-| Flag | Checkbox gibi boolean değerleri tutan değişkenlerin adıdır |
+| Flag | Checkbox gibi _boolean_ değerleri tutan değişkenlerin adıdır |
 
 ## 🌊 Continuous Integration
 
@@ -85,13 +85,17 @@ Ek kaynak için [buraya](https://blog.koddit.com/yazilim/mvc-nedir-gercek-ornekl
 | Her kod için test metotları yazılır | Continuous Integration'a geliştirilmiş halidir | Continuous Delivery'nin gelişmiş halidir |
 | Tüm test metotları farklı sunucuda her commit işleminden sonra gerçekleşir | Projeyi yayınlamaya hazır hale getirir | Proje yayınlanması da otomatik hale gelmiştir |
 
-> 📋 Tüm CI hizmetlerine [Awesome CI](https://github.com/ligurio/awesome-ci) üzerinden bakabilirsin
-
 ![](../.gitbook/assets/continuous_integration.png)
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Continuous integration vs. continuous delivery vs. continuous deployment](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment) alanına bakabilirsin.
 {% endhint %}
+
+## ⚗️ CI Bağlantıları
+
+* 📋 Tüm CI hizmetlerine [Awesome CI](https://github.com/ligurio/awesome-ci) üzerinden bakabilirsin
+* [📃 Continuously Deploying Python Packages to PyPI with CircleCI](https://circleci.com/blog/continuously-deploying-python-packages-to-pypi-with-circleci/)
+* [🔨 Configuring CircleCI](https://circleci.com/docs/2.0/configuration-reference)
 
 ## ⭐ Faydalı Yazılımlar
 

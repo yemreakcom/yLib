@@ -6,7 +6,7 @@ description: >-
 # 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
-* [👀 Neler değişti](https://ai.yemreak.com/CHANGELOG)
+* [👀 Neler değişti](https://ai.yemreak.com/changelog)
 * [✍ Yazılarım](https://ai.yemreak.com/yazilarim/)
   * [🕵️‍♂️ Tensorflow Object Detection API ile Obje Bulma](https://ai.yemreak.com/yazilarim/tensorflow-object-detection-api-ile-obje-bulma)
 * [📚 Çalışma Kaynakları](https://ai.yemreak.com/calisma-kaynaklari/)

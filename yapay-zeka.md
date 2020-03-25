@@ -6,7 +6,7 @@ description: >-
 # 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
-* [👀 Neler değişti](https://ai.yemreak.com/changelog)
+* [👀 Neler değişti](https://ai.yemreak.com/CHANGELOG)
 * [✍ Yazılarım](https://ai.yemreak.com/yazilarim/)
   * [🕵️‍♂️ Tensorflow Object Detection API ile Obje Bulma](https://ai.yemreak.com/yazilarim/tensorflow-object-detection-api-ile-obje-bulma)
 * [📚 Çalışma Kaynakları](https://ai.yemreak.com/calisma-kaynaklari/)
@@ -22,6 +22,7 @@ description: >-
   * [📚  GZip \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/gzip)
   * [🚅 Pickle \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/pickle)
   * [🔢 NumPy \| Veri Bilimi](https://ai.yemreak.com/veri-bilimi/numpy)
+  * [📂 WQU Data Science Notları](https://drive.google.com/open?id=1DoSpwHlCrhvEEF1iotw4SDkmaQO-qxEe)
 * [👨‍💼 Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/)
   * [🗃️ SQL \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/sql)
   * [🔢 NumPy \| Veri Yönetimi](https://ai.yemreak.com/veri-yonetimi/numpy/)

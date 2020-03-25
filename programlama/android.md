@@ -7,7 +7,7 @@ description: >-
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
 * [👀 Neler Değişti](https://android.yemreak.com/CHANGELOG)
-* [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
+* [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
   * [📸 CameraX Kullanımı](https://android.yemreak.com/yazilarim/camerax-kullanimi)
   * [🚫 WebView İçerisindeki Reklamları Engelleme](https://android.yemreak.com/yazilarim/webview-icerisindeki-reklamlari-engelleme)

@@ -6,9 +6,9 @@ description: >-
 # 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
-* [👀 Neler değişti](https://python.yemreak.com/changelog)
+* [👀 Neler değişti](https://python.yemreak.com/CHANGELOG)
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
-* [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
+* [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [✍ Yazılarım](https://python.yemreak.com/yazilar/)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/yazilar/pip-ile-kurulabilir-python-paketi-olusturma)
   * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/yazilar/veri-cekme)

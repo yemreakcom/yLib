@@ -1,11 +1,12 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
 ---
 
-# 🎃 Kotlin
+# 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
-* [👀 Neler değişti](https://kotlin.yemreak.com/changelog)
+* [👀 Neler değişti](https://kotlin.yemreak.com/CHANGELOG)
 * [✍ Yazılarım](https://kotlin.yemreak.com/yazilarim/)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://kotlin.yemreak.com/yazilarim/kotlin-vs-java)
   * [👷‍♂️ Kotlin Kurulumu](https://kotlin.yemreak.com/yazilarim/kotlin-kurulumu)
@@ -53,4 +54,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Kotlin notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

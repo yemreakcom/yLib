@@ -8,6 +8,7 @@ description: >-
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/)
 * [👀 Neler Değişti](https://learn.yemreak.com/changelog)
 * [🚀 YEmoji](https://emoji.yemreak.com)
+* [🌟 Awesome of awesome](https://github.com/sindresorhus/awesome)
 * [⭐ Benzer Çalışmalar](https://learn.yemreak.com/benzer-calismalar)
 
 ## Yönetim <a id="yonetim"></a>

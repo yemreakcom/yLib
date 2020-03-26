@@ -1,4 +1,4 @@
-# ✨ Değişiklikler
+# 👀 Neler değişti
 
 ## 📋 Tüm Değişiklikler
 

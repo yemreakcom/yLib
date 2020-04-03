@@ -59,10 +59,9 @@ return bool(re.match(pattern, S))
 
 ## 📑 Markdown RegEx
 
-
-
 | 💎 Regex | 📑 Açıklama |
 | :--- | :--- |
 | `\[([^\[\]]+)\]\(([^\(\)]+)\)` | Link regex değeri |
 | `(#+) *(.*)` | Header |
+| `<!--(.*?)-->` | Comment |
 

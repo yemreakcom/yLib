@@ -27,7 +27,11 @@ GitBook'un [📖 Markdown](https://docs.gitbook.com/content-editing/markdown) do
   * Server: `hosting.gitbook.com`
 * Sol taraftaki ayarlar panelinden `Advanced` sekmesini açın
 * Açılan panelde `Custom Domain` alnına tıklayın ve `Configure` butonuna basın
-* `CNAME` oluşturuken ayarladığınız, subdomainli sitenizi buraya girin
+* `CNAME` oluştururken ayarladığınız, subdomainli sitenizi buraya girin
+
+{% hint style="warning" %}
+📢 GitBook apex domain \(`yemreak.com` gibi\) desteklemez
+{% endhint %}
 
 ## 📈 Verimli Kullanım
 

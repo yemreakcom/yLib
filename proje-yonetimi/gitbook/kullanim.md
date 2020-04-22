@@ -21,6 +21,14 @@ GitBook, GitHub'a göre daha görsel arayüz sağladığından, doküman oluştu
 GitBook'un [📖 Markdown](https://docs.gitbook.com/content-editing/markdown) dokümanına bakmanda fayda var.
 {% endhint %}
 
+## 🌟 Domain Ayarlama
+
+* 🚩 İlk olarak [🌎 Sitenizi Kendi Alan Adınıza Bağlama \(Domain\)](https://web.yemreak.com/web-sitesi-yonetimi#sitenizi-kendi-alan-adiniza-baglama-domain) yazısından `CNAME` kaydı oluşturun
+  * Server: `hosting.gitbook.com`
+* Sol taraftaki ayarlar panelinden `Advanced` sekmesini açın
+* Açılan panelde `Custom Domain` alnına tıklayın ve `Configure` butonuna basın
+* `CNAME` oluşturuken ayarladığınız, subdomainli sitenizi buraya girin
+
 ## 📈 Verimli Kullanım
 
 GitBook arama motorunu verimli kullanmak için:

@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 22/04/2020 - 16:47:50 - [GitBook: [master] 12 pages modified](https://github.com/YEmreAk/YLib/commit/ca7cfca91754e0a6d089553d6239731def4ee271?diff=split) ~ Yunus Emre
 - 22/04/2020 - 16:44:23 - [GitBook: [master] 12 pages modified](https://github.com/YEmreAk/YLib/commit/e05aa004d68027ec25d412ac19d20adbae08f085?diff=split) ~ Yunus Emre
 - 19/04/2020 - 12:23:27 - [GitBook: [master] 170 pages modified](https://github.com/YEmreAk/YLib/commit/d9b309a6a66e3fd2bd8c17e08fffba9a2699adbe?diff=split) ~ Yunus Emre
 - 03/04/2020 - 22:59:07 - [GitBook: [master] 12 pages modified](https://github.com/YEmreAk/YLib/commit/b593e49596028145159e4dbcff5caa2b00ae5b1b?diff=split) ~ Yunus Emre

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [👀 Neler değişti](https://python.yemreak.com/changelog)
@@ -32,6 +33,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [📜 Raporlama İşlemleri](https://python.yemreak.com/temel/raporlama)
   * [🏗️ Decorator](https://python.yemreak.com/temel/decorator)
   * [👮‍ Kural Koyma](https://python.yemreak.com/temel/kurallar)
+  * [🐛 Hata Yönetimi](https://python.yemreak.com/temel/hata-yoenetimi)
   * [🕐 Zaman İşlemleri](https://python.yemreak.com/temel/zaman)
   * [📑 Dokümantasyon](https://python.yemreak.com/temel/dokuemantasyon)
   * [⚗️ Test İşlemleri](https://python.yemreak.com/temel/test-islemleri)
@@ -122,4 +124,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

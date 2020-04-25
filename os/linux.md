@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Linux Notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Linux Notları
 ---
 
-# 🐧 Linux Notları
+# 🐧 Linux Notlarım
 
 * [🐧 Linux Notlarım](https://linux.yemreak.com/)
 * [👀 Neler Değişti](https://linux.yemreak.com/CHANGELOG)
@@ -53,4 +54,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Linux Notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

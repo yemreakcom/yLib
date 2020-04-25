@@ -54,7 +54,7 @@ description: >-
 
 ## 🖼 VNC ile bağlanma
 
-* İlk olarak VNC Viewer uygulamasını kurun
+* İlk olarak [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) uygulamasını kurun
 * Uygulama üzerinden VNC server adress alanına: raspberrypi.local
 * Bağlandıktan sonra çıkan ekranda
   * Login as alanına: pi

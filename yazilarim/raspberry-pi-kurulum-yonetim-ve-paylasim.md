@@ -19,6 +19,8 @@ description: >-
 
   Süreci bu aşamadan takip edebilirsiniz \(10-15dk alabilir\)
 
+> 💁‍♂️ İsterseniz Ubuntu da kurabilirsiniz
+
 ![](../.gitbook/assets/ex_rasp_img_writer.png)
 
 ## 📶 Network Üzerinden Yönetme

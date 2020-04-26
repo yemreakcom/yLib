@@ -43,13 +43,13 @@ description: >-
   1. Host name: `raspberrypi.local`
   2. Port: `22`
   3. Ardından **Open** butonuna tıklayın \(terminal üzerinde açılacaktır\)
+* Login as alanına: `pi`
+* Password alanına: `raspberry`
 
 ![](../.gitbook/assets/ex_putty_rasp_terminal.png)
 
 ## 🖤 Terminal üzerinden giriş yapma ve VNC'yi aktif etme
 
-* Login as alanına: `pi`
-* Password alanına: `raspberry`
 * `sudo raspi-config` komutu ile Raspberry ayarlarını açın
   * 1. kısımda yer alan **Interfacing Options** alanını seçin
   * Ardından **P3 VNC** kısmını seçip **YES** seçeneğine tıklayın
@@ -57,11 +57,10 @@ description: >-
 ## 🖼 VNC ile bağlanma
 
 * İlk olarak [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) uygulamasını kurun
-* Uygulama üzerinden VNC server adress alanına: raspberrypi.local
+* Uygulama üzerinden **VNC server address** alanına: `raspberrypi.local`
 * Bağlandıktan sonra çıkan ekranda
-  * Login as alanına: pi
-
-    Password alanına: raspberry
+  * Login as alanına: `pi`
+  * Password alanına: `raspberry`
 
 ![](../.gitbook/assets/ex_vnc_raspberry_connection.jpg)
 

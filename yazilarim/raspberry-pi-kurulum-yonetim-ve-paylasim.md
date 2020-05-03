@@ -54,7 +54,7 @@ description: >-
 ## 🖤 Terminal üzerinden giriş yapma ve VNC'yi aktif etme
 
 * `sudo raspi-config` komutu ile Raspberry ayarlarını açın
-  * İlk kısımda yer alan **Interfacing Options** alanını seçin
+  * 5'inci kısımda yer alan **Interfacing Options** alanını seçin
   * Ardından **P3 VNC** kısmını seçip **YES** seçeneğine tıklayın
 
 ## 🖼 VNC ile bağlanma
@@ -66,6 +66,39 @@ description: >-
   * Password alanına: `raspberry`
 
 ![](../.gitbook/assets/ex_vnc_raspberry_connection.jpg)
+
+## 🏠 Statik IP Adresi Verme
+
+* Putty veya VNC Viewer üzerinden raspberrypi cihazınıza bağlanın ve terminali açın
+* Bağlantı ayarlarını değiştirmek için `sudo nano /etc/dhcpcd.conf` komutunu yazın
+* Yapılandırma ayarlarının **en altında yer alan** yapılandırma ayarlarını aşağıdaki gibi yapın
+
+{% code title="dhcpcd.conf" %}
+```text
+interface eth0
+
+static ip_address=192.168.0.10/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+
+interface wlan0
+
+static ip_address=192.168.0.11/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+
+profile static_eth0
+static ip_address=192.168.1.23/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1
+
+fallback static_eth0
+```
+{% endcode %}
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Raspberry Pi’ye Statik İp Verme](https://mertcangokgoz.com/raspberry-pi-statik-ip-verme/) alanına bakabilirsin.
+{% endhint %}
 
 ## 🤝 Ethernet üzerinden internet paylaşma
 
@@ -94,4 +127,5 @@ description: >-
 * 📃 [How to Share Internet Over Ethernet Cable](https://www.instructables.com/id/How-to-share-Internet-over-Ethernet-Cable/)
 * 📃 [Visual Studio Code Remote Development over SSH to a Raspberry Pi is butter](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
 * 📃 [Raspberry Pi as Wake On Lan Ethernet Bridge](https://www.raspberrypi.org/forums/viewtopic.php?t=92977)
+* [📃 Raspberry Pi’ye Statik İp Verme](https://mertcangokgoz.com/raspberry-pi-statik-ip-verme/)
 

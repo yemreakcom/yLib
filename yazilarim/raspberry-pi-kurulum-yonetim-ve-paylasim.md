@@ -1,11 +1,11 @@
 ---
 description: >-
-  Raspberry Pi monitörsüz, bilgisayar üzerinden kurulum. Bilgisayarın
-  internetini raspberry pi ile paylaşma. VS Code, VNC ve putty üzerinden
-  raspberry pi yönetimi.
+  Raspberry Pi monitörsüz, bilgisayar üzerinden kurulum, bilgisayarın
+  internetini raspberry pi ile paylaşma,  VS Code, VNC ve putty üzerinden
+  raspberry pi yönetimi, raspberry pi için static ip atama
 ---
 
-# 🍓 Raspberry Pi Kurulum, Yönetim ve Paylaşım
+# 🍓 Raspberry Pi Kurulumu, Yönetimi ve Internet Paylaşımı
 
 ## 🏗️ Kurulum İşlemleri
 

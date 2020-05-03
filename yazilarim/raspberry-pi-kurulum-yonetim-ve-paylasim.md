@@ -41,8 +41,11 @@ description: >-
 
 * **Ethernet** kablonuzun 1 ucunu bilgisayara diğer ucunu Raspberry Pi üzerine takın
 * Windows 10 kullanıcıları için `ssh -l pi raspberrypi.local` komutu ile terminale bağlanabilirsiniz
+
+![](../.gitbook/assets/raspberry_via_windows_teminal.png)
+
 * Yukarıdaki işlem çalışmaz ise bilgisayarınıza [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) uygulamasını indirin \(ücretsizdir\)
-* Putty'I açın ve
+* Putty uygulamasını açın ve
   1. Host name: `raspberrypi.local`
   2. Port: `22`
   3. Ardından **Open** butonuna tıklayın \(terminal üzerinde açılacaktır\)

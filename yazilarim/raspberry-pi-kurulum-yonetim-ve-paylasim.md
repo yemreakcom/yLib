@@ -75,29 +75,23 @@ description: >-
 
 {% code title="dhcpcd.conf" %}
 ```text
-interface eth0
-
-static ip_address=192.168.0.10/24
-static routers=192.168.0.1
-static domain_name_servers=192.168.0.1
-
 interface wlan0
 
-static ip_address=192.168.0.11/24
-static routers=192.168.0.1
-static domain_name_servers=192.168.0.1
+static ip_address=192.168.1.11/24
+static routers=192.168.1.1
+static domain_name_servers=192.168.1.1 8.8.8.8
 
 profile static_eth0
-static ip_address=192.168.1.23/24
-static routers=192.168.1.1
-static domain_name_servers=192.168.1.1
+static ip_address=192.168.0.23/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1 8.8.8.8
 
 fallback static_eth0
 ```
 {% endcode %}
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Raspberry Pi’ye Statik İp Verme](https://mertcangokgoz.com/raspberry-pi-statik-ip-verme/) alanına bakabilirsin.
+📢 Hem `wlan0` hem de `eth0` arayüzü oluşturunca hatalı davranmakta
 {% endhint %}
 
 ## 🤝 Ethernet üzerinden internet paylaşma
@@ -127,5 +121,4 @@ fallback static_eth0
 * 📃 [How to Share Internet Over Ethernet Cable](https://www.instructables.com/id/How-to-share-Internet-over-Ethernet-Cable/)
 * 📃 [Visual Studio Code Remote Development over SSH to a Raspberry Pi is butter](https://www.hanselman.com/blog/VisualStudioCodeRemoteDevelopmentOverSSHToARaspberryPiIsButter.aspx)
 * 📃 [Raspberry Pi as Wake On Lan Ethernet Bridge](https://www.raspberrypi.org/forums/viewtopic.php?t=92977)
-* [📃 Raspberry Pi’ye Statik İp Verme](https://mertcangokgoz.com/raspberry-pi-statik-ip-verme/)
 

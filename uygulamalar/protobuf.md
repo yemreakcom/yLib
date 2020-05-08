@@ -2,7 +2,7 @@
 description: Protobuf deyimi ve neden kullanılması gerektiği
 ---
 
-# 💽 Protocol Buffer \(Protobuf\)
+# �� Protocol Buffer \(Protobuf\)
 
 ## Nedir
 

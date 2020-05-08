@@ -2,12 +2,12 @@
 description: Google'ın sunduğu online kontrol edilebilir bilgisayar hizmeti
 ---
 
-# 🟠 Google Colabrotory
+# 🟡 Google Colab
 
 ## ❔ Nedir
 
-* Kodlama dili [🐍 IPython](https://github.com/yedhrab/YWiki/tree/169abadfd1b8862c004399268f6ca1f9f9359d61/6%20-%20Uygulama%20&%20Yazılım/Programlama%20Notları/IPython/README.md) olarak geçmektedir, bağlantıya tıklarak detaylara erişebilirsin
-* Colab üzerinde kullanılan komutların \(IPython\) dökümanı için [buraya](https://ipython.readthedocs.io/en/stable/index.html) bakabilirsin.
+* 👨‍💻 Kodlama dili [🐍 IPython](https://python.yemreak.com/ipython/) olarak geçmektedir, bağlantıya tıklarak detaylara erişebilirsin
+* 📖 Colab üzerinde kullanılan komutların \(IPython\) dökümanı için [buraya](https://ipython.readthedocs.io/en/stable/index.html) bakabilirsin.
 
 ## ⚙ Google Colab Çalışma Ortamını Yapılandırma
 

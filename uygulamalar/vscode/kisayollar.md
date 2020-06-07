@@ -68,6 +68,14 @@ description: VsCode kısayolları
 * ✲ Ctrl + ⇧ Shift + V _Markdown preview_'i açar
 * ✲ Ctrl + J Alt paneli görünür kılar
 
+## 👨‍💻 Snippets
+
+![](../../.gitbook/assets/vscode_user_snippets.png)
+
+* `$1` işareti ile `1.` olarak odaklanılacak alan belirlenir
+* `${1:default}` ile `1.` olarak odaklanılacak olan `default` isimli alan belirlenir
+* `$0` Son odaklanılacak alanı belirtir
+
 ## 🔗 Harici Bağlantılar
 
 * [Vscode ipuçları](https://code.visualstudio.com/docs/getstarted/tips-and-tricks#_files-and-folders)

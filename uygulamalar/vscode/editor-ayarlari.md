@@ -36,5 +36,3 @@ Değişkenlerin kullanım şekilleri:
 
 ## ✨ Faydalı Yazılar
 
-{% page-ref page="ozellestirmelerim.md" %}
-

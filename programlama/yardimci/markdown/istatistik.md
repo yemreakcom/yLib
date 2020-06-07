@@ -2,7 +2,7 @@
 description: 'Markdown tablo veya menü oluşturma, matematik işlemleri (latex) kullanımı'
 ---
 
-# 📈 Markdown'da İstatistik
+# �� Markdown'da İstatistik
 
 ## 📊 Tablo Oluşturma
 

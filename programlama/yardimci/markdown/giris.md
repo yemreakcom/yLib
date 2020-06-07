@@ -63,7 +63,7 @@ Rozet yapımı için [buraya](https://shields.io/) bakabilirsin.
 ## 🔌 VsCode için Faydalı Eklentiler
 
 {% hint style="warning" %}
-‍📢 Markdown eklentileri [VsCode Eklentileri - Markdown](../../../uygulamalar/vscode/eklentiler.md#markdown) alanına gösterilmektedir
+‍📢 Markdown eklentileri [VsCode Eklentileri - Markdown](../../../uygulamalar/vs-code/eklentiler.md#markdown) alanına gösterilmektedir
 {% endhint %}
 
 ## 🔗 Faydalı Siteler

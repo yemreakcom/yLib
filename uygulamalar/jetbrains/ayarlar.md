@@ -38,6 +38,13 @@ Editör üzerindeki `==`, `=>`, `->`, `<=` gibi karakteri birleştiren hoş bir 
 🚀 FiraCode'u [buradan](https://github.com/tonsky/FiraCode#solution) indirebilirsin
 {% endhint %}
 
+## 🖱️ İmleç Pozisyonu Yönetimi
+
+* 📈 İmlecin bir önceki ya da sonraki pozisyona geçmesini sağlar
+* ⚙️ `Setting` -&gt; `Keymap` -&gt; `Navigate` alanından `Back`, `Forward` değerlerine kısayol ekleyin
+
+![](../../.gitbook/assets/jetbrains_navigate_settings.png)
+
 ## 🕵️‍♂️ Dokümantasyon Ön İzleme
 
 Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları gösterecektir.
@@ -67,7 +74,7 @@ Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/ope
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Spelling | Dictionaries | Custom Dictionaries` başlığı altında `+` butonuna basıp `.dic` uzantılı sözlük dosyanı ekleyin.
 
 {% hint style="warning" %}
-📢 Sözlüğün çalışabilmesi için `hunspell` eklentisini indirmeniz gerekmekte. Plugin kurma detayı için [buraya](https://www.jetbrains.com/help/idea/managing-plugins.html) tıklayabilirsin.
+~~📢 Sözlüğün çalışabilmesi için `hunspell` eklentisini indirmeniz gerekmekte. Plugin kurma detayı için~~ [~~buraya~~](https://www.jetbrains.com/help/idea/managing-plugins.html) ~~tıklayabilirsin.~~
 {% endhint %}
 
 ## 🧐 Spellcheck Kaldırma

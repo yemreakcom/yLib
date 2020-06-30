@@ -34,6 +34,7 @@
   * [👨‍💻 Scripting Languages](arastirmalar/scripting-languages.md)
   * [🏫 MIT gibi Yurt Dışı Eğitimleri Hakkında](arastirmalar/mit-gibi-yurt-disi-egitimleri-hakkinda.md)
 * [👨‍💻 Programlama Notları](programlama/README.md)
+  * [🔐 Yazılım Lisansları](programlama/yazilim-lisanslari.md)
   * [🧱 Programlama Temelleri](programlama/temel/README.md)
     * [🙋‍ Programlamaya Giriş](programlama/temel/giris.md)
     * [💎 Programlama Terimleri](programlama/temel/terimler.md)

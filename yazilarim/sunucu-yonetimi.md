@@ -20,22 +20,75 @@ description: >-
 
 ## 🔒 Sunucuya Şifresiz Bağlanma
 
-* ⏬ OpenSSH yüklü değil ise yükleyin \(`shh <user>@<ip>` komutu ile test edebilirsiniz\)
-* 🔑 SSH key ile giriş yapılacağından `ssh-keygen` \(Linux için `ssh-keygen -t rsa`\) komutu ile keygen oluşturun
-* 👷‍♂️ Windows için `Get-Service -Name ssh-agent | Set-Service -StartupType Manual` komutu PowerShell üzerinden ile SSH servisini başlatın \([detaylar](https://stackoverflow.com/a/53606760/9770490)\)
-* 🚚 Sunucuya anlaşma işlemi için oluşturulan `.pub` uzantılı dosyayı `scp ~/.ssh/id_rsa.pub <user>@<ip>:` komutu ile kopyalayın
-* 🔌 Sunucuya `ssh <user>@<ip>` komutu ile şifrenizle bağlanın
-* 📃 Sunucu üzerine aktarılan `*.pub` dosyasını `.ssh/authorized_keys` dosyasına eklememiz gerekmekte
-* 📂 Eğer `.ssh` dizini yoksa `mkdir .ssh` ile dizini oluşturun
-* 📝 Ardından `cat <isim>.pub >> .ssh/authorized_keys` komutu ile dosyanın sonuna ekleyin
-* 👮‍♂️ Son olarak `chmod 700` ~~`/.ssh`~~ve `chmod 600~/.ssh/authorized_keys` ile gerekli yetkilendirmeleri yapın, aksi durumda çalışmaz
-* 🎉 Artık `logout` komutu ile sunucudan çıkabilirsiniz ve şifresiz bağlantı kurabilirsiniz
+{% tabs %}
+{% tab title="✴️ Windows" %}
+{% code title="ConnectServer.ps1" %}
+```aspnet
+#requires -PSEdition Core
+
+$USER = Read-Host 'Username'
+$IP = Read-Host 'IP adress'
+$KEY_PATH = Read-Host 'Key path (./.ssh/id_rsa)'
+ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+ssh-add ${KEY_PATH}
+
+$pub = (Get-Content ~/${KEY_PATH}.pub)
+ssh ${USER}@${IP} "\
+    mkdir -p ~/.ssh && \
+    echo $pub >> .ssh/authorized_keys && \
+    chmod 700 ~/.ssh && \
+    chmod 600 ~/.ssh/authorized_keys"
+
+```
+{% endcode %}
+{% endtab %}
+
+{% tab title="🐧 Linux" %}
+{% code title="connect-server.sh" %}
+```bash
+#!/usr/bin/bash
+
+read -p 'Username: ' USER
+read -p 'IP adress: ' IP
+read -p 'Key path (./.ssh/id_rsa): ' KEY_PATH
+ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
+ssh ${USER}@${IP} "\
+    mkdir -p ~/.ssh && \
+    echo \"`cat ~/.ssh/id_rsa.pub`\" && \
+    chmod 700 ~/.ssh && \
+    chmod 600 ~/.ssh/authorized_keys"
+```
+{% endcode %}
+{% endtab %}
+{% endtabs %}
+
+* 🧐 `ssh ${USER}@${IP}`komutu ile `OpenSSH` varlığını kontrol edil, tepki veriyorsa vardır
+* 🔑 `ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}` komutu ile `ssh` anahtarı oluşturun
+  * SSH, secure shell anlamına gelir ve uzaktan terminal yönetim protokoldür
+  * SSH anahtarlarından `pub` uzantılı olan açık anahtardır ve sunucuya aktarılması gerekir
+  * Diğer anahtar kapalı olandır ve **paylaşılmaması** gerekmektedir
+* ✴️ Bu adımlar **sadece Windows kullanıcıları** tarafından `powershell` üzerinden yapılmalıdır
+  * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType Manual` komutu ile `ssh` servisini elle başlatabilmek için yapılandırın
+  * ⚙️ `Start-Service ssh-agent` komutu ile `ssh` servisini başlatın
+  * ➕ `ssh-add ${KEY_PATH}` komut ile `ssh`anhtarını  `keystores` içerisine anahtarınızı ekleyin
+  * Kapalı anahtarınız `keystores` içerinde saklanır
+  * Sunucu bağlantılarında bu anahtar deposu kullanılır
+* 🚚 `ssh ${USER}@${IP} "\` komutunu yazın ve ardından alttaki komutları girin
+  * 📂`mkdir -p ~/.ssh && \` ile sunucuda `ssh`antahtarları dizini yoksa oluşturun
+  * ➕`echo (Get-Content ~/${KEY_PATH}.pub) >> .ssh/authorized_keys && \` ile açık anahtarınızı sunucuda onaylı anahtar listesine ekleyin
+  * 🐧`echo \"cat ~/.ssh/id_rsa.pub\" && \` komutu ile **Linux işletim sistemini kullananlar** açık anahtarı ekleyebilir
+  * 👮‍♂️ `chmod 700 ~/.ssh && \` komutu ile `ssh`dizinini yetkilendirin
+  * 👮‍♂️ `chmod 600 ~/.ssh/authorized_keys"` komutu ile anahtarların olduğu dosyaya okunabilmesi için izinleri verin
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için 
 
 * [SSH Login Without a Password](https://howchoo.com/g/mmu5ngfimjk/ssh-login-without-password) 
 * [Starting ssh-agent on Windows 10 fails: “unable to start ssh-agent service, error :1058”](https://stackoverflow.com/a/53606760/9770490)
+* [How to append authorized\_keys on the remote server with id\_rsa.pub key](https://stackoverflow.com/a/23599377/9770490)
+* [ssh-agent: agent returned different signature type](https://github.com/PowerShell/Win32-OpenSSH/issues/1263#issuecomment-590947232)
 
 alanlarına bakabilirsin.
 {% endhint %}

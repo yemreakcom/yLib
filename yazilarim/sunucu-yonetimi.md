@@ -31,7 +31,7 @@ $IP = Read-Host 'IP adress'
 $KEY_ID = Read-Host 'Key ID'
 $KEY_PATH = "./.ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
-Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart
 Start-Service ssh-agent
 ssh-add ${KEY_PATH}
 
@@ -72,8 +72,9 @@ ssh ${USER}@${IP} "\
   * SSH anahtarlarından `pub` uzantılı olan açık anahtardır ve sunucuya aktarılması gerekir
   * Diğer anahtar kapalı olandır ve **paylaşılmaması** gerekmektedir
 * ✴️ Bu adımlar **sadece Windows kullanıcıları** tarafından `powershell` üzerinden yapılmalıdır
-  * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType Manual` komutu ile `ssh` servisini elle başlatabilmek için yapılandırın
-  * ⚙️ `Start-Service ssh-agent` komutu ile `ssh` servisini başlatın
+  * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart` komutu ile `ssh` servisini gecikmeli olarak otomatik başlatabilmek için yapılandırın
+  * 👮‍♂️ Eğer servis otomatik başlatılmazsa her ssh bağlantısı için yeniden başlatmanız gerekir
+  * ⚙️ `Start-Service ssh-agent` komutu ile ssh servisini başlatın
   * ➕ `ssh-add ${KEY_PATH}` komut ile `ssh`anhtarını  `keystores` içerisine anahtarınızı ekleyin
   * Kapalı anahtarınız `keystores` içerinde saklanır
   * Sunucu bağlantılarında bu anahtar deposu kullanılır

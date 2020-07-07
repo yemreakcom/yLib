@@ -28,7 +28,8 @@ description: >-
 
 $USER = Read-Host 'Username'
 $IP = Read-Host 'IP adress'
-$KEY_PATH = Read-Host 'Key path (./.ssh/id_rsa)'
+$KEY_ID = Read-Host 'Key ID'
+$KEY_PATH = "./.ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
@@ -52,11 +53,12 @@ ssh ${USER}@${IP} "\
 
 read -p 'Username: ' USER
 read -p 'IP adress: ' IP
-read -p 'Key path (./.ssh/id_rsa): ' KEY_PATH
+read -p 'Key ID: : ' KEY_ID
+KEY_PATH="./.ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
 ssh ${USER}@${IP} "\
     mkdir -p ~/.ssh && \
-    echo \"`cat ~/.ssh/id_rsa.pub`\" && \
+    echo \"`cat ${KEY_PATH}.pub`\" && \
     chmod 700 ~/.ssh && \
     chmod 600 ~/.ssh/authorized_keys"
 ```

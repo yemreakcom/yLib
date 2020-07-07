@@ -23,7 +23,7 @@ description: >-
 {% tabs %}
 {% tab title="✴️ Windows" %}
 {% code title="ConnectServer.ps1" %}
-```aspnet
+```bash
 #requires -PSEdition Core
 
 $USER = Read-Host 'Username'

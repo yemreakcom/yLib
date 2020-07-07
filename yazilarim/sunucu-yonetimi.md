@@ -79,8 +79,8 @@ ssh ${USER}@${IP} "\
   * Sunucu bağlantılarında bu anahtar deposu kullanılır
 * 🚚 `ssh ${USER}@${IP} "\` komutunu yazın ve ardından alttaki komutları girin
   * 📂`mkdir -p ~/.ssh && \` ile sunucuda `ssh`antahtarları dizini yoksa oluşturun
-  * ➕`echo (Get-Content ~/${KEY_PATH}.pub) >> .ssh/authorized_keys && \` ile açık anahtarınızı sunucuda onaylı anahtar listesine ekleyin
-  * 🐧`echo \"cat ~/.ssh/id_rsa.pub\" && \` komutu ile **Linux işletim sistemini kullananlar** açık anahtarı ekleyebilir
+  * ➕`echo (Get-Content ${KEY_PATH}.pub) >> .ssh/authorized_keys && \` ile açık anahtarınızı sunucuda onaylı anahtar listesine ekleyin
+  * 🐧`echo \"cat ${KEY_PATH}.pub\" && \` komutu ile **Linux işletim sistemini kullananlar** açık anahtarı ekleyebilir
   * 👮‍♂️ `chmod 700 ~/.ssh && \` komutu ile `ssh`dizinini yetkilendirin
   * 👮‍♂️ `chmod 600 ~/.ssh/authorized_keys"` komutu ile anahtarların olduğu dosyaya okunabilmesi için izinleri verin
 

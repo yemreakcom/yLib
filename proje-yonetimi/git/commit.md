@@ -29,6 +29,18 @@ git push origin +master --force # zorla karşıyı güncelleme
 ‍🧙‍♂ Detaylı bilgi için [How can I remove commit on GitHub](https://stackoverflow.com/a/448929/9770490) alanına bakabilirsin.
 {% endhint %}
 
+## 💦 Dosyayı Git Geçmişinden Kaldırma
+
+```bash
+git rm --cached <file_path>
+git commit --amend -CHEAD
+git push --force
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Removing files from a repository's history](https://docs.github.com/en/github/managing-large-files/removing-files-from-a-repositorys-history) alanına bakabilirsin.
+{% endhint %}
+
 ## Son Değişiklikleri Geri Alma
 
 ```bash

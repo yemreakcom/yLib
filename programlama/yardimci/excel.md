@@ -54,6 +54,19 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 
 > Index 1'den başlar 😢
 
+
+
+## N. Hücrelerin Toplamını Hesaplama
+
+* İlk olarak `=ROW(A3)` ile satır bilgisini alırız
+* `ROW` işlemi ile A'nın satır numarası olan 3 değerini alırız
+* Ardından aradığımız satır olup olmadığını anlamak için `=MOD(ROW(A3); 3)` yaparız
+* Yukarıdaki örnekte `3`. katları olan satırlar için True değeri gelecektir
+* 3.katı olan satırları toplamak için `3`'ün katı olmayanları `0` ile çarpacağız
+* `A1:A9 * (MOD(ROW(A1:A9); 3)=0)` ile `3`. katı olmayan her satır değeri `0` olacaktır
+* Son olarak `SUM` ile yukarıdaki sonuçları toplarız
+* `=SUM(A1:A9 * (MOD(ROW(A1:A9); 3)=0))`
+
 ## Harici Bağlantılar
 
 * [Excel çalışma sitesi](https://exceljet.net/)

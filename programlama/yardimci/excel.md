@@ -9,8 +9,9 @@ description: MS Office üzerindeki excelde formül yazmayı anlatır
 | Değişken | Açıklama |
 | :--- | :--- |
 | String | `"Selam"` |
-| int | `1` |
-| hücre | `A3` |
+| Number | `1` |
+| Değişken hücre \(kaydırmalarda güncellenir, `F4` ile sabit hale alınabilir\) | `A3` |
+| Sabit hücre değeri | `$A$3` |
 
 ## Excel Fonksiyonları
 

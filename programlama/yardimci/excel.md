@@ -65,7 +65,16 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 * 3.katı olan satırları toplamak için `3`'ün katı olmayanları `0` ile çarpacağız
 * `A1:A9 * (MOD(ROW(A1:A9); 3)=0)` ile `3`. katı olmayan her satır değeri `0` olacaktır
 * Son olarak `SUM` ile yukarıdaki sonuçları toplarız
-* `=SUM(A1:A9 * (MOD(ROW(A1:A9); 3)=0))`
+
+```csharp
+=SUM(A1:A9 * (MOD(ROW(A1:A9); 3)=0))
+```
+
+![](../../.gitbook/assets/sum-every-nth-row-result.png)
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Sum Every nth Row](https://www.excel-easy.com/examples/sum-every-nth-row.html) alanına bakabilirsin.
+{% endhint %}
 
 ## Harici Bağlantılar
 

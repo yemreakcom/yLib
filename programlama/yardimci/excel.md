@@ -41,8 +41,6 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 * `=CONCAT("1",1,P17)` 11 ve P17'deki metni yazar \(P17 = 68 ise 1168\)
 * `=CONCAT("~", "YEm", "re", "Ak")` ~ YEmreAk
 
-## String İşlemleri
-
 ### String Parçalama \(MID\)
 
 ```text
@@ -53,8 +51,6 @@ Fonksiyonların kullanımı `=` ön eki ile başlar
 * `=MID("YEmreAK",1,2)` YE
 
 > Index 1'den başlar 😢
-
-
 
 ## N. Hücrelerin Toplamını Hesaplama
 

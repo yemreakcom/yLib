@@ -21,13 +21,20 @@ echo `git add -A && git commit -m "Added license headers"`
 ## 🧼 Son Commit'i Kaldırma
 
 ```bash
-git reset --soft HEAD~1 # 1 tane commit kaldırma
+git reset --soft HEAD~1  # 1 tane commiti kaldırır, stage olarak korur
+git reset --hard HEAD~1  # 1 tane commiti tamamen siler
 git push origin +master --force # zorla karşıyı güncelleme
 ```
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [How can I remove commit on GitHub](https://stackoverflow.com/a/448929/9770490) alanına bakabilirsin.
 {% endhint %}
+
+## 🔄 Local Değişiklikleri Remote ile Güncelleme
+
+```bash
+git reset --hard origin/master
+```
 
 ## 💦 Dosyayı Git Geçmişinden Kaldırma
 

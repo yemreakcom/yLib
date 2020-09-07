@@ -220,9 +220,9 @@ while (!gitProcess.StandardOutput.EndOfStream)
 alanlarına bakabilirsin.
 {% endhint %}
 
-## 👨‍💻 Dosyadan FileCodeModel Oluşturma
+## 👨‍💻 Dosyadan `FileCodeModel` Oluşturma
 
-* 💡 Öncelikle stack overflow üzerindeki cevabım [buradadır](https://stackoverflow.com/a/63694279/9770490)
+* 💡 Öncelikle stack overflow üzerindeki cevabım [buradadır](https://stackoverflow.com/a/63694341/9770490)
 * 👮‍♂️ Visual Studio içerisinde açılan proje dosyalarının `FileCodeModel` objesine erişilebilir
 * 🗃️ `dte.ItemOperations.OpenFile` ile açılan dosyalar, `Miscellaneous` olarak gözükür, `ProjectItem` değildir
 * 📂 Dosyayı `ProjectItem` olarak açmak için `dte.ItemOperations.AddExistingItem(filePath);` kodu kullanılır

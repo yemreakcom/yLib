@@ -1,6 +1,6 @@
 # 👨‍💻 Kod Örnekleri \| VS Extension
 
-## 📃 VSIX Aktif Dökümanın İçeriğini Alma
+## 📃 VSIX Aktif Dokümanın İçeriğini Alma
 
 ```csharp
 protected DTE2 dte;

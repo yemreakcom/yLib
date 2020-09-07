@@ -2,7 +2,7 @@
 description: Visual Studio Code eklentileri olan VSIX yazılımlarını programlama
 ---
 
-# 🧩 VSIX Programlama \| VS Code
+# 🧩 Eklenti Programlama \| VS Code
 
 ## 🧱 Temel Gereksinimler
 

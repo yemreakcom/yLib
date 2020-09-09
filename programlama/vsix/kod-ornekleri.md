@@ -21,7 +21,11 @@ public string GetCurrentTextFile(){
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [👪 In VisualStudio DTE, how to get the contents of the ActiveDocument?](https://stackoverflow.com/questions/10606274/in-visualstudio-dte-how-to-get-the-contents-of-the-activedocument)alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* [👪 In VisualStudio DTE, how to get the contents of the ActiveDocument?](https://stackoverflow.com/questions/10606274/in-visualstudio-dte-how-to-get-the-contents-of-the-activedocument)
+
+alanlarına bakabilirsin.
 {% endhint %}
 
 ## 📝 Editör Üzerindeki Seçili Metni Sıralama
@@ -40,7 +44,7 @@ ts.Text = string.Join("\n", selectedLines);
 ```
 
 {% hint style="info" %}
-‍🧙‍♂Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
 
 * [👪 How to get selected text of visual studio 2015 editor windows?](https://stackoverflow.com/a/40508224)
 * [👨‍💻 Read a text file and sort in C\#](https://gist.github.com/Ellyll/7716439)
@@ -69,7 +73,7 @@ func.GetStartPoint(vsCMPart.vsCMPartBody).CreateEditPoint().ReplaceText(func.End
 ```
 
 {% hint style="info" %}
-‍🧙‍♂Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş::
 
 * [👪 vs2010 automation : Get the text value of a EnvDTE.CodeElement](https://stackoverflow.com/a/21463351)
 * [👪 Get function body programatically using Automation](https://social.msdn.microsoft.com/Forums/en-US/542a3756-6d6e-4744-a035-fc7238203857/get-function-body-programatically-using-automation?forum=vsxs)
@@ -157,7 +161,11 @@ public static bool IsFuncExistInCodeElements(CodeElements codeElements, string n
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için  [👪 Get current source file methods in Visual Studio Text Editor Extension](https://stackoverflow.com/a/45181583) sayfasına bakabilirsin
+‍🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+*   [👪 Get current source file methods in Visual Studio Text Editor Extension](https://stackoverflow.com/a/45181583) 
+
+alanlarına bakabilirsin
 {% endhint %}
 
 ## ♊ İki Dosya Arasındaki Farklılıkları Gösterme
@@ -184,7 +192,11 @@ filepath = filepath.Replace($"{solutionDir}\\", "").Replace("\\", "/");
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [👪 How do you get the current solution directory from a VSPackage?](https://stackoverflow.com/a/2338796s)alanına bakabilirsin.
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* [👪 How do you get the current solution directory from a VSPackage?](https://stackoverflow.com/a/2338796s)
+
+alanlarına bakabilirsin.
 {% endhint %}
 
 ### 🧵 Git process oluşturma
@@ -220,7 +232,7 @@ while (!gitProcess.StandardOutput.EndOfStream)
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
 
 * [👪 Process.start: how to get the output?](https://stackoverflow.com/a/4291965)
 * [👪 Is there any async equivalent of Process.Start?](https://stackoverflow.com/a/10789196s)
@@ -250,7 +262,7 @@ projectItem.Delete();
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
 
 * [👪 How do I programmatically add a file to a Solution?](https://stackoverflow.com/a/11934026/9770490s)
 * [📃 FileCodeModel null for file in "Misc Files" project. ~ Windows Tech](http://www.windows-tech.info/4/004ffb867c3564c0.php)

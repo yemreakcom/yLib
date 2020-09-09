@@ -10,7 +10,13 @@ description: Windows Presentation Form (WPF) ile kullanılan XAML hakkında notl
 * `IsCancel="True"` ile ⎋ Esc tuşuna basıldığında odaklanma
 * `<Component>.Focus()` ile `InitializeComponent` sonrası odaklanma işlemleri yapılır
 
-> Detaylı bilgi için [How to set focus in a TextBox Control](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/how-to-set-focus-in-a-textbox-control?view=netframeworkdesktop-4.8)
+{% hint style="info" %}
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* [📖 How to set focus in a TextBox Control](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/controls/how-to-set-focus-in-a-textbox-control?view=netframeworkdesktop-4.8)
+
+alanlarına bakabilirsin
+{% endhint %}
 
 ## ⚡ Sabit değer ekleme ve kullanma
 
@@ -74,7 +80,11 @@ public partial class <CLASS_NAME> : DialogWindow
   * System.Xaml
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [📖 Create a dialog box derived from DialogWindow](https://docs.microsoft.com/en-us/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes?view=vs-2019&redirectedfrom=MSDN#create-a-dialog-box-derived-from-dialogwindows) alanına bakabilirsin.
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* [📖 Create a dialog box derived from DialogWindow](https://docs.microsoft.com/en-us/visualstudio/extensibility/creating-and-managing-modal-dialog-boxes?view=vs-2019&redirectedfrom=MSDN#create-a-dialog-box-derived-from-dialogwindows)
+
+alanlarına bakabilirsin.
 {% endhint %}
 
 ### 👷‍♂️ Dialog penceresini oluşturma
@@ -145,14 +155,14 @@ private void ShowCustomDialog()
 ```
 
 {% hint style="info" %}
-‍🧙‍♂  Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
 
 * [📃 Options for displaying modal dialogs in Visual Studio extensions](https://www.visualstudiogeeks.com/extensibility/visual%20studio/options-for-displaying-modal-dialogs-in-visual-studio-extensions#use-vs-sdk)
 * [👨‍💻 Options for displaying modal dialogs in Visual Studio extensions - GitHub Changes](https://github.com/onlyutkarsh/XamlDialogInVSExtensionDemo/commit/616a945e3399e4869c6cd4ef28cb5b377495559b)
 * [📃 Part 4: Show a popup Window](https://michaelscodingspot.com/visual-studio-2017-extension-development-tutorial-part-4-show-a-popup-window/)
 * [👨‍💻 Part 4: Show a popup Window - Github Source Code](https://github.com/michaelscodingspot/CodyDocs/tree/Part4/CodyDocs)
 
-alanına bakabilirsin
+alanlarına bakabilirsin
 {% endhint %}
 
 ### ✨ `OnClick` ve `OnCompare` eylemleri tanımlama
@@ -186,7 +196,7 @@ public partial class <CLASS_NAME> : DialogWindow
 ```
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [YEmoji](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş: 
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
 
 * [ 📃 Part 4: Show a popup Window](https://michaelscodingspot.com/visual-studio-2017-extension-development-tutorial-part-4-show-a-popup-window/)
 

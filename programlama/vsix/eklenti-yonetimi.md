@@ -131,7 +131,7 @@ description: Visual Studio 2019 eklentisini yönetme ve geliştirme
 
 ![](../../.gitbook/assets/vsix_sync_manifest.png)
 
-```aspnet
+```csharp
 namespace DesignerDiffer
 {
     /// <summary>

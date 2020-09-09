@@ -65,7 +65,11 @@ Eklentiyi Visual Studio için C\# ile programlayacağımızdan dolayı:
 ![](../../.gitbook/assets/vsix_manifest_install_target.png)
 
 {% hint style="info" %}
-🧙‍♂ Detaylı bilgi için [📃 Visual Studio extensions and version ranges demystified](https://devblogs.microsoft.com/visualstudio/visual-studio-extensions-and-version-ranges-demystified/) alanına bakabilirsin.
+🧙‍♂ Detaylı bilgi için [YEmoji - Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygun oluşturulmuş:
+
+* [📃 Visual Studio extensions and version ranges demystified](https://devblogs.microsoft.com/visualstudio/visual-studio-extensions-and-version-ranges-demystified/) 
+
+alanlarına bakabilirsin.
 {% endhint %}
 
 ## 🖼️ VSIX için ikon ekleme

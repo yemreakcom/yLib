@@ -2,6 +2,8 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 10/09/2020 - 01:55:14 - [✨ Tüm içerikler alanı türkçeleştirildi](https://github.com/YEmreAk/YLib/commit/f2bd9cd3e6298116512d91ac933758b3b43c940e?diff=split) ~ Yedhrab
+- 10/09/2020 - 01:54:37 - [📃➕ Kişisel sayfalarım artırıldı](https://github.com/YEmreAk/YLib/commit/6a6b77271faaa92d939f3a0ae491ae8b18f3482d?diff=split) ~ Yedhrab
 - 10/09/2020 - 01:36:26 - [🔄👨‍🔧 Entegrasyon sorunları giderildi](https://github.com/YEmreAk/YLib/commit/118cbabbc6ebe8197cf68ec522fb72fa9758d653?diff=split) ~ Yedhrab
 - 10/09/2020 - 01:26:53 - [📜✨ Tüm içerikler alanı eklendi](https://github.com/YEmreAk/YLib/commit/96514385a4288e62f9d274c4194541e4123a2a54?diff=split) ~ Yunus Emre
 - 10/09/2020 - 01:12:36 - [🔄👨‍🔧 GitBook entegrasyon sorunu çözüldü](https://github.com/YEmreAk/YLib/commit/ba48feb67cf1d6df50774ea822bdf91cda619513?diff=split) ~ Yedhrab

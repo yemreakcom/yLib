@@ -188,6 +188,7 @@
 ## Tüm Kişisel Notlarım
 
 * [🤵 YEmreAk](https://yemreak.com)
+* [👨‍💻 AutoHotkey Notlarım](https://ahk.yemreak.com)
 * [📲 Android Notlarım](https://android.yemreak.com)
 * [☕ Java Notlarım](https://java.yemreak.com)
 * [📖 Kişisel Kütüphanem](https://lib.yemreak.com)

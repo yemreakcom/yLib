@@ -50,6 +50,13 @@ url = https://github.com/YEmreAk/YKotlin
 root = https://kotlin.yemreak.com
 until = Derlenmiş Çalışmalarım
 
+[submodule "Ahk"]
+description = Yunus Emre AK ~ YEmreAKın (@yedhrab) AutoHotkey ile windows otomasyonu notları
+path = programlama/ahk.md
+url = https://github.com/YEmreAk/YAuto-Hotkey
+root = https://ahk.yemreak.com
+until = Derlenmiş Çalışmalarım
+
 [submodule "Java"]
 description = Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 path = programlama/java.md
@@ -77,4 +84,3 @@ path = iuce.md
 url = https://github.com/YEmreAk/IstanbulUniversity-CE
 root = https://iuce.yemreak.com
 until = Derlenmiş Çalışmalarım
-

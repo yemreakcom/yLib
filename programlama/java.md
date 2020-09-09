@@ -1,11 +1,12 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 ---
 
-# ☕ Java
+# ☕ Java Notlarım
 
 * [☕ Java Notlarım](https://java.yemreak.com/)
-* [👀 Neler Değişti](https://java.yemreak.com/CHANGELOG)
+* [👀 Neler Değişti](https://java.yemreak.com/changelog)
 * [🔰 Java'ya Giriş](https://java.yemreak.com/javaya-giris/)
   * [👶 Başlangıç](https://java.yemreak.com/javaya-giris/baslangic)
   * [⏬ NetBeans Kurulumu](https://java.yemreak.com/javaya-giris/netbeans-kurulumu)
@@ -30,6 +31,8 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
   * [🌃 GUI Tasarımı \| JavaFX](https://java.yemreak.com/javafx/gui-tasarimi)
   * [⭐ JavaFX Uygulamam](https://github.com/yedhrab/YToolsFX)
 * [⛺ Diğer Notlar](https://java.yemreak.com/diger/)
+  * [🕸 Ağ Programlama](https://java.yemreak.com/diger/ag-programlama)
+  * [⭐ Swing ile GUI Programlama](https://java.yemreak.com/diger/swing)
   * [🚧 GroupLayouts](https://java.yemreak.com/diger/grouplayouts/)
     * [🔰 GroupLayout'u Tanıyalım](https://java.yemreak.com/diger/grouplayouts/grouplayoutu-taniyalim)
     * [⭐ GroupLayout Örnekleri](https://java.yemreak.com/diger/grouplayouts/grouplayout-oernekleri)
@@ -64,4 +67,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Java notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ---
 
-# 🎇 Windows 10 Notları
+# 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
 * [👀 Neler Değişti](https://windows.yemreak.com/changelog)
@@ -26,18 +27,6 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
   * [🤎 CMD Komutları](https://windows.yemreak.com/terminal/komutlar)
   * [📜 CMD Kod Parçaları](https://windows.yemreak.com/terminal/kodlar)
   * [👨‍💻 PowerShell](https://windows.yemreak.com/terminal/powershell)
-* [💫 AutoHotkey](https://windows.yemreak.com/autohotkey/)
-  * [🔰 AutoHotkey'e Giriş](https://windows.yemreak.com/autohotkey/giris)
-  * [🧱 AHK Temel İşlemler](https://windows.yemreak.com/autohotkey/ahk-temel-islemler)
-  * [🔤 AHK String İşlemleri](https://windows.yemreak.com/autohotkey/ahk-string-islemleri)
-  * [💞 AHK Kısayollar](https://windows.yemreak.com/autohotkey/diger-islemler)
-  * [📂 Dosya İşlemleri](https://windows.yemreak.com/autohotkey/dosya-islemleri)
-  * [⚙️ Yapılandırma Dosyası](https://windows.yemreak.com/autohotkey/yapilandirma-dosyasi)
-  * [🖤 Komut İstemi Arayüzü](https://windows.yemreak.com/autohotkey/komut-istemi-arayuezue)
-  * [🌃 Görsel Arayüz Oluşturma](https://windows.yemreak.com/autohotkey/ahk-ile-gui)
-  * [🎌 AHK Tavsiyelerim](https://windows.yemreak.com/autohotkey/ahk-tavsiyelerim)
-  * [👨‍💻 AHK Scriptleri](https://windows.yemreak.com/autohotkey/scripts)
-  * [⏬ AHK ile Dosya İndirme](https://windows.yemreak.com/autohotkey/ahk-ile-dosya-indirme)
 * [👨‍💻 Geliştirici Notlarım](https://windows.yemreak.com/gelistirici-notlarim/)
   * [🌃 Ortam Değişkenleri](https://windows.yemreak.com/gelistirici-notlarim/ortam-degiskenleri)
   * [📋 Sağ Tık Menüsü](https://windows.yemreak.com/gelistirici-notlarim/sag-tik-menuesue/)
@@ -46,6 +35,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
   * [⏺️ RegEdit Ayarları](https://windows.yemreak.com/gelistirici-notlarim/regedit)
   * [🛍️ Mağaza Uygulamalarını Komutla Açma](https://windows.yemreak.com/gelistirici-notlarim/magaza-uygulamlarini-komutla-acma)
   * [🧙‍ Gizlenmiş GodMode](https://windows.yemreak.com/gelistirici-notlarim/godmode)
+  * [🐞 Hata Notları](https://windows.yemreak.com/gelistirici-notlarim/hata-notlari)
 * [🐧 Windows'ta Linux](https://windows.yemreak.com/windowsta-linux/)
   * [🌇 Windows Subsystem for Linux \(WSL\)](https://windows.yemreak.com/windowsta-linux/wsl)
   * [🐞 Hata Notlarım](https://windows.yemreak.com/windowsta-linux/hata-notlarim)
@@ -53,6 +43,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 ## Faydalı Kaynaklar
 
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/windows-10)
+* [💫 AutoHotkey](https://ahk.yemreak.com)
 * [📋 Tüm Yabancı Kaynaklar](https://windows.yemreak.com/faydali-kaynaklar/awesome)
 
 ## Tüm Kişisel Notlarım
@@ -77,4 +68,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Windows 10 notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

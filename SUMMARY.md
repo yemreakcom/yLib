@@ -1,11 +1,11 @@
 # Table of contents
 
 * [📖 Kişisel Kütüphanem](README.md)
-* [👀 Neler değişti](changelog.md)
+* [👀 Neler değişti](CHANGELOG.md)
+* [📋 Tüm İçerikler](SUMMARY.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
-* [📋 Tüm İçerikler](SUMMARY.md)
 * [✍ Yazılarım](yazilarim/README.md)
   * [💻 Sunucu Yönetimi](yazilarim/sunucu-yonetimi.md)
   * [🍓 Raspberry Pi Kurulumu, Yönetimi ve Internet Paylaşımı](yazilarim/raspberry-pi-yonetimi.md)
@@ -207,4 +207,3 @@
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

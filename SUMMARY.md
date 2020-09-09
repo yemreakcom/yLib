@@ -72,7 +72,7 @@
   * [☕ Java](programlama/java.md)
   * [📱 Android](programlama/android.md)
   * [🌍 Web Notlarım](programlama/web.md)
-  * [👨‍💻 AutoHotkey](programlama/autohotkey.md)
+  * [👨‍💻 AutoHotkey](programlama/ahk.md)
   * [🔩 C, C++](programlama/c-c++/README.md)
     * [💡 C++ Scanf İpuçları](programlama/c-c++/c++-scanf-ipuclari.md)
     * [🐛 C, C++ Sorunları](programlama/c-c++/c-c++-sorunlari.md)

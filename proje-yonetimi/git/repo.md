@@ -146,7 +146,7 @@ git rm --cached <dosya_yolu>
 ‍🧙‍♂ Detaylı bilgi için [👪 Clear git local cache](https://stackoverflow.com/a/41863575/9770490) alanına bakabilirsin.
 {% endhint %}
 
-## 🚚 Dosyayı Taşıma veya Yeniden Anlandırma
+## 🚚 Dosyayı Taşıma veya Yeniden Adlandırma
 
 * Git içerisinde büyük küçük harflerden kaynaklı oluşan sıkıntılar için önerilir
 * Dosyanın git içerisindeki konumu günceller

@@ -1,13 +1,13 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
-* [🙋‍♂️ Hoş Geldin](https://python.yemreak.com/hos-geldin)
 * [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
-* [📋 Tüm İçerikler](https://python.yemreak.com/SUMMARY)
+* [📋 Tüm İçerikler](https://python.yemreak.com/summary)
 * [✍ Yazılarım](https://python.yemreak.com/yazilar/)
   * [🌟 Python'da Önemli Hususlar](https://python.yemreak.com/yazilar/pythonda-onemli-hususlar)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/yazilar/pip-ile-kurulabilir-python-paketi-olusturma)
@@ -113,7 +113,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🌟 Faydalı Kaynaklar](https://learn.yemreak.com/icerikler/python)
 * [💖 Katkıda Bulunma Rehberi](https://wiki.yemreak.com/contributing)
 
-## Tüm Kişisel Notlarım
+## Tüm Kişisel Notlarım <a id="tum-kisisel-notlarim"></a>
 
 * [🤵 YEmreAk](https://yemreak.com)
 * [📲 Android Notlarım](https://android.yemreak.com)
@@ -135,4 +135,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

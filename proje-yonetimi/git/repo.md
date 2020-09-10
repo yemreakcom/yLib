@@ -4,7 +4,7 @@ description: Git ile proje yönetimini ele alır
 
 # 📦 Git ile Repository İşlemleri
 
-## Git Deposunu Güncelleme
+## 🔄 Git Deposunu Güncelleme
 
 ```bash
 git fetch --all
@@ -13,7 +13,7 @@ git pull
 
 Detaylı bilgi için [buraya](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone) bakabilirisin.
 
-## Yeni repository oluşturma
+## ✨ Yeni repository oluşturma
 
 ```bash
 git init
@@ -21,7 +21,7 @@ git init
 
 > Git için gerkeli olan dosyaları oluşturur.
 
-## Yerel repo klonlama
+## ⏬ Yerel repo klonlama
 
 ```bash
 git clone [url] [kopyalanacağı yol]
@@ -32,7 +32,7 @@ git clone [url] [kopyalanacağı yol]
 
 > Var olan git'i istenen dizine kopyalar
 
-## 🔸 Git Bilgilerini Alma
+## 💡 Git Bilgilerini Alma
 
 ```bash
 git config --get remote.origin.url # Url'i alma
@@ -42,7 +42,7 @@ git config --get remote.origin.url # Url'i alma
 ‍🧙‍♂ Detaylı bilgi için [How can I determine the URL that a local Git repository was originally cloned from?](https://stackoverflow.com/questions/4089430/how-can-i-determine-the-url-that-a-local-git-repository-was-originally-cloned-fr) alanına bakabilirsin.
 {% endhint %}
 
-## Belli branch'i klonlama
+## ⏬ Belli branch'i klonlama
 
 Çoklu değişimin olduğu projelerde sadece kendi branch'imiz üzerinden işlem yapmak isteyebilir ve diğer değişikliklerle uğraşmaya biliriz.
 
@@ -50,13 +50,13 @@ git config --get remote.origin.url # Url'i alma
 git clone -branch [branch_name] [url]
 ```
 
-## Uzak repo klonlama
+## ⏬ Uzak repo klonlama
 
 ```bash
 git clone [username]@[host]:[url]
 ```
 
-## Proje dosyalarımızın depoya eklenmesi
+## ➕ Proje dosyalarımızın depoya eklenmesi
 
 ```bash
 git add .
@@ -64,7 +64,7 @@ git add .
 
 > Bütün dosyalar \(. dizindeki tüm dosyalar demektir.\) eklenir.
 
-## Teslim etme hazırlığı ve yorum ekleme
+## 💬 Teslim etme hazırlığı ve yorum ekleme
 
 ```bash
 git commit -m "Yorun" # Kısa Açıklama
@@ -75,7 +75,7 @@ git commit -m "Yorum" -m "Açıklama" # Başlıklı uzun açıklama
 
 > Mesaj ve açıklama ile ile depoya teslim için hazırlama
 
-## Teslim edilecek URL'i belirleme
+## 🔗 Teslim edilecek URL'i belirleme
 
 ```bash
 git remote add [remote_name] [url]
@@ -86,11 +86,11 @@ git remote add [remote_name] [url]
 
 > Github için, projenizin konumuna gelip, \*download kısmındaki kopyalama resmine- basarak, projenizin url'ini kopyalabilirsiniz.
 
-## Birden fazla teslim URL'i belirleme
+## 🛰️ Birden fazla teslim URL'i belirleme
 
 Detaylı bilgi için [buraya](https://stackoverflow.com/a/14290145) bakabilirsin.
 
-### Teslim URL'i ekleme
+### ➕ Teslim URL'i ekleme
 
 ```bash
 git remote set-url --add --push [remote_name] [url1]
@@ -101,19 +101,19 @@ git remote set-url --add --push [remote_name] [url2]
 
 > Uzaktan kontrol \(remote\) eklemek için `git remote add [remote_name] [url]` ile oluşturulması gerekir. Aksi halde hata verir.
 
-### Teslim URL'i kaldırma
+### ➖ Teslim URL'i kaldırma
 
 ```bash
 git remote set-url --delete --push [remote_name] [url]
 ```
 
-### Teslim URL'lerini kontrol etme
+### 👁️ Teslim URL'lerini kontrol etme
 
 ```bash
 git remote -v
 ```
 
-### Örnek Çıktı
+### ⭐ Örnek Çıktı
 
 ```bash
 > git remote -v
@@ -122,7 +122,7 @@ origin  https://github.com/yedehrab/Bilgiler.git (push)
 origin  https://gitlab.com/yedehrab/bilgiler.git (push)
 ```
 
-## Teslim Etme
+## ⏫ Teslim Etme
 
 ```bash
 git push -u origin [branch]
@@ -132,6 +132,28 @@ git push -u origin [branch]
   * git push -u origin master
 
 > Master olarak url'e yükleme işlemi
+
+## 💦 Dosya Silme
+
+* Git önbelleğindeki dosyayı siler
+* Gİt geçmişinde gözükmez
+
+```bash
+git rm --cached <dosya_yolu>
+```
+
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [👪 Clear git local cache](https://stackoverflow.com/a/41863575/9770490) alanına bakabilirsin.
+{% endhint %}
+
+## 🚚 Dosyayı Taşıma veya Yeniden Anlandırma
+
+* Git içerisinde büyük küçük harflerden kaynaklı oluşan sıkıntılar için önerilir
+* Dosyanın git içerisindeki konumu günceller
+
+```bash
+git mv <old_name> <new_name>
+```
 
 ## 🔗 Harici Linkler
 

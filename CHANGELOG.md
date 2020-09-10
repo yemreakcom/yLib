@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 10/09/2020 - 03:41:38 - [🔄👨‍🔧 GitBook entegrasyon sorunu çözüldü](https://github.com/YEmreAk/YLib/commit/edc8bdba0d8681ac6fdaaf3f38981a948bbfc2b6?diff=split) ~ Yedhrab
 - 10/09/2020 - 02:49:39 - [🐞👨‍🔧](https://github.com/YEmreAk/YLib/commit/d265f45ed52f5631e7d6b75a6a027b9a1903dd22?diff=split) ~ Yedhrab
 - 09/09/2020 - 23:46:52 - [GitBook: [master] 13 pages modified](https://github.com/YEmreAk/YLib/commit/3ae315b44599c0cca2129745ceefc09f0e43e0bb?diff=split) ~ Yunus Emre
 - 09/09/2020 - 23:44:56 - [GitBook: [master] 14 pages modified](https://github.com/YEmreAk/YLib/commit/2d72711816354cd28713dbbf61f554e508b3ab8a?diff=split) ~ Yunus Emre

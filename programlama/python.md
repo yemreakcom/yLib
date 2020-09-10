@@ -5,9 +5,9 @@ description: >-
 
 # 🐍 Python Notlarım
 
-* [🐍 Python Notlarım](https://python.yemreak.com/)
+* [🐍 Python Notlarım](https://python.yemreak.com/./)
 * [🙋‍♂️ Hoş Geldin](https://python.yemreak.com/hos-geldin)
-* [👀 Neler değişti](https://python.yemreak.com/changelog)
+* [👀 Neler değişti](https://github.com/YEmreAk/YPython/tree/366744c652f0e517828588e8e85ef931b83ac9b0/CHANGELOG.md)
 * [📋 Tüm İçerikler](https://python.yemreak.com/summary)
 * [✍ Yazılarım](https://python.yemreak.com/yazilar/)
   * [🌟 Python'da Önemli Hususlar](https://python.yemreak.com/yazilar/pythonda-onemli-hususlar)

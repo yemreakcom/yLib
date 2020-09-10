@@ -6,7 +6,7 @@ description: >-
 # 🐧 Linux Notlarım
 
 * [🐧 Linux Notlarım](https://linux.yemreak.com/)
-* [👀 Neler Değişti](https://linux.yemreak.com/CHANGELOG)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YLinux/blob/master/CHANGELOG.md)
 * [🌟 Faydalı Uygulamalar](https://linux.yemreak.com/uygulamalar)
 * [🔰 Linux'a Giriş](https://linux.yemreak.com/giris)
 * [💖 Kısayollar](https://linux.yemreak.com/kisayollar/)

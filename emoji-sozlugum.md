@@ -6,7 +6,7 @@ description: >-
 # 🚀 YEmoji
 
 * [🚀 YEmoji](https://emoji.yemreak.com/)
-* [👀 Neler Değişti](https://emoji.yemreak.com/changelog)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YEmoji/blob/master/CHANGELOG.md)
 * [🔰 Emojilerin Dünyasına Giriş](https://emoji.yemreak.com/giris)
 * [⭐ Benzer Çalışmalar](https://emoji.yemreak.com/benzer-calismalar)
 

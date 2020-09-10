@@ -6,7 +6,7 @@ description: >-
 # 🎃 Kotlin Notlarım
 
 * [🎃 Kotlin Notlarım](https://kotlin.yemreak.com/)
-* [👀 Neler değişti](https://kotlin.yemreak.com/CHANGELOG)
+* [👀 Neler değişti](https://github.com/YEmreAk/YKotlin/blob/master/CHANGELOG.md)
 * [✍ Yazılarım](https://kotlin.yemreak.com/yazilarim/)
   * [🚀 Kotlin'in Java'ya Göre Avantajları \(Kotlin vs Java\)](https://kotlin.yemreak.com/yazilarim/kotlin-vs-java)
   * [👷‍♂️ Kotlin Kurulumu](https://kotlin.yemreak.com/yazilarim/kotlin-kurulumu)

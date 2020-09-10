@@ -6,7 +6,7 @@ description: >-
 # 💫 AutoHotkey
 
 * [💫 AutoHotkey](https://ahk.yemreak.com/)
-* [👀 Neler değişti](https://ahk.yemreak.com/CHANGELOG)
+* [👀 Neler değişti](https://github.com/YEmreAk/YAutoHotkey/blob/master/CHANGELOG.md)
 * [📋 Tüm İçerikler](https://ahk.yemreak.com/SUMMARY)
 * [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [🔰 Giriş](https://ahk.yemreak.com/giris)

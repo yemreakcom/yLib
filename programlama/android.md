@@ -6,7 +6,7 @@ description: >-
 # 📲 Android Notlarım
 
 * [📲 Android Notlarım](https://android.yemreak.com/)
-* [👀 Neler Değişti](https://android.yemreak.com/CHANGELOG)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YAndroid/blob/master/CHANGELOG.md)
 * [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [✍ Yazılarım](https://android.yemreak.com/yazilarim/)
   * [📸 CameraX Kullanımı](https://android.yemreak.com/yazilarim/camerax-kullanimi)

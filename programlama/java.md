@@ -6,7 +6,7 @@ description: >-
 # ☕ Java Notlarım
 
 * [☕ Java Notlarım](https://java.yemreak.com/)
-* [👀 Neler Değişti](https://java.yemreak.com/changelog)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YJava/blob/master/CHANGELOG.md)
 * [🔰 Java'ya Giriş](https://java.yemreak.com/javaya-giris/)
   * [👶 Başlangıç](https://java.yemreak.com/javaya-giris/baslangic)
   * [⏬ NetBeans Kurulumu](https://java.yemreak.com/javaya-giris/netbeans-kurulumu)

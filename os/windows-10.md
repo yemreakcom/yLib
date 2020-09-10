@@ -6,7 +6,7 @@ description: >-
 # 🎇 Windows Notlarım
 
 * [🎇 Windows Notlarım](https://windows.yemreak.com/)
-* [👀 Neler Değişti](https://windows.yemreak.com/changelog)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YWindows10/blob/master/CHANGELOG.md)
 * [🔰 Windows'a Giriş](https://windows.yemreak.com/windowsa-giris/)
   * [👷‍ Windows 10 Kurulumu](https://windows.yemreak.com/windowsa-giris/kurulum)
   * [🔨 Sistem Ayarları](https://windows.yemreak.com/windowsa-giris/sistem)

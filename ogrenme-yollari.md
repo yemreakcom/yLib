@@ -6,7 +6,7 @@ description: >-
 # 👨‍🏫 Öğrenme Yolları
 
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/)
-* [👀 Neler Değişti](https://learn.yemreak.com/changelog)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YLearn/blob/master/CHANGELOG.md)
 * [🚀 YEmoji](https://emoji.yemreak.com)
 * [🌟 Awesome of awesome](https://github.com/sindresorhus/awesome)
 * [⭐ Benzer Çalışmalar](https://learn.yemreak.com/benzer-calismalar)

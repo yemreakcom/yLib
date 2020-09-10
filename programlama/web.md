@@ -6,7 +6,7 @@ description: >-
 # 🌍 Web Notlarım
 
 * [🌍 Web Notlarım](https://web.yemreak.com/)
-* [👀 Neler Değişti](https://web.yemreak.com/changelog)
+* [👀 Neler Değişti](https://github.com/YEmreAk/YWeb/blob/master/CHANGELOG.md)
 * [👨‍💼 Web Sitesi Yönetimi](https://web.yemreak.com/web-sitesi-yonetimi)
 * [🌎 Natro Hosting](https://web.yemreak.com/untitled-1)
 * [🧇 Wordpress](https://web.yemreak.com/wordpress/)

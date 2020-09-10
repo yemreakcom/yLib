@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 10/09/2020 - 03:52:45 - [Update iuce.md](https://github.com/YEmreAk/YLib/commit/ed73f615946aa33f8067812d8eeaa6e4a4b9f7e5?diff=split) ~ Yunus Emre
 - 10/09/2020 - 03:50:50 - [💦](https://github.com/YEmreAk/YLib/commit/ea8ac7428cd9d392ec452362fb39605d810dbc30?diff=split) ~ Yunus Emre
 - 10/09/2020 - 03:41:38 - [🔄👨‍🔧 GitBook entegrasyon sorunu çözüldü](https://github.com/YEmreAk/YLib/commit/edc8bdba0d8681ac6fdaaf3f38981a948bbfc2b6?diff=split) ~ Yedhrab
 - 10/09/2020 - 02:49:39 - [🐞👨‍🔧](https://github.com/YEmreAk/YLib/commit/d265f45ed52f5631e7d6b75a6a027b9a1903dd22?diff=split) ~ Yedhrab

@@ -53,7 +53,7 @@ until = Derlenmiş Çalışmalarım
 [submodule "Ahk"]
 description = Yunus Emre AK ~ YEmreAKın (@yedhrab) AutoHotkey ile windows otomasyonu notları
 path = programlama/ahk.md
-url = https://github.com/YEmreAk/YAuto-Hotkey
+url = https://github.com/YEmreAk/YAutoHotkey
 root = https://ahk.yemreak.com
 until = Derlenmiş Çalışmalarım
 

@@ -1,8 +1,8 @@
 # 📋 Tüm İçerikler
 
 * [📖 Kişisel Kütüphanem](README.md)
-* [📋 Tüm İçerikler](summary.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/YLib/blob/master/CHANGELOG.md)
+* [📋 Tüm İçerikler](SUMMARY.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)

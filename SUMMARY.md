@@ -137,7 +137,7 @@
     * [🧩 Eklentiler \| VS Code](uygulamalar/vs-code/eklentiler.md)
     * [🔨 Yapılandırma \| VS Code](uygulamalar/vs-code/editor-ayarlari.md)
     * [👷‍♂️ Tasks \| VS Code](uygulamalar/vs-code/vscode-tasklari.md)
-    * [🐞 Hata Notları \| VSCode](uygulamalar/vs-code/hata-notlari-or-vscode.md)
+    * [👨‍🔧 Hata Çözümleri \| VS Code](uygulamalar/vs-code/hata-cozumleri.md)
     * [🧩 Eklenti Programlama \| VS Code](uygulamalar/vs-code/vsix.md)
     * [👓 Awesome VS Code](https://viatsko.github.io/awesome-vscode/)
   * [📝 OneNote](uygulamalar/onenote.md)

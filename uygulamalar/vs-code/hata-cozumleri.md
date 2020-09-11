@@ -2,7 +2,7 @@
 description: Visual Studio Code üzerindeki olası hatalar ve çözümleri
 ---
 
-# 🐞 Hata Notları \| VSCode
+# 👨‍🔧 Hata Çözümleri \| VS Code
 
 ## 🔘 ✲ Ctrl  ⎇ Alt ↑ ↓ ← → Arrow Kısayolunun Çalışmaması
 

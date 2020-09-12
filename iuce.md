@@ -1,9 +1,11 @@
 ---
 description: >-
-  Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar Mühendisliği notları
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) İstanbul Üniversitesi Bilgisayar
+  Mühendisliği notları
 ---
 
 # 🏫 İstanbul Üniversitesi - Cerrahpaşa Bilgisayar Mühendisliği
+
 * [👀 Neler değişti](https://iuce.yemreak.com/CHANGELOG)
 * [💖 Katkıda Bulunma Rehberi](https://iuce.yemreak.com/CONTRIBUTING)
 * [📋 Tüm İçerikler](https://iuce.yemreak.com/SUMMARY)
@@ -314,7 +316,7 @@ description: >-
     * [📚 Ders İçeriği \| BAG](https://iuce.yemreak.com/donem8/bilgisayar-aglarinda-guvenlik/ders-icerigi/)
     * [🎲 Karma İçerikler \| BAG](https://iuce.yemreak.com/donem8/bilgisayar-aglarinda-guvenlik/karma-icerikler/)
     * [📃 Sınav Soruları \| BAG](https://iuce.yemreak.com/donem8/bilgisayar-aglarinda-guvenlik/sinav-sorulari/)
-  * [💎 Bitirme Projesi | BP](https://iuce.yemreak.com/donem8/bitirme-projesi/)
+  * [💎 Bitirme Projesi \| BP](https://iuce.yemreak.com/donem8/bitirme-projesi/)
   * [📈 Finansta Bilişim Teknolojileri](https://iuce.yemreak.com/donem8/finansta-bilisim-teknolojileri/)
     * [🎲 Karma İçerikler \| FBT](https://iuce.yemreak.com/donem8/finansta-bilisim-teknolojileri/karma-icerikler/)
   * [🔸 Information Technology Management and Standards](https://iuce.yemreak.com/donem8/information-technology-management-and-standards/)
@@ -333,3 +335,4 @@ description: >-
     * [🏗️ Proje Ödevi \| UG](https://iuce.yemreak.com/donem8/uygulamali-girisimcilik/proje-odevi/)
     * [📃 Sınav Soruları \| UG](https://iuce.yemreak.com/donem8/uygulamali-girisimcilik/sinav-sorulari/)
 * [📚 Karışık Notlar](https://iuce.yemreak.com/karisik/)
+

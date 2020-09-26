@@ -1,15 +1,17 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) AutoHotkey ile windows otomasyonu notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) AutoHotkey ile windows otomasyonu notları
 ---
 
-# 👨‍💻 AutoHotkey
+# 💫 AutoHotkey
 
 * [💫 AutoHotkey](https://ahk.yemreak.com/)
-* [👀 Neler değişti](https://github.com/YEmreAk/YAutoHotkey/blob/master/CHANGELOG.md)
-* [📋 Tüm İçerikler](https://ahk.yemreak.com/SUMMARY)
+* [👀 Neler değişti](https://ahk.yemreak.com/changelog)
+* [📋 Tüm İçerikler](https://ahk.yemreak.com/summary)
 * [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [🔰 Giriş](https://ahk.yemreak.com/giris)
 * [🧱 Temel İşlemler](https://ahk.yemreak.com/temel-islemler)
+* [🚄 Diziler](https://ahk.yemreak.com/diziler)
 * [🔡 String İşlemleri](https://ahk.yemreak.com/string-islemleri)
 * [💞 Kısayollar](https://ahk.yemreak.com/kisayollar)
 * [📂 Dosya İşlemleri](https://ahk.yemreak.com/dosya-islemleri)
@@ -43,4 +45,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) AutoHotkey ile windows otomas
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

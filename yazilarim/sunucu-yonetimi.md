@@ -4,7 +4,14 @@ description: >-
   bağlanma işlemleri
 ---
 
-# 💻 Sunucu Yönetimi
+# ⛅ Sunucu Yönetimi
+
+## 💻 Sunucu Kiralama
+
+* 🔗 [DigitalOcean](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi1n_Lh2IbsAhUEaRUIHQG_DNcQFjAAegQIBhAC&url=https%3A%2F%2Fwww.digitalocean.com%2F&usg=AOvVaw2Kbi_PqpnTiK49rdUPGt9G) sitesi üzerinden hesap açıp GitHub veya Google ile bağlayabilirsin
+* 💳Kredi kartı bilgilerini alıp 1$ çekim işlemi yaparak sahte bir kullanıcı olmadığını doğrulamaktadırlar
+* ⛅ Hesap kaydı tamamlandıktan sonra herhangi bir sunucu alman gerekmekte
+* 💵[GitHub Student Package](https://education.github.com/pack/offers?sort=popularity&tag=Cloud) alanından alınan Promo code kısmını sunucu oluşturduktan sonra [Billing](https://cloud.digitalocean.com/account/billing) alanından girmen gerekmekte
 
 ## 🔌 Sunucuya Bağlanma
 

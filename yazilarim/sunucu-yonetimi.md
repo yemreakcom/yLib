@@ -122,6 +122,13 @@ alanlarına bakabilirsin.
 ```
 {% endcode %}
 
+## 🔏 Git için Şifre Saklama
+
+* 💁‍♂️ Her git işlemi için tekrardan giriş yapmak istemiyorsanız bu adım sizin için faydalı olacaktır
+* 📧 `git config --global user.email "<email>"` ile email adresinizi tanımlayın
+* 🤵 `git config --global user.name "<username>"` le kullanıcı adınızı tanımlayın
+* 💼 `git config --global credential.helper 'cache --timeout=999999'` komutu ile bilgilerinizi saklayın
+
 ## 🕐 Zaman Ayarı Yapma
 
 * NTP \(network time protocol\) ayarlarını yapmak için `apt-get install ntp ntpdate` komutu ile `ntpdate` paketini kurun

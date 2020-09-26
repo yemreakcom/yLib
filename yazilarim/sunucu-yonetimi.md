@@ -24,14 +24,13 @@ description: >-
 {% tab title="✴️ Windows" %}
 {% code title="ConnectServer.ps1" %}
 ```bash
-#requires -PSEdition Core
-
+cd ~
 $USER = Read-Host 'Username'
 $IP = Read-Host 'IP adress'
 $KEY_ID = Read-Host 'Key ID'
-$KEY_PATH = "./.ssh/${KEY_ID}_ecdsa"
+$KEY_PATH = ".ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
-Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
 ssh-add ${KEY_PATH}
 

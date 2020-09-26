@@ -9,9 +9,9 @@ description: >-
 ## 💻 Sunucu Kiralama
 
 * 🔗 [DigitalOcean](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi1n_Lh2IbsAhUEaRUIHQG_DNcQFjAAegQIBhAC&url=https%3A%2F%2Fwww.digitalocean.com%2F&usg=AOvVaw2Kbi_PqpnTiK49rdUPGt9G) sitesi üzerinden hesap açıp GitHub veya Google ile bağlayabilirsin
-* 💳Kredi kartı bilgilerini alıp 1$ çekim işlemi yaparak sahte bir kullanıcı olmadığını doğrulamaktadırlar
+* 💳 Kredi kartı bilgilerini verip, **1$** çekim işlemine müsaade ederek sahte bir kullanıcı olmadığını doğrulamalısın
 * ⛅ Hesap kaydı tamamlandıktan sonra herhangi bir sunucu alman gerekmekte
-* 💵[GitHub Student Package](https://education.github.com/pack/offers?sort=popularity&tag=Cloud) alanından alınan Promo code kısmını sunucu oluşturduktan sonra [Billing](https://cloud.digitalocean.com/account/billing) alanından girmen gerekmekte
+* 💵 [GitHub Student Package](https://education.github.com/pack/offers?sort=popularity&tag=Cloud) alanından alınan Promo code kısmını sunucu oluşturduktan sonra [Billing](https://cloud.digitalocean.com/account/billing) alanından girmen gerekmekte
 
 ## 🔌 Sunucuya Bağlanma
 
@@ -125,7 +125,7 @@ alanlarına bakabilirsin.
 ## 🕐 Zaman Ayarı Yapma
 
 * NTP \(network time protocol\) ayarlarını yapmak için `apt-get install ntp ntpdate` komutu ile `ntpdate` paketini kurun
-* `ntpdate time.ume.tubitak.gov.tr` ile Tubitak NTP sunucusuna bağlantı yapın
+* `ntpdate time.ume.tubitak.gov.tr` ile TÜBİTAK NTP sunucusuna bağlantı yapın
 * `service ntp restart` komutu ile yeniden başlatın
 * `date` komutu ile tarihi görüntüleyebilirsiniz
 * `tzselect` komutu ile zaman bölgesini de seçebiliriz
@@ -153,4 +153,8 @@ alanlarına bakabilirsin.
 * `sudo apt install python3-venv` ile sanal ortam oluşturma aracı kurulur
 * `pip` python paketlerinin indirilmesine yardımcı olan araçtır
 * `venv` sanal python ortamları oluşturarak sistemin python paketlerinin bozulmasını engeller
+
+{% hint style="warning" %}
+📢 **Python 3.8** gibi özel sürümler indirmek için `python3` yerine `python3.8` kullanın
+{% endhint %}
 

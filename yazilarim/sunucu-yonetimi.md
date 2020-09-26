@@ -74,7 +74,7 @@ ssh ${USER}@${IP} "\
   * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart` komutu ile `ssh` servisini gecikmeli olarak otomatik başlatabilmek için yapılandırın
   * 👮‍♂️ Eğer servis otomatik başlatılmazsa her ssh bağlantısı için yeniden başlatmanız gerekir
   * ⚙️ `Start-Service ssh-agent` komutu ile ssh servisini başlatın
-  * ➕ `ssh-add ${KEY_PATH}` komut ile `ssh`anahtarını  `keystores` içerisine anahtarınızı ekleyin
+  * ➕ `ssh-add ${KEY_PATH}` komutu ile `ssh`anahtarını  `keystores` içerisine ekleyin
   * Kapalı anahtarınız `keystores` içerinde saklanır
   * Sunucu bağlantılarında bu anahtar deposu kullanılır
 * 🚚 `ssh ${USER}@${IP} "\` komutunu yazın ve ardından alttaki komutları girin

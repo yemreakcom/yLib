@@ -102,6 +102,26 @@ ssh ${USER}@${IP} "\
 alanlarına bakabilirsin.
 {% endhint %}
 
+## 🖤 Windows Terminal ile Bağlanma
+
+![](../.gitbook/assets/windows_terminal_natro.png)
+
+* ⚙️ Terminal üzerinden resimdeki gibi sunuya bağlanmak için [Windows Terminal](https://aka.ms/terminal) ayarlarını açın
+* 🔨 Yapılandırma dosyasında `profiles` içerisindeki `list` alanına alttaki ayarları ekleyin
+
+{% code title="settings.json" %}
+```javascript
+{
+    "guid": "{4dc7203f-1c35-4058-8a46-1a2d4989fbe7}", // Eşsiz GUID değeri
+    "name": "",  // Sekme adı
+    "suppressApplicationTitle": true,  // Tab ismini sabit yapar
+    "icon": "",  // Bu alana belirlediğiniz ikonu koyun
+    "commandline": "ssh root@<IP>",  // IP alanına ip adresinizi yazın
+    "hidden": false
+}
+```
+{% endcode %}
+
 ## 🕐 Zaman Ayarı Yapma
 
 * NTP \(network time protocol\) ayarlarını yapmak için `apt-get install ntp ntpdate` komutu ile `ntpdate` paketini kurun

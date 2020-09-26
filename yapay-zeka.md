@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 ---
 
-# 🧠 Yapay Zeka
+# 🧠 Yapay Zeka Notlarım
 
 * [🧠 Yapay Zeka Notlarım](https://ai.yemreak.com/)
 * [👀 Neler değişti](https://github.com/YEmreAk/YArtificialIntelligence/blob/master/CHANGELOG.md)
@@ -104,4 +105,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Yapay Zeka notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

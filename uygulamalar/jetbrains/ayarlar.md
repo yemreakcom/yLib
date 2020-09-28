@@ -26,17 +26,9 @@ description: JetBrains IDE için faydalı ayarlar
 
 ## 🔤 Font Ayarları
 
-Editör üzerindeki `==`, `=>`, `->`, `<=` gibi karakteri birleştiren hoş bir yazı tipidir
-
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` kısmında
-  * _Font:_ `FiraCode Medium`
-  * _Size:_ `12`
-  * _Line spacing:_ `1.0`
-  * `Enable Font Ligatures`
-
-{% hint style="info" %}
-🚀 FiraCode'u [buradan](https://github.com/tonsky/FiraCode#solution) indirebilirsin
-{% endhint %}
+* 💖 Editör üzerindeki `==`, `=>`, `->`, `<=` gibi karakteri birleştiren ligatures özelliği vardır
+* ⏬ Bu özelliği kullanmak için [JetBrains Mono](https://www.jetbrains.com/lp/mono/) fontu yüklü değilse indirmen gerekmektedir
+* ⚙️ ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Font` alanından font ayarlarını yönetebilirsin
 
 ## 🖱️ İmleç Pozisyonu Yönetimi
 
@@ -67,24 +59,20 @@ Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
-## 📖 Türkçe Kontrolü Tanımlama
+## 📖 Türkçe Yazım Kontrolü Tanımlama
 
-Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/open?id=1UAGLGvwv_zLBzH7zH1oGRvYhzzP67M4k) tıklayabilirsin.
-
+* Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/open?id=1UAGLGvwv_zLBzH7zH1oGRvYhzzP67M4k) tıklayabilirsin.
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Spelling | Dictionaries | Custom Dictionaries` başlığı altında `+` butonuna basıp `.dic` uzantılı sözlük dosyanı ekleyin.
-
-{% hint style="warning" %}
-~~📢 Sözlüğün çalışabilmesi için `hunspell` eklentisini indirmeniz gerekmekte. Plugin kurma detayı için~~ [~~buraya~~](https://www.jetbrains.com/help/idea/managing-plugins.html) ~~tıklayabilirsin.~~
-{% endhint %}
 
 ## 🧐 Spellcheck Kaldırma
 
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
+* ✲ Ctrl + ⎇ Alt + `S` yaptıktan 
+* `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
 
 ## 🔀 Git Yönetimi
 
 * `JetBrain IDE` - `Check out from Version Control` - `Git`
-  * _Url:_ Proje URL'idir. \(Adress çubuğunda yazan metin\)
-  * _Directory:_ Proje yolunudur. \(projenin/konumu\)
+  * `Url` Proje URL'idir. \(Adres çubuğunda yazan metin\)
+  * `Directory` Proje yoludur. \(projenin/konumu\)
 * `Test` & `Clone`
 

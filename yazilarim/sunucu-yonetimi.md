@@ -30,7 +30,7 @@ description: >-
 {% tabs %}
 {% tab title="✴️ Windows" %}
 {% code title="ConnectServer.ps1" %}
-```haskell
+```perl
 cd ~
 $USER = Read-Host 'Username'
 $IP = Read-Host 'IP adress'

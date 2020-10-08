@@ -40,13 +40,10 @@ ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
 ssh-add ${KEY_PATH}
-​
+
 $pub = (Get-Content ~/${KEY_PATH}.pub)
-ssh $USER@$IP "\
-    mkdir -p ~/.ssh && \
-    echo $pub >> .ssh/authorized_keys && \
-    chmod 700 ~/.ssh && \
-    chmod 600 ~/.ssh/authorized_keys"
+ssh $USER@$IP "mkdir -p ~/.ssh && echo $pub >> .ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+
 ```
 {% endcode %}
 {% endtab %}

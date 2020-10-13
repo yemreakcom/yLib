@@ -174,3 +174,7 @@ pip install -r requirements.txt
 📢 Python 3.9-venv kullanılması için python3-venv paketi gereklidir
 {% endhint %}
 
+{% hint style="info" %}
+‍🧙‍♂ Detaylı bilgi için [Ubuntu 20.04/19.04: Install Python 3.9/3.8/3.7/3.6, Pip and Venv](https://www.techiediaries.com/ubuntu/install-python-3-pip-venv-ubuntu-20-04-19/) alanına bakabilirsin.
+{% endhint %}
+

@@ -110,10 +110,10 @@ alanlarına bakabilirsin.
 {% code title="settings.json" %}
 ```javascript
 {
-    "guid": "{4dc7203f-1c35-4058-8a46-1a2d4989fbe7}", // Eşsiz GUID değeri
-    "name": "",  // Sekme adı
+    "guid": "{4dc7203f-1c35-4058-8a46-1a2d4989fbe0}", // Eşsiz GUID değeri
+    "name": "Natro Host",  // Sekme adı
     "suppressApplicationTitle": true,  // Tab ismini sabit yapar
-    "icon": "",  // Bu alana belirlediğiniz ikonu koyun
+    "icon": "%USERPROFILE%/OneDrive/Pictures/Icons/Ico/terminal.ico",  // Bu alana belirlediğiniz ikonu koyun
     "commandline": "ssh root@<IP>",  // IP alanına ip adresinizi yazın
     "hidden": false
 }

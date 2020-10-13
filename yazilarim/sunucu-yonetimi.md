@@ -150,7 +150,7 @@ alanlarına bakabilirsin.
 ‍🧙‍♂ Detaylı bilgi için [Getting started with Tmux](https://linuxize.com/post/getting-started-with-tmux/) alanına bakabilirsin.
 {% endhint %}
 
-## 🐍 Python ve Python 3.9 Kurulumu
+## 🐍 Python 3.9 Kurulumu
 
 * Sunucularda python3.6 default olarak olur ama `pip` ve `venv` kurulu olmaz
 * `sudo apt install python3-pip` ile pip kurulur

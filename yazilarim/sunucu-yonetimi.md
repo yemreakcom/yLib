@@ -37,7 +37,7 @@ $IP = Read-Host 'IP adress'
 $KEY_ID = Read-Host 'Key ID'
 $KEY_PATH = ".ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
-Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart
 Start-Service ssh-agent
 ssh-add ${KEY_PATH}
 
@@ -68,24 +68,26 @@ ssh ${USER}@${IP} "\
 {% endtab %}
 {% endtabs %}
 
-* 🧐 `ssh ${USER}@${IP}`komutu ile `OpenSSH` varlığını kontrol edil, tepki veriyorsa vardır
-* 🔑 `ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}` komutu ile `ssh` anahtarı oluşturun
-  * SSH, secure shell anlamına gelir ve uzaktan terminal yönetim protokoldür
-  * SSH anahtarlarından `pub` uzantılı olan açık anahtardır ve sunucuya aktarılması gerekir
-  * Diğer anahtar kapalı olandır ve **paylaşılmaması** gerekmektedir
-* ✴️ Bu adımlar **sadece Windows kullanıcıları** tarafından `powershell` üzerinden yapılmalıdır
-  * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart` komutu ile `ssh` servisini gecikmeli olarak otomatik başlatabilmek için yapılandırın
-  * 👮‍♂️ Eğer servis otomatik başlatılmazsa her ssh bağlantısı için yeniden başlatmanız gerekir
-  * ⚙️ `Start-Service ssh-agent` komutu ile ssh servisini başlatın
-  * ➕ `ssh-add ${KEY_PATH}` komutu ile `ssh`anahtarını  `keystores` içerisine ekleyin
-  * Kapalı anahtarınız `keystores` içerinde saklanır
-  * Sunucu bağlantılarında bu anahtar deposu kullanılır
-* 🚚 `ssh ${USER}@${IP} "\` komutunu yazın ve ardından alttaki komutları girin
-  * 📂`mkdir -p ~/.ssh && \` ile sunucuda `ssh`antahtarları dizini yoksa oluşturun
-  * ➕`echo (Get-Content ${KEY_PATH}.pub) >> .ssh/authorized_keys && \` ile açık anahtarınızı sunucuda onaylı anahtar listesine ekleyin
-  * 🐧`echo \"cat ${KEY_PATH}.pub\" && \` komutu ile **Linux işletim sistemini kullananlar** açık anahtarı ekleyebilir
-  * 👮‍♂️ `chmod 700 ~/.ssh && \` komutu ile `ssh`dizinini yetkilendirin
-  * 👮‍♂️ `chmod 600 ~/.ssh/authorized_keys"` komutu ile anahtarların olduğu dosyaya okunabilmesi için izinleri verin
+1. 🧐 `ssh ${USER}@${IP}`komutu ile `OpenSSH` varlığını kontrol edil, tepki veriyorsa vardır
+2. 🔑 `ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}` komutu ile `ssh` anahtarı oluşturun
+   * SSH, secure shell anlamına gelir ve uzaktan terminal yönetim protokoldür
+   * SSH anahtarlarından `pub` uzantılı olan açık anahtardır ve sunucuya aktarılması gerekir
+   * Diğer anahtar kapalı olandır ve **paylaşılmaması** gerekmektedir
+3. ✴️ Bu adımlar **sadece Windows kullanıcıları** tarafından `powershell` üzerinden yapılmalıdır
+   * 📢 `Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart` komutu ile `ssh` servisini gecikmeli olarak otomatik başlatabilmek için yapılandırın
+   * 👮‍♂️ Eğer servis otomatik başlatılmazsa her ssh bağlantısı için yeniden başlatmanız gerekir
+   * ⚙️ `Start-Service ssh-agent` komutu ile ssh servisini başlatın
+   * ➕ `ssh-add ${KEY_PATH}` komutu ile `ssh`anahtarını  `keystores` içerisine ekleyin
+   * Kapalı anahtarınız `keystores` içerinde saklanır
+   * Sunucu bağlantılarında bu anahtar deposu kullanılır
+4. 🚚 `ssh ${USER}@${IP} "\` komutunu yazın ve ardından alttaki komutları girin
+   * 📂`mkdir -p ~/.ssh && \` ile sunucuda `ssh`antahtarları dizini yoksa oluşturun
+   * ➕`echo (Get-Content ${KEY_PATH}.pub) >> .ssh/authorized_keys && \` ile açık anahtarınızı sunucuda onaylı anahtar listesine ekleyin
+   * 🐧`echo \"cat ${KEY_PATH}.pub\" && \` komutu ile **Linux işletim sistemini kullananlar** açık anahtarı ekleyebilir
+   * 👮‍♂️ `chmod 700 ~/.ssh && \` komutu ile `ssh`dizinini yetkilendirin
+   * 👮‍♂️ `chmod 600 ~/.ssh/authorized_keys"` komutu ile anahtarların olduğu dosyaya okunabilmesi için izinleri verin
+
+> 📢 Eğer sunucu sizden tekrardan şifre istiyor ise, 3. ve 4. adımları uyguladığınızdan emin olun
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için 

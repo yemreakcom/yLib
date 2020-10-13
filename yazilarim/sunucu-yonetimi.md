@@ -43,7 +43,6 @@ ssh-add ${KEY_PATH}
 
 $pub = (Get-Content ~/${KEY_PATH}.pub)
 ssh $USER@$IP "mkdir -p ~/.ssh && echo $pub >> .ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
-
 ```
 {% endcode %}
 {% endtab %}
@@ -90,7 +89,7 @@ ssh ${USER}@${IP} "\
 > 📢 Eğer sunucu sizden tekrardan şifre istiyor ise, 3. ve 4. adımları uyguladığınızdan emin olun
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için 
+‍🧙‍♂ Detaylı bilgi için
 
 * [SSH Login Without a Password](https://howchoo.com/g/mmu5ngfimjk/ssh-login-without-password) 
 * [Starting ssh-agent on Windows 10 fails: “unable to start ssh-agent service, error :1058”](https://stackoverflow.com/a/53606760/9770490)
@@ -151,15 +150,27 @@ alanlarına bakabilirsin.
 ‍🧙‍♂ Detaylı bilgi için [Getting started with Tmux](https://linuxize.com/post/getting-started-with-tmux/) alanına bakabilirsin.
 {% endhint %}
 
-## 🐍 Python Kurulumu
+## 🐍 Python ve Python 3.9 Kurulumu
 
-* Sunucularda python default olarak olur ama `pip` ve `venv` kurulu olmaz
+* Sunucularda python3.6 default olarak olur ama `pip` ve `venv` kurulu olmaz
 * `sudo apt install python3-pip` ile pip kurulur
+  * `pip` python paketlerinin indirilmesine yardımcı olan araçtır
 * `sudo apt install python3-venv` ile sanal ortam oluşturma aracı kurulur
-* `pip` python paketlerinin indirilmesine yardımcı olan araçtır
-* `venv` sanal python ortamları oluşturarak sistemin python paketlerinin bozulmasını engeller
+  * `venv` sanal python ortamları oluşturarak sistemin python paketlerinin bozulmasını engeller
+
+{% code title="Python3.9 ve venv Kurulumu" %}
+```bash
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+apt install python3-venv python3.9 python3.9-venv
+python3.9 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+{% endcode %}
 
 {% hint style="warning" %}
-📢 **Python 3.8** gibi özel sürümler indirmek için `python3` yerine `python3.8` kullanın
+📢 Python 3.9-venv kullanılması için python3-venv paketi gereklidir
 {% endhint %}
 

@@ -129,6 +129,7 @@
   * [🟡 Google Colab](google/google-colab.md)
   * [🔍 Google Hacking](google/google-hacking.md)
 * [📦 Uygulama Notları](uygulamalar/README.md)
+  * [💚 Warcraft 3 The Frozen Throne](uygulamalar/warcraft-3-the-frozen-throne.md)
   * [👨‍🎨 Adobe XD](uygulamalar/adobe-xd.md)
   * [🌃 Visual Studio Code](uygulamalar/vs-code/README.md)
     * [🔰 Giriş \| VS Code](uygulamalar/vs-code/giris.md)

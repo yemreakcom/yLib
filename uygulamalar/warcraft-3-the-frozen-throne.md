@@ -13,9 +13,12 @@ description: >-
   * [Installer v11](https://eurobattle.net/downloads/file/57)
 * İndirme işleminden sonra [Warcraft III 1.28.5 \(Current for Eurobattle\)](https://eurobattle.net/downloads/file/49) arşivini `C/Program Files (x86)` dizinine çıkartın
 * [Installer v11](https://eurobattle.net/downloads/file/57) ile eurobattle.net online oynama hizmetini **yönetici olarak** kurun
+* Kurulum aşamasında **sadece 1. sıradaki Warcraft 1.28** için yolu girin, diğerini boş bırakın
 * Kurulum tamamlandıktan sonra Eurobattle.net Launcher kısayolunu yönetici olarak açın
 * Ürünü online olarak oynayabilmek için Eurobattle.net hesabı oluşturup giriş yapın
 * Çıkan ekranda soldaki resim üzerinden **Warcraft 3 The Frozen Throne** ürününü online olarak oynayabilirsiniz
+
+![](../.gitbook/assets/installer_tnpo4kgwxm.png)
 
 ![](../.gitbook/assets/w3eurobattle.png)
 

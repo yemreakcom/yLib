@@ -132,7 +132,16 @@ alanlarına bakabilirsin.
 * `ntpdate time.ume.tubitak.gov.tr` ile TÜBİTAK NTP sunucusuna bağlantı yapın
 * `service ntp restart` komutu ile yeniden başlatın
 * `date` komutu ile tarihi görüntüleyebilirsiniz
-* `tzselect` komutu ile zaman bölgesini de seçebiliriz
+* `tzselect` komutu ile zaman bölgesini seçenekler arasından de seçebiliriz
+* `timedatectl set-timezone Europe/Istanbul` komutu ile direkt olarak Istanbul zaman dilimini ayarlayabilriiz
+
+```bash
+apt-get install ntp ntpdate
+ntpdate time.ume.tubitak.gov.tr
+service ntp restart
+timedatectl set-timezone Europe/Istanbul
+# date
+```
 
 {% hint style="info" %}
 ‍🧙‍♂ Detaylı bilgi için [Linux zaman sunucusu ayarlama](https://gencbilisim.net/linux-zaman-sunucusu-ayarlama/) alanına bakabilirsin.

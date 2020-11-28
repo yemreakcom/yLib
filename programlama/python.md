@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
@@ -72,6 +73,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🎌 Komut Çalıştırma](https://python.yemreak.com/es-zamanli-islemler/komut-calistirma)
   * [🧵 Multithreading](https://python.yemreak.com/es-zamanli-islemler/multithreading)
   * [🎎 Multiprocessing](https://python.yemreak.com/es-zamanli-islemler/multiprocessing)
+  * [💫 Asyncio](https://python.yemreak.com/es-zamanli-islemler/asyncio)
 * [🕸️ Web Programlama](https://python.yemreak.com/web-programlama/)
   * [💌 HTTP İstekleri](https://python.yemreak.com/web-programlama/http-istekleri)
   * [🌶️ Flask](https://python.yemreak.com/web-programlama/flask)
@@ -106,6 +108,9 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
   * [🔃 I/O İşlemleri \| IPython](https://python.yemreak.com/ipython/io-islemleri)
   * [🔆 Görsel Arayüz \(GUI\) \| IPython](https://python.yemreak.com/ipython/gui)
   * [🔗 Faydalı Bağlantılar \| IPython](https://python.yemreak.com/ipython/faydali-baglantilar)
+* [📦 Faydalı Paketler](https://python.yemreak.com/faydali-paketler/)
+  * [🕐 Schedule](https://python.yemreak.com/faydali-paketler/schedule)
+  * [🧐 FileType](https://python.yemreak.com/faydali-paketler/filetype)
 * [🔗 Faydalı Bağlantılar](https://python.yemreak.com/harici-linkler)
 
 ## Alakalı Bağlantılar
@@ -135,4 +140,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

@@ -78,7 +78,7 @@ alanlarına bakabilirsin.
 * 📦 VSIX'de 3000 icon vardır bunları kullanabilmek için [Extensibility Essentials 2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ExtensibilityEssentials2019) eklentisini indir
 * ⚙️ `View` -&gt; `Other Windows` -&gt; `KnownMonikers`
 
-![](../../.gitbook/assets/vsix_known_monikers%20%281%29.png)
+![](../../.gitbook/assets/vsix_known_monikers.png)
 
 * 📝 Çıkan panelde seçilen ikonu Resource içerisine alttak özelliklerle eklemeliyiz:
   * `16 width` ile  `*Command.png` icon dosyasını overwrite ederek
@@ -89,7 +89,7 @@ alanlarına bakabilirsin.
   * `GuidSymbol` alanındaki `IDSymbol` satırlarından ilki hariç diğerlerini
 * ➕ Son eklenen resimleri projeye dahil etmek için `Solution Explorer` alanında  sağdan 3. ikon `Show all files` ile resimleri bulup, onları seçip, sağ tıklayıp `Include From Project` demeliyiz
 
-![](../../.gitbook/assets/vsix_resources_example%20%281%29.png)
+![](../../.gitbook/assets/vsix_resources_example%20%281%29%20%281%29.png)
 
 * 🔨 `*.vsixmanifest` dosyasına ikon ve ön izleme resmi eklenmeli
 

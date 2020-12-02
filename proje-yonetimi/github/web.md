@@ -51,5 +51,5 @@ GitHub üzerinde klasör veya dizin oluşturmak için:
 * Dosyanın içine `# Dizin adı` yazın
 * `Commit New File` butonuna basın
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%28117%29.png)
 

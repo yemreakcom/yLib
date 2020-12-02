@@ -12,7 +12,7 @@ description: ArduPlot projesi ile tam entegreli çalışan yönetim arayüzü
 
 > [\(1/5\) PixHawk Video Series - Simple initial setup, config and calibration](https://youtu.be/uH2iCRA9G7k?t=280)
 
-![](../.gitbook/assets/image%20%2826%29.png)
+![](../.gitbook/assets/image%20%2826%29%20%281%29.png)
 
 ### 🧭 Pusula Kalibrasyonu
 

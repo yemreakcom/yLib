@@ -47,7 +47,7 @@ Tam olarak hangi alanların değiştiğini merak ediyorsan, alttaki linkten GitH
 
 ## 🌍 Tüm YEmreAk İçerikleri
 
-![](.gitbook/assets/yemreakcom.png)
+![](.gitbook/assets/yemreakcom%20%281%29.png)
 
 ## 💖 Destek ve İletişim
 

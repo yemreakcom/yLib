@@ -11,7 +11,11 @@ description: >-
 * 🔗 [DigitalOcean](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi1n_Lh2IbsAhUEaRUIHQG_DNcQFjAAegQIBhAC&url=https%3A%2F%2Fwww.digitalocean.com%2F&usg=AOvVaw2Kbi_PqpnTiK49rdUPGt9G) sitesi üzerinden hesap açıp GitHub veya Google ile bağlayabilirsin
 * 💳 Kredi kartı bilgilerini verip, **1$** çekim işlemine müsaade ederek sahte bir kullanıcı olmadığını doğrulamalısın
 * ⛅ Hesap kaydı tamamlandıktan sonra herhangi bir sunucu alman gerekmekte
-* 💵 [GitHub Student Package](https://education.github.com/pack/offers?sort=popularity&tag=Cloud) alanından alınan Promo code kısmını sunucu oluşturduktan sonra [Billing](https://cloud.digitalocean.com/account/billing) alanından girmen gerekmekte
+* 💵 [GitHub Student Package](https://education.github.com/pack/offers?sort=popularity&tag=Cloud) alanından alınan Promo code kısmını, sunucu oluşturduktan sonra [Billing](https://cloud.digitalocean.com/account/billing) alanından girmen gerekmekte
+
+{% hint style="info" %}
+💁‍♂️  Türkiye içerisinde sunucu kiralamak için [Natro](https://www.natro.com/sunucu-kiralama) sitesine göz atabilrisin
+{% endhint %}
 
 ## 🔌 Sunucuya Bağlanma
 
@@ -118,6 +122,13 @@ alanlarına bakabilirsin.
 }
 ```
 {% endcode %}
+
+## ✨ Sunucu Paketlerini Yenileme
+
+* Sunucuya bağlandıktan sonra yapılacak ilk iş yüklü olan paketleri güncellemek olmalıdır
+* `sudo apt update` ve `sudo apt upgrade` komutları ile paketlerini güncelleyebilirsin
+* Çok fazla paket güncellemelerinden sonra `reboot` komutu ile sistemi yeniden başlatmanız tavsiye edilir
+* Paket yükseltme işlemi sonrasında kullanılmayan veya eski paketleri temizlemek için `sudo apt autoremove` komutunu kullanın
 
 ## 🔏 Git için Şifre Saklama
 

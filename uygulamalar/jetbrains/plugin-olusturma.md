@@ -10,6 +10,7 @@ description: >-
 
 * 📢 `Gradle-Java` eklentisinin yüklü olduğundan emin olun
 * 👷‍♂️ `New Project` - `Gradle` - `IntelliJ Platform Plugin` - `Java` veya `Kotlin / JVM`
+* ⚙️ Eklentinin yönetimi `plugin.xml` dosyası ile yapılmaktadır
 
 > 💁‍♂️ İsterseniz yeni Gradle olan `Kotlin DSL`'i de kullanabilirsiniz
 
@@ -20,6 +21,9 @@ description: >-
 {% endhint %}
 
 ## 👨‍💼 Tema Yönetimi
+
+* 🔨 En son eklenen tema, eklenti indirildiği zaman varsayılan olarak seçilir
+* ⭐ Varsayılan olmasını istediğiniz temanızı plugin.xml içerisindeki extensions bloğu içerisindeki en alta getirin
 
 ![](../../.gitbook/assets/theme_edit_button.png)
 
@@ -34,7 +38,7 @@ description: >-
 {% tab title="📜 XML" %}
 {% code title="plugin.xml" %}
 ```markup
-<idea-version since-build="191.0" until-build="193.*"/>
+<idea-version since-build="173.0"/>
 ```
 {% endcode %}
 {% endtab %}
@@ -43,7 +47,7 @@ description: >-
 {% code title="build.gradle" %}
 ```groovy
 patchPluginXml {
-    sinceBuild '191'
+    sinceBuild '173.0'
     
     /*
     def changelogPath = "$projectDir/build/CHANGELOG.html"
@@ -68,7 +72,7 @@ patchPluginXml {
 tasks.getByName
     <org.jetbrains.intellij.tasks.PatchPluginXmlTask>("patchPluginXml") {
     
-    val sinceBuild = "191" // Android compatibility
+    val sinceBuild = "173.0" // Android compatibility
 
     /*
     val changelogPath = "$projectDir/.github/assets/CHANGELOG.html"

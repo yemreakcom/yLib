@@ -32,7 +32,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28106%29%20%281%29.png)
+![](../.gitbook/assets/image%20%28106%29%20%281%29%20%281%29.png)
 {% endtab %}
 
 {% tab title="2" %}
@@ -40,7 +40,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 {% endtab %}
 
 {% tab title="2.1" %}
-![](../.gitbook/assets/image%20%2887%29%20%281%29.png)
+![](../.gitbook/assets/image%20%2887%29%20%281%29%20%281%29.png)
 {% endtab %}
 
 {% tab title="2.2" %}

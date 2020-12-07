@@ -2,6 +2,7 @@
 
 ## 📋 Tüm Değişiklikler
 
+- 07/12/2020 - 17:55:49 - [GitBook: [master] 17 pages and 18 assets modified](https://github.com/YEmreAk/YLib/commit/72c1aa80f5b1bf78b7a60bb5b9810c21aed04c2b?diff=split) ~ Yunus Emre
 - 06/12/2020 - 15:34:01 - [GitBook: [master] 179 pages and 22 assets modified](https://github.com/YEmreAk/YLib/commit/31f4ed7447d0bcdcc1e06dfa2962f89859746c52?diff=split) ~ Yunus Emre
 - 02/12/2020 - 09:29:57 - [GitBook: [master] 179 pages and 40 assets modified](https://github.com/YEmreAk/YLib/commit/8f5461b476fd2b1127033d52f4e7a6a3657ddadd?diff=split) ~ Yunus Emre
 - 28/11/2020 - 16:03:53 - [GitBook: [master] 179 pages modified](https://github.com/YEmreAk/YLib/commit/56dc86b86bb0c6da7a99e70c3bdc7ddf60705404?diff=split) ~ Yunus Emre

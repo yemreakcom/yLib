@@ -4,6 +4,12 @@ description: Şu anda da üzerinde bulunduğumuz platformun kullanımı
 
 # 📘 GitBook Kullanımı
 
+## 👀 Hızlı Notlar
+
+* ⭐ [YEmreAk.com](http://yemreak.com/) \(yani bu site\) gitbook aracılığıyla yapılmıştır
+* 💁‍♂️ GitBook ile kod yazmadan dokümanlarını web üzerinde sunabilirsiniz
+* 🔄 İsterseniz GitHub senkronizasyonu ile notlarını GitHub ile eşleyebilirsiniz
+
 ## 🧱 Temel Kullanım
 
 GitBook, GitHub'a göre daha görsel arayüz sağladığından, doküman oluşturma adına daha kullanışlıdır.

@@ -1,8 +1,9 @@
 ---
-description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
+description: >-
+  Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 ---
 
-# 🐍 Python
+# 🐍 Python Notlarım
 
 * [🐍 Python Notlarım](https://python.yemreak.com/)
 * [👀 Neler değişti](https://github.com/YEmreAk/YPython/blob/master/CHANGELOG.md)
@@ -10,7 +11,7 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [✍ Yazılarım](https://python.yemreak.com/yazilar/)
   * [🌟 Python'da Önemli Hususlar](https://python.yemreak.com/yazilar/pythonda-onemli-hususlar)
   * [📦 Pip ile Kurulabilir Python Paketi Oluşturma](https://python.yemreak.com/yazilar/pip-ile-kurulabilir-python-paketi-olusturma)
-  * [🧲 İnternet'ten Veri Çekme](https://python.yemreak.com/yazilar/veri-cekme)
+  * [🧲 İnternet Üzerinden Veri Çekme](https://python.yemreak.com/yazilar/internet-uzerinden-veri-cekme)
   * [🔢 Algoritma Örnekleri](https://python.yemreak.com/yazilar/algoritma-ornekleri)
   * [📊 Verileri Kategorize Etme](https://python.yemreak.com/yazilar/kategorizasyon)
   * [📈 Verimli Kodlama](https://python.yemreak.com/yazilar/verimli-kodlama)
@@ -139,4 +140,3 @@ description: Yunus Emre AK ~ YEmreAKın (@yedhrab) Python notları
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

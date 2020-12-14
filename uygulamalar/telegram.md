@@ -1,5 +1,5 @@
 ---
-description: Telegram ile ilgili notlarım.
+description: Telegram mesajlaşma uygulaması hakkındaki notlarım
 ---
 
 # 💌 Telegram

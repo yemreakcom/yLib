@@ -16,7 +16,7 @@ description: "Unreal Engine üzerine ufak çaplı araştırmam \U0001F468‍\U00
 
 Bu özellik sayesinden neredeyse hiç kod yazmadan oyun yapısını oluşturabilmekteyiz.
 
-![](../../../.gitbook/assets/image%20%28123%29%20%282%29%20%282%29%20%282%29.png)
+![](../../../.gitbook/assets/image%20%28123%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
 
 ## Çalışma Kaynakları
 

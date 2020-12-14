@@ -18,10 +18,10 @@ description: Telegram mesajlaşma uygulaması hakkındaki notlarım
 
 * Telegram üzerinden [BotFather](https://telegram.me/botfather) kanalına mesaj atmalısın 
 * `/newbot` komutu ile bot oluşturma isteğinde bulun
-* İlk önce botun için isim oluştur, bu isim türkçe karakter içerebilir ve uzun olabilir
-* Ardından botun için eşsiz bir kullanıcı adı berlirlemen gerekir
-* Bot oluşturulduktan sonra sana token bilgisi verilecek bu bilgiyi kopyalamalı ve saklamalısın
-* Botuna erişmek için t.me/&lt;botkullanıcı\_adı bağlantısına bakmalısın
+* İlk önce botun için isim oluştur, bu isim **türkçe karakter içerebilir ve uzun olabili**r
+* Ardından botun için **eşsiz** bir kullanıcı adı belirlemen gerekir
+* Bot oluşturulduktan sonra sana **token** bilgisi verilecek bu bilgiyi kopyalamalı ve saklamalısın
+* Botuna erişmek için `t.me/<botkullanıcı_adı>` bağlantısına bakmalısın
 
 ## 🆔 Bot için Chat ID Alma
 
@@ -30,7 +30,7 @@ description: Telegram mesajlaşma uygulaması hakkındaki notlarım
 * Chat ID değerini almak için .[https://api.telegram.org/botXXX:YYYY/getUpdates](https://api.telegram.org/botXXX:YYYY/getUpdates) bağlantısındaki
   * XXX:YYYY alanına daha önceden kopyaladığınız token bilginizi yapıştırın
   * Örneğin: `https://api.telegram.org/bot12345:TOKEN_DEVAMI/getUpdates` 
-* Döndürülen JSON metninde id: alanı içerisinde Chat ID bilgisini alabilirsiniz
+* Döndürülen JSON metninde `id:` alanı içerisinde Chat ID bilgisini alabilirsiniz
 
 {% code title="Örnek JSON çıktısı" %}
 ```javascript

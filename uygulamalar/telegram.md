@@ -66,4 +66,5 @@ description: Telegram mesajlaşma uygulaması hakkındaki notlarım
 ## 🔗 Harici Bağlantılar
 
 * [5dk'da Telegram Bot'u Oluşturma](https://medium.com/@fatihsarhan/5-dk-da-telegram-botu-nasil-yapilir-1873f18bf59b)
+* [Telegram Bot API](https://core.telegram.org/bots/api#formatting-options)
 

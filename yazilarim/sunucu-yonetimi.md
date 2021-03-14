@@ -34,38 +34,58 @@ description: >-
 {% tabs %}
 {% tab title="✴️ Windows" %}
 {% code title="ConnectServer.ps1" %}
-```perl
+```bash
 cd ~
 $USER = Read-Host 'Username'
 $IP = Read-Host 'IP adress'
 $KEY_ID = Read-Host 'Key ID'
+
 $KEY_PATH = ".ssh/${KEY_ID}_ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
+
+# Windows için SSH servisini başlatma
 Get-Service -Name ssh-agent | Set-Service -StartupType AutomaticDelayedStart
 Start-Service ssh-agent
-ssh-add ${KEY_PATH}
 
-$pub = (Get-Content ~/${KEY_PATH}.pub)
-ssh $USER@$IP "mkdir -p ~/.ssh && echo $pub >> .ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+# SSH keyi sunucuya kopyalama ve yetkilendirme
+ADDRESS=$USER@$IP
+ssh-copy-id -i $KEY_PATH.pub $ADDRESS
+
+# SSH copy çalışmaz ise alttakini deneyin
+# $pub = (Get-Content ~/${KEY_PATH}.pub)
+# ssh $USER@$IP "mkdir -p ~/.ssh && echo $pub >> .ssh/authorized_keys && chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys"
+
+# SSH keyi yerel anahtarlara ekleme (eğer şifre istenirse anahtar eklenmeli)
+ssh-add $KEY_PATH
+
+# SSH ile adrese bağlanma
+ssh $ADDRESS -A
 ```
 {% endcode %}
 {% endtab %}
 
 {% tab title="🐧 Linux" %}
-{% code title="connect-server.sh" %}
+{% code title="create-ssh-connection.sh" %}
 ```bash
 #!/usr/bin/bash
 
 read -p 'Username: ' USER
 read -p 'IP adress: ' IP
 read -p 'Key ID: : ' KEY_ID
-KEY_PATH="./.ssh/${KEY_ID}_ecdsa"
+
+# SSH key oluşturma
+KEY_PATH="$HOME/.ssh/${KEY_ID}-ecdsa"
 ssh-keygen -t ecdsa -b 521 -f ${KEY_PATH}
-ssh ${USER}@${IP} "\
-    mkdir -p ~/.ssh && \
-    echo \"`cat ${KEY_PATH}.pub`\" && \
-    chmod 700 ~/.ssh && \
-    chmod 600 ~/.ssh/authorized_keys"
+
+# SSH keyi sunucuya kopyalama ve yetkilendirme
+ADDRESS=$USER@$IP
+ssh-copy-id -i $KEY_PATH.pub $ADDRESS
+
+# SSH keyi yerel anahtarlara ekleme (eğer şifre istenirse anahtar eklenmeli)
+ssh-add $KEY_PATH
+
+# SSH ile adrese bağlanma
+ssh $ADDRESS -A
 ```
 {% endcode %}
 {% endtab %}

@@ -167,10 +167,14 @@ alanlarına bakabilirsin.
 * `timedatectl set-timezone Europe/Istanbul` komutu ile direkt olarak Istanbul zaman dilimini ayarlayabilriiz
 
 ```bash
+sudo timedatectl set-timezone Europe/Istanbul
+
+# Yukarıdaki komut hatalı olursa aşağıdakini deneyin
 apt-get install ntp ntpdate
 ntpdate time.ume.tubitak.gov.tr
 service ntp restart
 timedatectl set-timezone Europe/Istanbul
+
 # date
 ```
 

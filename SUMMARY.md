@@ -183,7 +183,7 @@
     * [🔗 Faydalı Bağlantılar](iha/pixhawk/faydali-baglantilar.md)
   * [🚩 Mission Planner](iha/mission-planner.md)
 * [🌞 Günlük Hayat Notları](gunluk-hayat/README.md)
-  * [🚘 Trafik Cezası Ödeme](gunluk-hayat/trafik-cezasi-oedeme.md)
+  * [🚘 Trafik Cezası Ödeme](gunluk-hayat/trafik-cezasi-odeme.md)
   * [🎨 Boyama](gunluk-hayat/boyama.md)
 * [🌄 Düzensiz Notlar](duzensiz.md)
 

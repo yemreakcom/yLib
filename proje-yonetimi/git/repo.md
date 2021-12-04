@@ -27,8 +27,8 @@ git init
 git clone [url] [kopyalanacağı yol]
 ```
 
-* `url` Github'daki projenin adresi [https://...](https://...)
-* `kopyalanacağı yol` Bilgisayardaki özel bir yol \(C:\Desktop\Temp\)
+* `url` Github'daki projenin adresi [https://...](https://..)
+* `kopyalanacağı yol` Bilgisayardaki özel bir yol (C:\Desktop\Temp)
 
 > Var olan git'i istenen dizine kopyalar
 
@@ -62,7 +62,7 @@ git clone [username]@[host]:[url]
 git add .
 ```
 
-> Bütün dosyalar \(. dizindeki tüm dosyalar demektir.\) eklenir.
+> Bütün dosyalar (. dizindeki tüm dosyalar demektir.) eklenir.
 
 ## 💬 Teslim etme hazırlığı ve yorum ekleme
 
@@ -71,7 +71,7 @@ git commit -m "Yorun" # Kısa Açıklama
 git commit -m "Yorum" -m "Açıklama" # Başlıklı uzun açıklama
 ```
 
-* -`m` message anlamına gelmektedir.
+* \-`m` message anlamına gelmektedir.
 
 > Mesaj ve açıklama ile ile depoya teslim için hazırlama
 
@@ -99,7 +99,7 @@ git remote set-url --add --push [remote_name] [url2]
 
 * `--push` yerine diğer git işlemlerini de kullanabilirsiniz. _Örn: fetch_
 
-> Uzaktan kontrol \(remote\) eklemek için `git remote add [remote_name] [url]` ile oluşturulması gerekir. Aksi halde hata verir.
+> Uzaktan kontrol (remote) eklemek için `git remote add [remote_name] [url]` ile oluşturulması gerekir. Aksi halde hata verir.
 
 ### ➖ Teslim URL'i kaldırma
 
@@ -128,7 +128,7 @@ origin  https://gitlab.com/yedehrab/bilgiler.git (push)
 git push -u origin [branch]
 ```
 
-* `branch` Varsa dal ismi \(bilginiz yoksa 'master' kullanın\)
+* `branch` Varsa dal ismi (bilginiz yoksa 'master' kullanın)
   * git push -u origin master
 
 > Master olarak url'e yükleme işlemi
@@ -157,7 +157,6 @@ git mv <old_name> <new_name>
 
 ## 🔗 Harici Linkler
 
-* [📕 Pro Git](https://drive.google.com/open?id=12bYrrbB2ESt531bYWnddf5NpEg2_fGzl)
+* [📕 Pro Git](https://drive.google.com/open?id=12bYrrbB2ESt531bYWnddf5NpEg2\_fGzl)
 * [Sık kullanılan git komutları](https://github.com/joshnh/Git-Commands)
 * [Github ile Fork ve Pull Request](https://medium.com/@noteCe/github-ile-fork-ve-pull-request-be6077342834)
-

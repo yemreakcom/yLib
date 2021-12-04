@@ -15,22 +15,22 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 
 ## 🌆 Git Kullanım Senaryosu
 
-* İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull]() edilir.
-* Her yenilik için **değişikliği açıklayan yorumla birlikte** ayrı ayrı [commit]() yapılır.
-* Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch]() oluşturulur.
-  * Yeni branch kontrol edildikten sonra orjinal \(master\) branch'ine dahil edilir. \( _Alakalı:_ [_merge request_](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html) \)
+* İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](broken-reference) edilir.
+* Her yenilik için **değişikliği açıklayan yorumla birlikte** ayrı ayrı [commit](broken-reference) yapılır.
+* Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch](broken-reference) oluşturulur.
+  * Yeni branch kontrol edildikten sonra orjinal (master) branch'ine dahil edilir. ( _Alakalı:_ [_merge request_](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html) )
   * Bu sistemle hataların orjinal projeyi bozması engellenmeye çalışılır.
 * Eğer 2 farklı alanda çalışılacakca yeni branch üzerinden dosyalar oluşturulmalı
   * Bu sayede master pull edildiğinde dosya kaybı söz konusu olmayacaktır
-  * Bu yeni branch'lar master'a pull edilmez \(edilirse branch'a özgü dosyalar da aktarılır\)
+  * Bu yeni branch'lar master'a pull edilmez (edilirse branch'a özgü dosyalar da aktarılır)
 
 > Github'ın oluşturduğu "[hello world](https://guides.github.com/activities/hello-world/)" sayfasına da bakabilirsin 👶
 
 ## 🔗 Git'in Kullanımına Olanak Sağlayan Siteler
 
 * [Github](https://www.github.com)
-* [GitLab](https://gitlab.com/)
-* [Bitbucket](https://bitbucket.org/)
+* [GitLab](https://gitlab.com)
+* [Bitbucket](https://bitbucket.org)
 
 ## 🆔 Git Kimlik Bilgileri
 
@@ -76,7 +76,6 @@ git config --global --unset credential.helper
 
 ## 🔗 Harici Linkler
 
-* [Start Using Git \| Gitlab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+* [Start Using Git | Gitlab](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
 * [git: 'credential-cache' is not a git command](https://stackoverflow.com/a/11889392/9770490)
 * [Most known command](https://dev.to/juni/git-and-github---must-know-commands-to-make-your-first-commit-333c)
-

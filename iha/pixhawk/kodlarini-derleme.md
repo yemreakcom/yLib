@@ -20,7 +20,7 @@ PixHawk kodları Linux ortamını önermekte ve desteklemektedir
 
 ### 🔗 Alakalı Bağlantı
 
-{% embed url="https://wiki.yemreak.com/isletim-sistemi-notlari/linux-notlari/linux-gelismis\#linuxta-varsayilan-olarak-python3-kullanma" %}
+{% embed url="https://wiki.yemreak.com/isletim-sistemi-notlari/linux-notlari/linux-gelismis#linuxta-varsayilan-olarak-python3-kullanma" %}
 
 ## ‍⏬ PixHawk Kodlarının İndirilmesi
 
@@ -65,7 +65,7 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 * Tüm gerekli eklentiler PixHawk tarafından ayarlanmıştır
 * **Install All** butonu ile indirmeniz yeterli
 
-![](../../.gitbook/assets/image%20%2859%29.png)
+![](<../../.gitbook/assets/image (59).png>)
 
 ### 🚧 Build Etme
 
@@ -73,15 +73,14 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 * Build işlemini **Status Bar** üzerinden yapabiliriz
 * Veya `make px4_fmu-v4_default` komutu ile **NuttX / Pixhawk Based Boards** için derleyebiliriz
 
-![](../../.gitbook/assets/image%20%28109%29.png)
+![](<../../.gitbook/assets/image (109).png>)
 
 {% hint style="warning" %}
-📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu]() alanındaki paketleri kurduğunuzdan emin olun
+📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu](broken-reference) alanındaki paketleri kurduğunuzdan emin olun
 {% endhint %}
 
 ## 🔗 Ayrıntılı Açıklamalar
 
 {% embed url="https://dev.px4.io/master/en/setup/vscode.html" %}
 
-{% embed url="https://dev.px4.io/master/en/setup/building\_px4.html" %}
-
+{% embed url="https://dev.px4.io/master/en/setup/building_px4.html" %}

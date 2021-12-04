@@ -1,18 +1,18 @@
 ---
-description: 'MySQL, SQL dilini kullanan veri tabanıdır'
+description: MySQL, SQL dilini kullanan veri tabanıdır
 ---
 
 # 💽 MySQL
 
 ## Veri tipleri
 
-| Değişken Tipi | Açıklama | Not |
-| :--- | :--- | :--- |
-| `BIT` | 0-1 \(True - False\) verilerini tutar. | Değer atanırken tırnaksız atanır |
-| `INT` | Tam sayı değeri tutar | Basmak sayısı 1 için 0-9 arası |
-| `ENUM` | Özel değişken oluşturma | Değerler tırnaklı olarak atanır |
+| Değişken Tipi | Açıklama                             | Not                              |
+| ------------- | ------------------------------------ | -------------------------------- |
+| `BIT`         | 0-1 (True - False) verilerini tutar. | Değer atanırken tırnaksız atanır |
+| `INT`         | Tam sayı değeri tutar                | Basmak sayısı 1 için 0-9 arası   |
+| `ENUM`        | Özel değişken oluşturma              | Değerler tırnaklı olarak atanır  |
 
-> Örnekler için [değişkenler]() kısmına bakabilirsin.
+> Örnekler için [değişkenler](broken-reference) kısmına bakabilirsin.
 
 ## Where Operatörleri
 
@@ -20,24 +20,24 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 
 ## Tablo İşlemleri
 
--[Ekleme](http://www.mysqltutorial.org/mysql-add-column/)
+\-[Ekleme](http://www.mysqltutorial.org/mysql-add-column/)
 
 ### Tablo işlemleri karma Notlar
 
--[Var olan tabloya varsayılan değerli bir sütun ekleme](https://stackoverflow.com/a/92123)
+\-[Var olan tabloya varsayılan değerli bir sütun ekleme](https://stackoverflow.com/a/92123)
 
 ## Temel Fonksiyonlar
 
-| Fonksiyon | Özelliği |
-| :---: | :--- |
-| `MAX` | En yüksek değeri bulur |
-| `MİN` | En düşük değeri bulur |
-| `AVG` | Ortalama değeri bulur |
-| `COUNT` | Adet saysını hesaplar |
-| `SUM` | Toplam değeri hesaplar |
-| `CONCAT` | Verilen metinleri birleştirir |
+| Fonksiyon | Özelliği                      |
+| :-------: | ----------------------------- |
+|   `MAX`   | En yüksek değeri bulur        |
+|   `MİN`   | En düşük değeri bulur         |
+|   `AVG`   | Ortalama değeri bulur         |
+|  `COUNT`  | Adet saysını hesaplar         |
+|   `SUM`   | Toplam değeri hesaplar        |
+|  `CONCAT` | Verilen metinleri birleştirir |
 
-> Örnekler için [temel fonksiyon örnekleri]() kısmına bakabilirsin.
+> Örnekler için [temel fonksiyon örnekleri](broken-reference) kısmına bakabilirsin.
 
 ## Gruplama
 
@@ -48,7 +48,7 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 
 > Gruplama yapılmazsa tek sorgu ekrana basılır.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## Stored Function
 
@@ -78,7 +78,7 @@ FROM
 * `DECLARE` Fonksiyona özgü değişken tanımlama alanı
 * `END` Fonksiyon sonu
 
--**\[FunctionName\]**: _Fonksiyonun ismi, örn: GetProductName_ -**\[ParamName\]**: _Parametre ismi, örn: name_ -**\[ParamType\]**: _Int, Varchar, Float ..._ -**\[ReturnType\]**: _Fonksiyonun döndüreceği sütunun özelliği, Örn: Varchar\(64\), int\(11\), double_ -**Deterministic**: _Aynı girdiler için her zaman aynı değeri üretir._ -**\[select\_query\]**: _Örn: SELECT_  from table;\* -**\*\[ReturnType\]** ile aynı olmak zorundadır.\*
+\-**\[FunctionName]**: _Fonksiyonun ismi, örn: GetProductName_ -**\[ParamName]**: _Parametre ismi, örn: name_ -**\[ParamType]**: _Int, Varchar, Float ..._ -**\[ReturnType]**: _Fonksiyonun döndüreceği sütunun özelliği, Örn: Varchar(64), int(11), double_ -**Deterministic**: _Aynı girdiler için her zaman aynı değeri üretir._ -**\[select\_query]**: _Örn: SELECT_ from table;\* -**\*\[ReturnType]** ile aynı olmak zorundadır.\*
 
 ## Debug Bilgileri
 
@@ -86,7 +86,7 @@ FROM
 
 `INNER JOIN` hataları test etmek için `LEFT JOIN` kullanılır. Bu hatalar:
 
--Boş veri döndürmesi
+\-Boş veri döndürmesi
 
 olabilir.
 
@@ -98,13 +98,13 @@ Sorgu ile ilgili detayları gösterir.
 explain SELECT * from table;
 ```
 
-![](../../.gitbook/assets/image%20%2876%29.png)
+![](<../../.gitbook/assets/image (76).png>)
 
 ## Optimizasyon
 
 Optimizasyon sorgunun hızlı sonuç vermesi için gereklidir. Optimizasyon işlemleri için:
 
--Indexleme -Key ile birleştirme \(inner join\) -Ek fonksiyonları kaldırma -`explain` anahtar kelimesi ile sorgu detaylarına bakma
+\-Indexleme -Key ile birleştirme (inner join) -Ek fonksiyonları kaldırma -`explain` anahtar kelimesi ile sorgu detaylarına bakma
 
 gibi işlemlere başvurulur.
 
@@ -114,7 +114,7 @@ gibi işlemlere başvurulur.
 
 Optimizasyon hakkında detaylı bilgi için [buraya](https://www.sitepoint.com/optimize-mysql-indexes-slow-queries-configuration/) tıklayabilirsiniz.
 
--[MySQL'de sorguların hızlı çalışması için ne yapılmalıdır?](https://uzmanim.net/soru/mysql-de-sorgularin-hizli-calismasi-icin-ne-yapilabilir/790) -[Indexleme neden yapılır?](https://www.sinanbozkus.com/veritabanlarinda-indexleme-mantigi/#more-78)
+\-[MySQL'de sorguların hızlı çalışması için ne yapılmalıdır?](https://uzmanim.net/soru/mysql-de-sorgularin-hizli-calismasi-icin-ne-yapilabilir/790) -[Indexleme neden yapılır?](https://www.sinanbozkus.com/veritabanlarinda-indexleme-mantigi/#more-78)
 
 ## MySQL Yapılandırması
 
@@ -149,7 +149,7 @@ SET GLOBAL interactive_timeout=28800;
 * [Select içinde if kullanma](https://stackoverflow.com/a/63480)
 * [Koşullu Sayma](https://stackoverflow.com/a/9798978)
 * [En yüksek değer sahip satırı alma](https://stackoverflow.com/a/11913444)
-* [Sadece en yüksek değere eşit olan satırları alma](https://stackoverflow.com/a/7745635) &lt;- Optimize Edilmiş
+* [Sadece en yüksek değere eşit olan satırları alma](https://stackoverflow.com/a/7745635) <- Optimize Edilmiş
 
 ## Örnekler
 
@@ -182,7 +182,7 @@ ALTER TABLE [tablo ismi] ADD COLUMN [sütun ismi] INT(1) DEFAULT 1;
 ALTER TABLE [tablo ismi] ADD COLUMN [sütun ismi] ENUM('0', '1') DEFAULT '0';
 ```
 
-> Yönelmek için [veri tipleri]() linkine tıklayabilirsin.
+> Yönelmek için [veri tipleri](broken-reference) linkine tıklayabilirsin.
 
 ### Temel Fonksiyon Örnekleri
 
@@ -194,7 +194,7 @@ SELECT COUNT(*) FROM Ogrenci;
 SELECT ... WHERE CONCAT("product_id=", "208") = "product_id=208";
 ```
 
-> Yönelmek için [temel fonksiyonlar]() yazısına bakabilirsin.
+> Yönelmek için [temel fonksiyonlar](broken-reference) yazısına bakabilirsin.
 
 ### Karma MySQL sorgusu örnekleri
 
@@ -204,9 +204,8 @@ SELECT COUNT(if(`crr`.`return_reason_id` = 14, `crr`.`return_reason_id`, null)) 
 
 > Koşul sağlanırsa sayar.
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](<../../.gitbook/assets/image (36).png>)
 
 ## Faydalı Kaynaklar
 
 * [MySQL Tutorial](https://www.w3schools.com/sql/default.asp)
-

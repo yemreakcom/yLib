@@ -10,16 +10,16 @@ description: GitBook'u GitHub'tan farklı kılan yönler.
 * 📑 **Online editörü** ile markdown yazmakla uğraşmana gerek kalmaz
 * ✨ Dokümanlarını **daha görsel** bir arayüzde sunarsın
 * 📂 **Tab yapısı** ile birden fazla notu daha görsel bir arayüzle sunabilirsin, üstelik arama özelliği ile
-* 🎴 [**Embed**](https://docs.gitbook.com/editing-content/embeds) ****destekleri sayesinde **📺 video, 📃 makale, 👨‍💻 gist hatta 🎶 müzik** bile paylaşabilirsin
-* 💫 Kaynakları \(resim, PDF vs\) **GitHub üzerinden otomatik** olarak bağlamaktadır
+* 🎴 [**Embed**](https://docs.gitbook.com/editing-content/embeds) **** destekleri sayesinde **📺 video, 📃 makale, 👨‍💻 gist hatta 🎶 müzik** bile paylaşabilirsin
+* 💫 Kaynakları (resim, PDF vs) **GitHub üzerinden otomatik** olarak bağlamaktadır
 
 ## 💔 Desteklemedikleri
 
 * 😥 `###`'ten fazla markdown başlıkları
 * 🙇‍♂️ Açılır menü yapısı olan `<detail>` formatı
 * 🔘 Buton yapısı olan `<kdb>` formatı
-* 📁 GitHub submodule yapısı \(bu yapı yerine [ysubmodules](https://github.com/yedhrab/YPackage#-entegrasyon-scripti) kullanabilirsin\)
-* 🙄 Markdown \(`md`\) dışındaki dosyalar
+* 📁 GitHub submodule yapısı (bu yapı yerine [ysubmodules](https://github.com/yedhrab/YPackage#-entegrasyon-scripti) kullanabilirsin)
+* 🙄 Markdown (`md`) dışındaki dosyalar
 
 {% hint style="info" %}
 GitBook için yazmış [YPackage](https://github.com/yedhrab/YPackage#-entegrasyon-scripti) olduğum entegrasyon scriptim ilgini çekebilir
@@ -32,7 +32,7 @@ GitBook için yazmış [YPackage](https://github.com/yedhrab/YPackage#-entegrasy
 * 📑 `SUMMARY.md` ile sol kenarda gösterilen dizin yapısını düzenleme
 * 📄 `README.md`'yi otomatik olarak algılama
 * 🧮 Matematiksel formül formatı olarak bilinen `latex` formatını `$$a=1$$`
-  * 👌 `$$$$ a $$$$` yapısını da destekler 
+  * 👌 `$$$$ a $$$$` yapısını da destekler&#x20;
   * 💁‍♂️ Özetle `$` yerine `$$` kullanmanız gerekmekte
 * 📜 `.bookignore` ile GitHub'dan aktarılmayacak dosyaları belirleme
 
@@ -50,4 +50,3 @@ GitBook için yazmış [YPackage](https://github.com/yedhrab/YPackage#-entegrasy
 * [Proje Dizin Yapısı](https://github.com/GitbookIO/gitbook/blob/master/docs/structure.md)
 * [Sayfa ve İndeksleme](https://github.com/GitbookIO/gitbook/blob/master/docs/pages.md)
 * [Değişkenler](https://github.com/GitbookIO/gitbook/blob/master/docs/templating/variables.md)
-

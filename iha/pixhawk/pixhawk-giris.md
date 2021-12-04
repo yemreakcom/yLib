@@ -16,20 +16,21 @@ PixHawk açık kaynak kodlu donanım olarak Stm32, yazılım olarak da ArduPilot
 
 ## 🆚 PixHawk vs ArduPilot
 
-![](../../.gitbook/assets/image%20%2845%29.png)
+![](<../../.gitbook/assets/image (45).png>)
 
 ## 🎮 PixHawk Donanımı
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](<../../.gitbook/assets/image (61).png>)
 
 ## 🎌 Faydalı Yönergeler
 
-* [Installing Ground Station \(GCS\) software](http://ardupilot.org/plane/docs/common-install-gcs.html)
-  * GCS olarak [🚩Mission Planner]() kullanılacak
+* [Installing Ground Station (GCS) software](http://ardupilot.org/plane/docs/common-install-gcs.html)
+  * GCS olarak [🚩Mission Planner](broken-reference) kullanılacak
 * [Loading Firmware onto Pixhawk](http://ardupilot.org/plane/docs/common-loading-firmware-onto-pixhawk.html)
 * [Connect Mission Planner to AutoPilot](http://ardupilot.org/plane/docs/common-connect-mission-planner-autopilot.html)
 
 ## 📺 PixHawk Uçuş Kontrolcüsü Kullanımı
 
-{% embed url="https://www.youtube.com/playlist?list=PLYsWjANuAm4r4idFZY24pP6s1K6ABMU0p" caption="Introduction to PixHawk Flight Controller" %}
-
+{% embed url="https://www.youtube.com/playlist?list=PLYsWjANuAm4r4idFZY24pP6s1K6ABMU0p" %}
+Introduction to PixHawk Flight Controller
+{% endembed %}

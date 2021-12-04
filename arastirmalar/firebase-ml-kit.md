@@ -12,7 +12,7 @@ description: Firebase ile yapay zeka modellerini kullanma
 
 ## 📺 Tanıtım Videosu
 
-{% embed url="https://www.youtube.com/watch?list=PLl-K7zZEsYLmOF\_07IayrTntevxtbUxDL&v=ejrn\_JHksws" %}
+{% embed url="https://www.youtube.com/watch?list=PLl-K7zZEsYLmOF_07IayrTntevxtbUxDL&v=ejrn_JHksws" %}
 
 {% hint style="warning" %}
 📢 Konsepti anlamak için tanıtım videosunu izlemek önem arz etmektedir.
@@ -29,4 +29,3 @@ description: Firebase ile yapay zeka modellerini kullanma
 {% hint style="success" %}
 🚀 Temiz kodlama için [ML-Kit Interface](https://github.com/firebase/quickstart-android/tree/master/mlkit/app/src/main/java/com/google/firebase/samples/apps/mlkit/common) yapısına bakılması faydalıdır.
 {% endhint %}
-

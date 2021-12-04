@@ -2,7 +2,7 @@
 description: Visual Studio Code eklentileri olan VSIX yazılımlarını programlama
 ---
 
-# 🧩 Eklenti Programlama \| VS Code
+# 🧩 Eklenti Programlama | VS Code
 
 ## 🧱 Temel Gereksinimler
 
@@ -37,7 +37,7 @@ Manuel veya komut istemi üzerinden [VS Code Marketplace](https://marketplace.vi
 
 ### 🤖 Otomatik Yükleme
 
-* Otomatik olarak yüklemek için ID değeriniz yoksa, [🔑 Token Oluşturma](notion://www.notion.so/@yemreak/s/lib/~/drafts/-M9F1K1mY5em5FBTPTjC/uygulamalar/vs-code/vsix#token-olusturma) adımından token oluşturun
+* Otomatik olarak yüklemek için ID değeriniz yoksa, [🔑 Token Oluşturma](notion://www.notion.so/@yemreak/s/lib/\~/drafts/-M9F1K1mY5em5FBTPTjC/uygulamalar/vs-code/vsix#token-olusturma) adımından token oluşturun
 * `vsce login <id>` komutu ve token ID değeriniz ile giriş yapın
 * Package json'u [📜 Package JSON Örneği](https://www.notion.so/VSIX-Programlama-4602a3468a8a4478a7addb6b74e91a1f#1ba0ff2ce7f240199dad8bcdb41eb3fa) gibi ayarların
 * `vsce publish` ile eklentiyi [VsCode Marketplace](https://marketplace.visualstudio.com/manage/publishers/)'e gönderebilirsiniz
@@ -49,14 +49,14 @@ Manuel veya komut istemi üzerinden [VS Code Marketplace](https://marketplace.vi
 
 ## 🔑 Token Oluşturma
 
-* Öncelikle [buradan](https://dev.azure.com/yedhrab/_usersSettings/tokens) token oluşturmanız gerekmekte
-* `New Token` -&gt; `Organization` -&gt; `All accessiable organization` ****kısmını seçin
+* Öncelikle [buradan](https://dev.azure.com/yedhrab/\_usersSettings/tokens) token oluşturmanız gerekmekte
+* `New Token` -> `Organization` -> `All accessiable organization` **** kısmını seçin
 * `Scopes` altında `Marketplace` kısmından `Acquire` ve `Manage` kutucuklarını seçin
 * Token oluşturup, verilen **ID** değerini kopyalayın
 
 ## 📜 Package JSON Örneği
 
-```text
+```
 {
   "publisher": "Buraya vsce ile girdiğiniz hesabı yazın",
   "icon": "resim yolu",
@@ -73,4 +73,3 @@ Manuel veya komut istemi üzerinden [VS Code Marketplace](https://marketplace.vi
 
 * [VS Code Publishing Extension](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 * [VS Code Eklentileri Sık Sorulan Sorular](https://code.visualstudio.com/api/%3Eworking-with-extensions/publishing-extension#common-questions)
-

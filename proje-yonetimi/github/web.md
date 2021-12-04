@@ -2,7 +2,7 @@
 description: Web üzerinden GitHub kullanımı
 ---
 
-# 🌍 Web İşlemleri \| GitHub
+# 🌍 Web İşlemleri | GitHub
 
 ## ❔ Neden Web Ortamında İşlem Yapayım
 
@@ -18,14 +18,16 @@ description: Web üzerinden GitHub kullanımı
 
 Online ortamda projelerini VsCode altyapısını kullanan Gitpod ile açabilirsin.
 
-* Öncelikle [Gitpod](https://www.gitpod.io/) üzerinden kayıt olun
+* Öncelikle [Gitpod](https://www.gitpod.io) üzerinden kayıt olun
 * Ardından [Gitpod Chrome](https://chrome.google.com/webstore/detail/gitpod-online-ide/dodmmooeoklaejobgleioelladacbeki?hl=tr) eklentisini indirin
 
 ## ⏫ Dosya Yükleme
 
 GitHub üzerine dosya yükleme işlemi videosu:
 
-{% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" caption="Dosya yükleme" %}
+{% embed url="https://www.youtube.com/watch?v=zI5G7KQ87Zk" %}
+Dosya yükleme
+{% endembed %}
 
 
 
@@ -33,13 +35,17 @@ GitHub üzerine dosya yükleme işlemi videosu:
 
 GitHub üzerinde içerik düzenleme:
 
-{% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" caption="Yazı veya içerik düzenleme" %}
+{% embed url="https://www.youtube.com/watch?v=8IZQZrFpVMI" %}
+Yazı veya içerik düzenleme
+{% endembed %}
 
 ## ✨ Fork'u Güncelleme
 
 GitHub üzerinde fork güncelleme işlemi
 
-{% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" caption="Fork güncelleme" %}
+{% embed url="https://www.youtube.com/watch?v=opIkgag6LFo" %}
+Fork güncelleme
+{% endembed %}
 
 ## 📂 Klasör Oluşturma
 
@@ -51,5 +57,4 @@ GitHub üzerinde klasör veya dizin oluşturmak için:
 * Dosyanın içine `# Dizin adı` yazın
 * `Commit New File` butonuna basın
 
-![](../../.gitbook/assets/image%20%28117%29%20%282%29%20%282%29%20%282%29%20%282%29%20%282%29.png)
-
+![](<../../.gitbook/assets/image (117) (2) (2) (2) (2) (2).png>)

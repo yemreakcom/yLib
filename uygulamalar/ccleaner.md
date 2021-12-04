@@ -8,11 +8,11 @@ description: Bilgisayar bakım aracıdır
 
 Lisans girme alanına erişmek için resimdeki adımları takip edin
 
-* 🚫 İnternetinizi kapatın 
-* [👇 Aşağıdaki]() keylerden birini kopyalayın
+* 🚫 İnternetinizi kapatın&#x20;
+* [👇 Aşağıdaki](broken-reference) keylerden birini kopyalayın
 * 💁‍ İsmi boş bırakabilirsinin
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](<../.gitbook/assets/image (115).png>)
 
 ## 🔑 Lisans Keyleri
 
@@ -39,4 +39,3 @@ Lisans girme alanına erişmek için resimdeki adımları takip edin
 * C2YW-8W94-N9Z5-E7RP-UZPC
 * C2YW-5AZQ-CAYS-924N-KZPC
 * C2YW-ZENP-W7PS-I6WY-WZPC
-

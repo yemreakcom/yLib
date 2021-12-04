@@ -19,14 +19,13 @@ px4_add_module(
 ```
 
 {% hint style="warning" %}
-📢 CMakeList dosyasının formatı [buradaki](https://github.com/PX4/Firmware/blob/v1.9.0/cmake/px4_add_module.cmake) yapıya uygun olmalıdır
+📢 CMakeList dosyasının formatı [buradaki](https://github.com/PX4/Firmware/blob/v1.9.0/cmake/px4\_add\_module.cmake) yapıya uygun olmalıdır
 {% endhint %}
 
 ## 🛫 FixedWing
 
-{% embed url="https://github.com/PX4/Firmware/blob/master/src/examples/fixedwing\_control/main.cpp" %}
+{% embed url="https://github.com/PX4/Firmware/blob/master/src/examples/fixedwing_control/main.cpp" %}
 
 ## 🔗 Ayrıntılı Açıklama
 
-{% embed url="https://dev.px4.io/v1.9.0/en/apps/hello\_sky.html" %}
-
+{% embed url="https://dev.px4.io/v1.9.0/en/apps/hello_sky.html" %}

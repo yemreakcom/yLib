@@ -1,15 +1,15 @@
 ---
-description: 'Visual Studio Code editör ayarlarını güncelleme, değiştirme veya özelleştirme'
+description: Visual Studio Code editör ayarlarını güncelleme, değiştirme veya özelleştirme
 ---
 
-# 🔨 Yapılandırma \| VS Code
+# 🔨 Yapılandırma | VS Code
 
 ## 👮‍♂️ Editör Ayarlarına Erişim
 
 Sol alt köşedeki **ayarlar simgesi**'ne tıklayarak ayarlara erişebilirsin
 
 * Sağ üst köşedeki `{}` simgesine tıklayıp JSON formatında ayarları görüntüleyebilirsin
-* Kod formatlama \(intellisense\) ayarlarına [buradan](https://code.visualstudio.com/docs/editor/intellisense) erişebilirsin
+* Kod formatlama (intellisense) ayarlarına [buradan](https://code.visualstudio.com/docs/editor/intellisense) erişebilirsin
 
 **Ayar dosyaları:**
 
@@ -25,18 +25,18 @@ Değişkenlerin kullanım şekilleri:
   * Eğer özel karakter içeriyorsa bu yöntem daha sağlıklıdır
 * `$<değişken>`
 
-| Değişken | Açıklama |
-| :--- | :--- |
-| `workspaceFolder` | Çalışma dizini yolu |
-| `file` | Açık olan dosya yolu |
-| `fullFileName` | Tam açık olan dosya yolu |
-| `pythonPath` | Python yolu |
+| Değişken          | Açıklama                 |
+| ----------------- | ------------------------ |
+| `workspaceFolder` | Çalışma dizini yolu      |
+| `file`            | Açık olan dosya yolu     |
+| `fullFileName`    | Tam açık olan dosya yolu |
+| `pythonPath`      | Python yolu              |
 
 > Tüm değişkenlere [buradan](https://code.visualstudio.com/docs/editor/variables-reference) erişebilirsin.
 
 ## 👨‍💻 Snippets
 
-![](../../.gitbook/assets/vscode_user_snippets.png)
+![](../../.gitbook/assets/vscode\_user\_snippets.png)
 
 * `$1` işareti ile `1.` olarak odaklanılacak alan belirlenir
 * `${1:default}` ile `1.` olarak odaklanılacak olan `default` isimli alan belirlenir
@@ -44,3 +44,6 @@ Değişkenlerin kullanım şekilleri:
 
 ## ✨ Faydalı Yazılar
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

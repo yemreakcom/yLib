@@ -25,7 +25,7 @@ PixHawk açık kaynak kodlu donanım olarak Stm32, yazılım olarak da ArduPilot
 ## 🎌 Faydalı Yönergeler
 
 * [Installing Ground Station (GCS) software](http://ardupilot.org/plane/docs/common-install-gcs.html)
-  * GCS olarak [🚩Mission Planner](broken-reference) kullanılacak
+  * GCS olarak [🚩Mission Planner](https://github.com/YEmreAk/YLib/blob/master/iha/pixhawk/broken-reference/README.md) kullanılacak
 * [Loading Firmware onto Pixhawk](http://ardupilot.org/plane/docs/common-loading-firmware-onto-pixhawk.html)
 * [Connect Mission Planner to AutoPilot](http://ardupilot.org/plane/docs/common-connect-mission-planner-autopilot.html)
 

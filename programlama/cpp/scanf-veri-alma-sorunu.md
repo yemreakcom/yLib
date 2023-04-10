@@ -2,17 +2,17 @@
 description: C'deki kullanıcıdan veri alma metodu olan scanf hakkında bilgiler
 ---
 
-# 💡 Scanf Veri Alma Sorunu \| C
+# 💡 Scanf Veri Alma Sorunu | C
 
 ## 🎯 Sorun Tanıyalım
 
 Bir çok kodlamada `scanf("%c",&x);` şeklinde veri talebinde bulunuyoruz. Bu verileri kullanıcıdan talep ederken eğer kullanıcı satır atlatıcı tuşa bastığında ENTER art arda olan scanf fonksiyonlarında girdi almada problemler oluşuyor.
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](<../../.gitbook/assets/image (13).png>)
 
 Örneğin yukarıdaki koddaki gibi bir scanf kullanımında, kullanıcı sırasıyla `'a'`, `'b'`, `'c'` verilerini girmiş olsun. `x`, `y` ,`z` 'yi ayrı ayrı ekrana bastığımızda çıktı şu şekilde olacaktır:
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](<../../.gitbook/assets/image (85).png>)
 
 ## 🤔 Neden Veri Almada Sorun Var
 
@@ -28,7 +28,7 @@ Programa `'a'` yazıp ENTER'a bastığımız zaman:
 
 Çözüm oldukça basit. `scanf`'lerin içine `"%c"` yerine `" %c"` yazmak. Bu sayede fonksiyon SPACE, ENTER gibi özel karakterleri girdi olarak algılamıyor.
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](<../../.gitbook/assets/image (8) (1).png>)
 
 ## 😕 Ya Bu %20s'in Olayı Nedir
 
@@ -40,5 +40,4 @@ Yazdırılacak olan **string** değeri için **20 karakterlik** bir alan ayırı
 
 Önceki kullanım ile aynı şekilde 20 karakterlik bir alan ayırmakta lakin bu sefer çıktı, ayrılan alanın **soluna dayalı** şekilde yazılmakta.
 
-![](../../.gitbook/assets/image%20%28111%29.png)
-
+![](<../../.gitbook/assets/image (111).png>)

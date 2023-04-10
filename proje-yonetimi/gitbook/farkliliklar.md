@@ -10,7 +10,7 @@ description: GitBook'u GitHub'tan farklı kılan yönler.
 * 📑 **Online editörü** ile markdown yazmakla uğraşmana gerek kalmaz
 * ✨ Dokümanlarını **daha görsel** bir arayüzde sunarsın
 * 📂 **Tab yapısı** ile birden fazla notu daha görsel bir arayüzle sunabilirsin, üstelik arama özelliği ile
-* 🎴 [**Embed**](https://docs.gitbook.com/editing-content/embeds) **** destekleri sayesinde **📺 video, 📃 makale, 👨‍💻 gist hatta 🎶 müzik** bile paylaşabilirsin
+* 🎴 [**Embed**](https://docs.gitbook.com/editing-content/embeds) \*\*\*\* destekleri sayesinde **📺 video, 📃 makale, 👨‍💻 gist hatta 🎶 müzik** bile paylaşabilirsin
 * 💫 Kaynakları (resim, PDF vs) **GitHub üzerinden otomatik** olarak bağlamaktadır
 
 ## 💔 Desteklemedikleri
@@ -32,18 +32,32 @@ GitBook için yazmış [YPackage](https://github.com/yedhrab/YPackage#-entegrasy
 * 📑 `SUMMARY.md` ile sol kenarda gösterilen dizin yapısını düzenleme
 * 📄 `README.md`'yi otomatik olarak algılama
 * 🧮 Matematiksel formül formatı olarak bilinen `latex` formatını `$$a=1$$`
-  * 👌 `$$$$ a $$$$` yapısını da destekler&#x20;
+  * 👌 `$$$$ a $$$$` yapısını da destekler
   * 💁‍♂️ Özetle `$` yerine `$$` kullanmanız gerekmekte
 * 📜 `.bookignore` ile GitHub'dan aktarılmayacak dosyaları belirleme
 
 ## 💡 Bilmen Gerekenler
 
-* 📂 Kendi dosya linklerini  **.gitbook/assets** dizinindeki dosyalara yapılmakta
-  * URL: `{% embed url="https://www.google.com/glass/start/" %}`
-    * 2 dizin içeride olan bir dosya için yazılmıştır
-  * Dosya: `{% file src="../../.gitbook/assets/örnek.pdf" %}` şeklindedir
-  * İpucu: `{% hint style="info" %} İpucu {% endhint %}`
-  * Sayfa: `{% page-ref page="ozel-karakterli-sayfa/" %}`
+* 📂 Kendi dosya linklerini **.gitbook/assets** dizinindeki dosyalara yapılmakta
+  * URL: \`
+
+{% embed url="https://www.google.com/glass/start/" %}
+
+\` \* 2 dizin içeride olan bir dosya için yazılmıştır \* Dosya: \`
+
+\` şeklindedir \* İpucu: \`
+
+{% hint style="info" %}
+İpucu
+{% endhint %}
+
+\` \* Sayfa: \`
+
+{% content-ref url="https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/gitbook/ozel-karakterli-sayfa/README.md" %}
+[https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/gitbook/ozel-karakterli-sayfa/README.md](https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/gitbook/ozel-karakterli-sayfa/README.md)
+{% endcontent-ref %}
+
+\`
 
 ## 🔗 Harici Bağlantılar
 

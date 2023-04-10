@@ -34,13 +34,12 @@ flake8
 {% tab title="✴️ Windows" %}
 {% code title="ci\install.bat" %}
 ```bash
-python -m venv venv
-call venv\Scripts\activate.bat
-python -m pip install --upgrade pip
-python -m pip install --upgrade -r .\ci\requirements.txt
-python -m pip install --upgrade .
-call deactivate
-
+python -m venv venv
+call venv\Scripts\activate.bat
+python -m pip install --upgrade pip
+python -m pip install --upgrade -r .\ci\requirements.txt
+python -m pip install --upgrade .
+call deactivate
 ```
 {% endcode %}
 {% endtab %}
@@ -51,7 +50,6 @@ call deactivate
 python3 -m pip install --upgrade pip 
 python3 -m pip install --upgrade -r ./ci/requirements.txt
 python3 -m pip install --upgrade .
-
 ```
 {% endcode %}
 {% endtab %}
@@ -63,10 +61,9 @@ python3 -m pip install --upgrade .
 {% tab title="✴️ Windows" %}
 {% code title="ci\test.bat" %}
 ```
-call venv\Scripts\activate.bat
+call venv\Scripts\activate.bat
 pytest
-call deactivate
-
+call deactivate
 ```
 {% endcode %}
 {% endtab %}
@@ -75,7 +72,6 @@ call deactivate
 {% code title="ci/test.sh" %}
 ```
 pytest
-
 ```
 {% endcode %}
 {% endtab %}
@@ -87,10 +83,9 @@ pytest
 {% tab title="✴️ Windows" %}
 {% code title="ci/quality_test.bat" %}
 ```
-call venv\Scripts\activate.bat
-flake8 --exclude=venv* --statistics
-call deactivate
-
+call venv\Scripts\activate.bat
+flake8 --exclude=venv* --statistics
+call deactivate
 ```
 {% endcode %}
 {% endtab %}
@@ -99,7 +94,6 @@ call deactivate
 {% code title="ci/quality_test.sh" %}
 ```
 flake8 --exclude=venv* --statistics
-
 ```
 {% endcode %}
 {% endtab %}
@@ -111,10 +105,9 @@ flake8 --exclude=venv* --statistics
 {% tab title="✴️ Windows" %}
 {% code title="ci/build.bat" %}
 ```
-call venv\Scripts\activate.bat
-python setup.py sdist bdist_wheel
-call deactivate
-
+call venv\Scripts\activate.bat
+python setup.py sdist bdist_wheel
+call deactivate
 ```
 {% endcode %}
 {% endtab %}
@@ -123,7 +116,6 @@ call deactivate
 {% code title="ci/build.sh" %}
 ```
 python3 setup.py sdist bdist_wheel
-
 ```
 {% endcode %}
 {% endtab %}
@@ -138,7 +130,6 @@ python3 setup.py sdist bdist_wheel
 call venv\Scripts\activate.bat
 twine upload dist/*
 call deactivate
-
 ```
 {% endcode %}
 {% endtab %}
@@ -147,7 +138,6 @@ call deactivate
 {% code title="ci/upload.sh" %}
 ```
 twine upload dist/*
-
 ```
 {% endcode %}
 {% endtab %}
@@ -217,7 +207,6 @@ jobs:
       - name: 🧐 Python code style testing
         run: |
           ${{matrix.QUALITY_TEST}}
-
 ```
 {% endcode %}
 

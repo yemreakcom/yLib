@@ -4,7 +4,7 @@ description: >-
   eklenti veya plugin oluşturma
 ---
 
-# 🔌 Plugin Oluşturma \| JetBrains IDE
+# 🔌 Plugin Oluşturma | JetBrains IDE
 
 ## 🎈 Eklenti Projesi Açma
 
@@ -14,10 +14,10 @@ description: >-
 
 > 💁‍♂️ İsterseniz yeni Gradle olan `Kotlin DSL`'i de kullanabilirsiniz
 
-![](../../.gitbook/assets/intellij_new_project.png)
+![](../../.gitbook/assets/intellij\_new\_project.png)
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Creating a Gradle-Based IntelliJ Platform Plugin with New Project Wizard](https://www.jetbrains.org/intellij/sdk/docs/tutorials/build_system/prerequisites.html#creating-a-gradle-based-intellij-platform-plugin-with-new-project-wizard) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [Creating a Gradle-Based IntelliJ Platform Plugin with New Project Wizard](https://www.jetbrains.org/intellij/sdk/docs/tutorials/build\_system/prerequisites.html#creating-a-gradle-based-intellij-platform-plugin-with-new-project-wizard) alanına bakabilirsin.
 {% endhint %}
 
 ## 👨‍💼 Tema Yönetimi
@@ -25,12 +25,12 @@ description: >-
 * 🔨 En son eklenen tema, eklenti indirildiği zaman varsayılan olarak seçilir
 * ⭐ Varsayılan olmasını istediğiniz temanızı plugin.xml içerisindeki extensions bloğu içerisindeki en alta getirin
 
-![](../../.gitbook/assets/theme_edit_button.png)
+![](../../.gitbook/assets/theme\_edit\_button.png)
 
 ## ✨ Plugin Oluşturma
 
-* 🏗️ Eklentiyi oluşturmadan önce [👨‍💻 Plugin Structure](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure.html) alanına bakmanda fayda var
-* 🔨 Plugin yapılandırma ayarları için [👨‍💻 Plugin Configuration File](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_configuration_file.html) alanına bakmalısın
+* 🏗️ Eklentiyi oluşturmadan önce [👨‍💻 Plugin Structure](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin\_structure.html) alanına bakmanda fayda var
+* 🔨 Plugin yapılandırma ayarları için [👨‍💻 Plugin Configuration File](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin\_structure/plugin\_configuration\_file.html) alanına bakmalısın
 * 🤝 Plugin tüm platformlarda olması için `plugin.xml` dosyana `since-build` eklemen gerekir
 * 🖼️ Resim gösterme işlemleri için online URL'ler kullanmalısınız, yerel resimlere erişemez
 
@@ -96,7 +96,7 @@ tasks.getByName
 {% endtab %}
 {% endtabs %}
 
-![](../../.gitbook/assets/jetbrain_build_plugin.png)
+![](../../.gitbook/assets/jetbrain\_build\_plugin.png)
 
 ## 🛰️ Plugin'i Yayınlama
 
@@ -107,7 +107,6 @@ tasks.getByName
 {% tab title="🎃 Kotlin DSL" %}
 {% code title="build.gradle.kts" %}
 ```groovy
-
 tasks.publishPlugin {
     token("TOKEN BİLGİSİ")
 }
@@ -117,7 +116,7 @@ tasks.publishPlugin {
 {% endtabs %}
 
 {% hint style="info" %}
-‍🧙‍♂ Detaylı bilgi için [Project Setup](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin_structure/plugin_dependencies.html#project-setup) alanına bakabilirsin.
+‍🧙‍♂ Detaylı bilgi için [Project Setup](https://www.jetbrains.org/intellij/sdk/docs/basics/plugin\_structure/plugin\_dependencies.html#project-setup) alanına bakabilirsin.
 {% endhint %}
 
 ## 🐞 Hata Notları
@@ -134,16 +133,15 @@ tasks.publishPlugin {
 
 ## 🔗​ Faydalı Bağlantılar
 
-* [📖 Gradle ile Eklenti Oluşturma \(Tavsiye Edilir\)](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started.html#using-gradle)
-* [📖 IntelliJ Platform based products of recent IDE version](https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html#intellij-platform-based-products-of-recent-ide-versions)
-* [📖​ Creating Custom UI Themes](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes.html)
-* [📖 Customizing UI Themes - Icons and UI Controls](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_customize.html)
-* [📖​ UI Themes - Editor Schemes and Background Images](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/ui_themes/themes_extras.html)\*\*\*\*
-* [📖​ Enabling Internal Mode](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/internal_actions/enabling_internal.html)
-* [**📖** Internal Actions - LaF Defaults](https://www.jetbrains.org/intellij/sdk/docs/reference_guide/internal_actions/internal_ui_lafd.html) ****
+* [📖 Gradle ile Eklenti Oluşturma (Tavsiye Edilir)](https://www.jetbrains.org/intellij/sdk/docs/basics/getting\_started.html#using-gradle)
+* [📖 IntelliJ Platform based products of recent IDE version](https://www.jetbrains.org/intellij/sdk/docs/basics/getting\_started/build\_number\_ranges.html#intellij-platform-based-products-of-recent-ide-versions)
+* [📖​ Creating Custom UI Themes](https://www.jetbrains.org/intellij/sdk/docs/reference\_guide/ui\_themes/themes.html)
+* [📖 Customizing UI Themes - Icons and UI Controls](https://www.jetbrains.org/intellij/sdk/docs/reference\_guide/ui\_themes/themes\_customize.html)
+* [📖​ UI Themes - Editor Schemes and Background Images](https://www.jetbrains.org/intellij/sdk/docs/reference\_guide/ui\_themes/themes\_extras.html)\*\*\*\*
+* [📖​ Enabling Internal Mode](https://www.jetbrains.org/intellij/sdk/docs/reference\_guide/internal\_actions/enabling\_internal.html)
+* [**📖** Internal Actions - LaF Defaults](https://www.jetbrains.org/intellij/sdk/docs/reference\_guide/internal\_actions/internal\_ui\_lafd.html) \*\*\*\*
 * [📃 Gradle IntelliJ Plugin](https://github.com/JetBrains/gradle-intellij-plugin/)
 
 {% hint style="success" %}
-🚀 Bu alandaki bağlantılar [YEmoji ~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
+🚀 Bu alandaki bağlantılar [YEmoji \~Bağlantılar](https://emoji.yemreak.com/kullanim/baglantilar) yapısına uygundur
 {% endhint %}
-

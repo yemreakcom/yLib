@@ -15,9 +15,9 @@ Programlama işlerindeki projelerin yönetimi için kaçınılmaz bir teknolojid
 
 ## 🌆 Git Kullanım Senaryosu
 
-* İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](broken-reference) edilir.
-* Her yenilik için **değişikliği açıklayan yorumla birlikte** ayrı ayrı [commit](broken-reference) yapılır.
-* Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch](broken-reference) oluşturulur.
+* İşleme başlamadan önce üzerinde çalışılacak projenin aslı [pull](https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/git/broken-reference/README.md) edilir.
+* Her yenilik için **değişikliği açıklayan yorumla birlikte** ayrı ayrı [commit](https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/git/broken-reference/README.md) yapılır.
+* Eğer farklı alanda değişiklikler yapılıyor ise yeni bir [branch](https://github.com/YEmreAk/YLib/blob/master/proje-yonetimi/git/broken-reference/README.md) oluşturulur.
   * Yeni branch kontrol edildikten sonra orjinal (master) branch'ine dahil edilir. ( _Alakalı:_ [_merge request_](https://docs.gitlab.com/ee/gitlab-basics/add-merge-request.html) )
   * Bu sistemle hataların orjinal projeyi bozması engellenmeye çalışılır.
 * Eğer 2 farklı alanda çalışılacakca yeni branch üzerinden dosyalar oluşturulmalı

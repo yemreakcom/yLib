@@ -12,7 +12,7 @@ description: MySQL, SQL dilini kullanan veri tabanıdır
 | `INT`         | Tam sayı değeri tutar                | Basmak sayısı 1 için 0-9 arası   |
 | `ENUM`        | Özel değişken oluşturma              | Değerler tırnaklı olarak atanır  |
 
-> Örnekler için [değişkenler](broken-reference) kısmına bakabilirsin.
+> Örnekler için [değişkenler](https://github.com/YEmreAk/YLib/blob/master/programlama/yardimci/broken-reference/README.md) kısmına bakabilirsin.
 
 ## Where Operatörleri
 
@@ -37,7 +37,7 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 |   `SUM`   | Toplam değeri hesaplar        |
 |  `CONCAT` | Verilen metinleri birleştirir |
 
-> Örnekler için [temel fonksiyon örnekleri](broken-reference) kısmına bakabilirsin.
+> Örnekler için [temel fonksiyon örnekleri](https://github.com/YEmreAk/YLib/blob/master/programlama/yardimci/broken-reference/README.md) kısmına bakabilirsin.
 
 ## Gruplama
 
@@ -182,7 +182,7 @@ ALTER TABLE [tablo ismi] ADD COLUMN [sütun ismi] INT(1) DEFAULT 1;
 ALTER TABLE [tablo ismi] ADD COLUMN [sütun ismi] ENUM('0', '1') DEFAULT '0';
 ```
 
-> Yönelmek için [veri tipleri](broken-reference) linkine tıklayabilirsin.
+> Yönelmek için [veri tipleri](https://github.com/YEmreAk/YLib/blob/master/programlama/yardimci/broken-reference/README.md) linkine tıklayabilirsin.
 
 ### Temel Fonksiyon Örnekleri
 
@@ -194,7 +194,7 @@ SELECT COUNT(*) FROM Ogrenci;
 SELECT ... WHERE CONCAT("product_id=", "208") = "product_id=208";
 ```
 
-> Yönelmek için [temel fonksiyonlar](broken-reference) yazısına bakabilirsin.
+> Yönelmek için [temel fonksiyonlar](https://github.com/YEmreAk/YLib/blob/master/programlama/yardimci/broken-reference/README.md) yazısına bakabilirsin.
 
 ### Karma MySQL sorgusu örnekleri
 

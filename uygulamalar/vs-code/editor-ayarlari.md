@@ -44,6 +44,6 @@ Değişkenlerin kullanım şekilleri:
 
 ## ✨ Faydalı Yazılar
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="https://github.com/YEmreAk/YLib/blob/master/uygulamalar/vs-code/broken-reference/README.md" %}
+[https://github.com/YEmreAk/YLib/blob/master/uygulamalar/vs-code/broken-reference/README.md](https://github.com/YEmreAk/YLib/blob/master/uygulamalar/vs-code/broken-reference/README.md)
 {% endcontent-ref %}

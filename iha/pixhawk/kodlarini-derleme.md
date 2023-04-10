@@ -53,7 +53,7 @@ pip install catkin_pkg numpy toml empy
 PixHawk VsCode üzerinden düzenlenebilecek şekilde Firmware kodlarını oluşturmuştur.
 
 * VsCode'u Windows'a indirin
-* Ubuntu'yu terminale `ubuntu`  yazıp veya arama yerinde aratıp açabilirsiniz
+* Ubuntu'yu terminale `ubuntu` yazıp veya arama yerinde aratıp açabilirsiniz
 * Ubuntu üzerinden Firmware dizininde `code .` yazarak VsCode ile kaynak kodları açın
 
 {% hint style="success" %}
@@ -76,7 +76,7 @@ VsCode yüklü ise terminalden `code .` komutu ile projeyi remote olarak VsCode 
 ![](<../../.gitbook/assets/image (109).png>)
 
 {% hint style="warning" %}
-📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu](broken-reference) alanındaki paketleri kurduğunuzdan emin olun
+📢 Build ederken herhangi bir sorunla karşılaştığınızda [📦 Gerekli Paketlerin Kurulumu](https://github.com/YEmreAk/YLib/blob/master/iha/pixhawk/broken-reference/README.md) alanındaki paketleri kurduğunuzdan emin olun
 {% endhint %}
 
 ## 🔗 Ayrıntılı Açıklamalar

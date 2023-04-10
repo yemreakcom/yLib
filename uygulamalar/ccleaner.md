@@ -8,8 +8,8 @@ description: Bilgisayar bakım aracıdır
 
 Lisans girme alanına erişmek için resimdeki adımları takip edin
 
-* 🚫 İnternetinizi kapatın&#x20;
-* [👇 Aşağıdaki](broken-reference) keylerden birini kopyalayın
+* 🚫 İnternetinizi kapatın
+* [👇 Aşağıdaki](https://github.com/YEmreAk/YLib/blob/master/uygulamalar/broken-reference/README.md) keylerden birini kopyalayın
 * 💁‍ İsmi boş bırakabilirsinin
 
 ![](<../.gitbook/assets/image (115).png>)

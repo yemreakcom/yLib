@@ -1,7 +1,7 @@
 # 📋 Tüm İçerikler
 
 * [📖 Kişisel Kütüphanem](./)
-* [👀 Neler değişti](CHANGELOG.md)
+* [👀 Neler değişti](https://github.com/YEmreAk/YLib/blob/master/CHANGELOG.md)
 * [📋 Tüm İçerikler](summary.md)
 * [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
@@ -181,8 +181,8 @@
   * [🚩 Mission Planner](iha/mission-planner.md)
 * [🌞 Günlük Hayat Notları](gunluk-hayat/)
   * [🎨 Boyama](gunluk-hayat/boyama.md)
-  * [🧺 Çamaşır Makinesi](broken-reference)
-  * [🤝 İŞKUR](broken-reference)
+  * [🧺 Çamaşır Makinesi](https://github.com/YEmreAk/YLib/blob/master/broken-reference/README.md)
+  * [🤝 İŞKUR](https://github.com/YEmreAk/YLib/blob/master/broken-reference/README.md)
 * [🌄 Düzensiz Notlar](duzensiz.md)
 
 ## Tüm Kişisel Notlarım

@@ -6,7 +6,7 @@ description: Protobuf deyimi ve neden kullanılması gerektiği
 
 ## Nedir
 
-* Sınıf[\*](broken-reference) yapısı ile verileri tutmamızı sağlar
+* Sınıf[\*](https://github.com/YEmreAk/YLib/blob/master/uygulamalar/broken-reference/README.md) yapısı ile verileri tutmamızı sağlar
 * Hızlıdır ve az kod yazdırır
 * Google geliştiricileri tarafından desteklendiğinden süreklilir ve yenilik vaad eder
 
@@ -15,7 +15,7 @@ description: Protobuf deyimi ve neden kullanılması gerektiği
 * Verilerin insan tarafından okunabilir olması gerekirse
 * Servisin verileri web tarayıcısı tarafından doğrudan işleniyorsa
 * Sunucu kısmı javascript ile yazıldıysa
-* Verileri sınıf[\*](broken-reference) yapısına bağlamak için hazır değilseniz
+* Verileri sınıf[\*](https://github.com/YEmreAk/YLib/blob/master/uygulamalar/broken-reference/README.md) yapısına bağlamak için hazır değilseniz
 * Bant genişliğiniz başka araç eklemeye izin vermiyorsa
 * Farkı türde bir servis kullanmanın yükü çok fazla ise
 

@@ -2,8 +2,7 @@
 
 * [📖 Kişisel Kütüphanem](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/YLib/blob/master/CHANGELOG.md)
-* [📋 Tüm İçerikler](summary.md)
-* [👨‍🏫 Öğrenme Yolları](ogrenme-yollari.md)
+* [🧑🏫 Öğrenme Yolları](ogrenme-yollari.md)
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Yazılarım](yazilarim/README.md)

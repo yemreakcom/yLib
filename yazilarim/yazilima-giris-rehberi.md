@@ -76,6 +76,7 @@ Python ve Javascript dillerini tavsiye edilmektedir ama ben Python’ı kişisel
 * [📃 Real Python](https://realpython.com/) Kod örnekleri ve alıştırmalar öğreten
 * [📃 Data Flair Training](https://data-flair.training/blogs/python-tutorials-home/), Beginner → Intermadiate → Advanced sırasında eğitim
 * [📃 Python Öğrenme Kaynakları Toplama Çalışması](https://medium.com/python-programlama-dili/python-%C3%B6%C4%9Frenme-kaynaklar%C4%B1-toplama-%C3%A7al%C4%B1%C5%9Fmas%C4%B1-b17e0f7f3d49)
+* [🕊️ Twitter üzerindeki Harvard Üniversitesi ücretsiz kursları paylaşımı](https://twitter.com/alitekintr/status/1651660891211833358)
 
 ### 🚀 Başlangıç Sonrası
 

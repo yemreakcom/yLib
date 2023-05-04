@@ -9,7 +9,7 @@ description: >-
 
 ## 🔰 Projeye Bakış
 
-* YouTube videosu upload edildikten sonra buraya eklenecetkir...
+{% embed url="https://youtu.be/Svr6cMbAOEA" %}
 
 <figure><img src="../.gitbook/assets/SCR-20230504-moin.png" alt=""><figcaption></figcaption></figure>
 

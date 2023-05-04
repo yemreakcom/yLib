@@ -9,6 +9,10 @@ description: >-
 
 ## 🔰 Projeye Bakış
 
+{% hint style="info" %}
+Yüksek kaliteli hali **8 saat içerisinde** işlenecektir... 4 May 2023 16:54:41
+{% endhint %}
+
 {% embed url="https://youtu.be/Svr6cMbAOEA" %}
 
 <figure><img src="../.gitbook/assets/SCR-20230504-moin.png" alt=""><figcaption></figcaption></figure>

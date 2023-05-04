@@ -13,6 +13,10 @@ description: >-
 Youtube videosu 24 saat içerisinde gelecektir...
 {% endhint %}
 
+{% embed url="https://youtu.be/wdbwkXll7Yw" %}
+
+<figure><img src="../.gitbook/assets/SCR-20230504-ucdn.png" alt="" width="563"><figcaption></figcaption></figure>
+
 💥 Python ve Selenium kullanarak CoinMarketCap'ten herhangi bir kripto para borsasının bilgilerini nasıl çekeceğinizi ve bu verileri CSV dosyasına nasıl kaydedeceğinizi öğreneceksiniz. Aşağıda kullanılacak kütüphaneler ve gerekli modüller bulunmaktadır:
 
 📘 Kütüphaneler ve Modüller:
@@ -36,8 +40,6 @@ Akademik Sistem: Türkiye (Turkey)
 Seviye: Orta (Intermediate)
 
 Sınav, Kurs veya Standart: Web Veri Çekme ve İşleme (Web Data Extraction and Processing)
-
-<figure><img src="../.gitbook/assets/SCR-20230504-ucdn.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## 📜 Kaynak Kodu
 

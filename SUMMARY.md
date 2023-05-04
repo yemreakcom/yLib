@@ -6,6 +6,7 @@
 * [🚀 Emoji Sözlüğüm](emoji-sozlugum.md)
 * [💖 Katkıda Bulunma Rehberi](contributing.md)
 * [✍ Yazılarım](yazilarim/README.md)
+  * [💵 CoinMarketCap'ten Exchange için Currency Bilgilerini Çekme ve CSV'ye Kaydetme](yazilarim/coinmarketcapten-exchange-icin-currency-bilgilerini-cekme-ve-csvye-kaydetme.md)
   * [🕵♂ CoinMarketCap'ten Exchange Bilgilerini Çekme ve CSV'ye Kaydetme](yazilarim/coinmarketcapten-exchange-bilgilerini-cekme-ve-csvye-kaydetme.md)
   * [👨🏫 ChatGPT modelini verilerimizle eğitmek](yazilarim/chatgpt-modelini-verilerimizle-egitmek.md)
   * [🪖 Bedelli Askerlik için Bilmemiz Gerekenler](yazilarim/bedelli-askerlik-icin-bilmemiz-gerekenler.md)

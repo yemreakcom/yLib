@@ -27,16 +27,6 @@ description: >-
 
 Etiketler: #python #selenium #coinmarketcap #exchange #web\_scraping #csv #veri\_çekme #veri\_işleme #web\_otomasyon #kripto\_para #kripto\_borsaları #coding #programming #developer #programmer #code
 
-Category: Eğitim (Education)
-
-Type: Nasıl Yapılır (How-to)
-
-Akademik Sistem: Türkiye (Turkey)
-
-Seviye: Orta (Intermediate)
-
-Sınav, Kurs veya Standart: Web Veri Çekme ve İşleme (Web Data Extraction and Processing)
-
 ## 📜 Kaynak Kodu
 
 ```python

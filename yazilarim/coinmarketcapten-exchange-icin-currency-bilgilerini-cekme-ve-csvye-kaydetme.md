@@ -9,11 +9,7 @@ description: >-
 
 ## 🔰 Proje Hakkında
 
-{% hint style="info" %}
-Youtube videosu 24 saat içerisinde gelecektir...
-{% endhint %}
-
-{% embed url="https://youtu.be/wdbwkXll7Yw" %}
+{% embed url="https://www.youtube.com/watch?v=wdbwkXll7Yw" %}
 
 <figure><img src="../.gitbook/assets/SCR-20230504-ucdn.png" alt="" width="563"><figcaption></figcaption></figure>
 

@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [✨ pip ile requirements paketlerini güncelleme](yazilarim/pip-ile-requirements-paketlerini-guencelleme.md)
   * [👨💼 pyenv ve virtualenv ile birden fazla python sürümü yönetimi](yazilarim/pyenv-ve-virtualenv-ile-birden-fazla-python-sueruemue-yoenetimi.md)
   * [🌌 virtualenv ile sanal ortamlarda çalışmak](yazilarim/virtualenv-ile-sanal-ortamlarda-calismak.md)
   * [🧠 Beyin Kimyasının Gücü: Mutluluk ve Stres Hormonları](yazilarim/beyin-kimyasinin-guecue-mutluluk-ve-stres-hormonlari.md)

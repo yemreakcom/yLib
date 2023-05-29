@@ -13,12 +13,16 @@ description: >-
 * Genel olarak ilgi alanlarım; yazılım, psikoloji, felsefe, insanı tanıma vb. hususlar olduğunda bu alanlar öncelikli olacaktır
 
 {% hint style="info" %}
-Eski ziyaretçilerim için; yeni notlarım artık burada "yazılarım" altında derlenecektir
+Eski ziyaretçilerim için; yeni notlarım artık  "lib.yemreak.com/yazılarım" altında derlenecektir
 {% endhint %}
+
+{% content-ref url="yazilarim/" %}
+[yazilarim](yazilarim/)
+{% endcontent-ref %}
 
 ## 🔍 Notlarımda Arama
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 * Site üzerinde çok fazla veri olacağından sol yukarıdaki arama butonunu kullanmanızı öneririm
 * ⌘K kısayolu ile de aramayı aktif edebilirsiniz

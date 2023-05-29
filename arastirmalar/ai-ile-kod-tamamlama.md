@@ -4,6 +4,10 @@ description: Yapay zeka destekli kod önerisi uygulması TabNine hakkında
 
 # 🤖 AI ile Kod Tamamlama
 
+{% hint style="info" %}
+GitHub Copilot'u öneririm!
+{% endhint %}
+
 ## 🔰 TabNine'ı Tanıyalım
 
 * 🌍 Web sitesine [buradan](https://tabnine.com/) erişebilirsin
@@ -24,4 +28,3 @@ description: Yapay zeka destekli kod önerisi uygulması TabNine hakkında
 ## 🔗 Faydalı Bağlantılar
 
 * [📃 Deep TabNine: A Powerful AI Code Autocompleter For Developers](https://medium.com/syncedreview/deep-tabnine-a-powerful-ai-code-autocompleter-for-developers-70454a5953fe)
-

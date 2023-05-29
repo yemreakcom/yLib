@@ -1,11 +1,10 @@
 ---
 description: >-
-  🌎 Yunus Emre AK ~ YEmreAk'ın (@yedhrab) bilgi dünyasının dijital ortamda
-  vücut bulmuş hali 🚀 Konular: öğrenme, python, yapay zeka, veri bilimi,
-  windows, android, iuce ders notları, git, web, java
+  yEmreAk.com'un kısaca tanıtımı ve nasıl kullanılması gerektiğine dair
+  yönelendirmeler
 ---
 
-# 📖 Kişisel Kütüphanem
+# ✨ Hoş Geldiniz
 
 ## 🎙️ Merhabalar
 
@@ -19,7 +18,7 @@ Eski ziyaretçilerim için; yeni notlarım artık burada "yazılarım" altında 
 
 ## 🔍 Notlarımda Arama
 
-<figure><img src=".gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Site üzerinde çok fazla veri olacağından sol yukarıdaki arama butonunu kullanmanızı öneririm
 * ⌘K kısayolu ile de aramayı aktif edebilirsiniz

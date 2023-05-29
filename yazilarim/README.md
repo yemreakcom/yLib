@@ -4,5 +4,5 @@ description: >-
   kişisel yayınlarım
 ---
 
-# ✍ Yazılarım
+# 📖 Yazılarım
 

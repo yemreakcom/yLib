@@ -8,18 +8,18 @@ description: >-
 
 ## 🔰 Firebase Nedir?
 
-* 🌄 Backend as a Service \(BaaS\) mantığı ile çalışan arka plan servisidir.
+* 🌄 Backend as a Service (BaaS) mantığı ile çalışan arka plan servisidir.
 * 🗂️ Gerçek zamanlı veri tabanıdır
 * 📂 Dosya sistemidir
 * 👮‍♂️ Kimlik belirleme hizmetidir
-* 🌍 Sunucu \(hosting\)
+* 🌍 Sunucu (hosting)
 
 ## 📋 Diğer Firebase Hizmetleri
 
-* ⚙️ Uzaktan yapılandırma \(Remote Config\)
-* 🔔 Bildirimler \(Notifications\)
-* 🔗 Dinamik bağlantılar \(Dynamic Links\)
-* 🖼️ Reklam hizmeti \(AdMob\)
+* ⚙️ Uzaktan yapılandırma (Remote Config)
+* 🔔 Bildirimler (Notifications)
+* 🔗 Dinamik bağlantılar (Dynamic Links)
+* 🖼️ Reklam hizmeti (AdMob)
 * 🧪 Test Lab
 * 🧱 Crash
 
@@ -30,7 +30,7 @@ description: >-
 * 💫 API hizmeti
 * 👮‍♂️ Veri parçaları seviyesinde güvenlik
 * ⛅ Google Cloud Storage ile dosya depolama
-* 🌍 Statik dosya sunumu \(hosting\)
+* 🌍 Statik dosya sunumu (hosting)
 * 🌊 Uygulamalar için ölçeklenebilir veri akışı
 * 🚀 Hazır gelen altyapı
 
@@ -47,4 +47,3 @@ description: >-
 * 🤖 Hazır Google Cloud modellerini ücretsiz kullanıma sunmaktadır
 * 🚀 Kendi modellerimizi aktarmamıza ve onları kullanmamıza olanak sağlamaktadır
 * 🌍 Hem online hem internet erişimi olmadan çalışmaktadır
-

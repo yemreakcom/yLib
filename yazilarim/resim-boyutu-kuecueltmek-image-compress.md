@@ -13,3 +13,5 @@ description: >-
 * Offline olarak da çalışır, çünkü harici bir sunucu yoktur
 * Aşırı hızlı ve verimli çalışmaktadır
 * 1000tane içeriğin aynı anda işleme alınmasını dahi destekler, denedim :D
+
+<figure><img src="../.gitbook/assets/SCR-20230607-mcib.png" alt=""><figcaption></figcaption></figure>

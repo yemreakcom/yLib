@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [🗜 Resim Boyutu Küçültmek Image Compress](yazilarim/resim-boyutu-kuecueltmek-image-compress.md)
   * [🗑 Facebook Hesabını Kalıcı Olarak Silmek](yazilarim/facebook-hesabini-kalici-olarak-silmek.md)
   * [🌴 Marcul Aurelius nasıl sakin kalıyor](yazilarim/marcul-aurelius-nasil-sakin-kaliyor.md)
   * [✨ pip ile requirements paketlerini güncelleme](yazilarim/pip-ile-requirements-paketlerini-guencelleme.md)

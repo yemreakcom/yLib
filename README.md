@@ -22,7 +22,7 @@ Eski ziyaretçilerim için; yeni notlarım artık  "lib.yemreak.com/yazılarım"
 
 ## 🔍 Notlarımda Arama
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 * Site üzerinde çok fazla veri olacağından sol yukarıdaki arama butonunu kullanmanızı öneririm
 * ⌘K kısayolu ile de aramayı aktif edebilirsiniz

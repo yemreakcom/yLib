@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [📱 iPhone’u fabrika ayarlarına döndürmek, beta sürümden çıkmak](yazilarim/iphoneu-fabrika-ayarlarina-doenduermek-beta-sueruemden-cikmak.md)
   * [🕵 Lastik Alırken Dikkat Edilmesi Gerekenler](yazilarim/lastik-alirken-dikkat-edilmesi-gerekenler.md)
   * [🗜 Resim Boyutu Küçültmek Image Compress](yazilarim/resim-boyutu-kuecueltmek-image-compress.md)
   * [🗑 Facebook Hesabını Kalıcı Olarak Silmek](yazilarim/facebook-hesabini-kalici-olarak-silmek.md)

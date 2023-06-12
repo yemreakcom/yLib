@@ -48,7 +48,7 @@ pip install PyPDF2 PyCryptodome
 
 <figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > `API` kalan kullanımlarınızı [https://platform.openai.com/account/usage](https://platform.openai.com/account/usage) alanından görebilrisiniz
 
@@ -129,7 +129,7 @@ iface.launch(share=True)
 
 * Kapatmak için ⌃C yani Ctrl C kısayolunu kullanın
 
-<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 🌍 Local hosttaki websiteniz aşağıdaki gibi gözükecektir
 

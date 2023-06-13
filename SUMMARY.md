@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [⏩ Gmail iletilerini otomatik olarak başka bir hesaba iletme](yazilarim/gmail-iletilerini-otomatik-olarak-baska-bir-hesaba-iletme.md)
   * [🖼 iCloud üzerinden resimleri meta data (tüm bilgileri) ile indirme](yazilarim/icloud-uezerinden-resimleri-meta-data-tuem-bilgileri-ile-indirme.md)
   * [📱 iPhone’u fabrika ayarlarına döndürmek, beta sürümden çıkmak](yazilarim/iphoneu-fabrika-ayarlarina-doenduermek-beta-sueruemden-cikmak.md)
   * [🕵 Lastik Alırken Dikkat Edilmesi Gerekenler](yazilarim/lastik-alirken-dikkat-edilmesi-gerekenler.md)

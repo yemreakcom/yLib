@@ -8,12 +8,11 @@ description: >-
 
 ## 📕 Çalışma Notlarım
 
-![PDF i&#xE7;eri&#x11F;i](../.gitbook/assets/image%20%28114%29.png)
+![PDF içeriği](<../.gitbook/assets/image (124).png>)
 
-{% file src="../.gitbook/assets/mobil-telefonlar-nasil-haberlesir.pdf" %}
+{% file src="../.gitbook/assets/Mobil Telefonlar Nasıl Haberleşir.pdf" %}
 
 ## 🔗 Harici Bağlantılar
 
-* [How WiFi and Cell Phones Work \| Wireless Communication Explained](https://www.youtube.com/watch?v=kxLcwIMYmr0)
-* [How does your mobile phone work? \| ICT \#1](https://www.youtube.com/watch?v=1JZG9x_VOwA&feature=youtu.be)
-
+* [How WiFi and Cell Phones Work | Wireless Communication Explained](https://www.youtube.com/watch?v=kxLcwIMYmr0)
+* [How does your mobile phone work? | ICT #1](https://www.youtube.com/watch?v=1JZG9x\_VOwA\&feature=youtu.be)

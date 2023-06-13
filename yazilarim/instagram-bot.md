@@ -11,9 +11,7 @@ description: Instagram üzerinden otomatik follow / unfollow işlemleri yapan bo
 Botu `pip install yinstabot` komutu ile indirebilirsiniz.
 
 * Çalışma dizini komutun çalıştırıldığı dizindir.
-*   Kullanıcı bilgileri [🤵 sessions](https://app.gitbook.com/s/-LrcGwDVnghIgjDIIhGv/yazilarim/sessions) dizinine kaydedilir
-
-
+* Kullanıcı bilgileri [🤵 sessions](https://app.gitbook.com/s/-LrcGwDVnghIgjDIIhGv/yazilarim/sessions) dizinine kaydedilir
 
 > ✨ [Instabot](https://github.com/instagrambot/instabot) projesinden yararlanılmıştır.
 
@@ -88,7 +86,7 @@ yinstabot <accounts.json yolu>
 
 ## ⭐ Örnek Kullanım Çıktısı
 
-![](<../.gitbook/assets/image (63).png>)
+![](<../.gitbook/assets/image (101).png>)
 
 ## 🔗 Harici Bağlantılar
 

@@ -2,7 +2,7 @@
 
 ## Python ile grafik çizme ve çizgi kesişimlerini engelleme
 
-<img src="../.gitbook/assets/image (8).png" alt="" data-size="original">
+<img src="../.gitbook/assets/image (121).png" alt="" data-size="original">
 
 * `circular_layout` ile çizgilerin çakışmasını engelliyoruz
 

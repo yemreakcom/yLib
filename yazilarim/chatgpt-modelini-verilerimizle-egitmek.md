@@ -9,7 +9,7 @@ description: ChatGPT'yi kişisel verilerimizle Python ile nasıl eğitiriz ona b
 * `Article` sonrasındaki alana bilgiyi yazın
 * `Questions` sonrasındaki alana da soruyu yazın
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
 
 ## 📚 Daha büyük verilerle eğitmek
 
@@ -46,9 +46,9 @@ pip install PyPDF2 PyCryptodome
 
 ### `🔑 OpenAI API Key` yoksa, [OpenAI](https://platform.openai.com/signup) sitesinden oluşturun
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure>
 
 > `API` kalan kullanımlarınızı [https://platform.openai.com/account/usage](https://platform.openai.com/account/usage) alanından görebilrisiniz
 
@@ -129,12 +129,12 @@ iface.launch(share=True)
 
 * Kapatmak için ⌃C yani Ctrl C kısayolunu kullanın
 
-<figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 ### 🌍 Local hosttaki websiteniz aşağıdaki gibi gözükecektir
 
 * `flag` ile konuşmayı kayıt edebilirsiniz
 
-<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://beebom.com/how-train-ai-chatbot-custom-knowledge-base-chatgpt-api/" %}

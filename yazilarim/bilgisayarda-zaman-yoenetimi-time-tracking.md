@@ -4,7 +4,7 @@ description: >-
   (time tracking) üzerine notlarım
 ---
 
-# ⏳ Bilgisayarda Zaman Yönetimi \(Time Tracking\)
+# ⏳ Bilgisayarda Zaman Yönetimi (Time Tracking)
 
 ## 🗽 Açıklama
 
@@ -32,49 +32,49 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 
 {% tabs %}
 {% tab title="1" %}
-![](../.gitbook/assets/image%20%28106%29%20%281%29%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/image (106) (1) (1) (1).png>)
 {% endtab %}
 
 {% tab title="2" %}
-![](../.gitbook/assets/image%20%2848%29.png)
+![](<../.gitbook/assets/image (11).png>)
 {% endtab %}
 
 {% tab title="2.1" %}
-![](../.gitbook/assets/image%20%2887%29%20%281%29%20%281%29.png)
+![](<../.gitbook/assets/image (87) (1) (1).png>)
 {% endtab %}
 
 {% tab title="2.2" %}
-![](../.gitbook/assets/image%20%2860%29.png)
+![](<../.gitbook/assets/image (105).png>)
 {% endtab %}
 
 {% tab title="2.3" %}
-![](../.gitbook/assets/image%20%2878%29.png)
+![](<../.gitbook/assets/image (71).png>)
 {% endtab %}
 
 {% tab title="2.4" %}
-![](../.gitbook/assets/image%20%2812%29.png)
+![](<../.gitbook/assets/image (19).png>)
 {% endtab %}
 
 {% tab title="3" %}
-![](../.gitbook/assets/image%20%2810%29.png)
+![](<../.gitbook/assets/image (4).png>)
 {% endtab %}
 
 {% tab title="4" %}
-![](../.gitbook/assets/image%20%2880%29.png)
+![](<../.gitbook/assets/image (54).png>)
 {% endtab %}
 
 {% tab title="5" %}
-![](../.gitbook/assets/image%20%2846%29.png)
+![](<../.gitbook/assets/image (123).png>)
 {% endtab %}
 
 {% tab title="6" %}
-![](../.gitbook/assets/image%20%2815%29.png)
+![](<../.gitbook/assets/image (98).png>)
 {% endtab %}
 {% endtabs %}
 
 ### 🔗 Diğer Faydalı Araçlar
 
-{% embed url="https://www.quora.com/What-are-good-applications-for-collecting-statistics-on-keyboard-use" caption="" %}
+{% embed url="https://www.quora.com/What-are-good-applications-for-collecting-statistics-on-keyboard-use" %}
 
 ## 🕵️‍ Time Tracking
 
@@ -96,7 +96,7 @@ Kodlama ve tarayıcıda gezinme aktivitelerini analiz eder
 
 > Ücretsiz sürüm 7 günlük verileri gösterir
 
-![WakaTime](../.gitbook/assets/image%20%2899%29.png)
+![WakaTime](<../.gitbook/assets/image (99) (1).png>)
 
 ### 🕓 [ManicTime](https://www.manictime.com/)
 
@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
 
-![ManicTime](../.gitbook/assets/image%20%2834%29.png)
+![ManicTime](<../.gitbook/assets/image (1).png>)
 
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 
@@ -123,7 +123,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
   * İnternet bağlantısı gerektirmez
 * Verileri **JSON formatında indirmenize** olanak sağlar
 
-![ActivityWatch](../.gitbook/assets/image%20%2874%29.png)
+![ActivityWatch](<../.gitbook/assets/image (52).png>)
 
 ### ➕ [RescueTime](https://www.rescuetime.com/)
 
@@ -136,7 +136,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Uygulamalar hakkında detaylı bilgiyi sadece **pro** sürümünde vermektedir.
 
-![RescueTime](../.gitbook/assets/image%20%2853%29.png)
+![RescueTime](<../.gitbook/assets/image (76).png>)
 
 ## 😒 Beğenmediklerim
 
@@ -155,7 +155,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çeşitli entegrasyon destekleri mevcut lakin denemedim
 
-![DueFocus](../.gitbook/assets/image%20%2818%29.png)
+![DueFocus](<../.gitbook/assets/image (78).png>)
 
 ### 🅿 [Pendulums](https://pendulums.io/)
 
@@ -169,7 +169,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 * Pencere aktivitelerini takip etmiyor
 * Sadece sayaç ile takip söz konusu
 
-![Pendulums](../.gitbook/assets/image%20%28100%29.png)
+![Pendulums](<../.gitbook/assets/image (26).png>)
 
 ### 📦 Diğerleri
 
@@ -179,4 +179,3 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 **Dejavantajlar**:
 
 * Pencere aktivitelerini takip etmiyor
-

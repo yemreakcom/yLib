@@ -1,8 +1,8 @@
 ---
-description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick)'
+description: Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick)
 ---
 
-# 👨‍💻 Kodlama Notları \| Scratch
+# 👨‍💻 Kodlama Notları | Scratch
 
 ## 📢 Önemli Hususlar
 
@@ -23,9 +23,9 @@ description: 'Scratch üzerinde kodlama notları, örnekler ve ipuçları (trick
   * ❌ **Eğer - Değilse** yapısını kullanmayın, çünkü birden fazla tuşa aynı anda basılabilir
   * 😥 Tuşa basıldığında yapısını kullanırsanız **hassasiyeti iyi olmaz**
 
-![](../../.gitbook/assets/image%20%28128%29.png)
+![](<../../.gitbook/assets/image (89).png>)
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](<../../.gitbook/assets/image (85).png>)
 
 ## ⭐ Yönetim Örneği
 
@@ -33,15 +33,15 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 
 {% tabs %}
 {% tab title="🌇 Sahne" %}
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](<../../.gitbook/assets/image (28).png>)
 {% endtab %}
 
 {% tab title="🤵 Karakter" %}
-![](../../.gitbook/assets/image%20%28108%29.png)
+![](<../../.gitbook/assets/image (27).png>)
 {% endtab %}
 
 {% tab title="🔥 Mermi" %}
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](<../../.gitbook/assets/image (36).png>)
 {% endtab %}
 {% endtabs %}
 
@@ -49,5 +49,4 @@ Alttaki kodlar [Sahilde savaş düzeltilmiş](https://scratch.mit.edu/projects/3
 📢 Adlandırmalar kardeşime aittir 😅
 {% endhint %}
 
-## 
-
+##

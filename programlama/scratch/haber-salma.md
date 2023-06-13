@@ -2,7 +2,7 @@
 description: Scratch üzerinde haber salma ve haber işlemleri
 ---
 
-# 📢 Haber Salma \| Scratch
+# 📢 Haber Salma | Scratch
 
 ## 💎 Haberlerin Özellikleri
 
@@ -11,7 +11,6 @@ description: Scratch üzerinde haber salma ve haber işlemleri
 * 👨‍💼 Haberleri **ikizleri** yönetmek için kullanabilirsiniz
 * 🐞 Haberlerin dikkatsiz kullanılması ikizleri kullanışsız kılar
 
-![](../../.gitbook/assets/image%20%2884%29.png)
+![](<../../.gitbook/assets/image (45).png>)
 
-## 
-
+##

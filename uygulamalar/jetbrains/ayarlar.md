@@ -2,7 +2,7 @@
 description: JetBrains IDE için faydalı ayarlar
 ---
 
-# ⚙️ Ayarlar \| JetBrains IDE
+# ⚙️ Ayarlar | JetBrains IDE
 
 ## ⌨️ VS Code Keymap
 
@@ -33,20 +33,20 @@ description: JetBrains IDE için faydalı ayarlar
 ## 🖱️ İmleç Pozisyonu Yönetimi
 
 * 📈 İmlecin bir önceki ya da sonraki pozisyona geçmesini sağlar
-* ⚙️ `Setting` -&gt; `Keymap` -&gt; `Navigate` alanından `Back`, `Forward` değerlerine kısayol ekleyin
+* ⚙️ `Setting` -> `Keymap` -> `Navigate` alanından `Back`, `Forward` değerlerine kısayol ekleyin
 
-![](../../.gitbook/assets/jetbrains_navigate_settings.png)
+![](../../.gitbook/assets/jetbrains\_navigate\_settings.png)
 
 ## 🕵️‍♂️ Dokümantasyon Ön İzleme
 
 Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları gösterecektir.
 
-*  ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra
-* 👇  `Editor | General | Other` başlığı altında 
-* 👁️ `Show quick documentation on mouse move` kısmını seçin 
+* ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra
+* 👇 `Editor | General | Other` başlığı altında
+* 👁️ `Show quick documentation on mouse move` kısmını seçin
 * 🕐 Süreyi `500` yapın.
 
-![](../../.gitbook/assets/image%20%28104%29.png)
+![](<../../.gitbook/assets/image (97).png>)
 
 ## 💡 Parametre İpuçları
 
@@ -55,24 +55,23 @@ Fareyle kodun üzerinize geldiğinizde açıklamalarını ve dokümantasyonları
 * 🔨 `Editor -> General -> Appearance -> Show parameter hints -> Configure` alanından
 * 💁‍♂️ Don't ile başlamayanları işaretlersiniz her koşulda gösterecektir
 
-![](../../.gitbook/assets/image%20%2886%29.png)
+![](<../../.gitbook/assets/image (93).png>)
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](<../../.gitbook/assets/image (50).png>)
 
 ## 📖 Türkçe Yazım Kontrolü Tanımlama
 
-* Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/open?id=1UAGLGvwv_zLBzH7zH1oGRvYhzzP67M4k) tıklayabilirsin.
+* Dillere özgü sözlükleri indirmek için [buraya](https://drive.google.com/open?id=1UAGLGvwv\_zLBzH7zH1oGRvYhzzP67M4k) tıklayabilirsin.
 * ✲ Ctrl + ⎇ Alt + `S` yaptıktan sonra `Editor | Spelling | Dictionaries | Custom Dictionaries` başlığı altında `+` butonuna basıp `.dic` uzantılı sözlük dosyanı ekleyin.
 
 ## 🧐 Spellcheck Kaldırma
 
-* ✲ Ctrl + ⎇ Alt + `S` yaptıktan 
+* ✲ Ctrl + ⎇ Alt + `S` yaptıktan
 * `Editor | Inspection | Spelling | Typo | Process comments` ile yorum satırlarını kontrol etmesini kaldırabilirsin.
 
 ## 🔀 Git Yönetimi
 
 * `JetBrain IDE` - `Check out from Version Control` - `Git`
-  * `Url` Proje URL'idir. \(Adres çubuğunda yazan metin\)
-  * `Directory` Proje yoludur. \(projenin/konumu\)
+  * `Url` Proje URL'idir. (Adres çubuğunda yazan metin)
+  * `Directory` Proje yoludur. (projenin/konumu)
 * `Test` & `Clone`
-

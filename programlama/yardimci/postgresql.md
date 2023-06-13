@@ -1,14 +1,14 @@
 ---
-description: 'PostgreSQL, MySQL alternatifi bir veri tabanı sistemidir'
+description: PostgreSQL, MySQL alternatifi bir veri tabanı sistemidir
 ---
 
 # 🐘 PostgreSQL
 
 ## PostgreSQL Kurulumu
 
-* [Buraya](https://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe) \(x64 win\) tıklayarak _PostgreSQL_' indir.
+* [Buraya](https://get.enterprisedb.com/postgresql/postgresql-11.1-1-windows-x64.exe) (x64 win) tıklayarak _PostgreSQL_' indir.
 * Kurulumda 1. kutucuğu ve 'shell' yazan sonuncu kutucuğu seçmen yeterli
-* Şifreni unutma bağlantıda lazım olacak! \(123 yap hızlıca devam etmek için\)
+* Şifreni unutma bağlantıda lazım olacak! (123 yap hızlıca devam etmek için)
 
 ## PostgreSQL Kullanımı
 
@@ -16,7 +16,7 @@ description: 'PostgreSQL, MySQL alternatifi bir veri tabanı sistemidir'
 * Çıkan terminalde 'şifre' alanı gelene kadar 'ENTER' a bas
 * Şifreni yazdıktan sonra örnek database komutunu çalıştırabilirsin
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](<../../.gitbook/assets/image (41).png>)
 
 ## PostgreSQL Database Oluşturma
 
@@ -65,13 +65,13 @@ INSERT INTO Books VALUES (6, 'kitap6', 19);
 
 ## NetBeans'e PostgreSQL Driver'ı Ekleme
 
-* Bu [link](https://jdbc.postgresql.org/download/postgresql-42.2.5.jar) üzerinden driver'ı indir. \(İndirme engellenecek, 'sakla' demen lazım\)
-* Projeni aç \(Netbeans üzerinden\)
+* Bu [link](https://jdbc.postgresql.org/download/postgresql-42.2.5.jar) üzerinden driver'ı indir. (İndirme engellenecek, 'sakla' demen lazım)
+* Projeni aç (Netbeans üzerinden)
 * Alttaki resimde gösterdiğim şekilde .jar uzantılı dosyayı projene ekle
 
-![](../../.gitbook/assets/image%20%2883%29.png)
+![](<../../.gitbook/assets/image (53).png>)
 
-## PostgreSQL Bağlantı Kodu \(Connection String\)
+## PostgreSQL Bağlantı Kodu (Connection String)
 
 ```java
 /**
@@ -109,4 +109,3 @@ public static boolean connectPSQL() {
 * [PostgreSQL JDBC ile SQL sorgusu çalıştırma](https://jdbc.postgresql.org/documentation/81/query.html)
 * [PostgreSQL Trigger Example](https://www.postgresql.org/docs/9.2/plpgsql-trigger.html)
 * [PSQL yetki hatası çözümü](https://dba.stackexchange.com/questions/53914/permission-denied-for-relation-table)
-

@@ -12,7 +12,7 @@ Lisans girme alanına erişmek için resimdeki adımları takip edin
 * [👇 Aşağıdaki](https://github.com/YEmreAk/YLib/blob/master/uygulamalar/broken-reference/README.md) keylerden birini kopyalayın
 * 💁‍ İsmi boş bırakabilirsinin
 
-![](<../.gitbook/assets/image (115).png>)
+![](<../.gitbook/assets/image (49).png>)
 
 ## 🔑 Lisans Keyleri
 

@@ -1,10 +1,10 @@
 ---
-description: "Yazılan kodların çalışmasından sonraki en önemli özelliği verimli olmasıdır \U0001F605"
+description: Yazılan kodların çalışmasından sonraki en önemli özelliği verimli olmasıdır 😅
 ---
 
 # 📈 Verimli Programlama
 
-## 🔍 Diziden eleman bulma <a id="diziden-eleman-bulma"></a>
+## 🔍 Diziden eleman bulma <a href="#diziden-eleman-bulma" id="diziden-eleman-bulma"></a>
 
 * Dizi öncelikle sıralanır
   * Sırasız dizilerin karmaşıklığı $$O(N) = N\log(N)$$
@@ -16,19 +16,18 @@ description: "Yazılan kodların çalışmasından sonraki en önemli özelliği
   * Eleman bulunamamıştır
 * Binary arama yöntemi de oldukça hızlıdır
 
-![S&#x131;ral&#x131; vs s&#x131;ras&#x131;z arama](../../.gitbook/assets/image%20%2850%29.png)
+![Sıralı vs sırasız arama](<../../.gitbook/assets/image (91).png>)
 
-![Binary vs s&#x131;ral&#x131; ve s&#x131;ras&#x131;z](../../.gitbook/assets/image%20%2891%29.png)
+![Binary vs sıralı ve sırasız](<../../.gitbook/assets/image (113).png>)
 
-## 🎡 Tekrarlı ya da Hafıza ile Fonksiyon İşlemleri <a id="tekrarli-ya-da-hafiza-ile-fonksiyon-islemleri"></a>
+## 🎡 Tekrarlı ya da Hafıza ile Fonksiyon İşlemleri <a href="#tekrarli-ya-da-hafiza-ile-fonksiyon-islemleri" id="tekrarli-ya-da-hafiza-ile-fonksiyon-islemleri"></a>
 
-Hafıza \(_memory_\), tekrarlı işlemler \(_recursive_\) ile çalışan fonksiyonlara nazaran daha **hızlıdır**.‌
+Hafıza (_memory_), tekrarlı işlemler (_recursive_) ile çalışan fonksiyonlara nazaran daha **hızlıdır**.‌
 
-![Tekrarl&#x131; fonksyionlar](../../.gitbook/assets/image%20%2871%29.png)
+![Tekrarlı fonksyionlar](<../../.gitbook/assets/image (74).png>)
 
 ## 📦 Hazır Paketlerin Hız Avantajı
 
-Yazılım ekipleri tarafından oluşturulan paketler, optimize edildiğinden el yazımı işlemlere nazaran daha  hızlı çalışır.
+Yazılım ekipleri tarafından oluşturulan paketler, optimize edildiğinden el yazımı işlemlere nazaran daha hızlı çalışır.
 
-![Haz&#x131;r paketlerin h&#x131;z avantaj&#x131;](../../.gitbook/assets/image%20%2877%29.png)
-
+![Hazır paketlerin hız avantajı](<../../.gitbook/assets/image (55).png>)

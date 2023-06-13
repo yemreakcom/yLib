@@ -27,9 +27,9 @@ description: >-
 
 ![](../.gitbook/assets/ex\_rasp\_img\_writer.png)
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (118).png>)
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (108).png>)
 
 ## 📶 Network Üzerinden Yönetme
 

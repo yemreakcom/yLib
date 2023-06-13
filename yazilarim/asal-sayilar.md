@@ -1,26 +1,26 @@
 ---
-description: 'Matematiğin gizemli (ve havalı) üyeleri olan, asal sayıları anlatır.'
+description: Matematiğin gizemli (ve havalı) üyeleri olan, asal sayıları anlatır.
 ---
 
 # 🔢 Asal Sayılar
 
 ## ❔ Asal Sayılar Nedir?
 
-![](../.gitbook/assets/sieve_of_eratosthenes_animation.gif)
+![](../.gitbook/assets/Sieve\_of\_Eratosthenes\_animation.gif)
 
 Kendinden önceki sayıların hiç birine bölünmeyen sayılardır.
 
 * Kendinden önceki asallara bölünmeyen sayılar da denebilir
 * Her sayı, asalların çarpımı ile oluşmuştur
-* Fizikteki atomlar \(veya kuarklar\), biyolojideki genler ile kıyaslanabilir
-  * Her ikisi de \(bilinen\) en küçük yapıtaşı olarak geçmektedir
+* Fizikteki atomlar (veya kuarklar), biyolojideki genler ile kıyaslanabilir
+  * Her ikisi de (bilinen) en küçük yapıtaşı olarak geçmektedir
   * Atomları anlayarak doğayı ve kuantumu anlamaya çalışmaktayız
   * Tıp biliminin ilerlemesi de genetik haritamızın oluşturulmasıyla ilişkilidir
   * Asal sayılar da sayıların en küçük yapı taşlarıdır
 
 ## 💎 Asal Sayılar Neden Bu Kadar Önemli?
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](<../.gitbook/assets/image (57).png>)
 
 Asal sayılar ve bunların düzeni çok sık karşılaşılan bir düzendir.
 
@@ -28,13 +28,13 @@ Asal sayılar ve bunların düzeni çok sık karşılaşılan bir düzendir.
 * Asal sayıların formülü yoktur, günümüze kadar hala bulunamamıştır
   * Herhangi bir asal sayıdan sonra gelen asal sayıyı, denemek dışında bulma şansımız yok
   * Bu konu üzerine **Riemann Teoremi** yazılmış ve bunun için 1 milyon dolarlık ödül vardır
-* Herhangi bir sayıdan daha küçük asal sayıları hesaplayan **Zeta fonksiyonu** iddia edilmiş ama ispatlanamamıştır
+*   Herhangi bir sayıdan daha küçük asal sayıları hesaplayan **Zeta fonksiyonu** iddia edilmiş ama ispatlanamamıştır
 
-  \)
+    )
 
 ### 📈 Optimizasyon için Asal Sayılar
 
-Asal sayıların dağılımları ile uranyum atomunun enerji seviyelerinin dağılımı birbirinin aynısıdır \(?
+Asal sayıların dağılımları ile uranyum atomunun enerji seviyelerinin dağılımı birbirinin aynısıdır (?
 
 * Uranyum atomu düzenli olmak ve bozulmamak için mümkün olan en düşük enerji seviyesini seçmeyi amaçlar
 * Matematiğin en gizemli konularından biri olan asal sayılar neyi optimize etmektedir?
@@ -50,7 +50,7 @@ Asal sayıların dağılımları ile uranyum atomunun enerji seviyelerinin dağ�
 
 ## 📜 Asal Sayıları Bulmaya Çalışan Formüller
 
-* Fermat, Mersenne'ye yazdığı bir mektupta $$2^{2^n}  + 1$$ sayısının asal olacağını öne sürmüştür.
+* Fermat, Mersenne'ye yazdığı bir mektupta $$2^{2^n} + 1$$ sayısının asal olacağını öne sürmüştür.
   * Bu işlemin doğru olabilmesi için $$2^n - 1$$'in de asal olması lazım, ancak bu her işlem için doğru değildir.
   * Bunu test etmek için **Lucas-Lehmer** testi uygulanmaktadır
   * Testten geçen sayılar, **Mersenne Prime** olarak ele alınmaktadır
@@ -59,4 +59,3 @@ Asal sayıların dağılımları ile uranyum atomunun enerji seviyelerinin dağ�
 
 * [Asal Sayıların Gizemi Herkesi Şaşırtıyor](https://www.sabah.com.tr/galeri/teknoloji/asal-sayilarin-gizemi-herkesi-sasirtiyor)
 * [Büyük Asal Sayılar](https://sarkac.org/2018/12/buyuk-asal-sayilar/)
-

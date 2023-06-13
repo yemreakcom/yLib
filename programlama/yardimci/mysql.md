@@ -48,7 +48,7 @@ Detaylar için [buraya](https://www.tutorialspoint.com/sql/sql-operators.htm) t�
 
 > Gruplama yapılmazsa tek sorgu ekrana basılır.
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (109).png>)
 
 ## Stored Function
 
@@ -98,7 +98,7 @@ Sorgu ile ilgili detayları gösterir.
 explain SELECT * from table;
 ```
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 ## Optimizasyon
 
@@ -204,7 +204,7 @@ SELECT COUNT(if(`crr`.`return_reason_id` = 14, `crr`.`return_reason_id`, null)) 
 
 > Koşul sağlanırsa sayar.
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 ## Faydalı Kaynaklar
 

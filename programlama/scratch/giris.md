@@ -2,7 +2,7 @@
 description: Scratch hakkında temel bilgiler ve Scratch'i tanıma
 ---
 
-# 🔰 Giriş \| Scratch
+# 🔰 Giriş | Scratch
 
 ## 🎈 Nedir, Ne için Kullanılır?
 
@@ -13,5 +13,4 @@ description: Scratch hakkında temel bilgiler ve Scratch'i tanıma
 
 ## 👀 Scratch'e Bakış
 
-![](../../.gitbook/assets/image%20%2822%29.png)
-
+![](<../../.gitbook/assets/image (37).png>)

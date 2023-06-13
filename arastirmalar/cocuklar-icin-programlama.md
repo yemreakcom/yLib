@@ -20,23 +20,23 @@ Sayın [Zafer Demirkol](https://tr.linkedin.com/in/zaferdemirkol?trk=public-post
 
 ### [🐈 Scratch](https://scratch.mit.edu/)
 
-![](<../.gitbook/assets/image (102).png>)
+![](<../.gitbook/assets/image (83).png>)
 
 ### [🤺 CodeCombat](https://codecombat.com/play)
 
-![](<../.gitbook/assets/image (35) (1).png>)
+![](<../.gitbook/assets/image (94).png>)
 
 ### [👨‍🎓 Code Master](https://www.thinkfun.com/play-online/code-master/)
 
-![](<../.gitbook/assets/image (23).png>)
+![](<../.gitbook/assets/image (32).png>)
 
 ### [🤖 RoboZZle](http://www.robozzle.com/)
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 ### [🧩 Blockly](https://blockly.games/?lang=en)
 
-![](<../.gitbook/assets/image (105).png>)
+![](<../.gitbook/assets/image (38).png>)
 
 ## 🔗 Kaynaklar
 

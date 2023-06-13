@@ -29,8 +29,6 @@ GitHub üzerine dosya yükleme işlemi videosu:
 Dosya yükleme
 {% endembed %}
 
-
-
 ## ✍ Yazı veya İçerik Düzenleme
 
 GitHub üzerinde içerik düzenleme:
@@ -57,4 +55,4 @@ GitHub üzerinde klasör veya dizin oluşturmak için:
 * Dosyanın içine `# Dizin adı` yazın
 * `Commit New File` butonuna basın
 
-![](<../../.gitbook/assets/image (117) (2) (2) (2) (2) (2).png>)
+![](<../../.gitbook/assets/image (117) (2) (2) (2) (2) (2) (1).png>)

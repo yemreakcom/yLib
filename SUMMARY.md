@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [🐞 Python için ImportError: attempted relative import with no known parent package](yazilarim/python-icin-importerror-attempted-relative-import-with-no-known-parent-package.md)
   * [🔆 Macbook ekranını kapatmak ve parlaklık sınırını zorlamak](yazilarim/macbook-ekranini-kapatmak-ve-parlaklik-sinirini-zorlamak.md)
   * [⏩ Gmail iletilerini otomatik olarak başka bir hesaba iletme](yazilarim/gmail-iletilerini-otomatik-olarak-baska-bir-hesaba-iletme.md)
   * [🖼 iCloud üzerinden resimleri meta data (tüm bilgileri) ile indirme](yazilarim/icloud-uezerinden-resimleri-meta-data-tuem-bilgileri-ile-indirme.md)

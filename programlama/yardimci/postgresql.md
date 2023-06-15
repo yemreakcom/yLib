@@ -16,7 +16,7 @@ description: PostgreSQL, MySQL alternatifi bir veri tabanı sistemidir
 * Çıkan terminalde 'şifre' alanı gelene kadar 'ENTER' a bas
 * Şifreni yazdıktan sonra örnek database komutunu çalıştırabilirsin
 
-![](<../../.gitbook/assets/image (41).png>)
+![](<../../.gitbook/assets/image (41) (1).png>)
 
 ## PostgreSQL Database Oluşturma
 

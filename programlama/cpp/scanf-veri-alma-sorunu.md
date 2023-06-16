@@ -28,7 +28,7 @@ Programa `'a'` yazıp ENTER'a bastığımız zaman:
 
 Çözüm oldukça basit. `scanf`'lerin içine `"%c"` yerine `" %c"` yazmak. Bu sayede fonksiyon SPACE, ENTER gibi özel karakterleri girdi olarak algılamıyor.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## 😕 Ya Bu %20s'in Olayı Nedir
 

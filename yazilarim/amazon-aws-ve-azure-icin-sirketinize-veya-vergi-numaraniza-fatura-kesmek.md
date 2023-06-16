@@ -9,7 +9,7 @@ Bu işlem geçmiş faturalarınızı etkilemez, gelecekteki faturalarınıza ver
 * [Tax settings](https://us-east-1.console.aws.amazon.com/billing/home?region=us-east-1#/tax-settings) alanından `Vergi No (TRN)` ve `Bussines Legal Name (Şirket Ünvanı)` bilgilerinizi girin
   *
 
-      <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+      <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 * [AWS Billing Dashboard](https://us-east-1.console.aws.amazon.com/billing/home) alanında faturanızı görüntüleyebilirsiniz
 
 ## Azure

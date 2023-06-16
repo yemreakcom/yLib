@@ -14,7 +14,7 @@ description: Yazılım dünyasına hoş geldin 🚀
 
 ## 🌊 Diller Arasındaki Bağlantı
 
-![Diller arasındaki bağlantı](<../../.gitbook/assets/image (2).png>)
+![Diller arasındaki bağlantı](<../../.gitbook/assets/image (2) (1).png>)
 
 ### 🆔 Adlandırma Yapısı
 

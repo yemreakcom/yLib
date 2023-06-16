@@ -56,7 +56,7 @@ Bilgisayar üzerindeki klavye, mause ve diğer özelliklerin kullanımı takip e
 {% endtab %}
 
 {% tab title="3" %}
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 {% endtab %}
 
 {% tab title="4" %}
@@ -109,7 +109,7 @@ Tüm pencereleri kaydeden ve loglayan zaman yönetim uygulamasıdır
 
 > Çoğu hizmeti **pro** üyelik gerektirir, 15 günlüğüne **pro** sürümünü sunmaktadır
 
-![ManicTime](<../.gitbook/assets/image (1).png>)
+![ManicTime](<../.gitbook/assets/image (1) (1).png>)
 
 ### ⏱ [ActivityWatch](https://github.com/yedhrab/activitywatch)
 

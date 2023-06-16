@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [🔄 pytest ile asyncio RuntimeError: Event loop is closed sorunu çözümü](yazilarim/pytest-ile-asyncio-runtimeerror-event-loop-is-closed-sorunu-coezuemue.md)
   * [🧪 PyTest ile Testlerinizi Yönetin: Bağımlılıklar ve Sıralama](yazilarim/pytest-ile-testlerinizi-yoenetin-bagimliliklar-ve-siralama.md)
   * [🔐 SSH ve Rsync Kullanımı: .ssh/config Dosyası, Anahtar Oluşturma ve Dosya Aktarımı](yazilarim/ssh-ve-rsync-kullanimi-.ssh-config-dosyasi-anahtar-olusturma-ve-dosya-aktarimi.md)
   * [📜 Amazon AWS ve Azure için Şirketinize veya Vergi Numaranıza Fatura Kesmek](yazilarim/amazon-aws-ve-azure-icin-sirketinize-veya-vergi-numaraniza-fatura-kesmek.md)

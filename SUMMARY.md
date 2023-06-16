@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [🧪 PyTest ile Testlerinizi Yönetin: Bağımlılıklar ve Sıralama](yazilarim/pytest-ile-testlerinizi-yoenetin-bagimliliklar-ve-siralama.md)
   * [🔐 SSH ve Rsync Kullanımı: .ssh/config Dosyası, Anahtar Oluşturma ve Dosya Aktarımı](yazilarim/ssh-ve-rsync-kullanimi-.ssh-config-dosyasi-anahtar-olusturma-ve-dosya-aktarimi.md)
   * [📜 Amazon AWS ve Azure için Şirketinize veya Vergi Numaranıza Fatura Kesmek](yazilarim/amazon-aws-ve-azure-icin-sirketinize-veya-vergi-numaraniza-fatura-kesmek.md)
   * [🐞 Python için ImportError: attempted relative import with no known parent package](yazilarim/python-icin-importerror-attempted-relative-import-with-no-known-parent-package.md)

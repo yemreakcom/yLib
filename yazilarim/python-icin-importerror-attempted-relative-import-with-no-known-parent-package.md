@@ -11,6 +11,6 @@ description: >-
 * Test işlemlerinde gelmesi durumunda da gerekli dizinlerde `__init__.py` dosyası oluşturulur
 * Dosyanın içi boş olabilir
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://python.yemreak.com/yazilar/importerror-attempted-relative-import-with-no-known-parent-package" %}

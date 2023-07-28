@@ -11,6 +11,7 @@ description: >-
 
     * Mac'in klavyesini ve tracpadini kullanıp, harici ekran kullananlar için ideal bir çözüm
     * Öncesinde Mac'in ekranını ayalar kısmından monitörünüzün ekranını yansıtması için ayarlayın
+    * Ek olarak monitorünüz için HDPI özelliği de sunacaktır ki bu da **daha yüksek görüntü kalitesi** demektir
 
     <div align="right">
 

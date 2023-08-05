@@ -7,6 +7,9 @@ description: Yazılım dünyasına hoş geldin 🚀
 ## 🗽 Açıklama
 
 * Programlama için faydalı olan [📕 Programlama Kitapçığı](https://prog.asmaamir.com/)'na buradan erişebilirsin.
+* Burası biraz eski o yüzden alttaki yazıma göz atmayı unutma
+
+{% embed url="https://lib.yemreak.com/yazilarim/yazilima-giris-rehberi#oegrenme-kaynaklari" %}
 
 {% hint style="warning" %}
 👁️ Faydalı Kaynaklara göz atmayı unutma

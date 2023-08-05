@@ -7,8 +7,10 @@ description: >-
 
 # Yazılıma ve Programlamaya Giriş Rehberi
 
-Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermemekteyim ve bilgiler kişisel görüşlerimi içerir.
+## 🔰 Neyden Bahsediyorum
+Yazılıma giriş rehberinde, yazılım dünyasında başarılı olmak için öneriler bulunmaktadır. İngilizce bilmek, Visual Studio Code kullanmak, Google Hacking, Stackoverflow ve Github gibi siteleri kullanmak önerilmektedir. Ayrıca, Python ve ReactJS gibi programlama dilleri önerilmektedir.
 
+- ℹ️ Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermemekteyim ve bilgiler kişisel görüşlerimi içerir.
 - 🌟 Başarılarınız, benim için en iyi teşekkürleden biridir.
 - 🙄 Ayrıca emojilerimin miktarından rahatsız olursa da bana belirtirsen, ben de kendimi geliştirebilirim.
 
@@ -26,20 +28,20 @@ Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermem
 
 # 🌟 Kesinlikle Bilmen Gerekenler
 
-### 🇬🇧 İngilizce
+## 🇬🇧 İngilizce
 
 - 😅 Bundan bahsetmeme bile gerek yok sanırım ama söylemeden olmaz.
 - 💁‍♂️ Yazılım dilleri ingilizcedir, haliyele ingilizce bilmen gerekecektir ama “bilmesen yazamaz mısın? yazarsın.”
 - 🧐 Hatalarını ingilizce aratırsan daha fazla kaynak ile karşılacak ve sorunu çözmen daha olası oalcaktır.
 - 🚀 Ek olarak evrensel bir yazılımcı olursan, yurt içi iş imkanları ile sınırlı da kalmazsın (dolarla maaş diyorum evet 😁).
 
-# 📝 [Visual Studio Code](https://code.visualstudio.com/)
+## 📝 [Visual Studio Code](https://code.visualstudio.com/)
 
 - 🙅‍♂️ Kodlama işlemlerini `notepad` üzerinde yapmak havalı gibi gözükebilir ama zaman kaybıdır.
 - 💁‍♂️ Renklendirme, kodu derleme ve hata önerilerine dahi destek veren eklentileri bulunan bu text düzenleyici öğrenmen sana zaman kazandıracaktır.
 - 🚀 Neredeyse tüm programlama dillerini destekler.
 
-# 🔍 [Google](https://www.google.com/webhp?hl=en%5C&sa=X%5C&ved=0ahUKEwic4NeB0ar5AhWaQ%5C_EDHVEGCL4QPAgI)
+## 🔍 [Google](https://www.google.com/webhp?hl=en%5C&sa=X%5C&ved=0ahUKEwic4NeB0ar5AhWaQ%5C_EDHVEGCL4QPAgI)
 
 - 💁‍♂️ Komik gelebilir hatta “Dalga mı geçiyorsun?” diyebilirsiniz ama doğru.
 - 👆 Google da herhangi bir arama yapmaktan bahsetmiyorum, `Google Hacking` olarak adlandırılan aramalardan bahsediyorum.
@@ -47,14 +49,14 @@ Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermem
 - ⭐️ Örnek olarak; kodlamada bir hata aldın ve özel karakter içeriyor, aldığın hatayı `"` karakterleri arasına yazıp aratman gerekir. (`"herhangi=veya?. içeren hata"`)
 - 🔗 İstersen online kaynaklardan, istersen de direkt [Google Hacking - Kütüphane ~ YEmreAk](https://lib.yemreak.com/google/google-hacking) sayfamdan öğrenebilirsin.
 
-# 📚 [Stackoverflow](https://stackoverflow.com/)
+## 📚 [Stackoverflow](https://stackoverflow.com/)
 
 - 🌟 Yazılım dünyasında en sık kullanılan sitedir.
 - Kodlamada aldığın tüm hataları sorgulayacağınız ve çözümleri bulacağınız site.
 - 🙅‍♂️ Tekerleği yeniden keşfetmey gerek yoktur, buradan diğer insanların çözümlerine erişebilirsiniz.
 - 💁‍♂️ Yazılımın başlarında da bile her aldığınız hatanın çözümünün burada olacağını fark edeceksiniz.
 
-# 👨‍💻 [GitHub](https://github.com/)
+## 👨‍💻 [GitHub](https://github.com/)
 
 - 🌟 Yazılım dünyasında en sık kullanılan bir diğer sitedir.
 - 💁‍♂️ Yazılım dünyasının sosyal medyası bile denebilir.

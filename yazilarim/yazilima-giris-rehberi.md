@@ -5,9 +5,7 @@ description: >-
   kodlamaya yeni başlayanlar
 ---
 
-# Yazılıma ve Programlamaya Giriş Rehberi
-
-## 🔰 Neyden Bahsediyorum
+# 🔰 Neyden Bahsediyorum
 Yazılıma giriş rehberinde, yazılım dünyasında başarılı olmak için öneriler bulunmaktadır. İngilizce bilmek, Visual Studio Code kullanmak, Google Hacking, Stackoverflow ve Github gibi siteleri kullanmak önerilmektedir. Ayrıca, Python ve ReactJS gibi programlama dilleri önerilmektedir.
 
 - ℹ️ Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermemekteyim ve bilgiler kişisel görüşlerimi içerir.

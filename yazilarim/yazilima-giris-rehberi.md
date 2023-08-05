@@ -1,11 +1,11 @@
 ---
 description: >-
-  Yunus Emre Ak'ın (@yemreakcom) un kişisel yazılıma giriş rehberi, yazılıma
+  Yunus Emre Ak'ın (@yemreakcom) un kişisel yazılıma, programlamaya giriş rehberi, yazılıma
   yeni başladım, yazılama yeni başlayanlar için yol, kodlamaya giriş ve
-  kodlamaya yeni başlayanlar için yönlendirme içeriği
+  kodlamaya yeni başlayanlar
 ---
 
-# Yazılıma Giriş Rehberi
+# Yazılıma ve Programlamaya Giriş Rehberi
 
 Rehberi okumadan önce, bilmeni isterim ki deneyimlemediğim alanda bilgi vermemekteyim ve bilgiler kişisel görüşlerimi içerir.
 

@@ -34,5 +34,3 @@ Bir yolculuğu hayal edin. Bir gemide olduğunuzu ve bu gemi, finansal okyanusun
 6. **Girişimcilik ve Yatırım İlişkileri:**
    * Yatırımcı Sunumları ve Pitching
    * Girişim Sermayesi ve Melek Yatırımcılık
-
-Girişimcilere ve muhasebecilere söylemek istediğim şey: Bu yolculukta en önemli şey sürekli öğrenmek ve adapte olmaktır. Hem temel bilgileri sağlamla

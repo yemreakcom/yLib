@@ -1,0 +1,2 @@
+# Matematiksel olmayan modeller
+

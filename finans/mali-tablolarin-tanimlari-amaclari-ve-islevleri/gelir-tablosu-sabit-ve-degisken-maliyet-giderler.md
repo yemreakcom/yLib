@@ -1,3 +1,10 @@
+---
+description: >-
+  Bir dönem içinde ne kadar para kazandığınızı ve harcadığınızı gösterir. Sabit
+  maliyetler her zaman aynı olan giderlerdir. Değişken maliyetler ise duruma
+  göre değişir.
+---
+
 # Gelir Tablosu, Sabit ve Değişken Maliyet/Giderler
 
 #### **Gelir Tablosu, Sabit ve Değişken Maliyet/Giderler**

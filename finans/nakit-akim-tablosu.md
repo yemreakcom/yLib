@@ -1,3 +1,9 @@
+---
+description: >-
+  Bu, bir iş yerinin ne kadar nakit para kazandığını ve ne kadarını harcadığını
+  gösterir.
+---
+
 # Nakit Akım Tablosu
 
 #### **Nakit Akım Tablosu**

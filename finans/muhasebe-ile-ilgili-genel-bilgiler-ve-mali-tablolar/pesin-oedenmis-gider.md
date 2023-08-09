@@ -1,3 +1,9 @@
+---
+description: >-
+  Bir şey almadan önce para verirseniz, bunu peşin ödenmiş gider olarak
+  kaydedersiniz.
+---
+
 # Peşin Ödenmiş Gider
 
 #### Bisiklet Kiralama Hikayesi

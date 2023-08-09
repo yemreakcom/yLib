@@ -1,3 +1,9 @@
+---
+description: >-
+  Belki ileride bir şeyler ters gider diye kenara para koymaktır. Bu paraya
+  "karşılık" denir.
+---
+
 # Ihtiyatlılık İlkesi ve Karşılık Kavramı
 
 #### Yağmur İhtimalleri ve Şemsiye Mağazası

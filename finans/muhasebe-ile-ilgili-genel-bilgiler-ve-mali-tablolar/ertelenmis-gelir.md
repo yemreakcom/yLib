@@ -1,3 +1,9 @@
+---
+description: >-
+  Önceden para alırsınız ama işi henüz yapmadıysanız, bu parayı ertelenmiş gelir
+  olarak not alırsınız.
+---
+
 # Ertelenmiş Gelir
 
 #### Bir Doğum Günü Hediyesi Hikayesi

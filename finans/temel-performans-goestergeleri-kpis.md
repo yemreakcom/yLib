@@ -1,3 +1,7 @@
+---
+description: İş yerinin ne kadar başarılı olduğunu gösteren rakamlardır.
+---
+
 # Temel Performans Göstergeleri (KPI’s)
 
 #### **Temel Performans Göstergeleri (KPI's): EBITDA, ROI, ROE**

@@ -1,3 +1,9 @@
+---
+description: >-
+  Olası bir sorun için kenara koyduğunuz paranın önemi büyüktür. Bu sayede
+  sıkıntılı zamanlarda zor durumda kalmazsınız.
+---
+
 # Karşılık Ayrılması ve Önemi
 
 #### **Bozulan Oyuncak Örneği**

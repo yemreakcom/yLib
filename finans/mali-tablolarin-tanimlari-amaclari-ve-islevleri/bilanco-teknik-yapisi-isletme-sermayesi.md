@@ -1,3 +1,9 @@
+---
+description: >-
+  Bir iş yerinin sahip olduğu şeyler (varlıklar), borçları ve kendi paralarını
+  gösterir.
+---
+
 # Bilanço, teknik yapısı, İşletme Sermayesi
 
 #### **Bilanço: Teknik Yapısı ve İşletme Sermayesi**

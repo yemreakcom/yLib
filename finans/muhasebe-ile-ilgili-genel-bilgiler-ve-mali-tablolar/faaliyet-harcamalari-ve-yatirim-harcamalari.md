@@ -1,3 +1,9 @@
+---
+description: >-
+  Günlük işler için harcadığınız paralar ve büyük alışverişler için harcadığınız
+  paralar.
+---
+
 # Faaliyet Harcamaları ve Yatırım Harcamaları
 
 #### Limonata Standı ve Limon Ağacı

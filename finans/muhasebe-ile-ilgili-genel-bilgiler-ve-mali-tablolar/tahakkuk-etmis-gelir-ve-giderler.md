@@ -1,3 +1,9 @@
+---
+description: >-
+  İşi yaptınız ama para henüz gelmediyse veya bir şey aldınız ama parayı henüz
+  ödemediyseniz, bu not almanız gereken şeylerdir.
+---
+
 # Tahakkuk Etmiş Gelir ve Giderler
 
 #### Limonata Standı Hikayesi

@@ -1,3 +1,9 @@
+---
+description: >-
+  Günlük işler için harcadığınız paralar ve büyük alışverişler için harcadığınız
+  paralar.
+---
+
 # Opex vs Capex
 
 #### **Çikolata Dükkanı Örneği**

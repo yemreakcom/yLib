@@ -1,3 +1,9 @@
+---
+description: >-
+  İş yerinde kazandığınız para gelir, harcadığınız para ise giderdir. Bunları
+  kaydedersiniz.
+---
+
 # Gelir ve Giderlerin Tanınması
 
 #### Gelir ve Giderlerin Tanınması

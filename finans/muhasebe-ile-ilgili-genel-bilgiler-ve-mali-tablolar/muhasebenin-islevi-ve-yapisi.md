@@ -1,3 +1,9 @@
+---
+description: >-
+  Muhasebe, bir cüzdan gibidir. Bir iş yerinin ne kadar para kazandığını ve ne
+  kadar para harcadığını gösterir.
+---
+
 # Muhasebenin İşlevi ve Yapısı
 
 #### Muhasebenin İşlevi ve Yapısı

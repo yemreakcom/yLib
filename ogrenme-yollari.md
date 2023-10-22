@@ -4,7 +4,7 @@ description: >-
   Türkçe olarak öğrenme yolları çalışması
 ---
 
-# 👨‍🏫 Öğrenme Yolları
+# 🧑🏫 🧑🏫 🧑🏫 Öğrenme Yolları
 
 * [👨‍🏫 Öğrenme Yolları](https://learn.yemreak.com/)
 * [👀 Neler Değişti](https://github.com/YEmreAk/YLearn/blob/master/CHANGELOG.md)
@@ -12,7 +12,7 @@ description: >-
 * [🌟 Awesome of awesome](https://github.com/sindresorhus/awesome)
 * [⭐ Benzer Çalışmalar](https://learn.yemreak.com/benzer-calismalar)
 
-## Yönetim <a id="yonetim"></a>
+## Yönetim <a href="#yonetim" id="yonetim"></a>
 
 * [💖 Katkıda Bulunma Rehberi](https://lib.yemreak.com/contributing)
 * [📘 GitBook Kullanımı](https://lib.yemreak.com/proje-yoenetimi/gitbook/gitbook-kullanimi)
@@ -62,4 +62,3 @@ description: >-
 * [🔥 Firebase ve React Projem](https://github.com/yedhrab/YReact-Firebase)
 * [👨‍💻 Kişisel Scriptlerim](https://github.com/YEmreAk/YScripts)
 * [📕 Türkçe Git Kitabı](https://www.yemreak.com/book-git/)
-

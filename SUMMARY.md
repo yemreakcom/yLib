@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [🚫 E-Devlet ile rahatsiz edici SMS’leri engelleme ve sikayet](yazilarim/e-devlet-ile-rahatsiz-edici-smsleri-engelleme-ve-sikayet.md)
   * [💍 Yüzük Alırken Nerelere Dikkat Edilmeli, Yüzük Ölçüsü Nasıl Bulunur](yazilarim/yuezuek-alirken-nerelere-dikkat-edilmeli-yuezuek-oelcuesue-nasil-bulunur.md)
   * [🈷 En Verimli Yazı Formatı ve Psikolojik Etkileri](yazilarim/en-verimli-yazi-formati-ve-psikolojik-etkileri.md)
   * [ℹ aiohttp.ClientSession() içerisideki params, data ve json ne işe yarar](yazilarim/aiohttp.clientsession-icerisideki-params-data-ve-json-ne-ise-yarar.md)

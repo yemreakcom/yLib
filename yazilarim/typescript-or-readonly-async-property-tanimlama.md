@@ -1,4 +1,4 @@
-# TypeScript | Readonly Async Property Tanımlama
+# 🔱 TypeScript | Readonly Async Property Tanımlama
 
 Aşağıda, `readonly` olan ama sonradan asenkron olarak yüklenecek bir özellik nasıl tanımlanabileceğine dair bir TypeScript kodu bulabilirsiniz.
 

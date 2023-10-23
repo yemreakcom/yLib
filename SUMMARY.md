@@ -3,6 +3,7 @@
 * [✨ Hoş Geldiniz](README.md)
 * [👀 Neler değişti](https://github.com/YEmreAk/yLib/commits/main)
 * [📖 Yazılarım](yazilarim/README.md)
+  * [TypeScript | Readonly Async Property Tanımlama](yazilarim/typescript-or-readonly-async-property-tanimlama.md)
   * [🐧 Ubuntu 22.04 icin Nodejs Kurulumu](yazilarim/ubuntu-22.04-icin-nodejs-kurulumu.md)
   * [🚫 E-Devlet ile rahatsiz edici SMS’leri engelleme ve sikayet](yazilarim/e-devlet-ile-rahatsiz-edici-smsleri-engelleme-ve-sikayet.md)
   * [💍 Yüzük Alırken Nerelere Dikkat Edilmeli, Yüzük Ölçüsü Nasıl Bulunur](yazilarim/yuezuek-alirken-nerelere-dikkat-edilmeli-yuezuek-oelcuesue-nasil-bulunur.md)

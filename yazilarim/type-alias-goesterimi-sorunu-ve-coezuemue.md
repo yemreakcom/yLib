@@ -23,7 +23,7 @@ export type PairId = Readonly<`${AssetSymbol}_${AssetSymbol}`>
 ## Sorunu çözmek için **`alias`** isimli ek bir **`type`** daha tanımlıyoruz.
 
 ```typescript
-type alias<t> = t & { _: never }
+type alias<t> = t & { _?: never }
 export type PairId = alias<Readonly<`${AssetSymbol}_${AssetSymbol}`>>
 ```
 

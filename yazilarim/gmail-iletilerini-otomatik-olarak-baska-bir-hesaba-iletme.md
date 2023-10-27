@@ -8,12 +8,12 @@ description: Automatically forward Gmail messages to another account
 
 
 
-    <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 *   `Forwarding and POP/IMAP` alanından `Add a forwarding adress` kısmına tıklayın mail adresini yazın
 
 
 
-    <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 * Mail adresinine gönderilen onay kodunu girdikten sonra artık yeni iletiler size yönlendirilecektir
 *   `Save Changes` deyin ve kaydedin artık yeni iletiler size yönlendirilecektir
 

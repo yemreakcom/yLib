@@ -6,7 +6,7 @@
 * iPhone üzerinden `Ayarlar` `Apple Kimliği` `Bul` alanından `Bul`'u kapatın
 * `Finder` üzerinden iPhone yönetimine girin ve alttaki `Restore` kısmına tıklayın
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## 2️⃣ İkinci Yöntem
 
@@ -17,4 +17,4 @@
   * `Güç` butonuna `Restore` alanı gelene kadar basılı tutun
 * Ardından alttaki butona basarak, cihazınızı sıfırlayabilirsiniz
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
